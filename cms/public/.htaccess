@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ^/voteadmin/   -  [L]
+RewriteRule !\.(js|ico|gif|jpg|png|css|xml|html|swf|txt)$ index.php

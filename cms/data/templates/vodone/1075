@@ -1,0 +1,2197 @@
+a:20:{i:0;s:2664:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no3/css/no3.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/no3/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li a");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+</body>
+</html>
+";i:1;s:2662:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no3/css/no3.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/no3/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+</body>
+</html>
+";i:2;s:2699:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no3/css/no3.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/no3/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+
+<!--#CMS_MODULE(专题footer)#-->
+</body>
+</html>
+";i:3;s:2739:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no3/css/no3.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/no3/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:4;s:2739:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no3/css/no3.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/no3/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:5;s:2695:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<!--#CMS_FUNCTION('cssBox','no3.css',array(
+  'http://pic.v1.cn/cms/new_special/no3/css/no3.css',
+))#-->
+
+<!--#CMS_FUNCTION('jsBox','index.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/new_special/no3/js/globalFun.js',
+  'http://pic.v1.cn/cloudone/news/discuss/init.js',
+  'http://pic.v1.cn/cms/new_special/common/js/jdtqh.js',
+  'http://pic.v1.cn/cms/new_special/common/js/jdtqh.js',
+))#-->
+
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:6;s:2693:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<!--#CMS_FUNCTION('cssBox','no3.css',array(
+  'http://pic.v1.cn/cms/new_special/no3/css/no3.css',
+))#-->
+
+<!--#CMS_FUNCTION('jsBox','no3.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/new_special/no3/js/globalFun.js',
+  'http://pic.v1.cn/cloudone/news/discuss/init.js',
+  'http://pic.v1.cn/cms/new_special/common/js/jdtqh.js',
+  'http://pic.v1.cn/cms/new_special/common/js/jdtqh.js',
+))#-->
+
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:7;s:2635:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<!--#CMS_FUNCTION('cssBox','no3.css',array(
+  'http://pic.v1.cn/cms/new_special/no3/css/no3.css',
+))#-->
+
+<!--#CMS_FUNCTION('jsBox','no3.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/new_special/no3/js/globalFun.js',
+  'http://pic.v1.cn/cloudone/news/discuss/init.js',
+  'http://pic.v1.cn/cms/new_special/common/js/jdtqh.js',
+))#-->
+
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:8;s:2626:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no4/css/no4.css" rel="stylesheet" type="text/css" />
+
+<!--#CMS_FUNCTION('jsBox','no3.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/new_special/no3/js/globalFun.js',
+  'http://pic.v1.cn/cloudone/news/discuss/init.js',
+  'http://pic.v1.cn/cms/new_special/common/js/jdtqh.js',
+))#-->
+
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:9;s:2626:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no3/css/no3.css" rel="stylesheet" type="text/css" />
+
+<!--#CMS_FUNCTION('jsBox','no3.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/new_special/no3/js/globalFun.js',
+  'http://pic.v1.cn/cloudone/news/discuss/init.js',
+  'http://pic.v1.cn/cms/new_special/common/js/jdtqh.js',
+))#-->
+
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:10;s:2666:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no3/css/no3.css" rel="stylesheet" type="text/css" />
+
+<!--#CMS_FUNCTION('jsBox','no3.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cloudone/news/discuss/init.js',
+  'http://pic.v1.cn/cms/new_special/common/js/jdtqh.js',
+))#-->
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/no3/js/globalFun.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:11;s:2786:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/no3/css/no3.css" rel="stylesheet" type="text/css" />
+
+<!--#CMS_FUNCTION('jsBox','no3.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cloudone/news/discuss/init.js',
+  'http://pic.v1.cn/cms/new_special/common/js/jdtqh.js',
+))#-->
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/no3/js/globalFun.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:12;s:4038:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/no3/css/no3.css" rel="stylesheet" type="text/css" />
+
+<!--#CMS_FUNCTION('jsBox','no3.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cloudone/news/discuss/init.js',
+  'http://pic.v1.cn/cms/new_special/common/js/jdtqh.js',
+))#-->
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/no3/js/globalFun.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=2014021816"></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+<!--页面底部导航-->
+<div id="bottombar-wrap-w">
+<div class="close-w"><a>关闭</a></div>
+<div class="wrap-cont-w">
+<div class="cont-minwidth-w">
+    <div class="cont-comment-w"><a href="#">查看<i>0</i>条评论</a></div>
+    <div class="cont-form-w">
+      <div class="form-text-w"><a class="button-w">按钮</a>
+      <input type="text" class="textarea-fw"  value="提示的文字" onfocus="if (value =='提示的文字'){value =''}" onblur="if (value ==''){value='提示的文字'}" name="" />
+      </div>
+    </div>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".close-w").click(function(){
+    $("#bottombar-wrap-w").hide();
+  });
+});
+
+//到指定位置隐藏
+var m_st, m_po = 1010; //滚动到1010像素时显示
+$(window).scroll(function () {
+m_st = Math.max(document.body.scrollTop || document.documentElement.scrollTop);
+if (m_st > m_po) {
+showdiv();
+}
+else
+hidediv();
+})
+
+function showdiv() {
+$('#bottombar-wrap-w').addClass("bottom_bor_display");
+}
+function hidediv() {
+$('#bottombar-wrap-w').removeClass("bottom_bor_display");
+}
+</script>
+
+</body>
+</html>
+";i:13;s:3790:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/no3/css/no3.css" rel="stylesheet" type="text/css" />
+
+<!--#CMS_FUNCTION('jsBox','no3.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cloudone/news/discuss/init.js',
+  'http://pic.v1.cn/cms/new_special/common/js/jdtqh.js',
+))#-->
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/no3/js/globalFun.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=2014021816"></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+<!--页面底部导航-->
+<div id="bottombar-wrap-w">
+<div class="close-w"><a>关闭</a></div>
+<div class="wrap-cont-w">
+<div class="cont-minwidth-w">
+    <div class="cont-comment-w"><a href="#">查看<i>0</i>条评论</a></div>
+    <div class="cont-form-w">
+      <div class="form-text-w"><a class="button-w">按钮</a>
+      <input type="text" class="textarea-fw"  value="提示的文字" onfocus="if (value =='提示的文字'){value =''}" onblur="if (value ==''){value='提示的文字'}" name="" />
+      </div>
+    </div>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".close-w").click(function(){
+    $("#bottombar-wrap-w").hide();
+  });
+});
+
+
+
+function showdiv() {
+$('#bottombar-wrap-w').addClass("bottom_bor_display");
+}
+function hidediv() {
+$('#bottombar-wrap-w').removeClass("bottom_bor_display");
+}
+</script>
+
+</body>
+</html>
+";i:14;s:2894:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/no3/css/no3.css" rel="stylesheet" type="text/css" />
+
+<!--#CMS_FUNCTION('jsBox','no3.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cloudone/news/discuss/init.js',
+  'http://pic.v1.cn/cms/new_special/common/js/jdtqh.js',
+))#-->
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/no3/js/globalFun.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=2014021816"></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:15;s:2841:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/no3/css/no3.css" rel="stylesheet" type="text/css" />
+
+<!--#CMS_FUNCTION('jsBox','no3.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/new_special/common/js/jdtqh.js',
+))#-->
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/no3/js/globalFun.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=2014021816"></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:16;s:2884:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/no3/css/no3.css" rel="stylesheet" type="text/css" />
+
+<!--#CMS_FUNCTION('jsBox','no3.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/new_special/common/js/jdtqh.js',
+))#-->
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/no3/js/globalFun.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=2014021816"></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:17;s:2882:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/no3/css/no3.css" rel="stylesheet" type="text/css" />
+
+<!--#CMS_FUNCTION('jsBox','no3.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/new_special/common/js/jdtqh.js',
+))#-->
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/no3/js/globalFun.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=20140319"></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:18;s:3242:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/no3/css/no3.css" rel="stylesheet" type="text/css" />
+
+<!--#CMS_FUNCTION('jsBox','no3.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/new_special/common/js/jdtqh.js',
+))#-->
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/no3/js/globalFun.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=20140319"></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:19;s:3474:"<!--#
+  $sort=CMS_FUNCTION('toPinyin',$cms_page_category.'Zt');
+  $sort=$sort['pinyin_for_full'];
+#-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/no3/css/no3.css" rel="stylesheet" type="text/css" />
+
+<!--#CMS_FUNCTION('jsBox','no3.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/new_special/common/js/jdtqh.js',
+))#-->
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/no3/js/globalFun.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=20140319"></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+  //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$cms_page_category}Zt', 3]);
+</script>
+
+</head>
+<body>
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+
+<div class="top_img">
+     <div class="video">  
+          <div class="player">
+             <!--#CMS_MODULE(code001)#-->  
+               
+              <!-- 播放器 开始 -->
+
+<script>
+player={};
+player.config={};
+player.getParameter=function(){
+    return this.config;
+}
+player.config.showAD=false;
+</script>
+<!--#CMS_MODULE(视频模块NO4)#-->
+               
+               <script type="text/javascript">
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".player_list").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+
+</script>
+<!-- 播放器 结束 -->
+
+     <!--#CMS_MODULE(code002)#-->
+                
+          </div>
+     </div>
+     
+     <!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="Box">  
+   <div class="Box1_left">
+	<!--#CMS_MODULE(code004)#-->  
+        <!--#CMS_MODULE(NO4模块一)#-->  
+   </div>
+   
+   <div class="Box1_right">
+	 <!--#CMS_MODULE(code005)#-->  
+        <!--#CMS_MODULE(NO4模块二)#-->   
+   <script>
+$(function(){
+$(".tabCon div").first().show().siblings().hide();
+$(".tabTitle li").mouseover(
+function(){
+var ind=$(this).index();
+$(this).addClass("cur").siblings().removeClass("cur");
+$(".tabCon > div").eq(ind).show().siblings().hide();
+}
+);
+})
+</script> 
+  </div>
+
+</div>
+
+<!--#CMS_MODULE(NO4模块三)#--> 
+
+<!--#CMS_MODULE(NO4模块四)#--> 
+
+<!--#CMS_MODULE(评论)#--> 
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";}

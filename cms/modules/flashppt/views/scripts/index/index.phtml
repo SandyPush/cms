@@ -1,0 +1,98 @@
+<?=$this->headLink() ?>
+<?=$this->headScript() ?>
+<div class="area">
+<div class="help"> 
+	<p>帮助</p>
+	<p>1、头图编辑页面;</p>  
+<?=$this->showErrors()?>
+</div>
+
+<div class="nr">
+<form name="form1" action="/flashppt/index/order" method="post">
+<input type="hidden" name="pid" value="<?=$this->pid?>" />
+<input type="hidden" name="oid" value="<?=$this->oid?>" />
+<h2><a href="/flashppt/index/add/oid/<?=$this->oid?>/pid/<?=$this->pid?>" id="add_button">添加头图</a>&nbsp;&nbsp;&nbsp;&nbsp;<!--a href="/page/pages/publish/pid/<?=$this->pid?>" target="_blank">发布本栏目</a--></h2>
+<table width="850" cellspacing="1" class="list">
+	<tr>
+		<th width="26">排序</th>
+		<th>标题</th>
+		<th>链接</th>
+		<th>图片</th>
+		<th>操作</th>
+	</tr>
+<?php foreach ($this->data as $key => $value): ?>
+	<tr>
+		<input type="hidden" name="fpids[]" value="<?=$value['fpid']?>">
+		<td><?=$this->formSelect('level_order',$value['level'], array('onchange'=>"$(this).parent('td').find(':input').val(this.value);"),  array_slice(range(0,101), 1, -1, true)) ?><input type="hidden" name="level[]" value="<?=$value['level']?>"></td>
+		<td><?=$value['title']?></td>
+		<td><?=$value['url']?></td>
+		<td><img id="imgpre" src="<?=$value['image_small']?>" width="50" height="50" /></td>
+		<td>
+			<a href="/flashppt/index/edit/oid/<?=$this->oid?>/pid/<?=$this->pid?>/fpid/<?=$value['fpid']?>">编辑</a>&nbsp;&nbsp;
+			<a href="/flashppt/index/delete/oid/<?=$this->oid?>/pid/<?=$this->pid?>/fpid/<?=$value['fpid']?>"  onclick="if(!confirm('确定删除吗?'))return false;">删除</a>&nbsp;&nbsp;
+			<!--a href="/flashppt/index/push/fpid/<?=$value['fpid']?>/level/<?=$value['level']?>">推送</a></td-->
+	</tr>
+<?php endforeach;  ?>
+</table>
+<input type="submit" value="保存">
+</form>
+</div>
+</div>
+
+<script>
+//refreshList();
+function refreshList()
+{
+	var order_arr = document.getElementsByName('level_order[]');
+	var order_arr_length=order_arr.length;
+	for(i=0; i < order_arr_length; i++)
+	{
+		//alert(order_arr[i]);
+		order_arr[i].options.length=0;
+		order_arr[i].dataSrc=i;
+		for(j=1;j<=order_arr_length; j++)
+		{
+			var order_option=document.createElement('option');
+			order_arr[i].options.add(order_option);
+			order_option.text=j;
+			order_option.value=j;
+			if(i==(j-1))order_option.selected=true;
+		}
+	}
+}
+function changeOrder(obj)
+{
+	return;
+	var order_arr = document.getElementsByName('level_order[]');
+	var order_arr_length=order_arr.length;
+	var divobj=obj.parentNode.parentNode;
+	var topobj=divobj.parentNode;
+	if(obj.value == order_arr_length)
+	{
+		topobj.appendChild(divobj);
+	}else
+	{
+		var insertIndex=obj.value*1+1;
+		if(obj.value <= obj.dataSrc)insertIndex -= 1;
+		topobj.insertBefore(divobj,topobj.childNodes[insertIndex]);
+	}
+	//topobj.appendChild(divobj);
+	refreshList();
+}
+
+function deleteRow(obj)
+{
+	$(obj).parent().parent().remove();
+}
+//推送头图
+function push_page(fpid)
+{
+	var dialog_url="/flashppt/index/push/fpid/"+fpid;
+    var imgurl = window.showModalDialog(dialog_url, "", "dialogHeight:250px; dialogWidth:400px; resizable:0; scroll:0; status:0; unadorned:0;");
+    if(imgurl == undefined) return false;
+    $(obj).parent().prev().prev().find('input').val(imgurl);
+    $(obj).parent().prev().find('a').attr('href',imgurl);
+    $(obj).parent().prev().find('img').attr('src',imgurl);
+}
+
+</script>

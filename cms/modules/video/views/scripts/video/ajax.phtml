@@ -1,0 +1,52 @@
+
+
+<div class="area">
+    <div class="help" style="min-height:10px"> 
+        <form method="get" name="search_form" action="">
+            关键字搜索:
+                <label>
+                    <select name="searchType">
+                        <option value="title" <?if($_GET['searchType']=='title'){?>selected<?}?>>按标题</option>
+                        <option value="filename" <?if($_GET['searchType']=='filename'){?>selected<?}?>>按文件名</option>
+                    </select>
+                </label>
+                <label>
+                    <select name="sid">
+                        <option value="0" <?if($_GET['sid']==0){?>selected<?}?>>所有视频集</option>
+                        <?php $i = 0; foreach ($this->setName as $p): ?>
+                        <option value="<?=$p['sid']?>" <?if($_GET['sid']==$p['sid']){?>selected<?}?>><?=$p['title']?></option>
+                        <?php endforeach; ?>
+                    </select>
+                </label>
+                <label><?=$this->formSelect('cid', $this->param('cid'), '', $this->categories)?></label>
+            <label><input type="text" size="16" value="<?=$_GET['searchKey']?>" name="searchKey" class="input"></label>
+            <input type="submit" value="显示">帮助:搜索支持*标
+        </form>
+	</div>
+
+	<div class="nr">
+    
+    <?php if (!$this->video): ?>
+    <p style="padding: 10px">暂无可用视频</p>
+    <?php else: ?>
+    <form action="" method="post">
+	<div style="min-height: 380px;">
+        <table id="showData" width="100%" cellpadding="4" cellspacing="1">
+    	<?php $i = 0; foreach ($this->video as $p): ?>
+        <tr>
+             <td width="10px"><input type="radio" name="vid" value='<?=$p['contents']?>' /></td>
+             <td width="1px"><?=$p['vid']?></td>
+             <td><a href="<?=$p['videoLink']?>" target="_blank"><?=$this->escape($p['filename'])?></a></td>
+             <td><?=$p['title']?></td>
+             <td><?=$p['isTranscoding']?></td>
+             <td><?=$p['isUse']?></td>
+             <td width="160px"><?=$this->escape($p['uploadtime'])?></td>
+    	</tr>
+        <?php endforeach; ?>
+    	</table>
+    </div>
+    <?=$this->pagebar?>
+    </form>
+    <?php endif; ?>
+	</div>
+</div>

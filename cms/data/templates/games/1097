@@ -1,0 +1,61 @@
+a:3:{i:0;s:1171:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1网页游戏充值中心,V1网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+    <script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<div class="wrap980">
+<!--#CMS_MODULE(RECHARGE_CONTENT)#-->
+</div>
+</body>
+</html>";i:1;s:1147:"<!DOCTYPE html>
+<html>
+<head>
+    <!--#CMS_MODULE(MULTI_TITLE)#-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+    <script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<div class="wrap980">
+<!--#CMS_MODULE(RECHARGE_CONTENT)#-->
+</div>
+</body>
+</html>";i:2;s:1136:"<!DOCTYPE html>
+<html>
+<head>
+    <title>111111</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+    <script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<div class="wrap980">
+<!--#CMS_MODULE(RECHARGE_CONTENT)#-->
+</div>
+</body>
+</html>";}

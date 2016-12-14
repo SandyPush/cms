@@ -1,0 +1,1932 @@
+a:20:{i:0;s:3531:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script type="text/javascript">
+$(function(){
+$('.login_captcha').css('visibility', 'hidden');
+$('#loginButton').click(function () {
+  var uname = $('#username').val();
+  var pwd = $('#password').val();
+  var code = $('#captcha').val();
+  if(uname=='' && pwd=='') 
+  {
+    alert('请输入用户名和密码!');
+    return false;
+  }
+  isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+if(isCookie == 'on')
+{
+	failuretime = 43200*2*31;
+}
+else
+{
+	failuretime = -1;
+}
+  loginObj = {
+    username: uname,
+    password: pwd,
+    captchaCode: code,
+    failtime: failuretime,
+    authid: 'v1002'
+  };
+  helloservice(loginObj, function (callbackJson) {
+    var datas = callbackJson;
+    status = datas.status;
+    message = datas.message;
+    if (status == 1) {
+      alert('用户名、密码输入错误，请重新输入');
+    } 
+    else if (status == 2)
+    {
+      $('.login_captcha').css('visibility', 'visible');
+    } 
+    else
+    {
+      alert('登录成功');
+      window.location.href ="/index.shtml";
+    }
+  });
+});
+
+});
+    </script>
+    
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><img src="http://passport.v1.cn/main/vcodeimage.json" height="41" width="90" alt="验证码" /></label><a class="blue_link" href="">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <!--<a class="qq_login" href="#">QQ登录</a>-->
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:1;s:3930:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script type="text/javascript">
+$(function(){
+$('.login_captcha').css('visibility', 'hidden');
+$('#loginButton').click(function () {
+  var uname = $('#username').val();
+  var pwd = $('#password').val();
+  var code = $('#captcha').val();
+  if(uname=='' && pwd=='') 
+  {
+    alert('请输入用户名和密码!');
+    return false;
+  }
+  isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+if(isCookie == 'on')
+{
+	failuretime = 43200*2*31;
+}
+else
+{
+	failuretime = -1;
+}
+  loginObj = {
+    username: uname,
+    password: pwd,
+    captchaCode: code,
+    failtime: failuretime,
+    authid: 'v1002'
+  };
+  helloservice(loginObj, function (callbackJson) {
+   var datas = callbackJson;
+            var status = datas.status;
+            var msg = datas.message;
+                       
+            if(status == 1)
+            {
+                alert('请输入正确的用户名和密码');
+               
+            }
+            else if(status==2)
+            {
+                $('.login_captcha').css('visibility','visible');
+                alert(msg);
+            }
+            else
+            {
+                ssocookie = datas.data.params;
+                ssocookie=ssocookie.replace(/\//g,'_');
+                $.getJSON(platformInterface+'?mode=jsonp&jsoncallback=?', {'obj': 'user.login','ssocookie':ssocookie}, function (dataStr){
+                    login(dataStr);
+                });
+            }			
+  });
+});
+
+});
+    </script>
+    
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><img src="http://passport.v1.cn/main/vcodeimage.json" height="41" width="90" alt="验证码" /></label><a class="blue_link" href="">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <!--<a class="qq_login" href="#">QQ登录</a>-->
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:2;s:4031:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(function(){
+$('.login_captcha').css('visibility', 'hidden');
+$('#loginButton').click(function () {
+  var uname = $('#username').val();
+  var pwd = $('#password').val();
+  var code = $('#captcha').val();
+  if(uname=='' && pwd=='') 
+  {
+    alert('请输入用户名和密码!');
+    return false;
+  }
+  isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+if(isCookie == 'on')
+{
+	failuretime = 43200*2*31;
+}
+else
+{
+	failuretime = -1;
+}
+  loginObj = {
+    username: uname,
+    password: pwd,
+    captchaCode: code,
+    failtime: failuretime,
+    authid: 'v1002'
+  };
+  helloservice(loginObj, function (callbackJson) {
+   var datas = callbackJson;
+            var status = datas.status;
+            var msg = datas.message;
+                       
+            if(status == 1)
+            {
+                alert('请输入正确的用户名和密码');
+               
+            }
+            else if(status==2)
+            {
+                $('.login_captcha').css('visibility','visible');
+                alert(msg);
+            }
+            else
+            {
+                ssocookie = datas.data.params;
+                ssocookie=ssocookie.replace(/\//g,'_');
+                $.getJSON(platformInterface+'?mode=jsonp&jsoncallback=?', {'obj': 'user.login','ssocookie':ssocookie}, function (dataStr){
+                    login(dataStr);
+                });
+            }			
+  });
+});
+
+});
+    </script>
+    
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><img src="http://passport.v1.cn/main/vcodeimage.json" height="41" width="90" alt="验证码" /></label><a class="blue_link" href="">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <!--<a class="qq_login" href="#">QQ登录</a>-->
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:3;s:4041:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(function(){
+$('.login_captcha').css('visibility', 'hidden');
+$('#loginButton').click(function () {
+  var uname = $('#username').val();
+  var pwd = $('#password').val();
+  var code = $('#captcha').val();
+  if(uname=='' && pwd=='') 
+  {
+    alert('请输入用户名和密码!');
+    return false;
+  }
+  isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+if(isCookie == 'on')
+{
+	failuretime = 43200*2*31;
+}
+else
+{
+	failuretime = -1;
+}
+  loginObj = {
+    username: uname,
+    password: pwd,
+    captchaCode: code,
+    failtime: failuretime,
+    authid: 'v1002'
+  };
+  helloservice(loginObj, function (callbackJson) {
+   var datas = callbackJson;
+            var status = datas.status;
+            var msg = datas.message;
+                       
+            if(status == 1)
+            {
+                alert('请输入正确的用户名和密码');
+               
+            }
+            else if(status==2)
+            {
+                $('.login_captcha').css('visibility','visible');
+                alert(msg);
+            }
+            else
+            {
+                ssocookie = datas.data.params;
+                ssocookie=ssocookie.replace(/\//g,'_');
+                $.getJSON(platformInterface+'?mode=jsonp&jsoncallback=?', {'obj': 'user.login','ssocookie':ssocookie}, function (dataStr){
+                    alert('登录成功！');
+                });
+            }			
+  });
+});
+
+});
+    </script>
+    
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><img src="http://passport.v1.cn/main/vcodeimage.json" height="41" width="90" alt="验证码" /></label><a class="blue_link" href="">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <!--<a class="qq_login" href="#">QQ登录</a>-->
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:4;s:4102:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(function(){
+$('.login_captcha').css('visibility', 'hidden');
+$('#loginButton').click(function () {
+  var uname = $('#username').val();
+  var pwd = $('#password').val();
+  var code = $('#captcha').val();
+  if(uname=='' && pwd=='') 
+  {
+    alert('请输入用户名和密码!');
+    return false;
+  }
+  isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+if(isCookie == 'on')
+{
+	failuretime = 43200*2*31;
+}
+else
+{
+	failuretime = -1;
+}
+  loginObj = {
+    username: uname,
+    password: pwd,
+    captchaCode: code,
+    failtime: failuretime,
+    authid: 'v1002'
+  };
+  helloservice(loginObj, function (callbackJson) {
+   var datas = callbackJson;
+            var status = datas.status;
+            var msg = datas.message;
+                       
+            if(status == 1)
+            {
+                alert('请输入正确的用户名和密码');
+               
+            }
+            else if(status==2)
+            {
+                $('.login_captcha').css('visibility','visible');
+                alert(msg);
+            }
+            else
+            {
+                ssocookie = datas.data.params;
+                ssocookie=ssocookie.replace(/\//g,'_');
+                $.getJSON(platformInterface+'?mode=jsonp&jsoncallback=?', {'obj': 'user.login','ssocookie':ssocookie}, function (dataStr){
+                    alert('登录成功！');
+                    window.location.href = '/index.shtml'; 
+                });
+            }			
+  });
+});
+
+});
+    </script>
+    
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><img src="http://passport.v1.cn/main/vcodeimage.json" height="41" width="90" alt="验证码" /></label><a class="blue_link" href="">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <!--<a class="qq_login" href="#">QQ登录</a>-->
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:5;s:3824:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(function(){
+	$('.login_captcha').css('visibility', 'hidden');
+	$('#loginButton').click(function () {
+	var uname = $('#username').val();
+	var pwd = $('#password').val();
+	var code = $('#captcha').val();
+	if(uname=='' && pwd=='') 
+	{
+	alert('请输入用户名和密码!');
+	return false;
+	}
+	isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+	if(isCookie == 'on')
+	{
+		failuretime = 43200*2*31;
+	}
+	else
+	{
+		failuretime = -1;
+	}
+	loginObj = {
+	username: uname,
+	password: pwd,
+	captchaCode: code,
+	failtime: failuretime,
+	authid: 'v1002'
+	};
+	helloservice(loginObj, function (callbackJson) {
+	var datas = callbackJson;
+			var status = datas.status;
+			var msg = datas.message;
+					   
+			if(status == 1)
+			{
+				alert('请输入正确的用户名和密码');
+			   
+			}
+			else if(status==2)
+			{
+				$('.login_captcha').css('visibility','visible');
+				alert(msg);
+			}
+			else
+			{
+				ssocookie = datas.data.params;
+				ssocookie=ssocookie.replace(/\//g,'_');
+				$.getJSON(platformInterface+'?mode=jsonp&jsoncallback=?', {'obj': 'user.login','ssocookie':ssocookie}, function (dataStr){
+					alert('登录成功！');
+					window.location.href = '/index.shtml'; 
+				});
+			}			
+	});
+});
+</script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><img src="http://passport.v1.cn/main/vcodeimage.json" height="41" width="90" alt="验证码" /></label><a class="blue_link" href="">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <!--<a class="qq_login" href="#">QQ登录</a>-->
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:6;s:3824:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(function(){
+	$('.login_captcha').css('visibility', 'hidden');
+	$('#loginButton').click(function () {
+	var uname = $('#username').val();
+	var pwd = $('#password').val();
+	var code = $('#captcha').val();
+	if(uname=='' && pwd=='') 
+	{
+	alert('请输入用户名和密码!');
+	return false;
+	}
+	isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+	if(isCookie == 'on')
+	{
+		failuretime = 43200*2*31;
+	}
+	else
+	{
+		failuretime = -1;
+	}
+	loginObj = {
+	username: uname,
+	password: pwd,
+	captchaCode: code,
+	failtime: failuretime,
+	authid: 'v1002'
+	};
+	helloservice(loginObj, function (callbackJson) {
+	var datas = callbackJson;
+			var status = datas.status;
+			var msg = datas.message;
+					   
+			if(status == 1)
+			{
+				alert('请输入正确的用户名和密码');
+			   
+			}
+			else if(status==2)
+			{
+				$('.login_captcha').css('visibility','visible');
+				alert(msg);
+			}
+			else
+			{
+				ssocookie = datas.data.params;
+				ssocookie=ssocookie.replace(/\//g,'_');
+				$.getJSON(platformInterface+'?mode=jsonp&jsoncallback=?', {'obj': 'user.login','ssocookie':ssocookie}, function (dataStr){
+					alert('登录成功！');
+					window.location.href = '/index.shtml'; 
+				});
+			}			
+	});
+});
+</script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><img src="http://passport.v1.cn/main/vcodeimage.json" height="41" width="90" alt="验证码" /></label><a class="blue_link" href="">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <!--<a class="qq_login" href="#">QQ登录</a>-->
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:7;s:3829:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(function(){
+	$('.login_captcha').css('visibility', 'hidden');
+	$('#loginButton').click(function () {
+	var uname = $('#username').val();
+	var pwd = $('#password').val();
+	var code = $('#captcha').val();
+	if(uname=='' && pwd=='') 
+	{
+	alert('请输入用户名和密码!');
+	return false;
+	}
+	isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+	if(isCookie == 'on')
+	{
+		failuretime = 43200*2*31;
+	}
+	else
+	{
+		failuretime = -1;
+	}
+	loginObj = {
+	username: uname,
+	password: pwd,
+	captchaCode: code,
+	failtime: failuretime,
+	authid: 'v1002'
+	};
+	helloservice(loginObj, function (callbackJson) {
+	var datas = callbackJson;
+			var status = datas.status;
+			var msg = datas.message;
+					   
+			if(status == 1)
+			{
+				alert('请输入正确的用户名和密码');
+			   
+			}
+			else if(status==2)
+			{
+				$('.login_captcha').css('visibility','visible');
+				alert(msg);
+			}
+			else
+			{
+				ssocookie = datas.data.params;
+				ssocookie=ssocookie.replace(/\//g,'_');
+				$.getJSON(platformInterface+'?mode=jsonp&jsoncallback=?', {'obj': 'user.login','ssocookie':ssocookie}, function (dataStr){
+					alert('登录成功！');
+					window.location.href = '/index.shtml'; 
+				});
+			}			
+	});
+});
+});
+</script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><img src="http://passport.v1.cn/main/vcodeimage.json" height="41" width="90" alt="验证码" /></label><a class="blue_link" href="">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <!--<a class="qq_login" href="#">QQ登录</a>-->
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:8;s:3849:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(function(){
+	$('.login_captcha').css('visibility', 'hidden');
+	$('#loginButton').click(function () {
+	var uname = $('#username').val();
+	var pwd = $('#password').val();
+	var code = $('#captcha').val();
+	if(uname=='' && pwd=='') 
+	{
+	alert('请输入用户名和密码!');
+	return false;
+	}
+	isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+	if(isCookie == 'on')
+	{
+		failuretime = 43200*2*31;
+	}
+	else
+	{
+		failuretime = -1;
+	}
+	loginObj = {
+	username: uname,
+	password: pwd,
+	captchaCode: code,
+	failtime: failuretime,
+	authid: 'v1002'
+	};
+	helloservice(loginObj, function (callbackJson) {
+	var datas = callbackJson;
+			var status = datas.status;
+			var msg = datas.message;
+					   
+			if(status == 1)
+			{
+				alert('请输入正确的用户名和密码');
+			   
+			}
+			else if(status==2)
+			{
+				$('.login_captcha').css('visibility','visible');
+				alert(msg);
+			}
+			else
+			{
+				ssocookie = datas.data.params;
+				ssocookie=ssocookie.replace(/\//g,'_');
+				$.getJSON(platformInterface+'?mode=jsonp&jsoncallback=?', {'obj': 'user.login','ssocookie':ssocookie}, function (dataStr){
+					alert('登录成功！');
+					window.location.href = '/index.shtml'; 
+				});
+			}			
+	});
+});
+});
+</script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><img src="http://passport.v1.cn/main/vcodeimage.json" height="41" width="90" alt="验证码" /></label><a class="blue_link" href="" id="changeCode_reg">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <!--<a class="qq_login" href="#">QQ登录</a>-->
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:9;s:3844:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(function(){
+	$('.login_captcha').css('visibility', 'hidden');
+	$('#loginButton').click(function () {
+	var uname = $('#username').val();
+	var pwd = $('#password').val();
+	var code = $('#captcha').val();
+	if(uname=='' && pwd=='') 
+	{
+	alert('请输入用户名和密码!');
+	return false;
+	}
+	isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+	if(isCookie == 'on')
+	{
+		failuretime = 43200*2*31;
+	}
+	else
+	{
+		failuretime = -1;
+	}
+	loginObj = {
+	username: uname,
+	password: pwd,
+	captchaCode: code,
+	failtime: failuretime,
+	authid: 'v1002'
+	};
+	helloservice(loginObj, function (callbackJson) {
+	var datas = callbackJson;
+			var status = datas.status;
+			var msg = datas.message;
+					   
+			if(status == 1)
+			{
+				alert('请输入正确的用户名和密码');
+			   
+			}
+			else if(status==2)
+			{
+				$('.login_captcha').css('visibility','visible');
+				alert(msg);
+			}
+			else
+			{
+				ssocookie = datas.data.params;
+				ssocookie=ssocookie.replace(/\//g,'_');
+				$.getJSON(platformInterface+'?mode=jsonp&jsoncallback=?', {'obj': 'user.login','ssocookie':ssocookie}, function (dataStr){
+					alert('登录成功！');
+					window.location.href = '/index.shtml'; 
+				});
+			}			
+	});
+});
+});
+</script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><img src="http://pass.g.v1.cn/main/showvcode.do" height="41" width="90" alt="验证码" /></label><a class="blue_link" href="" id="changeCode_reg">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <!--<a class="qq_login" href="#">QQ登录</a>-->
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:10;s:3891:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(function(){
+	$('.login_captcha').css('visibility', 'hidden');
+	$('#loginButton').click(function () {
+	var uname = $('#username').val();
+	var pwd = $('#password').val();
+	var code = $('#captcha').val();
+	if(uname=='' && pwd=='') 
+	{
+	alert('请输入用户名和密码!');
+	return false;
+	}
+	isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+	if(isCookie == 'on')
+	{
+		failuretime = 43200*2*31;
+	}
+	else
+	{
+		failuretime = -1;
+	}
+	loginObj = {
+	username: uname,
+	password: pwd,
+	captchaCode: code,
+	failtime: failuretime,
+	authid: 'v1002'
+	};
+	helloservice(loginObj, function (callbackJson) {
+	var datas = callbackJson;
+			var status = datas.status;
+			var msg = datas.message;
+					   
+			if(status == 1)
+			{
+				alert('请输入正确的用户名和密码');
+			   
+			}
+			else if(status==2)
+			{
+				$('.login_captcha').css('visibility','visible');
+				alert(msg);
+			}
+			else
+			{
+				ssocookie = datas.data.params;
+				ssocookie=ssocookie.replace(/\//g,'_');
+				$.getJSON(platformInterface+'?mode=jsonp&jsoncallback=?', {'obj': 'user.login','ssocookie':ssocookie}, function (dataStr){
+					alert('登录成功！');
+					window.location.href = '/index.shtml'; 
+				});
+			}			
+	});
+});
+});
+</script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:90px;height:41px;"></iframe></label><a class="blue_link" href="" id="changeCode_reg">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <!--<a class="qq_login" href="#">QQ登录</a>-->
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:11;s:3896:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(function(){
+	$('.login_captcha').css('visibility', 'hidden');
+	$('#loginButton').click(function () {
+	var uname = $('#username').val();
+	var pwd = $('#password').val();
+	var code = $('#captcha').val();
+	if(uname=='' && pwd=='') 
+	{
+	alert('请输入用户名和密码!');
+	return false;
+	}
+	isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+	if(isCookie == 'on')
+	{
+		failuretime = 43200*2*31;
+	}
+	else
+	{
+		failuretime = -1;
+	}
+	loginObj = {
+	username: uname,
+	password: pwd,
+	captchaCode: code,
+	failtime: failuretime,
+	authid: 'v1002'
+	};
+	helloservice(loginObj, function (callbackJson) {
+	var datas = callbackJson;
+			var status = datas.status;
+			var msg = datas.message;
+					   
+			if(status == 1)
+			{
+				alert('请输入正确的用户名和密码');
+			   
+			}
+			else if(status==2)
+			{
+				$('.login_captcha').css('visibility','visible');
+				alert(msg);
+			}
+			else
+			{
+				ssocookie = datas.data.params;
+				ssocookie=ssocookie.replace(/\//g,'_');
+				$.getJSON(platformInterface+'?mode=jsonp&jsoncallback=?', {'obj': 'user.login','ssocookie':ssocookie}, function (dataStr){
+					alert('登录成功！');
+					window.location.href = '/index.shtml'; 
+				});
+			}			
+	});
+});
+});
+</script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:90px;height:41px;"></iframe></label><a class="blue_link" href="#none" id="changeCode_reg">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <!--<a class="qq_login" href="#">QQ登录</a>-->
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:12;s:4073:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(function(){
+	$('.login_captcha').css('visibility', 'hidden');
+        $("#changeCode_reg").click(function(){
+        $(".regist_code").attr("src","http://pass.g.v1.cn/main/showvcode.do?r="+Math.round(Math.random()*100000));
+        });
+	$('#loginButton').click(function () {
+	var uname = $('#username').val();
+	var pwd = $('#password').val();
+	var code = $('#captcha').val();
+	if(uname=='' && pwd=='') 
+	{
+	alert('请输入用户名和密码!');
+	return false;
+	}
+	isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+	if(isCookie == 'on')
+	{
+		failuretime = 43200*2*31;
+	}
+	else
+	{
+		failuretime = -1;
+	}
+	loginObj = {
+	username: uname,
+	password: pwd,
+	captchaCode: code,
+	failtime: failuretime,
+	authid: 'v1002'
+	};
+	helloservice(loginObj, function (callbackJson) {
+	var datas = callbackJson;
+			var status = datas.status;
+			var msg = datas.message;
+					   
+			if(status == 1)
+			{
+				alert('请输入正确的用户名和密码');
+			   
+			}
+			else if(status==2)
+			{
+				$('.login_captcha').css('visibility','visible');
+				alert(msg);
+			}
+			else
+			{
+				ssocookie = datas.data.params;
+				ssocookie=ssocookie.replace(/\//g,'_');
+				$.getJSON(platformInterface+'?mode=jsonp&jsoncallback=?', {'obj': 'user.login','ssocookie':ssocookie}, function (dataStr){
+					alert('登录成功！');
+					window.location.href = '/index.shtml'; 
+				});
+			}			
+	});
+});
+});
+</script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:90px;height:41px;"></iframe></label><a class="blue_link" href="#none" id="changeCode_reg">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <!--<a class="qq_login" href="#">QQ登录</a>-->
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:13;s:4149:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(function(){
+	$('.login_captcha').css('visibility', 'hidden');
+        $("#changeCode_reg").click(function(){
+        $(".regist_code").attr("src","http://pass.g.v1.cn/main/showvcode.do?r="+Math.round(Math.random()*100000));
+        });
+	$('#loginButton').click(function () {
+	var uname = $('#username').val();
+	var pwd = $('#password').val();
+	var code = $('#captcha').val();
+	if(uname=='' && pwd=='') 
+	{
+	alert('请输入用户名和密码!');
+	return false;
+	}
+	isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+	if(isCookie == 'on')
+	{
+		failuretime = 43200*2*31;
+	}
+	else
+	{
+		failuretime = -1;
+	}
+	loginObj = {
+	username: uname,
+	password: pwd,
+	captchaCode: code,
+	failtime: failuretime,
+	authid: 'v1002'
+	};
+	helloservice(loginObj, function (callbackJson) {
+	var datas = callbackJson;
+			var status = datas.status;
+			var msg = datas.message;
+					   
+			if(status == 1)
+			{
+				alert('请输入正确的用户名和密码');
+			   
+			}
+			else if(status==2)
+			{
+				$('.login_captcha').css('visibility','visible');
+				alert(msg);
+			}
+			else
+			{
+				ssocookie = datas.data.params;
+				ssocookie=ssocookie.replace(/\//g,'_');
+				$.getJSON(platformInterface+'?mode=jsonp&jsoncallback=?', {'obj': 'user.login','ssocookie':ssocookie}, function (dataStr){
+					alert('登录成功！');
+					window.location.href = '/index.shtml'; 
+				});
+			}			
+	});
+});
+});
+</script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:90px;height:41px;"></iframe></label><a class="blue_link" href="#none" id="changeCode_reg">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <!--<a class="qq_login" href="#">QQ登录</a>-->
+                    <!--<a class="sina_login" href="#">微博登录</a>-->
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:14;s:4179:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(function(){
+	$('.login_captcha').css('visibility', 'hidden');
+        $("#changeCode_reg").click(function(){
+        $(".regist_code").attr("src","http://pass.g.v1.cn/main/showvcode.do?r="+Math.round(Math.random()*100000));
+        });
+	$('#loginButton').click(function () {
+	var uname = $('#username').val();
+	var pwd = $('#password').val();
+	var code = $('#captcha').val();
+	if(uname=='' && pwd=='') 
+	{
+	alert('请输入用户名和密码!');
+	return false;
+	}
+	isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+	if(isCookie == 'on')
+	{
+		failuretime = 43200*2*31;
+	}
+	else
+	{
+		failuretime = -1;
+	}
+	loginObj = {
+	username: uname,
+	password: pwd,
+	captchaCode: code,
+	failtime: failuretime,
+	authid: 'v1002'
+	};
+	helloservice(loginObj, function (callbackJson) {
+	var datas = callbackJson;
+			var status = datas.status;
+			var msg = datas.message;
+					   
+			if(status == 1)
+			{
+				alert('请输入正确的用户名和密码');
+			   
+			}
+			else if(status==2)
+			{
+				$('.login_captcha').css('visibility','visible');
+				alert(msg);
+			}
+			else
+			{
+				ssocookie = datas.data.params;
+				ssocookie=ssocookie.replace(/\//g,'_');
+				$.getJSON(platformInterface+'?mode=jsonp&jsoncallback=?', {'obj': 'user.login','ssocookie':ssocookie}, function (dataStr){
+					alert('登录成功！');
+					window.location.href = '/index.shtml'; 
+				});
+			}			
+	});
+});
+});
+</script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:90px;height:41px;"></iframe></label><a class="blue_link" href="#none" id="changeCode_reg">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <a class="qq_login" href="#" style="display:none;">QQ登录</a>
+                    <a class="sina_login" href="#" style="display:none;">微博登录</a>
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:15;s:4388:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(function(){
+        $('#qqLogin').click(function(){
+	   oauthqq();
+        });
+
+        //新浪微博登录
+        $('#sinaLogin').click(function(){
+	    oauthsinawb();
+        });
+
+	$('.login_captcha').css('visibility', 'hidden');
+        $("#changeCode_reg").click(function(){
+        $(".regist_code").attr("src","http://pass.g.v1.cn/main/showvcode.do?r="+Math.round(Math.random()*100000));
+        });
+	$('#loginButton').click(function () {
+	var uname = $('#username').val();
+	var pwd = $('#password').val();
+	var code = $('#captcha').val();
+	if(uname=='' && pwd=='') 
+	{
+	alert('请输入用户名和密码!');
+	return false;
+	}
+	isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+	if(isCookie == 'on')
+	{
+		failuretime = 43200*2*31;
+	}
+	else
+	{
+		failuretime = -1;
+	}
+	loginObj = {
+	username: uname,
+	password: pwd,
+	captchaCode: code,
+	failtime: failuretime,
+	authid: 'v1002'
+	};
+	helloservice(loginObj, function (callbackJson) {
+	var datas = callbackJson;
+			var status = datas.status;
+			var msg = datas.message;
+					   
+			if(status == 1)
+			{
+				alert('请输入正确的用户名和密码');
+			   
+			}
+			else if(status==2)
+			{
+				$('.login_captcha').css('visibility','visible');
+				alert(msg);
+			}
+			else
+			{
+				ssocookie = datas.data.params;
+				ssocookie=ssocookie.replace(/\//g,'_');
+				$.getJSON(platformInterface+'?mode=jsonp&jsoncallback=?', {'obj': 'user.login','ssocookie':ssocookie}, function (dataStr){
+					alert('登录成功！');
+					window.location.href = '/index.shtml'; 
+				});
+			}			
+	});
+});
+});
+</script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:90px;height:41px;"></iframe></label><a class="blue_link" href="#none" id="changeCode_reg">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <a class="qq_login" href="#" style="display:none;" id="qqLogin">QQ登录</a>
+                    <a class="sina_login" href="#" style="display:none;" id="sinaLogin">微博登录</a>
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:16;s:4388:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(function(){
+        $('#qqLogin').click(function(){
+	   oauthqq();
+        });
+
+        //新浪微博登录
+        $('#sinaLogin').click(function(){
+	    oauthsinawb();
+        });
+
+	$('.login_captcha').css('visibility', 'hidden');
+        $("#changeCode_reg").click(function(){
+        $(".regist_code").attr("src","http://pass.g.v1.cn/main/showvcode.do?r="+Math.round(Math.random()*100000));
+        });
+	$('#loginButton').click(function () {
+	var uname = $('#username').val();
+	var pwd = $('#password').val();
+	var code = $('#captcha').val();
+	if(uname=='' && pwd=='') 
+	{
+	alert('请输入用户名和密码!');
+	return false;
+	}
+	isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+	if(isCookie == 'on')
+	{
+		failuretime = 43200*2*31;
+	}
+	else
+	{
+		failuretime = -1;
+	}
+	loginObj = {
+	username: uname,
+	password: pwd,
+	captchaCode: code,
+	failtime: failuretime,
+	authid: 'v1002'
+	};
+	helloservice(loginObj, function (callbackJson) {
+	var datas = callbackJson;
+			var status = datas.status;
+			var msg = datas.message;
+					   
+			if(status == 1)
+			{
+				alert('请输入正确的用户名和密码');
+			   
+			}
+			else if(status==2)
+			{
+				$('.login_captcha').css('visibility','visible');
+				alert(msg);
+			}
+			else
+			{
+				ssocookie = datas.data.params;
+				ssocookie=ssocookie.replace(/\//g,'_');
+				$.getJSON(platformInterface+'?mode=jsonp&jsoncallback=?', {'obj': 'user.login','ssocookie':ssocookie}, function (dataStr){
+					alert('登录成功！');
+					window.location.href = '/index.shtml'; 
+				});
+			}			
+	});
+});
+});
+</script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:90px;height:41px;"></iframe></label><a class="blue_link" href="#none" id="changeCode_reg">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <a class="qq_login" href="#" style="display:none;" id="qqLogin">QQ登录</a>
+                    <a class="sina_login" href="#" style="display:none;" id="sinaLogin">微博登录</a>
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:17;s:4353:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(function(){
+        $('#qqLogin').click(function(){
+	   oauthqq();
+        });
+
+        //新浪微博登录
+        $('#sinaLogin').click(function(){
+	    oauthsinawb();
+        });
+
+	$('.login_captcha').css('visibility', 'hidden');
+        $("#changeCode_reg").click(function(){
+        $(".regist_code").attr("src","http://pass.g.v1.cn/main/showvcode.do?r="+Math.round(Math.random()*100000));
+        });
+	$('#loginButton').click(function () {
+	var uname = $('#username').val();
+	var pwd = $('#password').val();
+	var code = $('#captcha').val();
+	if(uname=='' && pwd=='') 
+	{
+	alert('请输入用户名和密码!');
+	return false;
+	}
+	isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+	if(isCookie == 'on')
+	{
+		failuretime = 43200*2*31;
+	}
+	else
+	{
+		failuretime = -1;
+	}
+	loginObj = {
+	username: uname,
+	password: pwd,
+	captchaCode: code,
+	failtime: failuretime,
+	authid: 'v1002'
+	};
+	helloservice(loginObj, function (callbackJson) {
+	var datas = callbackJson;
+			var status = datas.status;
+			var msg = datas.message;
+					   
+			if(status == 1)
+			{
+				alert(msg);
+			   
+			}
+			else if(status==2)
+			{
+				$('.login_captcha').css('visibility','visible');
+				alert(msg);
+			}
+			else
+			{
+				ssocookie = datas.data.params;
+				ssocookie=ssocookie.replace(/\//g,'_');
+				$.getJSON(platformInterface+'?mode=jsonp&jsoncallback=?', {'obj': 'user.login','ssocookie':ssocookie}, function (dataStr){
+					alert('登录成功！');
+					window.location.href = '/index.shtml'; 
+				});
+			}			
+	});
+});
+});
+</script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:90px;height:41px;"></iframe></label><a class="blue_link" href="#none" id="changeCode_reg">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <a class="qq_login" href="#" style="display:none;" id="qqLogin">QQ登录</a>
+                    <a class="sina_login" href="#" style="display:none;" id="sinaLogin">微博登录</a>
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:18;s:4363:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/game/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/game/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(function(){
+        $('#qqLogin').click(function(){
+	   oauthqq();
+        });
+
+        //新浪微博登录
+        $('#sinaLogin').click(function(){
+	    oauthsinawb();
+        });
+
+	$('.login_captcha').css('visibility', 'hidden');
+        $("#changeCode_reg").click(function(){
+        $(".regist_code").attr("src","http://pass.g.v1.cn/main/showvcode.do?r="+Math.round(Math.random()*100000));
+        });
+	$('#loginButton').click(function () {
+	var uname = $('#username').val();
+	var pwd = $('#password').val();
+	var code = $('#captcha').val();
+	if(uname=='' && pwd=='') 
+	{
+	alert('请输入用户名和密码!');
+	return false;
+	}
+	isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+	if(isCookie == 'on')
+	{
+		failuretime = 43200*2*31;
+	}
+	else
+	{
+		failuretime = -1;
+	}
+	loginObj = {
+	username: uname,
+	password: pwd,
+	captchaCode: code,
+	failtime: failuretime,
+	authid: 'v1002'
+	};
+	helloservice(loginObj, function (callbackJson) {
+	var datas = callbackJson;
+			var status = datas.status;
+			var msg = datas.message;
+					   
+			if(status == 1)
+			{
+				alert(msg);
+			   
+			}
+			else if(status==2)
+			{
+				$('.login_captcha').css('visibility','visible');
+				alert(msg);
+			}
+			else
+			{
+				ssocookie = datas.data.params;
+				ssocookie=ssocookie.replace(/\//g,'_');
+				$.getJSON(platformInterface+'?mode=jsonp&jsoncallback=?', {'obj': 'user.login','ssocookie':ssocookie}, function (dataStr){
+					alert('登录成功！');
+					window.location.href = '/index.shtml'; 
+				});
+			}			
+	});
+});
+});
+</script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:90px;height:41px;"></iframe></label><a class="blue_link" href="#none" id="changeCode_reg">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <a class="qq_login" href="#" style="display:none;" id="qqLogin">QQ登录</a>
+                    <a class="sina_login" href="#" style="display:none;" id="sinaLogin">微博登录</a>
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:19;s:4373:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/game/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v1.0/css/login.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/game/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/game/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(function(){
+        $('#qqLogin').click(function(){
+	   oauthqq();
+        });
+
+        //新浪微博登录
+        $('#sinaLogin').click(function(){
+	    oauthsinawb();
+        });
+
+	$('.login_captcha').css('visibility', 'hidden');
+        $("#changeCode_reg").click(function(){
+        $(".regist_code").attr("src","http://pass.g.v1.cn/main/showvcode.do?r="+Math.round(Math.random()*100000));
+        });
+	$('#loginButton').click(function () {
+	var uname = $('#username').val();
+	var pwd = $('#password').val();
+	var code = $('#captcha').val();
+	if(uname=='' && pwd=='') 
+	{
+	alert('请输入用户名和密码!');
+	return false;
+	}
+	isCookie = typeof ($('#cookieID:checked').val()) == 'undefined' ? 0 : $('#cookieID:checked').val();		
+	if(isCookie == 'on')
+	{
+		failuretime = 43200*2*31;
+	}
+	else
+	{
+		failuretime = -1;
+	}
+	loginObj = {
+	username: uname,
+	password: pwd,
+	captchaCode: code,
+	failtime: failuretime,
+	authid: 'v1002'
+	};
+	helloservice(loginObj, function (callbackJson) {
+	var datas = callbackJson;
+			var status = datas.status;
+			var msg = datas.message;
+					   
+			if(status == 1)
+			{
+				alert(msg);
+			   
+			}
+			else if(status==2)
+			{
+				$('.login_captcha').css('visibility','visible');
+				alert(msg);
+			}
+			else
+			{
+				ssocookie = datas.data.params;
+				ssocookie=ssocookie.replace(/\//g,'_');
+				$.getJSON(platformInterface+'?mode=jsonp&jsoncallback=?', {'obj': 'user.login','ssocookie':ssocookie}, function (dataStr){
+					alert('登录成功！');
+					window.location.href = '/index.shtml'; 
+				});
+			}			
+	});
+});
+});
+</script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="login_main">
+    <div class="login_cont">
+        <form class="login_form" id="loged">
+            <fieldset>
+                <legend class="login_tit">V1游戏账号登陆</legend>
+                <p class="login_username"><label class="label_nm">用户名</label><input id="username" class="ipttxt" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="label_nm">密码</label><input id="password" class="ipttxt" name="password" type="password" /></p>
+                <p class="login_captcha"><label class="label_nm">验证码</label><input class="ipttxt" type="text" id="captcha" /><label class="login_captcha_img"><iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:90px;height:41px;"></iframe></label><a class="blue_link" href="#none" id="changeCode_reg">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID">下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://passport.v1.cn/edit/userinfo/gouserinfo.do" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_l" type="button" value="提交登录"></p>
+                <p class="login_other">
+                    <a class="qq_login" href="#" style="display:none;" id="qqLogin">QQ登录</a>
+                    <a class="sina_login" href="#" style="display:none;" id="sinaLogin">微博登录</a>
+                    <a class="blue_link" href="/register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";}

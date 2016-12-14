@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>浏览文章</title>
+<?=$this->headLink() ?>
+<?=$this->headScript() ?>
+<script src="/fckeditor/editor/plugins/albums/dialog.js" type="text/javascript"></script>
+<link href="/fckeditor/editor/plugins/albums/dialog.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="/scripts/FckEdit.js"></script>
+</head>
+
+<body>
+<div class="area">
+	<div class="nr">
+		<h2><a href="#">浏览文章</a>&nbsp;<a href="/contents/spider/">返回</a></h2>		
+		<div class="con">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" id="adact">
+			  <tr>
+				<td width="70" align="center" valign="middle">标　　题</td>
+				<td><input type="text" class="input" size="60" id="title" name="title" value="<?=$this->result['title'] ?>" /></td>
+			  </tr>
+			    <tr>
+				<td width="70" align="center" valign="middle">短标题</td>
+				<td><input type="text" class="input" size="60" id="subtitle" name="subtitle" value="<?=$this->result['subtitle'] ?>" /></td>
+			  </tr>
+			  <tr>
+				<td width="70" align="center" valign="top">新闻摘要</td>
+				<td><?=$this->result['summary'] ?></td>
+			  </tr>			
+			  <tr>
+				<td width="70" align="center" valign="middle">作　　者</td>
+				<td><input type="text" class="input" size="60" id="author" name="author" value="<?=$this->result['author'] ?>" /></td>
+			  </tr>
+			  <tr>
+				<td width="70" align="center" valign="middle">关键字</td>
+				<td><input type="text" class="input" size="60" id="keywords" name="keywords" value="<?=$this->result['keywords'] ?>" /></td>
+			  </tr>
+			  <tr>
+				<td width="70" align="center" valign="middle">发布时间</td>
+				<td><input type="text" class="input" size="60" id="postdate" name="postdate" value="<?=date('Y-m-d H:i:s',$this->result['pub_date']) ?>" /></td>
+			  </tr>
+			  <tr>
+				<td width="70" align="center" valign="top">内　　容</td>
+				<td><?=$this->result['content'] ?></td>
+			  </tr>
+		  </table>
+		</div>
+	</div>
+</div>
+</body>
+</html>

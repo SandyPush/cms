@@ -1,0 +1,44 @@
+<div class="area">
+<div class="help"> 
+	<p>帮助</p>
+	<p>1、用户组权限设置;</p>  
+<?=$this->showErrors()?>
+</div>
+<div class="nr">
+ 	<h2><?=$this->group->name?>&nbsp;&nbsp;组权限</h2>
+
+<form action="" method="post">
+<table width="100%" cellspacing="1" class="form">
+<tbody>
+<?php foreach ($this->resources as $res => $acts): ?>
+    <tr>
+        <td width="100"><?=$acts['name'] ?></td>
+        <td id="res_<?=$res ?>">
+            <?php unset($acts['name']); foreach ($acts as $act => $name): ?>
+            <label><input type="checkbox" name="res[<?=$res ?>][<?=$act ?>]" value="1" <?=$this->acl->isAllowed($this->role, $res, $act) ? 'checked="checked"' : '' ?>/><?=$name ?></label>&nbsp;
+            <?php endforeach; ?>
+	    <button onclick="checkAll('<?=$res ?>')">全选</button>
+        </td>
+    </tr>
+<?php endforeach;  ?>
+    <tr>
+        <td>&nbsp;</td>
+        <td><button type="submit" name="submit"/>提 交</button>&nbsp;&nbsp;<button type="button" onclick="checkAll()"/>全选</button></td>
+    </tr>   
+</tbody>
+</table>
+</form>
+</div>
+</div>
+<script type="text/javascript">
+function checkAll(res)
+{
+    var chks = typeof res != 'undefined' ? $('#res_' + res + ' :checkbox') : $(':checkbox');
+    var elem = typeof res == 'undefined' ? $(this) : $('#res_' + res);
+    
+    var checked = elem.attr('checked') ? 1 : 0;   
+    chks.attr('checked', !checked);
+    elem.attr('checked', !checked);
+}
+
+</script>

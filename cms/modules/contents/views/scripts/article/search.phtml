@@ -1,0 +1,109 @@
+<?=$this->doctype('XHTML1_TRANSITIONAL')?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/styles/global.css" />
+  </head>
+<body style="text-align: center">
+<form name="search_form" method="post" action="">
+<table width="100%" height="100%" cellpadding="1" cellspacing="0" border="0">
+        <tr bgcolor="gray">
+          <td align="right" nowrap>搜索条件</td>
+          <td align="right" nowrap>[<a href="#" onclick="javascript:to_search();">搜索</a>]</td>
+        </tr>
+        <tr>
+          <td width="100" align="right" nowrap>文章序号：</td>
+          <td align="left" nowrap><input type="text" name="aid" id="aid" value="" onkeypress="checkKeyPress()"></td>
+        </tr>
+        <tr bgcolor="#ECECEC">
+          <td align="right" nowrap><font color="red">%</font>文章标题：</td>
+          <td align="left" nowrap><input type="text" name="title" id="title" value="" onkeypress="checkKeyPress()"></td>
+        </tr>
+        <tr>
+          <td align="right" nowrap><font color="red">%</font>文章短标题：</td>
+          <td align="left" nowrap><input type="text" name="stitle" id="stitle" value="" onkeypress="checkKeyPress()"></td>
+        </tr>
+        <tr bgcolor="#ECECEC">
+          <td align="right" nowrap><font color="red">%</font>作者：</td>
+          <td align="left" nowrap><input type="text" name="author" id="author" value="" onkeypress="checkKeyPress()"></td>
+        </tr>
+        <tr>
+          <td align="right" nowrap>文章来源：</td>
+          <td align="left" nowrap><?php echo $this->formSelect('source_id', 0, array("onkeypress"=>"checkKeyPress()"), $this->publisher_select) ?></td>
+        </tr>
+        <tr bgcolor="#ECECEC">
+          <td align="right" nowrap>主分类：</td>
+          <td align="left" nowrap><?php echo $this->formSelect('cid', 0, array("onkeypress"=>"checkKeyPress()"), $this->category_select) ?></td>
+        </tr>
+        <tr>
+          <td align="right" nowrap>文章权重：</td>
+          <td align="left" nowrap><?php echo $this->formSelect('level', 0, array("onkeypress"=>"checkKeyPress()"), $this->level_select) ?></td>
+        </tr>
+        <tr bgcolor="#ECECEC">
+          <td align="right" nowrap>发布状态：</td>
+          <td align="left" nowrap><?php echo $this->formSelect('status', 1, array("onkeypress"=>"checkKeyPress()"), $this->status_select) ?></td>
+        </tr>
+        <tr>
+          <td align="right" nowrap>时间选择：</td>
+          <td align="left" nowrap>
+			<input type="radio" name="date_type" value="lastdate" onclick="changeDateType(this)" onkeypress="checkKeyPress()" />修改时间
+			<input type="radio" name="date_type" value="postdate" onclick="changeDateType(this)" onkeypress="checkKeyPress()" />发布时间
+			<input type="radio" name="date_type" value="0" onclick="changeDateType(this)" onkeypress="checkKeyPress()" checked />忽略
+		  </td>
+        </tr>
+        <tr bgcolor="#ECECEC">
+          <td align="right" nowrap>超始时间：</td>
+          <td align="left" nowrap>
+        	<?php echo $this->formSelect('begin_year', date("Y"), array("onkeypress"=>"checkKeyPress()"), $this->year_select) ?>年
+        	<?php echo $this->formSelect('begin_month', date("m"), array("onkeypress"=>"checkKeyPress()"), $this->month_select) ?>月
+        	<?php echo $this->formSelect('begin_day', date("d"), array("onkeypress"=>"checkKeyPress()"), $this->day_select) ?>日
+		  </td>
+        </tr>
+        <tr>
+          <td align="right" nowrap>结束时间：</td>
+          <td align="left" nowrap>
+        	<?php echo $this->formSelect('end_year', date("Y"), array("onkeypress"=>"checkKeyPress()"), $this->year_select) ?>年
+        	<?php echo $this->formSelect('end_month', date("m"), array("onkeypress"=>"checkKeyPress()"), $this->month_select) ?>月
+        	<?php echo $this->formSelect('end_day', date("d"), array("onkeypress"=>"checkKeyPress()"), $this->day_select) ?>日
+		  </td>
+        </tr>
+        <tr bgcolor="gray">
+          <td colspan="2" align="left" nowrap>标注<font color="red">%</font>的搜索条件可以进行模糊匹配搜索。</td>
+        </tr>
+</table>
+</form>
+</body>
+</html>
+<script>
+var f=document.forms['search_form'];
+var date_type=0;
+function to_search()
+{
+	var search_str='';
+	!f.elements['aid'].value || (search_str+="aid,=,"+f.elements['aid'].value+"|");
+	!f.elements['title'].value || (search_str+="title,like,"+f.elements['title'].value+"|");
+	!f.elements['stitle'].value || (search_str+="stitle,like,"+f.elements['stitle'].value+"|");
+	!f.elements['author'].value || (search_str+="author,like,"+f.elements['author'].value+"|");
+	f.elements['source_id'].value==0 || (search_str+="source_id,=,"+f.elements['source_id'].value+"|");
+	f.elements['cid'].value==0 || (search_str+="cid,=,"+f.elements['cid'].value+"|");
+	f.elements['level'].value==0 || (search_str+="level,=,"+f.elements['level'].value+"|");
+	!f.elements['status'].value || (search_str+="status,=,"+f.elements['status'].value+"|");
+	if(date_type!=0)
+	{
+		search_str+=date_type+",date_extent,";
+		search_str+=f.elements['begin_year'].value+"-"+f.elements['begin_month'].value+"-"+f.elements['begin_day'].value+",";
+		search_str+=f.elements['end_year'].value+"-"+f.elements['end_month'].value+"-"+f.elements['end_day'].value+"|";
+	}
+	window.returnValue = search_str;
+	window.close();
+}
+function changeDateType(obj)
+{
+	date_type=obj.value;
+}
+function checkKeyPress()
+{
+    if (event.keyCode == 13) to_search();
+}
+
+</script>

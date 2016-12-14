@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CMS_添加文章</title>
+<?=$this->headLink() ?>
+<script type="text/javascript" src="/scripts/jquery/jquery-1.3.2.min.js"></script>
+<link type="text/css" href="/scripts/jquery/css/smoothness/jquery-ui-1.7.2.custom.css" rel="stylesheet" />
+<script type="text/javascript" src="/scripts/jquery/jquery-ui-1.7.2.custom.min.js"></script>
+<script type="text/javascript" src="/scripts/jquery/jquery.bgiframe.js"></script>
+<script type="text/javascript" src="/scripts/FckEdit.js"></script>
+
+</head>
+<body>
+<div class="area">
+	<div class="nr">
+		<h2><a href="#">添加内容</a></h2>
+		<div class="con">
+			<form name="add_form" action="/contents/article/create/" method="post" onsubmit="return(checkForm());">
+			<input type="hidden" id="content_length" name="content_length" value="">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" id="adact">
+            <tr>
+            	<td width="70" align="center" valign="middle">频　　道</td>
+                <td>
+				<?=$this->formSelect('channel', $this->channel, array('onchange'=>'setChannel(this.value)'), array(''=>'------选择频道------')+ (array)$this->channels)?>
+				<span>分类</span>
+				<span  id="category_options">
+				<?=$this->formSelect('cid', $this->cid, array('onchange'=>'showPosition(this)'), $this->category_options)?>
+				</span>
+				<a href="#nogo" class="reco" id="show_push_category">显示推送分类</a>
+                </td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td id="push_category_file_contents">
+					<?=$this->push_category_file_contents?>
+                </td>
+            </tr>
+            <tr>
+            	<td align="center" valign="middle">位置分类</td>
+                <td id="positions"></td>
+            </tr>
+			  <tr>
+				<td width="70" align="center" valign="middle">标　　题</td>
+				<td><input type="text" class="input" size="60" id="title" name="title" value="<?=$this->title?>" onkeyup="checkLenth(this,'title_length_view','title_length',45)"/>
+				<span id="title_length_view">文字最大字节数：45，<span id="title_length"></span></span></td>
+			  </tr>
+			  <tr>
+				<td width="70" align="center" valign="middle">短 标 题</td>
+				<td><input type="text" class="input" size="40" id="short_title" name="short_title" value="" onkeyup="checkLenth(this,'short_title_length_view','short_title_length',32)"/>
+				<span id="short_title_length_view">文字最大字节数：32，<span id="short_title_length"></span></span></td>
+			  </tr>
+			  <tr>
+				<td width="70" align="center" valign="middle">显示推荐</td>
+				<td><input type="checkbox" name="is_ad" class="input" value="1" disabled="true"/><span style="color:blue"> 自动在发布后的新闻中插入频道推荐内容</span>&nbsp;
+				<input type="checkbox" name="is_titan" class="input" value="1" /><span style="color:green"> 体坛网独家稿件,谢绝任何形式转载</span>&nbsp;<input type="checkbox" name="imageToLocal" class="input" value="1" > <span style="color:red"> 外网图片本地化</span></td>   
+			  </tr>
+			   <tr>
+				<td width="70" align="center" valign="middle">插入图集</td>
+				<td>
+				<input type="text" class="input" size="10" id="albumid" name="albumid" value="<?=$this->albumid?>" />
+				<span style="color:red"> 填写图集ID即可, 效果演示<a href="http://soccer.titan24.com/2010/2010-05-26/71891.html" target="blank">点击这里</a>, 进入图片频道<a href="http://pic.titan24.com" target="blank">点击这里</a>.</span></td>   
+			  </tr>
+			  <tr>
+				<td width="70" align="center" valign="top">内　　容</td>
+				<td>				  
+				<textarea style="display:none" id="content" name="contents"><?=$this->contents?></textarea>
+				<input type="hidden" id="content___Config" value="">   
+				<iframe id="content___Frame" src="/fckeditor/editor/fckeditor.html?InstanceName=contents&Toolbar=Default" width="800" height="460" frameborder="no"></iframe>
+				</td>
+			  </tr>
+			  <tr>
+				<td width="70" align="center" valign="top">内容摘要</td>
+				<td valign="bottom">
+                <textarea id="intro" name="intro" cols="75" rows="5"  onkeyup="checkLenth(this,'intro_length_view','intro_length',160)"></textarea>
+				<span id="intro_length_view">文字最大字节数：160，<span id="intro_length"></span></span></td>
+			  </tr>
+			  <tr>
+				<td width="70" align="center" valign="middle">来　　源</td>
+				<td><input type="text" name="publisher" size="10" value="新闻网">
+					<span id="publisher_content"><?php echo $this->formSelect('publisher_id', $this->publisher, array('onchange'=>'this.form.publisher.value=this.options[this.selectedIndex].innerText'), $this->publisher_select) ?></span>
+					作者<input name="author" type="text" class="input" value="周豹" />
+					<input type="checkbox" name="article_type" value="1" />约稿
+                    权重：<?php echo $this->formSelect('level', 3, NULL, $this->level_select) ?>
+				</td>
+			  </tr>
+			  <tr>
+				<td width="70" align="center" valign="middle">关 键 字</td>
+				<td><input name="tags" type="text" size="40" class="input" value="<?=$this->tags?>" /><span class="info">多关键字可用空格区分一次添加</span></td>
+			  </tr>
+			  <tr>
+				<td width="70" align="center" valign="middle">相关图片</td>
+				<td><input name="image" type="text" size="60" class="input" /> <a href="#" onclick="upload(this)">上传</a><br/><div id=img_preview></div></td>
+			  </tr>              
+				<tr>
+					<td width="70" align="center" valign="middle">模　　板</td>
+				    <td id="template_content"><?=$this->formSelect('template', null, null, $this->templates)?></td>
+				</tr>
+			  <tr>
+				<td width="70" align="center" valign="middle">新闻链接</td>
+				<td>
+					<input type="text" name="url" id="url" size="60" class="input" value="" />
+					<input type="checkbox" name="islink" id="islink" value="1" onclick="changeLink(this)">是否外链
+				</td>
+			  </tr>
+			  <tr>
+				<td width="70" align="center" valign="middle">发布时间</td>
+				<td>
+        			<?php echo $this->formSelect('status', 2, NULL, $this->status_select) ?>
+		        	<?php echo $this->formSelect('post_year', date("Y",$this->postdate), NULL, $this->year_select) ?>年
+		        	<?php echo $this->formSelect('post_month', date("m",$this->postdate), NULL, $this->month_select) ?>月
+		        	<?php echo $this->formSelect('post_day', date("d",$this->postdate), NULL, $this->day_select) ?>日
+					<input type="text" class="input" size="4" name="hour"  value="<?=date('H',$this->postdate)?>" />时
+					<input type="text" class="input" size="4" name="minute" value="<?=date('i',$this->postdate)?>" />分
+					<input type="text" class="input" size="4" name="second" value="<?=date('s',$this->postdate)?>" />秒
+				</td>
+			  </tr>
+			  <tr>
+				<td width="70" align="center" valign="middle"><a href="#here" onclick="to_choose()">相关文章</a></td>
+				<td><div id="related_article"></div></td>
+			  </tr>
+			  <tr>
+				<td colspan="2" align="center" valign="middle">
+					<input type="submit" name="submit" value="发布内容" />					
+				</td>
+			  </tr>
+		  </table>
+	      </form>
+		</div>
+	</div>
+</div>
+<div style="display:none">
+<div id="dialog" title="插入组图" style="padding:0;">
+	<iframe id="dialogFrame" src="/fckeditor/editor/plugins/albums/form.html" frameborder="0" style="width:100%;height:99.5%"></iframe>
+</div>
+</div>
+<div id="worldcupPositions" style="display:none">
+&nbsp;<input name="push_cid[]" value="110" type="checkbox">法国　
+&nbsp;<input name="push_cid[]" value="83" type="checkbox">阿根廷
+&nbsp;<input name="push_cid[]" value="84" type="checkbox">英格兰
+&nbsp;<input name="push_cid[]" value="80" type="checkbox">德国　
+&nbsp;<input name="push_cid[]" value="86" type="checkbox">荷兰　
+&nbsp;<input name="push_cid[]" value="85" type="checkbox">意大利
+&nbsp;<input name="push_cid[]" value="82" type="checkbox">巴西　
+&nbsp;<input name="push_cid[]" value="81" type="checkbox">西班牙
+&nbsp;<input name="push_cid[]" value="79" type="checkbox">前线
+<br/>
+
+
+&nbsp;<input name="push_cid[]" value="111" type="checkbox">墨西哥
+&nbsp;<input name="push_cid[]" value="112" type="checkbox">尼日利
+&nbsp;<input name="push_cid[]" value="113" type="checkbox">美国　
+&nbsp;<input name="push_cid[]" value="114" type="checkbox">澳大利
+&nbsp;<input name="push_cid[]" value="115" type="checkbox">丹麦　
+&nbsp;<input name="push_cid[]" value="116" type="checkbox">巴拉圭
+&nbsp;<input name="push_cid[]" value="117" type="checkbox">朝鲜　
+&nbsp;<input name="push_cid[]" value="118" type="checkbox">瑞士　
+&nbsp;<input name="push_cid[]" value="134" type="checkbox">名家
+<br/>
+
+&nbsp;<input name="push_cid[]" value="119" type="checkbox">乌拉圭
+&nbsp;<input name="push_cid[]" value="120" type="checkbox">韩国　
+&nbsp;<input name="push_cid[]" value="121" type="checkbox">阿尔及
+&nbsp;<input name="push_cid[]" value="122" type="checkbox">塞尔维
+&nbsp;<input name="push_cid[]" value="123" type="checkbox">日本　
+&nbsp;<input name="push_cid[]" value="124" type="checkbox">新西兰
+&nbsp;<input name="push_cid[]" value="125" type="checkbox">科特迪
+&nbsp;<input name="push_cid[]" value="126" type="checkbox">洪都拉
+&nbsp;<input name="push_cid[]" value="36" type="checkbox">其他
+<br/>
+&nbsp;<input name="push_cid[]" value="87" type="checkbox">南非　
+&nbsp;<input name="push_cid[]" value="127" type="checkbox">希腊　
+&nbsp;<input name="push_cid[]" value="128" type="checkbox">斯洛文
+&nbsp;<input name="push_cid[]" value="129" type="checkbox">加纳　
+&nbsp;<input name="push_cid[]" value="130" type="checkbox">喀麦隆
+&nbsp;<input name="push_cid[]" value="131" type="checkbox">斯洛伐
+&nbsp;<input name="push_cid[]" value="132" type="checkbox">葡萄牙
+&nbsp;<input name="push_cid[]" value="133" type="checkbox">智利　
+&nbsp;<input name="push_cid[]" value="37" type="checkbox">图文
+</div>
+</body>
+</html>
+<script>
+function set_push_category_file_contents(){
+	//显示位置分类
+	showPosition($('#cid')[0]);
+	$('#show_push_category').toggle(function()
+	{
+		$('#push_category_list').slideDown();
+		$('#category_0').slideDown();
+	},function()
+	{
+		$('#push_category_list').slideUp();
+	});
+	$('#push_category_list img').click(function()
+	{
+		if($('#'+$(this).attr('dataSrc')).length < 1)return false;
+		if($('#'+$(this).attr('dataSrc'))[0].style.display == 'none')
+		{
+			$('#'+$(this).attr('dataSrc')).slideDown();
+			$(this).attr('src','/theme/default/image/nolines_minus.gif');
+		}else
+		{
+			$('#'+$(this).attr('dataSrc')).slideUp();
+			$(this).attr('src','/theme/default/image/nolines_plus.gif');
+			$('#'+$(this).attr('dataSrc')+' img').each(function (i){
+				$('#'+this.dataSrc).slideUp()
+				if($('#'+$(this).attr('dataSrc')).length >0)$(this).attr('src','/theme/default/image/nolines_plus.gif');
+			});
+		}
+	});
+}
+function upload(obj)
+{
+	var dialog_url="/resource/index/index/type/0/name//cid/"+$("#cid").val();
+    var imgurl = window.showModalDialog(dialog_url, "", "dialogHeight:265px; dialogWidth:400px; resizable:0; scroll:0; status:0; unadorned:0;");
+    if(imgurl == undefined) return false;
+    $(obj).prev().val(imgurl);
+    if(imgurl)$('#img_preview').html('<img src="'+imgurl+'"/>');
+}
+$(document).ready(set_push_category_file_contents);
+//计算指定对象value的长度
+checkLenth(document.getElementsByName('title')[0],'title_length_view','title_length',45);
+checkLenth(document.getElementsByName('short_title')[0],'short_title_length_view','short_title_length',32);
+checkLenth(document.getElementsByName('intro')[0],'intro_length_view','intro_length',160);
+function checkLenth(obj,view_id,length_id,max_length)
+{
+	var strlength=count_length(obj.value);
+	if(strlength <= max_length)
+	{
+		$('#'+view_id).removeClass().addClass('info');
+		$('#'+length_id).text('还剩'+(max_length-strlength)+'字节');
+	}else
+	{
+		$('#'+view_id).removeClass().addClass('info').addClass('war');
+		$('#'+length_id).text('超出'+(strlength-max_length)+'字节');
+	}
+}
+function count_length(objValue)
+{
+	return objValue.replace(/[^\x00-\xff]/g,"**").length;
+}
+//选择相关产品
+function to_choose()
+{
+    var choose_json = window.showModalDialog("/contents/article/choose/", "", "dialogHeight:600px; dialogWidth:750px; resizable:1; scroll:1; status:0; unadorned:0;");
+    if(choose_json == undefined) return false;
+    choose_json=eval(choose_json);
+	list_related_news(choose_json);
+}
+function list_related_news(choose_json)
+{
+    for(i in choose_json)
+    {
+    	$('#related_article').html($('#related_article').html() + '<div><a href="#here" onclick="removeRelate(this)">删除</a>&nbsp;&nbsp;<input type="text" name="related_news_id[]" size="5" value="'+choose_json[i].id+'" readonly/>&nbsp;&nbsp;<input type="text" size="80" value="'+choose_json[i].title+'" readonly/></div>');
+    }
+}
+function removeRelate(obj)
+{
+	$(obj).parent().remove();
+}
+function changeLink(obj)
+{
+	if(obj.checked)
+	{
+		$('#url').attr('disabled',false);
+	}else
+	{
+		$('#url').attr('disabled',true);
+	}
+}
+
+function checkForm()
+{
+	if(document.forms[0].elements['channel'].value=='')
+	{
+		alert('请选择频道');
+		return false;
+	}
+	if(document.forms[0].elements['cid'].value=='0')
+	{
+		alert('请选择主分类');
+		return false;
+	}
+	if(document.forms[0].elements['title'].value=='')
+	{
+		alert('标题不能为空');
+		return false;
+	}
+	/*
+	if(document.forms[0].elements['publisher'].value==0)
+	{
+		alert('请选择新闻来源');
+		return false;
+	}
+	if(document.forms[0].elements['author'].value=="")
+	{
+		alert('作者不能为空');
+		return false;
+	}
+	*/
+	if(document.forms[0].elements['tags'].value=="")
+	{
+		alert('关键字不能为空');
+		return false;
+	}
+	if(document.forms[0].elements['islink'].checked && document.forms[0].elements['url'].value=='')
+	{
+		alert('新闻外链不能为空');
+		return false;
+	}
+	var len=getContentLength();
+	if(len == -1)
+	{
+		alert("源代码方式保存新闻无法计算字数");
+		return false;
+	}
+	//文章字数
+	$('#content_length').val(len);
+}
+function showPosition(obj)
+{
+	$('#positions').html('&nbsp;');
+	var channel= '<?=$this->channel?>';
+	if(channel== 'soccer' && obj.value== 9){
+		$('#positions').html($('#worldcupPositions').html());
+		return true;
+	}
+	var ajax_data="cid="+obj.value;
+	//alert(jQuery('#album_list > div:last-child').html());
+	$.ajax({
+		type: "GET",
+		url: "/contents/article/getposition/",
+		data: ajax_data,
+		success: function(result){
+			var resultjson=eval(result);
+			var resultLength=resultjson.length;
+			//alert(resultLength);
+			for(i=0;i<resultLength;i++)
+			{
+				$('#positions').html($('#positions').html()+'<input type="checkbox" name="push_cid[]" value="'+resultjson[i].cid+'" />'+resultjson[i].name+'&nbsp;');
+			}
+		}
+	});
+}
+function setChannel(channel){
+	$.ajax({
+		type: "GET",
+		url: "/contents/article/setchannel/channel/"+ channel+ '/?sid='+Math.random(),		
+		success: function(ret){
+			if(ret){
+				if(ret== 'denied'){
+					alert("对不起,\n你没有所选频道的机器发稿的权限,\n请联系该频道,设置好你的账号.\n");
+					window.location.href= window.location.href;
+					return false;
+				}
+				try{
+					var arr= ret.split('(######)');
+					$('#category_options').html(arr[0]);
+					$('#push_category_file_contents').html(arr[1]);
+					$('#template_content').html(arr[2]);
+					$('#publisher_content').html(arr[3]);					
+					set_push_category_file_contents();
+				}catch(e){};
+			}		
+		}
+	});
+}
+</script>

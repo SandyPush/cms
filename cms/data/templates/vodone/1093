@@ -1,0 +1,3288 @@
+a:20:{i:0;s:5121:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+       <div class="timebox" id="demo01">
+          <i>0</i>
+          <span class="day">-</span>
+          <span class="hour">-</span>
+          <span class="minute">-</span>
+          <!--<span class="second">-</span>-->
+       </div>
+<script type="text/javascript">
+$(function(){
+	countDown("2014/6/13 04:00:00","#demo01 .day","#demo01 .hour","#demo01 .minute","#demo01 .second");
+	countDown("2014/6/13 04:00:00",null,"#demo02 .hour","#demo02 .minute","#demo02 .second");
+});
+
+function countDown(time,day_elem,hour_elem,minute_elem,second_elem){
+	//if(typeof end_time == "string")
+	var end_time = new Date(time).getTime(),//月份是实际月份-1
+	//current_time = new Date().getTime(),
+	sys_second = (end_time-new Date().getTime())/1000;
+	var timer = setInterval(function(){
+		if (sys_second > 0) {
+			sys_second -= 1;
+			var day = Math.floor((sys_second / 3600) / 24);
+			var hour = Math.floor((sys_second / 3600) % 24);
+			var minute = Math.floor((sys_second / 60) % 60);
+			var second = Math.floor(sys_second % 60);
+			day_elem && $(day_elem).text(day);//计算天
+			$(hour_elem).text(hour<10?"0"+hour:hour);//计算小时
+			$(minute_elem).text(minute<10?"0"+minute:minute);//计算分
+			$(second_elem).text(second<10?"0"+second:second);// 计算秒
+		} else { 
+			clearInterval(timer);
+		}
+	}, 1000);
+}
+</script>
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+       <!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:1;s:5259:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+       <div class="timebox" id="demo01">
+          <i>0</i>
+          <span class="day">-</span>
+          <span class="hour">-</span>
+          <span class="minute">-</span>
+          <!--<span class="second">-</span>-->
+       </div>
+<script type="text/javascript">
+$(function(){
+	countDown("2014/6/13 04:00:00","#demo01 .day","#demo01 .hour","#demo01 .minute","#demo01 .second");
+	countDown("2014/6/13 04:00:00",null,"#demo02 .hour","#demo02 .minute","#demo02 .second");
+});
+
+function countDown(time,day_elem,hour_elem,minute_elem,second_elem){
+	//if(typeof end_time == "string")
+	var end_time = new Date(time).getTime(),//月份是实际月份-1
+	//current_time = new Date().getTime(),
+	sys_second = (end_time-new Date().getTime())/1000;
+	var timer = setInterval(function(){
+		if (sys_second > 0) {
+			sys_second -= 1;
+			var day = Math.floor((sys_second / 3600) / 24);
+			var hour = Math.floor((sys_second / 3600) % 24);
+			var minute = Math.floor((sys_second / 60) % 60);
+			var second = Math.floor(sys_second % 60);
+			day_elem && $(day_elem).text(day);//计算天
+			$(hour_elem).text(hour<10?"0"+hour:hour);//计算小时
+			$(minute_elem).text(minute<10?"0"+minute:minute);//计算分
+			$(second_elem).text(second<10?"0"+second:second);// 计算秒
+		} else { 
+			clearInterval(timer);
+		}
+	}, 1000);
+}
+</script>
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+<!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code028)#-->      
+<!--#CMS_MODULE(code029)#--> 
+</div>
+</div>
+
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:2;s:5287:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+       <div class="timebox" id="demo01">
+          <i>0</i>
+          <span class="day">-</span>
+          <span class="hour">-</span>
+          <span class="minute">-</span>
+          <!--<span class="second">-</span>-->
+       </div>
+<script type="text/javascript">
+$(function(){
+	countDown("2014/6/13 04:00:00","#demo01 .day","#demo01 .hour","#demo01 .minute","#demo01 .second");
+	countDown("2014/6/13 04:00:00",null,"#demo02 .hour","#demo02 .minute","#demo02 .second");
+});
+
+function countDown(time,day_elem,hour_elem,minute_elem,second_elem){
+	//if(typeof end_time == "string")
+	var end_time = new Date(time).getTime(),//月份是实际月份-1
+	//current_time = new Date().getTime(),
+	sys_second = (end_time-new Date().getTime())/1000;
+	var timer = setInterval(function(){
+		if (sys_second > 0) {
+			sys_second -= 1;
+			var day = Math.floor((sys_second / 3600) / 24);
+			var hour = Math.floor((sys_second / 3600) % 24);
+			var minute = Math.floor((sys_second / 60) % 60);
+			var second = Math.floor(sys_second % 60);
+			day_elem && $(day_elem).text(day);//计算天
+			$(hour_elem).text(hour<10?"0"+hour:hour);//计算小时
+			$(minute_elem).text(minute<10?"0"+minute:minute);//计算分
+			$(second_elem).text(second<10?"0"+second:second);// 计算秒
+		} else { 
+			clearInterval(timer);
+		}
+	}, 1000);
+}
+</script>
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+<!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code028)#-->      
+<!--#CMS_MODULE(code029)#--> 
+</div>
+</div>
+<!--#CMS_MODULE(code030)#-->
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:3;s:5382:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+       <div class="timebox" id="demo01">
+          <i>0</i>
+          <span class="day">-</span>
+          <span class="hour">-</span>
+          <span class="minute">-</span>
+          <!--<span class="second">-</span>-->
+       </div>
+<script type="text/javascript">
+$(function(){
+	countDown("2014/6/13 04:00:00","#demo01 .day","#demo01 .hour","#demo01 .minute","#demo01 .second");
+	countDown("2014/6/13 04:00:00",null,"#demo02 .hour","#demo02 .minute","#demo02 .second");
+});
+
+function countDown(time,day_elem,hour_elem,minute_elem,second_elem){
+	//if(typeof end_time == "string")
+	var end_time = new Date(time).getTime(),//月份是实际月份-1
+	//current_time = new Date().getTime(),
+	sys_second = (end_time-new Date().getTime())/1000;
+	var timer = setInterval(function(){
+		if (sys_second > 0) {
+			sys_second -= 1;
+			var day = Math.floor((sys_second / 3600) / 24);
+			var hour = Math.floor((sys_second / 3600) % 24);
+			var minute = Math.floor((sys_second / 60) % 60);
+			var second = Math.floor(sys_second % 60);
+			day_elem && $(day_elem).text(day);//计算天
+			$(hour_elem).text(hour<10?"0"+hour:hour);//计算小时
+			$(minute_elem).text(minute<10?"0"+minute:minute);//计算分
+			$(second_elem).text(second<10?"0"+second:second);// 计算秒
+		} else { 
+			clearInterval(timer);
+		}
+	}, 1000);
+}
+</script>
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+<!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code028)#-->      
+<!--#CMS_MODULE(code029)#--> 
+</div>
+</div>
+<!--#CMS_MODULE(code030)#-->
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:4;s:5289:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+       <div class="timebox" id="demo01">
+          <i>0</i>
+          <span class="day">-</span>
+          <span class="hour">-</span>
+          <span class="minute">-</span>
+          <!--<span class="second">-</span>-->
+       </div>
+<script type="text/javascript">
+$(function(){
+	countDown("2014/6/13 04:00:00","#demo01 .day","#demo01 .hour","#demo01 .minute","#demo01 .second");
+	countDown("2014/6/13 04:00:00",null,"#demo02 .hour","#demo02 .minute","#demo02 .second");
+});
+
+function countDown(time,day_elem,hour_elem,minute_elem,second_elem){
+	//if(typeof end_time == "string")
+	var end_time = new Date(time).getTime(),//月份是实际月份-1
+	//current_time = new Date().getTime(),
+	sys_second = (end_time-new Date().getTime())/1000;
+	var timer = setInterval(function(){
+		if (sys_second > 0) {
+			sys_second -= 1;
+			var day = Math.floor((sys_second / 3600) / 24);
+			var hour = Math.floor((sys_second / 3600) % 24);
+			var minute = Math.floor((sys_second / 60) % 60);
+			var second = Math.floor(sys_second % 60);
+			day_elem && $(day_elem).text(day);//计算天
+			$(hour_elem).text(hour<10?"0"+hour:hour);//计算小时
+			$(minute_elem).text(minute<10?"0"+minute:minute);//计算分
+			$(second_elem).text(second<10?"0"+second:second);// 计算秒
+		} else { 
+			clearInterval(timer);
+		}
+	}, 1000);
+}
+</script>
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+<!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code028)#-->      
+<!--#CMS_MODULE(code029)#--> 
+</div>
+</div>
+<!--#CMS_MODULE(code030)#-->
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:5;s:5384:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_cont(2014)/js/initVote.js"></script>
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+       <div class="timebox" id="demo01">
+          <i>0</i>
+          <span class="day">-</span>
+          <span class="hour">-</span>
+          <span class="minute">-</span>
+          <!--<span class="second">-</span>-->
+       </div>
+<script type="text/javascript">
+$(function(){
+	countDown("2014/6/13 04:00:00","#demo01 .day","#demo01 .hour","#demo01 .minute","#demo01 .second");
+	countDown("2014/6/13 04:00:00",null,"#demo02 .hour","#demo02 .minute","#demo02 .second");
+});
+
+function countDown(time,day_elem,hour_elem,minute_elem,second_elem){
+	//if(typeof end_time == "string")
+	var end_time = new Date(time).getTime(),//月份是实际月份-1
+	//current_time = new Date().getTime(),
+	sys_second = (end_time-new Date().getTime())/1000;
+	var timer = setInterval(function(){
+		if (sys_second > 0) {
+			sys_second -= 1;
+			var day = Math.floor((sys_second / 3600) / 24);
+			var hour = Math.floor((sys_second / 3600) % 24);
+			var minute = Math.floor((sys_second / 60) % 60);
+			var second = Math.floor(sys_second % 60);
+			day_elem && $(day_elem).text(day);//计算天
+			$(hour_elem).text(hour<10?"0"+hour:hour);//计算小时
+			$(minute_elem).text(minute<10?"0"+minute:minute);//计算分
+			$(second_elem).text(second<10?"0"+second:second);// 计算秒
+		} else { 
+			clearInterval(timer);
+		}
+	}, 1000);
+}
+</script>
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+<!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code028)#-->      
+<!--#CMS_MODULE(code029)#--> 
+</div>
+</div>
+<!--#CMS_MODULE(code030)#-->
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:6;s:4064:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_cont(2014)/js/initVote.js"></script>
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+<!--#CMS_MODULE(code031)#-->
+       
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+<!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code028)#-->      
+<!--#CMS_MODULE(code029)#--> 
+</div>
+</div>
+<!--#CMS_MODULE(code030)#-->
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:7;s:4071:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+<!--<script language="javascript" src="http://pic.v1.cn/cms/v1_cont(2014)/js/initVote.js"></script>-->
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+<!--#CMS_MODULE(code031)#-->
+       
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+<!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code028)#-->      
+<!--#CMS_MODULE(code029)#--> 
+</div>
+</div>
+<!--#CMS_MODULE(code030)#-->
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:8;s:4171:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+<!--<script language="javascript" src="http://pic.v1.cn/cms/v1_cont(2014)/js/initVote.js"></script>-->
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+<!--#CMS_MODULE(code031)#-->
+       
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+<!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code028)#-->      
+<!--#CMS_MODULE(code029)#--> 
+</div>
+</div>
+<!--#CMS_MODULE(code030)#-->
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:9;s:4171:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+<!--<script language="javascript" src="http://pic.v1.cn/cms/v1_cont(2014)/js/initVote.js"></script>-->
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+<!--#CMS_MODULE(code031)#-->
+       
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+<!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code028)#-->      
+<!--#CMS_MODULE(code029)#--> 
+</div>
+</div>
+<!--#CMS_MODULE(code030)#-->
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:10;s:4247:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+<!--<script language="javascript" src="http://pic.v1.cn/cms/v1_cont(2014)/js/initVote.js"></script>-->
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+<!--#CMS_MODULE(code031)#-->
+       
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code032)#-->
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+<!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code028)#-->      
+<!--#CMS_MODULE(code029)#--> 
+</div>
+</div>
+<!--#CMS_MODULE(code030)#-->
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:11;s:4279:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+<!--<script language="javascript" src="http://pic.v1.cn/cms/v1_cont(2014)/js/initVote.js"></script>-->
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+<!--#CMS_MODULE(code031)#-->
+       
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code032)#-->
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+<!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code028)#-->      
+<!--#CMS_MODULE(code029)#--> 
+</div>
+</div>
+<!--#CMS_MODULE(code030)#-->
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:12;s:4207:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+<!--<script language="javascript" src="http://pic.v1.cn/cms/v1_cont(2014)/js/initVote.js"></script>-->
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+<!--#CMS_MODULE(code031)#-->
+       
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+
+<!--#CMS_MODULE(code032)#-->
+
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+<!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code028)#-->      
+<!--#CMS_MODULE(code029)#--> 
+</div>
+</div>
+<!--#CMS_MODULE(code030)#-->
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:13;s:4567:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+<!--<script language="javascript" src="http://pic.v1.cn/cms/v1_cont(2014)/js/initVote.js"></script>-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+<!--#CMS_MODULE(code031)#-->
+       
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+
+<!--#CMS_MODULE(code032)#-->
+
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+<!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code028)#-->      
+<!--#CMS_MODULE(code029)#--> 
+</div>
+</div>
+<!--#CMS_MODULE(code030)#-->
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:14;s:4643:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+<!--<script language="javascript" src="http://pic.v1.cn/cms/v1_cont(2014)/js/initVote.js"></script>-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+<!--#CMS_MODULE(code031)#-->
+       
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+
+<!--#CMS_MODULE(code032)#-->
+
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code033)#-->
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+<!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code028)#-->      
+<!--#CMS_MODULE(code029)#--> 
+</div>
+</div>
+<!--#CMS_MODULE(code030)#-->
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:15;s:4644:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+<!--<script language="javascript" src="http://pic.v1.cn/cms/v1_cont(2014)/js/initVote.js"></script>-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+<!--#CMS_MODULE(code031)#-->
+       
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+
+<!--#CMS_MODULE(code032)#-->
+
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap1000 mgT30 height">
+<!--#CMS_MODULE(code033)#-->
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+<!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code028)#-->      
+<!--#CMS_MODULE(code029)#--> 
+</div>
+</div>
+<!--#CMS_MODULE(code030)#-->
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:16;s:4644:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+<!--<script language="javascript" src="http://pic.v1.cn/cms/v1_cont(2014)/js/initVote.js"></script>-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+<!--#CMS_MODULE(code031)#-->
+       
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+
+<!--#CMS_MODULE(code032)#-->
+
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap1000 mgT30 height">
+<!--#CMS_MODULE(code034)#-->
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+<!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code028)#-->      
+<!--#CMS_MODULE(code029)#--> 
+</div>
+</div>
+<!--#CMS_MODULE(code030)#-->
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:17;s:4644:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+<!--<script language="javascript" src="http://pic.v1.cn/cms/v1_cont(2014)/js/initVote.js"></script>-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+<!--#CMS_MODULE(code031)#-->
+       
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+
+<!--#CMS_MODULE(code032)#-->
+
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap1000 mgT30 height">
+<!--#CMS_MODULE(code033)#-->
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+<!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code028)#-->      
+<!--#CMS_MODULE(code029)#--> 
+</div>
+</div>
+<!--#CMS_MODULE(code030)#-->
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:18;s:4675:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+<!--<script language="javascript" src="http://pic.v1.cn/cms/v1_cont(2014)/js/initVote.js"></script>-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+<!--#CMS_MODULE(code031)#-->
+       
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+
+<!--#CMS_MODULE(code032)#-->
+
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap1000 mgT30 height">
+<div class="wrap980">
+<!--#CMS_MODULE(code033)#-->
+</div>
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+<!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code028)#-->      
+<!--#CMS_MODULE(code029)#--> 
+</div>
+</div>
+<!--#CMS_MODULE(code030)#-->
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:19;s:4909:"<!--#
+  $sort=CMS_FUNCTION('toPinyin',$cms_page_category.'Zt');
+  $sort=$sort['pinyin_for_full'];
+#-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/worldcup14/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/worldcup14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/worldcup14/js/timepic.js"></script>
+<!--<script language="javascript" src="http://pic.v1.cn/cms/v1_cont(2014)/js/initVote.js"></script>-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+
+  //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$cms_page_category}Zt', 3]);
+</script>
+
+</head>
+<body>
+
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img">
+    <div class="wrap980">
+       <!--倒计时-->
+<!--#CMS_MODULE(code031)#-->
+       
+       <!--倒计时 end-->
+    </div>
+<!--#CMS_MODULE(code018)#-->
+</div>
+
+
+
+<!--Big title and ad-->
+<!--#CMS_MODULE(code001)#-->
+<!--Big title and ad end-->
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--视频播放01-->
+    <div class="wrap320 player fl" style="height:364px;">
+    <!--#CMS_MODULE(视频模块NO4)#-->
+    <!--#CMS_MODULE(code002)#-->
+
+    <script type="text/javascript">
+    //轮播主调函数
+    var playType='zhuanti';
+    var lunbo_index = 0;
+    var li_array = $(".jScrollbar_mask").find("li");
+    var li_num = li_array.length;
+    //手动控制播放列表
+    $("#vidList li").each(function(){
+     $(this).click(function(){
+        lunbo_index=$(this).index();
+        changeNewsInfo();
+     })
+    });
+    
+    </script>   
+    </div>
+<!--视频播放01 end-->
+    <!--#CMS_MODULE(code003)#-->
+    <!--#CMS_MODULE(code004)#-->
+    
+</div>
+</div>
+
+
+<!--#CMS_MODULE(code032)#-->
+
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+    <div class="wrap652 fl">
+        <!--#CMS_MODULE(code005)#-->
+        <!--#CMS_MODULE(code006)#-->
+    </div>
+    <!--#CMS_MODULE(code007)#-->
+</div>
+</div>
+</div>
+
+<div class="wrap1000 mgT30 height">
+<div class="wrap980">
+<!--#CMS_MODULE(code033)#-->
+</div>
+</div>
+
+<div class="wrap1000">
+<!--#CMS_MODULE(code017)#-->
+</div>
+
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+       <!--#CMS_MODULE(code011)#-->      
+       <!--#CMS_MODULE(code012)#-->   
+</div>
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+        <!--#CMS_MODULE(code013)#-->      
+       <!--#CMS_MODULE(code014)#--> 
+  </div> 
+</div>
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code015)#-->      
+       <!--#CMS_MODULE(code016)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code020)#-->      
+       <!--#CMS_MODULE(code021)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code022)#-->      
+       <!--#CMS_MODULE(code023)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code024)#-->      
+<!--#CMS_MODULE(code025)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code026)#-->      
+<!--#CMS_MODULE(code027)#--> 
+</div>
+</div>
+
+<div class="wrap1000">
+<div class="wrap980 mgT30 height">
+<!--#CMS_MODULE(code028)#-->      
+<!--#CMS_MODULE(code029)#--> 
+</div>
+</div>
+<!--#CMS_MODULE(code030)#-->
+      <!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";}

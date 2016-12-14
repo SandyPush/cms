@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="zh-CN" xml:lang="zh-CN" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><?=$this->data['name']?>_论战_体坛周报·体坛网</title>
+<link href="http://www.titan24.com/css/header.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://www.titan24.com/styles/pk/style.css" media="all" title="主样式" />
+</head>
+<body>
+	<div class="main">
+  <div class="Theader zader">
+            <div class="znav">
+        	<h1><a href="http://www.titan24.com" target="_blank">体坛网</a></h1>
+            <p>
+            <a href="http://www.titan24.com" target="_blank">体坛网首页</a> |
+            <a href="http://news.titan24.com" target="_blank">体育新闻</a> |
+            <a href="http://cnsoccer.titan24.com" target="_blank">国内足球</a> |
+            <a href="http://soccer.titan24.com" target="_blank">国际足球</a> |
+            <a href="http://basketball.titan24.com" target="_blank">篮球</a> |
+            <a href="http://sports.titan24.com" target="_blank">综合</a> |
+            <a href="http://sports.titan24.com/qipai/" target="_blank">棋牌</a> |
+            <a href="http://lottery.titan24.com" target="_blank">彩经</a> |
+            <a href="http://pic.titan24.com" target="_blank">图片</a> |
+            <a href="http://v.titan24.com" target="_blank">视频</a> |
+            <a href="http://bbs.titan24.com" target="_blank">论坛</a> |
+            <a href="http://e.titan24.com" target="_blank">e版</a>
+            </p>
+        </div>
+	</div>
+      <div class="banner1">
+          <div class="nav">
+            <a href="http://news.titan24.com/app/debate/index.php" class="cur" flag="local">首页</a>
+            <a href="http://news.titan24.com/app/debate/list.php?channel=cnsoccer" flag="local">国内足球</a>
+            <a href="http://news.titan24.com/app/debate/list.php?channel=soccer" flag="local">国际足球</a>
+            <a href="http://news.titan24.com/app/debate/list.php?channel=basketball" flag="local">篮球</a>
+            <a href="http://news.titan24.com/app/debate/list.php?channel=sports" flag="local">综合</a>
+          </div>
+        </div>
+        <div class="intro">
+		<?=$this->data['intro']?>
+		</div>
+		<div class="tith"><?=$this->data['name']?></div>
+        <div class="gd">
+          <dl>
+            <dt><img src="<?=$this->data['z_photo']?>" alt="正方" /></dt>
+            <dd>
+            <h3><a href="<?=$this->data['z_url']?>" target="_blank"><?=$this->data['z_name']?></a></h3>
+            <p><?=$this->data['z_intro']?><a href="<?=$this->data['z_url']?>" target="_blank">[详细]</a></p>
+			<span>
+				<strong><em id="de1"></em>人支持</strong>
+				<strong><em id="id7">0</em>人留言</strong>
+			</span>
+			<span style="padding-left:20px;">
+				<a class="btna" href="#" onclick="debate.add(<?=$this->data['id']?>,'de1');return false;">同意</a>     
+				<a class="btna" href="#msg" style="margin-left:13px;">我有话说</a>
+			</span>
+            </dd>
+            </dl>
+            <dl class="gdr">
+            <dt><img src="<?=$this->data['f_photo']?>" alt="反方" /></dt>
+            <dd>
+            <h3><a href="<?=$this->data['f_url']?>" target="_blank"><?=$this->data['f_name']?></a></h3>
+			<p><?=$this->data['f_intro']?><a href="<?=$this->data['f_url']?>" target="_blank">[详细]</a></p>
+            <span>
+            <strong><em id="de2"></em>人支持</strong> 
+            <strong><em id="id8">0</em>人留言</strong>
+            </span>
+			<span style="padding-left:20px;">
+				<a class="btna" href="#" onclick="debate.del(<?=$this->data['id']?>,'de2');return false;">同意</a>   
+				<a class="btna" href="#msg" style="margin-left:13px;">我有话说</a>
+			</span>
+            </dd>
+            </dl>
+            <div class="vsa"></div>
+        </div>
+   <!--评论留言-->
+<div class="title">
+		<img src="http://www.titan24.com/styles/pk/img/lz_ly.gif" alt="评论留言" />        </div>
+        <div class="box message" style="overflow:visible">
+        	<div class="msgz">			
+           	  	<h3>正方：<?=$this->data['z_name2']?></h3>
+                <div class="msgd">
+                <span><a href="#" id="id2">查看全部</a></span>
+                <strong>正方观点</strong>&nbsp;&nbsp;&nbsp;&nbsp;评论共<a href="#" id="id3"></a>条
+                </div>
+                <div class="msgn">
+                <ul id="div_CommentList">              
+                </ul>
+              	<div class="fpage" id="div_CommentPage">                  
+                </div>
+                </div>
+          </div>
+            <div class="msgf">			
+            	<h3 >反方：<?=$this->data['f_name2']?></h3>
+                <div class="msgd">
+                <span><a href="#" id="id1">查看全部</a></span>
+                <strong>反方观点</strong>&nbsp;&nbsp;&nbsp;&nbsp;评论共<a href="#" id="id4"></a>条
+                </div>
+                <div class="msgn">
+                <ul id="div_CommentList1">                            
+                </ul>
+                <div class="fpage" id="div_CommentPage1">                      
+                </div>
+                </div>
+            </div>
+            <div class="msg_a" id="msg">
+            	<p style="padding:0 0 6px 0;"><img src="http://basketball.titan24.com/style/zt04/img/msg_atit.gif" alt="" />
+<input type="radio" name="location" id="c1" value="A" /> <strong class="blue">支持正方</strong> 
+<input type="radio" name="location" id="c2" value="B" /> <strong class="red">支持反方</strong>            	
+                </p>
+                <div class="login" id="c_logindiv">
+                </div
+				<p style="clear:both"></p> 
+                <p>
+				<input type="hidden" name="author" id="author" value="">
+                  <textarea id="message" cols="45" rows="4" class="txt1"></textarea>
+                </p>
+<p><button class="btnf" onclick="comment.send('<?=$this->data['id']?>','19','2','15','1','c1','c2');return false;"></button>
+</p>            
+          </div>
+          <div class="vsb"></div>
+      </div>
+<script type="text/javascript" src="http://comment.titan24.com/script/phprpc_flash.js"></script>
+<script type="text/javascript" src="http://comment.titan24.com/script/flashrequest.js"></script>
+<script type="text/javascript" src="http://comment.titan24.com/script/CommentInterface.js"></script>
+<script type="text/javascript">
+	comment.init();
+	comment.reviewPage=function (tid,ctypeid,templateid,perpage,curpage,num,id1,id2,location) {
+		var page,offset,pages,from,to,multipage='';
+		var pagesize=perpage;	
+	
+		if(parseInt(num) > parseInt(perpage)) {			
+			page = 10;
+			offset = 5;
+			pages = Math.ceil(num / perpage);			
+			if(page > pages) {
+				from = 1;
+				to = pages;
+			}else{
+				from = curpage - offset;
+				to = curpage + page - offset - 1;
+				if(from < 1) {
+					to = curpage + 1 - from;
+					from = 1;
+					if((to - from) < page && (to - from) < pages) {
+						to = page;
+					}
+				}else if(to > pages) {
+					from = curpage - pages + to;
+					to = pages;
+					if((to - from) < page && (to - from) < pages) {
+						from = pages - page + 1;
+					}
+				}
+			}
+			
+			multipage = (curpage > 1 ? '<a href="#"  onclick="comment.getCommentList('+tid+','+ctypeid+','+templateid+','+pagesize+','+(curpage - 1)+',\''+id1 +'\''+',\''+id2 +'\''+',\''+location +'\');return false" class="pgup">上一页</a> ' : '')+(curpage - offset > 1 && pages > page ? '<a href="#" onclick="comment.getCommentList('+tid+','+ctypeid+','+templateid+','+pagesize+','+1+',\''+id1 +'\''+',\''+id2 +'\''+',\''+location +'\');return false">第1页</a> ' : '');
+			for(var i = from; i <= to; i++) {
+				multipage += i == curpage ? '<a href="#" class="current">'+i+'</a> ' : '<a href="#"  onclick="comment.getCommentList('+tid+','+ctypeid+','+templateid+','+pagesize+','+i+',\''+id1 +'\''+',\''+id2 +'\''+',\''+location +'\');return false">'+i+'</a> ';
+			}
+			multipage += (to < pages ? ' <a href="#"  onclick="comment.getCommentList('+tid+','+ctypeid+','+templateid+','+pagesize+','+pages+',\''+id1 +'\''+',\''+id2 +'\''+',\''+location +'\');return false">第'+pages+'页</a>' : '')+(curpage < pages ? '<a href="#"  onclick="comment.getCommentList('+tid+','+ctypeid+','+templateid+','+pagesize+','+(++curpage)+',\''+id1 +'\''+',\''+id2 +'\''+',\''+location +'\');return false" class="pgdn"> 下一页</a>' : '');
+			multipage = multipage ? multipage : '';
+		}			
+			comment.$(id2).innerHTML=multipage;		
+	};
+
+	comment.initCommentList=function (obj,id){			
+		if(!obj)return;	
+		var html = "";
+		cnum=0;	
+		for(k in obj) {
+			html+='<li>';
+			html+='<span>'+obj[k].time+'发表</span>';
+			html+='<strong>'+obj[k].author+'</strong>  '+obj[k].location;
+			html+='<p>'+obj[k].message+'</p>';		
+			html+='</li>';	
+			cnum++;
+		}		
+		this.$(id).innerHTML = html;
+	};
+
+	comment.getCommentList= function (tid,ctypeid,templateid,pagesize,page,id1,id2,location) {			
+		var url = "http://comment.titan24.com/index.php?ctype="+ctypeid+"&tid="+tid+"&pageSize="+pagesize+"&page="+page+"&location="+location+"&f5=1&temp="+Math.random();	
+		//document.write(url);		
+		curpage= page;
+		pagesize= pagesize;
+		var self= this;		
+		FlashRequest.get(url, null, null, "GBK", function (str) {		
+				data = eval('(' + str + ')');					
+				var Page = data.Page;
+				var PageSize = data.PageSize;
+				var PageCount = data.RecordCount;	
+
+				self.setCommentNum(PageCount, location);
+				self.reviewPage.call(self,tid,ctypeid,templateid,pagesize,page,PageCount,id1,id2,location);
+				self.initCommentList(data.List,id1);
+			}
+		);	
+	};
+
+	comment.sendMessage=function (tid,ctypeid,templateid,pagesize,page,id1,id2,location){
+		if(!ctypeid || !tid)return;
+
+		var message = this.$('message').value;
+		if(!message) {
+			alert("你说些什么呢？");
+			this.$('message').focus();
+			return false;
+		}
+		if(message.length > 300) {
+			alert("不要太长哦,最多150个汉字");
+			return false;
+		}	
+
+		var author=this.$('author').value?this.$('author').value:"";
+		author = this.$('anonymity').checked==true ? "anonymity" : author;
+		if (author=='')	author = "noanonymity";		
+	
+		var self= this;	
+		FlashRequest.post('http://comment.titan24.com/index.php', "ctype=" + ctypeid +"&anonymity=" + author + "&message=" + message + "&tid=" + tid+ "&f5=1&location=" + location, null, null, "GBK", function (ret) {
+				if(ret=='wait'){
+					alert("你发表评论太快了,需要先休息一下！");					
+				}else if(ret=='nologin'){
+					alert("您还没有登录!");					
+				}else if(ret == '0') {
+					alert('发表失败!');					
+				}else if(ret == '1') {
+					alert('发表成功');										
+					self.getCommentList.call(self,tid,ctypeid,templateid,pagesize,page,id1,id2,location);
+					self.$('message').value='';	
+					self.addNum(location);
+				}else if(ret == '2') {
+					alert('该文章不允许评论!');						
+				}else if(ret == '3') {
+					alert('该文章所在项目不允许评论!');						
+				}else if(ret == '4') {
+					alert('该文章所在栏目不允许评论!');						
+				}else if(ret== '5') {
+					alert('文章信息有误');					
+				}else{			
+					alert(ret);					
+				}				
+			}
+		);
+	};
+
+	comment.setCommentNum=function (number, location) {		
+		switch(location){
+			case 'A':
+				this.$('id3').innerHTML= number;
+				this.$('id7').innerHTML= number;
+				break;
+			case 'B':
+				this.$('id4').innerHTML= number;
+				this.$('id8').innerHTML= number;
+				break;
+		}
+	};
+
+	comment.send= function (tid,ctypeid,templateid,pagesize,page,id1,id2){
+		if(!this.$(id1) || !this.$(id2))return false;	
+		if(this.$(id1).checked==false && this.$(id2).checked==false ){
+			alert('请选择支持正方或者支持反方！');
+			return false;
+		}
+		if(this.$(id1).checked==true){		
+			var arg= Array.prototype.slice.call(arguments,0,-2).concat(['div_CommentList','div_CommentPage',this.$(id1).value]);			
+			this.sendMessage.apply(this,arg);
+
+		}
+		if(this.$(id2).checked==true){
+			var arg= Array.prototype.slice.call(arguments,0,-2).concat(['div_CommentList1','div_CommentPage1',this.$(id2).value]);
+			this.sendMessage.apply(this,arg);		
+		}
+
+	};
+
+	comment.addNum= function(location){
+		switch(location){
+			case 'A':
+				this.$('id3').innerHTML= parseInt(this.$('id3').innerHTML)+1;
+				this.$('id7').innerHTML= this.$('id3').innerHTML;
+				break;
+			case 'B':
+				this.$('id4').innerHTML= parseInt(this.$('id4').innerHTML)+1;
+				this.$('id8').innerHTML= this.$('id4').innerHTML;
+				break;
+		}
+	};
+
+ 	//comment.setNum=function(){
+		//comment.getCommentNum('<?=$this->data[id]?>','19','id3','id7','A');
+		//comment.getCommentNum('<?=$this->data[id]?>','19','id4','id8','B');
+	//}();
+
+	comment.getCommentHref('<?=$this->data[id]?>','19','1','id1','id5');
+	comment.getCommentHref('<?=$this->data[id]?>','19','1','id2','id6');
+		
+	comment.getCommentList('<?=$this->data[id]?>','19','2','15','1','div_CommentList','div_CommentPage','A');
+	comment.getCommentList('<?=$this->data[id]?>','19','2','15','1','div_CommentList1','div_CommentPage1','B');	
+
+	//论战	
+	var debate={
+		add:function(id,id1){
+			var self=this;
+			FlashRequest.get('http://vote.titan24.com/debate.php?action=add&id='+id+'&temp='+Math.random(), null, null, "GBK", function (ret) {
+				if(ret=='0'){
+					alert("操作已成功");	
+					self.setCount(id,'z',id1);
+				}else if(ret=='1'){
+					alert("1分钟内只允许支持一次,请稍作休息!");				
+				}else{
+					alert("操作失败!");					
+				}
+			});
+		},
+		del:function(id,id1){
+			var self=this;
+			FlashRequest.get('http://vote.titan24.com/debate.php?action=del&id='+id+'&temp='+Math.random(), null, null, "GBK", function (ret) {
+				if(ret=='0'){
+					alert("操作已成功");	
+					self.setCount(id,'f',id1);
+				}else if(ret=='1'){
+					alert("1分钟内只允许支持一次,请稍作休息!");				
+				}else{
+					alert("操作失败!");					
+				}
+			});
+		},
+		setCount:function(id,type,id1){
+			FlashRequest.get('http://vote.titan24.com/debate.php?action=getCount&id='+id+'&type='+type+'&temp='+Math.random(), null, null, "GBK", function (ret) {
+				if(ret){				
+					document.getElementById(id1).innerHTML=ret;
+				}				
+			});
+		}
+	};	
+	debate.setCount(<?=$this->data['id']?>,'z','de1');
+	debate.setCount(<?=$this->data['id']?>,'f','de2');
+</script>
+<script type="text/javascript" src="http://comment.titan24.com/script/commentLogin0723.js"></script>
+        <!--foot-->
+      <div class="clear"></div>
+        <script type="text/javascript" src="http://www.titan24.com/scripts/nfooter.js"></script>
+</div>
+</body>
+</html>

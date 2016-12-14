@@ -1,0 +1,378 @@
+a:9:{i:0;s:812:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+</head>
+
+<body>
+<!--#CMS_MODULE(css_js)#-->
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code004)#-->
+<div class="wrapBox1000 clearfix"><!--#CMS_MODULE(code005)#--><!--#CMS_MODULE(code006)#--></div>
+<!--#CMS_MODULE(code007)#-->
+<!--#CMS_MODULE(code008)#-->
+<!--#CMS_MODULE(code009)#-->
+<!--#CMS_MODULE(code010)#-->
+<!--#CMS_MODULE(code011)#-->
+<!--#CMS_MODULE(code012)#-->
+<!--#CMS_MODULE(code013)#-->
+<!--#CMS_MODULE(code014)#-->
+<!--#CMS_MODULE(code015)#-->
+</body>
+</html>
+";i:1;s:1837:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+</head>
+
+<body>
+<!--#CMS_MODULE(css_js)#-->
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code004)#-->
+<div class="wrapBox1000 clearfix"><!--#CMS_MODULE(code005)#--><!--#CMS_MODULE(code006)#--></div>
+<!--#CMS_MODULE(code007)#-->
+<!--#CMS_MODULE(code008)#-->
+<!--#CMS_MODULE(code009)#-->
+<!--#CMS_MODULE(code010)#-->
+<!--#CMS_MODULE(code011)#-->
+<!--#CMS_MODULE(code012)#-->
+<!--#CMS_MODULE(code013)#-->
+<!--#CMS_MODULE(code014)#-->
+<!--#CMS_MODULE(code015)#-->
+<!----测试用------>
+<style>
+#cnzz_stat_icon_4992481 {
+    display:none;
+}
+</style>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_4992481'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s21.cnzz.com/stat.php%3Fid%3D4992481%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!----测试用end------>
+</body>
+</html>
+";i:2;s:1839:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+</head>
+
+<body>
+<!--#CMS_MODULE(css_js)#-->
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code004)#-->
+<div class="wrapBox1000 clearfix"><!--#CMS_MODULE(code005)#--><!--#CMS_MODULE(code006)#--></div>
+<!--#CMS_MODULE(code007)#-->
+<!--#CMS_MODULE(code008)#-->
+<!--#CMS_MODULE(code009)#-->
+<!--#CMS_MODULE(code010)#-->
+<!--#CMS_MODULE(code011)#-->
+<!--#CMS_MODULE(code012)#-->
+<!--#CMS_MODULE(code013)#-->
+<!--#CMS_MODULE(code014)#-->
+<!--#CMS_MODULE(code015)#-->
+<!----测试用------>
+<style>
+#cnzz_stat_icon_4992481 {
+    display:none;
+}
+</style>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_4992481'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s21.cnzz.com/stat.php%3Fid%3D4992481%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+
+<!----测试用end------>
+</body>
+</html>
+";i:3;s:1444:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+</head>
+
+<body>
+<!--#CMS_MODULE(css_js)#-->
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code004)#-->
+<div class="wrapBox1000 clearfix"><!--#CMS_MODULE(code005)#--><!--#CMS_MODULE(code006)#--></div>
+<!--#CMS_MODULE(code007)#-->
+<!--#CMS_MODULE(code008)#-->
+<!--#CMS_MODULE(code009)#-->
+<!--#CMS_MODULE(code010)#-->
+<!--#CMS_MODULE(code011)#-->
+<!--#CMS_MODULE(code012)#-->
+<!--#CMS_MODULE(code013)#-->
+<!--#CMS_MODULE(code014)#-->
+<!--#CMS_MODULE(code015)#-->
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+</body>
+</html>
+";i:4;s:1804:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(css_js)#-->
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code004)#-->
+<div class="wrapBox1000 clearfix"><!--#CMS_MODULE(code005)#--><!--#CMS_MODULE(code006)#--></div>
+<!--#CMS_MODULE(code007)#-->
+<!--#CMS_MODULE(code008)#-->
+<!--#CMS_MODULE(code009)#-->
+<!--#CMS_MODULE(code010)#-->
+<!--#CMS_MODULE(code011)#-->
+<!--#CMS_MODULE(code012)#-->
+<!--#CMS_MODULE(code013)#-->
+<!--#CMS_MODULE(code014)#-->
+<!--#CMS_MODULE(code015)#-->
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+</body>
+</html>
+";i:5;s:1444:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+</head>
+
+<body>
+<!--#CMS_MODULE(css_js)#-->
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code004)#-->
+<div class="wrapBox1000 clearfix"><!--#CMS_MODULE(code005)#--><!--#CMS_MODULE(code006)#--></div>
+<!--#CMS_MODULE(code007)#-->
+<!--#CMS_MODULE(code008)#-->
+<!--#CMS_MODULE(code009)#-->
+<!--#CMS_MODULE(code010)#-->
+<!--#CMS_MODULE(code011)#-->
+<!--#CMS_MODULE(code012)#-->
+<!--#CMS_MODULE(code013)#-->
+<!--#CMS_MODULE(code014)#-->
+<!--#CMS_MODULE(code015)#-->
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+</body>
+</html>
+";i:6;s:1444:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+</head>
+
+<body>
+<!--#CMS_MODULE(css_js)#-->
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code004)#-->
+<div class="wrapBox1000 clearfix"><!--#CMS_MODULE(code005)#--><!--#CMS_MODULE(code006)#--></div>
+<!--#CMS_MODULE(code007)#-->
+<!--#CMS_MODULE(code008)#-->
+<!--#CMS_MODULE(code009)#-->
+<!--#CMS_MODULE(code010)#-->
+<!--#CMS_MODULE(code011)#-->
+<!--#CMS_MODULE(code012)#-->
+<!--#CMS_MODULE(code013)#-->
+<!--#CMS_MODULE(code014)#-->
+<!--#CMS_MODULE(code015)#-->
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+</body>
+</html>
+";i:7;s:1478:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+</head>
+
+<body>
+<!--#CMS_MODULE(css_js)#-->
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code004)#-->
+<div class="wrapBox1000 clearfix"><!--#CMS_MODULE(code005)#--><!--#CMS_MODULE(code006)#--></div>
+<!--#CMS_MODULE(code007)#-->
+<!--#CMS_MODULE(code008)#-->
+<!--#CMS_MODULE(code009)#-->
+<!--#CMS_MODULE(code010)#-->
+<!--#CMS_MODULE(code011)#-->
+<!--#CMS_MODULE(code012)#-->
+
+<!--#CMS_MODULE(code016)#-->
+
+<!--#CMS_MODULE(code013)#-->
+<!--#CMS_MODULE(code014)#-->
+<!--#CMS_MODULE(code015)#-->
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+</body>
+</html>
+";i:8;s:1486:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+</head>
+
+<body>
+<!--#CMS_MODULE(css_js)#-->
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(频道页header)#-->
+<!--#CMS_MODULE(code004)#-->
+<div class="wrapBox1000 clearfix"><!--#CMS_MODULE(code005)#--><!--#CMS_MODULE(code006)#--></div>
+<!--#CMS_MODULE(code007)#-->
+<!--#CMS_MODULE(code008)#-->
+<!--#CMS_MODULE(code009)#-->
+<!--#CMS_MODULE(code010)#-->
+<!--#CMS_MODULE(code011)#-->
+<!--#CMS_MODULE(code012)#-->
+
+<!--#CMS_MODULE(code016)#-->
+
+<!--#CMS_MODULE(code013)#-->
+<!--#CMS_MODULE(code014)#-->
+<!--#CMS_MODULE(code015)#-->
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+</body>
+</html>
+";}

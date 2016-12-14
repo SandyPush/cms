@@ -1,0 +1,1755 @@
+a:20:{i:0;s:3059:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/index.js"></script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{margin:0;}
+.doubleBox{width:313px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:238px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:13px;margin:4px 0;float:left;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:100px;height:75px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+
+</body>
+</html>
+
+";i:1;s:3059:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/index.js"></script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{margin:0;}
+.doubleBox{width:313px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:311px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:13px;margin:4px 0;float:left;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:100px;height:75px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+
+</body>
+</html>
+
+";i:2;s:3059:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/index.js"></script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{margin:0;}
+.doubleBox{width:313px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:311px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:13px;margin:4px 0;float:left;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:126px;height:95px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+
+</body>
+</html>
+
+";i:3;s:3059:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/index.js"></script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{margin:0;}
+.doubleBox{width:313px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:301px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:13px;margin:4px 0;float:left;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:126px;height:95px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+
+</body>
+</html>
+
+";i:4;s:3451:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/index.js"></script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{width:313px;margin:0 auto;border-width:1px 1px 1px 1px;border-color:#dbdbdb;border-style:solid;margin:0;}
+
+.top10ListBox_page01 .top10Panel,.top10ListBox_page02 .top10Panel{width:313px;height:53px;position:absolute;top:0;left:0;background-repeat:repeat-x;line-height:16px;padding:11px 5px 12px 5px;display:none;}
+.top10ListBox_page01 .top10Panel dt, .top10ListBox_page02 .top10Panel dt{width:200px;}
+.doubleBox{width:313px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:301px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:13px;margin:4px 0;float:left;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:126px;height:95px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+
+</body>
+</html>
+
+";i:5;s:3451:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/index.js"></script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{width:313px;margin:0 auto;border-width:1px 1px 1px 1px;border-color:#dbdbdb;border-style:solid;margin:0;}
+
+.top10ListBox_page01 .top10Panel,.top10ListBox_page02 .top10Panel{width:304px;height:53px;position:absolute;top:0;left:0;background-repeat:repeat-x;line-height:16px;padding:11px 5px 12px 5px;display:none;}
+.top10ListBox_page01 .top10Panel dt, .top10ListBox_page02 .top10Panel dt{width:200px;}
+.doubleBox{width:313px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:304px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:13px;margin:4px 0;float:left;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:126px;height:95px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+
+</body>
+</html>
+
+";i:6;s:3451:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/index.js"></script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{width:313px;margin:0 auto;border-width:1px 1px 1px 1px;border-color:#dbdbdb;border-style:solid;margin:0;}
+
+.top10ListBox_page01 .top10Panel,.top10ListBox_page02 .top10Panel{width:303px;height:53px;position:absolute;top:0;left:0;background-repeat:repeat-x;line-height:16px;padding:11px 5px 12px 5px;display:none;}
+.top10ListBox_page01 .top10Panel dt, .top10ListBox_page02 .top10Panel dt{width:200px;}
+.doubleBox{width:313px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:303px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:13px;margin:4px 0;float:left;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:126px;height:95px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+
+</body>
+</html>
+
+";i:7;s:3451:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/index.js"></script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{width:313px;margin:0 auto;border-width:1px 1px 1px 1px;border-color:#dbdbdb;border-style:solid;margin:0;}
+
+.top10ListBox_page01 .top10Panel,.top10ListBox_page02 .top10Panel{width:303px;height:53px;position:absolute;top:0;left:0;background-repeat:repeat-x;line-height:16px;padding:11px 5px 12px 5px;display:none;}
+.top10ListBox_page01 .top10Panel dt, .top10ListBox_page02 .top10Panel dt{width:200px;}
+.doubleBox{width:313px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:303px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:18px;margin:4px 0;float:left;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:126px;height:95px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+
+</body>
+</html>
+
+";i:8;s:3465:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/index.js"></script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{width:313px;margin:0 auto;border-width:1px 1px 1px 1px;border-color:#dbdbdb;border-style:solid;margin:0;}
+
+.top10ListBox_page01 .top10Panel,.top10ListBox_page02 .top10Panel{width:303px;height:53px;position:absolute;top:0;left:0;background-repeat:repeat-x;line-height:16px;padding:11px 5px 12px 5px;display:none;}
+.top10ListBox_page01 .top10Panel dt, .top10ListBox_page02 .top10Panel dt{width:200px;}
+.doubleBox{width:313px;height:310px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:303px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:18px;margin:10px 0;float:left;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:126px;height:95px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+
+</body>
+</html>
+
+";i:9;s:3465:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/index.js"></script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{width:311px;margin:0 auto;border-width:1px 1px 1px 1px;border-color:#dbdbdb;border-style:solid;margin:0;}
+
+.top10ListBox_page01 .top10Panel,.top10ListBox_page02 .top10Panel{width:303px;height:53px;position:absolute;top:0;left:0;background-repeat:repeat-x;line-height:16px;padding:11px 5px 12px 5px;display:none;}
+.top10ListBox_page01 .top10Panel dt, .top10ListBox_page02 .top10Panel dt{width:200px;}
+.doubleBox{width:311px;height:307px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:303px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:18px;margin:10px 0;float:left;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:126px;height:95px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+
+</body>
+</html>
+
+";i:10;s:3465:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/index.js"></script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{width:311px;margin:0 auto;border-width:1px 1px 1px 1px;border-color:#dbdbdb;border-style:solid;margin:0;}
+
+.top10ListBox_page01 .top10Panel,.top10ListBox_page02 .top10Panel{width:301px;height:53px;position:absolute;top:0;left:0;background-repeat:repeat-x;line-height:16px;padding:11px 5px 12px 5px;display:none;}
+.top10ListBox_page01 .top10Panel dt, .top10ListBox_page02 .top10Panel dt{width:200px;}
+.doubleBox{width:311px;height:307px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:301px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:18px;margin:10px 0;float:left;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:126px;height:95px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+
+</body>
+</html>
+
+";i:11;s:3465:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/index.js"></script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{width:311px;margin:0 auto;border-width:1px 1px 1px 1px;border-color:#dbdbdb;border-style:solid;margin:0;}
+
+.top10ListBox_page01 .top10Panel,.top10ListBox_page02 .top10Panel{width:301px;height:53px;position:absolute;top:0;left:0;background-repeat:repeat-x;line-height:16px;padding:11px 5px 12px 5px;display:none;}
+.top10ListBox_page01 .top10Panel dt, .top10ListBox_page02 .top10Panel dt{width:200px;}
+.doubleBox{width:311px;height:297px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:301px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:18px;margin:10px 0;float:left;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:126px;height:95px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+
+</body>
+</html>
+
+";i:12;s:3471:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/index.js"></script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{width:311px;margin:0 auto;border-width:1px 1px 1px 1px;border-color:#dbdbdb;border-style:solid;margin:0;}
+
+.top10ListBox_page01 .top10Panel,.top10ListBox_page02 .top10Panel{width:301px;height:53px;position:absolute;top:0;left:0;background-repeat:repeat-x;line-height:16px;padding:11px 5px 12px 5px;display:none;}
+.top10ListBox_page01 .top10Panel dt, .top10ListBox_page02 .top10Panel dt{width:200px;}
+.doubleBox{width:311px;height:297px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:301px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:18px;margin:10px 0 5px 0;float:left;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:126px;height:95px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+
+</body>
+</html>
+
+";i:13;s:3464:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/index.js"></script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{width:311px;margin:0 auto;border-width:1px 1px 1px 1px;border-color:#dbdbdb;border-style:solid;margin:0;}
+
+.top10ListBox_page01 .top10Panel,.top10ListBox_page02 .top10Panel{width:301px;height:53px;position:absolute;top:0;left:0;background-repeat:repeat-x;line-height:16px;padding:11px 5px 12px 5px;display:none;}
+.top10ListBox_page01 .top10Panel dt, .top10ListBox_page02 .top10Panel dt{width:200px;}
+.doubleBox{width:311px;height:297px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:301px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:18px;margin:5px 0;float:left;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:126px;height:95px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+
+</body>
+</html>
+
+";i:14;s:3486:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/index.js"></script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{width:311px;margin:0 auto;border-width:1px 1px 1px 1px;border-color:#dbdbdb;border-style:solid;margin:0;}
+
+.top10ListBox_page01 .top10Panel,.top10ListBox_page02 .top10Panel{width:301px;height:53px;position:absolute;top:0;left:0;background-repeat:repeat-x;line-height:16px;padding:11px 5px 12px 5px;display:none;}
+.top10ListBox_page01 .top10Panel dt, .top10ListBox_page02 .top10Panel dt{width:200px;}
+.doubleBox{width:311px;height:297px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:301px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:18px;margin:10px 0 5px 0;float:left;display:inline;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:126px;height:95px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+
+</body>
+</html>
+
+";i:15;s:3487:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/index.js"></script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{width:311px;margin:0 auto;border-width:1px 1px 1px 1px;border-color:#dbdbdb;border-style:solid;margin:0;}
+
+.top10ListBox_page01 .top10Panel,.top10ListBox_page02 .top10Panel{width:301px;height:53px;position:absolute;top:0;left:0;background-repeat:repeat-x;line-height:16px;padding:11px 5px 12px 5px;display:none;}
+.top10ListBox_page01 .top10Panel dt, .top10ListBox_page02 .top10Panel dt{width:200px;}
+.doubleBox{width:311px;height:297px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:301px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:18px;margin:10px 0 5px 0;float:left;overflow:hidden;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:126px;height:95px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+
+</body>
+</html>
+
+";i:16;s:3489:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/index.js"></script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{width:311px;margin:0 auto;border-width:1px 1px 1px 1px;border-color:#dbdbdb;border-style:solid;margin:0;}
+
+.top10ListBox_page01 .top10Panel,.top10ListBox_page02 .top10Panel{width:301px;height:53px;position:absolute;top:0;left:0;background-repeat:repeat-x;line-height:16px;padding:11px 5px 12px 5px;display:none;}
+.top10ListBox_page01 .top10Panel dt, .top10ListBox_page02 .top10Panel dt{width:200px;}
+.doubleBox{width:311px;height:297px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:301px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:18px;margin:10px 0 5px 0;float:left;overflow:hidden;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:126px;height:95px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+
+</body>
+</html>
+
+";i:17;s:3636:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script>
+$(document).ready(function()
+{
+
+    //最热排行
+    shrinkBox('#hotRank .top10ListBox_page01',1);
+    shrinkBox('#hotRank .top10ListBox_page02',2);
+//最热排行Tab
+    switchTab('#hotRank .wgt-tab-s');})
+</script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{width:311px;margin:0 auto;border-width:1px 1px 1px 1px;border-color:#dbdbdb;border-style:solid;margin:0;}
+
+.top10ListBox_page01 .top10Panel,.top10ListBox_page02 .top10Panel{width:301px;height:53px;position:absolute;top:0;left:0;background-repeat:repeat-x;line-height:16px;padding:11px 5px 12px 5px;display:none;}
+.top10ListBox_page01 .top10Panel dt, .top10ListBox_page02 .top10Panel dt{width:200px;}
+.doubleBox{width:311px;height:297px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:301px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:18px;margin:10px 0 5px 0;float:left;overflow:hidden;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:126px;height:95px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+
+</body>
+</html>
+
+";i:18;s:4251:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script>
+$(document).ready(function()
+{
+
+    //最热排行
+    shrinkBox('#hotRank .top10ListBox_page01',1);
+    shrinkBox('#hotRank .top10ListBox_page02',2);
+//最热排行Tab
+    switchTab('#hotRank .wgt-tab-s');})
+</script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{width:311px;margin:0 auto;border-width:1px 1px 1px 1px;border-color:#dbdbdb;border-style:solid;margin:0;}
+
+.top10ListBox_page01 .top10Panel,.top10ListBox_page02 .top10Panel{width:301px;height:53px;position:absolute;top:0;left:0;background-repeat:repeat-x;line-height:16px;padding:11px 5px 12px 5px;display:none;}
+.top10ListBox_page01 .top10Panel dt, .top10ListBox_page02 .top10Panel dt{width:200px;}
+.doubleBox{width:311px;height:297px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:301px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:18px;margin:10px 0 5px 0;float:left;overflow:hidden;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:126px;height:95px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+<!-- START v1 v1.0 -->
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=hezuo&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!-- END v1 v1.0 -->
+
+</body>
+</html>
+
+";i:19;s:4611:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+<script>
+$(document).ready(function()
+{
+
+    //最热排行
+    shrinkBox('#hotRank .top10ListBox_page01',1);
+    shrinkBox('#hotRank .top10ListBox_page02',2);
+//最热排行Tab
+    switchTab('#hotRank .wgt-tab-s');})
+</script>
+
+<style>
+body,div,h1,h2,h3,ul,form,table,tr,td,dl,dt,dd,em,i,label{margin:0; padding:0;font:12px "\5b8b\4f53","Arial","sans-serif";list-style:none;color:#666;}
+img{border:0;}
+.clearfix:after{clear:both;content:".";display:block;visibility:hidden;font-size:0;height:0;line-height:0;}
+.clearfix{*zoom:1;}
+.inline{display:inline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.tabs{width:auto;padding:0;}
+.tabs li{border:0;}
+.marT20{margin-top:20px;}
+
+a.red{color:#990000;text-decoration:none;}
+a.red:hover{color:#990000;text-decoration:underline;}
+a{color:#666;text-decoration:none;}
+a:active{color:#990000;}
+a:hover{color:#990000;}
+a:focus{outline:0;}
+
+.wgt-tab-s{width:311px;margin:0 auto;border-width:1px 1px 1px 1px;border-color:#dbdbdb;border-style:solid;margin:0;}
+
+.top10ListBox_page01 .top10Panel,.top10ListBox_page02 .top10Panel{width:301px;height:53px;position:absolute;top:0;left:0;background-repeat:repeat-x;line-height:16px;padding:11px 5px 12px 5px;display:none;}
+.top10ListBox_page01 .top10Panel dt, .top10ListBox_page02 .top10Panel dt{width:200px;}
+.doubleBox{width:311px;height:297px;border-width:2px 1px 1px 1px;border-style:solid;border-color:#dbdbdb;padding-bottom:10px;float:left;margin-bottom:5px;}
+.doubleBox h2.titleBox{width:301px;height:32px;border-bottom:1px solid #dbdbdb;padding-left:10px;font:16px/30px "微软雅黑";color:#333;}
+
+.doubleBox .twBox{margin:10px;}
+.doubleBox .twBox img{margin-right:10px;float:left;}
+.doubleBox .twBox ul{line-height:22px;}
+.doubleBox .sPicBox{width:63px;height:75px;margin:10px 0 8px 14px;float:left;display:inline;}
+.doubleBox .sPicBox dt{line-height:22px;text-align:center;}
+.doubleBox .dycjImgBox{width:85px;float:left;}
+.doubleBox .dycjBox{margin:20px 0;}
+.doubleBox .dycjBox img{margin:0 10px 20px 10px;}
+.doubleBox .dycjBox dt{margin:16px 10px 0 10px;}
+.doubleBox .dycjBox dl dt,.doubleBox .dycjBox dl dd{line-height:23px;}
+.ztPicBox{padding-left:18px;margin:10px 0 5px 0;float:left;overflow:hidden;}
+.ztPicBox img{padding:1px;border:#dadada 1px solid;width:126px;height:95px;}
+.ztPicBox a{text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="doubleBox clearfix">
+<!--#CMS_MODULE(两行两列图文_央视合作)#-->
+</div>
+
+<div id="hotRank" class="clear"><!-- tab 开始-->
+<div class="wgt-tab-s">
+<div class="titleBox">
+<h2>第一视频推荐</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(最热排行_央视合作)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+</div>
+
+<!-- START v1 v1.0 -->
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=hezuo&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!-- END v1 v1.0 -->
+
+</body>
+</html>
+
+";}

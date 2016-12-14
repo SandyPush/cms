@@ -1,0 +1,30 @@
+<?=$this->doctype('XHTML1_TRANSITIONAL')?>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <?=$this->headTitle()?>
+    <?=$this->headLink()?>
+    <?=$this->headScript()?>
+    <?=$this->headStyle()?>
+  </head>
+  <body>
+    <div id="layout_rule"></div>
+    <div id="top">
+        <h1>TitanCMS</h1>
+        <div id="nav">
+           <!--<?=$this->layout()->nav ?>-->
+        </div>
+        <div class="clear"></div>
+    </div>
+  
+    <div id="menu">
+       <?=$this->layout()->menu ?>
+    </div>
+      
+    <div id="main">
+        <?=$this->layout()->content?>
+    </div>
+
+  </body>
+</html>

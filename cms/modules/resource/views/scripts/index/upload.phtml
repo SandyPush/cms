@@ -1,0 +1,19 @@
+<?=$this->doctype('XHTML1_TRANSITIONAL')?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="/scripts/jquery/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="/styles/global.css" />
+  </head>
+<body style="text-align: center">
+</body>
+</html>
+<script>
+	window.returnValue = '<?=$this->fileurl?>';
+	if (window.opener && window.opener.lastUploadForm) {
+		window.opener.lastUploadForm.val(window.returnValue);
+		//window.opener.document.getElementById('img_preview').innerHtml = '<img src="'+imgurl+'"/>';
+	}
+
+	window.close();
+</script>

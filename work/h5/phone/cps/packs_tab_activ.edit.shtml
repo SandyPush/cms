@@ -1,0 +1,64 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript" src="http://g.cms.v1cn/scripts/jquery/jquery.js"></script>
+<script type="text/javascript" src="http://g.cms.v1cn/scripts/edit.js"></script>
+<link href="http://g.cms.v1cn/styles/edit.css" media="screen" rel="stylesheet" type="text/css" />
+<script type="text/javascript">var cms_pageid = 189; var cms_type = 3; var cms_modules = {"2":{"type":"code","name":"H5_Content","2":1}}; var EXTRA_MENUS = [];</script>
+</head><body><a id="cms_module_2" class="module_anchor"></a>
+<li class="cps_list">
+    <h2>元旦活动</h2>
+
+    <h2>1、你玩我送，元旦迎新nnnnn</h2>
+
+    <div class="pack_cont">
+        <p>（活动时间12月31日-1月2日，奖励通过邮件发放）</p>
+
+        <p>12月31日：88888金币、18个升星石、188个专精石</p>
+
+        <p>1月1日：188888金币、28个升星石、288个专精石</p>
+
+        <p>1月2日：288888金币、38个升星石、388个专精石</p>
+    </div>
+</li>
+<li class="cps_list">
+    <h2>2、元旦充值返利</h2>
+
+    <div class="pack_cont">
+        <p>（活动时间12月29日更新后-1月4日23:59）</p>
+
+        <p>活动期间：通过游戏内充值页面，单笔充值可获得额外返利</p>
+
+        <p>单笔充值30元额外返利30%</p>
+
+        <p>单笔充值90元额外返利40%</p>
+
+        <p>单笔充值180元额外返利40%</p>
+
+        <p> 单笔充值500元额外返利50%</p>
+
+        <p>单笔充值1000元额外返利50%</p>
+    </div>
+</li>
+<li class="cps_list">
+    <h2>3、双旦心意礼包，心意满满</h2>
+
+    <p>（活动时间内12月24日-1月10日达到对应的VIP等级，可获得对应的VIP心意礼包，奖励通过邮件发放）
+
+    <p> 活动截止统计时间为1月10日23：59</p>
+
+    <p>达到VIP9双旦心意礼包内容为： 588元宝 羽翼之灵*5 boss令牌*3
+        神铸精华*10</p>
+
+    <p>达到VIP10双旦心意礼包内容为：888元宝 羽翼之灵*5 boss令牌*3
+        神铸精华*10 白虎碎片*2 玄武碎片*2</p>
+
+    <p>达到V11双旦心意礼包内容为：888元宝 羽翼之灵*10 boss令牌*5
+        神铸精华*20 白虎碎片*3 玄武碎片*3</p>
+</li>
+<div id="cms_module_form">
+    <textarea id="cms_module_form_contents" cols="60" rows="10"></textarea>
+    
+    <p>
+    <button id="cms_module_form_btn_submit"> Save </button>&nbsp;
+    <button id="cms_module_form_btn_clear"> Clear </button>&nbsp;
+    <button id="cms_module_form_btn_cancel"> Cancel </button>
+    </p>
+</div></body></html><script>window.onload=function(){document.getElementsByTagName("body")[0].ondblclick=function(){if(window.confirm("退出编辑模式？")){location.href="http://g.cms.v1cn/page/pages/preview/pid/189"}}}</script>

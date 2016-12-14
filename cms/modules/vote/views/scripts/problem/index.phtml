@@ -1,0 +1,32 @@
+<div class="area">
+	<div class="help">
+    <p>帮助</p>
+    <p>1、此处为(<?=$this->vote['title']?>)所属的投票题目管理;</p>      
+	<p>2、投票题目是显示在投票界面里的问题，支持单题目，也支持多个题目;</p> 
+	<p>3、状态有正常和删除两种,正常状态，正常显示；删除状态，不显示在界面或接口里;</p>  
+    </div>
+	<div class="nr">	
+    	<h2>      
+			<button onclick="window.location.href='/vote/problem/add/vid/<?=$this->vid?>';">添加题目</button>
+			<button onclick="window.location.href='/vote/index';">返回</button>
+        </h2>
+		
+    	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+		  	<tr>
+            	<th>条目ID</th>
+                <th width="250">问题名称</th>
+				<th>排序</th>
+				<th>状态</th>
+				<th>操作</th> 
+			</tr>
+		  <?php foreach ($this->data as $key => $value): ?>      
+            <tr>
+        		<td><?=$value['pid']?></td>
+                <td><?=$value['title']?></td>           
+				<td><?=$value['orderby']?></td>
+				<td><?=$value['status']?></td>
+				<td><a href="/vote/problem/edit/vid/<?=$value['vid']?>/pid/<?=$value['pid']?>">修改</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/vote/option/index/vid/<?=$value['vid']?>/pid/<?=$value['pid']?>">选项管理</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/vote/problem/del/vid/<?=$value['vid']?>/pid/<?=$value['pid']?>">删除</a></td>           
+            </tr>		
+		 <?php endforeach;  ?>
+        </table>
+    </div>

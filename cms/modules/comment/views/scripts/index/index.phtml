@@ -1,0 +1,65 @@
+<script type="text/javascript" >
+	function del(author){document.forms[1].submit();}	
+	function selectAll(obj){	
+		if($(obj).attr('checked') == false){
+			$(":input[name='ids[]']").each(function() { 
+				$(this).attr("checked", false); 
+			});
+		}else{	
+			$(":input[name='ids[]']").each(function() { 
+				$(this).attr("checked", true); 
+			});
+		}
+	}
+</script>
+<div class="area">
+	<div class="help">
+    <p>帮助</p>
+    <p>1、此处为评论管理;</p>    
+    <p class="soart">
+    	<form action="/comment/index" name="search_form" method="post">
+            <label>搜索评论</label>
+        	<label>文章id:<input class="input" type="text" name="tid" size="8" value="<?=$this->tid?>" /></label>
+            <label>评论作者:<input class="input" type="text" name="author" size="8" value="<?=$this->author?>" /></label>
+            <label>关键字:<input class="input" type="text" name="keyword" size="16" value="<?=$this->keyword?>" /></label>
+			<label>每页条数:<input class="input" type="text" name="pagenum" size="5" value="<?=$this->pagenum?$this->pagenum:500?>" /></label>
+			
+            <input type="submit" value="搜索"></button>
+        </form>
+    </p>    
+    </div>
+	<div class="nr">
+		<form action="/comment/index/delete" name="delete_form" method="post">
+    	<h2>
+			<button onclick="window.location.href='/comment/index/';">返回</button>
+        	<button onclick="del()">批量删除</button>
+			<input  type="checkbox" onclick="selectAll(this);" value="全选">
+        </h2>
+		
+    	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+		  	<tr>
+            	<th>&nbsp;</th>
+                <th width="400">新闻标题</th>
+                <th>发布者</th>
+				<th>发表时间</th>
+				<th>IP</th>  
+			</tr>
+		  <?php foreach ($this->data as $key => $value): ?>      
+            <tr>
+        		<td><input type="checkbox" name='ids[]' value="<?=$value['id']?>" /></td>
+                <td><a href="/comment/index/index/tid/<?=$value['tid']?>" ><?=$value['title']?></a> <a href="<?=$value['url']?>" target="_blank"><img src="/images/globe.gif" style="border:0" align="absmiddle"></a></td>
+                <td><?=$value['author']?></td>
+                <td><?=$value['time']?></td>
+				<td><?=$value['fromip']?></td>           
+            </tr>
+			<tr>
+				<td></td>
+				<td colspan="4"><?=$value['message']?></td>
+			</tr>
+		 <?php endforeach;  ?>
+        </table>
+		</form>
+    </div>
+    <div class="fy">
+		<?=$this->pagebar ?>
+    </div>

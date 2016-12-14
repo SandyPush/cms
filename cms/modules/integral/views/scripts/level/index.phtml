@@ -1,0 +1,39 @@
+<div class="area">
+	<div class="help">
+	    <p>帮助</p>
+	    <p>1、此处为等级列表;</p>    
+    </div>
+	<div class="nr">
+    	<!--<h2><button onclick="window.location.href='/level/create'"></button></h2>-->
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+        	<tr>
+            	<th>ID</th>
+                <th>等级</th>
+                <th>名称</th>
+                <th>最小积分</th>
+                <th>最大积分</th>
+                <th>操作</th>
+                
+            </tr>
+    <?php foreach ($this->levels as $k => $level): ?>
+		    <tr>
+		        <td><?=$level['id'] ?></td>
+		        <td><?=$level['lv'] ?></td>
+		        <td><?=$level['lvName'] ?></td>
+		        <td><?=$level['minScore'] ?></td>
+		        <td><?=$level['maxScore'] ?></td>
+		        
+		        <td>
+		            
+		            <a href="/integral/level/edit/id/<?=$level['id'] ?>">编辑</a> | 
+		            <!--<a href="/integral/level/del/id/<?=$level['id'] ?>" onclick="if (!confirm('确定删除此等级？')) return false">删除</a> -->
+		            
+		            
+		        </td>
+		    </tr>
+    <?php endforeach;  ?>
+
+        </table>
+        
+     </div>
+</div>

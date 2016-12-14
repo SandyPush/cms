@@ -1,0 +1,52 @@
+<?=$this->showErrors()?>
+<div class="area">
+<div class="nr">
+<h2>
+<button onclick="window.location.href='/template/templates/'">返回</button>
+<a href="#nogo">新建模板</a>        	
+</h2>
+<form action="" method="post" onsubmit="return checkForm();">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+<tbody>
+    <tr>
+        <td>名称</td>
+        <td><input type="text" name="name" value="<?=$this->param('name') ?>" /></td>
+    </tr>
+    <tr>
+        <td>类型</td>
+        <td><?=$this->formSelect('type', null, null, $this->type_array)?></td>
+    </tr>
+    <tr class="alt">
+        <td>简介</td>
+        <td><input type="text" name="desc" value="<?=$this->param('desc') ?>" size="80"/></td>
+    </tr>
+    <tr>
+        <td>内容<br />(html)</td>
+        <td><textarea name="content" cols="100" rows="24" style="font-family: courier new"><?=$this->escape($this->param('text'))?></textarea></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td align="center"><input type="submit" name="submit" value="   提 交   " /></td>
+    </tr>
+</tbody>
+</table>
+
+</form>
+</div> 
+</div>
+<script type="text/javascript">
+function checkForm()
+{
+	if(!$(":input[name='name']").val())
+	{
+		alert('名称请填写完整!');
+		return false;
+	}	
+	else if(!$(":input[name='desc']").val())
+	{
+		alert('简介请填写完整!');
+		return false;
+	}
+	return true;
+}
+</script>

@@ -1,0 +1,99 @@
+a:20:{i:0;s:188:"<div style="width:100%;height:10px;position:absolute;left:0;top:0;z-index:-999;"></div>
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(合作模块code)#-->
+";i:1;s:251:"<div style="width:100%;height:10px;position:absolute;left:0;top:0;z-index:-999;"></div>
+<div style="background:#666;width:500px;height:100px;"></div>
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(合作模块code)#-->
+";i:2;s:297:"<style>
+body{margin:0;padding:0;}
+</style>
+<div style="width:100%;height:10px;position:absolute;left:0;top:0;z-index:-999;"></div>
+<div style="background:#666;width:500px;height:100px;"></div>
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(合作模块code)#-->
+";i:3;s:234:"<style>
+body{margin:0;padding:0;}
+</style>
+<div style="width:100%;height:10px;position:absolute;left:0;top:0;z-index:-999;"></div>
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(合作模块code)#-->
+";i:4;s:188:"<div style="width:100%;height:10px;position:absolute;left:0;top:0;z-index:-999;"></div>
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(合作模块code)#-->
+";i:5;s:194:"<div style="width:100%;height:10px;position:absolute;left:0;top:0;z-index:-999;"></div>
+1234
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(合作模块code)#-->
+";i:6;s:188:"<div style="width:100%;height:10px;position:absolute;left:0;top:0;z-index:-999;"></div>
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(合作模块code)#-->
+";i:7;s:184:"<div style="width:100%;height:10px;position:absolute;left:0;top:0;z-index:-999;"></div>
+<!--#CMS_MODULE(code001)#--><!--#CMS_MODULE(code002)#--><!--#CMS_MODULE(合作模块code)#-->
+";i:8;s:97:"
+<!--#CMS_MODULE(code001)#--><!--#CMS_MODULE(code002)#--><!--#CMS_MODULE(合作模块code)#-->
+";i:9;s:184:"<div style="width:100%;height:10px;position:absolute;left:0;top:0;z-index:-999;"></div>
+<!--#CMS_MODULE(code001)#--><!--#CMS_MODULE(code002)#--><!--#CMS_MODULE(合作模块code)#-->
+";i:10;s:184:"<div style="width:100%;height:10px;position:absolute;left:0;top:0;z-index:-999;"></div>
+<!--#CMS_MODULE(code001)#--><!--#CMS_MODULE(code002)#--><!--#CMS_MODULE(合作模块code)#-->
+";i:11;s:95:"<!--#CMS_MODULE(code001)#--><!--#CMS_MODULE(code002)#--><!--#CMS_MODULE(合作模块code)#-->
+";i:12;s:388:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+</head>
+
+<body>
+<!--#CMS_MODULE(code001)#--><!--#CMS_MODULE(code002)#--><!--#CMS_MODULE(合作模块code)#-->
+</body>
+</html>";i:13;s:184:"<div style="width:100%;height:10px;position:absolute;left:0;top:0;z-index:-999;"></div>
+<!--#CMS_MODULE(code001)#--><!--#CMS_MODULE(code002)#--><!--#CMS_MODULE(合作模块code)#-->
+";i:14;s:95:"<!--#CMS_MODULE(code001)#--><!--#CMS_MODULE(code002)#--><!--#CMS_MODULE(合作模块code)#-->
+";i:15;s:163:"<!--#CMS_MODULE(html头)#-->
+
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(合作模块code)#-->
+
+<!--#CMS_MODULE(html尾)#-->
+";i:16;s:252:"<!--#CMS_MODULE(html头)#-->
+<div style="width:100%;height:10px;position:absolute;left:0;top:0;z-index:-999;"></div>
+
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(合作模块code)#-->
+
+<!--#CMS_MODULE(html尾)#-->
+";i:17;s:252:"<!--#CMS_MODULE(html头)#-->
+<div style="width:100%;height:10px;position:absolute;left:0;top:0;z-index:-999;"></div>
+
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(合作模块code)#-->
+
+<!--#CMS_MODULE(html尾)#-->
+";i:18;s:250:"<!--#CMS_MODULE(html头)#-->
+<div style="width:100%;height:10px;position:absolute;left:0;top:0;z-index:-999;"></div>
+
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(合作模块code)#-->
+
+<!--#CMS_MODULE(html尾)#-->";i:19;s:250:"<!--#CMS_MODULE(html头)#-->
+<div style="width:100%;height:10px;position:absolute;left:0;top:0;z-index:-999;"></div>
+
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(合作模块code)#-->
+
+<!--#CMS_MODULE(html尾)#-->";}

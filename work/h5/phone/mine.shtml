@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+<meta name="bannerTitle" content="mine" />
+    
+    <!--#include virtual="/version.shtml"-->
+    <link href="http://static.v1game.cn/<!--#echo var="version"-->css/game/h5/phone/page/profile/homepage.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" href="http://static.v1game.cn/<!--#echo var="version"-->images/game/h5/apple-touch-icon-152x152.png">
+
+<!--#include virtual="/pc/public/baidu.html"-->
+</head>
+<body>
+<img src="http://h.v1game.cn/images/game/h5/logowx.jpg" width="0" height="0"  style="position:absolute;left:-9999px">
+<!--头部 start-->
+<!--#include virtual="/phone/public/header.html"-->
+<!--头部 end-->
+
+<div id="main">
+    <div id="navigation" class="clearfix">
+        <ul class="n_box oreder_box">
+            <li data-type="HGame.getFavorGame" class="curr">我的收藏</li>
+            <li data-type="HGame.getPlayedGames">我玩过的</li>
+            <li data-type="recommend">今日推荐</li>
+        </ul>
+    </div>
+    <!--栏目按钮 结束-->
+
+    <!--最新模块 2列n排-->
+    <div id="wrapper" class="clearfix">
+        <ul node-type="gameList" class="w_box clearfix"></ul>
+        <div style="display:block;" class="add_more">数据正在努力加载中... <img src="http://static.v1game.cn/<!--#echo var="version"-->images/game/h5/loading.gif"/>
+        </div>
+        <div class="clean80px"></div>
+    </div>
+    <div style="display:none" class="mine_recommend">
+        <!--#include virtual="./public/mine_recommend.html"-->
+    </div>
+</div>
+
+<!--底部 start-->
+<!--#include virtual="/phone/public/footer.html"-->
+<!--底部 end-->
+
+<script type="text/javascript" src="http://static.v1.cn/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://static.v1game.cn/<!--#echo var="version"-->js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('' +
+    'http://static.v1game.cn/<!--#echo var="version"-->js/game/h5/phone/profile/page/mine');
+</script>
+
+</body>
+</html><script>window.onload=function(){document.getElementsByTagName("body")[0].ondblclick=function(){if(window.confirm("进入编辑模式？")){Url=location.pathname;Url=Url.replace(/(\.(html|shtml|htm))/,".edit$1");location.href="http://"+location.host+Url;}}}</script>

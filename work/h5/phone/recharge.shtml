@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+<meta name="bannerTitle" content="recharge" />
+<!--#include virtual="/version.shtml"-->
+    <link href="http://static.v1game.cn/<!--#echo var="version"-->css/game/h5/phone/page/profile/login.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" href="http://static.v1game.cn/<!--#echo var="version"-->images/game/h5/apple-touch-icon-152x152.png">
+
+<!--#include virtual="/pc/public/baidu.html"-->
+</head>
+<body>
+<img src="http://h.v1game.cn/images/game/h5/logowx.jpg" width="0" height="0"  style="position:absolute;left:-9999px">
+<!--头部 start-->
+<!--#include virtual="/phone/public/header.html"-->
+<!--头部 end-->
+
+<!--充值开始-->
+<div id="main" class="recharge top50">
+<form id="payForm" method="post">
+  <input type="hidden" placeholder="订单编号" id="orderNo" name="pay[orderNo]">
+  <input type="hidden" placeholder="游戏" id="gameNoInput" name="pay[gameNo]">
+  <input type="hidden" placeholder="区服" id="gameServerInput" name="pay[serverNo]">
+  <input type="hidden" placeholder="用户ssoUID" id="ssoUIDInput" name="pay[ssoUID]">
+  <input type="hidden" placeholder="备注信息" id="remarkInput" name="pay[remarks]">                          
+  <input type="hidden" placeholder="充值到:1游戏,2平台" id="toGame" name="pay[depositWhere]" value="1" >
+  <input type="hidden" placeholder="充值金额" id="denominationYuan" name="pay[money]">
+
+  <div class="rech">支付方式 
+    <span class="fr">
+      <select id="payType" name="pay[payType]" class="rech_sec"></select>
+    </span>
+  </div>
+
+  <div class="rech">充值帐号
+    <span class="fr">
+      <input id="usernameInput" type="text" class="rech_text" placeholder="请输入用户名" />
+    </span>
+  </div>
+  <div class="rech line_btm">选择游戏
+    <span class="fr"> 
+      <select id="selectGame" class="rech_sec">
+        <option>选择游戏和服务器</option>
+      </select>
+    </span>
+  </div>
+
+  <ul class="rech_list" id="denominationID">
+    <div class="box95 h70">充填金额 <span class="fr">兑换比例1：<span id="exchangeRateMessage">-</span></span></div>
+    <li><a href="javascript:void(0);">¥10</a></li>
+    <li><a href="javascript:void(0);">¥50</a></li>
+    <li><a href="javascript:void(0);">¥100</a></li>
+    <li><a href="javascript:void(0);">¥500</a></li>
+    <li><a href="javascript:void(0);">¥1000</a></li>
+    <li><a href="javascript:void(0);">¥5000</a></li>
+    <div class="sum_y"><input id="denominationYuanCustom" type="text" class="input_sum" placeholder="输入充值金额" /></div>
+  </ul>
+  <div class="box95"><input id="buttonOK" type="button" value="确定充值" class="red_btn" /></div>
+</form>
+</div>
+<!--充值结束-->
+
+<!--底部 start-->
+<!--#include virtual="/phone/public/footer.html"-->
+<!--底部 end-->
+
+<script type="text/javascript" src="http://static.v1.cn/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://static.v1game.cn/<!--#echo var="version"-->js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1game.cn/<!--#echo var="version"-->js/game/h5/phone/profile/page/recharge');
+</script>
+
+</body>
+</html><script>window.onload=function(){document.getElementsByTagName("body")[0].ondblclick=function(){if(window.confirm("进入编辑模式？")){Url=location.pathname;Url=Url.replace(/(\.(html|shtml|htm))/,".edit$1");location.href="http://"+location.host+Url;}}}</script>

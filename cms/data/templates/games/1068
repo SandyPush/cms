@@ -1,0 +1,1715 @@
+a:20:{i:0;s:4381:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/ghall.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div id="loged" class="login gh_login">
+        <!--未登录 start-->
+        <form class="login_form" >
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+<label class="form_nm">验证码</label>
+<input class="ipttxt_s" type="text" id="captcha"/>
+<label class="login_captcha_img">
+<iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:70px;height:27px;"></iframe>
+</label>
+<a class="change_captcha">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <!--a class="qq_login" href="#">QQ登录</a-->
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab curr" id="gamePlayed" >我玩过的游戏</h2>
+            <h2 class="module_hd_arrow" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">
+        <ul class="history_module" id="played">
+            <!--我玩过的游戏list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_01)#-->
+            <!--我玩过的游戏list end-->
+        </ul>
+        <ul class="recommend_module" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:1;s:4415:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/ghall.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div id="loged" class="login gh_login">
+        <!--未登录 start-->
+        <form class="login_form" >
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+<label class="form_nm">验证码</label>
+<input class="ipttxt_s" type="text" id="captcha"/>
+<label class="login_captcha_img">
+<iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:70px;height:27px;"></iframe>
+</label>
+<a class="change_captcha">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <!--a class="qq_login" href="#">QQ登录</a-->
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab curr" id="gamePlayed" >我玩过的游戏</h2>
+            <h2 class="module_hd_arrow" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">
+        <ul class="history_module tab_content_item" id="played">
+            <!--我玩过的游戏list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_01)#-->
+            <!--我玩过的游戏list end-->
+        </ul>
+        <ul class="recommend_module tab_content_item" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:2;s:4438:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/ghall.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div id="loged" class="login gh_login">
+        <!--未登录 start-->
+        <form class="login_form" >
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+<label class="form_nm">验证码</label>
+<input class="ipttxt_s" type="text" id="captcha"/>
+<label class="login_captcha_img">
+<iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:70px;height:27px;"></iframe>
+</label>
+<a class="change_captcha">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <!--a class="qq_login" href="#">QQ登录</a-->
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab curr" id="gamePlayed" >我玩过的游戏</h2>
+            <h2 class="module_hd_arrow" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">
+        <ul class="history_module tab_content_item" style="display:block;" id="played">
+            <!--我玩过的游戏list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_01)#-->
+            <!--我玩过的游戏list end-->
+        </ul>
+        <ul class="recommend_module tab_content_item" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:3;s:4438:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/ghall.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div id="loged" class="login gh_login">
+        <!--未登录 start-->
+        <form class="login_form" >
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+<label class="form_nm">验证码</label>
+<input class="ipttxt_s" type="text" id="captcha"/>
+<label class="login_captcha_img">
+<iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+</label>
+<a class="change_captcha">换一张</a></p>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <!--a class="qq_login" href="#">QQ登录</a-->
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab curr" id="gamePlayed" >我玩过的游戏</h2>
+            <h2 class="module_hd_arrow" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">
+        <ul class="history_module tab_content_item" style="display:block;" id="played">
+            <!--我玩过的游戏list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_01)#-->
+            <!--我玩过的游戏list end-->
+        </ul>
+        <ul class="recommend_module tab_content_item" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:4;s:4497:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/ghall.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div id="loged" class="login gh_login">
+        <!--未登录 start-->
+        <form class="login_form" >
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+                    <label class="form_nm">验证码</label>
+                    <input class="ipttxt_s" type="text" id="captcha"/>
+                    <label class="login_captcha_img">
+                        <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                    </label>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <!--a class="qq_login" href="#">QQ登录</a-->
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab curr" id="gamePlayed" >我玩过的游戏</h2>
+            <h2 class="module_hd_arrow" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">
+        <ul class="history_module tab_content_item" style="display:block;" id="played">
+            <!--我玩过的游戏list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_01)#-->
+            <!--我玩过的游戏list end-->
+        </ul>
+        <ul class="recommend_module tab_content_item" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:5;s:4548:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1游戏大厅-最火热最劲爆的网页游戏,V1网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/ghall.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div id="loged" class="login gh_login">
+        <!--未登录 start-->
+        <form class="login_form" >
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+                    <label class="form_nm">验证码</label>
+                    <input class="ipttxt_s" type="text" id="captcha"/>
+                    <label class="login_captcha_img">
+                        <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                    </label>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <!--a class="qq_login" href="#">QQ登录</a-->
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab curr" id="gamePlayed" >我玩过的游戏</h2>
+            <h2 class="module_hd_arrow" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">
+        <ul class="history_module tab_content_item" style="display:block;" id="played">
+            <!--我玩过的游戏list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_01)#-->
+            <!--我玩过的游戏list end-->
+        </ul>
+        <ul class="recommend_module tab_content_item" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:6;s:4546:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1游戏大厅-最火热最劲爆的网页游戏,V1网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/ghall.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div id="loged" class="login gh_login">
+        <!--未登录 start-->
+        <form class="login_form" >
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+                    <label class="form_nm">验证码</label>
+                    <input class="ipttxt_s" type="text" id="captcha"/>
+                    <label class="login_captcha_img">
+                        <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                    </label>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <!--a class="qq_login" href="#">QQ登录</a-->
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab curr" id="gamePlayed" >我玩过的游戏</h2>
+            <h2 class="module_hd_tab" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">
+        <ul class="history_module tab_content_item" style="display:block;" id="played">
+            <!--我玩过的游戏list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_01)#-->
+            <!--我玩过的游戏list end-->
+        </ul>
+        <ul class="recommend_module tab_content_item" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:7;s:4365:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1游戏大厅-最火热最劲爆的网页游戏,V1网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>    
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div id="loged" class="login gh_login">
+        <!--未登录 start-->
+        <form class="login_form" >
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+                    <label class="form_nm">验证码</label>
+                    <input class="ipttxt_s" type="text" id="captcha"/>
+                    <label class="login_captcha_img">
+                        <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                    </label>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <!--a class="qq_login" href="#">QQ登录</a-->
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">
+        <ul class="history_module tab_content_item" style="display:none;" id="played">
+            <!--我玩过的游戏list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_01)#-->
+            <!--我玩过的游戏list end-->
+        </ul>
+        <ul class="recommend_module tab_content_item" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:8;s:4388:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1游戏大厅-最火热最劲爆的网页游戏,V1网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>    
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div id="loged" class="login gh_login">
+        <!--未登录 start-->
+        <form class="login_form" >
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+                    <label class="form_nm">验证码</label>
+                    <input class="ipttxt_s" type="text" id="captcha"/>
+                    <label class="login_captcha_img">
+                        <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                    </label>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <!--a class="qq_login" href="#">QQ登录</a-->
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">
+        <ul class="history_module tab_content_item" style="display:none;" id="played">
+            <!--我玩过的游戏list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_01)#-->
+            <!--我玩过的游戏list end-->
+        </ul>
+        <ul class="recommend_module tab_content_item" style="display:block;" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:9;s:4144:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1游戏大厅-最火热最劲爆的网页游戏,V1网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>    
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div id="loged" class="login gh_login">
+        <!--未登录 start-->
+        <form class="login_form" >
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+                    <label class="form_nm">验证码</label>
+                    <input class="ipttxt_s" type="text" id="captcha"/>
+                    <label class="login_captcha_img">
+                        <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                    </label>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <!--a class="qq_login" href="#">QQ登录</a-->
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">       
+        <ul class="recommend_module tab_content_item" style="display:block;" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:10;s:4174:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1游戏大厅-最火热最劲爆的网页游戏,V1网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>    
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div class="login gh_login">
+        <!--未登录 start-->
+        <div id="loged">
+        <form class="login_form">
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+                    <label class="form_nm">验证码</label>
+                    <input class="ipttxt_s" type="text" id="captcha"/>
+                    <label class="login_captcha_img">
+                        <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                    </label>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <!--a class="qq_login" href="#">QQ登录</a-->
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        </div>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">       
+        <ul class="recommend_module tab_content_item" style="display:block;" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:11;s:4169:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1游戏大厅-最火热最劲爆的网页游戏,V1网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>    
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div class="login gh_login">
+        <!--未登录 start-->
+        <div id="loged">
+        <form class="login_form">
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+                    <label class="form_nm">验证码</label>
+                    <input class="ipttxt_s" type="text" id="captcha"/>
+                    <label class="login_captcha_img">
+                        <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                    </label>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <a class="qq_login" href="#">QQ登录</a>
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        </div>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">       
+        <ul class="recommend_module tab_content_item" style="display:block;" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:12;s:4182:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1游戏大厅-最火热最劲爆的网页游戏,V1网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>    
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div class="login gh_login">
+        <!--未登录 start-->
+        <div id="loged">
+        <form class="login_form">
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+                    <label class="form_nm">验证码</label>
+                    <input class="ipttxt_s" type="text" id="captcha"/>
+                    <label class="login_captcha_img">
+                        <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                    </label>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <a class="qq_login" href="#" id="qqLogin">QQ登录</a>
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        </div>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">       
+        <ul class="recommend_module tab_content_item" style="display:block;" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:13;s:4187:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1游戏大厅-最火热最劲爆的网页游戏,V1网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>    
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div class="login gh_login">
+        <!--未登录 start-->
+        <div id="loged">
+        <form class="login_form">
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+                    <label class="form_nm">验证码</label>
+                    <input class="ipttxt_s" type="text" id="captcha"/>
+                    <label class="login_captcha_img">
+                        <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                    </label>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <!--a class="qq_login" href="#" id="qqLogin">QQ登录</a-->
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        </div>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">       
+        <ul class="recommend_module tab_content_item" style="display:block;" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:14;s:4303:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1游戏大厅-最火热最劲爆的网页游戏,V1网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>    
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div class="login gh_login">
+        <!--未登录 start-->
+        <div id="loged">
+        <form class="login_form">
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+                    <label class="form_nm">验证码</label>
+                    <input class="ipttxt_s" type="text" id="captcha"/>
+                    <label class="login_captcha_img">
+                        <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                    </label>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <!--a class="qq_login" href="#" id="qqLogin">QQ登录</a-->
+                    <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        </div>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">       
+        <ul class="recommend_module tab_content_item" style="display:block;" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:15;s:4427:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1游戏大厅-最火热最劲爆的网页游戏,V1网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>    
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div class="login gh_login">
+        <!--未登录 start-->
+        <div id="loged">
+        <form class="login_form">
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+                    <label class="form_nm">验证码</label>
+                    <input class="ipttxt_s" type="text" id="captcha"/>
+                    <label class="login_captcha_img">
+                        <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                    </label>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <!--a class="qq_login" href="#" id="qqLogin">QQ登录</a-->
+                    <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                    <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        </div>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">       
+        <ul class="recommend_module tab_content_item" style="display:block;" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:16;s:4383:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1游戏大厅-最火热最劲爆的网页游戏,V1网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>    
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div class="login gh_login">
+        <!--未登录 start-->
+        <div id="loged">
+        <form class="login_form">
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+                    <label class="form_nm">验证码</label>
+                    <input class="ipttxt_s" type="text" id="captcha"/>
+                    <label class="login_captcha_img">
+                        <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                    </label>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <!--a class="qq_login" href="#" id="qqLogin">QQ登录</a-->
+                    <a class="qq_login" href="javascript:void(0);" id="qqLogin">QQ登录</a>
+                    <a class="sina_login" href="javascript:void(0);" id="sinaLogin">微博登录</a>
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        </div>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">       
+        <ul class="recommend_module tab_content_item" style="display:block;" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:17;s:4393:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1游戏大厅-最火热最劲爆的网页游戏,V1网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>    
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div class="login gh_login">
+        <!--未登录 start-->
+        <div id="loged">
+        <form class="login_form">
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+                    <label class="form_nm">验证码</label>
+                    <input class="ipttxt_s" type="text" id="captcha"/>
+                    <label class="login_captcha_img">
+                        <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                    </label>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <!--a class="qq_login" href="#" id="qqLogin">QQ登录</a-->
+                    <!--a class="qq_login" href="javascript:void(0);" id="qqLogin">QQ登录</a-->
+                    <!--a class="sina_login" href="javascript:void(0);" id="sinaLogin">微博登录</a-->
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        </div>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">       
+        <ul class="recommend_module tab_content_item" style="display:block;" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:18;s:4427:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1游戏大厅-最火热最劲爆的网页游戏,V1网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>    
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div class="login gh_login">
+        <!--未登录 start-->
+        <div id="loged">
+        <form class="login_form">
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+                    <label class="form_nm">验证码</label>
+                    <input class="ipttxt_s" type="text" id="captcha"/>
+                    <label class="login_captcha_img">
+                        <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                    </label>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <!--a class="qq_login" href="#" id="qqLogin">QQ登录</a-->
+                    <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                    <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        </div>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">       
+        <ul class="recommend_module tab_content_item" style="display:block;" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:19;s:4457:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1游戏大厅-最火热最劲爆的网页游戏,V1网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/game/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/game/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/game/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/game/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/game/gplatform/v1.0/js/login.js" type="text/javascript"></script>    
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--主体内容 start-->
+<div class="main">
+    <!--登录 start-->
+    <div class="login gh_login">
+        <!--未登录 start-->
+        <div id="loged">
+        <form class="login_form">
+            <fieldset>
+                <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                <p class="login_captcha">
+                    <label class="form_nm">验证码</label>
+                    <input class="ipttxt_s" type="text" id="captcha"/>
+                    <label class="login_captcha_img">
+                        <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                    </label>
+                <p class="login_auto">
+                    <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                    <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                </p>
+                <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                <p class="login_other">
+                    <!--a class="qq_login" href="#" id="qqLogin">QQ登录</a-->
+                    <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                    <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                    <a class="blue_link" href="./register.shtml">注册账号</a>
+                </p>
+            </fieldset>
+        </form>
+        </div>
+        <!--未登录 end-->        
+        <div class="you_like">
+            <h2 class="module_hd_simple">猜你喜欢</h2>
+            <div class="textlist_module textlist_shutters_module">
+                <ul class="textlist_module_wrap">
+                    <!--猜你喜欢list start-->
+                    <!--#CMS_MODULE(GHALL_01_LEFT)#-->
+                    <!--猜你喜欢list  end-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录 end-->
+    <!--精品推荐 start-->
+    <div class="game_recommend">
+        <div class="module_hd">
+            <h2 class="module_hd_tab" id="gameRecommand" >精品推荐</h2>
+        </div>
+     <div class="tab_content">       
+        <ul class="recommend_module tab_content_item" style="display:block;" id="recommend">
+            <!--精品推荐list start-->
+            <!--#CMS_MODULE(GHALL_01_RIGHT_02)#-->
+            <!--精品推荐list end-->
+        </ul>
+    </div>
+    </div>
+    <!--精品推荐 end-->
+    <!--游戏大厅游戏列表 start-->
+    <!--游戏大厅游戏列表 start-->
+    <div class="gh_games">
+        <!--#CMS_MODULE(GHALL_02_FULL)#-->
+    </div>
+    <!--游戏大厅游戏列表 end-->
+    <!--游戏大厅游戏列表 end-->
+</div>
+<!--主体内容 end-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";}

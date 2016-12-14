@@ -1,0 +1,3161 @@
+a:20:{i:0;s:14637:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2014热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v2.0/images/logo.png" border="0" /></a></div>
+<!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+<div class="btn float_r"><a href="#" target="_blank">注册</a><a href="#" target="_blank">收藏</a></div>
+</div>
+<div class="main">
+<div class="game_link game_link_left">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="487" height="491">
+<param name="movie" value="images/left_banner.swf">
+<param name="quality" value="high">
+<param name="wmode" value="transparent" />
+<embed src="images/right_banner.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="487" height="491"></embed>
+</object>
+</div>
+<div class="game_link game_link_right"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="487" height="491">
+<param name="movie" value="images/left_banner.swf">
+<param name="quality" value="high">
+<param name="wmode" value="transparent" />
+<embed src="images/left_banner.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="487" height="491"></embed>
+</object></div>
+<div class="mtv">
+<ul>
+<li><a href="#"><img src="images/bz.png" alt="百战天下" /></a></li>
+<li><a href="#"><img src="images/zl.png" alt="斩龙传奇" /></a></li>
+<li><a href="#"><img src="images/my.png" alt="魅影传说" /></a></li>
+<li><a href="#"><img src="images/fs.png" alt="风色轨迹" /></a></li>
+</ul>
+<div class="flash_layer">
+<embed width="1180" height="310" src="images/GameRanking.swf" flashvars="swfs=
+images/000000.swf@
+images/000000.swf@
+images/000000.swf@
+images/000000.swf@
+
+&urls=
+
+http://ha.g.v1.cn/wmlped.shtml?mac=hg03944@
+
+http://xajt.g.v1.cn/jjujsc.shtml?mac=xajt02754@
+
+http://jzz.g.v1.cn/yrsxwt.shtml?mac=jzz03092@
+
+http://fs.g.v1.cn/mvyfvt.shtml?mac=fsgj02755@
+
+" name="play1" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" type="application/x-shockwave-flash"></embed>
+
+</div>
+</div>
+</div>
+<!--banner 开始-->
+<div class="banner">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="70">
+<param name="movie" value="images/980-70.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<embed src="images/980-70.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="980" height="70"></embed>
+</object>
+</div>
+<!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+<!--left 开始-->
+<div class="left_side float_l">
+
+
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_my.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line"
+                    name="line"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">万世</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_ws.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_my.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line1"
+                    name="line1"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_gcld.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line2"
+                    name="line2"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_xajt.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line3"
+                    name="line3"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+</div>
+<!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+<ul>
+<li id="m01" class="show1"><span class="number bg1"></span><a href="#" class="a1">风色轨迹</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c01" class="show2" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹风色轨迹</span><span>异时空魔法世界风色轨迹</span><span>热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/5.swf" />
+<param name="quality" value="high" />
+<embed src="images/5.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m02" class="show1"><span class="number bg2"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c02" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m03" class="show1"><span class="number bg3"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 zero"></span></li>
+<li id="c03" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m04" class="show1"><span class="number bg4"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 down">&nbsp;</span></li>
+<li id="c04" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/2.swf" />
+<param name="quality" value="high" />
+<embed src="images/2.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+</ul>
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+</body>
+</html>
+";i:1;s:14637:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2014热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v1.0/images/logo.png" border="0" /></a></div>
+<!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+<div class="btn float_r"><a href="#" target="_blank">注册</a><a href="#" target="_blank">收藏</a></div>
+</div>
+<div class="main">
+<div class="game_link game_link_left">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="487" height="491">
+<param name="movie" value="images/left_banner.swf">
+<param name="quality" value="high">
+<param name="wmode" value="transparent" />
+<embed src="images/right_banner.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="487" height="491"></embed>
+</object>
+</div>
+<div class="game_link game_link_right"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="487" height="491">
+<param name="movie" value="images/left_banner.swf">
+<param name="quality" value="high">
+<param name="wmode" value="transparent" />
+<embed src="images/left_banner.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="487" height="491"></embed>
+</object></div>
+<div class="mtv">
+<ul>
+<li><a href="#"><img src="images/bz.png" alt="百战天下" /></a></li>
+<li><a href="#"><img src="images/zl.png" alt="斩龙传奇" /></a></li>
+<li><a href="#"><img src="images/my.png" alt="魅影传说" /></a></li>
+<li><a href="#"><img src="images/fs.png" alt="风色轨迹" /></a></li>
+</ul>
+<div class="flash_layer">
+<embed width="1180" height="310" src="images/GameRanking.swf" flashvars="swfs=
+images/000000.swf@
+images/000000.swf@
+images/000000.swf@
+images/000000.swf@
+
+&urls=
+
+http://ha.g.v1.cn/wmlped.shtml?mac=hg03944@
+
+http://xajt.g.v1.cn/jjujsc.shtml?mac=xajt02754@
+
+http://jzz.g.v1.cn/yrsxwt.shtml?mac=jzz03092@
+
+http://fs.g.v1.cn/mvyfvt.shtml?mac=fsgj02755@
+
+" name="play1" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" type="application/x-shockwave-flash"></embed>
+
+</div>
+</div>
+</div>
+<!--banner 开始-->
+<div class="banner">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="70">
+<param name="movie" value="images/980-70.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<embed src="images/980-70.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="980" height="70"></embed>
+</object>
+</div>
+<!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+<!--left 开始-->
+<div class="left_side float_l">
+
+
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_my.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line"
+                    name="line"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">万世</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_ws.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_my.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line1"
+                    name="line1"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_gcld.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line2"
+                    name="line2"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_xajt.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line3"
+                    name="line3"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+</div>
+<!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+<ul>
+<li id="m01" class="show1"><span class="number bg1"></span><a href="#" class="a1">风色轨迹</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c01" class="show2" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹风色轨迹</span><span>异时空魔法世界风色轨迹</span><span>热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/5.swf" />
+<param name="quality" value="high" />
+<embed src="images/5.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m02" class="show1"><span class="number bg2"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c02" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m03" class="show1"><span class="number bg3"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 zero"></span></li>
+<li id="c03" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m04" class="show1"><span class="number bg4"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 down">&nbsp;</span></li>
+<li id="c04" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/2.swf" />
+<param name="quality" value="high" />
+<embed src="images/2.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+</ul>
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+</body>
+</html>
+";i:2;s:14637:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2014热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v2.0/images/logo.png" border="0" /></a></div>
+<!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+<div class="btn float_r"><a href="#" target="_blank">注册</a><a href="#" target="_blank">收藏</a></div>
+</div>
+<div class="main">
+<div class="game_link game_link_left">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="487" height="491">
+<param name="movie" value="images/left_banner.swf">
+<param name="quality" value="high">
+<param name="wmode" value="transparent" />
+<embed src="images/right_banner.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="487" height="491"></embed>
+</object>
+</div>
+<div class="game_link game_link_right"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="487" height="491">
+<param name="movie" value="images/left_banner.swf">
+<param name="quality" value="high">
+<param name="wmode" value="transparent" />
+<embed src="images/left_banner.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="487" height="491"></embed>
+</object></div>
+<div class="mtv">
+<ul>
+<li><a href="#"><img src="images/bz.png" alt="百战天下" /></a></li>
+<li><a href="#"><img src="images/zl.png" alt="斩龙传奇" /></a></li>
+<li><a href="#"><img src="images/my.png" alt="魅影传说" /></a></li>
+<li><a href="#"><img src="images/fs.png" alt="风色轨迹" /></a></li>
+</ul>
+<div class="flash_layer">
+<embed width="1180" height="310" src="images/GameRanking.swf" flashvars="swfs=
+images/000000.swf@
+images/000000.swf@
+images/000000.swf@
+images/000000.swf@
+
+&urls=
+
+http://ha.g.v1.cn/wmlped.shtml?mac=hg03944@
+
+http://xajt.g.v1.cn/jjujsc.shtml?mac=xajt02754@
+
+http://jzz.g.v1.cn/yrsxwt.shtml?mac=jzz03092@
+
+http://fs.g.v1.cn/mvyfvt.shtml?mac=fsgj02755@
+
+" name="play1" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" type="application/x-shockwave-flash"></embed>
+
+</div>
+</div>
+</div>
+<!--banner 开始-->
+<div class="banner">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="70">
+<param name="movie" value="images/980-70.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<embed src="images/980-70.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="980" height="70"></embed>
+</object>
+</div>
+<!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+<!--left 开始-->
+<div class="left_side float_l">
+
+
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_my.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line"
+                    name="line"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">万世</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_ws.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_my.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line1"
+                    name="line1"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_gcld.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line2"
+                    name="line2"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_xajt.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line3"
+                    name="line3"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+</div>
+<!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+<ul>
+<li id="m01" class="show1"><span class="number bg1"></span><a href="#" class="a1">风色轨迹</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c01" class="show2" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹风色轨迹</span><span>异时空魔法世界风色轨迹</span><span>热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/5.swf" />
+<param name="quality" value="high" />
+<embed src="images/5.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m02" class="show1"><span class="number bg2"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c02" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m03" class="show1"><span class="number bg3"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 zero"></span></li>
+<li id="c03" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m04" class="show1"><span class="number bg4"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 down">&nbsp;</span></li>
+<li id="c04" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/2.swf" />
+<param name="quality" value="high" />
+<embed src="images/2.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+</ul>
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+</body>
+</html>
+";i:3;s:13976:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2014热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v2.0/images/logo.png" border="0" /></a></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+<div class="btn float_r"><a href="#" target="_blank">注册</a><a href="#" target="_blank">收藏</a></div>
+</div>
+<div class="main">
+<div class="game_link game_link_left">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="487" height="491">
+<param name="movie" value="images/left_banner.swf">
+<param name="quality" value="high">
+<param name="wmode" value="transparent" />
+<embed src="images/right_banner.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="487" height="491"></embed>
+</object>
+</div>
+<div class="game_link game_link_right"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="487" height="491">
+<param name="movie" value="images/left_banner.swf">
+<param name="quality" value="high">
+<param name="wmode" value="transparent" />
+<embed src="images/left_banner.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="487" height="491"></embed>
+</object></div>
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_V2_01_FULL)#-->
+    <!--首屏四个动画 end-->
+</div>
+</div>
+<!--banner 开始-->
+<div class="banner">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="70">
+<param name="movie" value="images/980-70.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<embed src="images/980-70.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="980" height="70"></embed>
+</object>
+</div>
+<!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+<!--left 开始-->
+<div class="left_side float_l">
+
+
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_my.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line"
+                    name="line"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">万世</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_ws.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_my.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line1"
+                    name="line1"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_gcld.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line2"
+                    name="line2"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_xajt.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line3"
+                    name="line3"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+</div>
+<!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+<ul>
+<li id="m01" class="show1"><span class="number bg1"></span><a href="#" class="a1">风色轨迹</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c01" class="show2" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹风色轨迹</span><span>异时空魔法世界风色轨迹</span><span>热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/5.swf" />
+<param name="quality" value="high" />
+<embed src="images/5.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m02" class="show1"><span class="number bg2"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c02" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m03" class="show1"><span class="number bg3"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 zero"></span></li>
+<li id="c03" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m04" class="show1"><span class="number bg4"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 down">&nbsp;</span></li>
+<li id="c04" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/2.swf" />
+<param name="quality" value="high" />
+<embed src="images/2.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+</ul>
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+</body>
+</html>
+";i:4;s:13976:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2014热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v2.0/images/logo.png" border="0" /></a></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+<div class="btn float_r"><a href="#" target="_blank">注册</a><a href="#" target="_blank">收藏</a></div>
+</div>
+<div class="main">
+<div class="game_link game_link_left">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="487" height="491">
+<param name="movie" value="images/left_banner.swf">
+<param name="quality" value="high">
+<param name="wmode" value="transparent" />
+<embed src="images/right_banner.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="487" height="491"></embed>
+</object>
+</div>
+<div class="game_link game_link_right"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="487" height="491">
+<param name="movie" value="images/left_banner.swf">
+<param name="quality" value="high">
+<param name="wmode" value="transparent" />
+<embed src="images/left_banner.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="487" height="491"></embed>
+</object></div>
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_V2_01_FULL)#-->
+    <!--首屏四个动画 end-->
+</div>
+</div>
+<!--banner 开始-->
+<div class="banner">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="70">
+<param name="movie" value="images/980-70.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<embed src="images/980-70.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="980" height="70"></embed>
+</object>
+</div>
+<!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+<!--left 开始-->
+<div class="left_side float_l">
+
+
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_my.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line"
+                    name="line"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">万世</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_ws.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_my.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line1"
+                    name="line1"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_gcld.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line2"
+                    name="line2"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_xajt.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line3"
+                    name="line3"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+</div>
+<!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+<ul>
+<li id="m01" class="show1"><span class="number bg1"></span><a href="#" class="a1">风色轨迹</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c01" class="show2" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹风色轨迹</span><span>异时空魔法世界风色轨迹</span><span>热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/5.swf" />
+<param name="quality" value="high" />
+<embed src="images/5.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m02" class="show1"><span class="number bg2"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c02" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m03" class="show1"><span class="number bg3"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 zero"></span></li>
+<li id="c03" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m04" class="show1"><span class="number bg4"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 down">&nbsp;</span></li>
+<li id="c04" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/2.swf" />
+<param name="quality" value="high" />
+<embed src="images/2.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+</ul>
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+</body>
+</html>
+";i:5;s:13976:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2014热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v2.0/images/logo.png" border="0" /></a></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+<div class="btn float_r"><a href="#" target="_blank">注册</a><a href="#" target="_blank">收藏</a></div>
+</div>
+<div class="main">
+<div class="game_link game_link_left">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="487" height="491">
+<param name="movie" value="images/left_banner.swf">
+<param name="quality" value="high">
+<param name="wmode" value="transparent" />
+<embed src="images/right_banner.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="487" height="491"></embed>
+</object>
+</div>
+<div class="game_link game_link_right"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="487" height="491">
+<param name="movie" value="images/left_banner.swf">
+<param name="quality" value="high">
+<param name="wmode" value="transparent" />
+<embed src="images/left_banner.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="487" height="491"></embed>
+</object></div>
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_V2_01_FULL)#-->
+    <!--首屏四个动画 end-->
+</div>
+</div>
+<!--banner 开始-->
+<div class="banner">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="70">
+<param name="movie" value="images/980-70.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<embed src="images/980-70.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="980" height="70"></embed>
+</object>
+</div>
+<!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+<!--left 开始-->
+<div class="left_side float_l">
+
+
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_my.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line"
+                    name="line"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">万世</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_ws.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_my.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line1"
+                    name="line1"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_gcld.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line2"
+                    name="line2"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_xajt.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line3"
+                    name="line3"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+</div>
+<!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+<ul>
+<li id="m01" class="show1"><span class="number bg1"></span><a href="#" class="a1">风色轨迹</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c01" class="show2" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹风色轨迹</span><span>异时空魔法世界风色轨迹</span><span>热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/5.swf" />
+<param name="quality" value="high" />
+<embed src="images/5.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m02" class="show1"><span class="number bg2"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c02" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m03" class="show1"><span class="number bg3"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 zero"></span></li>
+<li id="c03" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m04" class="show1"><span class="number bg4"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 down">&nbsp;</span></li>
+<li id="c04" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/2.swf" />
+<param name="quality" value="high" />
+<embed src="images/2.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+</ul>
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+</body>
+</html>
+";i:6;s:13976:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2014热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v2.0/images/logo.png" border="0" /></a></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+<div class="btn float_r"><a href="#" target="_blank">注册</a><a href="#" target="_blank">收藏</a></div>
+</div>
+<div class="main">
+<div class="game_link game_link_left">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="487" height="491">
+<param name="movie" value="images/left_banner.swf">
+<param name="quality" value="high">
+<param name="wmode" value="transparent" />
+<embed src="images/right_banner.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="487" height="491"></embed>
+</object>
+</div>
+<div class="game_link game_link_right"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="487" height="491">
+<param name="movie" value="images/left_banner.swf">
+<param name="quality" value="high">
+<param name="wmode" value="transparent" />
+<embed src="images/left_banner.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="487" height="491"></embed>
+</object></div>
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_V2_01_FULL)#-->
+    <!--首屏四个动画 end-->
+</div>
+</div>
+<!--banner 开始-->
+<div class="banner">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="70">
+<param name="movie" value="images/980-70.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<embed src="images/980-70.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="980" height="70"></embed>
+</object>
+</div>
+<!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+<!--left 开始-->
+<div class="left_side float_l">
+
+
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_my.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line"
+                    name="line"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">万世</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_ws.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_my.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line1"
+                    name="line1"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_gcld.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line2"
+                    name="line2"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_xajt.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line3"
+                    name="line3"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+</div>
+<!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+<ul>
+<li id="m01" class="show1"><span class="number bg1"></span><a href="#" class="a1">风色轨迹</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c01" class="show2" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹风色轨迹</span><span>异时空魔法世界风色轨迹</span><span>热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/5.swf" />
+<param name="quality" value="high" />
+<embed src="images/5.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m02" class="show1"><span class="number bg2"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c02" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m03" class="show1"><span class="number bg3"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 zero"></span></li>
+<li id="c03" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m04" class="show1"><span class="number bg4"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 down">&nbsp;</span></li>
+<li id="c04" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/2.swf" />
+<param name="quality" value="high" />
+<embed src="images/2.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+</ul>
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+</body>
+</html>
+";i:7;s:13462:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2014热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v2.0/images/logo.png" border="0" /></a></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+<div class="btn float_r"><a href="#" target="_blank">注册</a><a href="#" target="_blank">收藏</a></div>
+</div>
+<div class="main">
+<div class="game_link game_link_left">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="487" height="491">
+<param name="movie" value="images/left_banner.swf">
+<param name="quality" value="high">
+<param name="wmode" value="transparent" />
+<embed src="images/right_banner.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="487" height="491"></embed>
+</object>
+</div>
+<div class="game_link game_link_right"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="487" height="491">
+<param name="movie" value="images/left_banner.swf">
+<param name="quality" value="high">
+<param name="wmode" value="transparent" />
+<embed src="images/left_banner.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="487" height="491"></embed>
+</object></div>
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_V2_01_FULL)#-->
+    <!--首屏四个动画 end-->
+</div>
+</div>
+<!--banner 开始-->
+<!--#CMS_MODULE(GTINDEX_V2_FULL)#-->
+<!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+<!--left 开始-->
+<div class="left_side float_l">
+
+
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_my.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line"
+                    name="line"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">万世</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_ws.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_my.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line1"
+                    name="line1"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_gcld.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line2"
+                    name="line2"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_xajt.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line3"
+                    name="line3"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+</div>
+<!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+<ul>
+<li id="m01" class="show1"><span class="number bg1"></span><a href="#" class="a1">风色轨迹</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c01" class="show2" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹风色轨迹</span><span>异时空魔法世界风色轨迹</span><span>热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/5.swf" />
+<param name="quality" value="high" />
+<embed src="images/5.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m02" class="show1"><span class="number bg2"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c02" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m03" class="show1"><span class="number bg3"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 zero"></span></li>
+<li id="c03" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m04" class="show1"><span class="number bg4"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 down">&nbsp;</span></li>
+<li id="c04" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/2.swf" />
+<param name="quality" value="high" />
+<embed src="images/2.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+</ul>
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+</body>
+</html>
+";i:8;s:12528:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2014热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v2.0/images/logo.png" border="0" /></a></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+<div class="btn float_r"><a href="#" target="_blank">注册</a><a href="#" target="_blank">收藏</a></div>
+</div>
+<div class="main">
+    <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_LEFT)#-->
+    <!---左侧广告 end--->
+     <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_RIGHT)#-->
+    <!---左侧广告 end--->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_V2_01_FULL)#-->
+    <!--首屏四个动画 end-->
+</div>
+</div>
+<!--banner 开始-->
+<!--#CMS_MODULE(GTINDEX_V2_FULL)#-->
+<!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+<!--left 开始-->
+<div class="left_side float_l">
+
+
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_my.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line"
+                    name="line"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">万世</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_ws.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_my.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line1"
+                    name="line1"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_gcld.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line2"
+                    name="line2"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+<!--li start-->
+
+<div class="div_li">
+<img src="images/pic1.png" width="181" height="155" class="img" />
+<a href="#" class="title">魅影传说</a>
+<div class="prize">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="120" height="70">
+<param name="movie" value="images/bao_my.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<param name="wmode" value="opaque" />
+<embed src="images/bao_xajt.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="70"></embed>
+</object></div>
+
+<div class="libao_bg" onMouseDown="window.location = 'http://www.v1.cn/'">
+            <embed width="297px" height="39px"
+                    id="line3"
+                    name="line3"
+                    src="images/li_bg.swf"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    wmode="transparent"
+                    type="application/x-shockwave-flash">
+            </embed>
+
+</div>
+<div class="libao" onselectstart="javascript:return false" onMouseDown="window.location = 'http://www.v1.cn/'">领取礼包</div>
+
+</div>
+
+<!--li end-->
+
+</div>
+<!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+<ul>
+<li id="m01" class="show1"><span class="number bg1"></span><a href="#" class="a1">风色轨迹</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c01" class="show2" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹风色轨迹</span><span>异时空魔法世界风色轨迹</span><span>热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/5.swf" />
+<param name="quality" value="high" />
+<embed src="images/5.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m02" class="show1"><span class="number bg2"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c02" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m03" class="show1"><span class="number bg3"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 zero"></span></li>
+<li id="c03" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m04" class="show1"><span class="number bg4"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 down">&nbsp;</span></li>
+<li id="c04" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/2.swf" />
+<param name="quality" value="high" />
+<embed src="images/2.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+</ul>
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+</body>
+</html>
+";i:9;s:7144:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2014热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v2.0/images/logo.png" border="0" /></a></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+<div class="btn float_r"><a href="#" target="_blank">注册</a><a href="#" target="_blank">收藏</a></div>
+</div>
+<div class="main">
+    <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_LEFT)#-->
+    <!---左侧广告 end--->
+     <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_RIGHT)#-->
+    <!---左侧广告 end--->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_V2_01_FULL)#-->
+    <!--首屏四个动画 end-->
+</div>
+</div>
+    <!--banner 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_FULL)#-->
+    <!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+    <!--left 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GIFT_LIST)#-->
+    <!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+<ul>
+<li id="m01" class="show1"><span class="number bg1"></span><a href="#" class="a1">风色轨迹</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c01" class="show2" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹风色轨迹</span><span>异时空魔法世界风色轨迹</span><span>热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/5.swf" />
+<param name="quality" value="high" />
+<embed src="images/5.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m02" class="show1"><span class="number bg2"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 up"></span></li>
+<li id="c02" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m03" class="show1"><span class="number bg3"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 zero"></span></li>
+<li id="c03" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/4.swf" />
+<param name="quality" value="high" />
+<embed src="images/4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+<li id="m04" class="show1"><span class="number bg4"></span><a href="#" class="a1">百战天下</a><span class="number2">46546</span><span class="number3 down">&nbsp;</span></li>
+<li id="c04" class="show2 hidden" ><a href="#" class="a2"><img src="images/ico.png" alt="风色轨迹" /></a>
+<p><span>风色轨迹</span><span>异时空魔法世界</span><span class="star">热度:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/3.swf" />
+<param name="quality" value="high" />
+<embed src="images/3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span><span>创新:
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="75" height="15">
+<param name="movie" value="images/2.swf" />
+<param name="quality" value="high" />
+<embed src="images/2.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="75" height="15"></embed>
+</object>
+</span> 
+</li>
+</ul>
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+</body>
+</html>
+";i:10;s:2012:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2014热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v2.0/images/logo.png" border="0" /></a></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+<div class="btn float_r"><a href="#" target="_blank">注册</a><a href="#" target="_blank">收藏</a></div>
+</div>
+<div class="main">
+    <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_LEFT)#-->
+    <!---左侧广告 end--->
+     <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_RIGHT)#-->
+    <!---左侧广告 end--->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_V2_01_FULL)#-->
+    <!--首屏四个动画 end-->
+</div>
+</div>
+    <!--banner 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_FULL)#-->
+    <!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+    <!--left 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GIFT_LIST)#-->
+    <!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+    <!--游戏推荐 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GAMES)#-->
+    <!--游戏推荐 结束-->
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+</body>
+</html>
+";i:11;s:2121:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2014热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v2.0/images/logo.png" border="0" /></a></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+<div class="btn float_r"><a href="#" target="_blank">注册</a><a href="#" target="_blank">收藏</a></div>
+</div>
+<div class="main">
+    <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_LEFT)#-->
+    <!---左侧广告 end--->
+     <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_RIGHT)#-->
+    <!---左侧广告 end--->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_V2_01_FULL)#-->
+    <!--首屏四个动画 end-->
+</div>
+</div>
+    <!--banner 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_FULL)#-->
+    <!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+    <!--left 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GIFT_LIST)#-->
+    <!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+    <!--游戏推荐 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GAMES)#-->
+    <!--游戏推荐 结束-->
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+</body>
+</html>
+";i:12;s:2121:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2015热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v2.0/images/logo.png" border="0" /></a></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+<div class="btn float_r"><a href="#" target="_blank">注册</a><a href="#" target="_blank">收藏</a></div>
+</div>
+<div class="main">
+    <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_LEFT)#-->
+    <!---左侧广告 end--->
+     <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_RIGHT)#-->
+    <!---左侧广告 end--->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_V2_01_FULL)#-->
+    <!--首屏四个动画 end-->
+</div>
+</div>
+    <!--banner 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_FULL)#-->
+    <!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+    <!--left 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GIFT_LIST)#-->
+    <!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+    <!--游戏推荐 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GAMES)#-->
+    <!--游戏推荐 结束-->
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+</body>
+</html>
+";i:13;s:2149:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2015热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v2.0/images/logo.png" border="0" /></a></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+<div class="btn float_r"><a href="http://g.v1.cn/register.shtml" target="_blank">注册</a><a href="#" target="_blank">收藏</a></div>
+</div>
+<div class="main">
+    <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_LEFT)#-->
+    <!---左侧广告 end--->
+     <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_RIGHT)#-->
+    <!---左侧广告 end--->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_V2_01_FULL)#-->
+    <!--首屏四个动画 end-->
+</div>
+</div>
+    <!--banner 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_FULL)#-->
+    <!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+    <!--left 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GIFT_LIST)#-->
+    <!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+    <!--游戏推荐 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GAMES)#-->
+    <!--游戏推荐 结束-->
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+</body>
+</html>
+";i:14;s:2159:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2015热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v2.0/images/logo.png" border="0" /></a></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+<div class="btn float_r"><a href="http://g.v1.cn/register.shtml" target="_blank">注册</a><a id="favorites" href="javascript:;">收藏</a></div>
+</div>
+<div class="main">
+    <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_LEFT)#-->
+    <!---左侧广告 end--->
+     <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_RIGHT)#-->
+    <!---左侧广告 end--->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_V2_01_FULL)#-->
+    <!--首屏四个动画 end-->
+</div>
+</div>
+    <!--banner 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_FULL)#-->
+    <!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+    <!--left 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GIFT_LIST)#-->
+    <!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+    <!--游戏推荐 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GAMES)#-->
+    <!--游戏推荐 结束-->
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+</body>
+</html>
+";i:15;s:3037:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2015热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v2.0/images/logo.png" border="0" /></a></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+<div class="btn float_r"><a href="http://g.v1.cn/register.shtml" target="_blank">注册</a><a id="favorites" href="javascript:;">收藏</a></div>
+</div>
+<div class="main">
+    <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_LEFT)#-->
+    <!---左侧广告 end--->
+     <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_RIGHT)#-->
+    <!---左侧广告 end--->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_V2_01_FULL)#-->
+    <!--首屏四个动画 end-->
+</div>
+</div>
+    <!--banner 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_FULL)#-->
+    <!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+    <!--left 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GIFT_LIST)#-->
+    <!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+    <!--游戏推荐 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GAMES)#-->
+    <!--游戏推荐 结束-->
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+<script type="text/javascript">
+    function setLiBaoHref(className){
+        var curUrl = document.location.href;
+        var search = '?'+curUrl.split('?') [1];
+        var reg=/[0-9a-zA-Z]+\.g\.v1\.cn/i;
+        if(search && search!='?undefined'){
+            $(className).each(function(){
+                url = $(this).attr('url');
+                if(url && url.match(reg)){
+                    if(url.indexOf('?')==-1){
+                        $(this).attr("url",url+search);
+                    }else{
+                        $(this).attr("url",url+search.replace('?','&'));
+                    }
+                }
+
+                $(this).on("click",function(){
+                    window.open($(this).attr("url"),"_blank");
+                });
+            });
+        }
+    }
+    setLiBaoHref(".libao_bg");
+    setLiBaoHref(".libao");
+</script>
+</body>
+</html>
+";i:16;s:3060:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2015热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v2.0/images/logo.png" border="0" /></a></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+<div class="btn float_r"><a href="http://g.v1.cn/register.shtml" target="_blank">注册</a><a id="favorites" href="javascript:;">收藏</a></div>
+</div>
+<div class="main">
+    <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_LEFT)#-->
+    <!---左侧广告 end--->
+     <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_RIGHT)#-->
+    <!---左侧广告 end--->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_V2_01_FULL)#-->
+    <!--首屏四个动画 end-->
+</div>
+</div>
+    <!--banner 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_FULL)#-->
+    <!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+    <!--left 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GIFT_LIST)#-->
+    <!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+    <!--游戏推荐 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GAMES)#-->
+    <!--游戏推荐 结束-->
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+<script type="text/javascript">
+    function setLiBaoHref(className){
+        var curUrl = document.location.href;
+        var search = '?'+curUrl.split('?') [1];
+        var reg=/[0-9a-zA-Z]+\.g\.v1\.cn/i;
+        if(search && search!='?undefined'){
+            $(className).each(function(){
+                url = $(this).attr('url');
+                if(url && url.match(reg)){
+                    if(url.indexOf('?')==-1){
+                        $(this).attr("url",url+search);
+                    }else{
+                        $(this).attr("url",url+search.replace('?','&'));
+                    }
+                }
+
+                $(this).on("click",function(){
+                    window.open($(this).attr("url"),"_blank");
+                });
+            });
+        }
+    }
+    setLiBaoHref(".libao_bg");
+    setLiBaoHref(".libao");
+console.log('libao');
+</script>
+</body>
+</html>
+";i:17;s:3037:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2015热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v2.0/images/logo.png" border="0" /></a></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+<div class="btn float_r"><a href="http://g.v1.cn/register.shtml" target="_blank">注册</a><a id="favorites" href="javascript:;">收藏</a></div>
+</div>
+<div class="main">
+    <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_LEFT)#-->
+    <!---左侧广告 end--->
+     <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_RIGHT)#-->
+    <!---左侧广告 end--->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_V2_01_FULL)#-->
+    <!--首屏四个动画 end-->
+</div>
+</div>
+    <!--banner 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_FULL)#-->
+    <!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+    <!--left 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GIFT_LIST)#-->
+    <!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+    <!--游戏推荐 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GAMES)#-->
+    <!--游戏推荐 结束-->
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+<script type="text/javascript">
+    function setLiBaoHref(className){
+        var curUrl = document.location.href;
+        var search = '?'+curUrl.split('?') [1];
+        var reg=/[0-9a-zA-Z]+\.g\.v1\.cn/i;
+        if(search && search!='?undefined'){
+            $(className).each(function(){
+                url = $(this).attr('url');
+                if(url && url.match(reg)){
+                    if(url.indexOf('?')==-1){
+                        $(this).attr("url",url+search);
+                    }else{
+                        $(this).attr("url",url+search.replace('?','&'));
+                    }
+                }
+
+                $(this).on("click",function(){
+                    window.open($(this).attr("url"),"_blank");
+                });
+            });
+        }
+    }
+    setLiBaoHref(".libao_bg");
+    setLiBaoHref(".libao");
+</script>
+</body>
+</html>
+";i:18;s:3105:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2015热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v2.0/images/logo.png" border="0" /></a></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+<div class="btn float_r"><a href="http://g.v1.cn/register.shtml" target="_blank">注册</a><a id="favorites" href="javascript:;">收藏</a></div>
+</div>
+<div class="main">
+    <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_LEFT)#-->
+    <!---左侧广告 end--->
+     <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_RIGHT)#-->
+    <!---左侧广告 end--->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_V2_01_FULL)#-->
+    <!--首屏四个动画 end-->
+</div>
+</div>
+    <!--banner 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_FULL)#-->
+    <!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+    <!--left 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GIFT_LIST)#-->
+    <!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+    <!--游戏推荐 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GAMES)#-->
+    <!--游戏推荐 结束-->
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+<script type="text/javascript">
+    function setLiBaoHref(className){
+        var curUrl = document.location.href;
+        var search = curUrl.split('?') [1];
+        console.log(search);
+        var reg=/[0-9a-zA-Z]+\.g\.v1\.cn/i;
+        if(!search || search==''){
+            search="";
+        }
+        $(className).each(function(){
+            var url = $(this).attr('url');
+            if(url && url.match(reg)){
+                if(search && search != ""){
+                    if(url.indexOf('?')==-1){
+                        $(this).attr("url",url+'?'+search);
+                    }else{
+                        $(this).attr("url",url+'&'+search);
+                    }
+                }
+            }
+
+            $(this).on("click",function(){
+                window.open($(this).attr("url"),"_blank");
+            });
+        });
+    }
+    setLiBaoHref(".libao_bg");
+    setLiBaoHref(".libao");
+</script>
+</body>
+</html>
+";i:19;s:3075:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>2015热门网页游戏排行榜</title>
+<link href="http://static.v1.cn/game/gameTop/v2.0/css/common.css" rel="stylesheet" type="text/css" />
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gameTop/v2.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+<div class="logo float_l"><a href="http://g.v1.cn"><img src="http://static.v1.cn/game/gameTop/v2.0/images/logo.png" border="0" /></a></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_V2_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+<div class="btn float_r"><a href="http://g.v1.cn/register.shtml" target="_blank">注册</a><a id="favorites" href="javascript:;">收藏</a></div>
+</div>
+<div class="main">
+    <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_LEFT)#-->
+    <!---左侧广告 end--->
+     <!---左侧广告 start--->
+    <!--#CMS_MODULE(GTINDEX_V2_AD_RIGHT)#-->
+    <!---左侧广告 end--->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_V2_01_FULL)#-->
+    <!--首屏四个动画 end-->
+</div>
+</div>
+    <!--banner 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_FULL)#-->
+    <!--banner 结束-->
+<!--main 开始-->
+<div class="content">
+    <!--left 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GIFT_LIST)#-->
+    <!--left 结束-->
+<!--right 开始-->
+<div class="right_side float-r">
+<h2>一周五佳网页游戏推荐</h2>
+    <!--游戏推荐 开始-->
+    <!--#CMS_MODULE(GTINDEX_V2_GAMES)#-->
+    <!--游戏推荐 结束-->
+</div>
+<!--right 结束-->
+<div class="clear"></div>
+</div>
+<!--main 结束-->
+<!--footer 开始-->
+<div class="footer">第一视频(北京)网络技术有限公司    京ICP证050390号 京网文【2012】0701-228号<br />
+健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活 </div>
+<script type="text/javascript">
+    function setLiBaoHref(className){
+        var curUrl = document.location.href;
+        var search = curUrl.split('?') [1];
+        var reg=/[0-9a-zA-Z]+\.g\.v1\.cn/i;
+        if(!search || search==''){
+            search="";
+        }
+        $(className).each(function(){
+            var url = $(this).attr('url');
+            if(url && url.match(reg)){
+                if(search && search != ""){
+                    if(url.indexOf('?')==-1){
+                        $(this).attr("url",url+'?'+search);
+                    }else{
+                        $(this).attr("url",url+'&'+search);
+                    }
+                }
+            }
+
+            $(this).on("click",function(){
+                window.open($(this).attr("url"),"_blank");
+            });
+        });
+    }
+    setLiBaoHref(".libao_bg");
+    setLiBaoHref(".libao");
+</script>
+</body>
+</html>
+";}

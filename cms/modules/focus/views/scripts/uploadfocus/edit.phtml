@@ -1,0 +1,123 @@
+<?=$this->showErrors()?>
+
+<div class="area">
+<div class="nr">
+<h2>
+<button onclick="window.location.href='/focus/focus/'">返回</button>
+<a href="#nogo">编辑专题</a>        	
+</h2>
+<form action="" method="post" enctype="multipart/form-data">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+<tbody>
+    <tr>
+        <td>专题标题</td><td><input type="text" name="name" id="name" size="40" value="<?=$this->param('name', $this->focus['name']) ?>"onkeyup="checkLenth(this,'title_length_view','title_length',32)"/><span id="title_length_view">文字最大字节数：32，<span id="title_length"></span></span></td>
+    </tr>
+    <tr>
+        <td>专题目录</td>
+        <td>/ztm/<input type="text" name="url" size="40" value="<?=$this->param('url', $this->focus['url']) ?>" />目录名请使用小写英文字母或拼音或数字</td>
+    </tr>
+    <tr>
+        <td>专题摘要</td>
+        <td>
+            <textarea id="intro" name="desc" cols="60" rows="5"onkeyup="checkLenth(this,'intro_length_view','intro_length',80)"><?=$this->param('desc', $this->focus['description']) ?></textarea>
+				<span id="intro_length_view">文字最大字节数：80，<span id="intro_length"></span></span>
+        </td>
+    </tr>
+    <tr>
+        <td>所属分类</td>
+        <td><?=$this->formSelect('cid', $this->focus['cid'], null, $this->category_options)?></td>
+    </tr>
+    <tr>
+        <td>专题小图</td>
+        <td><input name="image" type="text" size="45" class="input" value="<?=$this->focus['image']?>" /> <a href="#" onclick="upload(this,'img_preview')">上传</a>
+        	<br/><div id=img_preview></div>
+        </td>
+    </tr>
+    <tr>
+        <td>加入明星志</td>
+        <td><?=$this->formRadioNoWrap('star', $this->focus['star'],  array('onclick'=>'show_star_img(this)'), array(1 => '是', 0 => '否'))?></td>
+    </tr>
+    <tr id="star_img" style="display:<?=($this->focus['star']?'block':'none')?>">
+        <td>明星志图片</td>
+        <td><input name="star_image" type="text" size="45" class="input" value="<?=$this->focus['star_image']?>" /> <a href="#" onclick="upload(this,'star_img_preview')">上传</a>
+        	<br/><div id="star_img_preview"></div>
+        </td>
+    </tr>
+    <tr>
+        <td>开始时间</td>
+        <td><input type="text" name="starttime" id="txt_startdate" value="<?=$this->param('starttime', $this->focus['starttime'])?>"/></td>
+    </tr>
+    <tr>
+        <td>结束时间</td>
+        <td><input type="text" name="endtime" id="txt_enddate" value="<?=$this->param('endtime', $this->focus['endtime'])?>"/></td>
+    </tr>
+    <tr>
+        <td>是否隐藏</td>
+        <td><input type="radio" name="status" value="2" <?=($this->focus['status']==2)?'checked':''?>>是&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="status" value="1" <?=($this->focus['status']==1)?'checked':''?>>否</td>
+    </tr>
+	<tr>
+        <td></td>
+        <td align="left"><input type="submit" name="submit" value="   提 交   " /></td>
+    </tr>
+</tbody>
+</table>
+</div> 
+</div>
+<script type="text/javascript">
+$("#txt_startdate,#txt_enddate").datepicker(
+    $.extend(
+        {},
+        $.datepicker.regional["zh-CN"], {
+            showOn: "both",
+            dateFormat: $.datepicker.ISO_8601,
+            duration: ""           
+        })
+   );
+</script>
+</form>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.form tr:even').addClass('alt');
+	if("<?=$this->focus['image']?>" != '')$('#img_preview').html("<img src=\"<?=$this->focus['image']?>\"/>");
+});
+
+function upload(obj,previewObjId)
+{
+	//var dialog_url="/contents/article/upload/type/0/name/"+encodeURI('文章')+"/cid/"+$("#cid").val();
+	var dialog_url="/resource/index/index/type/0/name/focus/cid/"+$("#cid").val();
+    var imgurl = window.showModalDialog(dialog_url, "", "dialogHeight:250px; dialogWidth:400px; resizable:0; scroll:0; status:0; unadorned:0;");
+    if(imgurl == undefined) return false;
+    $(obj).prev().val(imgurl);
+    $('#'+previewObjId).html('<img src="'+imgurl+'"/>');
+}
+function show_star_img(obj)
+{
+	if(obj.checked && obj.value==1)
+	{
+		$('#star_img').css('display','block');
+	}else
+	{
+		$('#star_img').css('display','none');
+	}
+}
+checkLenth(document.getElementsByName('name')[0],'title_length_view','title_length',32);
+checkLenth(document.getElementsByName('desc')[0],'intro_length_view','intro_length',80);
+function checkLenth(obj,view_id,length_id,max_length)
+{
+	var strlength=count_length(obj.value);
+	if(strlength <= max_length)
+	{
+		$('#'+view_id).removeClass().addClass('info');
+		$('#'+length_id).text('还剩'+(max_length-strlength)+'字节');
+	}else
+	{
+		$('#'+view_id).removeClass().addClass('info').addClass('war');
+		$('#'+length_id).text('超出'+(strlength-max_length)+'字节');
+	}
+}
+function count_length(objValue)
+{
+	return objValue.replace(/[^\x00-\xff]/g,"**").length;
+}
+</script>

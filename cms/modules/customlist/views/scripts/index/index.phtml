@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/styles/customlist.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="t">
+  <form id="big_news_form" action="/customlist/index/save/" method="POST" onsubmit="return checkBigNew()">
+    <table width="100%"  cellspacing="1" class="form">
+      <thead>
+        <tr class="head"><td colspan="2">个性列表管理</td></tr>
+        <tr class="tr4">
+          <td colspan="2" style="padding-bottom:50px;">
+            <input type="button" value="新建即时新闻" id="add_online_news_btn" class="btn" />
+            <input type="button" value="新建新闻列表" id="add_news_list_btn" class="btn" />
+		   <span style="margin:0 20px 0 20px;">查看历史记录:</span>
+		   <select id="bignews_select" onchange="window.location.href ='/customlist/index/index/cid/<?=$this->cid?>'+this.value">
+		                <?=$this->customlist_select?>         
+						 </select>
+          </td>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr class="tr4">
+          <td colspan="2" align="left">           
+            <input type="hidden" name="oid"  value="<?=$this->oid?>" />
+			<input type="hidden" name="lastuid" value="<?=$this->user?>" />			
+			<span style="display:none">pid(选填):</span><input type="hidden" name="pid" id="pid"  value="<?if($this->pid)echo $this->pid?>" size="5" />			
+			<input type="hidden" name="cid" id="cid"  value="<?if($this->cid)echo $this->cid?>"/>
+            <input type="submit" value="保存" id="save_btn" class="btn" />
+			(pid字段命名：p1010 or f1010 or a1010 来区分栏目页、专题和新闻页)
+            <!--input type="button" value="   发布   " id="pub_btn" class="btn" onclick="location.href='/customlist/index/publish/oid/';" -->
+          </td>
+        </tr>
+      </tfoot>
+      <tbody id="big_news_body">
+      </tbody>
+    </table>
+  </form>
+</div>
+
+<div class="t" id="listitem_manager">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <thead>
+      <tr class="head"><td>列表项管理 <img src="/images/add3.gif" align="absmiddle" alt="新建链接" title="新建链接" id="add_anchor_btn" /></td></tr>
+    </thead>
+    <tfoot>
+      <tr class="tr4">
+        <td align="center">
+          <input type="button" value="确定" id="update_anchor_btn" class="btn" />
+          <input type="button" value="取消" id="cancel_listitem_btn" class="btn" />
+        </td>
+      </tr>
+    </tfoot>
+    <tbody id="anchor_items_body">
+    </tbody>
+  </table>
+</div>
+
+<div class="t" id="search_box">
+<iframe src="<?=$this->iframeUrl?>" width="100%" height="386" frameborder="0"></iframe>
+</div>
+
+<script type="text/javascript" src="/scripts/bignews.js"></script>
+<script type="text/javascript">
+initBigNews(<?=$this->customlist?>);
+function init_select(){
+	var obj=document.getElementById('bignews_select');
+	if(!obj.options.length)return;
+	if('$time'=='')return;
+	for (i = 0; i < obj.options.length; i++ ){
+		var arr=obj.options[i].text.split("|");
+		if(arr[0]=='$time'){
+			obj.selectedIndex=i;
+		}       
+	}
+}
+init_select();
+</script>
+</body>
+</html>

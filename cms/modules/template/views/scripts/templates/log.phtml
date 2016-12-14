@@ -1,0 +1,25 @@
+<div class="area">
+<div class="nr">
+<h2>
+<button onclick="window.location.href='/template/templates/edit/id/<?=$this->id?>'">返回</button>
+<a href="#nogo">查看最近的历史记录(按时间倒序,每修改一次,保存一次记录,最多20次)</a>        	
+</h2>
+<form action="" method="post">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+<caption align="left" style="font-weight:bold;padding:5px 8px;"><?=$this->tpl->name?><caption>
+<tbody>
+  <?php foreach ($this->data as $key => $var): ?>
+    <tr>
+        <td>记录<?echo $key=$key+1;?>内容<br />(html)</td>
+        <td><textarea name="content" cols="100" rows="10" style="font-family: courier new"><?=htmlspecialchars($var)?></textarea><br /><span style="color:#999">(光标移到编辑框内,按"Ctrl+A"键复制模板代码)</span></td>
+    </tr>
+ <?php endforeach; ?>
+    <tr>
+        <td></td>
+        <td></td>
+   </tr>
+</tbody>
+</table>
+</form>
+</div> 
+</div>

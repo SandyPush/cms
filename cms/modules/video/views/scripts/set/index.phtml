@@ -1,0 +1,36 @@
+<div class="area">
+	<div class="nr">
+	<h2>
+		<button onclick="window.location.href='/video/set/create/'">创建视频集</button>
+		<a href="#nogo">视频集列表</a> 
+	</h2>
+
+	<table cellpadding="4" cellspacing="1" border="0" width="100%" class="list">
+	<tr>
+		<th width="120">sid</th>
+		<th>标题</th>
+        <th>分类</th>
+		<th width="50">视频数</th>
+		<th width="160">创建时间</th>
+		<th width="220" align="center">操作</th>
+	</tr>
+	<?php foreach ($this->all as $set): ?>
+	<tr>
+		<td><?=$set['sid']?></td>
+		<td><?=$this->escape($set['title'])?></td>
+        <td><?=$set['categoryName']?></td>
+		<td align="center"><?=$set['videos']?></td>
+		<td><?=$set['createdate']?></td>
+		<td>
+            <a href="/video/video/?sid=<?=$set['sid']?>">管理</a> |
+			<a href="/video/set/edit/sid/<?=$set['sid']?>">编辑</a> |
+			<a href="/video/set/disable/sid/<?=$set['sid']?>" onclick="if (!confirm('删除视频集会删除此视频集下的所有视频，确定删除此视频集？')) return false">删除</a>
+		</td>
+	</tr>
+	<?php endforeach; ?>
+	</table>
+    <p>&nbsp;</p>
+    <?=$this->pagebar?>
+	</div>
+
+</div>

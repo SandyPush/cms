@@ -1,0 +1,28 @@
+a:1:{i:0;s:824:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+</head>
+
+<body>&nbsp;&nbsp;
+<!--#CMS_MODULE(css_js)#-->
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code004)#-->
+<div class="wrapBox1000 clearfix"><!--#CMS_MODULE(code005)#--><!--#CMS_MODULE(code006)#--></div>
+<!--#CMS_MODULE(code007)#-->
+<!--#CMS_MODULE(code008)#-->
+<!--#CMS_MODULE(code009)#-->
+<!--#CMS_MODULE(code010)#-->
+<!--#CMS_MODULE(code011)#-->
+<!--#CMS_MODULE(code012)#-->
+<!--#CMS_MODULE(code013)#-->
+<!--#CMS_MODULE(code014)#-->
+<!--#CMS_MODULE(code015)#-->
+</body>
+</html>
+";}

@@ -1,0 +1,184 @@
+a:1:{i:0;s:10432:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><!--# echo $title #-->_第一视频</title>
+<meta name="description" content="<!--# echo $intro #-->" />
+<meta name="keywords" content="<!--# echo $keywords #-->" />
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/common/jquery-1.8.2.min.js"></script>
+<script src="http://pic.v1.cn/cloudone/js/common/window.js"></script>
+<script language="javascript">
+var staticNewsDomain = 'http://www.v1.cn';
+var newsDomain = 'http://ynews.v1.cn';
+var userDomain = 'http://user.v1.cn';
+var adminDomain = 'http://admin.v1.cn';
+var discussDomain = 'http://discuss.v1.cn';
+var ctx = "/news";
+var staticPath = "http://pic.v1.cn/cloudone";
+var pearlTreesStaticPath = "http://ynews.v1.cn/news";
+var staticAvatarDefaultImgPath = "http://pic.v1.cn/cloudone/images/avatar/default.gif";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+$(function(){
+	$('a span').click(function(){
+		return false;
+	})
+});
+</script>
+<link href="http://pic.v1.cn/cloudone/news/broadcast-news/css/newWord/news_broadcast.css?v=20130124" rel="stylesheet" type="text/css" />
+<link type="text/css" href="http://pic.v1.cn/cloudone/news/index/css/quick_skip.css" rel="stylesheet"/>
+<script type=text/javascript> 
+function toDisComment(){
+	window.location.hash = "#disComment";
+	$("#content_discuss").focus();
+}
+</script> 
+<script type='text/javascript'><!--//<![CDATA[ 
+var m3_u = (location.protocol=='https:'?'http://luckstatic.v1.cn/st/10000/800/753.js':'http://luckstatic.v1.cn/st/10000/800/753.js');
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+
+</head>
+<body>
+<link href="http://pic.v1.cn/cms/special_topic/common_share/header_footer/css/head_foot.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/special_topic/common_share/header_footer/js/time.js" language="javascript"></script>
+<!---登录注册样式和js----->
+<link href="http://pic.v1.cn/cms/special_topic/common_share/header_footer/css/style_float.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css" type="text/css"/>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/boxy/js/jquery.boxy.js?v=201301171048"></script>
+    <script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://y.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+<!-------登陆注册css和js样式结束--------->
+<style>
+.date{text-align:left;}
+.special_nav{color:#fff;float:left;padding-left:30px;}
+.special_nav a{color:#fff;text-decoration:none;}
+.special_nav a:visited{color:#fff;text-decoration:none;}
+.special_nav a:hover{color:#ffff00;text-decoration:underline;}
+.special_nav a:active{color:#ffff00;text-decoration:underline;}
+
+body, ul, li, a, h1, h2, h3, h4, h5, h6, dl, dd, dt, div, p, pre, form, input, img, span {margin: 0;padding: 0;}
+img {border: medium none;display: block;}
+* {font-family: 宋体;font-size: 12px;margin: 0;padding: 0;}
+a {color: #000000;text-decoration: none;}
+a:hover {text-decoration: underline;}
+.clearfix:after {clear:both;font-size:0;height:0;line-height:0;content:".";display:block;visibility:hidden;}
+.clearfix {*zoom:1;}
+ul, li, dl, dd, dt {list-style-image: none;list-style-type: none;}
+.main_con {height: auto; margin: 0 auto;width: 980px;}
+.xg_title {padding-top: 20px;width: 980px;}
+.xg_title .title_left {float: left;width: 630px;}
+.xg_title .title_left a {color: #004A99;margin-left: 8px;margin-right: 8px;}
+.xg_title .title_left a.fr_ml {margin-left: 0;}
+.xg_title .title_left h1 {color: #333333;font-family: 微软雅黑;font-size: 22px;font-weight: normal;line-height: 50px;}
+.gkxws {float: right;height: 56px;width:348px;}
+.gkxws a {background: url("http://pic.v1.cn/cloudone/news/broadcast-news/images/newWord/images_nry_22.gif") no-repeat scroll 0 0 transparent;display: block; height: 56px; width: 348px;margin-left:10px;}
+.video_play {position: relative;z-index: 50;}
+.video_con { padding-top: 10px;width: 980px;}
+.video {float: left;width: 630px;}
+.video p{font:14px/1.5 "宋体";margin-top:20px;}
+</style>
+
+<div id="back_top" class="topnav">
+      <div class="wrapper topnav_main">
+<div class="date">
+<span>
+<script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script> 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);
+function changeHeader(welcomeName,space){
+    if(welcomeName && $.trim(welcomeName) != ''){
+        if(space){
+            change_user_header(welcomeName);
+        }else{
+            var _logout_html = '<a href="javascript:void(0);" onclick="logout()">注销</a>';
+            $(".login a").eq(1).replaceWith(_logout_html) ;
+            var _welcome_html = '<a href="'+userDomain+'/user/user/index.jhtml" target="_blank">'+welcomeName+'</a>';
+            $(".login a").eq(0).replaceWith(_welcome_html) ;
+        }
+    }
+}
+</script>
+</span>
+</div>
+
+          <div class="special_nav">
+		  <a href="http://www.v1.cn" target="_blank">首页</a>|
+		  <a href="http://news.v1.cn/" target="_blank">新闻</a>|
+		  <a href="http://ent.v1.cn/" target="_blank">娱乐</a>|
+		  <a href="http://finance.v1.cn/" target="_blank">财经</a>|
+		  <a href="http://auto.v1.cn/" target="_blank">汽车</a>|
+		  <a href="http://shehui.v1.cn/" target="_blank">社会</a>|
+		  <a href="http://sports.v1.cn/" target="_blank">体育</a>|
+		  <a href="http://lady.v1.cn/" target="_blank">女性</a>|
+		  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+		  </div>
+
+		  <div class="login"><a href="javascript:void(0);" onclick="register()">注册</a> | <a href="javascript:void(0);" onclick="login()">登录</a></div>
+      </div>
+</div>
+
+
+
+<div class="main_con">
+<div class="xg_title">
+<div class="title_left">
+<span>
+<!--#
+$nav_array = CMS_FUNCTION('CmsArticleNav', $aid);
+foreach($nav_array as $val){
+#-->
+<a href="$val[url]" class="fb">$val[name]</a> > 
+<!--# 
+} 
+#-->
+<a>正文</a></span>
+<h1><!--# echo substrs($title,4);#--></h1>
+</div>
+
+</div>
+<div class="video_con clearfix">
+<div class="video"><!--# echo $contents #--></div>
+<div style="float:left;width:348px;font:13px/1.5 “宋体”;">
+<div id="pearlTrees" class="gkxws"><a href="http://ent.v1.cn/round/2013-03-19/163165v.shtml"></a></div>
+</div>
+</div>
+</div>
+  
+<link href="http://pic.v1.cn/cloudone/footer/css/footer.css" rel="stylesheet" type="text/css" />
+<div class="footer">
+<div class="gsjs">
+		<a target="_blank" href="http://www.v1.cn/vodone/companyprofile.shtml">公司介绍</a>-<a target="_blank" href="http://www.v1.cn/vodone/customerservice.shtml">客服中心</a>-<a target="_blank" href="mailto:service@v1.cn">联系我们</a>-<a target="_blank" href="http://www.v1.cn/zhaopin/index.shtml">第一视频招聘</a>-<a target="_blank" href="http://www.v1.cn/roll/1/1.shtml">滚动新闻</a>-<a target="_blank" href="http://www.v1.cn/sitemap/">网站地图</a>-<a target="_blank" href="http://www.v1.cn/vodone/lawservice.shtml">法律声明</a>-<a target="_blank" href="#">帮助中心</a>-<a target="_blank" href="mailto:jiucuo@v1.cn">举报差错</a>-<a target="_blank" href="http://www.v1.cn/vodone/companynews.shtml">公司动态</a>
+	</div>
+	<div class="bqsy">
+		<span>第一视频公司 版权所有</span> 
+<span>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</span>
+		<ul>
+			<li><a target="_blank" href="http://www.v1.cn/Qualification/chuban.html">互联网出版许可证(新出网证(京)字026号)</a>
+			</li>
+			<li><a target="_blank" href="http://www.v1.cn/Qualification/shiting.html">信息网络传播视听节目许可证(0105136)</a>
+			</li>
+			<li class="last"><a target="_blank" href="http://www.v1.cn/Qualification/cehui.html">测绘资质证书(甲测资字11002065)</a>
+			</li>
+			<li><a target="_blank" href="http://www.v1.cn/Qualification/xinwen.html">互联网新闻信息服务许可证(国新网许可证编号1112008001)</a>
+			</li>
+			<li><a target="_blank" href="http://www.v1.cn/Qualification/icp.html">电信与信息服务业务经营许可证(京ICP备10014938号)</a>
+			</li>
+			<li class="last"><a href="#">京公网安备：110105002116</a></li>
+			<li><a href="#">营业执照注册号：110000008537773</a></li>
+		</ul>
+		<a target="_blank" href="https://www.itrust.org.cn/yz/pjwx.asp?wm=2775453304"><img src="http://pic.v1.cn/cloudone/footer/images/images_dyy_145.gif"></a> <a target="_blank" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005121600020"><img src="http://pic.v1.cn/cloudone/footer/images/images_dyy_147.gif"></a> <a target="_blank" href="http://net.china.com.cn/index.htm"><img src="http://pic.v1.cn/cloudone/footer/images/images_dyy_149.gif"></a> <a target="_blank" href="http://www.bnia.cn/"><img src="http://pic.v1.cn/cloudone/footer/images/images_dyy_151.gif"></a> <a target="_blank" href="http://www.bj.cyberpolice.cn/index.jsp"><img src="http://pic.v1.cn/cloudone/footer/images/images_dyy_153.gif"></a> <a target="_blank" href="http://fzp.bjhd.gov.cn/Default.aspx?TabId=105"><img src="http://pic.v1.cn/cloudone/footer/images/images_dyy_155_1.gif"></a> <a target="_blank" href="http://www.bjjubao.org/index.htm"><img src="http://pic.v1.cn/cloudone/footer/images/images_dyy_155_2.gif"></a> <a target="_blank" href="https://ss.cnnic.cn/verifyseal.dll?sn=2010090700100002044&ct=df&pa=438901"><img src="http://pic.v1.cn/cloudone/footer/images/images_dyy_157.gif"></a> <a target="_blank" href="http://www.315online.com.cn/member/315100087.html"><img src="http://pic.v1.cn/cloudone/footer/images/images_dyy_159.gif"></a> <a target="_blank" href="http://www.bcpcn.com//zhtml/tags/BCP85754599.html"><img src="http://pic.v1.cn/cloudone/footer/images/images_dyy_161.gif"></a>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+";}

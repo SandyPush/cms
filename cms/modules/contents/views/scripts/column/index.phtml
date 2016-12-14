@@ -1,0 +1,47 @@
+<script type="text/javascript" >
+	function del(){document.forms[0].submit();}	
+</script>
+<div class="area">
+	<div class="help">
+    <p>帮助</p>
+    <p>1、此处为名家列表;</p>   
+    </div>
+	<div class="nr">
+		<form action="/contents/column/del" name="delete_form" method="post">
+		<h2>      
+			<button onclick="window.location.href='/contents/column/add/';">添加</button>      
+        	<button onclick="del()">批量删除</button>
+        </h2>
+		<form action="/contents/column/del" name="form" method="post">
+    	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+		  	<tr>
+            	<th width="3%">ID</th>
+				<th width="10%">头像</th>
+				<th width="10%">名家姓名</th>             
+				<th width="10%">头衔</th>
+                <th>简介</th>
+				<th width="10%">创建者</th>				
+				<th width="10%">操作</th>  
+			</tr>
+		  <?php foreach ($this->data as $k => $v): ?>      		        
+            <tr>
+				<td><input type="checkbox" name='id[]' value="<?=$v['id']?>" /></td>
+				<td><img src="<?=$v['icon']?>" width="55px" height="55px" /></td>
+				<td><?=$v['name']?></td>
+				<td><?=$v['title']?></td>
+				<td><?=$v['intro']?></td>
+				<td><?=$v['author']?> </td>
+				<td>
+				<a href="/contents/column/edit/id/<?=$v['id']?>"><img src="/theme/default/image/edit.png" alt="编辑" title="编辑" /></a>      
+                <a href="#nogo" onclick="if(confirm('确定删除吗?'))window.location='/contents/column/del/id/<?=$v['id']?>/?url=<?=$_SERVER['REQUEST_URI']?>'">
+				<img src="/theme/default/image/delete.png" alt="删除" title="删除" /></a>				
+				</td>          
+            </tr>
+			<?php endforeach;  ?>     
+		</table>
+		<input type="hidden" name="url" value="<?=$_SERVER['REQUEST_URI']?>">
+		</form>
+    </div>
+	<div class="fy">
+		<?=$this->pagebar ?>
+    </div>

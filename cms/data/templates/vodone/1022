@@ -1,0 +1,2712 @@
+a:20:{i:0;s:7576:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+<div class="topBoxCooperate">
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBoxCooperate"><!--#CMS_MODULE(logo_v1合作)#--></div>
+<div class="searchBox">
+<form action="http://ynews.v1.cn/news/search/s.jhtml" method="get"
+				id="searchForm" target="_blank">       
+<input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+<button class="search" type="submit" id="searchBut">搜 索</button>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(热搜词_v1首页)#-->
+</div>
+</form>
+</div>
+</div>
+
+
+<div class="nav clearfix">
+<div class="wrapBox1000 clearfix">
+
+<ul class="navLeft left">
+<li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+<li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+<li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+<li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+<li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+<li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+<li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+</ul>
+<ul class="navRight right">
+<li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+<li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+<li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+<li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+<li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+<li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+<li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+<li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+<li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+<li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+<li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+<li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+<a href="#" class="new"></a>
+</ul>
+</div>
+</div>
+</div>
+
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("search");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+</body>
+</html>
+";i:1;s:7572:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+<div class="topBoxCooperate">
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBoxCooperate"><!--#CMS_MODULE(logo_v1合作)#--></div>
+<div class="searchBox">
+<form action="http://ynews.v1.cn/news/search/s.jhtml" method="get"
+				id="searchForm" target="_blank">       
+<input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+<button class="search" type="submit" id="searchBut">搜 索</button>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(热搜词_v1首页)#-->
+</div>
+</form>
+</div>
+</div>
+
+
+<div class="nav clearfix">
+<div class="wrapBox1000 clearfix">
+
+<ul class="navLeft left">
+<li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+<li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+<li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+<li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+<li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+<li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+<li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+</ul>
+<ul class="navRight right">
+<li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+<li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+<li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+<li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+<li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+<li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+<li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+<li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+<li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+<li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+<li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+<li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+<a href="#" class="new"></a>
+</ul>
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("search");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+</body>
+</html>
+";i:2;s:6152:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+<div class="topBoxCooperate">
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBoxCooperate"><!--#CMS_MODULE(logo_v1合作)#--></div>
+<div class="searchBox">
+<form action="http://ynews.v1.cn/news/search/s.jhtml" method="get"
+				id="searchForm" target="_blank">       
+<input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+<button class="search" type="submit" id="searchBut">搜 索</button>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(热搜词_v1首页)#-->
+</div>
+</form>
+</div>
+</div>
+
+<!--#CMS_MODULE(导航)#-->
+
+</div>
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("search");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+</body>
+</html>
+";i:3;s:6309:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+<div class="topBoxCooperate">
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBoxCooperate"><!--#CMS_MODULE(logo_v1合作)#--></div>
+<div class="searchBox">
+<form action="http://ynews.v1.cn/news/search/s.jhtml" method="get"
+				id="searchForm" target="_blank">       
+<input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+<button class="search" type="submit" id="searchBut">搜 索</button>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(热搜词_v1首页)#-->
+</div>
+</form>
+</div>
+</div>
+
+<!--#CMS_MODULE(导航)#-->
+
+</div>
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+<div class="partners">
+<h2>合作伙伴&nbsp;&nbsp;Partners&nbsp;>></h2>
+<!--#CMS_MODULE(合作伙伴_v1首页)#-->
+<div class="corner"></div>
+</div>
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("search");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+</body>
+</html>
+";i:4;s:6198:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+<div class="topBoxCooperate">
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBoxCooperate"><!--#CMS_MODULE(logo_v1合作)#--></div>
+<div class="searchBox">
+<form action="http://ynews.v1.cn/news/search/s.jhtml" method="get"
+				id="searchForm" target="_blank">       
+<input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+<button class="search" type="submit" id="searchBut">搜 索</button>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(热搜词_v1首页)#-->
+</div>
+</form>
+</div>
+</div>
+
+<!--#CMS_MODULE(导航)#-->
+
+</div>
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+<!--#CMS_MODULE(合作伙伴_v1首页)#-->
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("search");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+</body>
+</html>
+";i:5;s:6154:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+<div class="topBoxCooperate">
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBoxCooperate"><!--#CMS_MODULE(logo_v1合作)#--></div>
+<div class="searchBox">
+<form action="http://ynews.v1.cn/news/search/s.jhtml" method="get"
+				id="searchForm" target="_blank">       
+<input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+<button class="search" type="submit" id="searchBut">搜 索</button>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(热搜词_v1首页)#-->
+</div>
+</form>
+</div>
+</div>
+
+<!--#CMS_MODULE(导航)#-->
+
+</div>
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("search");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+</body>
+</html>
+";i:6;s:6252:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+<div class="topBoxCooperate">
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBoxCooperate"><!--#CMS_MODULE(logo_v1合作)#--></div>
+<div class="searchBox">
+<form action="http://ynews.v1.cn/news/search/s.jhtml" method="get"
+				id="searchForm" target="_blank">       
+<input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+<button class="search" type="submit" id="searchBut">搜 索</button>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(热搜词_v1首页)#-->
+</div>
+</form>
+</div>
+</div>
+
+<!--#CMS_MODULE(导航)#-->
+
+</div>
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("search");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+</body>
+</html>
+";i:7;s:6361:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+<div class="topBoxCooperate">
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBoxCooperate"><!--#CMS_MODULE(logo_v1合作)#--></div>
+<div class="searchBox">
+<input name="searchWord" id="searchWord" type="text" class="text" value="请输入关键字" onfocus="Onfocus()" onblur="Onblur()">
+<form action="http://so.v1.cn/search/news/video/all/q_" method="get" id="searchForm" target="_blank">        
+<button class="search" type="submit" id="searchBut">搜 索</button>
+</form>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(热搜词_v1首页)#-->
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(导航)#-->
+
+</div>
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+</body>
+</html>
+";i:8;s:7390:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+<div class="topBoxCooperate">
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBoxCooperate"><!--#CMS_MODULE(logo_v1合作)#--></div>
+<div class="searchBox">
+<input name="searchWord" id="searchWord" type="text" class="text" value="请输入关键字" onfocus="Onfocus()" onblur="Onblur()">
+<form action="http://so.v1.cn/search/news/video/all/q_" method="get" id="searchForm" target="_blank">        
+<button class="search" type="submit" id="searchBut">搜 索</button>
+</form>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(热搜词_v1首页)#-->
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(导航)#-->
+
+</div>
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+<!----测试用------>
+<style>
+#cnzz_stat_icon_4992481 {
+    display:none;
+}
+</style>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_4992481'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s21.cnzz.com/stat.php%3Fid%3D4992481%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+
+<!----测试用end------>
+
+</body>
+</html>
+";i:9;s:7735:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+<div class="topBoxCooperate">
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBoxCooperate"><!--#CMS_MODULE(logo_v1合作)#--></div>
+<div class="searchBox">
+<input name="searchWord" id="searchWord" type="text" class="text" value="请输入关键字" onfocus="Onfocus()" onblur="Onblur()">
+<form action="http://so.v1.cn/search/news/video/all/q_" method="get" id="searchForm" target="_blank">        
+<button class="search" type="submit" id="searchBut">搜 索</button>
+</form>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(热搜词_v1首页)#-->
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(导航)#-->
+
+</div>
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+<!----测试用------>
+<style>
+#cnzz_stat_icon_4992481 {
+    display:none;
+}
+</style>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_4992481'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s21.cnzz.com/stat.php%3Fid%3D4992481%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+
+<!----测试用end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:10;s:7388:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+<div class="topBoxCooperate">
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBoxCooperate"><!--#CMS_MODULE(logo_v1合作)#--></div>
+<div class="searchBox">
+<input name="searchWord" id="searchWord" type="text" class="text" value="请输入关键字" onfocus="Onfocus()" onblur="Onblur()">
+<form action="http://so.v1.cn/search/news/video/all/q_" method="get" id="searchForm" target="_blank">        
+<button class="search" type="submit" id="searchBut">搜 索</button>
+</form>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(热搜词_v1首页)#-->
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(导航)#-->
+
+</div>
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+<!----测试用------>
+<style>
+#cnzz_stat_icon_4992481 {
+    display:none;
+}
+</style>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_4992481'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s21.cnzz.com/stat.php%3Fid%3D4992481%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+
+<!----测试用end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:11;s:6995:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+<div class="topBoxCooperate">
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBoxCooperate"><!--#CMS_MODULE(logo_v1合作)#--></div>
+<div class="searchBox">
+<input name="searchWord" id="searchWord" type="text" class="text" value="请输入关键字" onfocus="Onfocus()" onblur="Onblur()">
+<form action="http://so.v1.cn/search/news/video/all/q_" method="get" id="searchForm" target="_blank">        
+<button class="search" type="submit" id="searchBut">搜 索</button>
+</form>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(热搜词_v1首页)#-->
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(导航)#-->
+
+</div>
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+<!----v1统计代码------>
+
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:12;s:7090:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+<div class="topBoxCooperate">
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBoxCooperate"><!--#CMS_MODULE(logo_v1合作)#--></div>
+<div class="searchBox">
+<input name="searchWord" id="searchWord" type="text" class="text" value="请输入关键字" onfocus="Onfocus()" onblur="Onblur()">
+<form action="http://so.v1.cn/search/news/video/all/q_" method="get" id="searchForm" target="_blank">        
+<button class="search" type="submit" id="searchBut">搜 索</button>
+</form>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(热搜词_v1首页)#-->
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(导航)#-->
+
+</div>
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+<!----v1统计代码------>
+
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:13;s:7198:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+<div class="topBoxCooperate">
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBoxCooperate"><!--#CMS_MODULE(logo_v1合作)#--></div>
+<div class="searchBox">
+<input name="searchWord" id="searchWord" type="text" class="text" value="请输入关键字" onfocus="Onfocus()" onblur="Onblur()">
+<form action="http://so.v1.cn/search/news/video/all/q_" method="get" id="searchForm" target="_blank">        
+<button class="search" type="submit" id="searchBut">搜 索</button>
+</form>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(热搜词_v1首页)#-->
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(导航)#-->
+
+</div>
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+<!----v1统计代码------>
+
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:14;s:6247:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+
+
+<!--#CMS_MODULE(导航)#-->
+
+
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+<!----v1统计代码------>
+
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:15;s:6245:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+
+
+<!--#CMS_MODULE(导航)#-->
+
+
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/foot_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+<!----v1统计代码------>
+
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:16;s:6083:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+
+
+<!--#CMS_MODULE(导航)#-->
+
+
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/foot_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+<!----v1统计代码------>
+
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:17;s:6092:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+
+
+<!--#CMS_MODULE(频道页header)#-->
+
+
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/foot_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+<!----v1统计代码------>
+
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:18;s:6083:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+
+
+<!--#CMS_MODULE(导航)#-->
+
+
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/foot_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+<!----v1统计代码------>
+
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:19;s:6092:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>{$cms_page_title}</title>
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+
+<body>
+
+
+
+<!--#CMS_MODULE(频道页header)#-->
+
+
+
+<!--#CMS_MODULE(iframeUrl_v1合作)#-->
+
+
+<div style="background:#fff;position:relative;z-index:999;">
+<!--ssi#include virtual="/ssi/foot_common.html"-->
+</div>
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+<!--/设为首页-->
+<script language="javascript" type="text/javascript">
+function addCookie() {　 // 加入收藏
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 window.external.addFavorite('http://www.v1.cn', '第一视频');
+　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　 window.sidebar.addPanel('第一视频','http://www.v1.cn', "");
+　　　　　　　　　　　 }
+　　　　　　　 }　　　　　　　 function setHomepage() {　 // 设为首页
+　　　　　　　　　　　 if (document.all) {
+　　　　　　　　　　　　　　　 document.body.style.behavior = 'url(#default#homepage)';
+　　　　　　　　　　　　　　　 document.body.setHomePage('http://www.v1.cn');　　　　　　　　　　　 }
+　　　　　　　　　　　 else if (window.sidebar) {
+　　　　　　　　　　　　　　　 if (window.netscape) {
+　　　　　　　　　　　　　　　　　　　 try {
+　　　　　　　　　　　　　　　　　　　　　　　 netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　　　　　 catch (e) {
+　　　　　　　　　　　　　　　　　　　　　　　 alert("该操作被浏览器拒绝，假如想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+　　　　　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 }
+　　　　　　　　　　　　　　　 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+　　　　　　　　　　　　　　　 prefs.setCharPref('browser.startup.homepage','http://www.finalcn.com');
+　　　　　　　　　　　 }　　　　　　　 } 
+</script>
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+
+
+<!----v1统计代码------>
+
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";}

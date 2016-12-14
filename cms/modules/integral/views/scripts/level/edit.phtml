@@ -1,0 +1,39 @@
+<div class="area">
+<div class="help"> 
+    <p>帮助</p>
+    <p>1、等级编辑页面;</p>  
+<?=$this->showErrors()?>
+</div>
+
+<div class="nr">
+    <h2>编辑等级</h2>
+
+<form action="" method="post">
+<table cellspacing="1" class="form">
+<tbody>
+    <tr>
+        <td width="70">lv</td>
+        <td><?=$this->level->lv ?></td>
+    </tr>
+    <tr>
+        <td width="100">名称</td>
+        <td><input style="width:200px;" name="lvName" value="<?=$this->level->lvName ?>"></td>
+    </tr>
+    <tr>
+        <td width="100">最小积分</td>
+        <td><input style="width:100px;" name="minScore" value="<?=$this->level->minScore ?>"></td>
+    </tr>
+    <tr>
+        <td width="100">最大积分</td>
+        <td><input style="width:100px;" name="maxScore" value="<?=$this->level->maxScore ?>"></td>
+    </tr>
+   
+    <tr>
+        <td>&nbsp;</td>
+        <td><button  type="submit" name="submit">编辑等级</button></td>
+    </tr>  
+</tbody>
+</table>
+</form>
+</div>
+</div>

@@ -1,0 +1,1614 @@
+a:20:{i:0;s:1889:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script src="http://pic.v1.cn/cms/new_special/demoLine/js/live_content.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="topic_img"></div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+
+</body>
+</html>
+";i:1;s:1854:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script src="http://pic.v1.cn/cms/new_special/demoLine/js/live_content.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+</head>
+
+<body>
+<div class="topic_img"></div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+
+</body>
+</html>
+";i:2;s:3253:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script src="http://pic.v1.cn/cms/new_special/demoLine/js/live_content.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+</head>
+
+<body>
+<div class="topic_img">
+<div class="shareout">
+        <div class="sharebox">
+        <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;bottom:0px;margin-right:4px;" >
+        <a class="fenx" title="分享到" href="#">分享到：</a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+        bdText=document.title
+        bdText=bdText.substring(0,bdText.indexOf('-'));
+        bdText=bdText+'（分享自@第一视频 ）';
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+        </div>
+    </div>
+</div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+
+</body>
+</html>
+";i:3;s:3284:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script src="http://pic.v1.cn/cms/new_special/demoLine/js/live_content.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+</head>
+
+<body>
+<div class="topic_img" style="position:relative;">
+    <div class="shareout">
+        <div class="sharebox">
+        <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;bottom:0px;margin-right:4px;" >
+        <a class="fenx" title="分享到" href="#">分享到：</a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+        bdText=document.title
+        bdText=bdText.substring(0,bdText.indexOf('-'));
+        bdText=bdText+'（分享自@第一视频 ）';
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+        </div>
+    </div>
+</div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+
+</body>
+</html>
+";i:4;s:3370:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script src="http://pic.v1.cn/cms/new_special/demoLine/js/live_content.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+<div class="topic_img" style="position:relative;">
+    <div class="shareout">
+        <div class="sharebox">
+        <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;bottom:0px;margin-right:4px;" >
+        <a class="fenx" title="分享到" href="#">分享到：</a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+        bdText=document.title
+        bdText=bdText.substring(0,bdText.indexOf('-'));
+        bdText=bdText+'（分享自@第一视频 ）';
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+        </div>
+    </div>
+</div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+
+</body>
+</html>
+";i:5;s:3371:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script src="http://pic.v1.cn/cms/new_special/demoLine/js/live_content.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(模板NO1背景/分栏/边框)#-->
+<div class="topic_img" style="position:relative;">
+    <div class="shareout">
+        <div class="sharebox">
+        <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;bottom:0px;margin-right:4px;" >
+        <a class="fenx" title="分享到" href="#">分享到：</a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+        bdText=document.title
+        bdText=bdText.substring(0,bdText.indexOf('-'));
+        bdText=bdText+'（分享自@第一视频 ）';
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+        </div>
+    </div>
+</div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+
+</body>
+</html>
+";i:6;s:3442:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script src="http://pic.v1.cn/cms/new_special/demoLine/js/live_content.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(模板NO1背景/分栏/边框)#-->
+<div class="topic_img" style="position:relative;">
+    <div class="shareout">
+        <div class="sharebox">
+        <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;bottom:0px;margin-right:4px;" >
+        <a class="fenx" title="分享到" href="#">分享到：</a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+        bdText=document.title
+        bdText=bdText.substring(0,bdText.indexOf('-'));
+        bdText=bdText+'（分享自@第一视频 ）';
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+        </div>
+    </div>
+</div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:7;s:3444:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script src="http://pic.v1.cn/cms/new_special/demoLine/js/live_content.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(模板NO1背景/分栏/边框)#-->
+<div class="topic_img" style="position:relative;">
+    <div class="shareout">
+        <div class="sharebox">
+        <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;bottom:0px;margin-right:4px;" >
+        <a class="fenx" title="分享到" href="#">分享到：</a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+        bdText=document.title
+        bdText=bdText.substring(0,bdText.indexOf('-'));
+        bdText=bdText+'（分享自@第一视频 ）';
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+        </div>
+    </div>
+</div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:8;s:3684:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script src="http://pic.v1.cn/cms/new_special/demoLine/js/live_content.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+<link href="http://pic.v1.cn/cms/new_special/common/css/comment_css.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/new_special/common/js/jquery.cookie.js" language="javascript" type="text/javascript"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(模板NO1背景/分栏/边框)#-->
+<div class="topic_img" style="position:relative;">
+    <div class="shareout">
+        <div class="sharebox">
+        <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;bottom:0px;margin-right:4px;" >
+        <a class="fenx" title="分享到" href="#">分享到：</a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+        bdText=document.title
+        bdText=bdText.substring(0,bdText.indexOf('-'));
+        bdText=bdText+'（分享自@第一视频 ）';
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+        </div>
+    </div>
+</div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:9;s:3678:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script src="http://pic.v1.cn/cms/new_special/demoLine/js/live_content.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+<link href="http://pic.v1.cn/cms/new_special/common/css/comment_css.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/new_special/common/js/jquery.cookie.js" language="javascript" type="text/javascript"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="topic_img" style="position:relative;">
+    <div class="shareout">
+        <div class="sharebox">
+        <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;bottom:0px;margin-right:4px;" >
+        <a class="fenx" title="分享到" href="#">分享到：</a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+        bdText=document.title
+        bdText=bdText.substring(0,bdText.indexOf('-'));
+        bdText=bdText+'（分享自@第一视频 ）';
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+        </div>
+    </div>
+</div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:10;s:3676:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script src="http://pic.v1.cn/cms/new_special/demoLine/js/live_content.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+<link href="http://pic.v1.cn/cms/new_special/common/css/comment_css.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/new_special/common/js/jquery.cookie.js" language="javascript" type="text/javascript"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="top_img" style="position:relative;">
+    <div class="shareout">
+        <div class="sharebox">
+        <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;bottom:0px;margin-right:4px;" >
+        <a class="fenx" title="分享到" href="#">分享到：</a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+        bdText=document.title
+        bdText=bdText.substring(0,bdText.indexOf('-'));
+        bdText=bdText+'（分享自@第一视频 ）';
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+        </div>
+    </div>
+</div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:11;s:3676:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script src="http://pic.v1.cn/cms/new_special/demoLine/js/live_content.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+<link href="http://pic.v1.cn/cms/new_special/common/css/comment_css.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/new_special/common/js/jquery.cookie.js" language="javascript" type="text/javascript"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+<div class="top_img" style="position:relative;">
+    <div class="shareout">
+        <div class="sharebox">
+        <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;bottom:0px;margin-right:4px;" >
+        <a class="fenx" title="分享到" href="#">分享到：</a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+        bdText=document.title
+        bdText=bdText.substring(0,bdText.indexOf('-'));
+        bdText=bdText+'（分享自@第一视频 ）';
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+        </div>
+    </div>
+</div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:12;s:3586:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+<link href="http://pic.v1.cn/cms/new_special/common/css/comment_css.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/new_special/common/js/jquery.cookie.js" language="javascript" type="text/javascript"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+<div class="top_img" style="position:relative;">
+    <div class="shareout">
+        <div class="sharebox">
+        <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;bottom:0px;margin-right:4px;" >
+        <a class="fenx" title="分享到" href="#">分享到：</a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+        bdText=document.title
+        bdText=bdText.substring(0,bdText.indexOf('-'));
+        bdText=bdText+'（分享自@第一视频 ）';
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+        </div>
+    </div>
+</div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:13;s:3591:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_category}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+<link href="http://pic.v1.cn/cms/new_special/common/css/comment_css.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/new_special/common/js/jquery.cookie.js" language="javascript" type="text/javascript"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+<div class="top_img" style="position:relative;">
+    <div class="shareout">
+        <div class="sharebox">
+        <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;bottom:0px;margin-right:4px;" >
+        <a class="fenx" title="分享到" href="#">分享到：</a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+        bdText=document.title
+        bdText=bdText.substring(0,bdText.indexOf('-'));
+        bdText=bdText+'（分享自@第一视频 ）';
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+        </div>
+    </div>
+</div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:14;s:3588:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+<link href="http://pic.v1.cn/cms/new_special/common/css/comment_css.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/new_special/common/js/jquery.cookie.js" language="javascript" type="text/javascript"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+<div class="top_img" style="position:relative;">
+    <div class="shareout">
+        <div class="sharebox">
+        <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;bottom:0px;margin-right:4px;" >
+        <a class="fenx" title="分享到" href="#">分享到：</a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+        bdText=document.title
+        bdText=bdText.substring(0,bdText.indexOf('-'));
+        bdText=bdText+'（分享自@第一视频 ）';
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+        </div>
+    </div>
+</div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:15;s:3610:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}--{$cms_page_category}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+<link href="http://pic.v1.cn/cms/new_special/common/css/comment_css.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/new_special/common/js/jquery.cookie.js" language="javascript" type="text/javascript"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+<div class="top_img" style="position:relative;">
+    <div class="shareout">
+        <div class="sharebox">
+        <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;bottom:0px;margin-right:4px;" >
+        <a class="fenx" title="分享到" href="#">分享到：</a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+        bdText=document.title
+        bdText=bdText.substring(0,bdText.indexOf('-'));
+        bdText=bdText+'（分享自@第一视频 ）';
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+        </div>
+    </div>
+</div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:16;s:3588:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+<link href="http://pic.v1.cn/cms/new_special/common/css/comment_css.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/new_special/common/js/jquery.cookie.js" language="javascript" type="text/javascript"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+<div class="top_img" style="position:relative;">
+    <div class="shareout">
+        <div class="sharebox">
+        <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;bottom:0px;margin-right:4px;" >
+        <a class="fenx" title="分享到" href="#">分享到：</a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+        bdText=document.title
+        bdText=bdText.substring(0,bdText.indexOf('-'));
+        bdText=bdText+'（分享自@第一视频 ）';
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+        </div>
+    </div>
+</div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:17;s:3948:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+<link href="http://pic.v1.cn/cms/new_special/common/css/comment_css.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/new_special/common/js/jquery.cookie.js" language="javascript" type="text/javascript"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+<div class="top_img" style="position:relative;">
+    <div class="shareout">
+        <div class="sharebox">
+        <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;bottom:0px;margin-right:4px;" >
+        <a class="fenx" title="分享到" href="#">分享到：</a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+        bdText=document.title
+        bdText=bdText.substring(0,bdText.indexOf('-'));
+        bdText=bdText+'（分享自@第一视频 ）';
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+        </div>
+    </div>
+</div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:18;s:4182:"<!--#
+  $sort=CMS_FUNCTION('toPinyin',$cms_page_category.'Zt');
+  $sort=$sort['pinyin_for_full'];
+#-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+<link href="http://pic.v1.cn/cms/new_special/common/css/comment_css.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/new_special/common/js/jquery.cookie.js" language="javascript" type="text/javascript"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+
+  //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$cms_page_category}Zt', 3]);
+</script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+<div class="top_img" style="position:relative;">
+    <div class="shareout">
+        <div class="sharebox">
+        <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;bottom:0px;margin-right:4px;" >
+        <a class="fenx" title="分享到" href="#">分享到：</a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+        bdText=document.title
+        bdText=bdText.substring(0,bdText.indexOf('-'));
+        bdText=bdText+'（分享自@第一视频 ）';
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+        </div>
+    </div>
+</div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:19;s:4254:"<!--#
+  $sort=CMS_FUNCTION('toPinyin',$cms_page_category.'Zt');
+  $sort=$sort['pinyin_for_full'];
+#-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/demoLine/css/demoLine.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/common.css">
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/demoLine/js/demoline.js"></script>
+<link href="http://pic.v1.cn/cms/new_special/common/css/comment_css.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/new_special/common/js/jquery.cookie.js" language="javascript" type="text/javascript"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+
+  //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$cms_page_category}Zt', 3]);
+</script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(NO3背景/分栏/边框)#-->
+<div class="top_img" style="position:relative;">
+    <div class="shareout">
+        <div class="sharebox">
+        <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="float:right;bottom:0px;margin-right:4px;" >
+        <a class="fenx" title="分享到" href="#">分享到：</a>
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+        bdText=document.title
+        bdText=bdText.substring(0,bdText.indexOf('-'));
+        bdText=bdText+'（分享自@第一视频 ）';
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+        </div>
+    </div>
+</div>
+<div id="wrap" class="clearfix">
+   <div id="js_dataList" class="col_left">
+      <div id="box_showa" class="box_showa_def">
+         <ul class="ico01 hg">
+            直播进行中
+         </ul>
+         <ul class="box01">
+            <li class="comments" style="display:none;"><i>16733</i>条评论</li> 
+            <li><a class="btn01" onclick="javascript:window.location.reload()"></a></li>
+         </ul>
+      </div>
+      
+      
+<!--#CMS_MODULE(code003)#-->   
+
+      <!--点击更多-->
+              <div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+<a class="next"></a>
+	</div>
+</div>
+      <!--点击更多 end-->
+   </div>
+   <!--页面右侧-->
+   <div class="col_right">
+<!--#CMS_MODULE(code001)#-->      
+<!--#CMS_MODULE(code002)#--> 
+      </div>
+  </div>
+   <!--页面右侧 end-->
+</div>
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";}

@@ -1,0 +1,128 @@
+<div class="area">
+	<div class="help">
+    <p>帮助</p>
+    <p>1、此处为关键词列表;</p>    
+    <p>2、可以添加本频道的关键词,对其它频道建立的关键词无操作权限.</p>	
+	<br />
+    <form action="/search/keyword/index" method="post" id="sForm">
+	   频道:
+	   <?php echo $this->formSelect('channel', $this->getChannel, array('style'=>'width:130px'), $this->channels) ?>	
+       分类:
+	   <?php echo $this->formSelect('cid2', $this->cid, array('style'=>'width:130px'), $this->cid_search) ?>	
+	   关键词<input type="text" name="k_word" value="<?=$this->k_word?>">
+	   <input type="submit" id="submit" value="在所有关键词中查找">
+	</form>
+	<br />
+	<form action="/search/keyword/create" method="post" id="kForm" onsubmit="return check(this)">
+       分类:
+	   <?php echo $this->formSelect('cid', null, array('style'=>'width:130px'), $this->cid_options) ?>	
+	   关键词<input type="text" id="k_word" name="k_word">
+		<input type="submit" id="submit" value="添加新关键词">
+	</form>
+	<br />
+	<form action="/search/keyword/addaword" method="post" id="aForm" onsubmit="return checkAword(this)" style="display:none">
+       添加关键词"<span id="kword" style="font-weight:bold;color:#004C7D"></span>"的关联词:
+	   <input type="text" id="a_word" name="a_word" size="60">	   
+	   <input type="submit" id="submit" value="添加新关联词"><input type="button" id="cancel" value="取消" onclick="$('#aForm').css('display','none');">(一次性添加多个关联词请用英文逗号隔开)
+	</form>
+    </div>
+	<div class="nr">
+    	<h2><button onclick="window.location.href='/search/keyword'">关键词列表</button></h2>
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" class="list sort">
+        	<tr>
+            	<th width="4%">k_id</th>
+				<th width="15%">关键词</th> 
+                <th width="8%">频道</th>              
+                <th width="10%">分类</th> 				
+				<th width="8%">搜索率</th>
+                <th>操作</th>
+            </tr>
+    <?php foreach ($this->all_list as $key => $value): ?>
+            <tr style="background-color:#ECF8FF">
+            	<td><?=$value['k_id']?></td>	
+				<td style="font-weight:bold;color:#004C7D;font-size:23px"><?=$value['k_word'] ?></td> 
+                <td><?=$this->escape($value['channel'])?></td>               
+                <td><?=$value['cname'] ?></td>   				
+				<td><?=$value['hits']?></td>
+		<?php if($value['channel']== $this->channel){?>
+                <td width="100%">
+	                <a href="#" onclick="addAword('<?=$value['k_word']?>',<?=$value['k_id']?>)">添加关联词</a>&nbsp;
+	                <a href="#" onclick="if(confirm('真的要清除该关键词的全部关联词吗?'))window.location='/search/keyword/clear/kid/<?=$value['k_id']?>'">清空关联词</a>&nbsp;
+					<a href="#" onclick="if(confirm('真的要删除该关键词吗?'))window.location='/search/keyword/del/kid/<?=$value['k_id']?>'">删除</a>	
+                </td>
+            </tr>
+			 <tr>
+            	<td colspan="6" width="100%">关联词:
+				<?php if($value['a_word'])foreach (explode(',',$value['a_word']) as $a): ?>
+					<span style="font-weight:bold;color:green"><?=$a ?></span>(<a href="#" onclick="delAword(<?=$value['k_id']?>, '<?=urlencode($a) ?>');return false;">删</a>)&nbsp;
+				 <?php endforeach;  ?>
+				</td>         
+            </tr>
+		<?php }else{?>
+		      <td >	&nbsp;           	
+                </td>
+            </tr>
+			 <tr>
+            	<td colspan="6">关联词:
+				<?php if($value['a_word'])foreach (explode(',',$value['a_word']) as $a): ?>
+					<span style="font-weight:bold;color:green"><?=$a ?></span>&nbsp;
+				 <?php endforeach;  ?>
+				</td>         
+            </tr>
+		<?php }?>
+    <?php endforeach;  ?>
+        </table> 		
+     </div>
+	 <div class="fy">
+		<?=$this->pagebar ?>
+    </div>
+ </div>    
+<script type="text/javascript">
+function check()
+{
+	if($('#kForm').find('#cid').val()== 0)
+	{
+		alert('请选择分类!');
+		return false;
+	}
+	if(!$('#kForm').find('#k_word').val())
+	{
+		alert('请填写完整!');
+		return false;
+	}
+	return true;
+}
+function checkAword()
+{
+	if(!$('#aForm').find('#a_word').val())
+	{
+		alert('请填写完整!');
+		return false;
+	}
+	return true;
+}
+
+function addAword(kword, kid){
+	$('#aForm').attr('action','/search/keyword/addaword/id/'+ kid);	
+	$('#aForm').css('display','');
+	$('#kword').html(kword);
+	$('#a_word').val('');		
+}
+
+function delAword(kid, aword)
+{
+	if(!kid || !aword){
+		alert('error!');
+		return false;
+	}else{
+		var url= '/search/keyword/delaword/id/'+ kid+'/aword/'+aword+'/?returnUrl='+ window.location.href;
+		window.location.href= url;
+		//$.get(url, function(data){
+				//alert(data);
+				//window.location= window.location;
+			//}
+		//); 
+	}
+}
+</script>
+ 

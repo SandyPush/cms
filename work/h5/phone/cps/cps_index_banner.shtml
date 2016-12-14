@@ -1,0 +1,19 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body>
+asdf
+
+<div class="index-box-m clearfix">
+    <a href="asdf,10"><img src="http://img.g.v1.cn/h5/20160126/2785_0x0.jpg" alt="sdaf-sdf"></a>
+</div>
+
+            
+
+
+
+<div class="index-box-m clearfix">
+    <a href="http://img.g.v1.cn/h5/20160126/2785_0x0.jpg"><img src="http://img.g.v1.cn/h5/20160126/2785_0x0.jpg" alt="sdf-sdaf"></a>
+</div>
+
+            
+
+
+</body></html><script>window.onload=function(){document.getElementsByTagName("body")[0].ondblclick=function(){if(window.confirm("进入编辑模式？")){Url=location.pathname;Url=Url.replace(/(\.(html|shtml|htm))/,".edit$1");location.href="http://"+location.host+Url;}}}</script>

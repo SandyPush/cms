@@ -1,0 +1,1816 @@
+a:17:{i:0;s:6560:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://pic.v1.cn/cms/popup/js/tc.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/popup/css/style.css"/>
+<title>{$cms_page_title}</title>
+
+
+</head>
+<body onselectstart="return false">
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+var vjAcc="860010-1129250100";
+var wrUrl="http://cntv.wrating.com/";
+var wrVideoUrl="http://cntv.wrating.com/";
+</script>
+<!-- END WRating v1.0 -->
+
+<!-- for iPad begin -->
+<script type="text/javascript">
+(function(){
+	if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){ return; };
+	document.addEventListener('mousedown',function(e){
+		var ele = e.target;
+		do{
+			if(ele.tagName == 'A'){
+				ele.target = '_self';
+				return;
+			};
+			if(ele.tagName == 'DIV'){ return };
+		}while(ele = ele.parentNode);
+	},false);
+})();
+</script>
+<!-- for iPad end -->
+
+<script type="text/javascript">
+document.onkeydown = function(){if(event.keyCode==116){event.keyCode=0;event.returnValue = false;}}
+document.oncontextmenu=new Function("event.returnValue=false;");
+</script>
+<div class="wp" suda-dataclick='click'>
+    <div class="hd" id="TitleBtn">
+        <div class="fr" id="TitleBtn2">
+            <div class="so" style="display:none">
+                <input type="text" class="so-input fl">
+                <input type="submit" class="so-btn fr" value="&nbsp;">
+            </div>
+            <div class="win-fun">
+                <a href="#" class="close" id="ButtonCancel"></a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="col-l">
+            <div class="tj-pic">
+                <a href="http://bbs.cntv.cn/thread-26490335-1-1.html" class="bgtitleimg" target="_blank">
+                    <img src="http://pic.v1.cn/cms/popup/image/pic_jd.png" width="220" height="147">
+                    <div class="title">各日韩战机在日本海追踪俄图-95轰炸机</div>
+                    <div class="bgtitle"></div>
+                </a>
+            </div>
+            <ul class="tj-pic-2">
+                <li style="margin:0"><a href="http://bbs.cntv.cn/thread-26487974-1-1.html" target="_blank" ><img src="http://pic.v1.cn/cms/popup/image/pic_01.png" width="100" height="67" /><p>防招生创招生频新</p></a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26488786-1-1.html" target="_blank"><img src="http://pic.v1.cn/cms/popup/image/pic_02.png" width="100" height="67" /><p>防招生创招生频新</p></a></li>
+            </ul>
+            <ul class="list-1">
+                <li style="border-top:none">·<a href="http://bbs.cntv.cn/thread-26490345-1-1.html" target="_blank">高校招生创新频创新频创新频使美人使</a></li>
+                <li>·<a href="http://bbs.cntv.cn/thread-26490215-1-1.html" target="_blank">高校招生创新频创新频创新频使美人使</a></li>
+                <li>·<a href="http://bbs.cntv.cn/thread-26491739-1-1.html" target="_blank">高校招生创新频创新频创新频使美人使</a></li>
+            </ul>
+        </div>
+        
+        <div class="col-c">
+            <div class="h1-title">
+           <a href="http://bbs.cntv.cn/thread-26489734-1-1.html" target="_blank">葛兰素史克致歉府根除败决心</a>
+            </div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26489658-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href=" http://bbs.cntv.cn/thread-26490495-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26489703-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26490143-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+
+            </ul>
+            <div class="catname color1">新闻·军事</div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26487682-1-1.html" target="_blank">奇闻趣事：从睡姿看你能否成为有钱人</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487953-1-1.html" target="_blank">青涩年华！走毕业红毯的大学生情侣</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26488587-1-1.html" target="_blank">孕妇也时髦：欧美准妈女星近期街拍</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487637-1-1.html" target="_blank">美女再胖也是美女，台湾胖美女爆红</a></li>
+            </ul>
+            <div class="catname color1">新闻·军事</div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26487707-1-1.html" target="_blank">张惠妹MV激瘦差距大 无PS真的会死</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26488410-1-1.html" target="_blank">明星耍大牌：矿泉水洗澡、机场铺红毯</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487676-1-1.html" target="_blank">致猝死十大恶习榜 用力大便名列前茅</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487657-1-1.html" target="_blank">值得收藏：超级经典的中医保健秘方</a></li>
+            </ul>
+        </div>
+<div class="col-r">
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_01.png">
+</a>
+</div>
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/html/feedback.html">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_02.png">
+</a>
+</div>
+<div class="colr_2">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1最现场 
+</a>
+</div>
+<div class="colr_3">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1曝光台
+</a>
+</div>
+</div>
+    </div>
+    <div class="ft"></div>
+</div>
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+_vjTrack("");
+</script>
+<noscript><img src="http://cntv.wrating.com/a.gif?c=860010-1129250100" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+</body>
+</html>";i:1;s:6183:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://pic.v1.cn/cms/popup/js/tc.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/popup/css/style.css"/>
+<title>{$cms_page_title}</title>
+
+
+</head>
+<body onselectstart="return false">
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+var vjAcc="860010-1129250100";
+var wrUrl="http://cntv.wrating.com/";
+var wrVideoUrl="http://cntv.wrating.com/";
+</script>
+<!-- END WRating v1.0 -->
+
+<!-- for iPad begin -->
+<script type="text/javascript">
+(function(){
+	if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){ return; };
+	document.addEventListener('mousedown',function(e){
+		var ele = e.target;
+		do{
+			if(ele.tagName == 'A'){
+				ele.target = '_self';
+				return;
+			};
+			if(ele.tagName == 'DIV'){ return };
+		}while(ele = ele.parentNode);
+	},false);
+})();
+</script>
+<!-- for iPad end -->
+
+<script type="text/javascript">
+document.onkeydown = function(){if(event.keyCode==116){event.keyCode=0;event.returnValue = false;}}
+document.oncontextmenu=new Function("event.returnValue=false;");
+</script>
+<div class="wp" suda-dataclick='click'>
+    <div class="hd" id="TitleBtn">
+        <div class="fr" id="TitleBtn2">
+            <div class="so" style="display:none">
+                <input type="text" class="so-input fl">
+                <input type="submit" class="so-btn fr" value="&nbsp;">
+            </div>
+            <div class="win-fun">
+                <a href="#" class="close" id="ButtonCancel"></a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="col-l">
+
+            <!--#CMS_MODULE(弹窗-焦点图)#-->
+
+            <ul class="tj-pic-2">
+                <li style="margin:0"><a href="http://bbs.cntv.cn/thread-26487974-1-1.html" target="_blank" ><img src="http://pic.v1.cn/cms/popup/image/pic_01.png" width="100" height="67" /><p>防招生创招生频新</p></a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26488786-1-1.html" target="_blank"><img src="http://pic.v1.cn/cms/popup/image/pic_02.png" width="100" height="67" /><p>防招生创招生频新</p></a></li>
+            </ul>
+            <ul class="list-1">
+                <li style="border-top:none">·<a href="http://bbs.cntv.cn/thread-26490345-1-1.html" target="_blank">高校招生创新频创新频创新频使美人使</a></li>
+                <li>·<a href="http://bbs.cntv.cn/thread-26490215-1-1.html" target="_blank">高校招生创新频创新频创新频使美人使</a></li>
+                <li>·<a href="http://bbs.cntv.cn/thread-26491739-1-1.html" target="_blank">高校招生创新频创新频创新频使美人使</a></li>
+            </ul>
+        </div>
+        
+        <div class="col-c">
+            <div class="h1-title">
+           <a href="http://bbs.cntv.cn/thread-26489734-1-1.html" target="_blank">葛兰素史克致歉府根除败决心</a>
+            </div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26489658-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href=" http://bbs.cntv.cn/thread-26490495-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26489703-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26490143-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+
+            </ul>
+            <div class="catname color1">新闻·军事</div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26487682-1-1.html" target="_blank">奇闻趣事：从睡姿看你能否成为有钱人</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487953-1-1.html" target="_blank">青涩年华！走毕业红毯的大学生情侣</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26488587-1-1.html" target="_blank">孕妇也时髦：欧美准妈女星近期街拍</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487637-1-1.html" target="_blank">美女再胖也是美女，台湾胖美女爆红</a></li>
+            </ul>
+            <div class="catname color1">新闻·军事</div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26487707-1-1.html" target="_blank">张惠妹MV激瘦差距大 无PS真的会死</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26488410-1-1.html" target="_blank">明星耍大牌：矿泉水洗澡、机场铺红毯</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487676-1-1.html" target="_blank">致猝死十大恶习榜 用力大便名列前茅</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487657-1-1.html" target="_blank">值得收藏：超级经典的中医保健秘方</a></li>
+            </ul>
+        </div>
+<div class="col-r">
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_01.png">
+</a>
+</div>
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/html/feedback.html">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_02.png">
+</a>
+</div>
+<div class="colr_2">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1最现场 
+</a>
+</div>
+<div class="colr_3">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1曝光台
+</a>
+</div>
+</div>
+    </div>
+    <div class="ft"></div>
+</div>
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+_vjTrack("");
+</script>
+<noscript><img src="http://cntv.wrating.com/a.gif?c=860010-1129250100" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+</body>
+</html>";i:2;s:5728:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://pic.v1.cn/cms/popup/js/tc.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/popup/css/style.css"/>
+<title>{$cms_page_title}</title>
+
+
+</head>
+<body onselectstart="return false">
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+var vjAcc="860010-1129250100";
+var wrUrl="http://cntv.wrating.com/";
+var wrVideoUrl="http://cntv.wrating.com/";
+</script>
+<!-- END WRating v1.0 -->
+
+<!-- for iPad begin -->
+<script type="text/javascript">
+(function(){
+	if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){ return; };
+	document.addEventListener('mousedown',function(e){
+		var ele = e.target;
+		do{
+			if(ele.tagName == 'A'){
+				ele.target = '_self';
+				return;
+			};
+			if(ele.tagName == 'DIV'){ return };
+		}while(ele = ele.parentNode);
+	},false);
+})();
+</script>
+<!-- for iPad end -->
+
+<script type="text/javascript">
+document.onkeydown = function(){if(event.keyCode==116){event.keyCode=0;event.returnValue = false;}}
+document.oncontextmenu=new Function("event.returnValue=false;");
+</script>
+<div class="wp" suda-dataclick='click'>
+    <div class="hd" id="TitleBtn">
+        <div class="fr" id="TitleBtn2">
+            <div class="so" style="display:none">
+                <input type="text" class="so-input fl">
+                <input type="submit" class="so-btn fr" value="&nbsp;">
+            </div>
+            <div class="win-fun">
+                <a href="#" class="close" id="ButtonCancel"></a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="col-l">
+
+            <!--#CMS_MODULE(left01)#-->
+            <!--#CMS_MODULE(left02)#-->
+            
+            <ul class="list-1">
+                <li style="border-top:none">·<a href="http://bbs.cntv.cn/thread-26490345-1-1.html" target="_blank">高校招生创新频创新频创新频使美人使</a></li>
+                <li>·<a href="http://bbs.cntv.cn/thread-26490215-1-1.html" target="_blank">高校招生创新频创新频创新频使美人使</a></li>
+                <li>·<a href="http://bbs.cntv.cn/thread-26491739-1-1.html" target="_blank">高校招生创新频创新频创新频使美人使</a></li>
+            </ul>
+        </div>
+        
+        <div class="col-c">
+            <div class="h1-title">
+           <a href="http://bbs.cntv.cn/thread-26489734-1-1.html" target="_blank">葛兰素史克致歉府根除败决心</a>
+            </div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26489658-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href=" http://bbs.cntv.cn/thread-26490495-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26489703-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26490143-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+
+            </ul>
+            <div class="catname color1">新闻·军事</div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26487682-1-1.html" target="_blank">奇闻趣事：从睡姿看你能否成为有钱人</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487953-1-1.html" target="_blank">青涩年华！走毕业红毯的大学生情侣</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26488587-1-1.html" target="_blank">孕妇也时髦：欧美准妈女星近期街拍</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487637-1-1.html" target="_blank">美女再胖也是美女，台湾胖美女爆红</a></li>
+            </ul>
+            <div class="catname color1">新闻·军事</div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26487707-1-1.html" target="_blank">张惠妹MV激瘦差距大 无PS真的会死</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26488410-1-1.html" target="_blank">明星耍大牌：矿泉水洗澡、机场铺红毯</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487676-1-1.html" target="_blank">致猝死十大恶习榜 用力大便名列前茅</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487657-1-1.html" target="_blank">值得收藏：超级经典的中医保健秘方</a></li>
+            </ul>
+        </div>
+<div class="col-r">
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_01.png">
+</a>
+</div>
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/html/feedback.html">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_02.png">
+</a>
+</div>
+<div class="colr_2">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1最现场 
+</a>
+</div>
+<div class="colr_3">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1曝光台
+</a>
+</div>
+</div>
+    </div>
+    <div class="ft"></div>
+</div>
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+_vjTrack("");
+</script>
+<noscript><img src="http://cntv.wrating.com/a.gif?c=860010-1129250100" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+</body>
+</html>";i:3;s:5746:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://pic.v1.cn/cms/popup/js/tc.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/popup/css/style.css"/>
+<title>{$cms_page_title}</title>
+
+
+</head>
+<body onselectstart="return false">
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+var vjAcc="860010-1129250100";
+var wrUrl="http://cntv.wrating.com/";
+var wrVideoUrl="http://cntv.wrating.com/";
+</script>
+<!-- END WRating v1.0 -->
+
+<!-- for iPad begin -->
+<script type="text/javascript">
+(function(){
+	if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){ return; };
+	document.addEventListener('mousedown',function(e){
+		var ele = e.target;
+		do{
+			if(ele.tagName == 'A'){
+				ele.target = '_self';
+				return;
+			};
+			if(ele.tagName == 'DIV'){ return };
+		}while(ele = ele.parentNode);
+	},false);
+})();
+</script>
+<!-- for iPad end -->
+
+<script type="text/javascript">
+document.onkeydown = function(){if(event.keyCode==116){event.keyCode=0;event.returnValue = false;}}
+document.oncontextmenu=new Function("event.returnValue=false;");
+</script>
+<div class="wp" suda-dataclick='click'>
+    <div class="hd" id="TitleBtn">
+        <div class="fr" id="TitleBtn2">
+            <div class="so" style="display:none">
+                <input type="text" class="so-input fl">
+                <input type="submit" class="so-btn fr" value="&nbsp;">
+            </div>
+            <div class="win-fun">
+                <a href="#" class="close" id="ButtonCancel"></a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="col-l">
+
+            <!--#CMS_MODULE(弹窗-左侧01)#-->
+            <!--#CMS_MODULE(弹窗-左侧02)#-->
+            
+            <ul class="list-1">
+                <li style="border-top:none">·<a href="http://bbs.cntv.cn/thread-26490345-1-1.html" target="_blank">高校招生创新频创新频创新频使美人使</a></li>
+                <li>·<a href="http://bbs.cntv.cn/thread-26490215-1-1.html" target="_blank">高校招生创新频创新频创新频使美人使</a></li>
+                <li>·<a href="http://bbs.cntv.cn/thread-26491739-1-1.html" target="_blank">高校招生创新频创新频创新频使美人使</a></li>
+            </ul>
+        </div>
+        
+        <div class="col-c">
+            <div class="h1-title">
+           <a href="http://bbs.cntv.cn/thread-26489734-1-1.html" target="_blank">葛兰素史克致歉府根除败决心</a>
+            </div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26489658-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href=" http://bbs.cntv.cn/thread-26490495-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26489703-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26490143-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+
+            </ul>
+            <div class="catname color1">新闻·军事</div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26487682-1-1.html" target="_blank">奇闻趣事：从睡姿看你能否成为有钱人</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487953-1-1.html" target="_blank">青涩年华！走毕业红毯的大学生情侣</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26488587-1-1.html" target="_blank">孕妇也时髦：欧美准妈女星近期街拍</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487637-1-1.html" target="_blank">美女再胖也是美女，台湾胖美女爆红</a></li>
+            </ul>
+            <div class="catname color1">新闻·军事</div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26487707-1-1.html" target="_blank">张惠妹MV激瘦差距大 无PS真的会死</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26488410-1-1.html" target="_blank">明星耍大牌：矿泉水洗澡、机场铺红毯</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487676-1-1.html" target="_blank">致猝死十大恶习榜 用力大便名列前茅</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487657-1-1.html" target="_blank">值得收藏：超级经典的中医保健秘方</a></li>
+            </ul>
+        </div>
+<div class="col-r">
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_01.png">
+</a>
+</div>
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/html/feedback.html">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_02.png">
+</a>
+</div>
+<div class="colr_2">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1最现场 
+</a>
+</div>
+<div class="colr_3">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1曝光台
+</a>
+</div>
+</div>
+    </div>
+    <div class="ft"></div>
+</div>
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+_vjTrack("");
+</script>
+<noscript><img src="http://cntv.wrating.com/a.gif?c=860010-1129250100" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+</body>
+</html>";i:4;s:5257:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://pic.v1.cn/cms/popup/js/tc.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/popup/css/style.css"/>
+<title>{$cms_page_title}</title>
+
+
+</head>
+<body onselectstart="return false">
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+var vjAcc="860010-1129250100";
+var wrUrl="http://cntv.wrating.com/";
+var wrVideoUrl="http://cntv.wrating.com/";
+</script>
+<!-- END WRating v1.0 -->
+
+<!-- for iPad begin -->
+<script type="text/javascript">
+(function(){
+	if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){ return; };
+	document.addEventListener('mousedown',function(e){
+		var ele = e.target;
+		do{
+			if(ele.tagName == 'A'){
+				ele.target = '_self';
+				return;
+			};
+			if(ele.tagName == 'DIV'){ return };
+		}while(ele = ele.parentNode);
+	},false);
+})();
+</script>
+<!-- for iPad end -->
+
+<script type="text/javascript">
+document.onkeydown = function(){if(event.keyCode==116){event.keyCode=0;event.returnValue = false;}}
+document.oncontextmenu=new Function("event.returnValue=false;");
+</script>
+<div class="wp" suda-dataclick='click'>
+    <div class="hd" id="TitleBtn">
+        <div class="fr" id="TitleBtn2">
+            <div class="so" style="display:none">
+                <input type="text" class="so-input fl">
+                <input type="submit" class="so-btn fr" value="&nbsp;">
+            </div>
+            <div class="win-fun">
+                <a href="#" class="close" id="ButtonCancel"></a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="col-l">
+
+            <!--#CMS_MODULE(弹窗-左侧01)#-->
+            <!--#CMS_MODULE(弹窗-左侧02)#-->
+            <!--#CMS_MODULE(弹窗-左侧03)#-->
+           
+        </div>
+        
+        <div class="col-c">
+            <div class="h1-title">
+           <a href="http://bbs.cntv.cn/thread-26489734-1-1.html" target="_blank">葛兰素史克致歉府根除败决心</a>
+            </div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26489658-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href=" http://bbs.cntv.cn/thread-26490495-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26489703-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26490143-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+
+            </ul>
+            <div class="catname color1">新闻·军事</div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26487682-1-1.html" target="_blank">奇闻趣事：从睡姿看你能否成为有钱人</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487953-1-1.html" target="_blank">青涩年华！走毕业红毯的大学生情侣</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26488587-1-1.html" target="_blank">孕妇也时髦：欧美准妈女星近期街拍</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487637-1-1.html" target="_blank">美女再胖也是美女，台湾胖美女爆红</a></li>
+            </ul>
+            <div class="catname color1">新闻·军事</div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26487707-1-1.html" target="_blank">张惠妹MV激瘦差距大 无PS真的会死</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26488410-1-1.html" target="_blank">明星耍大牌：矿泉水洗澡、机场铺红毯</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487676-1-1.html" target="_blank">致猝死十大恶习榜 用力大便名列前茅</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487657-1-1.html" target="_blank">值得收藏：超级经典的中医保健秘方</a></li>
+            </ul>
+        </div>
+<div class="col-r">
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_01.png">
+</a>
+</div>
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/html/feedback.html">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_02.png">
+</a>
+</div>
+<div class="colr_2">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1最现场 
+</a>
+</div>
+<div class="colr_3">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1曝光台
+</a>
+</div>
+</div>
+    </div>
+    <div class="ft"></div>
+</div>
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+_vjTrack("");
+</script>
+<noscript><img src="http://cntv.wrating.com/a.gif?c=860010-1129250100" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+</body>
+</html>";i:5;s:5298:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://pic.v1.cn/cms/popup/js/tc.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/popup/css/style.css"/>
+<title>{$cms_page_title}</title>
+
+
+</head>
+<body onselectstart="return false">
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+var vjAcc="860010-1129250100";
+var wrUrl="http://cntv.wrating.com/";
+var wrVideoUrl="http://cntv.wrating.com/";
+</script>
+<!-- END WRating v1.0 -->
+
+<!-- for iPad begin -->
+<script type="text/javascript">
+(function(){
+	if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){ return; };
+	document.addEventListener('mousedown',function(e){
+		var ele = e.target;
+		do{
+			if(ele.tagName == 'A'){
+				ele.target = '_self';
+				return;
+			};
+			if(ele.tagName == 'DIV'){ return };
+		}while(ele = ele.parentNode);
+	},false);
+})();
+</script>
+<!-- for iPad end -->
+
+<script type="text/javascript">
+document.onkeydown = function(){if(event.keyCode==116){event.keyCode=0;event.returnValue = false;}}
+document.oncontextmenu=new Function("event.returnValue=false;");
+</script>
+<div class="wp" suda-dataclick='click'>
+    <div class="hd" id="TitleBtn">
+        <div class="fr" id="TitleBtn2">
+            <div class="so" style="display:none">
+                <input type="text" class="so-input fl">
+                <input type="submit" class="so-btn fr" value="&nbsp;">
+            </div>
+            <div class="win-fun">
+                <a href="#" class="close" id="ButtonCancel"></a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="col-l">
+
+            <!--#CMS_MODULE(弹窗-左侧01)#-->
+            <!--#CMS_MODULE(弹窗-左侧02)#-->
+            <div  class="list-1">
+            <!--#CMS_MODULE(弹窗-左侧03)#-->
+           </div>
+        </div>
+        
+        <div class="col-c">
+            <div class="h1-title">
+           <a href="http://bbs.cntv.cn/thread-26489734-1-1.html" target="_blank">葛兰素史克致歉府根除败决心</a>
+            </div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26489658-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href=" http://bbs.cntv.cn/thread-26490495-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26489703-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26490143-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+
+            </ul>
+            <div class="catname color1">新闻·军事</div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26487682-1-1.html" target="_blank">奇闻趣事：从睡姿看你能否成为有钱人</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487953-1-1.html" target="_blank">青涩年华！走毕业红毯的大学生情侣</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26488587-1-1.html" target="_blank">孕妇也时髦：欧美准妈女星近期街拍</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487637-1-1.html" target="_blank">美女再胖也是美女，台湾胖美女爆红</a></li>
+            </ul>
+            <div class="catname color1">新闻·军事</div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26487707-1-1.html" target="_blank">张惠妹MV激瘦差距大 无PS真的会死</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26488410-1-1.html" target="_blank">明星耍大牌：矿泉水洗澡、机场铺红毯</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487676-1-1.html" target="_blank">致猝死十大恶习榜 用力大便名列前茅</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487657-1-1.html" target="_blank">值得收藏：超级经典的中医保健秘方</a></li>
+            </ul>
+        </div>
+<div class="col-r">
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_01.png">
+</a>
+</div>
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/html/feedback.html">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_02.png">
+</a>
+</div>
+<div class="colr_2">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1最现场 
+</a>
+</div>
+<div class="colr_3">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1曝光台
+</a>
+</div>
+</div>
+    </div>
+    <div class="ft"></div>
+</div>
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+_vjTrack("");
+</script>
+<noscript><img src="http://cntv.wrating.com/a.gif?c=860010-1129250100" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+</body>
+</html>";i:6;s:5302:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://pic.v1.cn/cms/popup/js/tc.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/popup/css/style.css"/>
+<title>{$cms_page_title}</title>
+
+
+</head>
+<body onselectstart="return false">
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+var vjAcc="860010-1129250100";
+var wrUrl="http://cntv.wrating.com/";
+var wrVideoUrl="http://cntv.wrating.com/";
+</script>
+<!-- END WRating v1.0 -->
+
+<!-- for iPad begin -->
+<script type="text/javascript">
+(function(){
+	if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){ return; };
+	document.addEventListener('mousedown',function(e){
+		var ele = e.target;
+		do{
+			if(ele.tagName == 'A'){
+				ele.target = '_self';
+				return;
+			};
+			if(ele.tagName == 'DIV'){ return };
+		}while(ele = ele.parentNode);
+	},false);
+})();
+</script>
+<!-- for iPad end -->
+
+<script type="text/javascript">
+document.onkeydown = function(){if(event.keyCode==116){event.keyCode=0;event.returnValue = false;}}
+document.oncontextmenu=new Function("event.returnValue=false;");
+</script>
+<div class="wp" suda-dataclick='click'>
+    <div class="hd" id="TitleBtn">
+        <div class="fr" id="TitleBtn2">
+            <div class="so" style="display:none">
+                <input type="text" class="so-input fl">
+                <input type="submit" class="so-btn fr" value="&nbsp;">
+            </div>
+            <div class="win-fun">
+                <a href="#" class="close" id="ButtonCancel"></a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="col-l">
+
+            <!--#CMS_MODULE(弹窗-左侧01)#-->
+            <!--#CMS_MODULE(弹窗-左侧02)#-->
+            
+<div  class="list-1">
+            <!--#CMS_MODULE(弹窗-左侧03)#-->
+           </div>
+
+        </div>
+        
+        <div class="col-c">
+            <div class="h1-title">
+           <a href="http://bbs.cntv.cn/thread-26489734-1-1.html" target="_blank">葛兰素史克致歉府根除败决心</a>
+            </div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26489658-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href=" http://bbs.cntv.cn/thread-26490495-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26489703-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26490143-1-1.html" target="_blank">盘韩战机在海追踪俄日本海追踪俄图轰炸机</a></li>
+
+            </ul>
+            <div class="catname color1">新闻·军事</div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26487682-1-1.html" target="_blank">奇闻趣事：从睡姿看你能否成为有钱人</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487953-1-1.html" target="_blank">青涩年华！走毕业红毯的大学生情侣</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26488587-1-1.html" target="_blank">孕妇也时髦：欧美准妈女星近期街拍</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487637-1-1.html" target="_blank">美女再胖也是美女，台湾胖美女爆红</a></li>
+            </ul>
+            <div class="catname color1">新闻·军事</div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26487707-1-1.html" target="_blank">张惠妹MV激瘦差距大 无PS真的会死</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26488410-1-1.html" target="_blank">明星耍大牌：矿泉水洗澡、机场铺红毯</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487676-1-1.html" target="_blank">致猝死十大恶习榜 用力大便名列前茅</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487657-1-1.html" target="_blank">值得收藏：超级经典的中医保健秘方</a></li>
+            </ul>
+        </div>
+<div class="col-r">
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_01.png">
+</a>
+</div>
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/html/feedback.html">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_02.png">
+</a>
+</div>
+<div class="colr_2">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1最现场 
+</a>
+</div>
+<div class="colr_3">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1曝光台
+</a>
+</div>
+</div>
+    </div>
+    <div class="ft"></div>
+</div>
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+_vjTrack("");
+</script>
+<noscript><img src="http://cntv.wrating.com/a.gif?c=860010-1129250100" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+</body>
+</html>";i:7;s:4485:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://pic.v1.cn/cms/popup/js/tc.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/popup/css/style.css"/>
+<title>{$cms_page_title}</title>
+
+
+</head>
+<body onselectstart="return false">
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+var vjAcc="860010-1129250100";
+var wrUrl="http://cntv.wrating.com/";
+var wrVideoUrl="http://cntv.wrating.com/";
+</script>
+<!-- END WRating v1.0 -->
+
+<!-- for iPad begin -->
+<script type="text/javascript">
+(function(){
+	if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){ return; };
+	document.addEventListener('mousedown',function(e){
+		var ele = e.target;
+		do{
+			if(ele.tagName == 'A'){
+				ele.target = '_self';
+				return;
+			};
+			if(ele.tagName == 'DIV'){ return };
+		}while(ele = ele.parentNode);
+	},false);
+})();
+</script>
+<!-- for iPad end -->
+
+<script type="text/javascript">
+document.onkeydown = function(){if(event.keyCode==116){event.keyCode=0;event.returnValue = false;}}
+document.oncontextmenu=new Function("event.returnValue=false;");
+</script>
+<div class="wp" suda-dataclick='click'>
+    <div class="hd" id="TitleBtn">
+        <div class="fr" id="TitleBtn2">
+            <div class="so" style="display:none">
+                <input type="text" class="so-input fl">
+                <input type="submit" class="so-btn fr" value="&nbsp;">
+            </div>
+            <div class="win-fun">
+                <a href="#" class="close" id="ButtonCancel"></a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="col-l">
+
+            <!--#CMS_MODULE(弹窗-左侧01)#-->
+            <!--#CMS_MODULE(弹窗-左侧02)#-->
+            
+<div  class="list-1">
+            <!--#CMS_MODULE(弹窗-左侧03)#-->
+           </div>
+
+        </div>
+        
+        <div class="col-c">
+            <!--#CMS_MODULE(弹窗-中间01)#-->
+
+            <div class="catname color1">新闻·军事</div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26487682-1-1.html" target="_blank">奇闻趣事：从睡姿看你能否成为有钱人</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487953-1-1.html" target="_blank">青涩年华！走毕业红毯的大学生情侣</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26488587-1-1.html" target="_blank">孕妇也时髦：欧美准妈女星近期街拍</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487637-1-1.html" target="_blank">美女再胖也是美女，台湾胖美女爆红</a></li>
+            </ul>
+            <div class="catname color1">新闻·军事</div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26487707-1-1.html" target="_blank">张惠妹MV激瘦差距大 无PS真的会死</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26488410-1-1.html" target="_blank">明星耍大牌：矿泉水洗澡、机场铺红毯</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487676-1-1.html" target="_blank">致猝死十大恶习榜 用力大便名列前茅</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487657-1-1.html" target="_blank">值得收藏：超级经典的中医保健秘方</a></li>
+            </ul>
+        </div>
+<div class="col-r">
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_01.png">
+</a>
+</div>
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/html/feedback.html">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_02.png">
+</a>
+</div>
+<div class="colr_2">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1最现场 
+</a>
+</div>
+<div class="colr_3">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1曝光台
+</a>
+</div>
+</div>
+    </div>
+    <div class="ft"></div>
+</div>
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+_vjTrack("");
+</script>
+<noscript><img src="http://cntv.wrating.com/a.gif?c=860010-1129250100" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+</body>
+</html>";i:8;s:3833:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://pic.v1.cn/cms/popup/js/tc.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/popup/css/style.css"/>
+<title>{$cms_page_title}</title>
+
+
+</head>
+<body onselectstart="return false">
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+var vjAcc="860010-1129250100";
+var wrUrl="http://cntv.wrating.com/";
+var wrVideoUrl="http://cntv.wrating.com/";
+</script>
+<!-- END WRating v1.0 -->
+
+<!-- for iPad begin -->
+<script type="text/javascript">
+(function(){
+	if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){ return; };
+	document.addEventListener('mousedown',function(e){
+		var ele = e.target;
+		do{
+			if(ele.tagName == 'A'){
+				ele.target = '_self';
+				return;
+			};
+			if(ele.tagName == 'DIV'){ return };
+		}while(ele = ele.parentNode);
+	},false);
+})();
+</script>
+<!-- for iPad end -->
+
+<script type="text/javascript">
+document.onkeydown = function(){if(event.keyCode==116){event.keyCode=0;event.returnValue = false;}}
+document.oncontextmenu=new Function("event.returnValue=false;");
+</script>
+<div class="wp" suda-dataclick='click'>
+    <div class="hd" id="TitleBtn">
+        <div class="fr" id="TitleBtn2">
+            <div class="so" style="display:none">
+                <input type="text" class="so-input fl">
+                <input type="submit" class="so-btn fr" value="&nbsp;">
+            </div>
+            <div class="win-fun">
+                <a href="#" class="close" id="ButtonCancel"></a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="col-l">
+
+            <!--#CMS_MODULE(弹窗-左侧01)#-->
+            <!--#CMS_MODULE(弹窗-左侧02)#-->
+            
+<div  class="list-1">
+            <!--#CMS_MODULE(弹窗-左侧03)#-->
+           </div>
+
+        </div>
+        
+        <div class="col-c">
+            <!--#CMS_MODULE(弹窗-中间01)#-->
+            <!--#CMS_MODULE(弹窗-中间02)#-->
+           
+            <div class="catname color1">新闻·军事</div>
+            <ul class="list-2">
+                <li><a href="http://bbs.cntv.cn/thread-26487707-1-1.html" target="_blank">张惠妹MV激瘦差距大 无PS真的会死</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26488410-1-1.html" target="_blank">明星耍大牌：矿泉水洗澡、机场铺红毯</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487676-1-1.html" target="_blank">致猝死十大恶习榜 用力大便名列前茅</a></li>
+                <li><a href="http://bbs.cntv.cn/thread-26487657-1-1.html" target="_blank">值得收藏：超级经典的中医保健秘方</a></li>
+            </ul>
+        </div>
+<div class="col-r">
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_01.png">
+</a>
+</div>
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/html/feedback.html">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_02.png">
+</a>
+</div>
+<div class="colr_2">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1最现场 
+</a>
+</div>
+<div class="colr_3">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1曝光台
+</a>
+</div>
+</div>
+    </div>
+    <div class="ft"></div>
+</div>
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+_vjTrack("");
+</script>
+<noscript><img src="http://cntv.wrating.com/a.gif?c=860010-1129250100" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+</body>
+</html>";i:9;s:3160:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://pic.v1.cn/cms/popup/js/tc.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/popup/css/style.css"/>
+<title>{$cms_page_title}</title>
+
+
+</head>
+<body onselectstart="return false">
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+var vjAcc="860010-1129250100";
+var wrUrl="http://cntv.wrating.com/";
+var wrVideoUrl="http://cntv.wrating.com/";
+</script>
+<!-- END WRating v1.0 -->
+
+<!-- for iPad begin -->
+<script type="text/javascript">
+(function(){
+	if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){ return; };
+	document.addEventListener('mousedown',function(e){
+		var ele = e.target;
+		do{
+			if(ele.tagName == 'A'){
+				ele.target = '_self';
+				return;
+			};
+			if(ele.tagName == 'DIV'){ return };
+		}while(ele = ele.parentNode);
+	},false);
+})();
+</script>
+<!-- for iPad end -->
+
+<script type="text/javascript">
+document.onkeydown = function(){if(event.keyCode==116){event.keyCode=0;event.returnValue = false;}}
+document.oncontextmenu=new Function("event.returnValue=false;");
+</script>
+<div class="wp" suda-dataclick='click'>
+    <div class="hd" id="TitleBtn">
+        <div class="fr" id="TitleBtn2">
+            <div class="so" style="display:none">
+                <input type="text" class="so-input fl">
+                <input type="submit" class="so-btn fr" value="&nbsp;">
+            </div>
+            <div class="win-fun">
+                <a href="#" class="close" id="ButtonCancel"></a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="col-l">
+
+            <!--#CMS_MODULE(弹窗-左侧01)#-->
+            <!--#CMS_MODULE(弹窗-左侧02)#-->
+            
+<div  class="list-1">
+            <!--#CMS_MODULE(弹窗-左侧03)#-->
+           </div>
+
+        </div>
+        
+        <div class="col-c">
+            <!--#CMS_MODULE(弹窗-中间01)#-->
+            <!--#CMS_MODULE(弹窗-中间02)#-->
+            <!--#CMS_MODULE(弹窗-中间03)#-->
+        </div>
+<div class="col-r">
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_01.png">
+</a>
+</div>
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/html/feedback.html">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_02.png">
+</a>
+</div>
+<div class="colr_2">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1最现场 
+</a>
+</div>
+<div class="colr_3">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1曝光台
+</a>
+</div>
+</div>
+    </div>
+    <div class="ft"></div>
+</div>
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+_vjTrack("");
+</script>
+<noscript><img src="http://cntv.wrating.com/a.gif?c=860010-1129250100" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+</body>
+</html>";i:10;s:3058:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://pic.v1.cn/cms/popup/js/tc.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/popup/css/style.css"/>
+<title>{$cms_page_title}</title>
+
+
+</head>
+<body onselectstart="return false">
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+var vjAcc="860010-1129250100";
+var wrUrl="http://cntv.wrating.com/";
+var wrVideoUrl="http://cntv.wrating.com/";
+</script>
+<!-- END WRating v1.0 -->
+
+<!-- for iPad begin -->
+<script type="text/javascript">
+(function(){
+	if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){ return; };
+	document.addEventListener('mousedown',function(e){
+		var ele = e.target;
+		do{
+			if(ele.tagName == 'A'){
+				ele.target = '_self';
+				return;
+			};
+			if(ele.tagName == 'DIV'){ return };
+		}while(ele = ele.parentNode);
+	},false);
+})();
+</script>
+<!-- for iPad end -->
+
+<script type="text/javascript">
+document.onkeydown = function(){if(event.keyCode==116){event.keyCode=0;event.returnValue = false;}}
+document.oncontextmenu=new Function("event.returnValue=false;");
+</script>
+<div class="wp" suda-dataclick='click'>
+    <div class="hd" id="TitleBtn">
+        <div class="fr" id="TitleBtn2">
+            <div class="so" style="display:none">
+                <input type="text" class="so-input fl">
+                <input type="submit" class="so-btn fr" value="&nbsp;">
+            </div>
+            <div class="win-fun">
+                <a href="#" class="close" id="ButtonCancel"></a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="col-l">
+
+            <!--#CMS_MODULE(弹窗-左侧01)#-->
+            <!--#CMS_MODULE(弹窗-左侧02)#-->
+            
+<div  class="list-1">
+            <!--#CMS_MODULE(弹窗-左侧03)#-->
+           </div>
+
+        </div>
+        
+        <div class="col-c">
+            <!--#CMS_MODULE(弹窗-中间01)#-->
+            <!--#CMS_MODULE(弹窗-中间02)#-->
+            <!--#CMS_MODULE(弹窗-中间03)#-->
+        </div>
+<div class="col-r">
+            <!--#CMS_MODULE(弹窗_右边01)#-->
+<div class="colr_1">
+<a target="_blank" href="http://jztk.t.cntv.cn/html/feedback.html">
+<img alt="" src="http://pic.v1.cn/cms/popup/image/left_02.png">
+</a>
+</div>
+<div class="colr_2">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1最现场 
+</a>
+</div>
+<div class="colr_3">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1曝光台
+</a>
+</div>
+</div>
+    </div>
+    <div class="ft"></div>
+</div>
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+_vjTrack("");
+</script>
+<noscript><img src="http://cntv.wrating.com/a.gif?c=860010-1129250100" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+</body>
+</html>";i:11;s:2938:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://pic.v1.cn/cms/popup/js/tc.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/popup/css/style.css"/>
+<title>{$cms_page_title}</title>
+
+
+</head>
+<body onselectstart="return false">
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+var vjAcc="860010-1129250100";
+var wrUrl="http://cntv.wrating.com/";
+var wrVideoUrl="http://cntv.wrating.com/";
+</script>
+<!-- END WRating v1.0 -->
+
+<!-- for iPad begin -->
+<script type="text/javascript">
+(function(){
+	if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){ return; };
+	document.addEventListener('mousedown',function(e){
+		var ele = e.target;
+		do{
+			if(ele.tagName == 'A'){
+				ele.target = '_self';
+				return;
+			};
+			if(ele.tagName == 'DIV'){ return };
+		}while(ele = ele.parentNode);
+	},false);
+})();
+</script>
+<!-- for iPad end -->
+
+<script type="text/javascript">
+document.onkeydown = function(){if(event.keyCode==116){event.keyCode=0;event.returnValue = false;}}
+document.oncontextmenu=new Function("event.returnValue=false;");
+</script>
+<div class="wp" suda-dataclick='click'>
+    <div class="hd" id="TitleBtn">
+        <div class="fr" id="TitleBtn2">
+            <div class="so" style="display:none">
+                <input type="text" class="so-input fl">
+                <input type="submit" class="so-btn fr" value="&nbsp;">
+            </div>
+            <div class="win-fun">
+                <a href="#" class="close" id="ButtonCancel"></a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="col-l">
+
+            <!--#CMS_MODULE(弹窗-左侧01)#-->
+            <!--#CMS_MODULE(弹窗-左侧02)#-->
+            
+<div  class="list-1">
+            <!--#CMS_MODULE(弹窗-左侧03)#-->
+           </div>
+
+        </div>
+        
+        <div class="col-c">
+            <!--#CMS_MODULE(弹窗-中间01)#-->
+            <!--#CMS_MODULE(弹窗-中间02)#-->
+            <!--#CMS_MODULE(弹窗-中间03)#-->
+        </div>
+<div class="col-r">
+            <!--#CMS_MODULE(弹窗_右边01)#-->
+            <!--#CMS_MODULE(弹窗_右边02)#-->
+<div class="colr_2">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1最现场 
+</a>
+</div>
+<div class="colr_3">
+<a target="_blank" href="http://jztk.t.cntv.cn/answer">
+V1曝光台
+</a>
+</div>
+</div>
+    </div>
+    <div class="ft"></div>
+</div>
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+_vjTrack("");
+</script>
+<noscript><img src="http://cntv.wrating.com/a.gif?c=860010-1129250100" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+</body>
+</html>";i:12;s:2837:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://pic.v1.cn/cms/popup/js/tc.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/popup/css/style.css"/>
+<title>{$cms_page_title}</title>
+
+
+</head>
+<body onselectstart="return false">
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+var vjAcc="860010-1129250100";
+var wrUrl="http://cntv.wrating.com/";
+var wrVideoUrl="http://cntv.wrating.com/";
+</script>
+<!-- END WRating v1.0 -->
+
+<!-- for iPad begin -->
+<script type="text/javascript">
+(function(){
+	if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){ return; };
+	document.addEventListener('mousedown',function(e){
+		var ele = e.target;
+		do{
+			if(ele.tagName == 'A'){
+				ele.target = '_self';
+				return;
+			};
+			if(ele.tagName == 'DIV'){ return };
+		}while(ele = ele.parentNode);
+	},false);
+})();
+</script>
+<!-- for iPad end -->
+
+<script type="text/javascript">
+document.onkeydown = function(){if(event.keyCode==116){event.keyCode=0;event.returnValue = false;}}
+document.oncontextmenu=new Function("event.returnValue=false;");
+</script>
+<div class="wp" suda-dataclick='click'>
+    <div class="hd" id="TitleBtn">
+        <div class="fr" id="TitleBtn2">
+            <div class="so" style="display:none">
+                <input type="text" class="so-input fl">
+                <input type="submit" class="so-btn fr" value="&nbsp;">
+            </div>
+            <div class="win-fun">
+                <a href="#" class="close" id="ButtonCancel"></a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="col-l">
+
+            <!--#CMS_MODULE(弹窗-左侧01)#-->
+            <!--#CMS_MODULE(弹窗-左侧02)#-->
+            
+<div  class="list-1">
+            <!--#CMS_MODULE(弹窗-左侧03)#-->
+           </div>
+
+        </div>
+        
+        <div class="col-c">
+            <!--#CMS_MODULE(弹窗-中间01)#-->
+            <!--#CMS_MODULE(弹窗-中间02)#-->
+            <!--#CMS_MODULE(弹窗-中间03)#-->
+        </div>
+<div class="col-r">
+            <!--#CMS_MODULE(弹窗_右边01)#-->
+            <!--#CMS_MODULE(弹窗_右边02)#-->
+            <!--#CMS_MODULE(弹窗_右边按钮01)#-->
+            <!--#CMS_MODULE(弹窗_右边按钮02)#-->
+</div>
+    </div>
+    <div class="ft"></div>
+</div>
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+_vjTrack("");
+</script>
+<noscript><img src="http://cntv.wrating.com/a.gif?c=860010-1129250100" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+</body>
+</html>";i:13;s:3129:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://pic.v1.cn/cms/popup/js/tc.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/popup/css/style.css"/>
+<title>{$cms_page_title}</title>
+
+
+</head>
+<body onselectstart="return false">
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+var vjAcc="860010-1129250100";
+var wrUrl="http://cntv.wrating.com/";
+var wrVideoUrl="http://cntv.wrating.com/";
+</script>
+<!-- END WRating v1.0 -->
+
+<!-- for iPad begin -->
+<script type="text/javascript">
+(function(){
+	if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){ return; };
+	document.addEventListener('mousedown',function(e){
+		var ele = e.target;
+		do{
+			if(ele.tagName == 'A'){
+				ele.target = '_self';
+				return;
+			};
+			if(ele.tagName == 'DIV'){ return };
+		}while(ele = ele.parentNode);
+	},false);
+})();
+</script>
+<!-- for iPad end -->
+
+<script type="text/javascript">
+document.onkeydown = function(){if(event.keyCode==116){event.keyCode=0;event.returnValue = false;}}
+document.oncontextmenu=new Function("event.returnValue=false;");
+</script>
+<div class="wp" suda-dataclick='click'>
+    <div class="hd" id="TitleBtn">
+        <div class="fr" id="TitleBtn2">
+            <div class="so" style="display:none">
+                <input type="text" class="so-input fl">
+                <input type="submit" class="so-btn fr" value="&nbsp;">
+            </div>
+            <div class="win-fun">
+                <a href="#" class="close" id="ButtonCancel"></a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="col-l">
+
+            <!--#CMS_MODULE(弹窗-左侧01)#-->
+            <!--#CMS_MODULE(弹窗-左侧02)#-->
+            
+<div  class="list-1">
+            <!--#CMS_MODULE(弹窗-左侧03)#-->
+           </div>
+
+        </div>
+        
+        <div class="col-c">
+            <!--#CMS_MODULE(弹窗-中间01)#-->
+            <!--#CMS_MODULE(弹窗-中间02)#-->
+            <!--#CMS_MODULE(弹窗-中间03)#-->
+        </div>
+<div class="col-r">
+            <!--#CMS_MODULE(弹窗_右边01)#-->
+            <!--#CMS_MODULE(弹窗_右边02)#-->
+            <!--#CMS_MODULE(弹窗_右边按钮01)#-->
+            <!--#CMS_MODULE(弹窗_右边按钮02)#-->
+</div>
+    </div>
+    <div class="ft"></div>
+</div>
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+_vjTrack("");
+</script>
+<noscript><img src="http://cntv.wrating.com/a.gif?c=860010-1129250100" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+<!-- END baidu v1.0 -->
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+</body>
+</html>";i:14;s:3079:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://pic.v1.cn/cms/popup/js/tc.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/popup/css/style.css"/>
+<title>{$cms_page_title}</title>
+
+
+</head>
+<body onselectstart="return false">
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+var vjAcc="860010-1129250100";
+var wrUrl="http://cntv.wrating.com/";
+var wrVideoUrl="http://cntv.wrating.com/";
+</script>
+<!-- END WRating v1.0 -->
+
+<!-- for iPad begin -->
+<script type="text/javascript">
+(function(){
+	if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){ return; };
+	document.addEventListener('mousedown',function(e){
+		var ele = e.target;
+		do{
+			if(ele.tagName == 'A'){
+				ele.target = '_self';
+				return;
+			};
+			if(ele.tagName == 'DIV'){ return };
+		}while(ele = ele.parentNode);
+	},false);
+})();
+</script>
+<!-- for iPad end -->
+
+<script type="text/javascript">
+document.onkeydown = function(){if(event.keyCode==116){event.keyCode=0;event.returnValue = false;}}
+document.oncontextmenu=new Function("event.returnValue=false;");
+</script>
+<div class="wp" suda-dataclick='click'>
+    <div class="hd" id="TitleBtn">
+        <div class="fr" id="TitleBtn2">
+            <div class="so" style="display:none">
+                <input type="text" class="so-input fl">
+                <input type="submit" class="so-btn fr" value="&nbsp;">
+            </div>
+            <div class="win-fun">
+                <a href="#" class="close" id="ButtonCancel"></a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="col-l">
+
+            <!--#CMS_MODULE(弹窗-左侧01)#-->
+            <!--#CMS_MODULE(弹窗-左侧02)#-->
+            
+<div  class="list-1">
+            <!--#CMS_MODULE(弹窗-左侧03)#-->
+           </div>
+
+        </div>
+        
+        <div class="col-c">
+            <!--#CMS_MODULE(弹窗-中间01)#-->
+            <!--#CMS_MODULE(弹窗-中间02)#-->
+            <!--#CMS_MODULE(弹窗-中间03)#-->
+        </div>
+<div class="col-r">
+            <!--#CMS_MODULE(弹窗_右边01)#-->
+            <!--#CMS_MODULE(弹窗_右边按钮01)#-->
+            <!--#CMS_MODULE(弹窗_右边按钮02)#-->
+</div>
+    </div>
+    <div class="ft"></div>
+</div>
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+_vjTrack("");
+</script>
+<noscript><img src="http://cntv.wrating.com/a.gif?c=860010-1129250100" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+<!-- END baidu v1.0 -->
+<!-- START LINEZING -->
+<script type="text/javascript" src="http://js.tongji.linezing.com/2757518/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2757518/tongji.gif"/></a></noscript>
+<!-- END LINEZING -->
+</body>
+</html>";i:15;s:2812:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://pic.v1.cn/cms/popup/js/tc.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/popup/css/style.css"/>
+<title>{$cms_page_title}</title>
+
+
+</head>
+<body onselectstart="return false">
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+var vjAcc="860010-1129250100";
+var wrUrl="http://cntv.wrating.com/";
+var wrVideoUrl="http://cntv.wrating.com/";
+</script>
+<!-- END WRating v1.0 -->
+
+<!-- for iPad begin -->
+<script type="text/javascript">
+(function(){
+	if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){ return; };
+	document.addEventListener('mousedown',function(e){
+		var ele = e.target;
+		do{
+			if(ele.tagName == 'A'){
+				ele.target = '_self';
+				return;
+			};
+			if(ele.tagName == 'DIV'){ return };
+		}while(ele = ele.parentNode);
+	},false);
+})();
+</script>
+<!-- for iPad end -->
+
+<script type="text/javascript">
+document.onkeydown = function(){if(event.keyCode==116){event.keyCode=0;event.returnValue = false;}}
+document.oncontextmenu=new Function("event.returnValue=false;");
+</script>
+<div class="wp" suda-dataclick='click'>
+    <div class="hd" id="TitleBtn">
+        <div class="fr" id="TitleBtn2">
+            <div class="so" style="display:none">
+                <input type="text" class="so-input fl">
+                <input type="submit" class="so-btn fr" value="&nbsp;">
+            </div>
+            <div class="win-fun">
+                <a href="#" class="close" id="ButtonCancel"></a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="col-l">
+
+            <!--#CMS_MODULE(弹窗-左侧01)#-->
+            <!--#CMS_MODULE(弹窗-左侧02)#-->
+            
+<div  class="list-1">
+            <!--#CMS_MODULE(弹窗-左侧03)#-->
+           </div>
+
+        </div>
+        
+        <div class="col-c">
+            <!--#CMS_MODULE(弹窗-中间01)#-->
+            <!--#CMS_MODULE(弹窗-中间02)#-->
+            <!--#CMS_MODULE(弹窗-中间03)#-->
+        </div>
+<div class="col-r">
+            <!--#CMS_MODULE(弹窗_右边01)#-->
+            <!--#CMS_MODULE(弹窗_右边按钮01)#-->
+            <!--#CMS_MODULE(弹窗_右边按钮02)#-->
+</div>
+    </div>
+    <div class="ft"></div>
+</div>
+<!-- START WRating v1.0 -->
+<script type="text/javascript">
+_vjTrack("");
+</script>
+<noscript><img src="http://cntv.wrating.com/a.gif?c=860010-1129250100" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+<!-- END baidu v1.0 -->
+</body>
+</html>";i:16;s:2355:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://pic.v1.cn/cms/popup/js/tc.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/popup/css/style.css"/>
+<title>{$cms_page_title}</title>
+
+
+</head>
+<body onselectstart="return false">
+
+
+<!-- for iPad begin -->
+<script type="text/javascript">
+(function(){
+	if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){ return; };
+	document.addEventListener('mousedown',function(e){
+		var ele = e.target;
+		do{
+			if(ele.tagName == 'A'){
+				ele.target = '_self';
+				return;
+			};
+			if(ele.tagName == 'DIV'){ return };
+		}while(ele = ele.parentNode);
+	},false);
+})();
+</script>
+<!-- for iPad end -->
+
+<script type="text/javascript">
+document.onkeydown = function(){if(event.keyCode==116){event.keyCode=0;event.returnValue = false;}}
+document.oncontextmenu=new Function("event.returnValue=false;");
+</script>
+<div class="wp" suda-dataclick='click'>
+    <div class="hd" id="TitleBtn">
+        <div class="fr" id="TitleBtn2">
+            <div class="so" style="display:none">
+                <input type="text" class="so-input fl">
+                <input type="submit" class="so-btn fr" value="&nbsp;">
+            </div>
+            <div class="win-fun">
+                <a href="#" class="close" id="ButtonCancel"></a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="col-l">
+
+            <!--#CMS_MODULE(弹窗-左侧01)#-->
+            <!--#CMS_MODULE(弹窗-左侧02)#-->
+            
+<div  class="list-1">
+            <!--#CMS_MODULE(弹窗-左侧03)#-->
+           </div>
+
+        </div>
+        
+        <div class="col-c">
+            <!--#CMS_MODULE(弹窗-中间01)#-->
+            <!--#CMS_MODULE(弹窗-中间02)#-->
+            <!--#CMS_MODULE(弹窗-中间03)#-->
+        </div>
+<div class="col-r">
+            <!--#CMS_MODULE(弹窗_右边01)#-->
+            <!--#CMS_MODULE(弹窗_右边按钮01)#-->
+            <!--#CMS_MODULE(弹窗_右边按钮02)#-->
+</div>
+    </div>
+    <div class="ft"></div>
+</div>
+
+</body>
+</html>";}

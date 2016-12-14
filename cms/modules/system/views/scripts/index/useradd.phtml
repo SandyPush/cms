@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>添加用户</title>
+<?=$this->headLink() ?>
+<?=$this->headScript() ?>
+</head>
+<body>
+<base target="_self">
+<div class="area">
+<div class="nr">
+<form name="form1" action="/system/index/useradded/" method="post">
+<table width="100%" cellspacing="1" class="form">
+<tbody>
+    <tr>
+        <td width="70">用 户 名</td>
+        <td><input type="text" name="username" value="<?=$this->param('username') ?>" class="input"/></td>
+    </tr>
+    <tr class="alt">
+        <td>密　　码</td>
+        <td><input type="password" name="password" value="<?=$this->param('password') ?>"  class="input"/></td>
+    </tr>
+    <tr>
+        <td>确认密码</td>
+        <td><input type="password" name="password_alt" value="<?=$this->param('password_alt') ?>" class="input"/></td>
+    </tr>
+    <tr>
+        <td>姓　　名</td>
+        <td><input type="text" name="realname" value="<?=$this->param('realname', $this->user->realname) ?>"  class="input"/></td>
+    </tr>
+    <tr class="alt">
+        <td>email</td>
+        <td><input type="text" name="email" value="<?=$this->param('email', $this->user->email) ?>"  class="input"/></td>
+    </tr>
+    <tr>
+        <td>权限频道</td><td>
+	<?php foreach($this->channels as $key => $value):?>
+        <input type="checkbox" name="channels[]" value="<?=$key?>"><?=$value?>
+    <?php endforeach;?>
+    </td></tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><button onclick="submit2()" name="submit3">添加用户</button></td>
+    </tr>    
+</tbody>
+</table>
+</form>
+</div>
+</div>
+<script>
+function submit2()
+{
+	window.name="ak"
+	document.forms[0].target="ak";
+	document.forms[0].submit();
+}
+</script>
+</body>
+</html>

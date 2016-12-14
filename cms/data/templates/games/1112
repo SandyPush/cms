@@ -1,0 +1,145 @@
+a:3:{i:0;s:2077:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>支付中心</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+</head>
+<body>
+    <div class="background">
+        <div class="backg_in">
+        <!--header begin-->
+        <!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+        <!--header end-->
+            <!--中间主体部分 begin-->
+            <div class="main">
+               <!--#CMS_MODULE(V2_BANNER)#-->
+               <div class="pay clearfix">
+                   <!--支付成功提示 begin-->
+                <div class="success">
+                    <dl class="suss_sec">
+                        <dt class="succ_tl">
+                            <h3>您已付款成功！</h3>
+                            <span>与全球数亿玩家一起畅享游戏乐趣！</span>
+                        </dt>
+                        <dd>如遇问题请拨打客服电话：400-100-1111:010-65990700</dd>
+                        <dd>服务时间：周一至周五 8:00-18:00</dd>
+                    </dl>
+                </div>
+                <!--支付成功提示 end-->
+                <!--按钮区域 begin-->
+                <div class="btn_zone clearfix">
+                    <a class="btn_gre_s" href="###">继续充值</a>
+                    <a class="btn_back" href="###">返回首页</a>
+                </div>
+                <!--按钮区域 end-->
+                <!--图片列表 begin-->
+                <!--#CMS_MODULE(V2_PAY_ADLIST)#-->
+                <!--图片列表 end-->
+               </div>
+            </div>
+            <!--中间主体部分 end-->
+            <!---底部 begin--->
+            <!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+            <!---底部 end--->
+        </div>
+</div>
+</body>";i:1;s:2077:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>充值中心</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+</head>
+<body>
+    <div class="background">
+        <div class="backg_in">
+        <!--header begin-->
+        <!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+        <!--header end-->
+            <!--中间主体部分 begin-->
+            <div class="main">
+               <!--#CMS_MODULE(V2_BANNER)#-->
+               <div class="pay clearfix">
+                   <!--支付成功提示 begin-->
+                <div class="success">
+                    <dl class="suss_sec">
+                        <dt class="succ_tl">
+                            <h3>您已付款成功！</h3>
+                            <span>与全球数亿玩家一起畅享游戏乐趣！</span>
+                        </dt>
+                        <dd>如遇问题请拨打客服电话：400-100-1111:010-65990700</dd>
+                        <dd>服务时间：周一至周五 8:00-18:00</dd>
+                    </dl>
+                </div>
+                <!--支付成功提示 end-->
+                <!--按钮区域 begin-->
+                <div class="btn_zone clearfix">
+                    <a class="btn_gre_s" href="###">继续充值</a>
+                    <a class="btn_back" href="###">返回首页</a>
+                </div>
+                <!--按钮区域 end-->
+                <!--图片列表 begin-->
+                <!--#CMS_MODULE(V2_PAY_ADLIST)#-->
+                <!--图片列表 end-->
+               </div>
+            </div>
+            <!--中间主体部分 end-->
+            <!---底部 begin--->
+            <!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+            <!---底部 end--->
+        </div>
+</div>
+</body>";i:2;s:2124:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>充值中心</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+</head>
+<body>
+    <div class="background">
+        <div class="backg_in">
+        <!--header begin-->
+        <!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+        <!--header end-->
+            <!--中间主体部分 begin-->
+            <div class="main">
+               <!--#CMS_MODULE(V2_BANNER)#-->
+               <div class="pay clearfix">
+                   <!--支付成功提示 begin-->
+                <div class="success">
+                    <dl class="suss_sec">
+                        <dt class="succ_tl">
+                            <h3>您已付款成功！</h3>
+                            <span>与全球数亿玩家一起畅享游戏乐趣！</span>
+                        </dt>
+                        <dd>如遇问题请联系：<a href="http://g.v1.cn/gv1cn/service/dialog_1.htm" target="_blank">在线客服</a></dd>
+                        <dd>服务时间：周一至周日 9:00-20:00</dd>
+                    </dl>
+                </div>
+                <!--支付成功提示 end-->
+                <!--按钮区域 begin-->
+                <div class="btn_zone clearfix">
+                    <a class="btn_gre_s" href="###">继续充值</a>
+                    <a class="btn_back" href="###">返回首页</a>
+                </div>
+                <!--按钮区域 end-->
+                <!--图片列表 begin-->
+                <!--#CMS_MODULE(V2_PAY_ADLIST)#-->
+                <!--图片列表 end-->
+               </div>
+            </div>
+            <!--中间主体部分 end-->
+            <!---底部 begin--->
+            <!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+            <!---底部 end--->
+        </div>
+</div>
+</body>";}

@@ -1,0 +1,145 @@
+a:3:{i:0;s:2153:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta name="bannerTitle" content="login">
+    <title>登录</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/login.css" charset="utf-8" rel="stylesheet" />
+<style>
+.main_new{ background:#222; min-height:600px; border:1px solid #303030; width:1082px; margin:146px auto 0 auto;}
+.main_new .content{ width:90%; margin:50px auto; line-height:36px; color:#888; font-size:13.5px;}
+.main_new .content a{ color:#888;}
+.main_new .content a:hover{ color:#419a5a;}
+.title{text-align:center; font-size:16px;}
+</style>
+</head>
+
+<body>
+    <div class="background">
+        <div class="backg_in">
+        <!--header begin-->
+        <!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+        <!--header end-->
+            <!--中间主体部分 begin-->
+            <div class="main_new">
+            <h2 class="title"><!--# echo $title #--></h2>
+               <div class="content">
+                   <!--# echo $contents #-->
+                 </div>
+            </div>
+            <!--中间主体部分 end-->
+            <!---底部 begin--->
+            <!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+            <!---底部 end--->
+        </div>
+</div>
+<!---底部 end--->
+<!---防沉迷认证 start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/anti_addiction.shtml"-->
+<!---防沉迷认证 end--->
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/login/page/index');
+</script>
+</body>";i:1;s:2181:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta name="bannerTitle" content="login">
+    <title>登录</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/login.css" charset="utf-8" rel="stylesheet" />
+<style>
+.main_new{ background:#222; min-height:600px; border:1px solid #303030; width:1082px; margin:146px auto 0 auto;}
+.main_new .content{ width:90%; margin:50px auto; line-height:36px; color:#888; font-size:13.5px;}
+.main_new .content a{ color:#888;}
+.main_new .content a:hover{ color:#419a5a;}
+.title{text-align:center; font-size:16px;line-height: 30px;color:#fff}
+</style>
+</head>
+
+<body>
+    <div class="background">
+        <div class="backg_in">
+        <!--header begin-->
+        <!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+        <!--header end-->
+            <!--中间主体部分 begin-->
+            <div class="main_new">
+            <h2 class="title"><!--# echo $title #--></h2>
+               <div class="content">
+                   <!--# echo $contents #-->
+                 </div>
+            </div>
+            <!--中间主体部分 end-->
+            <!---底部 begin--->
+            <!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+            <!---底部 end--->
+        </div>
+</div>
+<!---底部 end--->
+<!---防沉迷认证 start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/anti_addiction.shtml"-->
+<!---防沉迷认证 end--->
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/login/page/index');
+</script>
+</body>";i:2;s:2187:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta name="bannerTitle" content="login">
+    <title>客服中心</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/login.css" charset="utf-8" rel="stylesheet" />
+<style>
+.main_new{ background:#222; min-height:600px; border:1px solid #303030; width:1082px; margin:146px auto 0 auto;}
+.main_new .content{ width:90%; margin:50px auto; line-height:36px; color:#888; font-size:13.5px;}
+.main_new .content a{ color:#888;}
+.main_new .content a:hover{ color:#419a5a;}
+.title{text-align:center; font-size:16px;line-height: 30px;color:#fff}
+</style>
+</head>
+
+<body>
+    <div class="background">
+        <div class="backg_in">
+        <!--header begin-->
+        <!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+        <!--header end-->
+            <!--中间主体部分 begin-->
+            <div class="main_new">
+            <h2 class="title"><!--# echo $title #--></h2>
+               <div class="content">
+                   <!--# echo $contents #-->
+                 </div>
+            </div>
+            <!--中间主体部分 end-->
+            <!---底部 begin--->
+            <!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+            <!---底部 end--->
+        </div>
+</div>
+<!---底部 end--->
+<!---防沉迷认证 start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/anti_addiction.shtml"-->
+<!---防沉迷认证 end--->
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/login/page/index');
+</script>
+</body>";}

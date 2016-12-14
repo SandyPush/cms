@@ -1,0 +1,52 @@
+<div class="area">
+<div class="help"> 
+	<p>帮助</p>
+	<p>1、用户编辑页面;</p>  
+<?=$this->showErrors()?>
+</div>
+
+<div class="nr">
+ 	<h2>编辑用户</h2>
+
+<form action="" method="post">
+<table width="400" cellspacing="1" class="form">
+<tbody>
+    <tr>
+        <td width="70">用 户 名</td>
+        <td><?=$this->user->username ?></td>
+    </tr>
+    <tr>
+        <td>姓　　名</td>
+        <td><?=$this->param('realname', $this->user->realname) ?></td>
+    </tr>
+    <tr class="alt">
+        <td>email</td>
+        <td><?=$this->param('email', $this->user->email) ?></td>
+    </tr>
+    <tr>
+        <td>用 户 组</td>
+        <td><?=$this->formSelect('group', $this->param('group', $this->user->usergroup), null, $this->groups)?></td>
+    </tr>  
+</tbody>
+</table>
+
+<h2>添加额外信息</h2>
+<table cellspacing="1" class="form">
+<tbody>
+    <tr>
+        <td width="100">内/外采上传目录</td>
+        <td><input style="width:400px;" name="uploadDir" value="<?=$this->user->uploadDir ?>"></td>
+    </tr>
+    <tr>
+        <td width="100">转码服务器目录</td>
+        <td><input style="width:400px;" name="transcodeDir" value="<?=$this->user->transcodeDir ?>"></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><button  type="submit" name="submit">编辑用户</button></td>
+    </tr>  
+</tbody>
+</table>
+</form>
+</div>
+</div>

@@ -1,0 +1,2564 @@
+a:20:{i:0;s:12771:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>科技频道</title>
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;">2013年06月24日  星期一
+
+ 农历五月十六
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<ul class="hotword">
+  <li>热搜词：</li>
+  <li><a target="_blank" href="#">刘铁男情妇雷</a></li>
+  <li><a target="_blank" href="#">政富受贿</a></li>
+  <li><a target="_blank" href="#">孔庆东骂人</a></li>
+  <li><a target="_blank" href="#">汶川地震五年</a></li>
+</ul>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <ul id="page">
+        <li class="active">
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800" class=""><em>俄罗斯：严寒冻死逾120人</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=140777" class=""><em>江西南昌：客车跑春运必须先过检测关</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764" class=""><em>埃及：新宪法草案今天获得通过</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792" class=""><em>衡山：雾凇奇观将持续半月</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958" class=""><em>年终盘点你幸福吗</em></a></div>
+        </li>
+      </ul>
+      <ul id="slideshow">
+        <li class="active">
+          <div> <a class="imga" target="_blank" title="俄罗斯：严寒冻死逾120人" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800"><img src="http://pic101.v1.cn/cloud/20121226/images/132800.jpg" /></a>
+           <span id="bck">
+            <h1> <a target="_blank" title="俄罗斯：严寒冻死逾120人" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800">俄罗斯：严寒冻死逾120人</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="埃及：新宪法草案今天获得通过" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764"><img src="http://pic101.v1.cn/cloud/20121226/images/132764.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="埃及：新宪法草案今天获得通过" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764">埃及：新宪法草案今天获得通过</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="衡山：雾凇奇观将持续半月" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792"><img src="http://pic101.v1.cn/cloud/20121225/images/130792.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="衡山：雾凇奇观将持续半月" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792">衡山：雾凇奇观将持续半月</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="年终盘点你幸福吗" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958"><img src="http://pic101.v1.cn/cloud/20130102/images/143958.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="年终盘点你幸福吗" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958">年终盘点你幸福吗</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li style="opacity: 1;" class="active">
+          <div> <a class="imga" target="_blank" title="邯郸发布会：专家称4日发现大量死鱼" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=158287"><img src="http://flv101.v1.cn/cloud/20130109/images/158287.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="邯郸发布会：专家称4日发现大量死鱼" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=158287">邯郸发布会：专家称4日发现大量死鱼</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+      </ul>
+    </div>
+<div class="ad_01 wrapBox980">
+<img src="http://pic.v1.cn/cms/bz_channel/images/images_ggwei.gif"/>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+      <div class="leftBox320 rangking">
+        <h2 class="bt">排行榜</h2>
+        <div class="bottom">
+         <ul>
+          <li class="one"> <b></b> <a class="toutu" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482"> <img src="http://pic101.v1.cn/cloud/20121228/images/135482-s.jpg"> </a>
+          <div class="one_right">
+            <h3><a class="touwen" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482">浙江80后夫妇非法集资费非法集改费非法法亿费元被</a></h3>
+            </div>
+          </li>
+          <li class="two"><b>2</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135475" target="_blank">日本表示要继承“村的信号？ </a></li>
+          <li class="two"> <b>3</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130784" target="_blank">上海市规土局原副局长胡俊受贿案一审判决 </a></li>
+          <li class="other"><b>4</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149745" target="_blank">高额拖车费从天降 驾驶员承受不了 </a></li>
+          <li class="other"><b>5</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149572" target="_blank">美国会正式确认奥巴马连任 </a></li>
+          <li class="other"> <b>6</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147983" target="_blank">加密厕所 让人无语 </a></li>
+          <li class="other"> <b>7</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147351" target="_blank">南方供暖之争可休矣 </a></li>
+          <li class="other"><b>8</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147341" target="_blank">江苏徐州 逃脱之后 重犯张海军再次被抓 </a></li>
+          <li class="other"><b>9</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=146978" target="_blank">河南西峡三车相撞 罐车撞入民宅爆炸起火 </a></li>
+          <li class="other"> <b style="padding-right:2px;">10</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=142846" target="_blank">空调主机噪音扰民 </a></li>
+        </ul>
+        </div>
+      </div>
+      <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_car_29.gif" width="320" height="100" /></div>
+      <div class="leftBox320 zzjm">
+       <h2 class="bt">自制节目</h2>
+       <div class="bottom">
+         <dl>
+            <dt><a href="#"><img width="100" height="75" src="images/images_sh_26.png"></a></dt>
+            <dd><h2><a href="#">杨洁篪礼节性会见日本拼音日本篪拼音拼音拼音</a></h2></dd>
+            <dd><p>老牌艳星，64岁宫雪花爆宫雪花宫花雪花雪装书法...<a href="#">[观看视频]</a></p></dd>
+         </dl>
+         <dl>
+             <dt><a href="#"><img width="100" height="75" src="images/images_sh_26.png"></a></dt>
+            <dd><h2><a href="#">杨洁篪礼节性会见日本拼音日本篪拼音拼音拼音</a></h2></dd>
+            <dd><p>老牌艳星，64岁宫雪花爆宫雪花宫花雪花雪装书法...<a href="#">[观看视频]</a></p></dd>
+         </dl>
+         <dl>
+            <dt><a href="#"><img width="100" height="75" src="images/images_sh_26.png"></a></dt>
+            <dd><h2><a href="#">杨洁篪礼节性会见日本拼音日本篪拼音拼音拼音</a></h2></dd>
+            <dd><p>老牌艳星，64岁宫雪花爆宫雪花宫花雪花雪装书法...<a href="#">[观看视频]</a></p></dd>
+         </dl>
+        </div>
+      </div>
+      
+       <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_ty_03.jpg" width="980" height="90" /></div>
+   </div>
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:1;s:12832:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>科技频道</title>
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;">2013年06月24日  星期一
+
+ 农历五月十六
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<ul class="hotword">
+  <li>热搜词：</li>
+  <li><a target="_blank" href="#">刘铁男情妇雷</a></li>
+  <li><a target="_blank" href="#">政富受贿</a></li>
+  <li><a target="_blank" href="#">孔庆东骂人</a></li>
+  <li><a target="_blank" href="#">汶川地震五年</a></li>
+</ul>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <ul id="page">
+        <li class="active">
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800" class=""><em>俄罗斯：严寒冻死逾120人</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=140777" class=""><em>江西南昌：客车跑春运必须先过检测关</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764" class=""><em>埃及：新宪法草案今天获得通过</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792" class=""><em>衡山：雾凇奇观将持续半月</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958" class=""><em>年终盘点你幸福吗</em></a></div>
+        </li>
+      </ul>
+      <ul id="slideshow">
+        <li class="active">
+          <div> <a class="imga" target="_blank" title="俄罗斯：严寒冻死逾120人" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800"><img src="http://pic101.v1.cn/cloud/20121226/images/132800.jpg" /></a>
+           <span id="bck">
+            <h1> <a target="_blank" title="俄罗斯：严寒冻死逾120人" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800">俄罗斯：严寒冻死逾120人</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="埃及：新宪法草案今天获得通过" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764"><img src="http://pic101.v1.cn/cloud/20121226/images/132764.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="埃及：新宪法草案今天获得通过" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764">埃及：新宪法草案今天获得通过</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="衡山：雾凇奇观将持续半月" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792"><img src="http://pic101.v1.cn/cloud/20121225/images/130792.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="衡山：雾凇奇观将持续半月" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792">衡山：雾凇奇观将持续半月</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="年终盘点你幸福吗" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958"><img src="http://pic101.v1.cn/cloud/20130102/images/143958.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="年终盘点你幸福吗" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958">年终盘点你幸福吗</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li style="opacity: 1;" class="active">
+          <div> <a class="imga" target="_blank" title="邯郸发布会：专家称4日发现大量死鱼" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=158287"><img src="http://flv101.v1.cn/cloud/20130109/images/158287.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="邯郸发布会：专家称4日发现大量死鱼" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=158287">邯郸发布会：专家称4日发现大量死鱼</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+      </ul>
+    </div>
+<div class="ad_01 wrapBox980">
+<img src="http://pic.v1.cn/cms/bz_channel/images/images_ggwei.gif"/>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+      <div class="leftBox320 rangking">
+        <h2 class="bt">排行榜</h2>
+        <div class="bottom">
+         <ul>
+          <li class="one"> <b></b> <a class="toutu" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482"> <img src="http://pic101.v1.cn/cloud/20121228/images/135482-s.jpg"> </a>
+          <div class="one_right">
+            <h3><a class="touwen" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482">浙江80后夫妇非法集资费非法集改费非法法亿费元被</a></h3>
+            </div>
+          </li>
+          <li class="two"><b>2</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135475" target="_blank">日本表示要继承“村的信号？ </a></li>
+          <li class="two"> <b>3</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130784" target="_blank">上海市规土局原副局长胡俊受贿案一审判决 </a></li>
+          <li class="other"><b>4</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149745" target="_blank">高额拖车费从天降 驾驶员承受不了 </a></li>
+          <li class="other"><b>5</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149572" target="_blank">美国会正式确认奥巴马连任 </a></li>
+          <li class="other"> <b>6</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147983" target="_blank">加密厕所 让人无语 </a></li>
+          <li class="other"> <b>7</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147351" target="_blank">南方供暖之争可休矣 </a></li>
+          <li class="other"><b>8</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147341" target="_blank">江苏徐州 逃脱之后 重犯张海军再次被抓 </a></li>
+          <li class="other"><b>9</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=146978" target="_blank">河南西峡三车相撞 罐车撞入民宅爆炸起火 </a></li>
+          <li class="other"> <b style="padding-right:2px;">10</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=142846" target="_blank">空调主机噪音扰民 </a></li>
+        </ul>
+        </div>
+      </div>
+      <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_car_29.gif" width="320" height="100" /></div>
+      <div class="leftBox320 zzjm">
+       <h2 class="bt">自制节目</h2>
+       <div class="bottom">
+         <dl>
+            <dt><a href="#"><img width="100" height="75" src="images/images_sh_26.png"></a></dt>
+            <dd><h2><a href="#">杨洁篪礼节性会见日本拼音日本篪拼音拼音拼音</a></h2></dd>
+            <dd><p>老牌艳星，64岁宫雪花爆宫雪花宫花雪花雪装书法...<a href="#">[观看视频]</a></p></dd>
+         </dl>
+         <dl>
+             <dt><a href="#"><img width="100" height="75" src="images/images_sh_26.png"></a></dt>
+            <dd><h2><a href="#">杨洁篪礼节性会见日本拼音日本篪拼音拼音拼音</a></h2></dd>
+            <dd><p>老牌艳星，64岁宫雪花爆宫雪花宫花雪花雪装书法...<a href="#">[观看视频]</a></p></dd>
+         </dl>
+         <dl>
+            <dt><a href="#"><img width="100" height="75" src="images/images_sh_26.png"></a></dt>
+            <dd><h2><a href="#">杨洁篪礼节性会见日本拼音日本篪拼音拼音拼音</a></h2></dd>
+            <dd><p>老牌艳星，64岁宫雪花爆宫雪花宫花雪花雪装书法...<a href="#">[观看视频]</a></p></dd>
+         </dl>
+        </div>
+      </div>
+      
+       <!--#CMS_MODULE(大模块-合作专题)#-->       
+
+       <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_ty_03.jpg" width="980" height="90" /></div>
+   </div>
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:2;s:12833:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>科技频道</title>
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;">2013年06月24日  星期一
+
+ 农历五月十六
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<ul class="hotword">
+  <li>热搜词：</li>
+  <li><a target="_blank" href="#">刘铁男情妇雷</a></li>
+  <li><a target="_blank" href="#">政富受贿</a></li>
+  <li><a target="_blank" href="#">孔庆东骂人</a></li>
+  <li><a target="_blank" href="#">汶川地震五年</a></li>
+</ul>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <ul id="page">
+        <li class="active">
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800" class=""><em>俄罗斯：严寒冻死逾120人</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=140777" class=""><em>江西南昌：客车跑春运必须先过检测关</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764" class=""><em>埃及：新宪法草案今天获得通过</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792" class=""><em>衡山：雾凇奇观将持续半月</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958" class=""><em>年终盘点你幸福吗</em></a></div>
+        </li>
+      </ul>
+      <ul id="slideshow">
+        <li class="active">
+          <div> <a class="imga" target="_blank" title="俄罗斯：严寒冻死逾120人" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800"><img src="http://pic101.v1.cn/cloud/20121226/images/132800.jpg" /></a>
+           <span id="bck">
+            <h1> <a target="_blank" title="俄罗斯：严寒冻死逾120人" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800">俄罗斯：严寒冻死逾120人</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="埃及：新宪法草案今天获得通过" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764"><img src="http://pic101.v1.cn/cloud/20121226/images/132764.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="埃及：新宪法草案今天获得通过" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764">埃及：新宪法草案今天获得通过</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="衡山：雾凇奇观将持续半月" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792"><img src="http://pic101.v1.cn/cloud/20121225/images/130792.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="衡山：雾凇奇观将持续半月" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792">衡山：雾凇奇观将持续半月</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="年终盘点你幸福吗" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958"><img src="http://pic101.v1.cn/cloud/20130102/images/143958.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="年终盘点你幸福吗" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958">年终盘点你幸福吗</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li style="opacity: 1;" class="active">
+          <div> <a class="imga" target="_blank" title="邯郸发布会：专家称4日发现大量死鱼" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=158287"><img src="http://flv101.v1.cn/cloud/20130109/images/158287.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="邯郸发布会：专家称4日发现大量死鱼" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=158287">邯郸发布会：专家称4日发现大量死鱼</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+      </ul>
+    </div>
+<div class="ad_01 wrapBox980">
+<img src="http://pic.v1.cn/cms/bz_channel/images/images_ggwei.gif"/>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+      <div class="leftBox320 rangking">
+        <h2 class="bt">排行榜</h2>
+        <div class="bottom">
+         <ul>
+          <li class="one"> <b></b> <a class="toutu" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482"> <img src="http://pic101.v1.cn/cloud/20121228/images/135482-s.jpg"> </a>
+          <div class="one_right">
+            <h3><a class="touwen" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482">浙江80后夫妇非法集资费非法集改费非法法亿费元被</a></h3>
+            </div>
+          </li>
+          <li class="two"><b>2</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135475" target="_blank">日本表示要继承“村的信号？ </a></li>
+          <li class="two"> <b>3</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130784" target="_blank">上海市规土局原副局长胡俊受贿案一审判决 </a></li>
+          <li class="other"><b>4</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149745" target="_blank">高额拖车费从天降 驾驶员承受不了 </a></li>
+          <li class="other"><b>5</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149572" target="_blank">美国会正式确认奥巴马连任 </a></li>
+          <li class="other"> <b>6</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147983" target="_blank">加密厕所 让人无语 </a></li>
+          <li class="other"> <b>7</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147351" target="_blank">南方供暖之争可休矣 </a></li>
+          <li class="other"><b>8</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147341" target="_blank">江苏徐州 逃脱之后 重犯张海军再次被抓 </a></li>
+          <li class="other"><b>9</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=146978" target="_blank">河南西峡三车相撞 罐车撞入民宅爆炸起火 </a></li>
+          <li class="other"> <b style="padding-right:2px;">10</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=142846" target="_blank">空调主机噪音扰民 </a></li>
+        </ul>
+        </div>
+      </div>
+      <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_car_29.gif" width="320" height="100" /></div>
+      <div class="leftBox320 zzjm">
+       <h2 class="bt">自制节目</h2>
+       <div class="bottom">
+         <dl>
+            <dt><a href="#"><img width="100" height="75" src="images/images_sh_26.png"></a></dt>
+            <dd><h2><a href="#">杨洁篪礼节性会见日本拼音日本篪拼音拼音拼音</a></h2></dd>
+            <dd><p>老牌艳星，64岁宫雪花爆宫雪花宫花雪花雪装书法...<a href="#">[观看视频]</a></p></dd>
+         </dl>
+         <dl>
+             <dt><a href="#"><img width="100" height="75" src="images/images_sh_26.png"></a></dt>
+            <dd><h2><a href="#">杨洁篪礼节性会见日本拼音日本篪拼音拼音拼音</a></h2></dd>
+            <dd><p>老牌艳星，64岁宫雪花爆宫雪花宫花雪花雪装书法...<a href="#">[观看视频]</a></p></dd>
+         </dl>
+         <dl>
+            <dt><a href="#"><img width="100" height="75" src="images/images_sh_26.png"></a></dt>
+            <dd><h2><a href="#">杨洁篪礼节性会见日本拼音日本篪拼音拼音拼音</a></h2></dd>
+            <dd><p>老牌艳星，64岁宫雪花爆宫雪花宫花雪花雪装书法...<a href="#">[观看视频]</a></p></dd>
+         </dl>
+        </div>
+      </div>
+      
+       <!--#CMS_MODULE标准频道-自制节目#-->       
+
+       <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_ty_03.jpg" width="980" height="90" /></div>
+   </div>
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:3;s:11591:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>科技频道</title>
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;">2013年06月24日  星期一
+
+ 农历五月十六
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<ul class="hotword">
+  <li>热搜词：</li>
+  <li><a target="_blank" href="#">刘铁男情妇雷</a></li>
+  <li><a target="_blank" href="#">政富受贿</a></li>
+  <li><a target="_blank" href="#">孔庆东骂人</a></li>
+  <li><a target="_blank" href="#">汶川地震五年</a></li>
+</ul>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <ul id="page">
+        <li class="active">
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800" class=""><em>俄罗斯：严寒冻死逾120人</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=140777" class=""><em>江西南昌：客车跑春运必须先过检测关</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764" class=""><em>埃及：新宪法草案今天获得通过</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792" class=""><em>衡山：雾凇奇观将持续半月</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958" class=""><em>年终盘点你幸福吗</em></a></div>
+        </li>
+      </ul>
+      <ul id="slideshow">
+        <li class="active">
+          <div> <a class="imga" target="_blank" title="俄罗斯：严寒冻死逾120人" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800"><img src="http://pic101.v1.cn/cloud/20121226/images/132800.jpg" /></a>
+           <span id="bck">
+            <h1> <a target="_blank" title="俄罗斯：严寒冻死逾120人" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800">俄罗斯：严寒冻死逾120人</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="埃及：新宪法草案今天获得通过" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764"><img src="http://pic101.v1.cn/cloud/20121226/images/132764.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="埃及：新宪法草案今天获得通过" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764">埃及：新宪法草案今天获得通过</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="衡山：雾凇奇观将持续半月" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792"><img src="http://pic101.v1.cn/cloud/20121225/images/130792.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="衡山：雾凇奇观将持续半月" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792">衡山：雾凇奇观将持续半月</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="年终盘点你幸福吗" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958"><img src="http://pic101.v1.cn/cloud/20130102/images/143958.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="年终盘点你幸福吗" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958">年终盘点你幸福吗</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li style="opacity: 1;" class="active">
+          <div> <a class="imga" target="_blank" title="邯郸发布会：专家称4日发现大量死鱼" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=158287"><img src="http://flv101.v1.cn/cloud/20130109/images/158287.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="邯郸发布会：专家称4日发现大量死鱼" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=158287">邯郸发布会：专家称4日发现大量死鱼</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+      </ul>
+    </div>
+<div class="ad_01 wrapBox980">
+<img src="http://pic.v1.cn/cms/bz_channel/images/images_ggwei.gif"/>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+      <div class="leftBox320 rangking">
+        <h2 class="bt">排行榜</h2>
+        <div class="bottom">
+         <ul>
+          <li class="one"> <b></b> <a class="toutu" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482"> <img src="http://pic101.v1.cn/cloud/20121228/images/135482-s.jpg"> </a>
+          <div class="one_right">
+            <h3><a class="touwen" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482">浙江80后夫妇非法集资费非法集改费非法法亿费元被</a></h3>
+            </div>
+          </li>
+          <li class="two"><b>2</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135475" target="_blank">日本表示要继承“村的信号？ </a></li>
+          <li class="two"> <b>3</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130784" target="_blank">上海市规土局原副局长胡俊受贿案一审判决 </a></li>
+          <li class="other"><b>4</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149745" target="_blank">高额拖车费从天降 驾驶员承受不了 </a></li>
+          <li class="other"><b>5</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149572" target="_blank">美国会正式确认奥巴马连任 </a></li>
+          <li class="other"> <b>6</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147983" target="_blank">加密厕所 让人无语 </a></li>
+          <li class="other"> <b>7</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147351" target="_blank">南方供暖之争可休矣 </a></li>
+          <li class="other"><b>8</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147341" target="_blank">江苏徐州 逃脱之后 重犯张海军再次被抓 </a></li>
+          <li class="other"><b>9</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=146978" target="_blank">河南西峡三车相撞 罐车撞入民宅爆炸起火 </a></li>
+          <li class="other"> <b style="padding-right:2px;">10</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=142846" target="_blank">空调主机噪音扰民 </a></li>
+        </ul>
+        </div>
+      </div>
+      <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_car_29.gif" width="320" height="100" /></div>
+      
+       <!--#CMS_MODULE标准频道-自制节目#-->       
+
+       <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_ty_03.jpg" width="980" height="90" /></div>
+   </div>
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:4;s:11588:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>科技频道</title>
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;">2013年06月24日  星期一
+
+ 农历五月十六
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<ul class="hotword">
+  <li>热搜词：</li>
+  <li><a target="_blank" href="#">刘铁男情妇雷</a></li>
+  <li><a target="_blank" href="#">政富受贿</a></li>
+  <li><a target="_blank" href="#">孔庆东骂人</a></li>
+  <li><a target="_blank" href="#">汶川地震五年</a></li>
+</ul>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <ul id="page">
+        <li class="active">
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800" class=""><em>俄罗斯：严寒冻死逾120人</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=140777" class=""><em>江西南昌：客车跑春运必须先过检测关</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764" class=""><em>埃及：新宪法草案今天获得通过</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792" class=""><em>衡山：雾凇奇观将持续半月</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958" class=""><em>年终盘点你幸福吗</em></a></div>
+        </li>
+      </ul>
+      <ul id="slideshow">
+        <li class="active">
+          <div> <a class="imga" target="_blank" title="俄罗斯：严寒冻死逾120人" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800"><img src="http://pic101.v1.cn/cloud/20121226/images/132800.jpg" /></a>
+           <span id="bck">
+            <h1> <a target="_blank" title="俄罗斯：严寒冻死逾120人" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800">俄罗斯：严寒冻死逾120人</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="埃及：新宪法草案今天获得通过" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764"><img src="http://pic101.v1.cn/cloud/20121226/images/132764.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="埃及：新宪法草案今天获得通过" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764">埃及：新宪法草案今天获得通过</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="衡山：雾凇奇观将持续半月" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792"><img src="http://pic101.v1.cn/cloud/20121225/images/130792.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="衡山：雾凇奇观将持续半月" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792">衡山：雾凇奇观将持续半月</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="年终盘点你幸福吗" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958"><img src="http://pic101.v1.cn/cloud/20130102/images/143958.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="年终盘点你幸福吗" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958">年终盘点你幸福吗</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li style="opacity: 1;" class="active">
+          <div> <a class="imga" target="_blank" title="邯郸发布会：专家称4日发现大量死鱼" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=158287"><img src="http://flv101.v1.cn/cloud/20130109/images/158287.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="邯郸发布会：专家称4日发现大量死鱼" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=158287">邯郸发布会：专家称4日发现大量死鱼</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+      </ul>
+    </div>
+<div class="ad_01 wrapBox980">
+<img src="http://pic.v1.cn/cms/bz_channel/images/images_ggwei.gif"/>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+      <div class="leftBox320 rangking">
+        <h2 class="bt">排行榜</h2>
+        <div class="bottom">
+         <ul>
+          <li class="one"> <b></b> <a class="toutu" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482"> <img src="http://pic101.v1.cn/cloud/20121228/images/135482-s.jpg"> </a>
+          <div class="one_right">
+            <h3><a class="touwen" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482">浙江80后夫妇非法集资费非法集改费非法法亿费元被</a></h3>
+            </div>
+          </li>
+          <li class="two"><b>2</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135475" target="_blank">日本表示要继承“村的信号？ </a></li>
+          <li class="two"> <b>3</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130784" target="_blank">上海市规土局原副局长胡俊受贿案一审判决 </a></li>
+          <li class="other"><b>4</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149745" target="_blank">高额拖车费从天降 驾驶员承受不了 </a></li>
+          <li class="other"><b>5</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149572" target="_blank">美国会正式确认奥巴马连任 </a></li>
+          <li class="other"> <b>6</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147983" target="_blank">加密厕所 让人无语 </a></li>
+          <li class="other"> <b>7</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147351" target="_blank">南方供暖之争可休矣 </a></li>
+          <li class="other"><b>8</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147341" target="_blank">江苏徐州 逃脱之后 重犯张海军再次被抓 </a></li>
+          <li class="other"><b>9</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=146978" target="_blank">河南西峡三车相撞 罐车撞入民宅爆炸起火 </a></li>
+          <li class="other"> <b style="padding-right:2px;">10</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=142846" target="_blank">空调主机噪音扰民 </a></li>
+        </ul>
+        </div>
+      </div>
+       <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_car_29.gif" width="320" height="100" /></div>
+      
+     <!--#CMS_MODULE标准频道-自制节目#-->       
+
+     <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_ty_03.jpg" width="980" height="90" /></div>
+   </div>
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:5;s:11590:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>科技频道</title>
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;">2013年06月24日  星期一
+
+ 农历五月十六
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<ul class="hotword">
+  <li>热搜词：</li>
+  <li><a target="_blank" href="#">刘铁男情妇雷</a></li>
+  <li><a target="_blank" href="#">政富受贿</a></li>
+  <li><a target="_blank" href="#">孔庆东骂人</a></li>
+  <li><a target="_blank" href="#">汶川地震五年</a></li>
+</ul>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <ul id="page">
+        <li class="active">
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800" class=""><em>俄罗斯：严寒冻死逾120人</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=140777" class=""><em>江西南昌：客车跑春运必须先过检测关</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764" class=""><em>埃及：新宪法草案今天获得通过</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792" class=""><em>衡山：雾凇奇观将持续半月</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958" class=""><em>年终盘点你幸福吗</em></a></div>
+        </li>
+      </ul>
+      <ul id="slideshow">
+        <li class="active">
+          <div> <a class="imga" target="_blank" title="俄罗斯：严寒冻死逾120人" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800"><img src="http://pic101.v1.cn/cloud/20121226/images/132800.jpg" /></a>
+           <span id="bck">
+            <h1> <a target="_blank" title="俄罗斯：严寒冻死逾120人" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800">俄罗斯：严寒冻死逾120人</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="埃及：新宪法草案今天获得通过" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764"><img src="http://pic101.v1.cn/cloud/20121226/images/132764.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="埃及：新宪法草案今天获得通过" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764">埃及：新宪法草案今天获得通过</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="衡山：雾凇奇观将持续半月" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792"><img src="http://pic101.v1.cn/cloud/20121225/images/130792.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="衡山：雾凇奇观将持续半月" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792">衡山：雾凇奇观将持续半月</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="年终盘点你幸福吗" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958"><img src="http://pic101.v1.cn/cloud/20130102/images/143958.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="年终盘点你幸福吗" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958">年终盘点你幸福吗</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li style="opacity: 1;" class="active">
+          <div> <a class="imga" target="_blank" title="邯郸发布会：专家称4日发现大量死鱼" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=158287"><img src="http://flv101.v1.cn/cloud/20130109/images/158287.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="邯郸发布会：专家称4日发现大量死鱼" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=158287">邯郸发布会：专家称4日发现大量死鱼</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+      </ul>
+    </div>
+<div class="ad_01 wrapBox980">
+<img src="http://pic.v1.cn/cms/bz_channel/images/images_ggwei.gif"/>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+      <div class="leftBox320 rangking">
+        <h2 class="bt">排行榜</h2>
+        <div class="bottom">
+         <ul>
+          <li class="one"> <b></b> <a class="toutu" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482"> <img src="http://pic101.v1.cn/cloud/20121228/images/135482-s.jpg"> </a>
+          <div class="one_right">
+            <h3><a class="touwen" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482">浙江80后夫妇非法集资费非法集改费非法法亿费元被</a></h3>
+            </div>
+          </li>
+          <li class="two"><b>2</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135475" target="_blank">日本表示要继承“村的信号？ </a></li>
+          <li class="two"> <b>3</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130784" target="_blank">上海市规土局原副局长胡俊受贿案一审判决 </a></li>
+          <li class="other"><b>4</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149745" target="_blank">高额拖车费从天降 驾驶员承受不了 </a></li>
+          <li class="other"><b>5</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149572" target="_blank">美国会正式确认奥巴马连任 </a></li>
+          <li class="other"> <b>6</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147983" target="_blank">加密厕所 让人无语 </a></li>
+          <li class="other"> <b>7</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147351" target="_blank">南方供暖之争可休矣 </a></li>
+          <li class="other"><b>8</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147341" target="_blank">江苏徐州 逃脱之后 重犯张海军再次被抓 </a></li>
+          <li class="other"><b>9</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=146978" target="_blank">河南西峡三车相撞 罐车撞入民宅爆炸起火 </a></li>
+          <li class="other"> <b style="padding-right:2px;">10</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=142846" target="_blank">空调主机噪音扰民 </a></li>
+        </ul>
+        </div>
+      </div>
+       <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_car_29.gif" width="320" height="100" /></div>
+      
+     <!--#CMS_MODULE(标准频道-自制节目)#-->       
+
+     <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_ty_03.jpg" width="980" height="90" /></div>
+   </div>
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:6;s:11588:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>科技频道</title>
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;">2013年06月24日  星期一
+
+ 农历五月十六
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<ul class="hotword">
+  <li>热搜词：</li>
+  <li><a target="_blank" href="#">刘铁男情妇雷</a></li>
+  <li><a target="_blank" href="#">政富受贿</a></li>
+  <li><a target="_blank" href="#">孔庆东骂人</a></li>
+  <li><a target="_blank" href="#">汶川地震五年</a></li>
+</ul>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <ul id="page">
+        <li class="active">
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800" class=""><em>俄罗斯：严寒冻死逾120人</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=140777" class=""><em>江西南昌：客车跑春运必须先过检测关</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764" class=""><em>埃及：新宪法草案今天获得通过</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792" class=""><em>衡山：雾凇奇观将持续半月</em></a></div>
+        </li>
+        <li>
+          <div><a target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958" class=""><em>年终盘点你幸福吗</em></a></div>
+        </li>
+      </ul>
+      <ul id="slideshow">
+        <li class="active">
+          <div> <a class="imga" target="_blank" title="俄罗斯：严寒冻死逾120人" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800"><img src="http://pic101.v1.cn/cloud/20121226/images/132800.jpg" /></a>
+           <span id="bck">
+            <h1> <a target="_blank" title="俄罗斯：严寒冻死逾120人" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132800">俄罗斯：严寒冻死逾120人</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="埃及：新宪法草案今天获得通过" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764"><img src="http://pic101.v1.cn/cloud/20121226/images/132764.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="埃及：新宪法草案今天获得通过" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=132764">埃及：新宪法草案今天获得通过</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="衡山：雾凇奇观将持续半月" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792"><img src="http://pic101.v1.cn/cloud/20121225/images/130792.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="衡山：雾凇奇观将持续半月" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130792">衡山：雾凇奇观将持续半月</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li>
+          <div> <a class="imga" target="_blank" title="年终盘点你幸福吗" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958"><img src="http://pic101.v1.cn/cloud/20130102/images/143958.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="年终盘点你幸福吗" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=143958">年终盘点你幸福吗</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+        <li style="opacity: 1;" class="active">
+          <div> <a class="imga" target="_blank" title="邯郸发布会：专家称4日发现大量死鱼" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=158287"><img src="http://flv101.v1.cn/cloud/20130109/images/158287.jpg" /></a> <span id="bck">
+            <h1> <a target="_blank" title="邯郸发布会：专家称4日发现大量死鱼" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=158287">邯郸发布会：专家称4日发现大量死鱼</a></h1>
+            <p>表示：10日，中国军队一架运8飞机在我温州以东、东海油气田西南空域进行例行巡逻同时日方还在...</p>
+          </span></div>
+        </li>
+      </ul>
+    </div>
+<div class="ad_01 wrapBox980">
+<img src="http://pic.v1.cn/cms/bz_channel/images/images_ggwei.gif"/>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+      <div class="leftBox320 rangking">
+        <h2 class="bt">排行榜</h2>
+        <div class="bottom">
+         <ul>
+          <li class="one"> <b></b> <a class="toutu" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482"> <img src="http://pic101.v1.cn/cloud/20121228/images/135482-s.jpg"> </a>
+          <div class="one_right">
+            <h3><a class="touwen" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482">浙江80后夫妇非法集资费非法集改费非法法亿费元被</a></h3>
+            </div>
+          </li>
+          <li class="two"><b>2</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135475" target="_blank">日本表示要继承“村的信号？ </a></li>
+          <li class="two"> <b>3</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130784" target="_blank">上海市规土局原副局长胡俊受贿案一审判决 </a></li>
+          <li class="other"><b>4</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149745" target="_blank">高额拖车费从天降 驾驶员承受不了 </a></li>
+          <li class="other"><b>5</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149572" target="_blank">美国会正式确认奥巴马连任 </a></li>
+          <li class="other"> <b>6</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147983" target="_blank">加密厕所 让人无语 </a></li>
+          <li class="other"> <b>7</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147351" target="_blank">南方供暖之争可休矣 </a></li>
+          <li class="other"><b>8</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147341" target="_blank">江苏徐州 逃脱之后 重犯张海军再次被抓 </a></li>
+          <li class="other"><b>9</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=146978" target="_blank">河南西峡三车相撞 罐车撞入民宅爆炸起火 </a></li>
+          <li class="other"> <b style="padding-right:2px;">10</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=142846" target="_blank">空调主机噪音扰民 </a></li>
+        </ul>
+        </div>
+      </div>
+       <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_car_29.gif" width="320" height="100" /></div>
+     
+     <!--#CMS_MODULE(标准频道-自制节目)#-->      
+
+     <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_ty_03.jpg" width="980" height="90" /></div>
+   </div>
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:7;s:7029:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>科技频道</title>
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;">2013年06月24日  星期一
+
+ 农历五月十六
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<ul class="hotword">
+  <li>热搜词：</li>
+  <li><a target="_blank" href="#">刘铁男情妇雷</a></li>
+  <li><a target="_blank" href="#">政富受贿</a></li>
+  <li><a target="_blank" href="#">孔庆东骂人</a></li>
+  <li><a target="_blank" href="#">汶川地震五年</a></li>
+</ul>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <!--#CMS_MODULE(标准频道-焦点图)#-->
+    </div>
+<div class="ad_01 wrapBox980">
+<img src="http://pic.v1.cn/cms/bz_channel/images/images_ggwei.gif"/>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+      <div class="leftBox320 rangking">
+        <h2 class="bt">排行榜</h2>
+        <div class="bottom">
+         <ul>
+          <li class="one"> <b></b> <a class="toutu" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482"> <img src="http://pic101.v1.cn/cloud/20121228/images/135482-s.jpg"> </a>
+          <div class="one_right">
+            <h3><a class="touwen" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482">浙江80后夫妇非法集资费非法集改费非法法亿费元被</a></h3>
+            </div>
+          </li>
+          <li class="two"><b>2</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135475" target="_blank">日本表示要继承“村的信号？ </a></li>
+          <li class="two"> <b>3</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130784" target="_blank">上海市规土局原副局长胡俊受贿案一审判决 </a></li>
+          <li class="other"><b>4</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149745" target="_blank">高额拖车费从天降 驾驶员承受不了 </a></li>
+          <li class="other"><b>5</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149572" target="_blank">美国会正式确认奥巴马连任 </a></li>
+          <li class="other"> <b>6</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147983" target="_blank">加密厕所 让人无语 </a></li>
+          <li class="other"> <b>7</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147351" target="_blank">南方供暖之争可休矣 </a></li>
+          <li class="other"><b>8</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147341" target="_blank">江苏徐州 逃脱之后 重犯张海军再次被抓 </a></li>
+          <li class="other"><b>9</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=146978" target="_blank">河南西峡三车相撞 罐车撞入民宅爆炸起火 </a></li>
+          <li class="other"> <b style="padding-right:2px;">10</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=142846" target="_blank">空调主机噪音扰民 </a></li>
+        </ul>
+        </div>
+      </div>
+       <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_car_29.gif" width="320" height="100" /></div>
+     
+     <!--#CMS_MODULE(标准频道-自制节目)#-->      
+
+     <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_ty_03.jpg" width="980" height="90" /></div>
+   </div>
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:8;s:7029:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>科技频道</title>
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;">2013年06月24日  星期一
+
+ 农历五月十六
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<ul class="hotword">
+  <li>热搜词：</li>
+  <li><a target="_blank" href="#">刘铁男情妇雷</a></li>
+  <li><a target="_blank" href="#">政富受贿</a></li>
+  <li><a target="_blank" href="#">孔庆东骂人</a></li>
+  <li><a target="_blank" href="#">汶川地震五年</a></li>
+</ul>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <!--#CMS_MODULE(标准频道-焦点图)#-->
+    </div>
+<div class="ad_01 wrapBox980">
+<img src="http://pic.v1.cn/cms/bz_channel/images/images_ggwei.gif"/>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+      <div class="leftBox320 rangking">
+        <h2 class="bt">排行榜</h2>
+        <div class="bottom">
+         <ul>
+          <li class="one"> <b></b> <a class="toutu" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482"> <img src="http://pic101.v1.cn/cloud/20121228/images/135482-s.jpg"> </a>
+          <div class="one_right">
+            <h3><a class="touwen" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482">浙江80后夫妇非法集资费非法集改费非法法亿费元被</a></h3>
+            </div>
+          </li>
+          <li class="two"><b>2</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135475" target="_blank">日本表示要继承“村的信号？ </a></li>
+          <li class="two"> <b>3</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130784" target="_blank">上海市规土局原副局长胡俊受贿案一审判决 </a></li>
+          <li class="other"><b>4</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149745" target="_blank">高额拖车费从天降 驾驶员承受不了 </a></li>
+          <li class="other"><b>5</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149572" target="_blank">美国会正式确认奥巴马连任 </a></li>
+          <li class="other"> <b>6</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147983" target="_blank">加密厕所 让人无语 </a></li>
+          <li class="other"> <b>7</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147351" target="_blank">南方供暖之争可休矣 </a></li>
+          <li class="other"><b>8</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147341" target="_blank">江苏徐州 逃脱之后 重犯张海军再次被抓 </a></li>
+          <li class="other"><b>9</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=146978" target="_blank">河南西峡三车相撞 罐车撞入民宅爆炸起火 </a></li>
+          <li class="other"> <b style="padding-right:2px;">10</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=142846" target="_blank">空调主机噪音扰民 </a></li>
+        </ul>
+        </div>
+      </div>
+       <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_car_29.gif" width="320" height="100" /></div>
+     
+     <!--#CMS_MODULE(标准频道-自制节目)#-->      
+
+     <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_ty_03.jpg" width="980" height="90" /></div>
+   </div>
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:9;s:6833:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>科技频道</title>
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;">2013年06月24日  星期一
+
+ 农历五月十六
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<ul class="hotword">
+  <li>热搜词：</li>
+  <!--#CMS_MODULE(标准频道-热搜词)#-->
+</ul>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <!--#CMS_MODULE(标准频道-焦点图)#-->
+    </div>
+<div class="ad_01 wrapBox980">
+<img src="http://pic.v1.cn/cms/bz_channel/images/images_ggwei.gif"/>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+      <div class="leftBox320 rangking">
+        <h2 class="bt">排行榜</h2>
+        <div class="bottom">
+         <ul>
+          <li class="one"> <b></b> <a class="toutu" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482"> <img src="http://pic101.v1.cn/cloud/20121228/images/135482-s.jpg"> </a>
+          <div class="one_right">
+            <h3><a class="touwen" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482">浙江80后夫妇非法集资费非法集改费非法法亿费元被</a></h3>
+            </div>
+          </li>
+          <li class="two"><b>2</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135475" target="_blank">日本表示要继承“村的信号？ </a></li>
+          <li class="two"> <b>3</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130784" target="_blank">上海市规土局原副局长胡俊受贿案一审判决 </a></li>
+          <li class="other"><b>4</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149745" target="_blank">高额拖车费从天降 驾驶员承受不了 </a></li>
+          <li class="other"><b>5</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149572" target="_blank">美国会正式确认奥巴马连任 </a></li>
+          <li class="other"> <b>6</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147983" target="_blank">加密厕所 让人无语 </a></li>
+          <li class="other"> <b>7</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147351" target="_blank">南方供暖之争可休矣 </a></li>
+          <li class="other"><b>8</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147341" target="_blank">江苏徐州 逃脱之后 重犯张海军再次被抓 </a></li>
+          <li class="other"><b>9</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=146978" target="_blank">河南西峡三车相撞 罐车撞入民宅爆炸起火 </a></li>
+          <li class="other"> <b style="padding-right:2px;">10</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=142846" target="_blank">空调主机噪音扰民 </a></li>
+        </ul>
+        </div>
+      </div>
+       <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_car_29.gif" width="320" height="100" /></div>
+     
+     <!--#CMS_MODULE(标准频道-自制节目)#-->      
+
+     <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_ty_03.jpg" width="980" height="90" /></div>
+   </div>
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:10;s:6838:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>科技频道</title>
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;">2013年06月24日  星期一
+
+ 农历五月十六
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<div class="hotword">
+  <span>热搜词：</span>
+  <!--#CMS_MODULE(标准频道-热搜词)#-->
+</ul>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <!--#CMS_MODULE(标准频道-焦点图)#-->
+    </div>
+<div class="ad_01 wrapBox980">
+<img src="http://pic.v1.cn/cms/bz_channel/images/images_ggwei.gif"/>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+      <div class="leftBox320 rangking">
+        <h2 class="bt">排行榜</h2>
+        <div class="bottom">
+         <ul>
+          <li class="one"> <b></b> <a class="toutu" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482"> <img src="http://pic101.v1.cn/cloud/20121228/images/135482-s.jpg"> </a>
+          <div class="one_right">
+            <h3><a class="touwen" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482">浙江80后夫妇非法集资费非法集改费非法法亿费元被</a></h3>
+            </div>
+          </li>
+          <li class="two"><b>2</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135475" target="_blank">日本表示要继承“村的信号？ </a></li>
+          <li class="two"> <b>3</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130784" target="_blank">上海市规土局原副局长胡俊受贿案一审判决 </a></li>
+          <li class="other"><b>4</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149745" target="_blank">高额拖车费从天降 驾驶员承受不了 </a></li>
+          <li class="other"><b>5</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149572" target="_blank">美国会正式确认奥巴马连任 </a></li>
+          <li class="other"> <b>6</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147983" target="_blank">加密厕所 让人无语 </a></li>
+          <li class="other"> <b>7</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147351" target="_blank">南方供暖之争可休矣 </a></li>
+          <li class="other"><b>8</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147341" target="_blank">江苏徐州 逃脱之后 重犯张海军再次被抓 </a></li>
+          <li class="other"><b>9</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=146978" target="_blank">河南西峡三车相撞 罐车撞入民宅爆炸起火 </a></li>
+          <li class="other"> <b style="padding-right:2px;">10</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=142846" target="_blank">空调主机噪音扰民 </a></li>
+        </ul>
+        </div>
+      </div>
+       <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_car_29.gif" width="320" height="100" /></div>
+     
+     <!--#CMS_MODULE(标准频道-自制节目)#-->      
+
+     <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_ty_03.jpg" width="980" height="90" /></div>
+   </div>
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:11;s:6839:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>科技频道</title>
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;">2013年06月24日  星期一
+
+ 农历五月十六
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<div class="hotword">
+  <span>热搜词：</span>
+  <!--#CMS_MODULE(标准频道-热搜词)#-->
+</div>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <!--#CMS_MODULE(标准频道-焦点图)#-->
+    </div>
+<div class="ad_01 wrapBox980">
+<img src="http://pic.v1.cn/cms/bz_channel/images/images_ggwei.gif"/>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+      <div class="leftBox320 rangking">
+        <h2 class="bt">排行榜</h2>
+        <div class="bottom">
+         <ul>
+          <li class="one"> <b></b> <a class="toutu" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482"> <img src="http://pic101.v1.cn/cloud/20121228/images/135482-s.jpg"> </a>
+          <div class="one_right">
+            <h3><a class="touwen" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482">浙江80后夫妇非法集资费非法集改费非法法亿费元被</a></h3>
+            </div>
+          </li>
+          <li class="two"><b>2</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135475" target="_blank">日本表示要继承“村的信号？ </a></li>
+          <li class="two"> <b>3</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130784" target="_blank">上海市规土局原副局长胡俊受贿案一审判决 </a></li>
+          <li class="other"><b>4</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149745" target="_blank">高额拖车费从天降 驾驶员承受不了 </a></li>
+          <li class="other"><b>5</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149572" target="_blank">美国会正式确认奥巴马连任 </a></li>
+          <li class="other"> <b>6</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147983" target="_blank">加密厕所 让人无语 </a></li>
+          <li class="other"> <b>7</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147351" target="_blank">南方供暖之争可休矣 </a></li>
+          <li class="other"><b>8</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147341" target="_blank">江苏徐州 逃脱之后 重犯张海军再次被抓 </a></li>
+          <li class="other"><b>9</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=146978" target="_blank">河南西峡三车相撞 罐车撞入民宅爆炸起火 </a></li>
+          <li class="other"> <b style="padding-right:2px;">10</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=142846" target="_blank">空调主机噪音扰民 </a></li>
+        </ul>
+        </div>
+      </div>
+       <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_car_29.gif" width="320" height="100" /></div>
+     
+     <!--#CMS_MODULE(标准频道-自制节目)#-->      
+
+     <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_ty_03.jpg" width="980" height="90" /></div>
+   </div>
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:12;s:7074:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>科技频道</title>
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script>
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<div class="hotword">
+  <span>热搜词：</span>
+  <!--#CMS_MODULE(标准频道-热搜词)#-->
+</div>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <!--#CMS_MODULE(标准频道-焦点图)#-->
+    </div>
+<div class="ad_01 wrapBox980">
+<img src="http://pic.v1.cn/cms/bz_channel/images/images_ggwei.gif"/>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+      <div class="leftBox320 rangking">
+        <h2 class="bt">排行榜</h2>
+        <div class="bottom">
+         <ul>
+          <li class="one"> <b></b> <a class="toutu" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482"> <img src="http://pic101.v1.cn/cloud/20121228/images/135482-s.jpg"> </a>
+          <div class="one_right">
+            <h3><a class="touwen" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482">浙江80后夫妇非法集资费非法集改费非法法亿费元被</a></h3>
+            </div>
+          </li>
+          <li class="two"><b>2</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135475" target="_blank">日本表示要继承“村的信号？ </a></li>
+          <li class="two"> <b>3</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130784" target="_blank">上海市规土局原副局长胡俊受贿案一审判决 </a></li>
+          <li class="other"><b>4</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149745" target="_blank">高额拖车费从天降 驾驶员承受不了 </a></li>
+          <li class="other"><b>5</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149572" target="_blank">美国会正式确认奥巴马连任 </a></li>
+          <li class="other"> <b>6</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147983" target="_blank">加密厕所 让人无语 </a></li>
+          <li class="other"> <b>7</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147351" target="_blank">南方供暖之争可休矣 </a></li>
+          <li class="other"><b>8</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147341" target="_blank">江苏徐州 逃脱之后 重犯张海军再次被抓 </a></li>
+          <li class="other"><b>9</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=146978" target="_blank">河南西峡三车相撞 罐车撞入民宅爆炸起火 </a></li>
+          <li class="other"> <b style="padding-right:2px;">10</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=142846" target="_blank">空调主机噪音扰民 </a></li>
+        </ul>
+        </div>
+      </div>
+       <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_car_29.gif" width="320" height="100" /></div>
+     
+     <!--#CMS_MODULE(标准频道-自制节目)#-->      
+
+     <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_ty_03.jpg" width="980" height="90" /></div>
+   </div>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1/common/js/time.js"></script>
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:13;s:7074:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>科技频道</title>
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1/common/js/time.js"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script>
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<div class="hotword">
+  <span>热搜词：</span>
+  <!--#CMS_MODULE(标准频道-热搜词)#-->
+</div>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <!--#CMS_MODULE(标准频道-焦点图)#-->
+    </div>
+<div class="ad_01 wrapBox980">
+<img src="http://pic.v1.cn/cms/bz_channel/images/images_ggwei.gif"/>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+      <div class="leftBox320 rangking">
+        <h2 class="bt">排行榜</h2>
+        <div class="bottom">
+         <ul>
+          <li class="one"> <b></b> <a class="toutu" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482"> <img src="http://pic101.v1.cn/cloud/20121228/images/135482-s.jpg"> </a>
+          <div class="one_right">
+            <h3><a class="touwen" target="_blank" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135482">浙江80后夫妇非法集资费非法集改费非法法亿费元被</a></h3>
+            </div>
+          </li>
+          <li class="two"><b>2</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=135475" target="_blank">日本表示要继承“村的信号？ </a></li>
+          <li class="two"> <b>3</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=130784" target="_blank">上海市规土局原副局长胡俊受贿案一审判决 </a></li>
+          <li class="other"><b>4</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149745" target="_blank">高额拖车费从天降 驾驶员承受不了 </a></li>
+          <li class="other"><b>5</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=149572" target="_blank">美国会正式确认奥巴马连任 </a></li>
+          <li class="other"> <b>6</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147983" target="_blank">加密厕所 让人无语 </a></li>
+          <li class="other"> <b>7</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147351" target="_blank">南方供暖之争可休矣 </a></li>
+          <li class="other"><b>8</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=147341" target="_blank">江苏徐州 逃脱之后 重犯张海军再次被抓 </a></li>
+          <li class="other"><b>9</b> <a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=146978" target="_blank">河南西峡三车相撞 罐车撞入民宅爆炸起火 </a></li>
+          <li class="other"> <b style="padding-right:2px;">10</b><a class="title" href="http://ynews.v1.cn/news/broadcast-news/broadcast-news.jhtml?newsId=142846" target="_blank">空调主机噪音扰民 </a></li>
+        </ul>
+        </div>
+      </div>
+       <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_car_29.gif" width="320" height="100" /></div>
+     
+     <!--#CMS_MODULE(标准频道-自制节目)#-->      
+
+     <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_ty_03.jpg" width="980" height="90" /></div>
+   </div>
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:14;s:4602:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>科技频道</title>
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1/common/js/time.js"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script>
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<div class="hotword">
+  <span>热搜词：</span>
+  <!--#CMS_MODULE(标准频道-热搜词)#-->
+</div>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <!--#CMS_MODULE(标准频道-焦点图)#-->
+    </div>
+<div class="ad_01 wrapBox980">
+<img src="http://pic.v1.cn/cms/bz_channel/images/images_ggwei.gif"/>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+
+      <!--#CMS_MODULE(标准频道-排行榜)#--> 
+
+       <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_car_29.gif" width="320" height="100" /></div>
+     
+     <!--#CMS_MODULE(标准频道-自制节目)#-->      
+
+     <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_ty_03.jpg" width="980" height="90" /></div>
+   </div>
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:15;s:4602:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>科技频道</title>
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1/common/js/time.js"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script>
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<div class="hotword">
+  <span>热搜词：</span>
+  <!--#CMS_MODULE(标准频道-热搜词)#-->
+</div>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <!--#CMS_MODULE(标准频道-焦点图)#-->
+    </div>
+<div class="ad_01 wrapBox980">
+<img src="http://pic.v1.cn/cms/bz_channel/images/images_ggwei.gif"/>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+
+      <!--#CMS_MODULE(标准频道-排行榜)#--> 
+
+       <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_car_29.gif" width="320" height="100" /></div>
+     
+     <!--#CMS_MODULE(标准频道-自制节目)#-->      
+
+     <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_ty_03.jpg" width="980" height="90" /></div>
+   </div>
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:16;s:4814:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>科技频道</title>
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1/common/js/time.js"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script>
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<div class="hotword">
+  <span>热搜词：</span>
+  <!--#CMS_MODULE(标准频道-热搜词)#-->
+</div>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <!--#CMS_MODULE(标准频道-焦点图)#-->
+    </div>
+<div class="ad_01 wrapBox980">
+<img src="http://pic.v1.cn/cms/bz_channel/images/images_ggwei.gif"/>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+
+      <!--#CMS_MODULE(标准频道-排行榜)#--> 
+
+       <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_car_29.gif" width="320" height="100" /></div>
+     
+     <!--#CMS_MODULE(标准频道-自制节目)#-->      
+
+     <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_ty_03.jpg" width="980" height="90" /></div>
+   </div>
+   <!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/bz_channel/js/DD_belatedPNG_0.0.8a.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:17;s:4825:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>科技频道</title>
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1/common/js/time.js"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script>
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(标准频道-logo)#-->
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<div class="hotword">
+  <span>热搜词：</span>
+  <!--#CMS_MODULE(标准频道-热搜词)#-->
+</div>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <!--#CMS_MODULE(标准频道-焦点图)#-->
+    </div>
+<div class="ad_01 wrapBox980">
+<img src="http://pic.v1.cn/cms/bz_channel/images/images_ggwei.gif"/>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+
+      <!--#CMS_MODULE(标准频道-排行榜)#--> 
+
+       <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_car_29.gif" width="320" height="100" /></div>
+     
+     <!--#CMS_MODULE(标准频道-自制节目)#-->      
+
+     <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_ty_03.jpg" width="980" height="90" /></div>
+   </div>
+   <!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/bz_channel/js/DD_belatedPNG_0.0.8a.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:18;s:4950:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1/common/js/time.js"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script>
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(标准频道-logo)#-->
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<div class="hotword">
+  <span>热搜词：</span>
+  <!--#CMS_MODULE(标准频道-热搜词)#-->
+</div>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <!--#CMS_MODULE(标准频道-焦点图)#-->
+    </div>
+<div class="ad_01 wrapBox980">
+<img src="http://pic.v1.cn/cms/bz_channel/images/images_ggwei.gif"/>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+
+      <!--#CMS_MODULE(标准频道-排行榜)#--> 
+
+       <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_car_29.gif" width="320" height="100" /></div>
+     
+     <!--#CMS_MODULE(标准频道-自制节目)#-->      
+
+     <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"><img src="http://pic.v1.cn/cms/bz_channel/images/images_ty_03.jpg" width="980" height="90" /></div>
+   </div>
+   <!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/bz_channel/js/DD_belatedPNG_0.0.8a.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:19;s:5619:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<link href="http://pic.v1.cn/cms/bz_channel/css/style_tech.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/bz_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1/common/js/time.js"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a class="red" onclick="setHomepage()" href="javascript:void(0)">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:540px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script>
+</li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>-->
+<li class="btn" style="background:#f4f4f4;"><a target="_blank" href="#">网站地图</a></li>
+<li><a class="btn" href="#">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(标准频道-logo)#-->
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<div class="hotword">
+  <span>热搜词：</span>
+  <!--#CMS_MODULE(标准频道-热搜词)#-->
+</div>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://game.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://live.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="#">公益</a></li>
+      <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<div id="box" class="fcupic wrapBox980">
+      <!--#CMS_MODULE(标准频道-焦点图)#-->
+    </div>
+<div class="ad_01 wrapBox980">
+<script type='text/javascript'><!--//<![CDATA[ 
+var m3_u = (location.protocol=='https:'?'http://luckstatic.v1.cn/st/10000/1000/987.js':'http://luckstatic.v1.cn/st/10000/1000/987.js');
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<div class="firstArea wrapBox980">
+    <div class="newsCon">
+           <!--#CMS_MODULE(标准频道-图片新闻列表)#-->
+         
+      </div>
+      <div class="conLm">
+
+      <!--#CMS_MODULE(标准频道-排行榜)#--> 
+
+       <div class="ad_02"><script type='text/javascript'><!--//<![CDATA[ 
+var m3_u = (location.protocol=='https:'?'http://luckstatic.v1.cn/st/10000/1000/983.js':'http://luckstatic.v1.cn/st/10000/1000/983.js');
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+     
+     <!--#CMS_MODULE(标准频道-自制节目)#-->      
+
+     <div style="clear:both;"><!--#CMS_MODULE(大模块-合作专题)#--></div>
+
+  </div>
+   <div class="ad_02"> <script type='text/javascript'><!--//<![CDATA[ 
+var m3_u = (location.protocol=='https:'?'http://luckstatic.v1.cn/st/10000/1000/984.js':'http://luckstatic.v1.cn/st/10000/1000/984.js');
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+   </div>
+   <!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/bz_channel/js/DD_belatedPNG_0.0.8a.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";}

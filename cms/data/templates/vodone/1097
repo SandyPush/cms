@@ -1,0 +1,3226 @@
+a:20:{i:0;s:15148:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+</head>
+<style>body{background:#fff;}</style>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+   </div>
+<!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(code005)#-->
+<!--#CMS_MODULE(code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(code007)#-->
+<!--#CMS_MODULE(code008)#-->
+</div>
+<!--#CMS_MODULE(code_ad01)#-->
+
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>地方大联播</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>独家策划</h2></ul>
+       <ul class="mgT11"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+       <ul class="mgT15"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>社会万象</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>纪录片</h2></ul>
+       <ul class="pd_bigpic03">
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+        </ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>地方大联播</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>独家策划</h2></ul>
+       <ul class="mgT11"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+       <ul class="mgT15"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>拍客现场</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>第一人物</h2></ul>
+       <ul class="pd_bigpic03">
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+        </ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <h2 class="title_line">合作伙伴</h2>
+      <ul class="pd_partner">
+         <li><a href="#" target="_blank">凤凰卫视网</a></li>
+         <li><a href="#" target="_blank">归属达发送到</a></li>
+      </ul>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+      <h2 class="title_line">联系我们</h2>
+      <ul class="pd_contactUs">
+<i style="margin-right:15px;">邮箱：liming0210@v1.cn</i>电话：010-57839025
+微博：http://weibo.com/myv1
+      </ul>
+   </div>
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:1;s:15148:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+</head>
+<style>body{background:#fff;}</style>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+   </div>
+<!--#CMS_MODULE(code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(code005)#-->
+<!--#CMS_MODULE(code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(code007)#-->
+<!--#CMS_MODULE(code008)#-->
+</div>
+<!--#CMS_MODULE(code_ad02)#-->
+
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>地方大联播</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>独家策划</h2></ul>
+       <ul class="mgT11"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+       <ul class="mgT15"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>社会万象</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>纪录片</h2></ul>
+       <ul class="pd_bigpic03">
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+        </ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>地方大联播</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>独家策划</h2></ul>
+       <ul class="mgT11"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+       <ul class="mgT15"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>拍客现场</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>第一人物</h2></ul>
+       <ul class="pd_bigpic03">
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+        </ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <h2 class="title_line">合作伙伴</h2>
+      <ul class="pd_partner">
+         <li><a href="#" target="_blank">凤凰卫视网</a></li>
+         <li><a href="#" target="_blank">归属达发送到</a></li>
+      </ul>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+      <h2 class="title_line">联系我们</h2>
+      <ul class="pd_contactUs">
+<i style="margin-right:15px;">邮箱：liming0210@v1.cn</i>电话：010-57839025
+微博：http://weibo.com/myv1
+      </ul>
+   </div>
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:2;s:15196:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+</head>
+<style>body{background:#fff;}</style>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+   </div>
+<!--#CMS_MODULE(频道code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->
+</div>
+<!--#CMS_MODULE(code_ad02)#-->
+
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>地方大联播</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>独家策划</h2></ul>
+       <ul class="mgT11"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+       <ul class="mgT15"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>社会万象</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>纪录片</h2></ul>
+       <ul class="pd_bigpic03">
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+        </ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>地方大联播</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>独家策划</h2></ul>
+       <ul class="mgT11"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+       <ul class="mgT15"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>拍客现场</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>第一人物</h2></ul>
+       <ul class="pd_bigpic03">
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+        </ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <h2 class="title_line">合作伙伴</h2>
+      <ul class="pd_partner">
+         <li><a href="#" target="_blank">凤凰卫视网</a></li>
+         <li><a href="#" target="_blank">归属达发送到</a></li>
+      </ul>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+      <h2 class="title_line">联系我们</h2>
+      <ul class="pd_contactUs">
+<i style="margin-right:15px;">邮箱：liming0210@v1.cn</i>电话：010-57839025
+微博：http://weibo.com/myv1
+      </ul>
+   </div>
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:3;s:12990:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+</head>
+<style>body{background:#fff;}</style>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+   </div>
+<!--#CMS_MODULE(频道code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->
+</div>
+<!--#CMS_MODULE(code_ad02)#-->
+
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code009)#-->
+
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>独家策划</h2></ul>
+       <ul class="mgT11"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+       <ul class="mgT15"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>社会万象</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>纪录片</h2></ul>
+       <ul class="pd_bigpic03">
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+        </ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>地方大联播</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>独家策划</h2></ul>
+       <ul class="mgT11"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+       <ul class="mgT15"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>拍客现场</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>第一人物</h2></ul>
+       <ul class="pd_bigpic03">
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+        </ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <h2 class="title_line">合作伙伴</h2>
+      <ul class="pd_partner">
+         <li><a href="#" target="_blank">凤凰卫视网</a></li>
+         <li><a href="#" target="_blank">归属达发送到</a></li>
+      </ul>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+      <h2 class="title_line">联系我们</h2>
+      <ul class="pd_contactUs">
+<i style="margin-right:15px;">邮箱：liming0210@v1.cn</i>电话：010-57839025
+微博：http://weibo.com/myv1
+      </ul>
+   </div>
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:4;s:12630:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+</head>
+<style>body{background:#fff;}</style>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+   </div>
+<!--#CMS_MODULE(频道code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->
+</div>
+<!--#CMS_MODULE(code_ad02)#-->
+
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code009)#-->
+<!--#CMS_MODULE(频道code010)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>社会万象</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>纪录片</h2></ul>
+       <ul class="pd_bigpic03">
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+        </ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>地方大联播</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>独家策划</h2></ul>
+       <ul class="mgT11"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+       <ul class="mgT15"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>拍客现场</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>第一人物</h2></ul>
+       <ul class="pd_bigpic03">
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+        </ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <h2 class="title_line">合作伙伴</h2>
+      <ul class="pd_partner">
+         <li><a href="#" target="_blank">凤凰卫视网</a></li>
+         <li><a href="#" target="_blank">归属达发送到</a></li>
+      </ul>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+      <h2 class="title_line">联系我们</h2>
+      <ul class="pd_contactUs">
+<i style="margin-right:15px;">邮箱：liming0210@v1.cn</i>电话：010-57839025
+微博：http://weibo.com/myv1
+      </ul>
+   </div>
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:5;s:10430:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+</head>
+<style>body{background:#fff;}</style>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+   </div>
+<!--#CMS_MODULE(频道code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->
+</div>
+<!--#CMS_MODULE(code_ad02)#-->
+
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code009)#-->
+<!--#CMS_MODULE(频道code010)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code011)#-->
+   
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>纪录片</h2></ul>
+       <ul class="pd_bigpic03">
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+        </ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>地方大联播</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>独家策划</h2></ul>
+       <ul class="mgT11"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+       <ul class="mgT15"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>拍客现场</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>第一人物</h2></ul>
+       <ul class="pd_bigpic03">
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+        </ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <h2 class="title_line">合作伙伴</h2>
+      <ul class="pd_partner">
+         <li><a href="#" target="_blank">凤凰卫视网</a></li>
+         <li><a href="#" target="_blank">归属达发送到</a></li>
+      </ul>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+      <h2 class="title_line">联系我们</h2>
+      <ul class="pd_contactUs">
+<i style="margin-right:15px;">邮箱：liming0210@v1.cn</i>电话：010-57839025
+微博：http://weibo.com/myv1
+      </ul>
+   </div>
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:6;s:9572:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+</head>
+<style>body{background:#fff;}</style>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+   </div>
+<!--#CMS_MODULE(频道code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->
+</div>
+<!--#CMS_MODULE(code_ad02)#-->
+
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code009)#-->
+<!--#CMS_MODULE(频道code010)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code011)#-->
+<!--#CMS_MODULE(频道code012)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>地方大联播</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>独家策划</h2></ul>
+       <ul class="mgT11"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+       <ul class="mgT15"><a href="#"><img width="295" height="66" src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a></ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <div class="title">
+          <h2>拍客现场</h2>
+      </div>
+      <div class="wrap760_15 pd_picboxes height">
+           <li>
+                       <ul>
+                          <em class="specialTopic"></em>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+                 <li>
+                       <ul>
+                          <em class="pdico pdvd_ico" style="display:none;"></em>
+                          <a href="#"><img src="http://hpic.v1.cn/photoAlbum/2013/4/23/1366668729806_509.jpg"></a>
+                       </ul>
+                       <h4><a href="#">文字文文字文字字文字文文字文字字</a></h4>
+                 </li>
+      </div>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+       <ul class="title"><h2>第一人物</h2></ul>
+       <ul class="pd_bigpic03">
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+            <li>
+               <a href="#" target="_blank" title="可是大姐夫"><img src="http://image.v1.cn/vodone/20140512/118838_0x0.jpg">
+               <span>
+                  <em>中纪委反腐时间特点周一拍</em>
+                  <i>金正恩向夏令营赠送礼物包括。</i>
+               </span>
+               </a>
+            </li>
+        </ul>
+   </div>
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <h2 class="title_line">合作伙伴</h2>
+      <ul class="pd_partner">
+         <li><a href="#" target="_blank">凤凰卫视网</a></li>
+         <li><a href="#" target="_blank">归属达发送到</a></li>
+      </ul>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+      <h2 class="title_line">联系我们</h2>
+      <ul class="pd_contactUs">
+<i style="margin-right:15px;">邮箱：liming0210@v1.cn</i>电话：010-57839025
+微博：http://weibo.com/myv1
+      </ul>
+   </div>
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:7;s:3945:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+</head>
+<style>body{background:#fff;}</style>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+   </div>
+<!--#CMS_MODULE(频道code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->
+</div>
+
+<!--#CMS_MODULE(code_ad02)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code009)#-->
+<!--#CMS_MODULE(频道code010)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code011)#-->
+<!--#CMS_MODULE(频道code012)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code014)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code015)#-->
+<!--#CMS_MODULE(频道code016)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+      <h2 class="title_line">合作伙伴</h2>
+      <ul class="pd_partner">
+         <li><a href="#" target="_blank">凤凰卫视网</a></li>
+         <li><a href="#" target="_blank">归属达发送到</a></li>
+      </ul>
+   </div>
+   <div class="wrap295 mgL15 height fl">
+      <h2 class="title_line">联系我们</h2>
+      <ul class="pd_contactUs">
+<i style="margin-right:15px;">邮箱：liming0210@v1.cn</i>电话：010-57839025
+微博：http://weibo.com/myv1
+      </ul>
+   </div>
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:8;s:3408:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+</head>
+<style>body{background:#fff;}</style>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+   </div>
+<!--#CMS_MODULE(频道code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->
+</div>
+
+<!--#CMS_MODULE(code_ad02)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code009)#-->
+<!--#CMS_MODULE(频道code010)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code011)#-->
+<!--#CMS_MODULE(频道code012)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code014)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code015)#-->
+<!--#CMS_MODULE(频道code016)#-->
+</div>
+
+<!--#CMS_MODULE(频道code017)#-->
+
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:9;s:3408:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+</head>
+<style>body{background:#fff;}</style>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+   </div>
+<!--#CMS_MODULE(频道code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->
+</div>
+
+<!--#CMS_MODULE(code_ad02)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code009)#-->
+<!--#CMS_MODULE(频道code010)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code011)#-->
+<!--#CMS_MODULE(频道code012)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code014)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code015)#-->
+<!--#CMS_MODULE(频道code016)#-->
+</div>
+
+<!--#CMS_MODULE(频道code017)#-->
+
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:10;s:3530:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+</head>
+<style>body{background:#fff;}</style>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+   </div>
+<!--#CMS_MODULE(频道code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->
+</div>
+
+<!--#CMS_MODULE(code_ad02)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code009)#-->
+<!--#CMS_MODULE(频道code010)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code011)#-->
+<!--#CMS_MODULE(频道code012)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code014)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code015)#-->
+<!--#CMS_MODULE(频道code016)#-->
+</div>
+
+<!--#CMS_MODULE(频道code017)#-->
+
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:11;s:3673:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+<script type="text/javascript">
+//登陆注册
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+
+//baidu 统计
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<style>body{background:#fff;}</style>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+   </div>
+<!--#CMS_MODULE(频道code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->
+</div>
+
+<!--#CMS_MODULE(code_ad02)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code009)#-->
+<!--#CMS_MODULE(频道code010)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code011)#-->
+<!--#CMS_MODULE(频道code012)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code014)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code015)#-->
+<!--#CMS_MODULE(频道code016)#-->
+</div>
+
+<!--#CMS_MODULE(频道code017)#-->
+
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:12;s:3634:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+<script type="text/javascript">
+//登陆注册
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+
+//baidu 统计
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+   </div>
+<!--#CMS_MODULE(频道code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->
+</div>
+
+<!--#CMS_MODULE(code_ad02)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code009)#-->
+<!--#CMS_MODULE(频道code010)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code011)#-->
+<!--#CMS_MODULE(频道code012)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code014)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code015)#-->
+<!--#CMS_MODULE(频道code016)#-->
+</div>
+
+<!--#CMS_MODULE(频道code017)#-->
+
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:13;s:3692:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+<script type="text/javascript">
+//登陆注册
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+            headerGetUser();
+        });
+
+//baidu 统计
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+   </div>
+<!--#CMS_MODULE(频道code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->
+</div>
+
+<!--#CMS_MODULE(code_ad02)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code009)#-->
+<!--#CMS_MODULE(频道code010)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code011)#-->
+<!--#CMS_MODULE(频道code012)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code014)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code015)#-->
+<!--#CMS_MODULE(频道code016)#-->
+</div>
+
+<!--#CMS_MODULE(频道code017)#-->
+
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:14;s:3792:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+<script type="text/javascript">
+//登陆注册
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+            headerGetUser();
+        });
+
+//baidu 统计
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+   </div>
+<!--#CMS_MODULE(频道code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->
+</div>
+
+<!--#CMS_MODULE(code_ad02)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code009)#-->
+<!--#CMS_MODULE(频道code010)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code011)#-->
+<!--#CMS_MODULE(频道code012)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code014)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code015)#-->
+<!--#CMS_MODULE(频道code016)#-->
+</div>
+
+<!--#CMS_MODULE(频道code017)#-->
+
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:15;s:3828:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+<script type="text/javascript">
+//登陆注册
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+            headerGetUser();
+        });
+
+//baidu 统计
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+   </div>
+<!--#CMS_MODULE(频道code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->
+</div>
+
+<!--#CMS_MODULE(code_ad02)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code009)#-->
+<!--#CMS_MODULE(频道code010)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code011)#-->
+<!--#CMS_MODULE(频道code012)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code014)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code015)#-->
+<!--#CMS_MODULE(频道code016)#-->
+</div>
+
+<!--#CMS_MODULE(频道code017)#-->
+
+<!--#CMS_MODULE(频道code018)#-->
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:16;s:3830:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+<script type="text/javascript">
+//登陆注册
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+            headerGetUser();
+        });
+
+//baidu 统计
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+   </div>
+<!--#CMS_MODULE(频道code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->
+</div>
+
+<!--#CMS_MODULE(code_ad02)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code009)#-->
+<!--#CMS_MODULE(频道code010)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code011)#-->
+<!--#CMS_MODULE(频道code012)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code014)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code015)#-->
+<!--#CMS_MODULE(频道code016)#-->
+</div>
+
+<!--#CMS_MODULE(频道code018)#-->
+
+<!--#CMS_MODULE(频道code017)#-->
+
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:17;s:3907:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+<script type="text/javascript">
+//登陆注册
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+            headerGetUser();
+        });
+
+//baidu 统计
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+   </div>
+<!--#CMS_MODULE(频道code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->
+</div>
+
+<!--#CMS_MODULE(code_ad02)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code009)#-->
+<!--#CMS_MODULE(频道code010)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code011)#-->
+<!--#CMS_MODULE(频道code012)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code014)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code015)#-->
+<!--#CMS_MODULE(频道code016)#-->
+</div>
+
+<!--#CMS_MODULE(频道code018)#-->
+
+<!--#CMS_MODULE(频道code017)#-->
+
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/channel_bottom.shtml"-->
+<!--ssi#include virtual="/ssi/cont/channel_bottom_statistics.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:18;s:3830:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+<script type="text/javascript">
+//登陆注册
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+            headerGetUser();
+        });
+
+//baidu 统计
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+   </div>
+<!--#CMS_MODULE(频道code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->
+</div>
+
+<!--#CMS_MODULE(code_ad02)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code009)#-->
+<!--#CMS_MODULE(频道code010)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code011)#-->
+<!--#CMS_MODULE(频道code012)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code014)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code015)#-->
+<!--#CMS_MODULE(频道code016)#-->
+</div>
+
+<!--#CMS_MODULE(频道code018)#-->
+
+<!--#CMS_MODULE(频道code017)#-->
+
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:19;s:3907:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/news.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+<script type="text/javascript">
+//登陆注册
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+            headerGetUser();
+        });
+
+//baidu 统计
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+   </div>
+<!--#CMS_MODULE(频道code003)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--#CMS_MODULE(code_ad)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT11 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->
+</div>
+
+<!--#CMS_MODULE(code_ad02)#-->
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code009)#-->
+<!--#CMS_MODULE(频道code010)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code011)#-->
+<!--#CMS_MODULE(频道code012)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code014)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code015)#-->
+<!--#CMS_MODULE(频道code016)#-->
+</div>
+
+<!--#CMS_MODULE(频道code018)#-->
+
+<!--#CMS_MODULE(频道code017)#-->
+
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/channel_bottom.shtml"-->
+<!--ssi#include virtual="/ssi/cont/channel_bottom_statistics.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";}

@@ -1,0 +1,1972 @@
+a:20:{i:0;s:3626:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p>{$ImgLeader[leaderTxt]}</p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块01)#-->
+
+<!--#CMS_MODULE(专题大模块02)#-->
+
+<!--#CMS_MODULE(专题大模块03)#-->
+
+<!--#CMS_MODULE(结语)#-->
+
+</div>
+
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+</body>
+</html>
+";i:1;s:3626:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p>{$ImgLeader[leaderTxt]}</p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块01)#-->
+
+<!--#CMS_MODULE(专题大模块02)#-->
+
+<!--#CMS_MODULE(专题大模块03)#-->
+
+<!--#CMS_MODULE(结语)#-->
+
+</div>
+
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+</body>
+</html>
+";i:2;s:3557:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p>{$ImgLeader[leaderTxt]}</p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块01)#-->
+
+<!--#CMS_MODULE(专题大模块02)#-->
+
+
+
+</div>
+
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+</body>
+</html>
+";i:3;s:3599:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p>{$ImgLeader[leaderTxt]}</p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块01)#-->
+
+<!--#CMS_MODULE(专题大模块02)#-->
+
+<!--#CMS_MODULE(专题大模块03)#-->
+
+
+
+</div>
+
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+</body>
+</html>
+";i:4;s:3557:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p>{$ImgLeader[leaderTxt]}</p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块02)#-->
+
+<!--#CMS_MODULE(专题大模块03)#-->
+
+
+
+</div>
+
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+</body>
+</html>
+";i:5;s:3515:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p>{$ImgLeader[leaderTxt]}</p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块03)#-->
+
+
+
+</div>
+
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+</body>
+</html>
+";i:6;s:3542:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p>{$ImgLeader[leaderTxt]}</p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块03)#-->
+
+<!--#CMS_MODULE(结语)#-->
+
+</div>
+
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+</body>
+</html>
+";i:7;s:3871:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p>{$ImgLeader[leaderTxt]}</p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块03)#-->
+
+<!--#CMS_MODULE(结语)#-->
+
+</div>
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+   <!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/bz_channel/js/DD_belatedPNG_0.0.8a.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+   <script src="http://pic.v1.cn/cms/bz_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+
+</body>
+</html>
+";i:8;s:3540:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p>{$ImgLeader[leaderTxt]}</p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块03)#-->
+
+<!--#CMS_MODULE(结语)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+
+</body>
+</html>
+";i:9;s:3540:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p>{$ImgLeader[leaderTxt]}</p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块03)#-->
+
+<!--#CMS_MODULE(结语)#-->
+
+</div>
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+</body>
+</html>
+";i:10;s:3540:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p>{$ImgLeader[leaderTxt]}</p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+</div>
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块03)#-->
+
+<!--#CMS_MODULE(结语)#-->
+
+
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+</body>
+</html>
+";i:11;s:3542:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p>{$ImgLeader[leaderTxt]}</p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+</div>
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块03)#-->
+
+<!--#CMS_MODULE(结语)#-->
+
+
+<!--ssi#include virtual="../ssi/footer_common.html"-->
+
+</body>
+</html>
+";i:12;s:3540:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p>{$ImgLeader[leaderTxt]}</p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+</div>
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块03)#-->
+
+<!--#CMS_MODULE(结语)#-->
+
+
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+</body>
+</html>
+";i:13;s:3546:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p>{$ImgLeader[leaderTxt]}</p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+</div>
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块03)#-->
+
+<!--#CMS_MODULE(结语)#-->
+
+
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+</body>
+</html>
+";i:14;s:3538:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p>{$ImgLeader[leaderTxt]}</p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块03)#-->
+
+<!--#CMS_MODULE(结语)#-->
+
+
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+</body>
+</html>
+";i:15;s:3889:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p>{$ImgLeader[leaderTxt]}</p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块03)#-->
+
+<!--#CMS_MODULE(结语)#-->
+
+
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:16;s:3956:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p><img src="{$ImgLeader[leaderImg]}"><!--# echo substrs($ImgLeader["leaderTxt"],200,"");#--></p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块03)#-->
+
+<!--#CMS_MODULE(结语)#-->
+
+
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:17;s:3956:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p><img src="{$ImgLeader[leaderImg]}"><!--# echo substrs($ImgLeader["leaderTxt"],200,"");#--></p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块03)#-->
+
+<!--#CMS_MODULE(结语)#-->
+
+
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:18;s:4314:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p><img src="{$ImgLeader[leaderImg]}"><!--# echo substrs($ImgLeader["leaderTxt"],200,"");#--></p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块03)#-->
+
+<!--#CMS_MODULE(结语)#-->
+
+
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:19;s:4544:"<!--#
+  $sort=CMS_FUNCTION('toPinyin',$cms_page_category.'Zt');
+  $sort=$sort['pinyin_for_full'];
+#-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+//百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$cms_page_category}Zt', 3]);
+</script>
+<![endif]-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+</head>
+
+<body>
+
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(头图和导语)#-->
+
+<div class="topic_image">
+<img src="{$ImgLeader[topImage]}">
+</div>
+
+<div class="video">
+<div class="video_left">
+
+<div class="dy_s">
+<p><img src="{$ImgLeader[leaderImg]}"><!--# echo substrs($ImgLeader["leaderTxt"],200,"");#--></p>
+</div>
+
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+<!--#CMS_MODULE(专题大模块)#-->
+
+<!--#CMS_MODULE(专题大模块03)#-->
+
+<!--#CMS_MODULE(结语)#-->
+
+
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+</div>
+
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";}

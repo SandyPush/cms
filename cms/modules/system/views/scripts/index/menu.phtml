@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/theme/default/frameleft.css" rel="stylesheet" type="text/css">
+<link href="/styles/dtree.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/scripts/dtree.js"></script>
+</head>
+
+<body>
+<div class="dtree">
+	<p><a href="javascript: d.openAll();">全部打开</a> | <a href="javascript: d.closeAll();">全部关闭</a></p>
+	<script type="text/javascript">
+		<!--
+		var tree_json=<?=$this->tree_json?>;
+		var tree_json_len=tree_json.length;
+		d = new dTree('d');
+
+		d.add(0,-1,'<img src="/theme/default/image/huany_bg.png">欢迎您访问');
+		for(i=0;i<tree_json_len;i++)
+		{
+			d.add(tree_json[i].id,tree_json[i].pid,tree_json[i].name,tree_json[i].link,'','mainFrame');
+		}
+
+		document.write(d);
+
+		//-->
+	</script>
+
+</div>
+</body>
+</html>

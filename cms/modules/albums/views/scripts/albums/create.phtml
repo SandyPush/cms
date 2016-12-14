@@ -1,0 +1,58 @@
+<div class="area">
+	<div class="help"> 
+		<p>帮助</p>
+	</div>
+	
+	<?=$this->showErrors()?>
+	
+	<div class="nr">
+		<h2>创建图集</h2>
+
+		<form action="" method="post">
+			<table width="100%" cellspacing="1" class="form">
+			<tbody>
+			    <tr>
+				    <td width="80">标    题</td>
+				    <td><input type="text" name="title" value="<?=$this->param('title') ?>" size="45" class="input"/></td>
+			    </tr>
+			    <tr>
+				    <td>短标题</td>
+				    <td><input type="text" name="stitle" value="<?=$this->param('stitle') ?>"  class="input" /></td>
+			    </tr>
+			    <tr class="alt">
+				    <td>分    类</td>
+				    <td><?=$this->formSelect('cid', $this->param('cid'), '', $this->categories)?></td>
+			    </tr>
+			    <tr>
+    				<td>模　　板</td>
+	    			<td><?=$this->formSelect('template', $this->param('template'), 1009, $this->templates)?></td>
+			    </tr>
+			    <tr>
+		    		<td>链接</td>
+			    	<td><input type="text" name="link" value="<?=$this->param('link') ?>" class="input" size="45"/></td>
+			    </tr>
+			    <tr>
+				    <td>来源</td>
+				    <td><input type="text" name="source" value="<?=$this->param('source') ?>" class="input"/></td>
+			    </tr>
+			    <tr>
+    				<td>作者</td>
+	    			<td><input type="text" name="author" value="<?=$this->param('author') ?>"  class="input"/></td>
+			    </tr>
+			    <tr>
+		    		<td>关 键 字</td>
+			    	<td><input type="text" name="keywords" value="<?=$this->param('keywords') ?>"  class="input"  size="45"/></td>
+			    </tr>
+			    <tr>
+				    <td>简　　介</td>
+    				<td><textarea id="intro" name="intro" cols="" rows="" class="abs"><?=$this->param('intro') ?></textarea></td>
+			    </tr>
+			    <tr>
+	    			<td>&nbsp;</td>
+		    		<td><button type="submit" name="submit">创建图集</button></td>
+			    </tr>
+			</tbody>
+			</table>
+		</form>
+	</div>
+</div>

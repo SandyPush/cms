@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CMS_修改活动</title>
+<?php echo $this->headLink(); ?>
+<script type="text/javascript" src="/scripts/jquery/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="/scripts/date/WdatePicker.js"></script>
+<script type="text/javascript" src="/scripts/FckEdit.js"></script>
+<style>
+	
+</style>
+</head>
+<body>
+	<div class="area">
+		<div class="nr">
+			<h2>
+				<a href="javascript:void(0);">修改活动</a>
+			</h2>
+			<div class="con">
+				<form action="" method="post">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" id="adact">
+						<tr>
+							<td width="70" align="center" valign="middle">活动标题</td>
+							<td>
+								<input type="text" class="input" size="30" id="title" name="title" value="<?php echo $this->activity['title']; ?>" /> 
+								<span id="title_length_view">文字最大字节数：45，<span id="title_length"></span></span>
+							</td>
+						</tr>
+						<tr>
+							<td width="70" align="center" valign="middle">活动描述</td>
+							<td>
+								<input type="text" class="input" size="60" id="desc" name="desc" value="<?php echo $this->activity['desc']; ?>" /> 
+								<span id="desc_length_view">文字最大字节数：160，<span id="desc_length"></span></span>
+							</td>
+						</tr>
+						<tr>
+							<td width="70" align="center" valign="middle">奖品图片（PC）</td>
+							<td>
+								<input type="text" class="input" size="60" name="pc_img_url" value="<?php echo $this->activity['pc_img_url']; ?>"/> 
+								<a href="javascript:void(0);" class="upload">上传</a><br/>
+								<div class="img_preview"><a href="<?php echo $this->activity['pc_img_url']; ?>" target="_blank"><img style="height:100px;" src="<?php echo $this->activity['pc_img_url']; ?>" /></a></div>
+							</td>
+						</tr>
+						<tr>
+							<td width="70" align="center" valign="middle">奖品图片（Phone）</td>
+							<td>
+								<input type="text" class="input" size="60" name="phone_img_url" value="<?php echo $this->activity['phone_img_url']; ?>"/> 
+								<a href="javascript:void(0);" class="upload">上传</a><br/>
+								<div class="img_preview"><a href="<?php echo $this->activity['phone_img_url']; ?>" target="_blank"><img style="height:100px;" src="<?php echo $this->activity['phone_img_url']; ?>" /></a></div>
+							</td>
+						</tr>
+						<tr>
+							<td width="70" align="center" valign="middle">开始时间</td>
+							<td>
+								<input type="text" class="input" id="start_time" name="start_time" value="<?php echo $this->activity['start_time']; ?>"/>
+							</td>
+						</tr>
+						<tr>
+							<td width="70" align="center" valign="middle">结束时间</td>
+							<td>
+								<input type="text" class="input" id="end_time" name="end_time" value="<?php echo $this->activity['end_time']; ?>"/>
+							</td>
+						</tr>
+						<tr>
+							<td width="70" align="center" valign="middle">游戏ID</td>
+							<td>
+								<input type="text" class="input" id="game_id" name="game_id" value="<?php echo $this->activity['game_id']; ?>"/>
+							</td>
+						</tr>
+						<tr>
+							<td width="70" align="center" valign="middle">排行人数</td>
+							<td>
+								<input type="text" class="input" id="rank_num" name="rank_num" value="<?php echo $this->activity['rank_num']; ?>"/>
+							</td>
+						</tr>
+						<tr>
+							<td width="70" align="center" valign="middle">奖励方式</td>
+							<td id="reward_type">
+								<label><input type="radio" value="1" <?php if ($this->activity['reward_type'] == 1) echo 'checked="checked"'; ?> class="input" name="reward_type"/> 现金奖励</label>&nbsp;&nbsp;&nbsp;
+								<label><input type="radio" value="2" <?php if ($this->activity['reward_type'] == 2) echo 'checked="checked"'; ?> class="input" name="reward_type"/> 积分奖励</label>
+							</td>
+						</tr>
+						<tr class="get-money-by-tail-num" <?php if ($this->activity['reward_type'] == 2) echo 'style="display:none;"'; ?>>
+							<td width="70" align="center" valign="middle">获奖尾号</td>
+							<td>
+								<input type="text" class="input" id="award_tail_num" name="award_tail_num" value="<?php echo $this->activity['award_tail_num']; ?>"/>
+							</td>
+						</tr>
+						<tr class="get-money-by-tail-num" <?php if ($this->activity['reward_type'] == 2) echo 'style="display:none;"'; ?>>
+							<td width="70" align="center" valign="middle">基础分数</td>
+							<td>
+								<input type="text" class="input" id="base_score" name="base_score" value="<?php echo $this->activity['base_score']; ?>"/>
+							</td>
+						</tr>
+						<tr>
+							<td width="70" align="center" valign="middle">活动详情</td>
+							<td>
+								<textarea style="display:none" id="content" name="content"><?php echo $this->activity['content']?></textarea>
+								<input type="hidden" id="content___Config" value="" />   
+								<iframe id="content___Frame" src="/fckeditor/editor/fckeditor.html?InstanceName=content&Toolbar=Default" width="800" height="460" frameborder="no">
+								</iframe>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" align="center" valign="middle">
+								<input type="submit" name="submit" value="保存内容" />
+							</td>
+			  			</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var $title = $('#title'),
+			$desc = $('#desc'),
+			$start_time = $('#start_time'),
+			$end_time = $('#end_time'),
+			$upload = $('.upload');
+
+		// 文字个数显示
+		$title.keyup(function(){
+			checkLenth(title,'title_length_view','title_length',45);
+		});
+		$desc.keyup(function(){
+			checkLenth(desc,'desc_length_view','desc_length',160);
+		});
+		checkLenth($title.get(0),'title_length_view','title_length',45);
+		checkLenth($desc.get(0),'desc_length_view','desc_length',160);
+
+		// 日期选择
+		$start_time.click(function(){
+			WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'});
+		});
+		$end_time.click(function(){
+			WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'});
+		});
+
+		// 图片上传
+		$upload.click(function(){
+			upload(this);
+		});
+
+        // 奖励方式切换
+        $('#reward_type').click(function(){
+            var reward_type = $(this).find('[name="reward_type"]:checked').val();
+            if (reward_type == 1) {
+                $('.get-money-by-tail-num').show();
+            } else {
+                $('.get-money-by-tail-num').hide();
+            }
+        });
+
+        /**
+		 * 提示文本框数据长度
+		 */
+		function checkLenth(obj,view_id,length_id,max_length)
+		{
+			var strlength=count_length(obj.value);
+			if (strlength > max_length) {
+                $('#' + view_id).removeClass().addClass('info').addClass('war');
+                $('#' + length_id).text('超出' + (strlength - max_length) + '字节');
+            } else {
+                $('#' + view_id).removeClass().addClass('info');
+                $('#' + length_id).text('还剩' + (max_length - strlength) + '字节');
+            }
+		}
+
+		/**
+		 * 检测文本框数据长度
+		 */
+		function count_length(objValue)
+		{
+			return objValue.replace(/[^\x00-\xff]/g,"**").length;
+		}
+
+		/**
+		 * 上传窗口
+		 */
+		function upload(obj)
+		{
+			window.lastUploadForm = $(obj).prev();
+			var dialog_url="/resource/index/index/type/0/name//cid/"+$("#cid").val();
+		    var imgurl = window.showModalDialog(dialog_url, "", "dialogHeight:265px; dialogWidth:400px; resizable:0; scroll:0; status:0; unadorned:0;");
+		    if(imgurl == undefined) return false;
+		    $(obj).prev().val(imgurl);
+		    if(imgurl)$(obj).nextAll('.img_preview').html('<a href="'+ imgurl +'" target="_blank"><img style="height:100px;" src="'+ imgurl +'"/></a>');
+		}
+	</script>
+</body>
+</html>

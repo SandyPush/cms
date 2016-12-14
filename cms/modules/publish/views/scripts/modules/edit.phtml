@@ -1,0 +1,19 @@
+<?=$this->doctype('XHTML1_TRANSITIONAL')?>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <?=$this->headTitle()?>
+  </head>
+  <body>
+      <script type="text/javascript">
+	  /* reload 不能跨域*/
+      //window.opener.location.reload();
+	  <?if($this->error!=1):?>
+	  alert('模块内容已保存,刷新新闻页可以看到效果！');
+	  <?endif?>
+      window.opener.focus();
+      window.close();
+      </script>
+  </body>
+</html>

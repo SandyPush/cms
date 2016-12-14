@@ -1,0 +1,1933 @@
+a:20:{i:0;s:2521:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+<!--#CMS_MODULE(专题动态css)#-->
+<div class="main_cont">
+<div class="topic_image">
+<!--#CMS_MODULE(专题动态content)#-->
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<h1><a href="#" target="_blank">勿忘国耻日解放军东海实弹演习发出怒吼</a></h1>
+<img src="images/images_video_play.gif"/>
+</div>
+</div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list01)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list01)#-->
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list02)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list02)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$topimage[end]}</p>
+</div>
+</div>
+</body>
+</html>
+";i:1;s:2527:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+<!--#CMS_MODULE(专题动态css)#-->
+<div class="main_cont">
+<div class="topic_image">
+<!--#CMS_MODULE(专题动态content)#-->
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<h1><a href="#" target="_blank">勿忘国耻日解放军东海实弹演习发出怒吼</a></h1>
+<img src="images/images_video_play.gif"/>
+</div>
+</div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list01)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list01)#-->
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list02)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list02)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$active_content[end]}</p>
+</div>
+</div>
+</body>
+</html>
+";i:2;s:2556:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+<!--#CMS_MODULE(专题动态content)#-->
+<!--#CMS_MODULE(专题动态css)#-->
+<div class="main_cont">
+<div class="topic_image">
+{$active_content[topimage]}
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<h1><a href="#" target="_blank">勿忘国耻日解放军东海实弹演习发出怒吼</a></h1>
+<img src="images/images_video_play.gif"/>
+</div>
+</div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list01)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list01)#-->
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list02)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list02)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$active_content[end]}</p>
+</div>
+</div>
+</body>
+</html>
+";i:3;s:2568:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+<!--#CMS_MODULE(专题动态content)#-->
+<!--#CMS_MODULE(专题动态css)#-->
+<div class="main_cont">
+<div class="topic_image">
+<img src="{$active_content[topimage]}">
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<h1><a href="#" target="_blank">勿忘国耻日解放军东海实弹演习发出怒吼</a></h1>
+<img src="images/images_video_play.gif"/>
+</div>
+</div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list01)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list01)#-->
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list02)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list02)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$active_content[end]}</p>
+</div>
+</div>
+</body>
+</html>
+";i:4;s:2570:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题动态css)#-->
+<div class="main_cont">
+<!--#CMS_MODULE(专题动态content)#-->
+<div class="topic_image">
+<img src="{$active_content[topimage]}">
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<h1><a href="#" target="_blank">勿忘国耻日解放军东海实弹演习发出怒吼</a></h1>
+<img src="images/images_video_play.gif"/>
+</div>
+</div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list01)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list01)#-->
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list02)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list02)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$active_content[end]}</p>
+</div>
+</div>
+</body>
+</html>
+";i:5;s:2572:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+
+
+<div class="main_cont">
+<!--#CMS_MODULE(专题动态css)#-->
+<!--#CMS_MODULE(专题动态content)#-->
+<div class="topic_image">
+<img src="{$active_content[topimage]}">
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<h1><a href="#" target="_blank">勿忘国耻日解放军东海实弹演习发出怒吼</a></h1>
+<img src="images/images_video_play.gif"/>
+</div>
+</div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list01)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list01)#-->
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list02)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list02)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$active_content[end]}</p>
+</div>
+</div>
+</body>
+</html>
+";i:6;s:2568:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+<!--#CMS_MODULE(专题动态css)#-->
+<div class="main_cont">
+<!--#CMS_MODULE(专题动态content)#-->
+<div class="topic_image">
+<img src="{$active_content[topimage]}">
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<h1><a href="#" target="_blank">勿忘国耻日解放军东海实弹演习发出怒吼</a></h1>
+<img src="images/images_video_play.gif"/>
+</div>
+</div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list01)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list01)#-->
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list02)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list02)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$active_content[end]}</p>
+</div>
+</div>
+</body>
+</html>
+";i:7;s:2572:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+<!--#CMS_MODULE(专题动态content)#-->
+<div class="topic_image">
+<img src="{$active_content[topimage]}">
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<h1><a href="#" target="_blank">勿忘国耻日解放军东海实弹演习发出怒吼</a></h1>
+<img src="images/images_video_play.gif"/>
+</div>
+</div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list01)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list01)#-->
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list02)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list02)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$active_content[end]}</p>
+</div>
+</div>
+</body>
+</html>
+";i:8;s:2460:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+<!--#CMS_MODULE(专题动态content)#-->
+<div class="topic_image">
+<img src="{$active_content[topimage]}">
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(video)#-->
+</div>
+</div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list01)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list01)#-->
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list02)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list02)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$active_content[end]}</p>
+</div>
+</div>
+</body>
+</html>
+";i:9;s:2434:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+<!--#CMS_MODULE(专题动态content)#-->
+<div class="topic_image">
+<img src="{$active_content[topimage]}">
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+
+</div>
+</div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list01)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list01)#-->
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list02)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list02)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$active_content[end]}</p>
+</div>
+</div>
+</body>
+</html>
+";i:10;s:2467:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+<!--#CMS_MODULE(专题动态content)#-->
+<div class="topic_image">
+<img src="{$active_content[topimage]}">
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list01)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list01)#-->
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list02)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list02)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$active_content[end]}</p>
+</div>
+</div>
+</body>
+</html>
+";i:11;s:2502:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+<!--#CMS_MODULE(专题动态content)#-->
+<div class="topic_image">
+<img src="{$active_content[topimage]}">
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list01)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list01)#-->
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list02)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list02)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$active_content[end]}</p>
+</div>
+</div>
+<!--#CMS_MODULE(shoudonglist)#-->
+</body>
+</html>
+";i:12;s:2497:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+<!--#CMS_MODULE(专题动态content)#-->
+<div class="topic_image">
+<img src="{$active_content[topimage]}">
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list01)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list01)#-->
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list02)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list02)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(MT_list)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$active_content[end]}</p>
+</div>
+</div>
+<!--#CMS_MODULE(shoudonglist)#-->
+</body>
+</html>
+";i:13;s:2462:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+<!--#CMS_MODULE(专题动态content)#-->
+<div class="topic_image">
+<img src="{$active_content[topimage]}">
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list01)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list01)#-->
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list02)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list02)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(MT_list)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$active_content[end]}</p>
+</div>
+</div>
+</body>
+</html>
+";i:14;s:2567:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+<!--#CMS_MODULE(专题动态content)#-->
+<div class="topic_image">
+<img src="{$active_content[topimage]}">
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list01)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list01)#-->
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list02)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list02)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+
+<div class="sec_con">
+<!--#CMS_MODULE(MT_list)#-->
+<div class="clear"></div>
+</div>
+</div>
+
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$active_content[end]}</p>
+</div>
+</div>
+</body>
+</html>
+";i:15;s:2644:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+<!--#CMS_MODULE(专题动态content)#-->
+<div class="topic_image">
+<img src="{$active_content[topimage]}">
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list01)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list01)#-->
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list02)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list02)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+
+<div class="MtBox">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="MtList">
+<!--#CMS_MODULE(MT_list)#-->
+<div class="clear"></div>
+</div>
+</div>
+
+
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$active_content[end]}</p>
+</div>
+</div>
+</body>
+</html>
+";i:16;s:2784:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+<!--#CMS_MODULE(专题动态content)#-->
+<div class="topic_image">
+<img src="{$active_content[topimage]}">
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2><img src="{$active_content[sub_title]}"></h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list01)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list01)#-->
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2><img src="{$active_content[sub_title]}"></h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list02)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list02)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2><img src="{$active_content[sub_title]}"></h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+
+<div class="MtBox">
+<div class="title_bg">
+<h2><img src="{$active_content[sub_title]}"></h2>
+</div>
+<div class="MtList">
+<!--#CMS_MODULE(MT_list)#-->
+<div class="clear"></div>
+</div>
+</div>
+
+
+<div class="thirarae">
+<div class="title_bg">
+<h2><img src="{$active_content[sub_title]}"></h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$active_content[end]}</p>
+</div>
+</div>
+</body>
+</html>
+";i:17;s:2736:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+<!--#CMS_MODULE(专题动态content)#-->
+<div class="topic_image">
+<img src="{$active_content[topimage]}">
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>{$active_content[sub_title]}</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list01)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list01)#-->
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="firarae">
+<div class="title_bg">
+<h2>{$active_content[sub_title]}</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list02)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list02)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2><img src="{$active_content[sub_title]}"></h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+
+<div class="MtBox">
+<div class="title_bg">
+<h2>{$active_content[sub_title]}</h2>
+</div>
+<div class="MtList">
+<!--#CMS_MODULE(MT_list)#-->
+<div class="clear"></div>
+</div>
+</div>
+
+
+<div class="thirarae">
+<div class="title_bg">
+<h2>{$active_content[sub_title]}</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$active_content[end]}</p>
+</div>
+</div>
+</body>
+</html>
+";i:18;s:2519:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+<!--#CMS_MODULE(专题动态content)#-->
+<div class="topic_image">
+<img src="{$active_content[topimage]}">
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(焦点图加八小图01)#-->
+
+<div class="firarae">
+<div class="title_bg">
+<h2>{$active_content[sub_title]}</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list02)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list02)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2><img src="{$active_content[sub_title]}"></h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+
+<div class="MtBox">
+<div class="title_bg">
+<h2>{$active_content[sub_title]}</h2>
+</div>
+<div class="MtList">
+<!--#CMS_MODULE(MT_list)#-->
+<div class="clear"></div>
+</div>
+</div>
+
+
+<div class="thirarae">
+<div class="title_bg">
+<h2>{$active_content[sub_title]}</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$active_content[end]}</p>
+</div>
+</div>
+</body>
+</html>
+";i:19;s:2304:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题动态css)#-->
+
+<div class="main_cont">
+<!--#CMS_MODULE(专题动态content)#-->
+<div class="topic_image">
+<img src="{$active_content[topimage]}">
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<!--#CMS_MODULE(视频模块)#-->
+</div>
+</div>
+</div>
+
+<!--#CMS_MODULE(焦点图加八小图01)#-->
+
+<!--#CMS_MODULE(焦点图加八小图02)#-->
+
+<div class="secarae">
+<div class="title_bg">
+<h2><img src="{$active_content[sub_title]}"></h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+
+<div class="MtBox">
+<div class="title_bg">
+<h2>{$active_content[sub_title]}</h2>
+</div>
+<div class="MtList">
+<!--#CMS_MODULE(MT_list)#-->
+<div class="clear"></div>
+</div>
+</div>
+
+
+<div class="thirarae">
+<div class="title_bg">
+<h2>{$active_content[sub_title]}</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>{$active_content[end]}</p>
+</div>
+</div>
+</body>
+</html>
+";}

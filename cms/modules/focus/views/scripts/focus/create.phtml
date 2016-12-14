@@ -1,0 +1,135 @@
+<?=$this->showErrors()?>
+<div class="area">
+<div class="nr">
+<h2>
+<button onclick="window.location.href='/focus/focus/'">返回</button>
+<a href="#nogo">模板方式创建专题</a>        	
+</h2>
+<form action="" method="post" enctype="multipart/form-data">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+<tbody>
+    <tr>
+        <td>专题标题</td><td><input type="text" name="name" id="name" size="40" value="<?=$this->focus['name'] ?>" onkeyup="checkLenth(this,'title_length_view','title_length',32)"/><span id="title_length_view">文字最大字节数：32，<span id="title_length"></span></span></td>
+    </tr>
+    <tr>
+        <td>专题地址</td>
+        <td><input type="text" name="url" size="40" value="<?=$this->focus['url'] ?>" />请尽量统一在zt目录下，可以使用/zt/a001/index.html</td>
+    </tr>
+    <tr>
+        <td>是否外链</td>
+        <td>
+        	<input type="radio" name="islink" value="1">是&nbsp;<input type="radio" name="islink" value="0" checked>否 如为外链，请在专题地址处添写http://的地址
+        </td>
+    </tr>
+    <tr>
+        <td>页面标题</td><td><input type="text" name="title" size="40" value="<?=$this->focus['title'] ?>"/> 浏览器顶部TITLE，SEO用</td>
+    </tr>
+    <tr>
+        <td>关 键 字</td><td><input type="text" name="keywords" size="40" value="<?=$this->focus['keywords'] ?>"/> SEO用，多个关键字用,分隔</td>
+    </tr>
+    <tr>
+        <td>专题摘要</td>
+        <td>
+            <textarea id="intro" name="desc" cols="60" rows="5" onkeyup="checkLenth(this,'intro_length_view','intro_length',80)"></textarea>
+				<span id="intro_length_view">文字最大字节数：80，<span id="intro_length"></span></span>
+        </td>
+    </tr>
+    <tr>
+        <td>模板</td>
+        <td><?=$this->formSelect('template', $this->focus['template'], null, $this->templates)?></td>
+    </tr>
+    <tr>
+        <td>所属分类</td>
+        <td><?=$this->formSelect('cid', NULL, null, $this->category_options)?></td>
+    </tr>
+    <tr>
+        <td>专题小图</td>
+        <td><input name="image" type="text" size="45" class="input" value="<?=$this->focus['image']?>" /> <a href="#" onclick="upload(this,'img_preview')">上传</a>
+        	<br/><div id=img_preview></div>
+        </td>
+    </tr>
+    <tr>
+        <td>视频专辑</td>
+        <td><label style="white-space: nowrap;"><input type="radio" value="1" id="star-1" name="star" <? if($this->star=='1') echo 'checked';?>>是</label>&nbsp;
+<label style="white-space: nowrap;"><input type="radio" value="0" id="star-0" name="star" <? if($this->star=='0') echo 'checked';?>>否</label></td>
+    </tr>
+    <tr>
+        <td>开始时间</td>
+        <td><input type="text" name="starttime" id="txt_startdate" value="<?=$this->focus['starttime']?>"/></td>
+    </tr>
+    <tr>
+        <td>结束时间</td>
+        <td><input type="text" name="endtime" id="txt_enddate" value="<?=$this->focus['endtime']?>"/></td>
+    </tr>
+    <tr>
+        <td>是否隐藏</td>
+        <td><input type="radio" name="status" value="2" checked>是&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="status" value="1">否</td>
+    </tr>
+	<tr>
+        <td></td>
+        <td align="left"><input type="submit" name="submit" value="   提 交   " /></td>
+    </tr>
+</tbody>
+</table>
+</div> 
+</div>
+<script type="text/javascript">
+$("#txt_startdate,#txt_enddate").datepicker(
+    $.extend(
+        {},
+        $.datepicker.regional["zh-CN"], {
+            showOn: "both",
+            dateFormat: $.datepicker.ISO_8601,
+            duration: ""           
+        })
+   );
+</script>
+</form>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	$('.form tr:even').addClass('alt');
+	if("<?=$this->focus['image']?>" != '')$('#img_preview').html("<img src=\"<?=$this->focus['image']?>\"/>");
+});
+
+function upload(obj,previewObjId)
+{
+	//var dialog_url="/contents/article/upload/type/0/name/"+encodeURI('文章')+"/cid/"+$("#cid").val();
+	var dialog_url="/resource/index/index/type/0/name/focus/cid/"+$("#cid").val();
+    var imgurl = window.showModalDialog(dialog_url, "", "dialogHeight:250px; dialogWidth:400px; resizable:0; scroll:0; status:0; unadorned:0;");
+    if(imgurl == undefined) return false;
+    $(obj).prev().val(imgurl);
+    $('#'+previewObjId).html('<img src="'+imgurl+'"/>');
+}
+function show_star_img(obj)
+{
+	if(obj.checked && obj.value==1)
+	{
+		$('#star_img').css('display','block');
+	}else
+	{
+		$('#star_img').css('display','none');
+	}
+}
+
+checkLenth(document.getElementsByName('name')[0],'title_length_view','title_length',30);
+checkLenth(document.getElementsByName('desc')[0],'intro_length_view','intro_length',80);
+function checkLenth(obj,view_id,length_id,max_length)
+{
+	var strlength=count_length(obj.value);
+	if(strlength <= max_length)
+	{
+		$('#'+view_id).removeClass().addClass('info');
+		$('#'+length_id).text('还剩'+(max_length-strlength)+'字节');
+	}else
+	{
+		$('#'+view_id).removeClass().addClass('info').addClass('war');
+		$('#'+length_id).text('超出'+(strlength-max_length)+'字节');
+	}
+}
+function count_length(objValue)
+{
+	return objValue.replace(/[^\x00-\xff]/g,"**").length;
+}
+
+</script>

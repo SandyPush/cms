@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+<meta name="bannerTitle" content="home">
+<!--#include virtual="/version.shtml"-->
+    <link href="http://static.v1game.cn/<!--#echo var="version"-->css/game/h5/phone/page/index.css" rel="stylesheet">
+    <link rel="apple-touch-icon" href="http://static.v1game.cn/<!--#echo var="version"-->images/game/h5/apple-touch-icon-152x152.png">
+
+<!--#include virtual="/pc/public/baidu.html"-->
+</head>
+<body>
+<img src="http://h.v1game.cn/images/game/h5/logowx.jpg" width="0" height="0"  style="position:absolute;left:-9999px">
+<!--头部 start-->
+<!--#include virtual="/phone/public/header.html"-->
+<!--头部 end-->
+
+<!--头部 滚动大图-->
+<div id="slides">
+    <div class="slides_box" style="display:none;">
+        <ul class="s_b_content">
+            <!--#include virtual="./public/index_slide.html"-->
+        </ul>
+    </div>
+</div>
+<!--头部 滚动大图 结束-->
+<!--今日头条 开始--><section>
+    <div class="scrollbox">
+        <div id="scrolltext"><i class="ph5font">&#xe819;</i>今日头条</div>
+        <div id="scrollDiv">
+            <ul>
+                <!--#include virtual="/pc/public/index_ad.html"-->
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!--今日头条 结束-->
+<!--精品推荐 轮播-->
+<div class="clearfix">
+    <div id="recommend">
+        <div class="padtitle">精品推荐</div>
+        <div class="r_box_wrap">
+            <ul class="r_box">
+                <!--#include virtual="./public/index_recommend.html"-->
+            </ul>
+        </div>
+    </div>
+</div>
+<!--精品推荐 结束-->
+<!--栏目按钮 男生女生-->
+<div id="navigation" class="clearfix">
+    <ul class="n_box">
+        <li class="curr" data-type="0">最新游戏</li>
+        <li data-type="1002">男生最爱</li>
+        <li data-type="1003">女生最爱</li>
+        <li data-type="HGame.getPlayedGames">我玩过的</li>
+    </ul>
+</div>
+<!--栏目按钮 结束-->
+
+<!--最新模块 2列n排-->
+<div id="wrapper" class="padmain clearfix">
+    <ul node-type="gameList" class="w_box clearfix">
+    </ul>
+    <div style="display:block;" class="add_more">数据正在努力加载中... <div class="loading"><i></i><i></i><i></i><i></i><i></i></div></div>
+    <div class="clean80px"></div>
+</div>
+<!--最新模块 结束-->
+<!--加入主屏幕 start-->
+<div class="add_home" style="display:none;"><div class="home_close"><a href="#" >关闭</a></div></div>
+<div class="android_tip" style="display:none;"><a href="#" class="and_btn">点我</a></div>
+<!--加入主屏幕 end-->
+
+
+<!--底部 start-->
+<!--#include virtual="/phone/public/footer.html"-->
+<!--底部 end-->
+
+<script type="text/javascript" src="http://static.v1.cn/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://static.v1game.cn/<!--#echo var="version"-->js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1game.cn/<!--#echo var="version"-->js/game/h5/phone/home/page/index');
+</script>
+
+</body>
+</html><script>window.onload=function(){document.getElementsByTagName("body")[0].ondblclick=function(){if(window.confirm("进入编辑模式？")){Url=location.pathname;Url=Url.replace(/(\.(html|shtml|htm))/,".edit$1");location.href="http://"+location.host+Url;}}}</script>

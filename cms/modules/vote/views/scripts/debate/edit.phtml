@@ -1,0 +1,146 @@
+<div class="area">
+<div class="help"> 
+	<p>帮助</p>
+	<p>1、此处为论战管理-编辑论战页面</p> 	
+	<p>2、论战有推荐和不推荐两种类型,编辑论战可以修改类型.当且仅当论战为推荐类型时才会在<a href="http://news.titan24.com/app/debate/index.php" target="_blank">论战频道</a>显示!</p> 
+
+</div>
+<div class="nr">
+<h2>
+<button onclick="window.location.href='/vote/debate/'">返回</button>
+<a href="#nogo">修改论战</a>        	
+</h2>
+<form action="/vote/debate/update" method="post" enctype="multipart/form-data" onsubmit="return checkForm();">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+<tbody>
+    <tr>
+        <td>论战标题</td><td><input type="text" name="name" id="name" size="40" value="<?=$this->data['name']?>" onkeyup="checkLenth(this,'name_length_view','name_length',32)"/><span id="name_length_view">文字最大字节数：32，<span id="name_length"></span></span></td>
+    </tr>
+	<!--
+    <tr>
+        <td>论战头图</td>
+        <td><input name="photo" type="file" size="45" class="input"  /> <span>尺寸:950x150</span>
+		<br /><span>当前图片:<a href="<?=$this->data['photo']?>" target="_blank" title="预览"><?=$this->data['photo']?></a> <span>
+        </td>
+    </tr>
+	-->
+    <tr>
+        <td>论战导语</td>
+        <td>
+            <textarea id="intro" name="intro" cols="60" rows="5" onkeyup="checkLenth(this,'intro_length_view','intro_length',240)"><?=$this->data['intro']?></textarea>
+				<span id="intro_length_view">文字最大字节数：240，<span id="intro_length"></span></span>
+        </td>
+    </tr>
+    <tr>
+        <td>是否推荐</td>
+        <td>
+        	<input type="radio" name="level" value="1" <?=$this->data['checked'][1]?> >是&nbsp;<input type="radio" name="level" value="0" <?=$this->data['checked'][0]?> >否 推荐论战在论战分类页面显示
+        </td>
+    </tr>
+    <tr>
+        <td>发布时间</td>
+        <td><input type="text" name="postdate" id="txt_startdate" onclick="new WdatePicker({startDate:'%y-%M-%d %h:%i:%s',dateFmt:'yyyy-MM-dd HH:mm:ss',alwaysUseStartDate:false});" value="<?=$this->data['postdate']?> " /></td>
+    </tr>
+	<tr><td colspan="2"><hr size="1"/></td></tr>
+    <tr>
+        <td>正方标题</td><td><input type="text" name="z_name" id="z_name" size="40" value="<?=$this->data['z_name']?>" onkeyup="checkLenth(this,'z_name_length_view','z_name_length',32)"/><span id="z_name_length_view">文字最大字节数：32，<span id="z_name_length"></span></span></td>
+    </tr>
+    <tr>
+        <td>正方摘要</td>
+        <td>
+            <textarea id="z_intro" name="z_intro" cols="60" rows="5" onkeyup="checkLenth(this,'z_intro_length_view','z_intro_length',160)"><?=$this->data['z_intro']?></textarea>
+				<span id="z_intro_length_view">文字最大字节数：160，<span id="z_intro_length"></span></span>
+        </td>
+    </tr>
+    <tr>
+        <td>正方小图</td>
+        <td><input name="z_photo" type="file" size="45" class="input" /> <span>尺寸:140x160</span>
+		<br /><span>当前图片:<a href="<?=$this->data['z_photo']?>" target="_blank" title="预览"><?=$this->data['z_photo']?></a> <span>
+        </td>
+    </tr>
+    <tr>
+        <td>正方链接</td>
+        <td><input type="text" name="z_url" size="40" value="<?=$this->data['z_url']?>" /></td>
+    </tr>
+    <tr>
+        <td>正方支持</td>
+        <td><input type="text" name="z_count" size="20" value="<?=$this->data['z_count']?>" /></td>
+    </tr>
+    <tr>
+        <td>正方评论</td><td><input type="text" name="z_name2" id="z_name2" size="40" value="<?=$this->data['z_name2']?>" onkeyup="checkLenth(this,'z_name2_length_view','z_name2_length',32)"/><span id="z_name2_length_view">文字最大字节数：32，<span id="z_name2_length"></span></span></td>
+    </tr>
+	<tr><td colspan="2"><hr size="1"/></td></tr>
+    <tr>
+        <td>反方标题</td><td><input type="text" name="f_name" id="f_name" size="40" value="<?=$this->data['f_name']?>"  onkeyup="checkLenth(this,'f_name_length_view','f_name_length',32)"/><span id="f_name_length_view">文字最大字节数：32，<span id="f_name_length"></span></span></td>
+    </tr>
+    <tr>
+        <td>反方摘要</td>
+        <td>
+            <textarea id="f_intro" name="f_intro" cols="60" rows="5" onkeyup="checkLenth(this,'f_intro_length_view','f_intro_length',160)"><?=$this->data['f_intro']?></textarea>
+				<span id="f_intro_length_view">文字最大字节数：160，<span id="f_intro_length"></span></span>
+        </td>
+    </tr>
+    <tr>
+        <td>反方小图</td>
+        <td><input name="f_photo" type="file" size="45" class="input" /><span>尺寸:140x160</span>
+		<br /><span>当前图片:<a href="<?=$this->data['f_photo']?>" target="_blank" title="预览"><?=$this->data['f_photo']?></a> <span>
+        </td>
+    </tr>
+    <tr>
+        <td>反方链接</td>
+        <td><input type="text" name="f_url" size="40" value="<?=$this->data['f_url']?>" /></td>
+    </tr>
+    <tr>
+        <td>反方支持</td>
+        <td><input type="text" name="f_count" size="20" value="<?=$this->data['f_count']?>" /></td>
+    </tr>
+    <tr>
+        <td>反方评论</td><td><input type="text" name="f_name2" id="f_name2" size="40" value="<?=$this->data['f_name2']?>" onkeyup="checkLenth(this,'f_name2_length_view','f_name2_length',32)"/><span id="f_name2_length_view">文字最大字节数：32，<span id="f_name2_length"></span></span></td>
+    </tr>
+	<tr>
+			<td>状态</td>
+			<td><select name="status" >				
+					<option value="0" label="正常" <?=$this->data['select'][0]?>>正常</option>				
+					<option value="1" label="删除" <?=$this->data['select'][1]?>>删除</option>				
+				</select></td>
+	</tr>
+	<tr>
+        <td><input type="hidden" name="id" value="<?=$this->data['id']?>" /></td>
+        <td align="left"><input type="submit" value="   提 交   " /> <input type="reset" value="   重 填   " /></td>
+    </tr>
+</tbody>
+</table>
+</form>
+</div>
+</div>
+<script type="text/javascript">
+function checkLenth(obj,view_id,length_id,max_length)
+{
+	var strlength=count_length(obj.value);
+	if(strlength <= max_length)
+	{
+		$('#'+view_id).removeClass().addClass('info');
+		$('#'+length_id).text('还剩'+(max_length-strlength)+'字');
+	}else
+	{
+		$('#'+view_id).removeClass().addClass('info').addClass('war');
+		$('#'+length_id).text('超出'+(strlength-max_length)+'字');
+	}
+}
+
+function count_length(objValue)
+{
+	return objValue.replace(/[^\x00-\xff]/g,"**").length;
+}
+
+function checkForm(){
+	if($("input[name='z_photo']").val() && !$("input[name='z_photo']").val().match(/^[a-z]\:/i)){
+		alert('正方小图请上传一张本地图片');
+		return false;
+	}else if($("input[name='f_photo']").val() && !$("input[name='f_photo']").val().match(/^[a-z]\:/i)){
+		alert('正方小图请上传一张本地图片');
+		return false;
+	}
+}
+</script>
+

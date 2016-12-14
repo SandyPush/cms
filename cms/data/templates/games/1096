@@ -1,0 +1,2681 @@
+a:20:{i:0;s:7461:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1游戏平台-V1网页游戏,全国最具权威的网页游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<!--#CMS_MODULE(HOME_BG)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--#CMS_MODULE(HOME_LINK_LEFT)#-->
+        <!--#CMS_MODULE(HOME_LINK_RIGHT)#-->
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录V1游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+            <p class="more_games">更多更好好玩的网页游戏，请关注我们的游戏大厅，总有一款适合您。<a class="darkblue_link" href="ghall.shtml">查看更多 &gt;&gt;</a></p>
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:1;s:7553:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1游戏平台-V1网页游戏,全国最具权威的网页游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<!--#CMS_MODULE(HOME_BG)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--#CMS_MODULE(HOME_LINK_LEFT)#-->
+        <!--#CMS_MODULE(HOME_LINK_RIGHT)#-->
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录V1游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+            <p class="more_games">更多更好好玩的网页游戏，请关注我们的游戏大厅，总有一款适合您。<a class="darkblue_link" href="ghall.shtml">查看更多 &gt;&gt;</a></p>
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:2;s:7551:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1游戏平台-V1网页游戏,全国最具权威的网页游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<!--#CMS_MODULE(HOME_BG)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--#CMS_MODULE(HOME_LINK_LEFT)#-->
+        <!--#CMS_MODULE(HOME_LINK_RIGHT)#-->
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+            <p class="more_games">更多更好好玩的网页游戏，请关注我们的游戏大厅，总有一款适合您。<a class="darkblue_link" href="ghall.shtml">查看更多 &gt;&gt;</a></p>
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:3;s:7585:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1游戏平台-V1网页游戏,全国最具权威的网页游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_TITLE)#-->
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<!--#CMS_MODULE(HOME_BG)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--#CMS_MODULE(HOME_LINK_LEFT)#-->
+        <!--#CMS_MODULE(HOME_LINK_RIGHT)#-->
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+            <p class="more_games">更多更好好玩的网页游戏，请关注我们的游戏大厅，总有一款适合您。<a class="darkblue_link" href="ghall.shtml">查看更多 &gt;&gt;</a></p>
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:4;s:7481:"<!DOCTYPE html>
+<html>
+<head>
+    <title>{$item["title"]}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_TITLE)#-->
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<!--#CMS_MODULE(HOME_BG)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--#CMS_MODULE(HOME_LINK_LEFT)#-->
+        <!--#CMS_MODULE(HOME_LINK_RIGHT)#-->
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+            <p class="more_games">更多更好好玩的网页游戏，请关注我们的游戏大厅，总有一款适合您。<a class="darkblue_link" href="ghall.shtml">查看更多 &gt;&gt;</a></p>
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:5;s:7487:"<!DOCTYPE html>
+<html>
+<head>
+    <title><!--# echo $title #--></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_TITLE)#-->
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<!--#CMS_MODULE(HOME_BG)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--#CMS_MODULE(HOME_LINK_LEFT)#-->
+        <!--#CMS_MODULE(HOME_LINK_RIGHT)#-->
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+            <p class="more_games">更多更好好玩的网页游戏，请关注我们的游戏大厅，总有一款适合您。<a class="darkblue_link" href="ghall.shtml">查看更多 &gt;&gt;</a></p>
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:6;s:7494:"<!DOCTYPE html>
+<html>
+<head>
+    <title><!--# echo $item["title"]#--></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_TITLE)#-->
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<!--#CMS_MODULE(HOME_BG)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--#CMS_MODULE(HOME_LINK_LEFT)#-->
+        <!--#CMS_MODULE(HOME_LINK_RIGHT)#-->
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+            <p class="more_games">更多更好好玩的网页游戏，请关注我们的游戏大厅，总有一款适合您。<a class="darkblue_link" href="ghall.shtml">查看更多 &gt;&gt;</a></p>
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:7;s:7494:"<!DOCTYPE html>
+<html>
+<head>
+    <title><!--# echo {$item[title]}#--></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_TITLE)#-->
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<!--#CMS_MODULE(HOME_BG)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--#CMS_MODULE(HOME_LINK_LEFT)#-->
+        <!--#CMS_MODULE(HOME_LINK_RIGHT)#-->
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+            <p class="more_games">更多更好好玩的网页游戏，请关注我们的游戏大厅，总有一款适合您。<a class="darkblue_link" href="ghall.shtml">查看更多 &gt;&gt;</a></p>
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:8;s:7465:"<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_TITLE)#-->
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<!--#CMS_MODULE(HOME_BG)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--#CMS_MODULE(HOME_LINK_LEFT)#-->
+        <!--#CMS_MODULE(HOME_LINK_RIGHT)#-->
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+            <p class="more_games">更多更好好玩的网页游戏，请关注我们的游戏大厅，总有一款适合您。<a class="darkblue_link" href="ghall.shtml">查看更多 &gt;&gt;</a></p>
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:9;s:7448:"<!DOCTYPE html>
+<html>
+<head>
+    <!--#CMS_MODULE(MULTI_TITLE)#-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<!--#CMS_MODULE(HOME_BG)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--#CMS_MODULE(HOME_LINK_LEFT)#-->
+        <!--#CMS_MODULE(HOME_LINK_RIGHT)#-->
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+            <p class="more_games">更多更好好玩的网页游戏，请关注我们的游戏大厅，总有一款适合您。<a class="darkblue_link" href="ghall.shtml">查看更多 &gt;&gt;</a></p>
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:10;s:7416:"<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<!--#CMS_MODULE(HOME_BG)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--#CMS_MODULE(HOME_LINK_LEFT)#-->
+        <!--#CMS_MODULE(HOME_LINK_RIGHT)#-->
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+            <p class="more_games">更多更好好玩的网页游戏，请关注我们的游戏大厅，总有一款适合您。<a class="darkblue_link" href="ghall.shtml">查看更多 &gt;&gt;</a></p>
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:11;s:7448:"<!DOCTYPE html>
+<html>
+<head>
+    <!--#CMS_MODULE(MULTI_TITLE)#-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<!--#CMS_MODULE(HOME_BG)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--#CMS_MODULE(HOME_LINK_LEFT)#-->
+        <!--#CMS_MODULE(HOME_LINK_RIGHT)#-->
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+            <p class="more_games">更多更好好玩的网页游戏，请关注我们的游戏大厅，总有一款适合您。<a class="darkblue_link" href="ghall.shtml">查看更多 &gt;&gt;</a></p>
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:12;s:7437:"<!DOCTYPE html>
+<html>
+<head>
+    <title>111111</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<!--#CMS_MODULE(HOME_BG)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--#CMS_MODULE(HOME_LINK_LEFT)#-->
+        <!--#CMS_MODULE(HOME_LINK_RIGHT)#-->
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+            <p class="more_games">更多更好好玩的网页游戏，请关注我们的游戏大厅，总有一款适合您。<a class="darkblue_link" href="ghall.shtml">查看更多 &gt;&gt;</a></p>
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:13;s:7471:"<!DOCTYPE html>
+<html>
+<head>
+    <title>111111</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_TITLE)#-->
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<!--#CMS_MODULE(HOME_BG)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--#CMS_MODULE(HOME_LINK_LEFT)#-->
+        <!--#CMS_MODULE(HOME_LINK_RIGHT)#-->
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+            <p class="more_games">更多更好好玩的网页游戏，请关注我们的游戏大厅，总有一款适合您。<a class="darkblue_link" href="ghall.shtml">查看更多 &gt;&gt;</a></p>
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:14;s:7492:"<!DOCTYPE html>
+<html>
+<head>
+    <title><!--# echo $multi_title#--></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_TITLE)#-->
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<!--#CMS_MODULE(HOME_BG)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--#CMS_MODULE(HOME_LINK_LEFT)#-->
+        <!--#CMS_MODULE(HOME_LINK_RIGHT)#-->
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+            <p class="more_games">更多更好好玩的网页游戏，请关注我们的游戏大厅，总有一款适合您。<a class="darkblue_link" href="ghall.shtml">查看更多 &gt;&gt;</a></p>
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:15;s:7500:"<!DOCTYPE html>
+<html>
+<head>
+    <title><!--# echo $_GET["multi_title"]#--></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_TITLE)#-->
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<!--#CMS_MODULE(HOME_BG)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--#CMS_MODULE(HOME_LINK_LEFT)#-->
+        <!--#CMS_MODULE(HOME_LINK_RIGHT)#-->
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+            <p class="more_games">更多更好好玩的网页游戏，请关注我们的游戏大厅，总有一款适合您。<a class="darkblue_link" href="ghall.shtml">查看更多 &gt;&gt;</a></p>
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:16;s:7437:"<!DOCTYPE html>
+<html>
+<head>
+    <title>111111</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<!--#CMS_MODULE(HOME_BG)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--#CMS_MODULE(HOME_LINK_LEFT)#-->
+        <!--#CMS_MODULE(HOME_LINK_RIGHT)#-->
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+            <p class="more_games">更多更好好玩的网页游戏，请关注我们的游戏大厅，总有一款适合您。<a class="darkblue_link" href="ghall.shtml">查看更多 &gt;&gt;</a></p>
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:17;s:7407:"<!DOCTYPE html>
+<html>
+<head>
+    <title>111111</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--#CMS_MODULE(HOME_LINK_LEFT)#-->
+        <!--#CMS_MODULE(HOME_LINK_RIGHT)#-->
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+            <p class="more_games">更多更好好玩的网页游戏，请关注我们的游戏大厅，总有一款适合您。<a class="darkblue_link" href="ghall.shtml">查看更多 &gt;&gt;</a></p>
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:18;s:7316:"<!DOCTYPE html>
+<html>
+<head>
+    <title>111111</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+            <p class="more_games">更多更好好玩的网页游戏，请关注我们的游戏大厅，总有一款适合您。<a class="darkblue_link" href="ghall.shtml">查看更多 &gt;&gt;</a></p>
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";i:19;s:7114:"<!DOCTYPE html>
+<html>
+<head>
+    <title>111111</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/page.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gameMulti/v1.0/css/multi.css" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/slides.min.jquery.js" type="text/javascript">
+</script>
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/login.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/pages.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/auth.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#CMS_MODULE(MULTI_HEADER)#-->
+<div class="main_wrap">
+    <div class="main">
+        <!--登录 start-->
+        <div class="login h_login">
+            <!--未登录 start-->
+            <div id="loged">
+                <form class="login_form" id="loginForm">
+                    <fieldset>
+                        <legend class="login_tit">欢迎登录游戏平台</legend>
+                        <p class="login_username"><label class="form_nm">账号</label><input id="username" class="ipttxt_s" name="username" type="text" /></p>
+                        <p class="login_userpsw"><label class="form_nm">密码</label><input id="password" class="ipttxt_s" name="password" type="password" /></p>
+                        <p class="login_captcha">
+                            <label class="form_nm">验证码</label>
+                            <input class="ipttxt_s" type="text" id="captcha" />
+                            <label class="login_captcha_img">
+                            <iframe node-type="authCodeImg" src="http://pass.g.v1.cn/main/showvcode.do" class="regist_code" style="width:84px;height:27px;"></iframe>
+                            </label>
+                        </p>
+                        <p class="login_auto">
+                            <label><input id="cookieID" class="iptcb" type="checkbox" name="cookieID" />下次自动登录</label>
+                            <a class="blue_link" href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn" target="_blank">忘记密码</a>
+                        </p>
+                        <p><input id="loginButton" class="btn_orange_m" type="button" value="登录" /></p>
+                        <p class="login_other">
+                            <a class="qq_login" href="javascript:void(0);" id="qqLogin" style="display:none;">QQ登录</a>
+                            <a class="sina_login" href="javascript:void(0);" id="sinaLogin" style="display:none;">微博登录</a>
+                            <a class="blue_link" href="./register.shtml">注册账号</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--未登录 end-->
+            <div id="improve" style="display:none">
+                <p style="display:none"><input type="button" value="防沉迷认证" class="improve_info_btn btn_orange_m" /></p>
+                <p class="verified" style="display:none">防沉迷已认证</p>
+            </div>
+        </div>
+
+        <!--登录 end-->
+        <!--幻灯片 start-->
+        <div class="h_slides">
+        <!--#CMS_MODULE(HOME_01_RIGHT)#-->
+        </div>
+        <!--幻灯片 end-->
+        <!--最新开服 start-->
+        <div class="game_server">
+            <div class="module_hd tab">
+                <h2 id="latestOpen" class="module_hd_tab curr">最新开服</h2>
+                <h2 id="beOpen" class="module_hd_tab">即将开服</h2>
+            </div>
+            <div class="tab_content">
+                <div class="tab_content_item" style="display:block;">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul class="textlist_module_wrap" id="gameOpen">
+                        </ul>
+                    </div>
+                    <div class="game_server_paging" id="pagecount">
+                       <a href="javascript:void(0)" class="paging_prev">上一页</a>
+                       <span class="paging_pagination"><em class="current_page">1</em>/<em>3</em></span>
+                       <a href="javascript:void(0)" class="paging_next">下一页</a>
+                    </div>
+                </div>
+                <div class="tab_content_item">
+                    <div class="game_server_th">
+                        <span class="game_server_date">日期</span>
+                        <span class="game_server_time">时间</span>
+                        <span class="game_server_gname">游戏</span>
+                        <span class="game_server_name">区服</span>
+                    </div>
+                    <div class="textlist_module">
+                        <ul id="beOpenTable" class="textlist_module_wrap">
+                            
+                        </ul>
+                    </div>
+                    <!--div class="game_server_paging">
+                        <a class="paging_prev" href="javascript:;">上一页</a>
+                        <span class="paging_pagination"><em class="current_page">1</em>/<em>1</em></span>
+                        <a class="paging_next" href="javascript:;">下一页</a>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <!--最新开服 end-->
+        <!--精品推荐 start-->
+        <div class="game_recommend">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">精品推荐</h2>
+            </div>
+            <!--精品推荐列表ul start-->
+            <!--#CMS_MODULE(HOME_02_RIGHT)#-->
+            <!--精品推荐列表ul end-->
+        </div>
+        <!--精品推荐 end-->
+        <!--首页游戏列表 start-->
+        <div class="home_games">
+            <!--首页游戏列表ul start-->
+            <!--#CMS_MODULE(HOME_03_FULL)#-->
+            <!--首页游戏列表ul end-->
+        </div>
+        <!--首页游戏列表 end-->
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>";}

@@ -1,0 +1,124 @@
+<script>
+	function changedatetype(obj)
+	{
+		switch(obj.value)
+		{
+			case 'day':
+				$('#select_day').show();
+				$('#select_month').show();
+				$('#select_quarter').hide();
+				$('#select_week').hide();
+				$('#join').hide();
+				$('#select_end_year').hide();
+				$('#select_end_month').hide();
+				$('#select_end_day').hide();
+				break;
+			case 'month':
+				$('#select_day').hide();
+				$('#select_month').show();
+				$('#select_quarter').hide();
+				$('#select_week').hide();
+				$('#join').hide();
+				$('#select_end_year').hide();
+				$('#select_end_month').hide();
+				$('#select_end_day').hide();
+				break;
+			case 'week':
+				$('#select_day').hide();
+				$('#select_month').hide();
+				$('#select_quarter').hide();
+				$('#select_week').show();
+				$('#join').hide();
+				$('#select_end_year').hide();
+				$('#select_end_month').hide();
+				$('#select_end_day').hide();
+				break;
+			case 'quarter':
+				$('#select_day').hide();
+				$('#select_month').hide();
+				$('#select_quarter').show();
+				$('#select_week').hide();
+				$('#join').hide();
+				$('#select_end_year').hide();
+				$('#select_end_month').hide();
+				$('#select_end_day').hide();
+				break;
+			case 'year':
+				$('#select_day').hide();
+				$('#select_month').hide();
+				$('#select_quarter').hide();
+				$('#select_week').hide();
+				$('#join').hide();
+				$('#select_end_year').hide();
+				$('#select_end_month').hide();
+				$('#select_end_day').hide();
+				break;
+			case 'custom':
+				$('#select_day').show();
+				$('#select_month').show();
+				$('#select_quarter').hide();
+				$('#select_week').hide();
+				$('#join').show();
+				$('#select_end_year').show();
+				$('#select_end_month').show();
+				$('#select_end_day').show();
+				break;
+		}
+	}
+	$(document).ready(function(){
+		changedatetype($('#datetype')[0]);
+	});
+</script>
+
+<div class="area">
+	<div class="help">
+    <p>帮助</p>
+    <p>1、此处为新闻访问量分时统计;</p>
+    <p>2、此统计数据为所选时间段内的新闻访问排行;</p> 
+    <p class="soart">
+    	<form action="" name="search_form" method="post">
+    		<input type="hidden" name="channel" value="">
+            <span>日期类型:<?=$this->formSelect('datetype', $this->datetype, array('onchange'=>'changedatetype(this)'), $this->datetypes)?></span>
+            <span><?=$this->formSelect('year', $this->year, null, $this->years)?>年</span>
+            <span id="select_month"><?=$this->formSelect('month', $this->month, null, $this->months)?>月</span>
+            <span id="select_day"><?=$this->formSelect('day', $this->day, null, $this->days)?>日</span>
+            <span id="select_quarter"><?=$this->formSelect('quarter', $this->quarter, null, $this->quarters)?>季度</span>
+            <span id="select_week"><?=$this->formSelect('week', $this->week, null, $this->weeks)?>周</span>
+            <span id="join">至&nbsp;&nbsp;</span>
+            <span id="select_end_year"><?=$this->formSelect('end_year', $this->end_year, null, $this->years)?>年</span>
+            <span id="select_end_month"><?=$this->formSelect('end_month', $this->end_month, null, $this->months)?>月</span>
+            <span id="select_end_day"><?=$this->formSelect('end_day', $this->end_day, null, $this->days)?>日</span>
+            <input type="submit" value="显示"></button>
+        </form>
+    </p>    
+    </div>
+	<div class="nr">
+    	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+        	<tr>
+				<th>aid</th>
+			    <th>文章标题</th>
+			    <th>浏览量</th>
+				<th>发布者</th>
+				<th>发布时间</th>
+                  
+            </tr>
+    <?php if(!empty($this->data)){ foreach ($this->data as $key => $value): ?>
+            <tr>
+				<td width="50px"><?=$value['channel_aid']?></td>
+				<td ><a href="<?=$value['url']?>" target="_blank"><?=$value['title']?></a></td>
+				<td><?=$value['count']?></td> 
+				<td width="100px"><?=$value['realname']?></td>
+			    <td width="150px"><?=date('Y-m-d H:i:s',$value['postdate'])?></td>	
+                            
+            </tr>
+    <?php endforeach;  }?>
+	 <tr style="color:red">		
+		<td colspan="5">当前时间段(当前频道的新闻)浏览量合计:&nbsp;<?=$this->count?></td>		
+	  </tr>
+        </table>
+    </div>
+	<div class="fy">
+		<?=$this->pagebar ?>
+	</div>
+    </div>
+

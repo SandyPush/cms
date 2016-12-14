@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title>-H5手机游戏-第一游戏网H5游戏平台</title>
+    <meta name="keywords" content="" />
+    <meta name="keywords" content="，手机游戏，H5手机游戏，H5游戏" />
+    <meta name="description" content="第一游戏网H5游戏平台为您提供，H5手机游戏，最好玩的H5游戏就在第一游戏网，让你在休闲中体验竞技的乐趣！" />
+    <!--#include virtual="/version.shtml"-->
+    <!--#include virtual="/host.shtml"-->
+    <link href="<!--#echo var='WWWHOST'-->/font/font.css" rel="stylesheet">
+    <link href="<!--#echo var='CDNHOST'-->/<!--#echo var='version'-->css/game/h5/pc/page/item.css" rel="stylesheet">
+    <!--#include virtual="/pc/public/baidu.html"-->
+</head>
+
+<body id="body">
+<!--header begin-->
+<!--#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" class="wxmask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <i class="J_close close"></i>
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <!--新样式 start-->
+                <div class="ititle-box fl">
+                    <a href="javascript:void(0);"><img class="ititle-img" alt="" src=""></a>
+                    <div class="ititle-mid">
+                        <a href="javascript:void(0);" class="ititle"></a>
+                        <div class="ititle-mid2">
+                            <ul class="gameinf fl">
+                                <li class="gi_star">
+                                    <div class="infostar fl">
+                                        <div class="df-stars">
+                                            <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                        </div>
+                                        （<span class="num" id="itemRating"></span>）
+                                    </div>
+                                </li>
+                                <li class="gi_lei"></li>
+                                <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                            </ul>
+                            <a class="btn_start play fr" href="" target="_blank">开始游戏</a>
+                        </div>
+                        <div class="gi_fav fr">
+                            <div class="gi_fav01 sc"><a class="favor"></a></div>
+                            <a class="fxd">分享到:</a>
+                            <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                            <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        </div>
+                    </div>
+                    <div class="ititle-ri fl">
+                        <img class=" " alt="" src="">
+                        <span>手机扫一扫，立即玩</span>
+                    </div>
+
+                </div>
+                <!--新样式 end-->
+                <div class="itembox_info fl">
+                    <!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-H5手机游戏-第一游戏网H5游戏平台</title>
+    <meta name="keywords" content="<!--# echo $keywords #-->" />
+    <meta name="keywords" content="<!--# echo $title #-->，手机游戏，H5手机游戏，H5游戏" />
+    <meta name="description" content="第一游戏网H5游戏平台为您提供，<!--# echo $title #-->H5手机游戏，最好玩的H5游戏就在第一游戏网，让你在休闲中体验竞技的乐趣！" />
+    <!--#include virtual="/version.shtml"-->
+    <!--#include virtual="/host.shtml"-->
+    <link href="<!--#echo var='WWWHOST'-->/font/font.css" rel="stylesheet">
+    <link href="<!--#echo var='CDNHOST'-->/<!--#echo var='version'-->css/game/h5/pc/page/item.css" rel="stylesheet">
+    <!--#include virtual="/pc/public/baidu.html"-->
+</head>
+
+<body id="body">
+<!--header begin-->
+<!--#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" class="wxmask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <i class="J_close close"></i>
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <!--新样式 start-->
+                <div class="ititle-box fl">
+                    <a href="javascript:void(0);"><img class="ititle-img" alt="" src="<!--#echo $image#-->"></a>
+                    <div class="ititle-mid">
+                        <a href="javascript:void(0);" class="ititle"><!--# echo $title #--></a>
+                        <div class="ititle-mid2">
+                            <ul class="gameinf fl">
+                                <li class="gi_star">
+                                    <div class="infostar fl">
+                                        <div class="df-stars">
+                                            <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                        </div>
+                                        （<span class="num" id="itemRating"></span>）
+                                    </div>
+                                </li>
+                                <li class="gi_lei"><!--# echo $categoriesArray['name']#--></li>
+                                <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                            </ul>
+                            <a class="btn_start play fr" href="<!--#echo $stitle#-->" target="_blank">开始游戏</a>
+                        </div>
+                        <div class="gi_fav fr">
+                            <div class="gi_fav01 sc"><a class="favor"></a></div>
+                            <a class="fxd">分享到:</a>
+                            <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                            <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        </div>
+                    </div>
+                    <div class="ititle-ri fl">
+                        <img class=" " alt="" src="">
+                        <span>手机扫一扫，立即玩</span>
+                    </div>
+
+                </div>
+                <!--新样式 end-->
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="gift-bag fl">
+                    <span>礼包码内容：</span>
+                    <span class="gift-bag-text">
+                    </span>
+                </div>
+                <div class="anli">
+                    <span class="anli-1">加入“第一游戏网”，帅哥美女陪你玩，各种福利免费领！</span>
+            <span class="anli-2">
+                <div class="box clearfix">
+                    <div class="anli-qq"><a href="http://jq.qq.com/?_wv=1027&k=cDoHIt"> QQ群：129308599</a></div>
+                    <div class="anli-wx"><a
+                            href="http://mp.weixin.qq.com/s?__biz=MzA3NDk1NTI5Mw==&mid=400277215&idx=1&sn=d0cc6853a33d6e983f55d463eca1aaf7#wechat_redirect">微信公众号：v1games</a>
+                    </div>
+                </div>
+            </span>
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                        <div class="ul_content">
+                            <ul class="pic_ul fl">
+                                <!--#
+                                $tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+                                $tj=$tj['photo'];
+                                foreach($tj as $photo){
+                                #-->
+                                <li><div><img src="<!--# echo $photo['middle_image'] #-->"></div></li>
+                                <!--#
+                                }
+                                #-->
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <!--#include virtual="/pc/public/comment.html"-->
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <!--#include virtual="/pc/public/recommend.shtml"-->
+
+            </div>
+
+            <div class="ri_tj fl border-box">
+                <div class="ib_tit hz">精品游戏</div>
+                <ul class="choose">
+                    <!--#include virtual="/pc/public/TodayChoose.shtml"-->
+                </ul>
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩专题</div>
+                <!--#include virtual="/pc/public/activity.shtml"-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部 start-->
+
+<!--#include virtual="/pc/public/footer.html"-->
+
+<!--底部 end-->
+
+
+
+
+<script type="text/javascript" src="http://static.v1game.cn/<!--#echo var='version'-->js/game/h5/plugin/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="http://static.v1game.cn/<!--#echo var='version'-->js/game/h5/plugin/jquery.rating.pack.js"></script>
+<script type="text/javascript" src="http://static.v1game.cn/<!--#echo var='version'-->js/game/h5/plugin/jquery.form.js"></script>
+<script type="text/javascript" src="http://static.v1game.cn/<!--#echo var='version'-->js/game/h5/plugin/passport.js"></script>
+<script type="text/javascript" src="http://static.v1game.cn/<!--#echo var='version'-->js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1game.cn/<!--#echo var="version"-->js/game/h5/pc/info/page/index');
+</script>
+
+</body>
+</html>
+                </div>
+                <div class="gift-bag fl">
+                    <span>礼包码内容：</span>
+                    <span class="gift-bag-text">
+                    </span>
+                </div>
+                <div class="anli">
+                    <span class="anli-1">加入“第一游戏网”，帅哥美女陪你玩，各种福利免费领！</span>
+            <span class="anli-2">
+                <div class="box clearfix">
+                    <div class="anli-qq"><a href="http://jq.qq.com/?_wv=1027&k=cDoHIt"> QQ群：129308599</a></div>
+                    <div class="anli-wx"><a
+                            href="http://mp.weixin.qq.com/s?__biz=MzA3NDk1NTI5Mw==&mid=400277215&idx=1&sn=d0cc6853a33d6e983f55d463eca1aaf7#wechat_redirect">微信公众号：v1games</a>
+                    </div>
+                </div>
+            </span>
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                        <div class="ul_content">
+                            <ul class="pic_ul fl">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <!--#include virtual="/pc/public/comment.html"-->
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <!--#include virtual="/pc/public/recommend.shtml"-->
+
+            </div>
+
+            <div class="ri_tj fl border-box">
+                <div class="ib_tit hz">精品游戏</div>
+                <ul class="choose">
+                    <!--#include virtual="/pc/public/TodayChoose.shtml"-->
+                </ul>
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩专题</div>
+                <!--#include virtual="/pc/public/activity.shtml"-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部 start-->
+
+<!--#include virtual="/pc/public/footer.html"-->
+
+<!--底部 end-->
+
+
+
+
+<script type="text/javascript" src="http://static.v1game.cn/<!--#echo var='version'-->js/game/h5/plugin/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="http://static.v1game.cn/<!--#echo var='version'-->js/game/h5/plugin/jquery.rating.pack.js"></script>
+<script type="text/javascript" src="http://static.v1game.cn/<!--#echo var='version'-->js/game/h5/plugin/jquery.form.js"></script>
+<script type="text/javascript" src="http://static.v1game.cn/<!--#echo var='version'-->js/game/h5/plugin/passport.js"></script>
+<script type="text/javascript" src="http://static.v1game.cn/<!--#echo var='version'-->js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1game.cn/<!--#echo var="version"-->js/game/h5/pc/info/page/index');
+</script>
+
+</body>
+</html>

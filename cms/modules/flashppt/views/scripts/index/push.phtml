@@ -1,0 +1,40 @@
+<base target="_self">
+<?=$this->headLink() ?>
+<?=$this->headScript() ?>
+<div class="area">
+<div class="help">
+	<p>帮助</p>
+	<p>1、头图推送页面;</p>  
+<?=$this->showErrors()?>
+</div>
+
+<div class="nr">
+<form name="form1" action="/flashppt/index/pushed" method="post">
+<input type="hidden" name="fpid" value="<?=$this->fpid?>" />
+<input type="hidden" name="level" value="<?=$this->level?>" />
+<?php foreach ($this->page_options as $key => $value): ?>
+	<input type="checkbox" name="pid_arr[]" value="<?=$value['pid']?>" <?=(array_search($value['pid'],$this->pids)!==false)?'checked':''?>><?=$value['name']?>
+<?php endforeach;  ?>
+<input type="submit" value="推送">
+</form>
+</div>
+</div>
+
+<script>
+
+function deleteRow(obj)
+{
+	$(obj).parent().parent().remove();
+}
+//推送头图
+function push_page(fpid)
+{
+	var dialog_url="/flashppt/index/push/fpid/"+fpid;
+    var imgurl = window.showModalDialog(dialog_url, "", "dialogHeight:250px; dialogWidth:400px; resizable:0; scroll:0; status:0; unadorned:0;");
+    if(imgurl == undefined) return false;
+    $(obj).parent().prev().prev().find('input').val(imgurl);
+    $(obj).parent().prev().find('a').attr('href',imgurl);
+    $(obj).parent().prev().find('img').attr('src',imgurl);
+}
+
+</script>

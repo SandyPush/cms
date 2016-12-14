@@ -1,0 +1,59 @@
+<div class="area">
+	<div class="help">
+    <p>帮助</p>
+    <p>1、此处为投票主题管理，具体投票请进入投票主题的所属问题管理;</p>
+    <p>2、创建投票的流程图片，请<a href="http://titanimg.titan24.com/styles/img/vote.png" target="_blank">点击此处浏览</a>;</p> 
+    <p class="soart">
+    	<form action="/vote/index/" name="search_form" method="post">
+            <label>搜索投票</label>
+        	<label>名称:<input class="input" type="text" name="title" size="8" value="<?=$this->title?>" /></label>
+			<label>创建者:<input class="input" type="text" name="user" size="8" value="<?=$this->user?>" /></label>
+            <label>开始时间:<input name="starttime" type="text" size="20"  onclick="new WdatePicker({startDate:'%y-%M-%d %h:%i:%s',dateFmt:'yyyy-MM-dd HH:mm:ss',alwaysUseStartDate:false});" value="<?=$this->starttime?>"/></label>
+            <label>结束时间:<input name="endtime" type="text" size="20"  onclick="new WdatePicker({startDate:'%y-%M-%d %h:%i:%s',dateFmt:'yyyy-MM-dd HH:mm:ss',alwaysUseStartDate:false});" value="<?=$this->endtime?>"/></label>
+			<label>状态:
+			<select name="status" id="status">
+					<option value="" label=""></option>
+					<option value="1" label="正常" <?=$this->select[1]?> >正常</option>
+					<option value="2" label="过期" <?=$this->select[2]?> >过期</option>
+					<option value="3" label="关闭" <?=$this->select[3]?> >关闭</option>
+					<option value="4" label="停止" <?=$this->select[4]?> >停止</option>
+					<option value="5" label="删除" <?=$this->select[5]?> >删除</option>				
+				</select>
+			</label>
+            <input type="submit" value="搜索"></button>
+        </form>
+    </p>    
+    </div>
+	<div class="nr">	
+    	<h2>      
+			<button onclick="window.location.href='/vote/index/add/';">添加投票</button>
+        </h2>
+		
+    	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+		  	<tr>
+            	<th>投票号</th>
+                <th width="250">投票名称</th>
+				<th>投票开始时间</th>
+				<th>投票结束时间</th>
+				<th>状态</th>  
+				<th>添加</th> 
+				<!--th>最后修改</th--> 
+				<th>操作</th> 
+			</tr>
+		  <?php foreach ($this->data as $key => $value): ?>      
+            <tr>
+        		<td><?=$value['vid']?></td>
+                <td><?=$value['title']?></td>                
+				<td><?=$value['starttime']?></td>
+                <td><?=$value['endtime']?></td>
+				<td><?=$value['status']?></td>
+				<td><?=$value['insertuser']?></td>
+				<!--td><?=$value['edituser']?></td-->
+				<td><a href="/vote/index/edit/vid/<?=$value['vid']?>">修改</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/vote/problem/index/vid/<?=$value['vid']?>">问题</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/vote/index/code/vid/<?=$value['vid']?>">提取代码</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/vote/index/del/vid/<?=$value['vid']?>">删除</a></td>           
+            </tr>		
+		 <?php endforeach;  ?>
+        </table>
+    </div>
+    <div class="fy">
+		<?=$this->pagebar ?>
+    </div>

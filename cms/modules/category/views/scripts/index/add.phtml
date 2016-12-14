@@ -1,0 +1,60 @@
+<?=$this->headLink() ?>
+<?=$this->headScript() ?>
+<script>
+function checkForm()
+{
+	if(document.forms[0].elements['name'].value=='')
+	{
+		alert('类别名称不能为空');
+		return false;
+	}
+	var patten=/^\/[a-z0-9\-\_\/]+\/$|^\/$/i;
+	if(!patten.test(document.forms[0].elements['publisher_dir'].value))
+	{
+		alert('目录不符合要求');
+		return false;
+	}
+}
+</script>
+<div class="area">
+<div class="help"> 
+	<p>帮助</p>
+	<p>1、类别添加页面;</p>  
+<?=$this->showErrors()?>
+</div>
+
+<div class="nr">
+ 	<h2>添加类别</h2>
+
+<form action="/category/index/create/" method="post" onsubmit="return(checkForm());">
+<table width="100%" cellspacing="1" class="form">
+<tbody>
+    <tr>
+        <td width="80">父类名称</td>
+        <td><?=$this->formSelect('parent_id', $this->parent_cid, null, $this->parent_options)?></td>
+    </tr>
+    <tr>
+        <td>类别名称</td>
+        <td><input type="text" name="name" value="" class="input"/></td>
+    </tr>
+    <tr class="alt">
+        <td>发布目录</td>
+        <td><input type="text" name="publisher_dir" value="/"  class="input"/><font color="red">目录名称只能由字母、数字、"_"、"-"、"/"组成且必须由"/"开头和结尾</font></td>
+    </tr>
+    <tr>
+        <td>类　　型</td>
+        <td><?=$this->formSelect('type', null, null, $this->type_select)?></td>
+    </tr>
+    <tr class="alt">
+        <td>绑定栏目</td>
+        <td><?=$this->formSelect('channel_id', null, null, $this->page_options)?></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><button type="submit" name="submit">添加类别</button></td>
+    </tr>    
+</tbody>
+</table>
+</form>
+</div>
+</div>

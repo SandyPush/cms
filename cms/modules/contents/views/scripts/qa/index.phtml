@@ -1,0 +1,46 @@
+<script type="text/javascript" >
+	function del(){document.forms[0].submit();}	
+</script>
+<div class="area">
+	<div class="help">
+    <p>帮助</p>
+    <p>1、此处为<a href="http://news.titan24.com/qa/" target="_blank">名家互动</a>管理;</p>
+	<p>2、按作者查询：<a href="/contents/qa/index/">全部</a> 
+	<?php foreach ($this->persons as $k => $v): ?>  
+	<a href="/contents/qa/index/person/<?=urlencode($v)?>"><?=$v?></a> 
+	<?php endforeach;  ?>  
+	;</p> 
+    </div>
+	<div class="nr">
+		<form action="/contents/qa/del" name="delete_form" method="post">
+    	<h2>
+			<button onclick="window.location.href='/contents/qa/index/';">返回</button>
+        	<button onclick="del()">批量删除</button>
+        </h2>
+		<form action="/vote/index/del" name="form" method="post">
+    	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+		  	<tr>
+            	<th width="3%"></th>
+				<th width="5%">名家姓名</th>
+                <th>提问内容</th>
+                <th width="12%">发表时间</th>
+				<th width="10%">网友姓名</th>				
+				<th width="10%">IP</th>  
+			</tr>
+		  <?php foreach ($this->data as $k => $v): ?>      		        
+            <tr>
+				<td><input type="checkbox" name='id[]' value="<?=$v['id']?>" /></td>
+				<td><?=$v['author']?></td>
+				<td><?=$v['question']?></td>
+				<td ><?=$v['postdate']?></td>
+				<td><?=$v['name']?> </td>
+				<td><?=$v['ip']?></td>          
+            </tr>
+			<?php endforeach;  ?>     
+		</table>
+		<input type="hidden" name="url" value="<?=$_SERVER['REQUEST_URI']?>">
+		</form>
+    </div>
+	<div class="fy">
+		<?=$this->pagebar ?>
+    </div>

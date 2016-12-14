@@ -1,0 +1,4188 @@
+a:20:{i:0;s:8414:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<script src="http://pic.v1.cn/cms/special_channel3/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道3-logo背景)#-->
+  </div>
+   <div class="searchBox">
+   <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+   <input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+   <button class="search" type="submit" id="searchBut">搜 索</button>
+    <div class="searchTitle">热搜词：</div>
+   <div class="hotword">
+     <!--#CMS_MODULE(特殊频道3-热搜词)#-->
+  </div>
+  </form>
+  </div>
+</div>
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+  <div class="ad-250 left">
+<!--#CMS_MODULE(code003)#-->
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+     <div class="global-news">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头2)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+             
+               <!--#CMS_MODULE(特殊频道3-大图要闻1)#-->              
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表1)#-->           
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表1)#-->
+          </div>
+       </div>
+     </div>
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头3)#-->           
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻2)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表2)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表2)#-->
+          </div>
+       </div>
+     </div>
+     
+
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头4)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻3)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表3)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表3)#-->
+          </div>
+       </div>
+     </div>
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<script type='text/javascript'><!--//<![CDATA[ 
+var m3_u = (location.protocol=='https:'?'http://luckstatic.v1.cn/st/10000/1100/1083.js':'http://luckstatic.v1.cn/st/10000/1100/1083.js');
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+</body>
+</html>
+";i:1;s:8100:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<script src="http://pic.v1.cn/cms/special_channel3/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道3-logo背景)#-->
+  </div>
+   <div class="searchBox">
+   <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+   <input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+   <button class="search" type="submit" id="searchBut">搜 索</button>
+    <div class="searchTitle">热搜词：</div>
+   <div class="hotword">
+     <!--#CMS_MODULE(特殊频道3-热搜词)#-->
+  </div>
+  </form>
+  </div>
+</div>
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+  <div class="ad-250 left">
+<!--#CMS_MODULE(code003)#-->
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+     <div class="global-news">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头2)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+             
+               <!--#CMS_MODULE(特殊频道3-大图要闻1)#-->              
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表1)#-->           
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表1)#-->
+          </div>
+       </div>
+     </div>
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头3)#-->           
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻2)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表2)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表2)#-->
+          </div>
+       </div>
+     </div>
+     
+
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头4)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻3)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表3)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表3)#-->
+          </div>
+       </div>
+     </div>
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+</body>
+</html>
+";i:2;s:8198:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script src="http://pic.v1.cn/cms/special_channel3/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道3-logo背景)#-->
+  </div>
+   <div class="searchBox">
+   <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+   <input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+   <button class="search" type="submit" id="searchBut">搜 索</button>
+    <div class="searchTitle">热搜词：</div>
+   <div class="hotword">
+     <!--#CMS_MODULE(特殊频道3-热搜词)#-->
+  </div>
+  </form>
+  </div>
+</div>
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+  <div class="ad-250 left">
+<!--#CMS_MODULE(code003)#-->
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+     <div class="global-news">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头2)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+             
+               <!--#CMS_MODULE(特殊频道3-大图要闻1)#-->              
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表1)#-->           
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表1)#-->
+          </div>
+       </div>
+     </div>
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头3)#-->           
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻2)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表2)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表2)#-->
+          </div>
+       </div>
+     </div>
+     
+
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头4)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻3)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表3)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表3)#-->
+          </div>
+       </div>
+     </div>
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+</body>
+</html>
+";i:3;s:8133:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script src="http://pic.v1.cn/cms/special_channel3/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道3-logo背景)#-->
+  </div>
+   <div class="searchBox">
+   <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+   <input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+   <button class="search" type="submit" id="searchBut">搜 索</button>
+    <div class="searchTitle">热搜词：</div>
+   <div class="hotword">
+     <!--#CMS_MODULE(特殊频道3-热搜词)#-->
+  </div>
+  </form>
+  </div>
+</div>
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+     <div class="global-news">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头2)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+             
+               <!--#CMS_MODULE(特殊频道3-大图要闻1)#-->              
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表1)#-->           
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表1)#-->
+          </div>
+       </div>
+     </div>
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头3)#-->           
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻2)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表2)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表2)#-->
+          </div>
+       </div>
+     </div>
+     
+
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头4)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻3)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表3)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表3)#-->
+          </div>
+       </div>
+     </div>
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+</body>
+</html>
+";i:4;s:6491:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script src="http://pic.v1.cn/cms/special_channel3/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道3-logo背景)#-->
+  </div>
+   <div class="searchBox">
+   <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+   <input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+   <button class="search" type="submit" id="searchBut">搜 索</button>
+    <div class="searchTitle">热搜词：</div>
+   <div class="hotword">
+     <!--#CMS_MODULE(特殊频道3-热搜词)#-->
+  </div>
+  </form>
+  </div>
+</div>
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+     
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+</body>
+</html>
+";i:5;s:7032:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script src="http://pic.v1.cn/cms/special_channel3/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道3-logo背景)#-->
+  </div>
+   <div class="searchBox">
+   <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+   <input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+   <button class="search" type="submit" id="searchBut">搜 索</button>
+    <div class="searchTitle">热搜词：</div>
+   <div class="hotword">
+     <!--#CMS_MODULE(特殊频道3-热搜词)#-->
+  </div>
+  </form>
+  </div>
+</div>
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+     <div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头3)#-->           
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻2)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表2)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表2)#-->
+          </div>
+       </div>
+     </div>
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+</body>
+</html>
+";i:6;s:7046:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script src="http://pic.v1.cn/cms/special_channel3/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道3-logo背景)#-->
+  </div>
+   <div class="searchBox">
+   <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+   <input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+   <button class="search" type="submit" id="searchBut">搜 索</button>
+    <div class="searchTitle">热搜词：</div>
+   <div class="hotword">
+     <!--#CMS_MODULE(特殊频道3-热搜词)#-->
+  </div>
+  </form>
+  </div>
+</div>
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+<div class="global-news">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头2)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+             
+               <!--#CMS_MODULE(特殊频道3-大图要闻1)#-->              
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表1)#-->           
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表1)#-->
+          </div>
+       </div>
+     </div>
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+</body>
+</html>
+";i:7;s:7568:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script src="http://pic.v1.cn/cms/special_channel3/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道3-logo背景)#-->
+  </div>
+   <div class="searchBox">
+   <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+   <input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+   <button class="search" type="submit" id="searchBut">搜 索</button>
+    <div class="searchTitle">热搜词：</div>
+   <div class="hotword">
+     <!--#CMS_MODULE(特殊频道3-热搜词)#-->
+  </div>
+  </form>
+  </div>
+</div>
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头3)#-->           
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻2)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表2)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表2)#-->
+          </div>
+       </div>
+     </div>
+     
+
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头4)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻3)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表3)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表3)#-->
+          </div>
+       </div>
+     </div>
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+</body>
+</html>
+";i:8;s:8138:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script src="http://pic.v1.cn/cms/special_channel3/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道3-logo背景)#-->
+  </div>
+   <div class="searchBox">
+   <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+   <input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+   <button class="search" type="submit" id="searchBut">搜 索</button>
+    <div class="searchTitle">热搜词：</div>
+   <div class="hotword">
+     <!--#CMS_MODULE(特殊频道3-热搜词)#-->
+  </div>
+  </form>
+  </div>
+</div>
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+<div class="global-news  clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头2)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+             
+               <!--#CMS_MODULE(特殊频道3-大图要闻1)#-->              
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表1)#-->           
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表1)#-->
+          </div>
+       </div>
+     </div>
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头3)#-->           
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻2)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表2)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表2)#-->
+          </div>
+       </div>
+     </div>
+     
+
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头4)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻3)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表3)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表3)#-->
+          </div>
+       </div>
+     </div>
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+</body>
+</html>
+";i:9;s:8203:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script src="http://pic.v1.cn/cms/special_channel3/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道3-logo背景)#-->
+  </div>
+   <div class="searchBox">
+   <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+   <input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+   <button class="search" type="submit" id="searchBut">搜 索</button>
+    <div class="searchTitle">热搜词：</div>
+   <div class="hotword">
+     <!--#CMS_MODULE(特殊频道3-热搜词)#-->
+  </div>
+  </form>
+  </div>
+</div>
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+  <div class="ad-250 left">
+<!--#CMS_MODULE(code003)#-->
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+<div class="global-news  clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头2)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+             
+               <!--#CMS_MODULE(特殊频道3-大图要闻1)#-->              
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表1)#-->           
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表1)#-->
+          </div>
+       </div>
+     </div>
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头3)#-->           
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻2)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表2)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表2)#-->
+          </div>
+       </div>
+     </div>
+     
+
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头4)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻3)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表3)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表3)#-->
+          </div>
+       </div>
+     </div>
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+</body>
+</html>
+";i:10;s:9234:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script src="http://pic.v1.cn/cms/special_channel3/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道3-logo背景)#-->
+  </div>
+   <div class="searchBox">
+   <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+   <input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+   <button class="search" type="submit" id="searchBut">搜 索</button>
+    <div class="searchTitle">热搜词：</div>
+   <div class="hotword">
+     <!--#CMS_MODULE(特殊频道3-热搜词)#-->
+  </div>
+  </form>
+  </div>
+</div>
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+  <div class="ad-250 left">
+<!--#CMS_MODULE(code003)#-->
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+<div class="global-news  clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头2)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+             
+               <!--#CMS_MODULE(特殊频道3-大图要闻1)#-->              
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表1)#-->           
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表1)#-->
+          </div>
+       </div>
+     </div>
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头3)#-->           
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻2)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表2)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表2)#-->
+          </div>
+       </div>
+     </div>
+     
+
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头4)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻3)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表3)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表3)#-->
+          </div>
+       </div>
+     </div>
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+
+<!----测试用------>
+<style>
+#cnzz_stat_icon_4992481 {
+    display:none;
+}
+</style>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_4992481'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s21.cnzz.com/stat.php%3Fid%3D4992481%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+
+<!----测试用end------>
+
+</body>
+</html>
+";i:11;s:9233:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script src="http://pic.v1.cn/cms/special_channel3/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道3-logo背景)#-->
+  </div>
+   <div class="searchBox">
+   <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+   <input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+   <button class="search" type="submit" id="searchBut">搜 索</button>
+    <div class="searchTitle">热搜词：</div>
+   <div class="hotword">
+     <!--#CMS_MODULE(特殊频道3-热搜词)#-->
+  </div>
+  </form>
+  </div>
+</div>
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+  <div class="ad-250 left">
+<!--#CMS_MODULE(code003)#-->
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+<div class="global-news  clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头2)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+             
+               <!--#CMS_MODULE(特殊频道3-大图要闻1)#-->              
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表1)#-->           
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表1)#-->
+          </div>
+       </div>
+     </div>
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头3)#-->           
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻2)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表2)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表2)#-->
+          </div>
+       </div>
+     </div>
+     
+
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头4)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻3)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表3)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表3)#-->
+          </div>
+       </div>
+     </div>
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+
+<!----测试用------>
+<style>
+#cnzz_stat_icon_4992481 {
+    display:none;
+}
+</style>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=auto&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_4992481'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s21.cnzz.com/stat.php%3Fid%3D4992481%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+
+<!----测试用end------>
+
+</body>
+</html>
+";i:12;s:8840:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script src="http://pic.v1.cn/cms/special_channel3/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道3-logo背景)#-->
+  </div>
+   <div class="searchBox">
+   <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+   <input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+   <button class="search" type="submit" id="searchBut">搜 索</button>
+    <div class="searchTitle">热搜词：</div>
+   <div class="hotword">
+     <!--#CMS_MODULE(特殊频道3-热搜词)#-->
+  </div>
+  </form>
+  </div>
+</div>
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+  <div class="ad-250 left">
+<!--#CMS_MODULE(code003)#-->
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+<div class="global-news  clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头2)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+             
+               <!--#CMS_MODULE(特殊频道3-大图要闻1)#-->              
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表1)#-->           
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表1)#-->
+          </div>
+       </div>
+     </div>
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头3)#-->           
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻2)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表2)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表2)#-->
+          </div>
+       </div>
+     </div>
+     
+
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头4)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻3)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表3)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表3)#-->
+          </div>
+       </div>
+     </div>
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=auto&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+
+<!----v1统计代码end------>
+
+</body>
+</html>
+";i:13;s:8935:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script src="http://pic.v1.cn/cms/special_channel3/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道3-logo背景)#-->
+  </div>
+   <div class="searchBox">
+   <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+   <input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+   <button class="search" type="submit" id="searchBut">搜 索</button>
+    <div class="searchTitle">热搜词：</div>
+   <div class="hotword">
+     <!--#CMS_MODULE(特殊频道3-热搜词)#-->
+  </div>
+  </form>
+  </div>
+</div>
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+  <div class="ad-250 left">
+<!--#CMS_MODULE(code003)#-->
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+<div class="global-news  clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头2)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+             
+               <!--#CMS_MODULE(特殊频道3-大图要闻1)#-->              
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表1)#-->           
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表1)#-->
+          </div>
+       </div>
+     </div>
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头3)#-->           
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻2)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表2)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表2)#-->
+          </div>
+       </div>
+     </div>
+     
+
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头4)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻3)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表3)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表3)#-->
+          </div>
+       </div>
+     </div>
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=auto&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+
+<!----v1统计代码end------>
+
+</body>
+</html>
+";i:14;s:9082:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+  <div class="ad-250 left">
+<!--#CMS_MODULE(code003)#-->
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+<div class="global-news  clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头2)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+             
+               <!--#CMS_MODULE(特殊频道3-大图要闻1)#-->              
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表1)#-->           
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表1)#-->
+          </div>
+       </div>
+     </div>
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头3)#-->           
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻2)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表2)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表2)#-->
+          </div>
+       </div>
+     </div>
+     
+
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头4)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻3)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表3)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表3)#-->
+          </div>
+       </div>
+     </div>
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/foot_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=auto&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+
+<!----v1统计代码end------>
+
+</body>
+</html>
+";i:15;s:8981:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+  <div class="ad-250 left">
+<!--#CMS_MODULE(code003)#-->
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+<div class="global-news  clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头2)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+             
+               <!--#CMS_MODULE(特殊频道3-大图要闻1)#-->              
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表1)#-->           
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表1)#-->
+          </div>
+       </div>
+     </div>
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头3)#-->           
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻2)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表2)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表2)#-->
+          </div>
+       </div>
+     </div>
+     
+
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头4)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻3)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表3)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表3)#-->
+          </div>
+       </div>
+     </div>
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/foot_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=auto&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+
+<!----v1统计代码end------>
+
+</body>
+</html>
+";i:16;s:8785:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+
+
+
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+  <div class="ad-250 left">
+<!--#CMS_MODULE(code003)#-->
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+<div class="global-news  clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头2)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+             
+               <!--#CMS_MODULE(特殊频道3-大图要闻1)#-->              
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表1)#-->           
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表1)#-->
+          </div>
+       </div>
+     </div>
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头3)#-->           
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻2)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表2)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表2)#-->
+          </div>
+       </div>
+     </div>
+     
+
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头4)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻3)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表3)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表3)#-->
+          </div>
+       </div>
+     </div>
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/foot_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=auto&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+
+<!----v1统计代码end------>
+
+</body>
+</html>
+";i:17;s:8780:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+
+
+
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+  <div class="ad-250 left">
+<!--#CMS_MODULE(code003)#-->
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+<div class="global-news  clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头2)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+             
+               <!--#CMS_MODULE(特殊频道3-大图要闻1)#-->              
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表1)#-->           
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表1)#-->
+          </div>
+       </div>
+     </div>
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头3)#-->           
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻2)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表2)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表2)#-->
+          </div>
+       </div>
+     </div>
+     
+
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头4)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻3)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表3)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表3)#-->
+          </div>
+       </div>
+     </div>
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/foot_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=auto&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+
+<!----v1统计代码end------>
+
+</body>
+</html>
+";i:18;s:8873:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+
+
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+  <div class="ad-250 left">
+<!--#CMS_MODULE(code003)#-->
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+<div class="global-news  clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头2)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+             
+               <!--#CMS_MODULE(特殊频道3-大图要闻1)#-->              
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表1)#-->           
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表1)#-->
+          </div>
+       </div>
+     </div>
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头3)#-->           
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻2)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表2)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表2)#-->
+          </div>
+       </div>
+     </div>
+     
+
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头4)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻3)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表3)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表3)#-->
+          </div>
+       </div>
+     </div>
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/foot_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=auto&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+
+<!----v1统计代码end------>
+
+</body>
+</html>
+";i:19;s:8919:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/special_channel3/css/style-auto.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel3/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+      headerGetUser();
+  });
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+
+
+
+</head>
+
+<body>
+<!--#CMS_MODULE(code002)#-->
+
+<!--#CMS_MODULE(特殊频道3-导航)#-->
+<div style="width:1000px;margin:0 auto;"><iframe width="960" scrolling="No" height="210" frameborder="0" style="margin-left:20px;" src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&amp;color=blue&amp;size=960"></iframe></div>
+
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+         <!--#CMS_MODULE(特殊频道3-焦点图切换)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="ed-recom left">
+     <span>
+     <!--#CMS_MODULE(特殊频道3-左栏头1)#-->
+     </span>
+     <!--#CMS_MODULE(特殊频道3-编辑推荐)#-->
+  </div>
+  <div class="ad-250 left">
+<!--#CMS_MODULE(code003)#-->
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+  <div class="left">
+<div class="global-news  clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头2)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+             
+               <!--#CMS_MODULE(特殊频道3-大图要闻1)#-->              
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表1)#-->           
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表1)#-->
+          </div>
+       </div>
+     </div>
+     <div class="ad-720-1">
+       <!--#CMS_MODULE(code004)#-->
+     </div>
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头3)#-->           
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻2)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表2)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表2)#-->
+          </div>
+       </div>
+     </div>
+     
+
+<div class="global-news clearfix">
+       <div class="top">
+          <div></div>
+            <!--#CMS_MODULE(特殊频道3-左栏头4)#-->
+       </div>
+       <div class="bottom-con">
+          <div class="left">
+               <!--#CMS_MODULE(特殊频道3-大图要闻3)#-->
+               <!--#CMS_MODULE(特殊频道3-左侧文字列表3)#--> 
+          </div>
+          <div class="spic-ls left">
+              <!--#CMS_MODULE(特殊频道3-左侧6图文列表3)#-->
+          </div>
+       </div>
+     </div>
+          <div class="ad-720">
+       <!--#CMS_MODULE(code005)#-->
+     </div>
+     
+  </div>
+  <div class=" right-con left">
+      <div class="right-block clearfix">        
+           <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头1)#--></span>
+           <!--#CMS_MODULE(特殊频道3-实用工具)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头2)#--></span>
+         <div class="application clearfix">
+            <!--#CMS_MODULE(特殊频道3-应用)#-->
+         </div>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头3)#--></span>
+         <!--#CMS_MODULE(code001)#-->
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头4)#--></span>
+           <!--#CMS_MODULE(特殊频道3-汽车答疑)#-->
+         <span class="more-help">更多帮助内容请[<a href="http://ask.cheshi.com/" target="_blank">查看这里</a>]</span>
+      </div>
+      <div class="right-block clearfix">
+         <span class="title"><!--#CMS_MODULE(特殊频道3-右栏头5)#--></span>
+         <ul class="zxsc clearfix">
+         <!--#CMS_MODULE(特殊频道3-最新上传)#-->
+         </ul>
+      </div>
+  </div>
+</div>
+
+<div class="wrapBox1000 xcmv clearfix">
+   <!--#CMS_MODULE(特殊频道3-香车美女)#-->
+</div>
+
+<div style="margin:0 auto 20px;width:1000px;"><iframe width="960px" scrolling="No" height="372px" frameborder="0" style="margin:0 20px;" src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn"></iframe></div>
+<!--#CMS_MODULE(code006)#-->
+<!--ssi#include virtual="/ssi/foot_common.html"-->
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=20)",opacity:"0.20"});
+								}
+								);	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px 2px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/special_channel3/images/icon-tab.png) no-repeat -357px -59px",color:"#eeeeee"});
+								}
+								);
+		$(".xcmv ul li").hover( 
+							function(){
+						$(this).find("span").css({bottom:"0px",left:"0px"});
+						$(this).find("div").css({bottom:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css({bottom:"-25px",left:"0px"});
+						$(this).find("div").css({bottom:"-25px",left:"0px"});
+								}
+								);
+			
+			})
+  
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=auto&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+
+<!----v1统计代码end------>
+
+</body>
+</html>
+";}

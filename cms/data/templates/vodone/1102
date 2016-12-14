@@ -1,0 +1,3899 @@
+a:20:{i:0;s:11731:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent;if(userAgent.match(/Android/i) || userAgent.indexOf('iPod') !== -1 || userAgent.indexOf('iPad') !== -1 || userAgent.indexOf('iPhone') !== -1){location.href=location.href.replace('www.','m.');}
+
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<!--ssi#include virtual="/ssi/cont/globalfun.shtml"-->
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static/js/content.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player.config.sort="{$sort}";
+</script>
+
+</head>
+<body>
+
+<!--ssi#include virtual="/ssi/cont/navtop.shtml"-->
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code004)#-->
+
+   
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>视频新闻浏览</h1></div>
+      <div class="box01_fl"><img src="images/box01.jpg" /></div>
+      <div class="box01_fr">第一时间呈现全球最震撼新闻现场， 支持本地观看，一键下载20个最新头条，用户可根据喜好自主定制组 合感兴趣的资讯。</div>
+   </div>
+</div>
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>拍摄剪辑，美好点滴</h1></div>
+      <div class="box02_fl">打造好玩的拍摄体验，在提供多种滤镜和精美主题拍摄视频的同时，还提供了视频在线编辑和剪辑功能，能一步到位快速制作各种微视频。</div>
+      <div class="box02_fr"><img src="images/box02.jpg" /></div>
+   </div>
+</div> 
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>随时随地分享感动</h1></div>
+      <div class="box01_fl"><img src="images/box03.jpg" /></div>
+      <div class="box01_fr">用户可随手拍视频，记录身边新鲜事，快速上传，第一时间与他人分享互动，获得其他用户的点赞、跟帖及关注，并可一键分享至微博微信等社交工具。</div>
+   </div>
+</div>
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>在身边，讲述生活</h1></div>
+      <div class="box02_fl">提供基于共同的兴趣爱好的身边拍客社区平台，用户可查看身边最新发生的新鲜视频，并可随时随地定位查看全国各地的新鲜事儿，为用户打造多功能移动视频社交平台，让发现随时！用V1拍改变生活！</div>
+      <div class="box02_fr"><img src="images/box04.jpg" /></div>
+   </div>
+</div>    
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>精彩推荐</h1></div>
+      <div class="List_box">
+         <div id="scr_pre" class="scr_pre"><a href="javascript:void(0);"></a></div>
+            <div class="List" id="content">
+ 
+                  <ul class="photolist" id="content_list">
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+					<li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>			
+                  </ul>
+            
+            </div>
+         <div id="scr_next" class="scr_next"><a href="javascript:void(0);"></a></div>
+      </div>
+   </div>
+</div> 
+
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+
+
+<div class="wrap clearfix mT20">
+   <div class="w1000"> 
+      <div class="lxwm">
+       <div class="fl">
+       联系我们：<br/>
+       商务合作QQ：2090291195<br/>
+       商户合作：xuym@ifeng.com<br/>
+       第一视频V1拍QQ群(一起扎堆吐槽、拍微视频): <br/>
+       300030082(已满)    164509708<br/>
+       客服邮箱：videoapp.feedback@ifeng.com<br/>
+       产品合作：lijun1@ifeng.com
+       </div>
+       <div class="fr">
+       关于我们：<br/>
+       微信账号：v1v1v1<br/>
+       新浪微博账号：第一视频客户端<br/>
+       腾讯微博账号：第一视频客户端
+       </div>
+      </div>
+   </div>
+</div>
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:1;s:11755:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent;if(userAgent.match(/Android/i) || userAgent.indexOf('iPod') !== -1 || userAgent.indexOf('iPad') !== -1 || userAgent.indexOf('iPhone') !== -1){location.href=location.href.replace('www.','m.');}
+
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<!--ssi#include virtual="/ssi/cont/globalfun.shtml"-->
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static/js/content.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player.config.sort="{$sort}";
+</script>
+
+</head>
+<body>
+
+<!--ssi#include virtual="/ssi/cont/navtop.shtml"-->
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+<!--#CMS_MODULE(频道code003)#-->
+<!--#CMS_MODULE(频道code004)#-->
+
+   
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>视频新闻浏览</h1></div>
+      <div class="box01_fl"><img src="images/box01.jpg" /></div>
+      <div class="box01_fr">第一时间呈现全球最震撼新闻现场， 支持本地观看，一键下载20个最新头条，用户可根据喜好自主定制组 合感兴趣的资讯。</div>
+   </div>
+</div>
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>拍摄剪辑，美好点滴</h1></div>
+      <div class="box02_fl">打造好玩的拍摄体验，在提供多种滤镜和精美主题拍摄视频的同时，还提供了视频在线编辑和剪辑功能，能一步到位快速制作各种微视频。</div>
+      <div class="box02_fr"><img src="images/box02.jpg" /></div>
+   </div>
+</div> 
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>随时随地分享感动</h1></div>
+      <div class="box01_fl"><img src="images/box03.jpg" /></div>
+      <div class="box01_fr">用户可随手拍视频，记录身边新鲜事，快速上传，第一时间与他人分享互动，获得其他用户的点赞、跟帖及关注，并可一键分享至微博微信等社交工具。</div>
+   </div>
+</div>
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>在身边，讲述生活</h1></div>
+      <div class="box02_fl">提供基于共同的兴趣爱好的身边拍客社区平台，用户可查看身边最新发生的新鲜视频，并可随时随地定位查看全国各地的新鲜事儿，为用户打造多功能移动视频社交平台，让发现随时！用V1拍改变生活！</div>
+      <div class="box02_fr"><img src="images/box04.jpg" /></div>
+   </div>
+</div>    
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>精彩推荐</h1></div>
+      <div class="List_box">
+         <div id="scr_pre" class="scr_pre"><a href="javascript:void(0);"></a></div>
+            <div class="List" id="content">
+ 
+                  <ul class="photolist" id="content_list">
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+					<li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>			
+                  </ul>
+            
+            </div>
+         <div id="scr_next" class="scr_next"><a href="javascript:void(0);"></a></div>
+      </div>
+   </div>
+</div> 
+
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+
+
+<div class="wrap clearfix mT20">
+   <div class="w1000"> 
+      <div class="lxwm">
+       <div class="fl">
+       联系我们：<br/>
+       商务合作QQ：2090291195<br/>
+       商户合作：xuym@ifeng.com<br/>
+       第一视频V1拍QQ群(一起扎堆吐槽、拍微视频): <br/>
+       300030082(已满)    164509708<br/>
+       客服邮箱：videoapp.feedback@ifeng.com<br/>
+       产品合作：lijun1@ifeng.com
+       </div>
+       <div class="fr">
+       关于我们：<br/>
+       微信账号：v1v1v1<br/>
+       新浪微博账号：第一视频客户端<br/>
+       腾讯微博账号：第一视频客户端
+       </div>
+      </div>
+   </div>
+</div>
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:2;s:11756:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent;if(userAgent.match(/Android/i) || userAgent.indexOf('iPod') !== -1 || userAgent.indexOf('iPad') !== -1 || userAgent.indexOf('iPhone') !== -1){location.href=location.href.replace('www.','m.');}
+
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<!--ssi#include virtual="/ssi/cont/globalfun.shtml"-->
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static/js/content.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player.config.sort="{$sort}";
+</script>
+
+</head>
+<body>
+
+<!--ssi#include virtual="/ssi/cont/navtop1.shtml"-->
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+<!--#CMS_MODULE(频道code003)#-->
+<!--#CMS_MODULE(频道code004)#-->
+
+   
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>视频新闻浏览</h1></div>
+      <div class="box01_fl"><img src="images/box01.jpg" /></div>
+      <div class="box01_fr">第一时间呈现全球最震撼新闻现场， 支持本地观看，一键下载20个最新头条，用户可根据喜好自主定制组 合感兴趣的资讯。</div>
+   </div>
+</div>
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>拍摄剪辑，美好点滴</h1></div>
+      <div class="box02_fl">打造好玩的拍摄体验，在提供多种滤镜和精美主题拍摄视频的同时，还提供了视频在线编辑和剪辑功能，能一步到位快速制作各种微视频。</div>
+      <div class="box02_fr"><img src="images/box02.jpg" /></div>
+   </div>
+</div> 
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>随时随地分享感动</h1></div>
+      <div class="box01_fl"><img src="images/box03.jpg" /></div>
+      <div class="box01_fr">用户可随手拍视频，记录身边新鲜事，快速上传，第一时间与他人分享互动，获得其他用户的点赞、跟帖及关注，并可一键分享至微博微信等社交工具。</div>
+   </div>
+</div>
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>在身边，讲述生活</h1></div>
+      <div class="box02_fl">提供基于共同的兴趣爱好的身边拍客社区平台，用户可查看身边最新发生的新鲜视频，并可随时随地定位查看全国各地的新鲜事儿，为用户打造多功能移动视频社交平台，让发现随时！用V1拍改变生活！</div>
+      <div class="box02_fr"><img src="images/box04.jpg" /></div>
+   </div>
+</div>    
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>精彩推荐</h1></div>
+      <div class="List_box">
+         <div id="scr_pre" class="scr_pre"><a href="javascript:void(0);"></a></div>
+            <div class="List" id="content">
+ 
+                  <ul class="photolist" id="content_list">
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+					<li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>			
+                  </ul>
+            
+            </div>
+         <div id="scr_next" class="scr_next"><a href="javascript:void(0);"></a></div>
+      </div>
+   </div>
+</div> 
+
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+
+
+<div class="wrap clearfix mT20">
+   <div class="w1000"> 
+      <div class="lxwm">
+       <div class="fl">
+       联系我们：<br/>
+       商务合作QQ：2090291195<br/>
+       商户合作：xuym@ifeng.com<br/>
+       第一视频V1拍QQ群(一起扎堆吐槽、拍微视频): <br/>
+       300030082(已满)    164509708<br/>
+       客服邮箱：videoapp.feedback@ifeng.com<br/>
+       产品合作：lijun1@ifeng.com
+       </div>
+       <div class="fr">
+       关于我们：<br/>
+       微信账号：v1v1v1<br/>
+       新浪微博账号：第一视频客户端<br/>
+       腾讯微博账号：第一视频客户端
+       </div>
+      </div>
+   </div>
+</div>
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:3;s:11716:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent;if(userAgent.match(/Android/i) || userAgent.indexOf('iPod') !== -1 || userAgent.indexOf('iPad') !== -1 || userAgent.indexOf('iPhone') !== -1){location.href=location.href.replace('www.','m.');}
+
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<!--ssi#include virtual="/ssi/cont/globalfun.shtml"-->
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static/js/content.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+<body>
+
+<!--ssi#include virtual="/ssi/cont/navtop.shtml"-->
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+<!--#CMS_MODULE(频道code003)#-->
+<!--#CMS_MODULE(频道code004)#-->
+
+   
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>视频新闻浏览</h1></div>
+      <div class="box01_fl"><img src="images/box01.jpg" /></div>
+      <div class="box01_fr">第一时间呈现全球最震撼新闻现场， 支持本地观看，一键下载20个最新头条，用户可根据喜好自主定制组 合感兴趣的资讯。</div>
+   </div>
+</div>
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>拍摄剪辑，美好点滴</h1></div>
+      <div class="box02_fl">打造好玩的拍摄体验，在提供多种滤镜和精美主题拍摄视频的同时，还提供了视频在线编辑和剪辑功能，能一步到位快速制作各种微视频。</div>
+      <div class="box02_fr"><img src="images/box02.jpg" /></div>
+   </div>
+</div> 
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>随时随地分享感动</h1></div>
+      <div class="box01_fl"><img src="images/box03.jpg" /></div>
+      <div class="box01_fr">用户可随手拍视频，记录身边新鲜事，快速上传，第一时间与他人分享互动，获得其他用户的点赞、跟帖及关注，并可一键分享至微博微信等社交工具。</div>
+   </div>
+</div>
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>在身边，讲述生活</h1></div>
+      <div class="box02_fl">提供基于共同的兴趣爱好的身边拍客社区平台，用户可查看身边最新发生的新鲜视频，并可随时随地定位查看全国各地的新鲜事儿，为用户打造多功能移动视频社交平台，让发现随时！用V1拍改变生活！</div>
+      <div class="box02_fr"><img src="images/box04.jpg" /></div>
+   </div>
+</div>    
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>精彩推荐</h1></div>
+      <div class="List_box">
+         <div id="scr_pre" class="scr_pre"><a href="javascript:void(0);"></a></div>
+            <div class="List" id="content">
+ 
+                  <ul class="photolist" id="content_list">
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+					<li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>			
+                  </ul>
+            
+            </div>
+         <div id="scr_next" class="scr_next"><a href="javascript:void(0);"></a></div>
+      </div>
+   </div>
+</div> 
+
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+
+
+<div class="wrap clearfix mT20">
+   <div class="w1000"> 
+      <div class="lxwm">
+       <div class="fl">
+       联系我们：<br/>
+       商务合作QQ：2090291195<br/>
+       商户合作：xuym@ifeng.com<br/>
+       第一视频V1拍QQ群(一起扎堆吐槽、拍微视频): <br/>
+       300030082(已满)    164509708<br/>
+       客服邮箱：videoapp.feedback@ifeng.com<br/>
+       产品合作：lijun1@ifeng.com
+       </div>
+       <div class="fr">
+       关于我们：<br/>
+       微信账号：v1v1v1<br/>
+       新浪微博账号：第一视频客户端<br/>
+       腾讯微博账号：第一视频客户端
+       </div>
+      </div>
+   </div>
+</div>
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:4;s:11753:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent;if(userAgent.match(/Android/i) || userAgent.indexOf('iPod') !== -1 || userAgent.indexOf('iPad') !== -1 || userAgent.indexOf('iPhone') !== -1){location.href=location.href.replace('www.','m.');}
+
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static/js/content.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+
+</head>
+<body>
+
+<!--ssi#include virtual="/ssi/cont/navtop.shtml"-->
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+<!--#CMS_MODULE(频道code003)#-->
+<!--#CMS_MODULE(频道code004)#-->
+
+   
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>视频新闻浏览</h1></div>
+      <div class="box01_fl"><img src="images/box01.jpg" /></div>
+      <div class="box01_fr">第一时间呈现全球最震撼新闻现场， 支持本地观看，一键下载20个最新头条，用户可根据喜好自主定制组 合感兴趣的资讯。</div>
+   </div>
+</div>
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>拍摄剪辑，美好点滴</h1></div>
+      <div class="box02_fl">打造好玩的拍摄体验，在提供多种滤镜和精美主题拍摄视频的同时，还提供了视频在线编辑和剪辑功能，能一步到位快速制作各种微视频。</div>
+      <div class="box02_fr"><img src="images/box02.jpg" /></div>
+   </div>
+</div> 
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>随时随地分享感动</h1></div>
+      <div class="box01_fl"><img src="images/box03.jpg" /></div>
+      <div class="box01_fr">用户可随手拍视频，记录身边新鲜事，快速上传，第一时间与他人分享互动，获得其他用户的点赞、跟帖及关注，并可一键分享至微博微信等社交工具。</div>
+   </div>
+</div>
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>在身边，讲述生活</h1></div>
+      <div class="box02_fl">提供基于共同的兴趣爱好的身边拍客社区平台，用户可查看身边最新发生的新鲜视频，并可随时随地定位查看全国各地的新鲜事儿，为用户打造多功能移动视频社交平台，让发现随时！用V1拍改变生活！</div>
+      <div class="box02_fr"><img src="images/box04.jpg" /></div>
+   </div>
+</div>    
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>精彩推荐</h1></div>
+      <div class="List_box">
+         <div id="scr_pre" class="scr_pre"><a href="javascript:void(0);"></a></div>
+            <div class="List" id="content">
+ 
+                  <ul class="photolist" id="content_list">
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+					<li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>			
+                  </ul>
+            
+            </div>
+         <div id="scr_next" class="scr_next"><a href="javascript:void(0);"></a></div>
+      </div>
+   </div>
+</div> 
+
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+
+
+<div class="wrap clearfix mT20">
+   <div class="w1000"> 
+      <div class="lxwm">
+       <div class="fl">
+       联系我们：<br/>
+       商务合作QQ：2090291195<br/>
+       商户合作：xuym@ifeng.com<br/>
+       第一视频V1拍QQ群(一起扎堆吐槽、拍微视频): <br/>
+       300030082(已满)    164509708<br/>
+       客服邮箱：videoapp.feedback@ifeng.com<br/>
+       产品合作：lijun1@ifeng.com
+       </div>
+       <div class="fr">
+       关于我们：<br/>
+       微信账号：v1v1v1<br/>
+       新浪微博账号：第一视频客户端<br/>
+       腾讯微博账号：第一视频客户端
+       </div>
+      </div>
+   </div>
+</div>
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:5;s:11785:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent;if(userAgent.match(/Android/i) || userAgent.indexOf('iPod') !== -1 || userAgent.indexOf('iPad') !== -1 || userAgent.indexOf('iPhone') !== -1){location.href=location.href.replace('www.','m.');}
+
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static/js/content.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+
+<!--ssi#include virtual="/ssi/cont/navtop.shtml"-->
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+<!--#CMS_MODULE(频道code003)#-->
+<!--#CMS_MODULE(频道code004)#-->
+
+   
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>视频新闻浏览</h1></div>
+      <div class="box01_fl"><img src="images/box01.jpg" /></div>
+      <div class="box01_fr">第一时间呈现全球最震撼新闻现场， 支持本地观看，一键下载20个最新头条，用户可根据喜好自主定制组 合感兴趣的资讯。</div>
+   </div>
+</div>
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>拍摄剪辑，美好点滴</h1></div>
+      <div class="box02_fl">打造好玩的拍摄体验，在提供多种滤镜和精美主题拍摄视频的同时，还提供了视频在线编辑和剪辑功能，能一步到位快速制作各种微视频。</div>
+      <div class="box02_fr"><img src="images/box02.jpg" /></div>
+   </div>
+</div> 
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>随时随地分享感动</h1></div>
+      <div class="box01_fl"><img src="images/box03.jpg" /></div>
+      <div class="box01_fr">用户可随手拍视频，记录身边新鲜事，快速上传，第一时间与他人分享互动，获得其他用户的点赞、跟帖及关注，并可一键分享至微博微信等社交工具。</div>
+   </div>
+</div>
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>在身边，讲述生活</h1></div>
+      <div class="box02_fl">提供基于共同的兴趣爱好的身边拍客社区平台，用户可查看身边最新发生的新鲜视频，并可随时随地定位查看全国各地的新鲜事儿，为用户打造多功能移动视频社交平台，让发现随时！用V1拍改变生活！</div>
+      <div class="box02_fr"><img src="images/box04.jpg" /></div>
+   </div>
+</div>    
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>精彩推荐</h1></div>
+      <div class="List_box">
+         <div id="scr_pre" class="scr_pre"><a href="javascript:void(0);"></a></div>
+            <div class="List" id="content">
+ 
+                  <ul class="photolist" id="content_list">
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+					<li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>			
+                  </ul>
+            
+            </div>
+         <div id="scr_next" class="scr_next"><a href="javascript:void(0);"></a></div>
+      </div>
+   </div>
+</div> 
+
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+
+
+<div class="wrap clearfix mT20">
+   <div class="w1000"> 
+      <div class="lxwm">
+       <div class="fl">
+       联系我们：<br/>
+       商务合作QQ：2090291195<br/>
+       商户合作：xuym@ifeng.com<br/>
+       第一视频V1拍QQ群(一起扎堆吐槽、拍微视频): <br/>
+       300030082(已满)    164509708<br/>
+       客服邮箱：videoapp.feedback@ifeng.com<br/>
+       产品合作：lijun1@ifeng.com
+       </div>
+       <div class="fr">
+       关于我们：<br/>
+       微信账号：v1v1v1<br/>
+       新浪微博账号：第一视频客户端<br/>
+       腾讯微博账号：第一视频客户端
+       </div>
+      </div>
+   </div>
+</div>
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:6;s:11693:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent;if(userAgent.match(/Android/i) || userAgent.indexOf('iPod') !== -1 || userAgent.indexOf('iPad') !== -1 || userAgent.indexOf('iPhone') !== -1){location.href=location.href.replace('www.','m.');}
+
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+
+<!--ssi#include virtual="/ssi/cont/navtop.shtml"-->
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+<!--#CMS_MODULE(频道code003)#-->
+<!--#CMS_MODULE(频道code004)#-->
+
+   
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>视频新闻浏览</h1></div>
+      <div class="box01_fl"><img src="images/box01.jpg" /></div>
+      <div class="box01_fr">第一时间呈现全球最震撼新闻现场， 支持本地观看，一键下载20个最新头条，用户可根据喜好自主定制组 合感兴趣的资讯。</div>
+   </div>
+</div>
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>拍摄剪辑，美好点滴</h1></div>
+      <div class="box02_fl">打造好玩的拍摄体验，在提供多种滤镜和精美主题拍摄视频的同时，还提供了视频在线编辑和剪辑功能，能一步到位快速制作各种微视频。</div>
+      <div class="box02_fr"><img src="images/box02.jpg" /></div>
+   </div>
+</div> 
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>随时随地分享感动</h1></div>
+      <div class="box01_fl"><img src="images/box03.jpg" /></div>
+      <div class="box01_fr">用户可随手拍视频，记录身边新鲜事，快速上传，第一时间与他人分享互动，获得其他用户的点赞、跟帖及关注，并可一键分享至微博微信等社交工具。</div>
+   </div>
+</div>
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>在身边，讲述生活</h1></div>
+      <div class="box02_fl">提供基于共同的兴趣爱好的身边拍客社区平台，用户可查看身边最新发生的新鲜视频，并可随时随地定位查看全国各地的新鲜事儿，为用户打造多功能移动视频社交平台，让发现随时！用V1拍改变生活！</div>
+      <div class="box02_fr"><img src="images/box04.jpg" /></div>
+   </div>
+</div>    
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>精彩推荐</h1></div>
+      <div class="List_box">
+         <div id="scr_pre" class="scr_pre"><a href="javascript:void(0);"></a></div>
+            <div class="List" id="content">
+ 
+                  <ul class="photolist" id="content_list">
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+					<li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>			
+                  </ul>
+            
+            </div>
+         <div id="scr_next" class="scr_next"><a href="javascript:void(0);"></a></div>
+      </div>
+   </div>
+</div> 
+
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+
+
+<div class="wrap clearfix mT20">
+   <div class="w1000"> 
+      <div class="lxwm">
+       <div class="fl">
+       联系我们：<br/>
+       商务合作QQ：2090291195<br/>
+       商户合作：xuym@ifeng.com<br/>
+       第一视频V1拍QQ群(一起扎堆吐槽、拍微视频): <br/>
+       300030082(已满)    164509708<br/>
+       客服邮箱：videoapp.feedback@ifeng.com<br/>
+       产品合作：lijun1@ifeng.com
+       </div>
+       <div class="fr">
+       关于我们：<br/>
+       微信账号：v1v1v1<br/>
+       新浪微博账号：第一视频客户端<br/>
+       腾讯微博账号：第一视频客户端
+       </div>
+      </div>
+   </div>
+</div>
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:7;s:11739:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent;if(userAgent.match(/Android/i) || userAgent.indexOf('iPod') !== -1 || userAgent.indexOf('iPad') !== -1 || userAgent.indexOf('iPhone') !== -1){location.href=location.href.replace('www.','m.');}
+
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+
+<!--ssi#include virtual="/ssi/cont/navtop.shtml"-->
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+<!--#CMS_MODULE(频道code003)#-->
+<!--#CMS_MODULE(频道code004)#-->
+
+   
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>视频新闻浏览</h1></div>
+      <div class="box01_fl"><img src="images/box01.jpg" /></div>
+      <div class="box01_fr">第一时间呈现全球最震撼新闻现场， 支持本地观看，一键下载20个最新头条，用户可根据喜好自主定制组 合感兴趣的资讯。</div>
+   </div>
+</div>
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>拍摄剪辑，美好点滴</h1></div>
+      <div class="box02_fl">打造好玩的拍摄体验，在提供多种滤镜和精美主题拍摄视频的同时，还提供了视频在线编辑和剪辑功能，能一步到位快速制作各种微视频。</div>
+      <div class="box02_fr"><img src="images/box02.jpg" /></div>
+   </div>
+</div> 
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>随时随地分享感动</h1></div>
+      <div class="box01_fl"><img src="images/box03.jpg" /></div>
+      <div class="box01_fr">用户可随手拍视频，记录身边新鲜事，快速上传，第一时间与他人分享互动，获得其他用户的点赞、跟帖及关注，并可一键分享至微博微信等社交工具。</div>
+   </div>
+</div>
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>在身边，讲述生活</h1></div>
+      <div class="box02_fl">提供基于共同的兴趣爱好的身边拍客社区平台，用户可查看身边最新发生的新鲜视频，并可随时随地定位查看全国各地的新鲜事儿，为用户打造多功能移动视频社交平台，让发现随时！用V1拍改变生活！</div>
+      <div class="box02_fr"><img src="images/box04.jpg" /></div>
+   </div>
+</div>    
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>精彩推荐</h1></div>
+      <div class="List_box">
+         <div id="scr_pre" class="scr_pre"><a href="javascript:void(0);"></a></div>
+            <div class="List" id="content">
+ 
+                  <ul class="photolist" id="content_list">
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+					<li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>			
+                  </ul>
+            
+            </div>
+         <div id="scr_next" class="scr_next"><a href="javascript:void(0);"></a></div>
+      </div>
+   </div>
+</div> 
+
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+
+
+<div class="wrap clearfix mT20">
+   <div class="w1000"> 
+      <div class="lxwm">
+       <div class="fl">
+       联系我们：<br/>
+       商务合作QQ：2090291195<br/>
+       商户合作：xuym@ifeng.com<br/>
+       第一视频V1拍QQ群(一起扎堆吐槽、拍微视频): <br/>
+       300030082(已满)    164509708<br/>
+       客服邮箱：videoapp.feedback@ifeng.com<br/>
+       产品合作：lijun1@ifeng.com
+       </div>
+       <div class="fr">
+       关于我们：<br/>
+       微信账号：v1v1v1<br/>
+       新浪微博账号：第一视频客户端<br/>
+       腾讯微博账号：第一视频客户端
+       </div>
+      </div>
+   </div>
+</div>
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:8;s:11332:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent;if(userAgent.match(/Android/i) || userAgent.indexOf('iPod') !== -1 || userAgent.indexOf('iPad') !== -1 || userAgent.indexOf('iPhone') !== -1){location.href=location.href.replace('www.','m.');}
+
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+
+<!--ssi#include virtual="/ssi/cont/navtop.shtml"-->
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+<!--#CMS_MODULE(频道code003)#-->
+<!--#CMS_MODULE(频道code004)#-->
+
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>拍摄剪辑，美好点滴</h1></div>
+      <div class="box02_fl">打造好玩的拍摄体验，在提供多种滤镜和精美主题拍摄视频的同时，还提供了视频在线编辑和剪辑功能，能一步到位快速制作各种微视频。</div>
+      <div class="box02_fr"><img src="images/box02.jpg" /></div>
+   </div>
+</div> 
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>随时随地分享感动</h1></div>
+      <div class="box01_fl"><img src="images/box03.jpg" /></div>
+      <div class="box01_fr">用户可随手拍视频，记录身边新鲜事，快速上传，第一时间与他人分享互动，获得其他用户的点赞、跟帖及关注，并可一键分享至微博微信等社交工具。</div>
+   </div>
+</div>
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>在身边，讲述生活</h1></div>
+      <div class="box02_fl">提供基于共同的兴趣爱好的身边拍客社区平台，用户可查看身边最新发生的新鲜视频，并可随时随地定位查看全国各地的新鲜事儿，为用户打造多功能移动视频社交平台，让发现随时！用V1拍改变生活！</div>
+      <div class="box02_fr"><img src="images/box04.jpg" /></div>
+   </div>
+</div>    
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>精彩推荐</h1></div>
+      <div class="List_box">
+         <div id="scr_pre" class="scr_pre"><a href="javascript:void(0);"></a></div>
+            <div class="List" id="content">
+ 
+                  <ul class="photolist" id="content_list">
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+					<li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>			
+                  </ul>
+            
+            </div>
+         <div id="scr_next" class="scr_next"><a href="javascript:void(0);"></a></div>
+      </div>
+   </div>
+</div> 
+
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+
+
+<div class="wrap clearfix mT20">
+   <div class="w1000"> 
+      <div class="lxwm">
+       <div class="fl">
+       联系我们：<br/>
+       商务合作QQ：2090291195<br/>
+       商户合作：xuym@ifeng.com<br/>
+       第一视频V1拍QQ群(一起扎堆吐槽、拍微视频): <br/>
+       300030082(已满)    164509708<br/>
+       客服邮箱：videoapp.feedback@ifeng.com<br/>
+       产品合作：lijun1@ifeng.com
+       </div>
+       <div class="fr">
+       关于我们：<br/>
+       微信账号：v1v1v1<br/>
+       新浪微博账号：第一视频客户端<br/>
+       腾讯微博账号：第一视频客户端
+       </div>
+      </div>
+   </div>
+</div>
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:9;s:10900:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent;if(userAgent.match(/Android/i) || userAgent.indexOf('iPod') !== -1 || userAgent.indexOf('iPad') !== -1 || userAgent.indexOf('iPhone') !== -1){location.href=location.href.replace('www.','m.');}
+
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+
+<!--ssi#include virtual="/ssi/cont/navtop.shtml"-->
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+<!--#CMS_MODULE(频道code003)#-->
+<!--#CMS_MODULE(频道code004)#-->
+
+
+
+
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>随时随地分享感动</h1></div>
+      <div class="box01_fl"><img src="images/box03.jpg" /></div>
+      <div class="box01_fr">用户可随手拍视频，记录身边新鲜事，快速上传，第一时间与他人分享互动，获得其他用户的点赞、跟帖及关注，并可一键分享至微博微信等社交工具。</div>
+   </div>
+</div>
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>在身边，讲述生活</h1></div>
+      <div class="box02_fl">提供基于共同的兴趣爱好的身边拍客社区平台，用户可查看身边最新发生的新鲜视频，并可随时随地定位查看全国各地的新鲜事儿，为用户打造多功能移动视频社交平台，让发现随时！用V1拍改变生活！</div>
+      <div class="box02_fr"><img src="images/box04.jpg" /></div>
+   </div>
+</div>    
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>精彩推荐</h1></div>
+      <div class="List_box">
+         <div id="scr_pre" class="scr_pre"><a href="javascript:void(0);"></a></div>
+            <div class="List" id="content">
+ 
+                  <ul class="photolist" id="content_list">
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+					<li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>			
+                  </ul>
+            
+            </div>
+         <div id="scr_next" class="scr_next"><a href="javascript:void(0);"></a></div>
+      </div>
+   </div>
+</div> 
+
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+
+
+<div class="wrap clearfix mT20">
+   <div class="w1000"> 
+      <div class="lxwm">
+       <div class="fl">
+       联系我们：<br/>
+       商务合作QQ：2090291195<br/>
+       商户合作：xuym@ifeng.com<br/>
+       第一视频V1拍QQ群(一起扎堆吐槽、拍微视频): <br/>
+       300030082(已满)    164509708<br/>
+       客服邮箱：videoapp.feedback@ifeng.com<br/>
+       产品合作：lijun1@ifeng.com
+       </div>
+       <div class="fr">
+       关于我们：<br/>
+       微信账号：v1v1v1<br/>
+       新浪微博账号：第一视频客户端<br/>
+       腾讯微博账号：第一视频客户端
+       </div>
+      </div>
+   </div>
+</div>
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:10;s:10454:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent;if(userAgent.match(/Android/i) || userAgent.indexOf('iPod') !== -1 || userAgent.indexOf('iPad') !== -1 || userAgent.indexOf('iPhone') !== -1){location.href=location.href.replace('www.','m.');}
+
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+
+<!--ssi#include virtual="/ssi/cont/navtop.shtml"-->
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+<!--#CMS_MODULE(频道code003)#-->
+<!--#CMS_MODULE(频道code004)#-->
+
+
+
+
+
+
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>在身边，讲述生活</h1></div>
+      <div class="box02_fl">提供基于共同的兴趣爱好的身边拍客社区平台，用户可查看身边最新发生的新鲜视频，并可随时随地定位查看全国各地的新鲜事儿，为用户打造多功能移动视频社交平台，让发现随时！用V1拍改变生活！</div>
+      <div class="box02_fr"><img src="images/box04.jpg" /></div>
+   </div>
+</div>    
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>精彩推荐</h1></div>
+      <div class="List_box">
+         <div id="scr_pre" class="scr_pre"><a href="javascript:void(0);"></a></div>
+            <div class="List" id="content">
+ 
+                  <ul class="photolist" id="content_list">
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+					<li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>			
+                  </ul>
+            
+            </div>
+         <div id="scr_next" class="scr_next"><a href="javascript:void(0);"></a></div>
+      </div>
+   </div>
+</div> 
+
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+
+
+<div class="wrap clearfix mT20">
+   <div class="w1000"> 
+      <div class="lxwm">
+       <div class="fl">
+       联系我们：<br/>
+       商务合作QQ：2090291195<br/>
+       商户合作：xuym@ifeng.com<br/>
+       第一视频V1拍QQ群(一起扎堆吐槽、拍微视频): <br/>
+       300030082(已满)    164509708<br/>
+       客服邮箱：videoapp.feedback@ifeng.com<br/>
+       产品合作：lijun1@ifeng.com
+       </div>
+       <div class="fr">
+       关于我们：<br/>
+       微信账号：v1v1v1<br/>
+       新浪微博账号：第一视频客户端<br/>
+       腾讯微博账号：第一视频客户端
+       </div>
+      </div>
+   </div>
+</div>
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:11;s:9975:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent;if(userAgent.match(/Android/i) || userAgent.indexOf('iPod') !== -1 || userAgent.indexOf('iPad') !== -1 || userAgent.indexOf('iPhone') !== -1){location.href=location.href.replace('www.','m.');}
+
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+
+<!--ssi#include virtual="/ssi/cont/navtop.shtml"-->
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+<!--#CMS_MODULE(频道code003)#-->
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道code005)#-->
+
+
+
+
+
+
+
+
+
+
+
+<div class="wrap clearfix mT50">
+   <div class="w1000">  
+      <div class="title"><h1>精彩推荐</h1></div>
+      <div class="List_box">
+         <div id="scr_pre" class="scr_pre"><a href="javascript:void(0);"></a></div>
+            <div class="List" id="content">
+ 
+                  <ul class="photolist" id="content_list">
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+					<li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/1.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频"  src="images/2.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>
+                     <li>
+                        <a target="_blank" href="#"><img title="第一视频" alt="第一视频" src="images/3.png"></a>
+                        <p><a target="_blank" href="#">第一视频</a></p>
+                     </li>			
+                  </ul>
+            
+            </div>
+         <div id="scr_next" class="scr_next"><a href="javascript:void(0);"></a></div>
+      </div>
+   </div>
+</div> 
+
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+
+
+<div class="wrap clearfix mT20">
+   <div class="w1000"> 
+      <div class="lxwm">
+       <div class="fl">
+       联系我们：<br/>
+       商务合作QQ：2090291195<br/>
+       商户合作：xuym@ifeng.com<br/>
+       第一视频V1拍QQ群(一起扎堆吐槽、拍微视频): <br/>
+       300030082(已满)    164509708<br/>
+       客服邮箱：videoapp.feedback@ifeng.com<br/>
+       产品合作：lijun1@ifeng.com
+       </div>
+       <div class="fr">
+       关于我们：<br/>
+       微信账号：v1v1v1<br/>
+       新浪微博账号：第一视频客户端<br/>
+       腾讯微博账号：第一视频客户端
+       </div>
+      </div>
+   </div>
+</div>
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:12;s:6431:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent;if(userAgent.match(/Android/i) || userAgent.indexOf('iPod') !== -1 || userAgent.indexOf('iPad') !== -1 || userAgent.indexOf('iPhone') !== -1){location.href=location.href.replace('www.','m.');}
+
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+
+<!--ssi#include virtual="/ssi/cont/navtop.shtml"-->
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+<!--#CMS_MODULE(频道code003)#-->
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+
+
+<div class="wrap clearfix mT20">
+   <div class="w1000"> 
+      <div class="lxwm">
+       <div class="fl">
+       联系我们：<br/>
+       商务合作QQ：2090291195<br/>
+       商户合作：xuym@ifeng.com<br/>
+       第一视频V1拍QQ群(一起扎堆吐槽、拍微视频): <br/>
+       300030082(已满)    164509708<br/>
+       客服邮箱：videoapp.feedback@ifeng.com<br/>
+       产品合作：lijun1@ifeng.com
+       </div>
+       <div class="fr">
+       关于我们：<br/>
+       微信账号：v1v1v1<br/>
+       新浪微博账号：第一视频客户端<br/>
+       腾讯微博账号：第一视频客户端
+       </div>
+      </div>
+   </div>
+</div>
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:13;s:5770:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent;if(userAgent.match(/Android/i) || userAgent.indexOf('iPod') !== -1 || userAgent.indexOf('iPad') !== -1 || userAgent.indexOf('iPhone') !== -1){location.href=location.href.replace('www.','m.');}
+
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+
+<!--ssi#include virtual="/ssi/cont/navtop.shtml"-->
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+<!--#CMS_MODULE(频道code003)#-->
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+<!--#CMS_MODULE(频道code007)#-->
+
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:14;s:9507:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent;if(userAgent.match(/Android/i) || userAgent.indexOf('iPod') !== -1 || userAgent.indexOf('iPad') !== -1 || userAgent.indexOf('iPhone') !== -1){location.href=location.href.replace('www.','m.');}
+
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+
+  <div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="http://www.v1.cn" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+<form target="_blank" id="searchForm" method="get" action="http://so.v1.cn/search/news/video/all/q_">        
+<input type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWord" name="searchWord">
+<button target="_parent" id="searchBut" type="submit" class="search index_icon">搜索</button>
+</form>
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+  {
+  if(Search.value=="请输入关键字")
+      {
+          Search.value="";
+      }
+  }
+function Onblur()
+  {
+if(Search.value=="")
+      {
+Search.value="请输入关键字";
+      }
+  }
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>   
+</div>
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+<!--#CMS_MODULE(频道code003)#-->
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+<!--#CMS_MODULE(频道code007)#-->
+
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:15;s:5770:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent;if(userAgent.match(/Android/i) || userAgent.indexOf('iPod') !== -1 || userAgent.indexOf('iPad') !== -1 || userAgent.indexOf('iPhone') !== -1){location.href=location.href.replace('www.','m.');}
+
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+
+<!--ssi#include virtual="/ssi/cont/navtop.shtml"-->
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+<!--#CMS_MODULE(频道code003)#-->
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+<!--#CMS_MODULE(频道code007)#-->
+
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:16;s:5777:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent;if(userAgent.match(/Android/i) || userAgent.indexOf('iPod') !== -1 || userAgent.indexOf('iPad') !== -1 || userAgent.indexOf('iPhone') !== -1){location.href=location.href.replace('www.','m.');}
+
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+
+<!--ssi#include virtual="/ssi/commonHeader_common.html"-->
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+<!--#CMS_MODULE(频道code003)#-->
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+<!--#CMS_MODULE(频道code007)#-->
+
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:17;s:5773:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent;if(userAgent.match(/Android/i) || userAgent.indexOf('iPod') !== -1 || userAgent.indexOf('iPad') !== -1 || userAgent.indexOf('iPhone') !== -1){location.href=location.href.replace('www.','m.');}
+
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+
+<!--ssi#include virtual="/ssi/commonHeader_common.html"-->
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+<!--#CMS_MODULE(频道code003)#-->
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+<!--#CMS_MODULE(频道code007)#-->
+
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/foot_common.html"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:18;s:5821:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent;if(userAgent.match(/Android/i) || userAgent.indexOf('iPod') !== -1 || userAgent.indexOf('iPad') !== -1 || userAgent.indexOf('iPhone') !== -1){location.href=location.href.replace('www.','m.');}
+
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+
+<!--ssi#include virtual="/ssi/commonHeader_common.html"-->
+<style>
+.menuthis{background:none;}
+</style>
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+<!--#CMS_MODULE(频道code003)#-->
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+<!--#CMS_MODULE(频道code007)#-->
+
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/foot_common.html"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:19;s:5582:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<script type="text/javascript">
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/khd_06/css/khd.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+
+<script language="javascript" src="http://luck.v1.cn/getIp.php"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+
+</head>
+<body>
+
+<!--ssi#include virtual="/ssi/commonHeader_common.html"-->
+<style>
+.menuthis{background:none;}
+</style>
+<script>
+$(document).ready(function(){
+//导航变色
+$(".minisubnav").mouseover(function(){
+$(".subnav_toggle").show();
+$(".subnav_but").addClass("subnav_but:hover");
+$(".banner").css("z-index","-1");
+});
+$(".minisubnav").mouseout(function(){
+$(".subnav_toggle").hide();
+$(".subnav_but").removeClass("subnav_but:hover");
+$(".banner").css("z-index","1");
+});
+})
+</script>
+
+<!--#CMS_MODULE(频道code001)#-->
+<!--#CMS_MODULE(频道code002)#-->
+<!--#CMS_MODULE(频道code003)#-->
+<!--#CMS_MODULE(频道code004)#-->
+<!--#CMS_MODULE(频道code005)#-->
+<!--#CMS_MODULE(频道code006)#-->
+
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 8; 
+        //向后 按钮  
+        $("#scr_next").click(function(){    //绑定click事件  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("#scr_pre").click(function(){  
+             var content = $("#content");   
+             var content_list = $("#content_list");  
+             var v_width = content.width();  
+             var len = content.find("li").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+
+<!--#CMS_MODULE(频道code007)#-->
+
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/foot_common.html"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";}

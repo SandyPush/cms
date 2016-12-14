@@ -1,0 +1,89 @@
+<script type="text/javascript" src="/scripts/contentarea.js"></script> 
+<style type="text/css">
+#floatBoxBg{display:none;width:100%;height:100%;background:#111;position:absolute;top:0;left:0;}
+.floatBox{border:#999 1px solid;width:300px;position:absolute;top:50px;left:40%;}
+.floatBox .title{height:20px;padding:5px 10px 0;background:#999;color:#fff;}
+.floatBox .title h4{float:left;padding:0;margin:0;font-size:14px;line-height:16px;}
+.floatBox .title span{float:right;cursor:pointer;}
+.floatBox .content{padding:0;background:#fff;}
+.over{background-color:#e9e9e9}
+.alt{background-color:#dddddd}
+</style>
+<div class="area">
+<div style="margin:5px 0 0 10px" id="formBox" class="nr">
+<h2>
+        	<button onclick="window.location.href='/object/objects/index/type/manual'">返回列表</a></button>
+        	<caption>当前手动区:<?=$this->info['name']?>(简介:<?=$this->info['description']?>) &nbsp;&nbsp;
+</h2>
+<form id="form1" name="form1" method="post" action="/contentarea/index/updateall/">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+<?foreach($this->data as $k => $v):?>
+	<tr>
+		<td width="90" height="34">
+		<label><input name="check[]" id="check<?=$v['aid']?>" type="checkbox" value="<?=$v['aid']?>,<?=$k?>" />
+				<input name="oid[]" id="oid<?=$v['aid']?>" type="hidden" value="<?=$v['oid']?>" /></label>
+		属性名:</td>
+		<td width="74"><input name="caption[]"  id="caption<?=$v['aid']?>" type="text" size="10" value="<?=$v['caption']?>"/></td>
+		<td width="20">ID:</td>
+		<td width="40">
+			<input name="name[]" id="name<?=$v['aid']?>" type="text"  size="5" value="<?=$v['name']?>" style="width:30px" readOnly />
+		</td>
+		<td width="120">
+			说明:<input name="info[]" id="info<?=$v['aid']?>" type="text"   size="10" value="<?=$v['info']?>"  /></td>
+		<?if($v['atype']!=2):?>
+		<td width="90">最大长度:<input name="max_length[]" id="max_length<?=$v['aid']?>" type="text" size="5" value="<?if($v['max_length'])echo $v['max_length']?>" style="width:20px" />
+		</td>	
+		<?else:?>
+		<td width="90">最大长度:不限<input name="max_length[]" id="max_length<?=$v['aid']?>" type="hidden" size="5" value="" style="width:20px" /></td>
+		<?endif?>
+		<td width="30">
+		<select name="type[]" id="type<?=$v['aid']?>">
+			<option value="0" <?if($v['type']==0):?> selected="true"<?endif?>  >单行</option>
+			<option value="1" <?if($v['type']==1):?> selected="true"<?endif?> >多行</option>
+			<option value="2" <?if($v['type']==2):?> selected="true"<?endif?> >图片</option>
+		</select>
+		</td>
+
+		<td width="40">内容：</td>
+		<td width="400" >
+		<?if($v['type']==0):?>
+		<input name="value[]" id="value<?=$v['aid']?>" type="text" size="60" value="<?=$v['value']?>" onpropertychange="testLength('<?=$v['aid']?>')" />
+		<span id="len<?=$v['aid']?>" style="display:block"> </span>
+		<?elseif($v['type']==1):?>
+		<textarea name="value[]" id="value<?=$v['aid']?>" cols="60" rows="10" onpropertychange="testLength('<?=$v['aid']?>')" ><?=$v['value']?></textarea>
+		<span id="len<?=$v['aid']?>" style="display:block"> </span>
+		<?else:?>
+		<div id="apic"><input name="value[]" id="value<?=$v['aid']?>" type="text" size="50" value="<?=$v['value']?>"  onpropertychange="testLength('<?=$v['aid']?>')" /><span><a href="#" onclick="dialog('upload','iframe:/contentarea/index/upload/aid/<?=$v['aid']?>',500,100,'');return false;">上传</a></span></div>
+		<?endif?>
+		 </td>			
+	</tr>
+	<tr>
+		<td align="right" colspan="9">	
+			<lable><!--Pid：(pid字段命名：p1010 or f1010 or a1010 来区分栏目页、专题和新闻页)--> </lable><input type="hidden" name="pid[]" id="pid<?=$v['aid']?>"  value="<?=$v['pid']?>" size="10" />	
+			&nbsp;
+			<input type="button" value="删除" onclick="deleteOne('<?=$v['aid']?>');"/>				
+			&nbsp;
+			<input type="button" value="修改" onclick="updateOne('<?=$v['aid']?>');"/>			
+		</td>
+	</tr>
+<?endforeach?>
+<?if($this->data):?>
+	<tr class="tool">
+		 <td colspan="9" align="left" style="padding-top:10px;">
+			 <label><input type="checkbox" id="checkAll" />全选</label>
+			 <label><input type="button" id="submitAll"  style="width:60px;" value="全部删除" onclick="deleteAll();"/></label>
+			 <label><input type="submit" id="submitAll"  style="width:100px;" value="全部提交" /></label>			
+		 </td>
+	</tr>
+	<tr class="tool"> <td colspan="9" align="right"> 
+	<div class="fy">
+		<div class="fpage">
+		<?=$this->pagebar?> 	
+		</div>
+	</div>  
+</td>  </tr>
+<?endif?>
+</table>
+</form>
+</div>
+</div>

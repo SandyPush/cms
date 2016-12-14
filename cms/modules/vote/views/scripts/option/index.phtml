@@ -1,0 +1,36 @@
+<div class="area">
+	<div class="help">
+    <p>帮助</p>
+	<p>1、此处为(<a href="/vote/problem/index/vid/<?=$this->vid?>"><?=$this->vote['title']?></a> >  <?=$this->problem['title']?>)的具体投票选项管理;</p>      
+	<p>2、自定义属性用于添加附带的应用参数，如图片。</p> 
+	<p>3、状态有正常和删除两种,正常状态，正常显示；删除状态，不显示在界面或接口里;</p>  
+    </div>
+	<div class="nr">	
+    	<h2>      
+			<button onclick="window.location.href='/vote/option/add/vid/<?=$this->vid?>/pid/<?=$this->pid?>';">添加选项</button>
+			<button onclick="window.location.href='/vote/problem/index/vid/<?=$this->vid?>';">返回</button>
+        </h2>
+		
+    	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+		  	<tr>
+            	<th>选项ID</th>
+                <th width="250">选项内容</th>
+				<th>排序</th>
+				<th>选项方式</th>
+				<th>状态</th>  		
+				<th>票数</th> 
+				<th>操作</th> 
+			</tr>
+		  <?php foreach ($this->data as $key => $value): ?>      
+            <tr>
+        		<td><?=$value['oid']?></td>
+                <td><?=$value['title']?></td>           
+				<td><?=$value['orderby']?></td>
+				<td><?=$value['ctype']?></td>
+				<td><?=$value['status']?></td>				
+				<td><?=$value['click']?></td>				
+				<td><a href="/vote/option/edit/vid/<?=$this->vid?>/pid/<?=$value['pid']?>/oid/<?=$value['oid']?>">修改</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/vote/option/del/vid/<?=$this->vid?>/pid/<?=$value['pid']?>/oid/<?=$value['oid']?>">删除</a></td>           
+            </tr>		
+		 <?php endforeach;  ?>
+        </table>
+    </div>

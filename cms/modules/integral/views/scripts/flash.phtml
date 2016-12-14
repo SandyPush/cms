@@ -1,0 +1,15 @@
+<?=$this->doctype('XHTML1_TRANSITIONAL')?>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="refresh" content="<?=$this->secs ?>; url=<?=$this->url ?>" />    
+    <link rel="stylesheet" type="text/css" href="/styles/global.css" />
+  </head>
+  <body style="text-align: center">
+        <div class="flash_box" style="margin-top:150px">
+            <p><?=$this->message?></p>
+            <p><a href="<?=$this->url ?>">如果您的浏览器没有跳转，请点击此处。</a></p>
+        </div>
+  </body>
+</html>

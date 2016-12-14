@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>CMS2</title>    <link href="/styles/global.css" media="screen" rel="stylesheet" type="text/css" />    <script type="text/javascript" src="/scripts/jquery/jquery.js"></script>      </head>
+  <body>
+<link href="/styles/customlist.css" rel="stylesheet" type="text/css" />
+<div class="t">
+  <form id="big_news_form" action="/customlist/index/save/" method="POST" onsubmit="return checkBigNews()">
+    <table width="99%"  cellspacing="1" class="form">
+      <thead>
+        <tr class="head"><td colspan="2">个性列表管理</td></tr>
+        <tr class="tr4">
+          <td colspan="2" style="padding-bottom:50px;">
+            <input type="button" value="新建即时新闻" id="add_online_news_btn" class="btn" />
+            <input type="button" value="新建新闻列表" id="add_news_list_btn" class="btn" />
+		   <span style="margin:0 20px 0 20px;">查看历史记录:</span>
+		   <select id="bignews_select" onchange="window.location.href ='/customlist/index/<?if($this->action=="index")echo "index"; else echo "show" ?>/cid/<?=$this->cid?>'+this.value">
+		                <?=$this->customlist_select?>         
+						 </select>
+          </td>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr class="tr4">
+          <td colspan="2" align="left">           
+            <input type="hidden" name="oid"  value="<?=$this->oid?>" />
+			<input type="hidden" name="lastuid" value="<?=$this->user?>" />			
+			<span>Pid(选填):</span><input type="input" name="pid" id="pid" value="<?if($this->pid)echo $this->pid?>" size="3" />		
+			<input type="hidden" name="mode" value="show" />
+			<input type="hidden" name="channel" value="<?=$this->channel?>" />
+            <input type="submit" value="  保存  " id="save_btn" class="btn" />	
+			<input type="button" value="  预览  " id="preview_btn" class="btn" onclick="preview();" />	
+			<?if($this->publishUrl):?>
+			&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=$this->publishUrl?>" target="_blank" class="btn"> &nbsp;发布此页面&nbsp; </a>
+			&nbsp;&nbsp;<span >(请先点"保存"，再点"发布")</span>
+			<?endif;?>         
+          </td>
+        </tr>
+      </tfoot>
+      <tbody id="big_news_body">
+      </tbody>
+    </table>
+  </form>
+</div>
+
+<div class="t" id="listitem_manager">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <thead>
+      <tr class="head"><td>列表项管理 <img src="/images/add3.gif" align="absmiddle" alt="新建链接" title="新建链接" id="add_anchor_btn" /></td></tr>
+    </thead>
+    <tfoot>
+      <tr class="tr4">
+        <td align="center">
+          <input type="button" value="确定" id="update_anchor_btn" class="btn" />
+          <input type="button" value="取消" id="cancel_listitem_btn" class="btn" />
+        </td>
+      </tr>
+    </tfoot>
+    <tbody id="anchor_items_body">
+    </tbody>
+  </table>
+</div>
+
+<div class="t" id="search_box">
+<iframe src="<?=$this->iframeUrl?>" width="100%" height="386" frameborder="0"></iframe>
+</div>
+
+<script type="text/javascript" src="/scripts/bignews.js"></script>
+<script type="text/javascript">
+initBigNews(<?=$this->customlist?>);
+function init_select(){
+	var obj=document.getElementById('bignews_select');
+	if(!obj.options.length)return;
+	if('$time'=='')return;
+	for (i = 0; i < obj.options.length; i++ ){
+		var arr=obj.options[i].text.split("|");
+		if(arr[0]=='$time'){
+			obj.selectedIndex=i;
+		}       
+	}
+}
+init_select();
+
+/* 预览 */
+function preview(){
+	var f= document.forms[0];
+	<?php
+		$urlAdd ='';
+		if(isset($this->oid))$urlAdd .= "/oid/$this->oid";
+		if(isset($this->pid))$urlAdd .= "/pid/$this->pid";
+		if(isset($this->cid))$urlAdd .= "/cid/$this->cid";
+	?>
+	f.action= '/customlist/index/preview<?=$urlAdd?>';
+	f.target= '_blank';
+	f.submit();
+	f.action= '/customlist/index/save/';
+	f.target= '';
+}
+</script>
+  </body>
+</html>

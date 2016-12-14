@@ -1,0 +1,59 @@
+a:1:{i:0;s:2022:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='zh-CN' xml:lang='zh-CN' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>{$title}_V1大圣传奇</title>
+<!--#
+echo file_get_contents("http://dscq.g.v1.cn/header.shtml");
+#-->
+</head>
+<body>
+<!--顶部整站导航 start-->
+<div id="navigation"></div>
+<!--#
+echo file_get_contents("http://dscq.g.v1.cn/navigation.shtml");
+#-->
+<!--顶部整站导航 end-->
+<div class="main">
+    <!--导航 start-->
+<!--#
+echo file_get_contents("http://dscq.g.v1.cn/gameNav.shtml");
+#-->
+    <!--导航 end-->
+    <!--内容 start-->
+    <div class="full_wrap">
+        <!--内容-左 start-->
+<!--#
+echo file_get_contents("http://dscq.g.v1.cn/left.shtml");
+#-->
+        <!--内容-左 end-->
+        <!--内容-右 start-->
+        <div class="col_main">
+            <!--新闻title start-->
+            <div class="focus_mod news_title">
+                <div class="title_img">
+                    <h2><span class="t_news">新闻中心</span></h2>
+                    <p>当前位置：<a href="http://dscq.g.v1.cn" target="_blank">首页</a>  &gt;  <a href="" target="_blank">新闻中心</a>  &gt;  <span>{$title}</span></p>
+                </div>
+            </div>
+            <!--新闻title end-->
+            <!--新闻内容 start-->
+            <div class="common_cont_mod cont_page mt10">
+                <div class="common_cont_mod_bd game_info_bd">
+                    <div class="box">
+                        <h2>{$title}</h2>
+                        <div class="box_txt">
+                            {$contents}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--新闻内容 end-->
+        </div>
+        <!--内容-右 end-->
+    </div>
+    <!--内容 end-->
+</div>
+</body>
+</html>
+";}

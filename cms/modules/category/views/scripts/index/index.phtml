@@ -1,0 +1,131 @@
+<div class="area">
+	<div class="help">
+    <p>帮助</p>
+    <p>1、此处为分类列表;</p>    
+    <p>2、选择隐藏在发布时则不显示此分类.</p>
+    
+    </div>
+	<div class="nr">
+    	<h2><button onclick="window.location.href='/category/index/add/parent/<?=$this->parent_id ?>'">添加分类</button>分类列表</h2>
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" class="list sort">
+        	<tr>
+            	<th>cid</th>
+                <th class="tree">&nbsp;</th>
+                <th>文章数</th>
+                <th>类型</th>                
+                <th>操作</th>
+            </tr>
+    <?php foreach ($this->all_list as $key => $value): ?>
+    <?php 
+    	switch($value['level']){
+		    case 0: $class='';break;
+		    case 1: $class='t';break;
+		    case 2: $class='ht';break;
+            case 3: $class='d4';break;
+            case 4: $class='d5';break;
+		    default: $class='';break;
+		}
+	 ?>
+            <tr>
+            	<td><?=$value['cid']?></td>
+                <td><p class="<?=$class?>"><?=$this->escape($value['name'])?></p></td>
+                <td><?=$value['article_nums']?></td>
+                <td><?=$this->escape($this->type_select[$value['type']]) ?></td>                
+                <td>
+	                <a href="/contents/article/add/cid/<?=$value['cid']?>">添加文章</a>
+	                <a href="/contents/article/index/cid/<?=$value['cid']?>">查看文章</a>
+	                <a href="#nogo" onclick="window.location='/category/index/add/parent_cid/<?=$value['cid'] ?>'">添加子分类</a>
+	                <a href="#nogo" onclick="window.location='/category/index/edit/cid/<?=$value['cid'] ?>'">编辑分类</a>
+	<?php
+		switch($value['status'])
+		{
+			case 1:
+			{
+	?>
+	                <a href="#nogo" onclick="if(confirm('确定隐藏吗?'))window.location='/category/index/hide/cid/<?=$value['cid'] ?>'">隐藏</a>
+	<?php
+				break;
+			}
+			case 2:
+			{
+	?>
+	                <a href="#nogo" onclick="if(confirm('确定显示吗?'))window.location='/category/index/display/cid/<?=$value['cid'] ?>'">显示</a>
+	<?php
+				break;
+			}
+		}
+	?>
+                </td>
+            </tr>
+    <?php endforeach;  ?>
+        </table>
+        
+     </div>
+     
+      <!--div class="fy">
+		<div class="fpage">
+			<a href="#">&lt;&lt;</a>
+			<a href="#">1</a>
+			<a href="#" class="current">2</a>
+			<a href="#">3</a>
+			<a href="#">4</a>
+			<a href="#">5</a>
+			<a href="#">6</a>
+			<a href="#">7</a>
+			<a href="#">8</a>
+			<input name="" type="text" class="input" />
+			<a href="#">&gt;&gt;</a>
+			(2/1200)total
+		</div>
+	</div>  
+</div-->
+
+<!--pop window for add article-->
+<!--div class="popwin">
+<h2><img src="theme/default/image/close.png" alt="关闭提示" /></h2>
+	<table width="100%;" cellpadding="0" cellspacing="0">
+    	<tr>
+        	<td width="70" align="center" valign="middle">名称</td>
+			<td><input type="text" class="input" size="20" />	
+        </tr>
+        <tr>
+        	<td width="70" align="center" valign="middle">类型</td>
+			<td>
+			     <select name="">
+                	<option value="">新闻</option>
+                    <option value="">位置</option>
+                </select>
+			</td>
+        </tr>
+        <tr>
+        	<td width="70" align="center" valign="middle">所属分类</td>
+			<td>
+			     <select name="">
+                	<option value="">奥运专题红</option>
+                    <option value="">奥运专题兰</option>
+                    <option value="">国庆阅兵专题绿</option>
+                </select>
+			</td>
+        </tr>
+        <tr>
+        	<td width="70" align="center" valign="middle">绑定栏目</td>
+			<td>
+			     <select name="">
+                	<option value="">奥运专题红</option>
+                    <option value="">奥运专题兰</option>
+                    <option value="">国庆阅兵专题绿</option>
+                </select>
+			</td>
+        </tr>
+        <tr>
+        	<td width="70" align="center" valign="middle">发布目录</td>
+			<td><input type="text" class="input" size="20" />	
+        </tr>
+         <tr>
+				<td colspan="2" align="center" valign="middle">
+					<button>添加分类</button>
+					
+				</td>
+		</tr>
+    </table>
+</div-->

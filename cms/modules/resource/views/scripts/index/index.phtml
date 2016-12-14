@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>添加资源</title>
+<link href="/theme/default/common.css" media="screen" rel="stylesheet" type="text/css" >  
+<script type="text/javascript" src="/scripts/jquery/jquery.js"></script>
+<script>
+$(document).ready(function(){
+	//$('input').val(["<?=$this->name?>"]);	
+	//$(':radio').val(["<?=$this->name?>"]);	
+});
+</script>
+</head>
+<body>
+<base target="_self">
+<table width="400" cellspacing="1" class="form">
+<caption>添加资源</caption>
+<tbody>
+<form name="form1" action="/resource/index/upload/" method="post" enctype="multipart/form-data" >
+	<input type="hidden" id="name" name="name" value="<?php echo $this->name;?>" />
+	<input type="hidden" id="type" name="type" value="<?php echo $this->type;?>" />
+	<input type="hidden" id="cid" name="cid" value="<?php echo $this->cid;?>" />
+    <tr class="alt" width="100">
+        <td width="50">资源</td><td><input type="file" id="filename" name="filename"></td>
+    </tr>
+    <tr class="alt">
+        <td>原尺寸</td><td>
+        <input type="radio" name='selectedIndex'  value="keep" checked>  
+        <input type="checkbox" onclick="return false;" checked><font color="red">不改变图片尺寸</font></td>
+    </tr>
+    <tr class="alt">
+        <td>文章</td><td>
+        <input type="radio" name='selectedIndex'  value="article">
+        <input type="checkbox" name="resize[]" value="article"><?=$this->article_img_width?>x<?=$this->article_img_height?></td>
+    </tr>
+    <tr class="alt">
+        <td>专题</td><td>
+        <input type="radio" name='selectedIndex'  value="focus">
+        <input type="checkbox" name="resize[]" value="focus"><?=$this->focus_img_width?>x<?=$this->focus_img_height?></td>
+    </tr>
+    <tr class="alt">
+        <td>自定义</td>
+        <td>
+            <input type="radio" name='selectedIndex'  value="custom">
+        	<input type="checkbox" name="resize[]" value="custom">
+        	<input type="text" name="custom_width" size="5">x
+        	<input type="text" name="custom_height" size="5">  <input type="button" value="上传" onclick="submit2()"/>
+        </td>
+    </tr>
+</form>
+</tbody>
+</table>
+
+</body>
+</html>
+<script>
+function submit2()
+{
+	window.name="ak"
+	document.form1.target="ak";
+	document.form1.submit();
+}
+
+$(document).ready(function(){
+    $(":radio").each(function(i){
+       $(this).focus(function(){
+        $(":checkbox").slice(1).attr("checked","");
+        $(this).siblings("input[type='checkbox']").attr("checked",true);
+       });
+    });
+    $(":checkbox").each(function(){
+       $(this).click(function(){
+        if($(this).siblings(":radio").attr("checked")==true){
+            alert("不能取消勾选");
+            return false;
+        }
+       }); 
+    });
+})
+</script>

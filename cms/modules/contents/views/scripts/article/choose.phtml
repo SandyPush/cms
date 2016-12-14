@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<base target="_self">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CMS_文章列表</title>
+<?=$this->headLink() ?>
+<?=$this->headScript() ?>
+
+</head>
+
+<body>
+<div class="area">
+    	<form action="" name="search_form" method="post">
+            <label>分类搜索:<?=$this->formSelect('cid', $this->cid, null, $this->category_options)?></label>
+        	<label>标题搜索:<input class="input" type="text" name="title" value="<?=$this->title?>" size="10" /></label>
+            <label>作者搜索:<input class="input" type="text" name="author" value="<?=$this->author?>" size="8" /></label>
+            <label>发布者搜索:<input class="input" type="text" name="realname" value="<?=$this->realname?>" size="8" /></label>
+            <label><input type="checkbox" name="article_type" value="1" <?=$this->article_type?'checked':''?> />是否约稿</label>
+<span>
+<select id="year" name="year">
+    
+</select>年
+</span>
+
+<span id="select_month" style="display: inline;">
+<select id="month" name="month">
+    
+</select>月
+</span>
+<span id="select_day" style="display: inline;"><select id="day" name="day">
+    
+</select>日</span>
+<span id="join" style="display: inline;">至</span>
+<span>
+<select id="end_year" name="end_year">
+    
+</select>年
+</span>
+
+<span id="select_month" style="display: inline;">
+<select id="end_month" name="end_month">
+    
+</select>月
+</span>
+<span id="select_day" style="display: inline;">
+<select id="end_day" name="end_day">
+    
+</select>日</span>
+
+<script>
+d=new Date();
+startD= new Date(d.getTime()-60*60*24*7*1000);
+
+dbYear="<?=$this->year?>";
+dbMonth="<?=$this->month?>";
+dbDay="<?=$this->day?>";
+end_dbYear="<?=$this->end_year?>";
+end_dbMonth="<?=$this->end_month?>";
+end_dbDay="<?=$this->end_day?>";
+
+year=dbYear!='' ? dbYear : startD.getFullYear();
+month=dbMonth!='' ? dbMonth : startD.getMonth()+1;
+day=dbDay!='' ? dbDay : startD.getDate();
+end_year=end_dbYear!='' ? end_dbYear : d.getFullYear();
+end_month=end_dbMonth!='' ? end_dbMonth : d.getMonth()+1;
+end_day=end_dbDay!='' ? end_dbDay : d.getDate();
+                          
+for(i=d.getFullYear();i>=2001;i--){
+    selected=i==year ? 'selected' : '';
+    end_selected=i==end_year ? 'selected' : '';
+    $("#year").append('<option label="'+i+'" value="'+i+'" '+selected+'>'+i+'</option>');
+    $("#end_year").append('<option label="'+i+'" value="'+i+'" '+end_selected+'>'+i+'</option>');    
+}
+
+for(i=1;i<=12;i++){
+    iStr=i>9 ? i : '0'+i;
+    selected=i==month ? 'selected' : '';
+    end_selected=i==end_month ? 'selected' : '';
+    $("#month").append('<option label="'+iStr+'" value="'+iStr+'" '+selected+'>'+iStr+'</option>'); 
+    $("#end_month").append('<option label="'+iStr+'" value="'+iStr+'" '+end_selected+'>'+iStr+'</option>');   
+}
+
+for(i=1;i<=31;i++){
+    iStr=i>9 ? i : '0'+i;
+    selected=i==day ? 'selected' : '';
+    end_selected=i==end_day ? 'selected' : '';
+    $("#day").append('<option label="'+iStr+'" value="'+iStr+'" '+selected+'>'+iStr+'</option>'); 
+    $("#end_day").append('<option label="'+iStr+'" value="'+iStr+'" '+end_selected+'>'+iStr+'</option>');      
+}
+
+</script>
+            <input type="submit" value="显示"></button>
+        </form><br/>
+	<div class="nr">
+    	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+        	<tr>
+            	<th>aid</th>
+                <th>标题</th>
+                <th>分类</th>
+                <th>发布者</th>
+                <th>点击次数</th>
+                <th>发布时间</th>
+            </tr>
+    <?php foreach ($this->result as $key => $value): ?>
+            <tr>
+        		<td><input type="checkbox" name="aid[]" value="<?=$value['aid']?>"/><?=$value['aid']?></td>
+                <td><?=$this->escape($value['title']) ?></td>
+                <td><?=$this->escape($value['category']) ?></td>
+                <td><?=$this->escape($value['realname']) ?></td>
+                <td><?=$value['pv']?></td>
+                <td><?=$this->escape(date("Y-m-d H:i:s",$value['create_time'])) ?></td>
+            </tr>
+    <?php endforeach;  ?>
+        </table>
+        
+        
+    </div>
+    
+    <div class="fy">
+			&nbsp;<input type="checkbox" name="choose_all" value="" onclick="chooseAll(this)">全选&nbsp;&nbsp;<input type="button" value="确定" onclick="chooseArticle()" />
+		<div class="fpage">
+			<?=$this->pagebar ?>
+			<!--a href="#">&lt;&lt;</a>
+			<a href="#">1</a>
+			<a href="#" class="current">2</a>
+			<a href="#">3</a>
+			<a href="#">4</a>
+			<a href="#">5</a>
+			<a href="#">6</a>
+			<a href="#">7</a>
+			<a href="#">8</a>
+			<input name="" type="text" class="input" />
+			<a href="#">&gt;&gt;</a>
+			(2/1200)total-->
+		</div>
+	</div>
+    </div>
+</body>
+</html>
+<script>
+function chooseArticle()
+{
+	var objs=document.getElementsByName('aid[]');
+	var obj_json='[';
+	for(i=0;i<objs.length;i++)
+	{
+		if(objs[i].checked)
+		{
+			obj_json+='{"id":"'+objs[i].value+'","title":"'+$(objs[i]).parent().next('td').text()+'"},';
+			//alert(objs[i].value);
+			//alert($(objs[i]).parent().next('td').text());
+		}
+	}
+	obj_json=obj_json.substring(0,(obj_json.length-1));
+	obj_json+=']';
+    window.returnValue = obj_json;
+    window.close();  
+}
+function chooseAll(obj)
+{
+	var objs=document.getElementsByName('aid[]');
+	for(i=0;i<objs.length;i++)
+	{
+		objs[i].checked=obj.checked;
+	}
+}
+</script>

@@ -1,0 +1,2176 @@
+a:20:{i:0;s:11475:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/gameTop/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gameTop/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/gplatform/v1.0/images/logo.png" alt="logo" /></div>
+    <div class="banner_top"><a href="#" target="_blank"><img src="images/kf_06.png" alt="banner" width="648" height="49" border="0"></a></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <ul class="nav float_l">
+        <li><a href="#">2014最热网页游戏</a></li>
+        <li><a href="#">2014网页游戏排行榜</a></li>
+        <li><a href="#">今日最新开服</a></li>
+        <li><a href="#">最新网页游戏推荐</a></li>
+        <li class="clear"></li>
+    </ul>
+    <!--nav end-->
+    <div class="float_r">
+        <input name="" class="btn1 marg15" type="button" value="收藏到桌面 ">
+        <input name="" class="btn1 marg15" type="button" value="免费注册 ">
+    </div>
+    <div class="clear">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="314">
+            <param name="movie" value="images/btn1111.swf">
+            <param name="quality" value="high">
+            <embed src="images/btn1111.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="980" height="314"></embed>
+        </object>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <div class="pic" id="pic" style="background:url('http://img.tg.37wan.com/u/2014/0922/22154717mzPE7.jpg') no-repeat;"> </div>
+</div>
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">最新开服</h2>
+        <div class="list1">
+            <ul>
+                <li> <span class="list1_name">最新开服游戏</span> <span class="list1_number">210</span><a href="#" class="btn2">ssss</a></li>
+                <li> <span class="list1_name">热血海贼王</span> <span class="list1_number">210</span><a href="#" class="btn2">ssss</a></li>
+                <li> <span class="list1_name">热血海贼王</span> <span class="list1_number">210</span><a href="#" class="btn2">ssss</a></li>
+                <li> <span class="list1_name">热aa血海贼王</span> <span class="list1_number">210</span><a href="#" class="btn2">ssss</a></li>
+                <li> <span class="list1_name">热血a海贼王</span> <span class="list1_number">210</span><a href="#" class="btn2">ssss</a></li>
+                <li> <span class="list1_name">热血海贼王</span> <span class="list1_number">210</span><a href="#" class="btn2">ssss</a></li>
+                <li> <span class="list1_name">热血海aa贼王</span> <span class="list1_number">210</span><a href="#" class="btn2">ssss</a></li>
+                <li> <span class="list1_name">热血aa海贼王</span> <span class="list1_number">210</span><a href="#" class="btn2">ssss</a></li>
+            </ul>
+            <!--最新开服列表 start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--最新开服列表 end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <ul id="example1">
+                            <li><a href="#" class="png_img"></a><img height="60" width="60" alt="LUFFY" src="images/kf_77.png"></li>
+                            <li><a href="#" class="png_img"></a><img height="60" width="60" alt="ZORO" src="images/kf_31.png"></li>
+                            <li><a href="#" class="png_img"></a><img height="60" width="60" alt="NAMI" src="images/kf_31.png"></li>
+                            <li><a href="#" class="png_img"></a><img height="60" width="60" alt="SANJI" src="images/kf_31.png"></li>
+                            <li><a href="#" class="png_img"></a><img height="60" width="60" alt="USOPP" src="images/kf_31.png"></li>
+                            <li><a href="#" class="png_img"></a><img height="60" width="60" alt="Chopper" src="images/kf_31.png"></li>
+                            <li><a href="#" class="png_img"></a><img height="60" width="60" alt="ROBIN" src="images/kf_31.png"></li>
+                            <li class="clear"></li>
+                        </ul>
+                        <!--游戏展示轮播 start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播 end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <ul class="clearfix">
+                <li>
+                    <div class="list4_pic"><a href="#"><img src="images/kf_60.png" alt="sss" width="177" height="105" border="0"></a><a href="#" class="a1">独创侠客系统！醉江湖，最武侠！</a></div>
+                    <div class="list4_btn"><a href="#" class="btn3">ss</a></div>
+                </li>
+                <li>
+                    <div class="list4_pic"><a href="#"><img src="images/kf_60.png" alt="sss" width="177" height="105" border="0"></a><a href="#" class="a1">独创侠客系统！醉江湖，最武侠！</a></div>
+                    <div class="list4_btn"><a href="#" class="btn3">ss</a></div>
+                </li>
+                <li>
+                    <div class="list4_pic"><a href="#"><img src="images/kf_60.png" alt="sss" width="177" height="105" border="0"></a><a href="#" class="a1">独创侠客系统！醉江湖，最武侠！</a></div>
+                    <div class="list4_btn"><a href="#" class="btn3">ss</a></div>
+                </li>
+            </ul>
+            <!--热门推荐 start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐 end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<div class="banner"><a href="#"><img src="images/kf_67.png" alt="banner" width="980" height="70" border="0"></a></div>
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">火热游戏TOP榜</h2>
+        <div class="list2">
+            <ul>
+                <li> <span class="list1_name">最新开服游戏</span> <span class="list1_number">210</span><a href="#" class="btn2">ssss</a></li>
+                <li> <span class="list1_name">热血海贼王</span> <span class="list1_number">210</span><a href="#" class="btn2">ssss</a></li>
+                <li> <span class="list1_name">热血海贼王</span> <span class="list1_number">210</span><a href="#" class="btn2">ssss</a></li>
+                <li> <span class="list1_name">热aa血海贼王</span> <span class="list1_number">210</span><a href="#" class="btn2">ssss</a></li>
+                <li> <span class="list1_name">热血a海贼王</span> <span class="list1_number">210</span><a href="#" class="btn2">ssss</a></li>
+                <li> <span class="list1_name">热血海贼王</span> <span class="list1_number">210</span><a href="#" class="btn2">ssss</a></li>
+                <li> <span class="list1_name">热血海aa贼王</span> <span class="list1_number">210</span><a href="#" class="btn2">ssss</a></li>
+                <li> <span class="list1_name">热血aa海贼王</span> <span class="list1_number">210</span><a href="#" class="btn2">ssss</a></li>
+            </ul>
+            <!--火热游戏TOP榜 start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--火热游戏TOP榜 end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <ul class="list3">
+            <li class="float_r list3_mag">
+                <div class="list3_box clearfix">
+                    <div class="list3_pic"><a href="#"><img src="images/kf_77.png" width="178" height="120" border="0" ></a></div>
+                    <p>游戏简介：独创侠客系统，由祖龙工作室重磅打造的D玄幻网游巨作完美国际2》将于9月4日迎来公测……</p>
+                    <div class="clear"></div>
+                </div>
+                <div class="list3_tit"><span class="lint3_tit_name">《南帝北丐》</span><a href="#" class="btn3">游戏</a></div>
+            </li>
+            <li class="float_r list3_mag">
+                <div class="list3_box clearfix">
+                    <div class="list3_pic"><a href="#"><img src="images/kf_77.png" width="178" height="120" border="0" ></a></div>
+                    <p>游戏简介：独创侠客系统，由祖龙工作室重磅打造的D玄幻网游巨作完美国际2》将于9月4日迎来公测……</p>
+                    <div class="clear"></div>
+                </div>
+                <div class="list3_tit"><span class="lint3_tit_name">《南帝北丐》</span><a href="#" class="btn3">游戏</a></div>
+            </li>
+            <li class="float_r list3_mag">
+                <div class="list3_box clearfix">
+                    <div class="list3_pic"><a href="#"><img src="images/kf_77.png" width="178" height="120" border="0" ></a></div>
+                    <p>游戏简介：独创侠客系统，由祖龙工作室重磅打造的D玄幻网游巨作完美国际2》将于9月4日迎来公测……</p>
+                    <div class="clear"></div>
+                </div>
+                <div class="list3_tit"><span class="lint3_tit_name">《南帝北丐》</span><a href="#" class="btn3">游戏</a></div>
+            </li>
+            <li class="float_r list3_mag">
+                <div class="list3_box clearfix">
+                    <div class="list3_pic"><a href="#"><img src="images/kf_77.png" width="178" height="120" border="0" ></a></div>
+                    <p>游戏简介：独创侠客系统，由祖龙工作室重磅打造的D玄幻网游巨作完美国际2》将于9月4日迎来公测……</p>
+                    <div class="clear"></div>
+                </div>
+                <div class="list3_tit"><span class="lint3_tit_name">《南帝北丐》</span><a href="#" class="btn3">游戏</a></div>
+            </li>
+            <div class="clear"></div>      
+        </ul>
+        <!--新品展示 start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示 end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--footer end-->
+</body>
+</html>";i:1;s:4225:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/gameTop/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gameTop/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/gplatform/v1.0/images/logo.png" alt="logo" /></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <ul class="nav float_l">
+        <li><a href="#">2014最热网页游戏</a></li>
+        <li><a href="#">2014网页游戏排行榜</a></li>
+        <li><a href="#">今日最新开服</a></li>
+        <li><a href="#">最新网页游戏推荐</a></li>
+        <li class="clear"></li>
+    </ul>
+    <!--nav end-->
+    <div class="float_r">
+        <input name="" class="btn1 marg15" type="button" value="收藏到桌面 ">
+        <input name="" class="btn1 marg15" type="button" value="免费注册 ">
+    </div>
+    <div class="clear">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="314">
+            <param name="movie" value="images/btn1111.swf">
+            <param name="quality" value="high">
+            <embed src="images/btn1111.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="980" height="314"></embed>
+        </object>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <div class="pic" id="pic" style="background:url('http://img.tg.37wan.com/u/2014/0922/22154717mzPE7.jpg') no-repeat;"> </div>
+</div>
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">最新开服</h2>
+        <div class="list1">
+            <!--最新开服列表ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--最新开服列表ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <!--游戏展示轮播ul start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播ul end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <!--热门推荐ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐ul end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<div class="banner"><a href="#"><img src="images/kf_67.png" alt="banner" width="980" height="70" border="0"></a></div>
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">火热游戏TOP榜</h2>
+        <div class="list2">
+            <!--火热游戏TOP榜ul start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--火热游戏TOP榜ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <!--新品展示ul start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示ul end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--footer end-->
+</body>
+</html>";i:2;s:4240:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/gameTop/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/v1.0/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/v1.0/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gameTop/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/gplatform/v1.0/images/logo.png" alt="logo" /></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <ul class="nav float_l">
+        <li><a href="#">2014最热网页游戏</a></li>
+        <li><a href="#">2014网页游戏排行榜</a></li>
+        <li><a href="#">今日最新开服</a></li>
+        <li><a href="#">最新网页游戏推荐</a></li>
+        <li class="clear"></li>
+    </ul>
+    <!--nav end-->
+    <div class="float_r">
+        <input name="" class="btn1 marg15" type="button" value="收藏到桌面 ">
+        <input name="" class="btn1 marg15" type="button" value="免费注册 ">
+    </div>
+    <div class="clear">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="314">
+            <param name="movie" value="images/btn1111.swf">
+            <param name="quality" value="high">
+            <embed src="images/btn1111.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="980" height="314"></embed>
+        </object>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <div class="pic" id="pic" style="background:url('http://img.tg.37wan.com/u/2014/0922/22154717mzPE7.jpg') no-repeat;"> </div>
+</div>
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">最新开服</h2>
+        <div class="list1">
+            <!--最新开服列表ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--最新开服列表ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <!--游戏展示轮播ul start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播ul end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <!--热门推荐ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐ul end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<div class="banner"><a href="#"><img src="images/kf_67.png" alt="banner" width="980" height="70" border="0"></a></div>
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">火热游戏TOP榜</h2>
+        <div class="list2">
+            <!--火热游戏TOP榜ul start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--火热游戏TOP榜ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <!--新品展示ul start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示ul end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--footer end-->
+</body>
+</html>";i:3;s:4295:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/gameTop/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/v1.0/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/v1.0/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gameTop/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/gplatform/v1.0/images/logo.png" alt="logo" /></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <ul class="nav float_l">
+        <li><a href="#">2014最热网页游戏</a></li>
+        <li><a href="#">2014网页游戏排行榜</a></li>
+        <li><a href="#">今日最新开服</a></li>
+        <li><a href="#">最新网页游戏推荐</a></li>
+        <li class="clear"></li>
+    </ul>
+    <!--nav end-->
+    <div class="float_r">
+        <input name="" class="btn1 marg15" type="button" value="收藏到桌面 ">
+        <input name="" class="btn1 marg15" type="button" value="免费注册 ">
+    </div>
+    <div class="clear">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="314">
+            <param name="movie" value="images/btn1111.swf">
+            <param name="quality" value="high">
+            <embed src="images/btn1111.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="980" height="314"></embed>
+        </object>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <div class="pic" id="pic" style="background:url('http://img.tg.37wan.com/u/2014/0922/22154717mzPE7.jpg') no-repeat;"> </div>
+</div>
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">最新开服</h2>
+        <div class="list1">
+            <!--最新开服列表ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--最新开服列表ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <!--游戏展示轮播ul start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播ul end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <!--热门推荐ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐ul end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<div class="banner"><a href="#"><img src="images/kf_67.png" alt="banner" width="980" height="70" border="0"></a></div>
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">火热游戏TOP榜</h2>
+        <div class="list2">
+            <!--火热游戏TOP榜ul start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--火热游戏TOP榜ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <!--新品展示ul start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示ul end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--footer end-->
+</body>
+</html>";i:4;s:4294:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/gameTop/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/v1.0/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/v1.0/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gameTop/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/gplatform/v1.0/images/logo.png" alt="logo" /></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <ul class="nav float_l">
+        <li><a href="#">2014最热网页游戏</a></li>
+        <li><a href="#">2014网页游戏排行榜</a></li>
+        <li><a href="#">今日最新开服</a></li>
+        <li><a href="#">最新网页游戏推荐</a></li>
+        <li class="clear"></li>
+    </ul>
+    <!--nav end-->
+    <div class="float_r">
+        <input id="favorites" class="btn1 marg15" type="button" value="收藏到桌面 ">
+        <input class="btn1 marg15" type="button" value="免费注册 ">
+    </div>
+    <div class="clear">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="314">
+            <param name="movie" value="images/btn1111.swf">
+            <param name="quality" value="high">
+            <embed src="images/btn1111.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="980" height="314"></embed>
+        </object>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <div class="pic" id="pic" style="background:url('http://img.tg.37wan.com/u/2014/0922/22154717mzPE7.jpg') no-repeat;"> </div>
+</div>
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">最新开服</h2>
+        <div class="list1">
+            <!--最新开服列表ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--最新开服列表ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <!--游戏展示轮播ul start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播ul end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <!--热门推荐ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐ul end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<div class="banner"><a href="#"><img src="images/kf_67.png" alt="banner" width="980" height="70" border="0"></a></div>
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">火热游戏TOP榜</h2>
+        <div class="list2">
+            <!--火热游戏TOP榜ul start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--火热游戏TOP榜ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <!--新品展示ul start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示ul end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--footer end-->
+</body>
+</html>";i:5;s:4295:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/gameTop/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/v1.0/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/v1.0/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gameTop/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/gplatform/v1.0/images/logo.png" alt="logo" /></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <ul class="nav float_l">
+        <li><a href="#">2014最热网页游戏</a></li>
+        <li><a href="#">2014网页游戏排行榜</a></li>
+        <li><a href="#">今日最新开服</a></li>
+        <li><a href="#">最新网页游戏推荐</a></li>
+        <li class="clear"></li>
+    </ul>
+    <!--nav end-->
+    <div class="float_r">
+        <a id="favorites" href="##" class="btn1 marg15">收藏到桌面</a>
+        <a href="/register.shtml" target="_blank" class="btn1 marg15">免费注册</a>
+    </div>
+    <div class="clear">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="314">
+            <param name="movie" value="images/btn1111.swf">
+            <param name="quality" value="high">
+            <embed src="images/btn1111.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="980" height="314"></embed>
+        </object>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <div class="pic" id="pic" style="background:url('http://img.tg.37wan.com/u/2014/0922/22154717mzPE7.jpg') no-repeat;"> </div>
+</div>
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">最新开服</h2>
+        <div class="list1">
+            <!--最新开服列表ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--最新开服列表ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <!--游戏展示轮播ul start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播ul end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <!--热门推荐ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐ul end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<div class="banner"><a href="#"><img src="images/kf_67.png" alt="banner" width="980" height="70" border="0"></a></div>
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">火热游戏TOP榜</h2>
+        <div class="list2">
+            <!--火热游戏TOP榜ul start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--火热游戏TOP榜ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <!--新品展示ul start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示ul end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--footer end-->
+</body>
+</html>";i:6;s:4175:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/gameTop/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/v1.0/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/v1.0/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gameTop/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/gplatform/v1.0/images/logo.png" alt="logo" /></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <ul class="nav float_l">
+        <li><a href="#">2014最热网页游戏</a></li>
+        <li><a href="#">2014网页游戏排行榜</a></li>
+        <li><a href="#">今日最新开服</a></li>
+        <li><a href="#">最新网页游戏推荐</a></li>
+        <li class="clear"></li>
+    </ul>
+    <!--nav end-->
+    <div class="float_r">
+        <a id="favorites" href="##" class="btn1 marg15">收藏到桌面</a>
+        <a href="/register.shtml" target="_blank" class="btn1 marg15">免费注册</a>
+    </div>
+    <div class="clear">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="314">
+            <param name="movie" value="images/btn1111.swf">
+            <param name="quality" value="high">
+            <embed src="images/btn1111.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="980" height="314"></embed>
+        </object>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <div class="pic" id="pic" style="background:url('http://img.tg.37wan.com/u/2014/0922/22154717mzPE7.jpg') no-repeat;"> </div>
+</div>
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">最新开服</h2>
+        <div class="list1">
+            <!--最新开服列表ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--最新开服列表ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <!--游戏展示轮播ul start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播ul end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <!--热门推荐ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐ul end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">火热游戏TOP榜</h2>
+        <div class="list2">
+            <!--火热游戏TOP榜ul start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--火热游戏TOP榜ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <!--新品展示ul start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示ul end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--footer end-->
+</body>
+</html>";i:7;s:3731:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/gameTop/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/v1.0/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/v1.0/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gameTop/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/gplatform/v1.0/images/logo.png" alt="logo" /></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <ul class="nav float_l">
+        <li><a href="#">2014最热网页游戏</a></li>
+        <li><a href="#">2014网页游戏排行榜</a></li>
+        <li><a href="#">今日最新开服</a></li>
+        <li><a href="#">最新网页游戏推荐</a></li>
+        <li class="clear"></li>
+    </ul>
+    <!--nav end-->
+    <div class="float_r">
+        <a id="favorites" href="##" class="btn1 marg15">收藏到桌面</a>
+        <a href="/register.shtml" target="_blank" class="btn1 marg15">免费注册</a>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <div class="pic" id="pic" style="background:url('http://img.tg.37wan.com/u/2014/0922/22154717mzPE7.jpg') no-repeat;"> </div>
+</div>
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(TEST)#-->
+    <!--首屏四个动画 end-->
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">最新开服</h2>
+        <div class="list1">
+            <!--最新开服列表ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--最新开服列表ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <!--游戏展示轮播ul start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播ul end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <!--热门推荐ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐ul end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">火热游戏TOP榜</h2>
+        <div class="list2">
+            <!--火热游戏TOP榜ul start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--火热游戏TOP榜ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <!--新品展示ul start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示ul end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--footer end-->
+</body>
+</html>";i:8;s:3742:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/gameTop/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/v1.0/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/v1.0/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gameTop/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/gplatform/v1.0/images/logo.png" alt="logo" /></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <ul class="nav float_l">
+        <li><a href="#">2014最热网页游戏</a></li>
+        <li><a href="#">2014网页游戏排行榜</a></li>
+        <li><a href="#">今日最新开服</a></li>
+        <li><a href="#">最新网页游戏推荐</a></li>
+        <li class="clear"></li>
+    </ul>
+    <!--nav end-->
+    <div class="float_r">
+        <a id="favorites" href="##" class="btn1 marg15">收藏到桌面</a>
+        <a href="/register.shtml" target="_blank" class="btn1 marg15">免费注册</a>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <div class="pic" id="pic" style="background:url('http://img.tg.37wan.com/u/2014/0922/22154717mzPE7.jpg') no-repeat;"> </div>
+</div>
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_01_FULL)#-->
+    <!--首屏四个动画 end-->
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">最新开服</h2>
+        <div class="list1">
+            <!--最新开服列表ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--最新开服列表ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <!--游戏展示轮播ul start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播ul end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <!--热门推荐ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐ul end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">火热游戏TOP榜</h2>
+        <div class="list2">
+            <!--火热游戏TOP榜ul start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--火热游戏TOP榜ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <!--新品展示ul start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示ul end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--footer end-->
+</body>
+</html>";i:9;s:3604:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/gameTop/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/v1.0/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/gameTop/v1.0/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gameTop/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/gplatform/v1.0/images/logo.png" alt="logo" /></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <ul class="nav float_l">
+        <li><a href="#">2014最热网页游戏</a></li>
+        <li><a href="#">2014网页游戏排行榜</a></li>
+        <li><a href="#">今日最新开服</a></li>
+        <li><a href="#">最新网页游戏推荐</a></li>
+        <li class="clear"></li>
+    </ul>
+    <!--nav end-->
+    <div class="float_r">
+        <a id="favorites" href="##" class="btn1 marg15">收藏到桌面</a>
+        <a href="/register.shtml" target="_blank" class="btn1 marg15">免费注册</a>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_01_FULL)#-->
+    <!--首屏四个动画 end-->
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">最新开服</h2>
+        <div class="list1">
+            <!--最新开服列表ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--最新开服列表ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <!--游戏展示轮播ul start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播ul end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <!--热门推荐ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐ul end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">火热游戏TOP榜</h2>
+        <div class="list2">
+            <!--火热游戏TOP榜ul start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--火热游戏TOP榜ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <!--新品展示ul start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示ul end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--footer end-->
+</body>
+</html>";i:10;s:3624:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gameTop/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/gplatform/v1.0/images/logo.png" alt="logo" /></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <ul class="nav float_l">
+        <li><a href="#">2014最热网页游戏</a></li>
+        <li><a href="#">2014网页游戏排行榜</a></li>
+        <li><a href="#">今日最新开服</a></li>
+        <li><a href="#">最新网页游戏推荐</a></li>
+        <li class="clear"></li>
+    </ul>
+    <!--nav end-->
+    <div class="float_r">
+        <a id="favorites" href="##" class="btn1 marg15">收藏到桌面</a>
+        <a href="/register.shtml" target="_blank" class="btn1 marg15">免费注册</a>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_01_FULL)#-->
+    <!--首屏四个动画 end-->
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">最新开服</h2>
+        <div class="list1">
+            <!--最新开服列表ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--最新开服列表ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <!--游戏展示轮播ul start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播ul end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <!--热门推荐ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐ul end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">火热游戏TOP榜</h2>
+        <div class="list2">
+            <!--火热游戏TOP榜ul start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--火热游戏TOP榜ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <!--新品展示ul start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示ul end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--footer end-->
+</body>
+</html>";i:11;s:3629:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gameTop/v1.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/gplatform/v1.0/images/logo.png" alt="logo" /></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <ul class="nav float_l">
+        <li><a href="#">2014最热网页游戏</a></li>
+        <li><a href="#">2014网页游戏排行榜</a></li>
+        <li><a href="#">今日最新开服</a></li>
+        <li><a href="#">最新网页游戏推荐</a></li>
+        <li class="clear"></li>
+    </ul>
+    <!--nav end-->
+    <div class="float_r">
+        <a id="favorites" href="##" class="btn1 marg15">收藏到桌面</a>
+        <a href="/register.shtml" target="_blank" class="btn1 marg15">免费注册</a>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_01_FULL)#-->
+    <!--首屏四个动画 end-->
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">最新开服</h2>
+        <div class="list1">
+            <!--最新开服列表ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--最新开服列表ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <!--游戏展示轮播ul start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播ul end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <!--热门推荐ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐ul end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">火热游戏TOP榜</h2>
+        <div class="list2">
+            <!--火热游戏TOP榜ul start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--火热游戏TOP榜ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <!--新品展示ul start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示ul end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--footer end-->
+</body>
+</html>";i:12;s:4114:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gameTop/v1.0/js/index.js" type="text/javascript"></script>
+<script type="text/javascript">
+var curUrl = document.location.href;
+var search = '?'+curUrl.split('?') [1];
+alert(search);
+
+reg=/[0-1a-zA-Z]+\.g\.v1\.cn/i;
+if(search){
+  $("a").each(function(){
+    href=$(this).attr('href');
+    if(href && href.match(reg)){
+        if(href.indexOf('?')==-1){
+          $(this).attr("href",href+location.search);
+        }else{
+          $(this).attr("href",href+location.search.replace('?','&'));
+        }
+    }
+  });
+}
+</script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/gplatform/v1.0/images/logo.png" alt="logo" /></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <ul class="nav float_l">
+        <li><a href="#">2014最热网页游戏</a></li>
+        <li><a href="#">2014网页游戏排行榜</a></li>
+        <li><a href="#">今日最新开服</a></li>
+        <li><a href="#">最新网页游戏推荐</a></li>
+        <li class="clear"></li>
+    </ul>
+    <!--nav end-->
+    <div class="float_r">
+        <a id="favorites" href="##" class="btn1 marg15">收藏到桌面</a>
+        <a href="/register.shtml" target="_blank" class="btn1 marg15">免费注册</a>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_01_FULL)#-->
+    <!--首屏四个动画 end-->
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">最新开服</h2>
+        <div class="list1">
+            <!--最新开服列表ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--最新开服列表ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <!--游戏展示轮播ul start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播ul end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <!--热门推荐ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐ul end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">火热游戏TOP榜</h2>
+        <div class="list2">
+            <!--火热游戏TOP榜ul start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--火热游戏TOP榜ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <!--新品展示ul start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示ul end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--footer end-->
+</body>
+</html>";i:13;s:4098:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gameTop/v1.0/js/index.js" type="text/javascript"></script>
+<script type="text/javascript">
+var curUrl = document.location.href;
+var search = '?'+curUrl.split('?') [1];
+
+reg=/[0-1a-zA-Z]+\.g\.v1\.cn/i;
+if(search){
+  $("a").each(function(){
+    href=$(this).attr('href');
+    if(href && href.match(reg)){
+        if(href.indexOf('?')==-1){
+          $(this).attr("href",href+location.search);
+        }else{
+          $(this).attr("href",href+location.search.replace('?','&'));
+        }
+    }
+  });
+}
+</script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/gplatform/v1.0/images/logo.png" alt="logo" /></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <ul class="nav float_l">
+        <li><a href="#">2014最热网页游戏</a></li>
+        <li><a href="#">2014网页游戏排行榜</a></li>
+        <li><a href="#">今日最新开服</a></li>
+        <li><a href="#">最新网页游戏推荐</a></li>
+        <li class="clear"></li>
+    </ul>
+    <!--nav end-->
+    <div class="float_r">
+        <a id="favorites" href="##" class="btn1 marg15">收藏到桌面</a>
+        <a href="/register.shtml" target="_blank" class="btn1 marg15">免费注册</a>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_01_FULL)#-->
+    <!--首屏四个动画 end-->
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">最新开服</h2>
+        <div class="list1">
+            <!--最新开服列表ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--最新开服列表ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <!--游戏展示轮播ul start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播ul end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <!--热门推荐ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐ul end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">火热游戏TOP榜</h2>
+        <div class="list2">
+            <!--火热游戏TOP榜ul start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--火热游戏TOP榜ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <!--新品展示ul start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示ul end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--footer end-->
+</body>
+</html>";i:14;s:4080:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gameTop/v1.0/js/index.js" type="text/javascript"></script>
+<script type="text/javascript">
+var curUrl = document.location.href;
+var search = '?'+curUrl.split('?') [1];
+
+reg=/[0-1a-zA-Z]+\.g\.v1\.cn/i;
+if(search){
+  $("a").each(function(){
+    href=$(this).attr('href');
+    if(href && href.match(reg)){
+        if(href.indexOf('?')==-1){
+          $(this).attr("href",href+search);
+        }else{
+          $(this).attr("href",href+search.replace('?','&'));
+        }
+    }
+  });
+}
+</script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/gplatform/v1.0/images/logo.png" alt="logo" /></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <ul class="nav float_l">
+        <li><a href="#">2014最热网页游戏</a></li>
+        <li><a href="#">2014网页游戏排行榜</a></li>
+        <li><a href="#">今日最新开服</a></li>
+        <li><a href="#">最新网页游戏推荐</a></li>
+        <li class="clear"></li>
+    </ul>
+    <!--nav end-->
+    <div class="float_r">
+        <a id="favorites" href="##" class="btn1 marg15">收藏到桌面</a>
+        <a href="/register.shtml" target="_blank" class="btn1 marg15">免费注册</a>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_01_FULL)#-->
+    <!--首屏四个动画 end-->
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">最新开服</h2>
+        <div class="list1">
+            <!--最新开服列表ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--最新开服列表ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <!--游戏展示轮播ul start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播ul end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <!--热门推荐ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐ul end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">火热游戏TOP榜</h2>
+        <div class="list2">
+            <!--火热游戏TOP榜ul start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--火热游戏TOP榜ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <!--新品展示ul start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示ul end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--footer end-->
+</body>
+</html>";i:15;s:4098:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gameTop/v1.0/js/index.js" type="text/javascript"></script>
+<script type="text/javascript">
+var curUrl = document.location.href;
+var search = '?'+curUrl.split('?') [1];
+
+reg=/[0-1a-zA-Z]+\.g\.v1\.cn/i;
+if(search){
+  $("a").each(function(){
+    href=$(this).attr('href');
+    alert(href);
+    if(href && href.match(reg)){
+        if(href.indexOf('?')==-1){
+          $(this).attr("href",href+search);
+        }else{
+          $(this).attr("href",href+search.replace('?','&'));
+        }
+    }
+  });
+}
+</script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/gplatform/v1.0/images/logo.png" alt="logo" /></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <ul class="nav float_l">
+        <li><a href="#">2014最热网页游戏</a></li>
+        <li><a href="#">2014网页游戏排行榜</a></li>
+        <li><a href="#">今日最新开服</a></li>
+        <li><a href="#">最新网页游戏推荐</a></li>
+        <li class="clear"></li>
+    </ul>
+    <!--nav end-->
+    <div class="float_r">
+        <a id="favorites" href="##" class="btn1 marg15">收藏到桌面</a>
+        <a href="/register.shtml" target="_blank" class="btn1 marg15">免费注册</a>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_01_FULL)#-->
+    <!--首屏四个动画 end-->
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">最新开服</h2>
+        <div class="list1">
+            <!--最新开服列表ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--最新开服列表ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <!--游戏展示轮播ul start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播ul end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <!--热门推荐ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐ul end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">火热游戏TOP榜</h2>
+        <div class="list2">
+            <!--火热游戏TOP榜ul start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--火热游戏TOP榜ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <!--新品展示ul start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示ul end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--footer end-->
+</body>
+</html>";i:16;s:3629:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gameTop/v1.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/gplatform/v1.0/images/logo.png" alt="logo" /></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <ul class="nav float_l">
+        <li><a href="#">2014最热网页游戏</a></li>
+        <li><a href="#">2014网页游戏排行榜</a></li>
+        <li><a href="#">今日最新开服</a></li>
+        <li><a href="#">最新网页游戏推荐</a></li>
+        <li class="clear"></li>
+    </ul>
+    <!--nav end-->
+    <div class="float_r">
+        <a id="favorites" href="##" class="btn1 marg15">收藏到桌面</a>
+        <a href="/register.shtml" target="_blank" class="btn1 marg15">免费注册</a>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_01_FULL)#-->
+    <!--首屏四个动画 end-->
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">最新开服</h2>
+        <div class="list1">
+            <!--最新开服列表ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--最新开服列表ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <!--游戏展示轮播ul start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播ul end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <!--热门推荐ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐ul end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">火热游戏TOP榜</h2>
+        <div class="list2">
+            <!--火热游戏TOP榜ul start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--火热游戏TOP榜ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <!--新品展示ul start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示ul end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--footer end-->
+</body>
+</html>";i:17;s:3611:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gameTop/v1.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/gplatform/v1.0/images/logo.png" alt="logo" /></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <ul class="nav float_l">
+        <li><a href="#">2014最热网页游戏</a></li>
+        <li><a href="#">2014网页游戏排行榜</a></li>
+        <li><a href="#">今日最新开服</a></li>
+        <li><a href="#">最新网页游戏推荐</a></li>
+        <li class="clear"></li>
+    </ul>
+    <!--nav end-->
+    <div class="float_r">
+        <a id="favorites" href="##" class="btn1 marg15">收藏到桌面</a>
+        <a href="/register.shtml" target="_blank" class="btn1 marg15">免费注册</a>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_01_FULL)#-->
+    <!--首屏四个动画 end-->
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">热门游戏</h2>
+        <div class="list1">
+            <!--热门游戏列表ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--热门游戏列表ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <!--游戏展示轮播ul start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播ul end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <!--热门推荐ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐ul end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">最新开服</h2>
+        <div class="list2">
+            <!--最新开服ul start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--最新开服ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <!--新品展示ul start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示ul end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--footer end-->
+</body>
+</html>";i:18;s:3429:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gameTop/v1.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/gplatform/v1.0/images/logo.png" alt="logo" /></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <!--导航 推荐游戏ul start-->
+    <!--#CMS_MODULE(GTINDEX_NAV_LEFT)#-->
+    <!--导航 推荐游戏ul end-->
+    <!--nav end-->
+    <div class="float_r">
+        <a id="favorites" href="##" class="btn1 marg15">收藏到桌面</a>
+        <a href="/register.shtml" target="_blank" class="btn1 marg15">免费注册</a>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_01_FULL)#-->
+    <!--首屏四个动画 end-->
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">热门游戏</h2>
+        <div class="list1">
+            <!--热门游戏列表ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--热门游戏列表ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <!--游戏展示轮播ul start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播ul end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <!--热门推荐ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐ul end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">最新开服</h2>
+        <div class="list2">
+            <!--最新开服ul start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--最新开服ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <!--新品展示ul start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示ul end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--footer end-->
+</body>
+</html>";i:19;s:3432:"<!DOCTYPE html>
+<html>
+<head>
+<title>游戏平台</title>
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/page.css" charset="utf-8" rel="stylesheet" />
+<link href="http://static.v1.cn/game/gameTop/v1.0/css/mtv.css" charset="utf-8" rel="stylesheet" />
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gameTop/v1.0/js/index.js" type="text/javascript"></script>
+</head>
+<body>
+<!--top start-->
+<div class="top clearfix">
+    <div class="slogan"><img src="http://static.v1.cn/game/gameTop/v1.0/images/logo.png" alt="logo" /></div>
+    <!--顶部banner start-->
+    <!--#CMS_MODULE(GTINDEX_TOP_RIGHT)#-->
+    <!--顶部banner end-->
+</div>
+<!--top end-->
+<!--head start-->
+<div class="header">
+    <!--nav start-->
+    <!--导航 推荐游戏ul start-->
+    <!--#CMS_MODULE(GTINDEX_NAV_LEFT)#-->
+    <!--导航 推荐游戏ul end-->
+    <!--nav end-->
+    <div class="float_r">
+        <a id="favorites" href="##" class="btn1 marg15">收藏到桌面</a>
+        <a href="/register.shtml" target="_blank" class="btn1 marg15">免费注册</a>
+    </div>
+</div>
+<!--head end-->
+<!--mtv start-->
+<div class="mtv">
+    <!--首屏四个动画 start-->
+    <!--#CMS_MODULE(GTINDEX_01_FULL)#-->
+    <!--首屏四个动画 end-->
+<!--mtv end-->
+<!--main1 start-->
+<div class="main border8 clearfix">
+    <div class="side_left bg_hui float_l">
+        <h2 class="server_title">热门游戏</h2>
+        <div class="list1">
+            <!--热门游戏列表ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_LEFT)#-->
+            <!--热门游戏列表ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r ">
+        <div class="server_mtv clearfix">
+            <!--picmtv start-->
+            <div class="examples_body clearfix">
+                <div class="bx_wrap"><a class="prev" href="">left</a><a class="next" href="">right</a>
+                    <div class="bx_container">
+                        <!--游戏展示轮播ul start-->
+                        <!--#CMS_MODULE(GTINDEX_02_RIGHT_TOP)#-->
+                        <!--游戏展示轮播ul end-->
+                    </div>
+                </div>
+            </div>
+            <!--picmtv end-->
+        </div>
+        <div class="list4">
+            <!--热门推荐ul start-->
+            <!--#CMS_MODULE(GTINDEX_02_RIGHT_BOTTOM)#-->
+            <!--热门推荐ul end-->
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--main1 end-->
+<!--通栏广告 start-->
+<!--#CMS_MODULE(GTINDEX_03_FULL)#-->
+<!--通栏广告 end-->
+<!--main2 start-->
+<div class="main clearfix">
+    <div class="side_left border1 float_l">
+        <h2 class="server_title2">最新开服</h2>
+        <div class="list2">
+            <!--最新开服ul start-->
+            <!--#CMS_MODULE(GTINDEX_04_LEFT)#-->
+            <!--最新开服ul end-->
+        </div>
+    </div>
+    <div class="side_right float_r">
+        <!--新品展示ul start-->
+        <!--#CMS_MODULE(GTINDEX_04_RIGHT)#-->
+        <!--新品展示ul end-->
+    </div>
+</div>
+<!--main2 end-->
+<!--footer start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--footer end-->
+</body>
+</html>";}

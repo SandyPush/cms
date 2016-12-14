@@ -1,0 +1,4249 @@
+a:20:{i:0;s:6549:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof]").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    var playType='videoAlbum';
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div>新闻&nbsp;>&nbsp;热点关注</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+
+</div>
+
+ </body>
+</html>
+
+";i:1;s:6583:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof]").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    var playType='videoAlbum';
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div>新闻&nbsp;>&nbsp;热点关注</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+ </body>
+</html>
+
+";i:2;s:6654:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof]").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    var playType='videoAlbum';
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div>新闻&nbsp;>&nbsp;热点关注</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+
+</div>
+
+<!--#CMS_MODULE(code005)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+ </body>
+</html>
+
+";i:3;s:6654:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof]").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    var playType='videoAlbum';
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div>新闻&nbsp;>&nbsp;热点关注</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+
+</div>
+
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+ </body>
+</html>
+
+";i:4;s:6695:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof]").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    var playType='videoAlbum';
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div><a href="http://www.v1.cn">第一视频</a>&nbsp;>&nbsp;{$cms_page_name}</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+
+</div>
+
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+ </body>
+</html>
+
+";i:5;s:6787:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof]").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    var playType='videoAlbum';
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div><a href="http://www.v1.cn">第一视频</a>&nbsp;>&nbsp;{$cms_page_name}</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+<!--
+$RelatedArray=CMS_FUNCTION('getSolr', $cms_page_name);
+print_r($RelatedArray);
+-->
+
+</div>
+
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+ </body>
+</html>
+
+";i:6;s:6789:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof]").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    var playType='videoAlbum';
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div><a href="http://www.v1.cn">第一视频</a>&nbsp;>&nbsp;{$cms_page_name}</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+<!--#
+$RelatedArray=CMS_FUNCTION('getSolr', $cms_page_name);
+print_r($RelatedArray);
+#-->
+
+</div>
+
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+ </body>
+</html>
+
+";i:7;s:6778:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof]").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    var playType='videoAlbum';
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div><a href="http://www.v1.cn">第一视频</a>&nbsp;>&nbsp;{$cms_page_name}</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+<!--#
+$RelatedArray=CMS_FUNCTION('getSolr', 'a');
+print_r($RelatedArray);
+#-->
+
+</div>
+
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+ </body>
+</html>
+
+";i:8;s:6971:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof]").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    var playType='videoAlbum';
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div><a href="http://www.v1.cn">第一视频</a>&nbsp;>&nbsp;{$cms_page_name}</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+<div class="partners">
+<h2>相关视频</h2>
+<!--#
+$relatedArray=CMS_FUNCTION('getSolr', 'a');
+print_r($RelatedArray);
+foreach($relatedArray as $related){
+  echo '<a href="'.$related['url'].'">'.$related['title'].'</a> ';
+}
+#-->
+<div class="corner"></div>
+</div>
+
+
+</div>
+
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+ </body>
+</html>
+
+";i:9;s:6997:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof]").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    var playType='videoAlbum';
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div><a href="http://www.v1.cn">第一视频</a>&nbsp;>&nbsp;{$cms_page_name}</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+<div class="partners">
+<h2>相关视频</h2>
+<!--#
+echo $cms_page_keywords;
+$relatedArray=CMS_FUNCTION('getSolr', 'a');
+print_r($RelatedArray);
+foreach($relatedArray as $related){
+  echo '<a href="'.$related['url'].'">'.$related['title'].'</a> ';
+}
+#-->
+<div class="corner"></div>
+</div>
+
+
+</div>
+
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+ </body>
+</html>
+
+";i:10;s:6961:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof]").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    var playType='videoAlbum';
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div><a href="http://www.v1.cn">第一视频</a>&nbsp;>&nbsp;{$cms_page_name}</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+<div class="partners">
+<h2>相关视频</h2>
+<!--#
+$relatedArray=CMS_FUNCTION('getSolr', $cms_page_keywords);
+foreach($relatedArray as $related){
+  echo '<a href="'.$related['url'].'">'.$related['title'].'</a> ';
+}
+#-->
+<div class="corner"></div>
+</div>
+
+
+</div>
+
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+ </body>
+</html>
+
+";i:11;s:6929:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof]").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    var playType='videoAlbum';
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div><a href="http://www.v1.cn">第一视频</a>&nbsp;>&nbsp;{$cms_page_name}</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+<div class="partners">
+<h2>相关视频</h2>
+<!--#
+$relatedArray=CMS_FUNCTION('getSolr', $cms_page_keywords);
+foreach($relatedArray as $related){
+  echo '<a href="'.$related['url'].'">'.$related['title'].'</a> ';
+}
+#-->
+<div class="corner"></div>
+</div>
+
+
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+ </body>
+</html>
+
+";i:12;s:6929:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof]").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    var playType='videoAlbum';
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div><a href="http://www.v1.cn">第一视频</a>&nbsp;>&nbsp;{$cms_page_name}</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+<div class="partners">
+<h1>相关视频</h1>
+<!--#
+$relatedArray=CMS_FUNCTION('getSolr', $cms_page_keywords);
+foreach($relatedArray as $related){
+  echo '<a href="'.$related['url'].'">'.$related['title'].'</a> ';
+}
+#-->
+<div class="corner"></div>
+</div>
+
+
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+ </body>
+</html>
+
+";i:13;s:9067:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof]").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    var playType='videoAlbum';
+</script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next1").click(function(){    //绑定click事件  
+             var content = $("div#content1");   
+             var content_list = $("div#content_list1");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev1").click(function(){  
+             var content = $("div#content1");   
+             var content_list = $("div#content_list1");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div><a href="http://www.v1.cn">第一视频</a>&nbsp;>&nbsp;{$cms_page_name}</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+<div class="partners">
+<h1>相关视频</h1>
+<!--#
+$relatedArray=CMS_FUNCTION('getSolr', $cms_page_keywords);
+foreach($relatedArray as $related){
+  echo '<a href="'.$related['url'].'">'.$related['title'].'</a> ';
+}
+#-->
+<div class="corner"></div>
+</div>
+
+
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+ </body>
+</html>
+
+";i:14;s:8941:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+		 //向后 按钮  
+        $("span.next1").click(function(){    //绑定click事件  
+             var content = $("div#content1");   
+             var content_list = $("div#content_list1");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev1").click(function(){  
+             var content = $("div#content1");   
+             var content_list = $("div#content_list1");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });   
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof]").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    var playType='videoAlbum';
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div><a href="http://www.v1.cn">第一视频</a>&nbsp;>&nbsp;{$cms_page_name}</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+<div class="partners">
+<h1>相关视频</h1>
+<!--#
+$relatedArray=CMS_FUNCTION('getSolr', $cms_page_keywords);
+foreach($relatedArray as $related){
+  echo '<a href="'.$related['url'].'">'.$related['title'].'</a> ';
+}
+#-->
+<div class="corner"></div>
+</div>
+
+
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+ </body>
+</html>
+
+";i:15;s:9067:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof]").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    var playType='videoAlbum';
+</script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next1").click(function(){    //绑定click事件  
+             var content = $("div#content1");   
+             var content_list = $("div#content_list1");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev1").click(function(){  
+             var content = $("div#content1");   
+             var content_list = $("div#content_list1");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div><a href="http://www.v1.cn">第一视频</a>&nbsp;>&nbsp;{$cms_page_name}</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+<div class="partners">
+<h1>相关视频</h1>
+<!--#
+$relatedArray=CMS_FUNCTION('getSolr', $cms_page_keywords);
+foreach($relatedArray as $related){
+  echo '<a href="'.$related['url'].'">'.$related['title'].'</a> ';
+}
+#-->
+<div class="corner"></div>
+</div>
+
+
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+ </body>
+</html>
+
+";i:16;s:9069:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof]").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    //var playType='videoAlbum';
+</script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next1").click(function(){    //绑定click事件  
+             var content = $("div#content1");   
+             var content_list = $("div#content_list1");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev1").click(function(){  
+             var content = $("div#content1");   
+             var content_list = $("div#content_list1");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div><a href="http://www.v1.cn">第一视频</a>&nbsp;>&nbsp;{$cms_page_name}</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+<div class="partners">
+<h1>相关视频</h1>
+<!--#
+$relatedArray=CMS_FUNCTION('getSolr', $cms_page_keywords);
+foreach($relatedArray as $related){
+  echo '<a href="'.$related['url'].'">'.$related['title'].'</a> ';
+}
+#-->
+<div class="corner"></div>
+</div>
+
+
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+ </body>
+</html>
+
+";i:17;s:9071:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof] a").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    //var playType='videoAlbum';
+</script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next1").click(function(){    //绑定click事件  
+             var content = $("div#content1");   
+             var content_list = $("div#content_list1");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev1").click(function(){  
+             var content = $("div#content1");   
+             var content_list = $("div#content_list1");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div><a href="http://www.v1.cn">第一视频</a>&nbsp;>&nbsp;{$cms_page_name}</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+<div class="partners">
+<h1>相关视频</h1>
+<!--#
+$relatedArray=CMS_FUNCTION('getSolr', $cms_page_keywords);
+foreach($relatedArray as $related){
+  echo '<a href="'.$related['url'].'">'.$related['title'].'</a> ';
+}
+#-->
+<div class="corner"></div>
+</div>
+
+
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+ </body>
+</html>
+
+";i:18;s:9082:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof] a").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    //var playType='videoAlbum';
+</script>
+<!--
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next1").click(function(){    //绑定click事件  
+             var content = $("div#content1");   
+             var content_list = $("div#content_list1");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev1").click(function(){  
+             var content = $("div#content1");   
+             var content_list = $("div#content_list1");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+-->
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div><a href="http://www.v1.cn">第一视频</a>&nbsp;>&nbsp;{$cms_page_name}</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+<div class="partners">
+<h1>相关视频</h1>
+<!--#
+$relatedArray=CMS_FUNCTION('getSolr', $cms_page_keywords);
+foreach($relatedArray as $related){
+  echo '<a href="'.$related['url'].'">'.$related['title'].'</a> ';
+}
+#-->
+<div class="corner"></div>
+</div>
+
+
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+ </body>
+</html>
+
+";i:19;s:9442:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_zj/css/zj.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_zj/js/fy.js"></script>
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next").click(function(){    //绑定click事件  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev").click(function(){  
+             var content = $("div#content");   
+             var content_list = $("div#content_list");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });
+        //计算内容数量
+        tabDiv=$("#tab div");
+        $("font[color=red]").html(tabDiv.length);
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#tab div").each(function(i){
+            contentPv+=parseInt($(this).find("dd[class=bof] a").text());
+        });
+        $("div[class=bof]").html("总播放量："+contentPv);
+    });
+
+    function fresh(dateTime)
+    {	
+       var startTime= new Date(dateTime);
+       var nowTime = new Date();
+       //两时间差为毫秒数，除以1000则转换为秒数
+       var leftsecond=parseInt((nowTime.getTime()-startTime.getTime())/1000);
+       d=parseInt(leftsecond/(3600*24));//计算出相差天数
+       d=d>=1 ? d+'天前' : '今天';
+       document.write(d);
+    }
+
+    //var playType='videoAlbum';
+</script>
+<!--
+<script>
+    $(function(){  
+        var page = 1;  
+        var i = 5; //每版放4个图片  
+        //向后 按钮  
+        $("span.next1").click(function(){    //绑定click事件  
+             var content = $("div#content1");   
+             var content_list = $("div#content_list1");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if( !content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                  if( page == page_count ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。  
+                    content_list.animate({ left : '0px'}, "slow"); //通过改变left值，跳转到第一个版面  
+                    page = 1;  
+                  }else{  
+                    content_list.animate({ left : '-='+v_width }, "slow");  //通过改变left值，达到每次换一个版面  
+                    page++;  
+                 }  
+             }  
+       });  
+        //往前 按钮  
+        $("span.prev1").click(function(){  
+             var content = $("div#content1");   
+             var content_list = $("div#content_list1");  
+             var v_width = content.width();  
+             var len = content.find("dl").length;  
+             var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数  
+             if(!content_list.is(":animated") ){    //判断“内容展示区域”是否正在处于动画  
+                 if(page == 1 ){  //已经到第一个版面了,如果再向前，必须跳转到最后一个版面。  
+                    content_list.animate({ left : '-='+v_width*(page_count-1) }, "slow");  
+                    page = page_count;  
+                }else{  
+                    content_list.animate({ left : '+='+v_width }, "slow");  
+                    page--;  
+                }  
+            }  
+        });  
+    });  
+</script>
+-->
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+</head>
+
+
+ <body>
+
+<!--#CMS_MODULE(code005)#-->
+
+<div class="mian clearfix" >
+<div class="wrapBox1000 clearfix">
+<div class="CTleftBox">
+
+
+<div class="subNav">
+<div><a href="http://www.v1.cn">第一视频</a>&nbsp;>&nbsp;{$cms_page_name}</div>
+<h1>{$cms_page_name}</h1>
+</div>
+
+
+<DIV class="Content" id="Content0">
+<div class="top">
+<div class="tit">
+<!--#CMS_MODULE(code001)#-->
+</div>
+<div class="top_lg">
+<div class="top_l">
+<a title="{$cms_page_title}" href="{$focus_url}" target="_blank"><img width="240" height="180" alt="{$cms_page_title}" src="{$focus_image}"></a>
+<a class="play" target="_blank" href="{$focus_url}"></a>
+<a class="zt" target="_blank" href="{$focus_url}"></a>
+
+<div class="iconObject02">
+<!-- Baidu Button BEGIN -->
+<div class="bdshare_t bds_tools get-codes-bdshare" id="bdshare">
+<a class="fenx" title="分享到" href="#">分享到：</a>
+<a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+<a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+<a class="bds_t163" title="分享到网易微博" href="#"></a>
+<a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+<span class="bds_more"></span>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'http://image.v1.cn/vodone/20131126/56147.jpg'}
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+</div>
+
+</div>
+
+<div class="title_t" >
+<span>
+			
+			
+				<a title="{$cms_page_title}" target="_blank" href="{$focus_url}">摘要：</a>
+							
+			<a title="{$cms_page_title}" class="titl" href="{$focus_url}" target="_blank">{$cms_page_description}</a>
+		</span></div>
+        
+        <div class="title_titsj">
+<div class="fabu">更新时间：<a><script>fresh("<!--#echo date("Y/m/d,H:i:s",time());#-->");</script></a></div>
+	<div class="bof">总播放量：<a>--</a></div>
+    <div class="anniu"></div>
+    <div class="ad"><img src="images/ad.jpg"></div>
+    </div>
+
+</div>
+
+<div class="top_r">
+
+
+<div class="fivBox" id="tab">
+
+<!--#CMS_MODULE(code003)#-->
+			
+</div>
+
+
+<div class="fiBox clearfix">
+	<div class="page">
+<a class="pre"></a>
+  	<span class="num"></span>
+	<a class="next"></a>	
+	</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</DIV>
+
+</div>
+</div>
+
+<div class="more-con">
+
+<!--#CMS_MODULE(code004)#-->
+<div class="partners">
+<h1>相关视频</h1>
+<!--#
+$relatedArray=CMS_FUNCTION('getSolr', $cms_page_keywords);
+foreach($relatedArray as $related){
+  echo '<a href="'.$related['url'].'">'.$related['title'].'</a> ';
+}
+#-->
+<div class="corner"></div>
+</div>
+
+
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+ </body>
+</html>
+
+";}

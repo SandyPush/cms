@@ -1,0 +1,68 @@
+<script type="text/javascript" src="/scripts/contentarea.js"></script>  
+<div class="area">
+<div style="margin:0 0 0 10px" class="nr">
+<h2>
+<button onclick="window.location='/object/objects/index/type/manual'">返回列表</button>   
+当前手动区:<?=$this->data['name']?>(简介:<?=$this->data['description']?>)&nbsp;&nbsp; 
+     	
+</h2>
+<form id="form1" name="form1" method="post" action="/contentarea/index/insert/" onsubmit="return checkadd();" enctype="multipart/form-data">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+  <tr>
+    <td width="100" align="left">属性名:</td>
+    <td width="442" align="left"><input name="caption" type="text" id="i_caption"/></td>
+  </tr>
+  <tr>
+    <td align="left">ID:</td>
+    <td align="left"><input name="name" type="text"  id="i_name" /></td>
+  </tr>
+  <tr>
+    <td align="left">类型:</td>
+    <td align="left">	
+	<select name="type" id="i_type" onchange="select_type(this.value);">
+		<option value="0">单行</option>
+		<option value="1">多行</option>
+		<option value="2">图片</option>
+	</select>
+	</td>
+  </tr>
+  <tr>
+    <td align="left">属性值:</td>
+    <td align="left"><input name="ahtml1" type="text" id="i_put" size="60" />
+	                 <textarea name="ahtml2" cols="60" rows="4" id="i_area" style="display:none"></textarea>
+					 <div style="display:none" id="i_apic"><input name="ahtml3" type="file" id="i_pic" size="60" /></div>
+					 <input  name="ahtml" type="hidden" id="ahtml"/>
+	</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><input name="oid" type="hidden" id="i_oid" value="<?=$this->oid?>"/></td>
+  </tr>
+   <tr >
+   <tbody id="i_max_l">
+	<td align="left">最大显示字数:</td>
+    <td align="left"><input name="max_length" type="text" id="i_max_length" /></td>
+	</tbody>
+  </tr>
+   <tr>
+    <td align="left">说明:</td>
+    <td align="left"><input name="info" type="text" id="i_info" size="60" maxlength="60" /></td>
+  </tr>
+  <tr>
+   <td align="left"><!--Pid：--></td>
+   <td align="left"><input type="hidden" name="pid" id="i_pid" size="30" value=""/>	<!--<br />(pid字段命名：p1010 or f1010 or a1010 来区分栏目页、专题和新闻页)--></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="left" style="color:#999999">"说明"是此属性的作用的描述,对于图片类型,请注明图片尺寸.如:"名家链接图片,400px*300px"<br>
+	"最大显示字数"表示此属性为多行或者单行文本时的最佳长度,不填表示无限制.
+	</td>
+  </tr>
+  	 <tr>
+				<td colspan="2" align="center" valign="middle">
+					<input type="submit" name="submit" value="   提 交   " />					
+				</td>
+	 </tr>
+</table>	
+</form>
+</div>
+</div>

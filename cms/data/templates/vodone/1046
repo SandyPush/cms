@@ -1,0 +1,2782 @@
+a:20:{i:0;s:7505:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+
+.CThearderWrap{width:100%;height:37px;border-top:#990000 2px solid;border-bottom:#dbdbdb 1px solid;position:fixed;top:0;display:block;background:#fcfcfc;*position:absolute;*bottom:auto;*margin-top:0;*left:0;*top:expression(eval(document.documentElement.scrollTop));z-index:99999;}
+.CThearderWrap .headerLeftBox{width:510px;height:37px;float:left;}
+.CThearderWrap .headerLeftBox .hearderChannel li{float:left;}
+.CThearderWrap .headerLeftBox span{margin:0 10px;}
+.CThearderWrap .headerLeftBox a{line-height:37px;color:#676767;}
+.CThearderWrap .headerLeftBox a.red{color:#990000;}
+.CThearderWrap .headerLeftBox a.sLogo{background:url("http://pic.v1.cn/cms/v1_static/common/images/sLogo.png") no-repeat;width:103px;height:24px;float:left;text-indent:-999em;margin-top:7px;margin-right:30px;}
+.CThearderWrap .headerLeftBox a.sLogo:hover{outline:0;}
+.CThearderWrap .headerCenterBox{width:240px;float:left;}
+.headerCenterBox .newsSearchBtn{background:#990000;border:1px solid #7d0000;color:#fff;height:26px;margin-top:6px;width:40px;padding:0;float:left;}
+.headerCenterBox .text{border:1px #dbdbdb solid;height:24px;margin:6px 0 5px 26px;width:155px;line-height:24px;color:#a9a9a9;float:left;}
+
+.CThearderWrap .headerRightBox{float:right;}
+.CThearderWrap .headerRightBox li{float:left;}
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+.CTmenu_head {cursor:pointer;position:relative;margin-left:16px;margin-top:12px;z-index:9999;float:left;display:inline;}
+.CTmenu_list {position:relative;}
+
+.CTmenu_body {display:none;*overflow:hidden;position:absolute;right:-18px;*right:22px;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel_recorder.png") no-repeat;width:160px;height:230px;margin-top:-20px;padding-top:45px;}
+.CTmenu_body a {background:url("http://pic.v1.cn/cms/v1_static/images/icon.png") no-repeat;background-position:-290px -148px;padding-left:15px;font:12px/22px "宋体";border-bottom:#dbdbdb 1px dotted;float:left;margin-left:0;}
+.CTmenu_body a:hover { color: #000000; text-decoration:underline;}
+.CTmoreMenu_head {cursor:pointer;position:relative;margin-top:10px;margin-left:16px;background:url("http://pic.v1.cn/cms/v1_static/common/images/redTriangle.png") no-repeat right 3px;line-height:13px;z-index:9999;*padding-top:15px;*background-position:right 15px;padding-right:15px;float:left;display:inline;}
+.CTmenu_list {position:relative;}
+.CTmoreMenu_body {display:none;*overflow:hidden;position:absolute;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel.png") no-repeat;width:229px;height:92px;margin-top:-20px;padding-top:45px;left:-162px;*right:42px;}
+.CThearderWrap .headerLeftBox .CTmoreMenu_body a{line-height:28px;}
+.CTmoreMenu_body a {padding-left:12px;font:12px/22px "宋体";margin-left:0;float:left;}
+.CTmoreMenu_body a:hover {color:#000000;text-decoration:underline;}
+
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";i:1;s:7439:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+
+.CThearderWrap{width:100%;height:37px;border-top:#990000 2px solid;border-bottom:#dbdbdb 1px solid;position:fixed;top:0;display:block;background:#fcfcfc;*position:absolute;*bottom:auto;*margin-top:0;*left:0;*top:expression(eval(document.documentElement.scrollTop));z-index:99999;}
+.CThearderWrap .headerLeftBox{width:510px;height:37px;float:left;}
+.CThearderWrap .headerLeftBox .hearderChannel li{float:left;}
+.CThearderWrap .headerLeftBox span{margin:0 10px;}
+.CThearderWrap .headerLeftBox a{line-height:37px;color:#676767;}
+.CThearderWrap .headerLeftBox a.red{color:#990000;}
+.CThearderWrap .headerLeftBox a.sLogo{background:url("http://pic.v1.cn/cms/v1_static/common/images/sLogo.png") no-repeat;width:103px;height:24px;float:left;text-indent:-999em;margin-top:7px;margin-right:30px;}
+.CThearderWrap .headerLeftBox a.sLogo:hover{outline:0;}
+.CThearderWrap .headerCenterBox{width:240px;float:left;}
+.headerCenterBox .newsSearchBtn{background:#990000;border:1px solid #7d0000;color:#fff;height:26px;margin-top:6px;width:40px;padding:0;float:left;}
+.headerCenterBox .text{border:1px #dbdbdb solid;height:24px;margin:6px 0 5px 26px;width:155px;line-height:24px;color:#a9a9a9;float:left;}
+
+.CThearderWrap .headerRightBox{float:right;}
+.CThearderWrap .headerRightBox li{float:left;}
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+.CTmenu_head {cursor:pointer;position:relative;margin-left:16px;margin-top:12px;z-index:9999;float:left;display:inline;}
+
+
+.CTmenu_body {display:none;*overflow:hidden;position:absolute;right:-18px;*right:22px;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel_recorder.png") no-repeat;width:160px;height:230px;margin-top:-20px;padding-top:45px;}
+.CTmenu_body a {background:url("http://pic.v1.cn/cms/v1_static/images/icon.png") no-repeat;background-position:-290px -148px;padding-left:15px;font:12px/22px "宋体";border-bottom:#dbdbdb 1px dotted;float:left;margin-left:0;}
+.CTmenu_body a:hover { color: #000000; text-decoration:underline;}
+.CTmoreMenu_head {cursor:pointer;position:relative;margin-top:10px;margin-left:16px;background:url("http://pic.v1.cn/cms/v1_static/common/images/redTriangle.png") no-repeat right 3px;line-height:13px;z-index:9999;*padding-top:15px;*background-position:right 15px;padding-right:15px;float:left;display:inline;}
+
+.CTmoreMenu_body {display:none;*overflow:hidden;position:absolute;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel.png") no-repeat;width:229px;height:92px;margin-top:-20px;padding-top:45px;left:-162px;*right:42px;}
+.CThearderWrap .headerLeftBox .CTmoreMenu_body a{line-height:28px;}
+.CTmoreMenu_body a {padding-left:12px;font:12px/22px "宋体";margin-left:0;float:left;}
+.CTmoreMenu_body a:hover {color:#000000;text-decoration:underline;}
+
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";i:2;s:7472:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+
+.CThearderWrap{width:100%;height:37px;border-top:#990000 2px solid;border-bottom:#dbdbdb 1px solid;position:fixed;top:0;display:block;background:#fcfcfc;*position:absolute;*bottom:auto;*margin-top:0;*left:0;*top:expression(eval(document.documentElement.scrollTop));z-index:99999;}
+.CThearderWrap .headerLeftBox{width:510px;height:37px;float:left;}
+.CThearderWrap .headerLeftBox .hearderChannel li{float:left;}
+.CThearderWrap .headerLeftBox span{margin:0 10px;}
+.CThearderWrap .headerLeftBox a{line-height:37px;color:#676767;}
+.CThearderWrap .headerLeftBox a.red{color:#990000;}
+.CThearderWrap .headerLeftBox a.sLogo{background:url("http://pic.v1.cn/cms/v1_static/common/images/sLogo.png") no-repeat;width:103px;height:24px;float:left;text-indent:-999em;margin-top:7px;margin-right:30px;}
+.CThearderWrap .headerLeftBox a.sLogo:hover{outline:0;}
+.CThearderWrap .headerCenterBox{width:240px;float:left;}
+.headerCenterBox .newsSearchBtn{background:#990000;border:1px solid #7d0000;color:#fff;height:26px;margin-top:6px;width:40px;padding:0;float:left;}
+.headerCenterBox .text{border:1px #dbdbdb solid;height:24px;margin:6px 0 5px 26px;width:155px;line-height:24px;color:#a9a9a9;float:left;}
+
+.CThearderWrap .headerRightBox{float:right;}
+.CThearderWrap .headerRightBox li{float:left;}
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+.CTmenu_head {cursor:pointer;position:relative;margin-left:16px;margin-top:12px;z-index:9999;float:left;display:inline;}
+
+
+.CTmenu_body {display:none;*overflow:hidden;position:absolute;right:-18px;*right:22px;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel_recorder.png") no-repeat;width:160px;height:230px;margin-top:-20px;padding-top:45px;}
+.CTmenu_body a {background:url("http://pic.v1.cn/cms/v1_static/images/icon.png") no-repeat;background-position:-290px -148px;padding-left:15px;font:12px/22px "宋体";border-bottom:#dbdbdb 1px dotted;float:left;margin-left:0;}
+.CTmenu_body a:hover { color: #000000; text-decoration:underline;}
+.CTmoreMenu_head {cursor:pointer;position:relative;margin-top:10px;margin-left:16px;background:url("http://pic.v1.cn/cms/v1_static/common/images/redTriangle.png") no-repeat right 3px;line-height:13px;z-index:9999;*padding-top:15px;*background-position:right 15px;padding-right:15px;float:left;display:inline;}
+.CTmenu_list {position:relative;}
+.CTmoreMenu_body {display:none;*overflow:hidden;position:absolute;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel.png") no-repeat;width:229px;height:92px;margin-top:-20px;padding-top:45px;left:-162px;_right:42px;}
+.CThearderWrap .headerLeftBox .CTmoreMenu_body a{line-height:28px;}
+.CTmoreMenu_body a {padding-left:12px;font:12px/22px "宋体";margin-left:0;float:left;}
+.CTmoreMenu_body a:hover {color:#000000;text-decoration:underline;}
+
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";i:3;s:7460:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+
+.CThearderWrap{width:100%;height:37px;border-top:#990000 2px solid;border-bottom:#dbdbdb 1px solid;position:fixed;top:0;display:block;background:#fcfcfc;*position:absolute;*bottom:auto;*margin-top:0;*left:0;*top:expression(eval(document.documentElement.scrollTop));z-index:99999;}
+.CThearderWrap .headerLeftBox{width:510px;height:37px;float:left;}
+.CThearderWrap .headerLeftBox .hearderChannel li{float:left;}
+.CThearderWrap .headerLeftBox span{margin:0 10px;}
+.CThearderWrap .headerLeftBox a{line-height:37px;color:#676767;}
+.CThearderWrap .headerLeftBox a.red{color:#990000;}
+.CThearderWrap .headerLeftBox a.sLogo{background:url("http://pic.v1.cn/cms/v1_static/common/images/sLogo.png") no-repeat;width:103px;height:24px;float:left;text-indent:-999em;margin-top:7px;margin-right:30px;}
+.CThearderWrap .headerLeftBox a.sLogo:hover{outline:0;}
+.CThearderWrap .headerCenterBox{width:240px;float:left;}
+.headerCenterBox .newsSearchBtn{background:#990000;border:1px solid #7d0000;color:#fff;height:26px;margin-top:6px;width:40px;padding:0;float:left;}
+.headerCenterBox .text{border:1px #dbdbdb solid;height:24px;margin:6px 0 5px 26px;width:155px;line-height:24px;color:#a9a9a9;float:left;}
+
+.CThearderWrap .headerRightBox{float:right;}
+.CThearderWrap .headerRightBox li{float:left;}
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+.CTmenu_head {cursor:pointer;position:relative;margin-left:16px;margin-top:12px;z-index:9999;float:left;display:inline;}
+
+
+.CTmenu_body {display:none;*overflow:hidden;position:absolute;right:-18px;*right:22px;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel_recorder.png") no-repeat;width:160px;height:230px;margin-top:-20px;padding-top:45px;}
+.CTmenu_body a {background:url("http://pic.v1.cn/cms/v1_static/images/icon.png") no-repeat;background-position:-290px -148px;padding-left:15px;font:12px/22px "宋体";border-bottom:#dbdbdb 1px dotted;float:left;margin-left:0;}
+.CTmenu_body a:hover { color: #000000; text-decoration:underline;}
+.CTmoreMenu_head {cursor:pointer;position:relative;margin-top:10px;margin-left:16px;background:url("http://pic.v1.cn/cms/v1_static/common/images/redTriangle.png") no-repeat right 3px;line-height:13px;z-index:9999;*padding-top:15px;*background-position:right 15px;padding-right:15px;float:left;display:inline;}
+.CTmenu_list {position:relative;}
+.CTmoreMenu_body {display:none;*overflow:hidden;position:absolute;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel.png") no-repeat;width:229px;height:92px;margin-top:-20px;padding-top:45px;left:-162px;}
+.CThearderWrap .headerLeftBox .CTmoreMenu_body a{line-height:28px;}
+.CTmoreMenu_body a {padding-left:12px;font:12px/22px "宋体";margin-left:0;float:left;}
+.CTmoreMenu_body a:hover {color:#000000;text-decoration:underline;}
+
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";i:4;s:7472:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+
+.CThearderWrap{width:100%;height:37px;border-top:#990000 2px solid;border-bottom:#dbdbdb 1px solid;position:fixed;top:0;display:block;background:#fcfcfc;*position:absolute;*bottom:auto;*margin-top:0;*left:0;*top:expression(eval(document.documentElement.scrollTop));z-index:99999;}
+.CThearderWrap .headerLeftBox{width:510px;height:37px;float:left;}
+.CThearderWrap .headerLeftBox .hearderChannel li{float:left;}
+.CThearderWrap .headerLeftBox span{margin:0 10px;}
+.CThearderWrap .headerLeftBox a{line-height:37px;color:#676767;}
+.CThearderWrap .headerLeftBox a.red{color:#990000;}
+.CThearderWrap .headerLeftBox a.sLogo{background:url("http://pic.v1.cn/cms/v1_static/common/images/sLogo.png") no-repeat;width:103px;height:24px;float:left;text-indent:-999em;margin-top:7px;margin-right:30px;}
+.CThearderWrap .headerLeftBox a.sLogo:hover{outline:0;}
+.CThearderWrap .headerCenterBox{width:240px;float:left;}
+.headerCenterBox .newsSearchBtn{background:#990000;border:1px solid #7d0000;color:#fff;height:26px;margin-top:6px;width:40px;padding:0;float:left;}
+.headerCenterBox .text{border:1px #dbdbdb solid;height:24px;margin:6px 0 5px 26px;width:155px;line-height:24px;color:#a9a9a9;float:left;}
+
+.CThearderWrap .headerRightBox{float:right;}
+.CThearderWrap .headerRightBox li{float:left;}
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+.CTmenu_head {cursor:pointer;position:relative;margin-left:16px;margin-top:12px;z-index:9999;float:left;display:inline;}
+
+
+.CTmenu_body {display:none;*overflow:hidden;position:absolute;right:-18px;*right:22px;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel_recorder.png") no-repeat;width:160px;height:230px;margin-top:-20px;padding-top:45px;}
+.CTmenu_body a {background:url("http://pic.v1.cn/cms/v1_static/images/icon.png") no-repeat;background-position:-290px -148px;padding-left:15px;font:12px/22px "宋体";border-bottom:#dbdbdb 1px dotted;float:left;margin-left:0;}
+.CTmenu_body a:hover { color: #000000; text-decoration:underline;}
+.CTmoreMenu_head {cursor:pointer;position:relative;margin-top:10px;margin-left:16px;background:url("http://pic.v1.cn/cms/v1_static/common/images/redTriangle.png") no-repeat right 3px;line-height:13px;z-index:9999;*padding-top:15px;*background-position:right 15px;padding-right:15px;float:left;display:inline;}
+.CTmenu_list {position:relative;}
+.CTmoreMenu_body {display:none;*overflow:hidden;position:absolute;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel.png") no-repeat;width:229px;height:92px;margin-top:-20px;padding-top:45px;left:-162px;_right:80px;}
+.CThearderWrap .headerLeftBox .CTmoreMenu_body a{line-height:28px;}
+.CTmoreMenu_body a {padding-left:12px;font:12px/22px "宋体";margin-left:0;float:left;}
+.CTmoreMenu_body a:hover {color:#000000;text-decoration:underline;}
+
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";i:5;s:7471:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+
+.CThearderWrap{width:100%;height:37px;border-top:#990000 2px solid;border-bottom:#dbdbdb 1px solid;position:fixed;top:0;display:block;background:#fcfcfc;*position:absolute;*bottom:auto;*margin-top:0;*left:0;*top:expression(eval(document.documentElement.scrollTop));z-index:99999;}
+.CThearderWrap .headerLeftBox{width:510px;height:37px;float:left;}
+.CThearderWrap .headerLeftBox .hearderChannel li{float:left;}
+.CThearderWrap .headerLeftBox span{margin:0 10px;}
+.CThearderWrap .headerLeftBox a{line-height:37px;color:#676767;}
+.CThearderWrap .headerLeftBox a.red{color:#990000;}
+.CThearderWrap .headerLeftBox a.sLogo{background:url("http://pic.v1.cn/cms/v1_static/common/images/sLogo.png") no-repeat;width:103px;height:24px;float:left;text-indent:-999em;margin-top:7px;margin-right:30px;}
+.CThearderWrap .headerLeftBox a.sLogo:hover{outline:0;}
+.CThearderWrap .headerCenterBox{width:240px;float:left;}
+.headerCenterBox .newsSearchBtn{background:#990000;border:1px solid #7d0000;color:#fff;height:26px;margin-top:6px;width:40px;padding:0;float:left;}
+.headerCenterBox .text{border:1px #dbdbdb solid;height:24px;margin:6px 0 5px 26px;width:155px;line-height:24px;color:#a9a9a9;float:left;}
+
+.CThearderWrap .headerRightBox{float:right;}
+.CThearderWrap .headerRightBox li{float:left;}
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+.CTmenu_head {cursor:pointer;position:relative;margin-left:16px;margin-top:12px;z-index:9999;float:left;display:inline;}
+
+
+.CTmenu_body {display:none;*overflow:hidden;position:absolute;right:-18px;*right:22px;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel_recorder.png") no-repeat;width:160px;height:230px;margin-top:-20px;padding-top:45px;}
+.CTmenu_body a {background:url("http://pic.v1.cn/cms/v1_static/images/icon.png") no-repeat;background-position:-290px -148px;padding-left:15px;font:12px/22px "宋体";border-bottom:#dbdbdb 1px dotted;float:left;margin-left:0;}
+.CTmenu_body a:hover { color: #000000; text-decoration:underline;}
+.CTmoreMenu_head {cursor:pointer;position:relative;margin-top:10px;margin-left:16px;background:url("http://pic.v1.cn/cms/v1_static/common/images/redTriangle.png") no-repeat right 3px;line-height:13px;z-index:9999;*padding-top:15px;*background-position:right 15px;padding-right:15px;float:left;display:inline;}
+.CTmenu_list {position:relative;}
+.CTmoreMenu_body {display:none;*overflow:hidden;position:absolute;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel.png") no-repeat;width:229px;height:92px;margin-top:-20px;padding-top:45px;left:-162px;_left:80px;}
+.CThearderWrap .headerLeftBox .CTmoreMenu_body a{line-height:28px;}
+.CTmoreMenu_body a {padding-left:12px;font:12px/22px "宋体";margin-left:0;float:left;}
+.CTmoreMenu_body a:hover {color:#000000;text-decoration:underline;}
+
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";i:6;s:7473:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+
+.CThearderWrap{width:100%;height:37px;border-top:#990000 2px solid;border-bottom:#dbdbdb 1px solid;position:fixed;top:0;display:block;background:#fcfcfc;*position:absolute;*bottom:auto;*margin-top:0;*left:0;*top:expression(eval(document.documentElement.scrollTop));z-index:99999;}
+.CThearderWrap .headerLeftBox{width:510px;height:37px;float:left;}
+.CThearderWrap .headerLeftBox .hearderChannel li{float:left;}
+.CThearderWrap .headerLeftBox span{margin:0 10px;}
+.CThearderWrap .headerLeftBox a{line-height:37px;color:#676767;}
+.CThearderWrap .headerLeftBox a.red{color:#990000;}
+.CThearderWrap .headerLeftBox a.sLogo{background:url("http://pic.v1.cn/cms/v1_static/common/images/sLogo.png") no-repeat;width:103px;height:24px;float:left;text-indent:-999em;margin-top:7px;margin-right:30px;}
+.CThearderWrap .headerLeftBox a.sLogo:hover{outline:0;}
+.CThearderWrap .headerCenterBox{width:240px;float:left;}
+.headerCenterBox .newsSearchBtn{background:#990000;border:1px solid #7d0000;color:#fff;height:26px;margin-top:6px;width:40px;padding:0;float:left;}
+.headerCenterBox .text{border:1px #dbdbdb solid;height:24px;margin:6px 0 5px 26px;width:155px;line-height:24px;color:#a9a9a9;float:left;}
+
+.CThearderWrap .headerRightBox{float:right;}
+.CThearderWrap .headerRightBox li{float:left;}
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+.CTmenu_head {cursor:pointer;position:relative;margin-left:16px;margin-top:12px;z-index:9999;float:left;display:inline;}
+
+
+.CTmenu_body {display:none;*overflow:hidden;position:absolute;right:-18px;*right:22px;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel_recorder.png") no-repeat;width:160px;height:230px;margin-top:-20px;padding-top:45px;}
+.CTmenu_body a {background:url("http://pic.v1.cn/cms/v1_static/images/icon.png") no-repeat;background-position:-290px -148px;padding-left:15px;font:12px/22px "宋体";border-bottom:#dbdbdb 1px dotted;float:left;margin-left:0;}
+.CTmenu_body a:hover { color: #000000; text-decoration:underline;}
+.CTmoreMenu_head {cursor:pointer;position:relative;margin-top:10px;margin-left:16px;background:url("http://pic.v1.cn/cms/v1_static/common/images/redTriangle.png") no-repeat right 3px;line-height:13px;z-index:9999;*padding-top:15px;*background-position:right 15px;padding-right:15px;float:left;display:inline;}
+.CTmenu_list {position:relative;}
+.CTmoreMenu_body {display:none;*overflow:hidden;position:absolute;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel.png") no-repeat;width:229px;height:92px;margin-top:-20px;padding-top:45px;left:-162px;*right:-42px;}
+.CThearderWrap .headerLeftBox .CTmoreMenu_body a{line-height:28px;}
+.CTmoreMenu_body a {padding-left:12px;font:12px/22px "宋体";margin-left:0;float:left;}
+.CTmoreMenu_body a:hover {color:#000000;text-decoration:underline;}
+
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";i:7;s:7468:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+
+.CThearderWrap{width:100%;height:37px;border-top:#990000 2px solid;border-bottom:#dbdbdb 1px solid;position:fixed;top:0;display:block;background:#fcfcfc;*position:absolute;*bottom:auto;*margin-top:0;*left:0;*top:expression(eval(document.documentElement.scrollTop));z-index:99999;}
+.CThearderWrap .headerLeftBox{width:510px;height:37px;float:left;}
+.CThearderWrap .headerLeftBox .hearderChannel li{float:left;}
+.CThearderWrap .headerLeftBox span{margin:0 10px;}
+.CThearderWrap .headerLeftBox a{line-height:37px;color:#676767;}
+.CThearderWrap .headerLeftBox a.red{color:#990000;}
+.CThearderWrap .headerLeftBox a.sLogo{background:url("http://pic.v1.cn/cms/v1_static/common/images/sLogo.png") no-repeat;width:103px;height:24px;float:left;text-indent:-999em;margin-top:7px;margin-right:30px;}
+.CThearderWrap .headerLeftBox a.sLogo:hover{outline:0;}
+.CThearderWrap .headerCenterBox{width:240px;float:left;}
+.headerCenterBox .newsSearchBtn{background:#990000;border:1px solid #7d0000;color:#fff;height:26px;margin-top:6px;width:40px;padding:0;float:left;}
+.headerCenterBox .text{border:1px #dbdbdb solid;height:24px;margin:6px 0 5px 26px;width:155px;line-height:24px;color:#a9a9a9;float:left;}
+
+.CThearderWrap .headerRightBox{float:right;}
+.CThearderWrap .headerRightBox li{float:left;}
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+.CTmenu_head {cursor:pointer;position:relative;margin-left:16px;margin-top:12px;z-index:9999;float:left;display:inline;}
+
+
+.CTmenu_body {display:none;*overflow:hidden;position:absolute;right:-18px;*right:22px;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel_recorder.png") no-repeat;width:160px;height:230px;margin-top:-20px;padding-top:45px;}
+.CTmenu_body a {background:url("http://pic.v1.cn/cms/v1_static/images/icon.png") no-repeat;background-position:-290px -148px;padding-left:15px;font:12px/22px "宋体";border-bottom:#dbdbdb 1px dotted;float:left;margin-left:0;}
+.CTmenu_body a:hover { color: #000000; text-decoration:underline;}
+.CTmoreMenu_head {cursor:pointer;position:relative;margin-top:10px;margin-left:16px;background:url("http://pic.v1.cn/cms/v1_static/common/images/redTriangle.png") no-repeat right 3px;line-height:13px;z-index:9999;*padding-top:15px;*background-position:right 15px;padding-right:15px;float:left;display:inline;}
+.CTmenu_list {position:relative;}
+.CTmoreMenu_body {display:none;*overflow:hidden;position:absolute;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel.png") no-repeat;width:229px;height:92px;margin-top:-20px;padding-top:45px;left:-162px;*left:0;}
+.CThearderWrap .headerLeftBox .CTmoreMenu_body a{line-height:28px;}
+.CTmoreMenu_body a {padding-left:12px;font:12px/22px "宋体";margin-left:0;float:left;}
+.CTmoreMenu_body a:hover {color:#000000;text-decoration:underline;}
+
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";i:8;s:7471:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+
+.CThearderWrap{width:100%;height:37px;border-top:#990000 2px solid;border-bottom:#dbdbdb 1px solid;position:fixed;top:0;display:block;background:#fcfcfc;*position:absolute;*bottom:auto;*margin-top:0;*left:0;*top:expression(eval(document.documentElement.scrollTop));z-index:99999;}
+.CThearderWrap .headerLeftBox{width:510px;height:37px;float:left;}
+.CThearderWrap .headerLeftBox .hearderChannel li{float:left;}
+.CThearderWrap .headerLeftBox span{margin:0 10px;}
+.CThearderWrap .headerLeftBox a{line-height:37px;color:#676767;}
+.CThearderWrap .headerLeftBox a.red{color:#990000;}
+.CThearderWrap .headerLeftBox a.sLogo{background:url("http://pic.v1.cn/cms/v1_static/common/images/sLogo.png") no-repeat;width:103px;height:24px;float:left;text-indent:-999em;margin-top:7px;margin-right:30px;}
+.CThearderWrap .headerLeftBox a.sLogo:hover{outline:0;}
+.CThearderWrap .headerCenterBox{width:240px;float:left;}
+.headerCenterBox .newsSearchBtn{background:#990000;border:1px solid #7d0000;color:#fff;height:26px;margin-top:6px;width:40px;padding:0;float:left;}
+.headerCenterBox .text{border:1px #dbdbdb solid;height:24px;margin:6px 0 5px 26px;width:155px;line-height:24px;color:#a9a9a9;float:left;}
+
+.CThearderWrap .headerRightBox{float:right;}
+.CThearderWrap .headerRightBox li{float:left;}
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+.CTmenu_head {cursor:pointer;position:relative;margin-left:16px;margin-top:12px;z-index:9999;float:left;display:inline;}
+
+.CTmenu_body {display:none;*overflow:hidden;position:absolute;right:-18px;*right:22px;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel_recorder.png") no-repeat;width:160px;height:230px;margin-top:-20px;padding-top:45px;}
+.CTmenu_body a {background:url("http://pic.v1.cn/cms/v1_static/images/icon.png") no-repeat;background-position:-290px -148px;padding-left:15px;font:12px/22px "宋体";border-bottom:#dbdbdb 1px dotted;float:left;margin-left:0;}
+.CTmenu_body a:hover { color: #000000; text-decoration:underline;}
+.CTmoreMenu_head {cursor:pointer;position:relative;margin-top:10px;margin-left:16px;background:url("http://pic.v1.cn/cms/v1_static/common/images/redTriangle.png") no-repeat right 3px;line-height:13px;z-index:9999;*padding-top:15px;*background-position:right 15px;padding-right:15px;float:left;display:inline;}
+.CTmenu_list {position:relative;}
+.CTmoreMenu_body {display:none;*overflow:hidden;position:absolute;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel.png") no-repeat;width:229px;height:92px;margin-top:-20px;padding-top:45px;left:-162px;*left:-200px;}
+.CThearderWrap .headerLeftBox .CTmoreMenu_body a{line-height:28px;}
+.CTmoreMenu_body a {padding-left:12px;font:12px/22px "宋体";margin-left:0;float:left;}
+.CTmoreMenu_body a:hover {color:#000000;text-decoration:underline;}
+
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";i:9;s:7471:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+
+.CThearderWrap{width:100%;height:37px;border-top:#990000 2px solid;border-bottom:#dbdbdb 1px solid;position:fixed;top:0;display:block;background:#fcfcfc;*position:absolute;*bottom:auto;*margin-top:0;*left:0;*top:expression(eval(document.documentElement.scrollTop));z-index:99999;}
+.CThearderWrap .headerLeftBox{width:510px;height:37px;float:left;}
+.CThearderWrap .headerLeftBox .hearderChannel li{float:left;}
+.CThearderWrap .headerLeftBox span{margin:0 10px;}
+.CThearderWrap .headerLeftBox a{line-height:37px;color:#676767;}
+.CThearderWrap .headerLeftBox a.red{color:#990000;}
+.CThearderWrap .headerLeftBox a.sLogo{background:url("http://pic.v1.cn/cms/v1_static/common/images/sLogo.png") no-repeat;width:103px;height:24px;float:left;text-indent:-999em;margin-top:7px;margin-right:30px;}
+.CThearderWrap .headerLeftBox a.sLogo:hover{outline:0;}
+.CThearderWrap .headerCenterBox{width:240px;float:left;}
+.headerCenterBox .newsSearchBtn{background:#990000;border:1px solid #7d0000;color:#fff;height:26px;margin-top:6px;width:40px;padding:0;float:left;}
+.headerCenterBox .text{border:1px #dbdbdb solid;height:24px;margin:6px 0 5px 26px;width:155px;line-height:24px;color:#a9a9a9;float:left;}
+
+.CThearderWrap .headerRightBox{float:right;}
+.CThearderWrap .headerRightBox li{float:left;}
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+.CTmenu_head {cursor:pointer;position:relative;margin-left:16px;margin-top:12px;z-index:9999;float:left;display:inline;}
+
+.CTmenu_body {display:none;*overflow:hidden;position:absolute;right:-18px;*right:22px;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel_recorder.png") no-repeat;width:160px;height:230px;margin-top:-20px;padding-top:45px;}
+.CTmenu_body a {background:url("http://pic.v1.cn/cms/v1_static/images/icon.png") no-repeat;background-position:-290px -148px;padding-left:15px;font:12px/22px "宋体";border-bottom:#dbdbdb 1px dotted;float:left;margin-left:0;}
+.CTmenu_body a:hover { color: #000000; text-decoration:underline;}
+.CTmoreMenu_head {cursor:pointer;position:relative;margin-top:10px;margin-left:16px;background:url("http://pic.v1.cn/cms/v1_static/common/images/redTriangle.png") no-repeat right 3px;line-height:13px;z-index:9999;*padding-top:15px;*background-position:right 15px;padding-right:15px;float:left;display:inline;}
+.CTmenu_list {position:relative;}
+.CTmoreMenu_body {display:none;*overflow:hidden;position:absolute;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel.png") no-repeat;width:229px;height:92px;margin-top:-20px;padding-top:45px;left:-162px;*left:-150px;}
+.CThearderWrap .headerLeftBox .CTmoreMenu_body a{line-height:28px;}
+.CTmoreMenu_body a {padding-left:12px;font:12px/22px "宋体";margin-left:0;float:left;}
+.CTmoreMenu_body a:hover {color:#000000;text-decoration:underline;}
+
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";i:10;s:7471:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+
+.CThearderWrap{width:100%;height:37px;border-top:#990000 2px solid;border-bottom:#dbdbdb 1px solid;position:fixed;top:0;display:block;background:#fcfcfc;*position:absolute;*bottom:auto;*margin-top:0;*left:0;*top:expression(eval(document.documentElement.scrollTop));z-index:99999;}
+.CThearderWrap .headerLeftBox{width:510px;height:37px;float:left;}
+.CThearderWrap .headerLeftBox .hearderChannel li{float:left;}
+.CThearderWrap .headerLeftBox span{margin:0 10px;}
+.CThearderWrap .headerLeftBox a{line-height:37px;color:#676767;}
+.CThearderWrap .headerLeftBox a.red{color:#990000;}
+.CThearderWrap .headerLeftBox a.sLogo{background:url("http://pic.v1.cn/cms/v1_static/common/images/sLogo.png") no-repeat;width:103px;height:24px;float:left;text-indent:-999em;margin-top:7px;margin-right:30px;}
+.CThearderWrap .headerLeftBox a.sLogo:hover{outline:0;}
+.CThearderWrap .headerCenterBox{width:240px;float:left;}
+.headerCenterBox .newsSearchBtn{background:#990000;border:1px solid #7d0000;color:#fff;height:26px;margin-top:6px;width:40px;padding:0;float:left;}
+.headerCenterBox .text{border:1px #dbdbdb solid;height:24px;margin:6px 0 5px 26px;width:155px;line-height:24px;color:#a9a9a9;float:left;}
+
+.CThearderWrap .headerRightBox{float:right;}
+.CThearderWrap .headerRightBox li{float:left;}
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+.CTmenu_head {cursor:pointer;position:relative;margin-left:16px;margin-top:12px;z-index:9999;float:left;display:inline;}
+
+.CTmenu_body {display:none;*overflow:hidden;position:absolute;right:-18px;*right:22px;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel_recorder.png") no-repeat;width:160px;height:230px;margin-top:-20px;padding-top:45px;}
+.CTmenu_body a {background:url("http://pic.v1.cn/cms/v1_static/images/icon.png") no-repeat;background-position:-290px -148px;padding-left:15px;font:12px/22px "宋体";border-bottom:#dbdbdb 1px dotted;float:left;margin-left:0;}
+.CTmenu_body a:hover { color: #000000; text-decoration:underline;}
+.CTmoreMenu_head {cursor:pointer;position:relative;margin-top:10px;margin-left:16px;background:url("http://pic.v1.cn/cms/v1_static/common/images/redTriangle.png") no-repeat right 3px;line-height:13px;z-index:9999;*padding-top:15px;*background-position:right 15px;padding-right:15px;float:left;display:inline;}
+.CTmenu_list {position:relative;}
+.CTmoreMenu_body {display:none;*overflow:hidden;position:absolute;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel.png") no-repeat;width:229px;height:92px;margin-top:-20px;padding-top:45px;left:-162px;*left:-160px;}
+.CThearderWrap .headerLeftBox .CTmoreMenu_body a{line-height:28px;}
+.CTmoreMenu_body a {padding-left:12px;font:12px/22px "宋体";margin-left:0;float:left;}
+.CTmoreMenu_body a:hover {color:#000000;text-decoration:underline;}
+
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";i:11;s:7484:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+
+.CThearderWrap{width:100%;height:37px;border-top:#990000 2px solid;border-bottom:#dbdbdb 1px solid;position:fixed;top:0;display:block;background:#fcfcfc;*position:absolute;*bottom:auto;*margin-top:0;*left:0;*top:expression(eval(document.documentElement.scrollTop));z-index:99999;}
+.CThearderWrap .headerLeftBox{width:510px;height:37px;float:left;}
+.CThearderWrap .headerLeftBox .hearderChannel li{float:left;}
+.CThearderWrap .headerLeftBox span{margin:0 10px;}
+.CThearderWrap .headerLeftBox a{line-height:37px;color:#676767;}
+.CThearderWrap .headerLeftBox a.red{color:#990000;}
+.CThearderWrap .headerLeftBox a.sLogo{background:url("http://pic.v1.cn/cms/v1_static/common/images/sLogo.png") no-repeat;width:103px;height:24px;float:left;text-indent:-999em;margin-top:7px;margin-right:30px;}
+.CThearderWrap .headerLeftBox a.sLogo:hover{outline:0;}
+.CThearderWrap .headerCenterBox{width:240px;float:left;}
+.headerCenterBox .newsSearchBtn{background:#990000;border:1px solid #7d0000;color:#fff;height:26px;margin-top:6px;width:40px;padding:0;float:left;}
+.headerCenterBox .text{border:1px #dbdbdb solid;height:24px;margin:6px 0 5px 26px;width:155px;line-height:24px;color:#a9a9a9;float:left;}
+
+.CThearderWrap .headerRightBox{float:right;}
+.CThearderWrap .headerRightBox li{float:left;}
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+.CTmenu_head {cursor:pointer;position:relative;margin-left:16px;margin-top:12px;z-index:9999;float:left;display:inline;}
+
+.CTmenu_body {display:none;*overflow:hidden;position:absolute;right:-18px;*right:22px;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel_recorder.png") no-repeat;width:160px;height:230px;margin-top:-20px;padding-top:45px;}
+.CTmenu_body a {background:url("http://pic.v1.cn/cms/v1_static/images/icon.png") no-repeat;background-position:-290px -148px;padding-left:15px;font:12px/22px "宋体";border-bottom:#dbdbdb 1px dotted;float:left;margin-left:0;}
+.CTmenu_body a:hover { color: #000000; text-decoration:underline;}
+.CTmoreMenu_head {cursor:pointer;position:relative;margin-top:10px;margin-left:16px;background:url("http://pic.v1.cn/cms/v1_static/common/images/redTriangle.png") no-repeat right 3px;line-height:13px;z-index:9999;*padding-top:15px;*background-position:right 15px;padding-right:15px;float:left;display:inline;}
+.CTmenu_list {position:relative;}
+.CTmoreMenu_body {display:none;*overflow:hidden;position:absolute;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel.png") no-repeat;width:229px;height:92px;margin-top:-20px;padding-top:45px;left:-162px;*left:-160px;_left:-200px;}
+.CThearderWrap .headerLeftBox .CTmoreMenu_body a{line-height:28px;}
+.CTmoreMenu_body a {padding-left:12px;font:12px/22px "宋体";margin-left:0;float:left;}
+.CTmoreMenu_body a:hover {color:#000000;text-decoration:underline;}
+
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";i:12;s:7484:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+
+.CThearderWrap{width:100%;height:37px;border-top:#990000 2px solid;border-bottom:#dbdbdb 1px solid;position:fixed;top:0;display:block;background:#fcfcfc;*position:absolute;*bottom:auto;*margin-top:0;*left:0;*top:expression(eval(document.documentElement.scrollTop));z-index:99999;}
+.CThearderWrap .headerLeftBox{width:510px;height:37px;float:left;}
+.CThearderWrap .headerLeftBox .hearderChannel li{float:left;}
+.CThearderWrap .headerLeftBox span{margin:0 10px;}
+.CThearderWrap .headerLeftBox a{line-height:37px;color:#676767;}
+.CThearderWrap .headerLeftBox a.red{color:#990000;}
+.CThearderWrap .headerLeftBox a.sLogo{background:url("http://pic.v1.cn/cms/v1_static/common/images/sLogo.png") no-repeat;width:103px;height:24px;float:left;text-indent:-999em;margin-top:7px;margin-right:30px;}
+.CThearderWrap .headerLeftBox a.sLogo:hover{outline:0;}
+.CThearderWrap .headerCenterBox{width:240px;float:left;}
+.headerCenterBox .newsSearchBtn{background:#990000;border:1px solid #7d0000;color:#fff;height:26px;margin-top:6px;width:40px;padding:0;float:left;}
+.headerCenterBox .text{border:1px #dbdbdb solid;height:24px;margin:6px 0 5px 26px;width:155px;line-height:24px;color:#a9a9a9;float:left;}
+
+.CThearderWrap .headerRightBox{float:right;}
+.CThearderWrap .headerRightBox li{float:left;}
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+.CTmenu_head {cursor:pointer;position:relative;margin-left:16px;margin-top:12px;z-index:9999;float:left;display:inline;}
+
+.CTmenu_body {display:none;*overflow:hidden;position:absolute;right:-18px;*right:22px;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel_recorder.png") no-repeat;width:160px;height:230px;margin-top:-20px;padding-top:45px;}
+.CTmenu_body a {background:url("http://pic.v1.cn/cms/v1_static/images/icon.png") no-repeat;background-position:-290px -148px;padding-left:15px;font:12px/22px "宋体";border-bottom:#dbdbdb 1px dotted;float:left;margin-left:0;}
+.CTmenu_body a:hover { color: #000000; text-decoration:underline;}
+.CTmoreMenu_head {cursor:pointer;position:relative;margin-top:10px;margin-left:16px;background:url("http://pic.v1.cn/cms/v1_static/common/images/redTriangle.png") no-repeat right 3px;line-height:13px;z-index:9999;*padding-top:15px;*background-position:right 15px;padding-right:15px;float:left;display:inline;}
+.CTmenu_list {position:relative;}
+.CTmoreMenu_body {display:none;*overflow:hidden;position:absolute;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel.png") no-repeat;width:229px;height:92px;margin-top:-20px;padding-top:45px;left:-162px;*left:-160px;_left:-229px;}
+.CThearderWrap .headerLeftBox .CTmoreMenu_body a{line-height:28px;}
+.CTmoreMenu_body a {padding-left:12px;font:12px/22px "宋体";margin-left:0;float:left;}
+.CTmoreMenu_body a:hover {color:#000000;text-decoration:underline;}
+
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";i:13;s:7484:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+
+.CThearderWrap{width:100%;height:37px;border-top:#990000 2px solid;border-bottom:#dbdbdb 1px solid;position:fixed;top:0;display:block;background:#fcfcfc;*position:absolute;*bottom:auto;*margin-top:0;*left:0;*top:expression(eval(document.documentElement.scrollTop));z-index:99999;}
+.CThearderWrap .headerLeftBox{width:510px;height:37px;float:left;}
+.CThearderWrap .headerLeftBox .hearderChannel li{float:left;}
+.CThearderWrap .headerLeftBox span{margin:0 10px;}
+.CThearderWrap .headerLeftBox a{line-height:37px;color:#676767;}
+.CThearderWrap .headerLeftBox a.red{color:#990000;}
+.CThearderWrap .headerLeftBox a.sLogo{background:url("http://pic.v1.cn/cms/v1_static/common/images/sLogo.png") no-repeat;width:103px;height:24px;float:left;text-indent:-999em;margin-top:7px;margin-right:30px;}
+.CThearderWrap .headerLeftBox a.sLogo:hover{outline:0;}
+.CThearderWrap .headerCenterBox{width:240px;float:left;}
+.headerCenterBox .newsSearchBtn{background:#990000;border:1px solid #7d0000;color:#fff;height:26px;margin-top:6px;width:40px;padding:0;float:left;}
+.headerCenterBox .text{border:1px #dbdbdb solid;height:24px;margin:6px 0 5px 26px;width:155px;line-height:24px;color:#a9a9a9;float:left;}
+
+.CThearderWrap .headerRightBox{float:right;}
+.CThearderWrap .headerRightBox li{float:left;}
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+.CTmenu_head {cursor:pointer;position:relative;margin-left:16px;margin-top:12px;z-index:9999;float:left;display:inline;}
+
+.CTmenu_body {display:none;*overflow:hidden;position:absolute;right:-18px;*right:22px;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel_recorder.png") no-repeat;width:160px;height:230px;margin-top:-20px;padding-top:45px;}
+.CTmenu_body a {background:url("http://pic.v1.cn/cms/v1_static/images/icon.png") no-repeat;background-position:-290px -148px;padding-left:15px;font:12px/22px "宋体";border-bottom:#dbdbdb 1px dotted;float:left;margin-left:0;}
+.CTmenu_body a:hover { color: #000000; text-decoration:underline;}
+.CTmoreMenu_head {cursor:pointer;position:relative;margin-top:10px;margin-left:16px;background:url("http://pic.v1.cn/cms/v1_static/common/images/redTriangle.png") no-repeat right 3px;line-height:13px;z-index:9999;*padding-top:15px;*background-position:right 15px;padding-right:15px;float:left;display:inline;}
+.CTmenu_list {position:relative;}
+.CTmoreMenu_body {display:none;*overflow:hidden;position:absolute;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel.png") no-repeat;width:229px;height:92px;margin-top:-20px;padding-top:45px;left:-162px;*left:-160px;_left:-210px;}
+.CThearderWrap .headerLeftBox .CTmoreMenu_body a{line-height:28px;}
+.CTmoreMenu_body a {padding-left:12px;font:12px/22px "宋体";margin-left:0;float:left;}
+.CTmoreMenu_body a:hover {color:#000000;text-decoration:underline;}
+
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";i:14;s:7498:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+
+.CThearderWrap{width:100%;height:37px;border-top:#990000 2px solid;border-bottom:#dbdbdb 1px solid;position:fixed;top:0;display:block;background:#fcfcfc;*position:absolute;*bottom:auto;*margin-top:0;*left:0;*top:expression(eval(document.documentElement.scrollTop));z-index:99999;}
+.CThearderWrap .headerLeftBox{width:510px;height:37px;float:left;}
+.CThearderWrap .headerLeftBox .hearderChannel li{float:left;}
+.CThearderWrap .headerLeftBox span{margin:0 10px;}
+.CThearderWrap .headerLeftBox a{line-height:37px;color:#676767;}
+.CThearderWrap .headerLeftBox a.red{color:#990000;}
+.CThearderWrap .headerLeftBox a.sLogo{background:url("http://pic.v1.cn/cms/v1_static/common/images/sLogo.png") no-repeat;width:103px;height:24px;float:left;text-indent:-999em;margin-top:7px;margin-right:30px;}
+.CThearderWrap .headerLeftBox a.sLogo:hover{outline:0;}
+.CThearderWrap .headerCenterBox{width:240px;float:left;}
+.headerCenterBox .newsSearchBtn{background:#990000;border:1px solid #7d0000;color:#fff;height:26px;margin-top:6px;width:40px;padding:0;float:left;}
+.headerCenterBox .text{border:1px #dbdbdb solid;height:24px;margin:6px 0 5px 26px;width:155px;line-height:24px;color:#a9a9a9;float:left;}
+
+.CThearderWrap .headerRightBox{float:right;}
+.CThearderWrap .headerRightBox li{float:left;}
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+.CTmenu_head {cursor:pointer;position:relative;margin-left:16px;margin-top:12px;z-index:9999;float:left;display:inline;}
+
+.CTmenu_body {display:none;*overflow:hidden;position:absolute;right:-18px;*right:22px;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel_recorder.png") no-repeat;width:160px;height:230px;margin-top:-20px;padding-top:45px;}
+.CTmenu_body a {background:url("http://pic.v1.cn/cms/v1_static/images/icon.png") no-repeat;background-position:-290px -148px;padding-left:15px;font:12px/22px "宋体";border-bottom:#dbdbdb 1px dotted;float:left;margin-left:0;}
+.CTmenu_body a:hover { color: #000000; text-decoration:underline;}
+.CTmoreMenu_head {cursor:pointer;position:relative;margin-top:10px;margin-left:16px;background:url("http://pic.v1.cn/cms/v1_static/common/images/redTriangle.png") no-repeat right 3px;line-height:13px;z-index:9999;*padding-top:15px;*background-position:right 15px;padding-right:15px;float:left;display:inline;}
+.CTmenu_list {position:relative;}
+
+.CTmoreMenu_body {display:none;*overflow:hidden;position:absolute;top:20px;*top:10px;left:-162px;*left:-160px;_left:-215px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel.png") no-repeat;width:229px;height:92px;margin-top:-20px;padding-top:45px;}
+
+.CThearderWrap .headerLeftBox .CTmoreMenu_body a{line-height:28px;}
+.CTmoreMenu_body a {padding-left:12px;font:12px/22px "宋体";margin-left:0;float:left;}
+.CTmoreMenu_body a:hover {color:#000000;text-decoration:underline;}
+
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";i:15;s:7488:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+
+.CThearderWrap{width:100%;height:37px;border-top:#990000 2px solid;border-bottom:#dbdbdb 1px solid;position:fixed;top:0;display:block;background:#fcfcfc;*position:absolute;*bottom:auto;*margin-top:0;*left:0;*top:expression(eval(document.documentElement.scrollTop));z-index:99999;}
+.CThearderWrap .headerLeftBox{width:510px;height:37px;float:left;}
+.CThearderWrap .headerLeftBox .hearderChannel li{float:left;}
+.CThearderWrap .headerLeftBox span{margin:0 10px;}
+.CThearderWrap .headerLeftBox a{line-height:37px;color:#676767;}
+.CThearderWrap .headerLeftBox a.red{color:#990000;}
+.CThearderWrap .headerLeftBox a.sLogo{background:url("http://pic.v1.cn/cms/v1_static/common/images/sLogo.png") no-repeat;width:103px;height:24px;float:left;text-indent:-999em;margin-top:7px;margin-right:30px;}
+.CThearderWrap .headerLeftBox a.sLogo:hover{outline:0;}
+.CThearderWrap .headerCenterBox{width:240px;float:left;}
+.headerCenterBox .newsSearchBtn{background:#990000;border:1px solid #7d0000;color:#fff;height:26px;margin-top:6px;width:40px;padding:0;float:left;}
+.headerCenterBox .text{border:1px #dbdbdb solid;height:24px;margin:6px 0 5px 26px;width:155px;line-height:24px;color:#a9a9a9;float:left;}
+
+.CThearderWrap .headerRightBox{float:right;}
+.CThearderWrap .headerRightBox li{float:left;}
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+.CTmenu_head {cursor:pointer;position:relative;margin-left:16px;margin-top:12px;z-index:9999;float:left;display:inline;}
+
+.CTmenu_body {display:none;*overflow:hidden;position:absolute;right:-18px;*right:22px;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel_recorder.png") no-repeat;width:160px;height:230px;margin-top:-20px;padding-top:45px;}
+.CTmenu_body a {background:url("http://pic.v1.cn/cms/v1_static/images/icon.png") no-repeat;background-position:-290px -148px;padding-left:15px;font:12px/22px "宋体";border-bottom:#dbdbdb 1px dotted;float:left;margin-left:0;}
+.CTmenu_body a:hover { color: #000000; text-decoration:underline;}
+.CTmoreMenu_head {cursor:pointer;position:relative;margin-top:10px;margin-left:16px;background:url("http://pic.v1.cn/cms/v1_static/common/images/redTriangle.png") no-repeat right 3px;line-height:13px;z-index:9999;*padding-top:15px;*background-position:right 15px;padding-right:15px;float:left;display:inline;}
+.CTmenu_list {position:relative;}
+
+.CTmoreMenu_body {display:none;*overflow:hidden;position:absolute;top:20px;left:-162px;*left:-160px;_left:-215px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel.png") no-repeat;width:229px;height:92px;margin-top:-20px;padding-top:45px;}
+
+.CThearderWrap .headerLeftBox .CTmoreMenu_body a{line-height:28px;}
+.CTmoreMenu_body a {padding-left:12px;font:12px/22px "宋体";margin-left:0;float:left;}
+.CTmoreMenu_body a:hover {color:#000000;text-decoration:underline;}
+
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";i:16;s:7502:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+
+.CThearderWrap{width:100%;height:37px;border-top:#990000 2px solid;border-bottom:#dbdbdb 1px solid;position:fixed;top:0;display:block;background:#fcfcfc;*position:absolute;*bottom:auto;*margin-top:0;*left:0;*top:expression(eval(document.documentElement.scrollTop));z-index:99999;}
+.CThearderWrap .headerLeftBox{width:510px;height:37px;float:left;}
+.CThearderWrap .headerLeftBox .hearderChannel li{float:left;}
+.CThearderWrap .headerLeftBox span{margin:0 10px;}
+.CThearderWrap .headerLeftBox a{line-height:37px;color:#676767;}
+.CThearderWrap .headerLeftBox a.red{color:#990000;}
+.CThearderWrap .headerLeftBox a.sLogo{background:url("http://pic.v1.cn/cms/v1_static/common/images/sLogo.png") no-repeat;width:103px;height:24px;float:left;text-indent:-999em;margin-top:7px;margin-right:30px;}
+.CThearderWrap .headerLeftBox a.sLogo:hover{outline:0;}
+.CThearderWrap .headerCenterBox{width:240px;float:left;}
+.headerCenterBox .newsSearchBtn{background:#990000;border:1px solid #7d0000;color:#fff;height:26px;margin-top:6px;width:40px;padding:0;float:left;}
+.headerCenterBox .text{border:1px #dbdbdb solid;height:24px;margin:6px 0 5px 26px;width:155px;line-height:24px;color:#a9a9a9;float:left;}
+
+.CThearderWrap .headerRightBox{float:right;}
+.CThearderWrap .headerRightBox li{float:left;}
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+.CTmenu_head {cursor:pointer;position:relative;margin-left:16px;margin-top:12px;z-index:9999;float:left;display:inline;}
+
+.CTmenu_body {display:none;*overflow:hidden;position:absolute;right:-18px;*right:22px;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel_recorder.png") no-repeat;width:160px;height:230px;margin-top:-20px;padding-top:45px;}
+.CTmenu_body a {background:url("http://pic.v1.cn/cms/v1_static/images/icon.png") no-repeat;background-position:-290px -148px;padding-left:15px;font:12px/22px "宋体";border-bottom:#dbdbdb 1px dotted;float:left;margin-left:0;}
+.CTmenu_body a:hover { color: #000000; text-decoration:underline;}
+.CTmoreMenu_head {cursor:pointer;position:relative;margin-top:10px;*margin-top:0;margin-left:16px;background:url("http://pic.v1.cn/cms/v1_static/common/images/redTriangle.png") no-repeat right 3px;line-height:13px;z-index:9999;*padding-top:15px;*background-position:right 15px;padding-right:15px;float:left;display:inline;}
+.CTmenu_list {position:relative;}
+
+.CTmoreMenu_body {display:none;*overflow:hidden;position:absolute;top:20px;left:-162px;*left:-160px;_left:-215px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel.png") no-repeat;width:229px;height:92px;margin-top:-20px;padding-top:45px;}
+
+.CThearderWrap .headerLeftBox .CTmoreMenu_body a{line-height:28px;}
+.CTmoreMenu_body a {padding-left:12px;font:12px/22px "宋体";margin-left:0;float:left;}
+.CTmoreMenu_body a:hover {color:#000000;text-decoration:underline;}
+
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";i:17;s:7502:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+
+.CThearderWrap{width:100%;height:37px;border-top:#990000 2px solid;border-bottom:#dbdbdb 1px solid;position:fixed;top:0;display:block;background:#fcfcfc;*position:absolute;*bottom:auto;*margin-top:0;*left:0;*top:expression(eval(document.documentElement.scrollTop));z-index:99999;}
+.CThearderWrap .headerLeftBox{width:510px;height:37px;float:left;}
+.CThearderWrap .headerLeftBox .hearderChannel li{float:left;}
+.CThearderWrap .headerLeftBox span{margin:0 10px;}
+.CThearderWrap .headerLeftBox a{line-height:37px;color:#676767;}
+.CThearderWrap .headerLeftBox a.red{color:#990000;}
+.CThearderWrap .headerLeftBox a.sLogo{background:url("http://pic.v1.cn/cms/v1_static/common/images/sLogo.png") no-repeat;width:103px;height:24px;float:left;text-indent:-999em;margin-top:7px;margin-right:30px;}
+.CThearderWrap .headerLeftBox a.sLogo:hover{outline:0;}
+.CThearderWrap .headerCenterBox{width:240px;float:left;}
+.headerCenterBox .newsSearchBtn{background:#990000;border:1px solid #7d0000;color:#fff;height:26px;margin-top:6px;width:40px;padding:0;float:left;}
+.headerCenterBox .text{border:1px #dbdbdb solid;height:24px;margin:6px 0 5px 26px;width:155px;line-height:24px;color:#a9a9a9;float:left;}
+
+.CThearderWrap .headerRightBox{float:right;}
+.CThearderWrap .headerRightBox li{float:left;}
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+.CTmenu_head {cursor:pointer;position:relative;margin-left:16px;margin-top:12px;z-index:9999;float:left;display:inline;}
+
+.CTmenu_body {display:none;*overflow:hidden;position:absolute;right:-18px;*right:22px;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel_recorder.png") no-repeat;width:160px;height:230px;margin-top:-20px;padding-top:45px;}
+.CTmenu_body a {background:url("http://pic.v1.cn/cms/v1_static/images/icon.png") no-repeat;background-position:-290px -148px;padding-left:15px;font:12px/22px "宋体";border-bottom:#dbdbdb 1px dotted;float:left;margin-left:0;}
+.CTmenu_body a:hover { color: #000000; text-decoration:underline;}
+.CTmoreMenu_head {cursor:pointer;position:relative;margin-top:10px;*margin-top:0;margin-left:16px;background:url("http://pic.v1.cn/cms/v1_static/common/images/redTriangle.png") no-repeat right 3px;line-height:13px;z-index:9999;*padding-top:15px;*background-position:right 15px;padding-right:15px;float:left;display:inline;}
+.CTmenu_list {position:relative;}
+
+.CTmoreMenu_body {display:none;*overflow:hidden;position:absolute;top:20px;left:-162px;*left:-160px;_left:-215px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel.png") no-repeat;width:229px;height:92px;margin-top:-20px;padding-top:45px;}
+
+.CThearderWrap .headerLeftBox .CTmoreMenu_body a{line-height:28px;}
+.CTmoreMenu_body a {padding-left:12px;font:12px/22px "宋体";margin-left:0;float:left;}
+.CTmoreMenu_body a:hover {color:#000000;text-decoration:underline;}
+
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";i:18;s:7506:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+/*
+.CThearderWrap{width:100%;height:37px;border-top:#990000 2px solid;border-bottom:#dbdbdb 1px solid;position:fixed;top:0;display:block;background:#fcfcfc;*position:absolute;*bottom:auto;*margin-top:0;*left:0;*top:expression(eval(document.documentElement.scrollTop));z-index:99999;}
+.CThearderWrap .headerLeftBox{width:510px;height:37px;float:left;}
+.CThearderWrap .headerLeftBox .hearderChannel li{float:left;}
+.CThearderWrap .headerLeftBox span{margin:0 10px;}
+.CThearderWrap .headerLeftBox a{line-height:37px;color:#676767;}
+.CThearderWrap .headerLeftBox a.red{color:#990000;}
+.CThearderWrap .headerLeftBox a.sLogo{background:url("http://pic.v1.cn/cms/v1_static/common/images/sLogo.png") no-repeat;width:103px;height:24px;float:left;text-indent:-999em;margin-top:7px;margin-right:30px;}
+.CThearderWrap .headerLeftBox a.sLogo:hover{outline:0;}
+.CThearderWrap .headerCenterBox{width:240px;float:left;}
+.headerCenterBox .newsSearchBtn{background:#990000;border:1px solid #7d0000;color:#fff;height:26px;margin-top:6px;width:40px;padding:0;float:left;}
+.headerCenterBox .text{border:1px #dbdbdb solid;height:24px;margin:6px 0 5px 26px;width:155px;line-height:24px;color:#a9a9a9;float:left;}
+
+.CThearderWrap .headerRightBox{float:right;}
+.CThearderWrap .headerRightBox li{float:left;}
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+
+.headerRightBox .homeLogin{line-height:38px;}
+.homeLogin br{display:none;}
+.homeLogin div{display:inline;}
+.headerRightBox a{line-height:38px;margin-right:16px;}
+.headerRightBox span{cursor:pointer;margin-left:16px;line-height:38px;}
+.CTmenu_head {cursor:pointer;position:relative;margin-left:16px;margin-top:12px;z-index:9999;float:left;display:inline;}
+
+.CTmenu_body {display:none;*overflow:hidden;position:absolute;right:-18px;*right:22px;top:20px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel_recorder.png") no-repeat;width:160px;height:230px;margin-top:-20px;padding-top:45px;}
+.CTmenu_body a {background:url("http://pic.v1.cn/cms/v1_static/images/icon.png") no-repeat;background-position:-290px -148px;padding-left:15px;font:12px/22px "宋体";border-bottom:#dbdbdb 1px dotted;float:left;margin-left:0;}
+.CTmenu_body a:hover { color: #000000; text-decoration:underline;}
+.CTmoreMenu_head {cursor:pointer;position:relative;margin-top:10px;*margin-top:0;margin-left:16px;background:url("http://pic.v1.cn/cms/v1_static/common/images/redTriangle.png") no-repeat right 3px;line-height:13px;z-index:9999;*padding-top:15px;*background-position:right 15px;padding-right:15px;float:left;display:inline;}
+.CTmenu_list {position:relative;}
+
+.CTmoreMenu_body {display:none;*overflow:hidden;position:absolute;top:20px;left:-162px;*left:-160px;_left:-215px;background:url("http://pic.v1.cn/cms/v1_static/common/images/menuPanel.png") no-repeat;width:229px;height:92px;margin-top:-20px;padding-top:45px;}
+
+.CThearderWrap .headerLeftBox .CTmoreMenu_body a{line-height:28px;}
+.CTmoreMenu_body a {padding-left:12px;font:12px/22px "宋体";margin-left:0;float:left;}
+.CTmoreMenu_body a:hover {color:#000000;text-decoration:underline;}
+*/
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";i:19;s:4200:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+
+<style>
+
+body{background-position:center 37px;!important}
+.main_cont{margin-top:37px;*padding-top:37px;!important}
+.wrapBox1000Header{width:1000px;margin:0 auto;}
+
+</style>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000Header clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>";}

@@ -1,0 +1,46 @@
+<?=$this->headLink() ?>
+<?=$this->headScript() ?>
+<script>
+function upload(obj)
+{
+	//var dialog_url="/contents/article/upload/type/0/name/"+encodeURI('文章')+"/cid/"+$("#cid").val();
+	var dialog_url="/resource/index/index/type/0/name//cid/"+$("#cid").val();
+    var imgurl = window.showModalDialog(dialog_url, "", "dialogHeight:250px; dialogWidth:360px; resizable:0; scroll:0; status:0; unadorned:0;");
+    if(imgurl == undefined) return false;
+    $(obj).prev().val(imgurl);
+}
+</script>
+<div class="area">
+<div class="help"> 
+	<p>帮助</p>
+	<p>1、编辑文章来源页面;</p>  
+<?=$this->showErrors()?>
+</div>
+
+<div class="nr">
+ 	<h2>编辑文章来源</h2>
+
+<form action="/contents/publisher/save/" method="post">
+<table width="100%" cellspacing="1" class="form">
+<tbody>
+    <tr>
+        <td width="80">来源名称</td>
+        <td><input type="text" name="name" value="<?=$this->name ?>" class="input"/></td>
+    </tr>
+    <tr>
+        <td>图　　标</td>
+        <td><input type="text" name="icon" value="<?=$this->icon ?>" class="input"/><a href="#" onclick="upload(this)">上传</a></td>
+    </tr>
+    <tr class="alt">
+        <td>U　R　L</td>
+        <td><input type="text" name="url" value="<?=$this->url ?>"  class="input"/></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><button type="submit" name="submit">保存文章来源</button></td>
+    </tr>    
+</tbody>
+</table>
+</form>
+</div>
+</div>

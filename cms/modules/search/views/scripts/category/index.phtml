@@ -1,0 +1,113 @@
+<div class="area">
+	<div class="help">
+    <p>帮助</p>
+    <p>1、此处为分类列表;</p>    
+    <p>2、已隐藏的分类点击"恢复"即可恢复正常.</p>
+	<p>3. 对其它频道建立的分类无操作权限</p>
+	<p>4. 删除分类将完全删除该分类下的的关键词以及关键词的关联词</p>
+	<br />
+    <form action="/search/category/create" method="post" id="Form" onsubmit="return check(this)">
+       父分类:
+	   <?php echo $this->formSelect('parent', null, array('style'=>'width:130px'), $this->parent_options) ?>	
+	   分类名<input type="text" id="name" name="name">
+	   <input type="hidden" id="channel" name="channel" value="<?=$this->channel ?>">
+		<input type="submit" id="submit" value="添加分类">
+	</form>
+    </div>
+	<div class="nr">
+    	<h2>分类列表</h2>
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" class="list sort">
+        	<tr>
+            	<th>cid</th>
+                <th class="tree">分类名</th>              
+                <th>频道</th>                
+                <th>操作</th>
+            </tr>
+    <?php foreach ($this->all_list as $key => $value): ?>
+    <?php 
+    	switch($value['level']){
+		    case 0: $class='';break;
+		    case 1: $class='t';break;
+		    case 2: $class='ht';break;
+		    default: $class='';break;
+		}
+	 ?>
+            <tr>
+            	<td><?=$value['cid']?></td>
+                <td><p class="<?=$class?>"><?=$this->escape($value['name'])?></p></td>               
+                <td><?=$value['channel'] ?></td>                
+                <td>	                
+	                <a href="/search/keyword/index/cid/<?=$value['cid']?>">查看关键词</a>
+	<?php
+		if($value['channel']!= $this->channel)
+		{			
+	?>
+	                
+
+	<?php
+		}else{			
+	?>
+	       <a href="#nogo" onclick="addCate(<?=$value['cid'] ?>);return false">添加子分类</a>
+	        <a href="#nogo" onclick="editCate(this, <?=$value['cid']?>, <?=$value['parent']?>, '<?=$value['channel']?>');return false">编辑分类</a>
+			<a href="#nogo" onclick="if(confirm('删除分类将完全删除该分类下建立的的关键词以及关键词对应的关联词,确定吗?'))window.location='/search/category/remove/id/<?=$value['cid'] ?>';return false">删除</a>
+	
+	<?php
+		switch($value['status'])
+		{
+			case 1:
+			{
+	?>
+	                <a href="#nogo" onclick="if(confirm('确定删除吗?'))window.location='/search/category/delete/id/<?=$value['cid'] ?>/status/0'">隐藏</a>
+	<?php
+				break;
+			}
+			case 0:
+			{
+	?>
+	                <a href="#nogo" style="color:green" onclick="if(confirm('确定恢复吗?'))window.location='/search/category/delete/id/<?=$value['cid'] ?>/status/1'">恢复</a>
+	<?php
+				break;
+			}
+		}
+	}
+	?>
+                </td>
+            </tr>
+    <?php endforeach;  ?>
+        </table>
+        
+     </div>
+ </div>    
+<script type="text/javascript">
+function check()
+{
+	if(!$('#name').val())
+	{
+		alert('分类名不对!');
+		return false;
+	}
+	return true;
+}
+function addCate(cid){
+	$('#parent').val(cid);
+	$('#submit').val('添加');
+	$('#name').val('');
+	if($('#cancel'))$('#cancel').remove(); 
+	$('#Form').attr('action','/search/category/create/');	
+}
+
+function editCate(obj, cid, parent, channel)
+{
+	if($('#channel').val()!= channel){
+		alert('不是当前频道建立的分类,无修改权限!');
+		return false;
+	}else{
+		$('#submit').val('修改分类');
+		if(!$('#cancel')[0])$('#submit').after('<input type="button" id="cancel" onclick="window.location=\'/search/category\'" value="取消">');
+		$('#Form').attr('action','/search/category/update/id/'+ cid);	
+		$('#name').val($(obj).parent('td').prev().prev().text());
+		$('#parent').val(parent);
+	}
+}
+</script>
+ 

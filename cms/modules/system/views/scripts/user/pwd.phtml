@@ -1,0 +1,42 @@
+<div class="area">
+<div class="help"> 
+	<p>帮助</p>
+	<p>1、更改密码页面;</p>  
+<?=$this->showErrors()?>
+</div>
+
+<div class="nr">
+ 	<h2>修改密码</h2>
+
+<form action="" method="post">
+<table width="800" cellspacing="1" class="form">
+<tbody>
+    <tr>
+        <td width="70">用 户 名</td>
+        <td><?=$this->user['username'] ?></td>
+    </tr>
+    <tr class="alt">
+        <td>新 密 码</td>
+        <td><input type="password" name="password"  class="input"/> </td>
+    </tr>
+    <tr>
+        <td>确认密码</td>
+        <td><input type="password" name="password_alt"  class="input"/></td>
+    </tr>
+	<tr>
+        <td>微博地址</td>
+        <td><input type="input" name="weibo" value="<?=$this->user['weibo'] ?>"  class="input" size="60" /></td>
+    </tr>
+	<tr>
+        <td>昵称</td>
+        <td><input type="input" name="nickname" value="<?=$this->user['nickname'] ?>"  class="input" size="60" /></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><button  type="submit" name="submit">保存</button></td>
+    </tr>    
+</tbody>
+</table>
+</form>
+</div>
+</div>

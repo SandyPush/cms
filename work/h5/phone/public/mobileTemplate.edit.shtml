@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<a id="cms_module_4" class="module_anchor"></a>
+<meta name="keywords" content="<?=$title?>，手机游戏，H5手机游戏，H5游戏"/>
+<meta name="description" content="第一游戏H5游戏平台为您提供，<?=$title?>，H5手机游戏，最好玩的H5游戏就在第一游戏网，让你在休闲中体验竞技的乐趣！">
+<title><?=$title?>-H5手机游戏-第一游戏H5游戏平台</title>
+<meta name="bannerTitle" content="info">
+    <link href="http://h.v1game.cn/font/font.css" rel="stylesheet">
+    <link href="http://static.v1game.cn/<?=$version?>css/game/h5/phone/page/item.css" rel="stylesheet">
+    <link rel="apple-touch-icon" href="http://static.v1game.cn/<?=$version?>images/game/h5/apple-touch-icon-152x152.png">
+
+<!--#include virtual="/pc/public/baidu.html"-->
+<script type="text/javascript" src="http://g.cms.v1cn/scripts/jquery/jquery.js"></script>
+<script type="text/javascript" src="http://g.cms.v1cn/scripts/edit.js"></script>
+<link href="http://g.cms.v1cn/styles/edit.css" media="screen" rel="stylesheet" type="text/css" />
+<script type="text/javascript">var cms_pageid = 49; var cms_type = 3; var cms_modules = {"4":{"type":"code","name":"H5_Head","2":1},"2":{"type":"code","name":"H5_Content","2":1},"5":{"type":"code","name":"H5_Js","2":1}}; var EXTRA_MENUS = [];</script>
+</head>
+<body>
+<img src="http://h.v1game.cn/images/game/h5/logowx.jpg" width="0" height="0"  style="position:absolute;left:-9999px">
+<!--头部 start-->
+<!--#include virtual="/phone/public/header.html"-->
+<!--头部 end-->
+<a id="cms_module_2" class="module_anchor"></a>
+<!--二维码遮罩 start-->
+<div id="codeMask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<div id="main">
+    <div class="mainbox clearfix">
+        <div class="item_info clearfix">
+            <div class="pic fl"><a href="javascript:void(0);" target="_self"><img class="ng_img_con" alt=""
+                                                                       src="<?=$image?>"></a>
+            </div>
+            <ul class="gameinf fl">
+                <li class="gi_name"><a href="javascript:void(0);" target="_self"><?=$title?></a></li>
+                <li class="gi_star">
+                    <div class="infostar">
+                        
+                            <div class="df-stars">
+                                <span class="allstar00" id="itemStar"  style="width:0px"></span>
+                            </div>
+                            <div class="num" id="itemRating"></div>
+                        
+                    </div>
+                </li>
+
+                <li class="gi_nub"><span><a href="/phone/list.shtml?cid=<?=$cid?>"><?=$category?></a></span> <span
+                        class="org" id="itemPlayed"></span>人玩过</span></li>
+
+            </ul>
+            <div class="gamestart fr">
+                <div class="gi_start fl"><a href="<?=$gameUrl?>" target="_self" class="btn_start">开始游戏</a>
+                </div>
+            </div>
+            <div class="gi_fav fl">
+                <div class="gi_favbox clearfix">
+                    <div class="gi_fav01 sc"><a class="favor"></a></div>
+                    <div class="gi_fav01 fx"><a class="">分享到:</a>
+
+                        <div class="gi_fav03 wb" shareId="sina"><img
+                                src="http://static.v1.cn/images/game/h5/item_11a.png"> 微博
+                        </div>
+                        <div class="gi_fav03 wx" shareId="wx"><img
+                                src="http://static.v1.cn/images/game/h5/item_12a.png"> 微信
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 class="greenline"></h1>
+
+    <div class="item_js clearfix">
+        <div class="item_js_title fl">
+            <ul>
+                <li class="cur">简介</li>
+                <li>评论 (<span id="itemTotalComment"></span>)
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="xxx clearfix">
+        <div class="item_js_main fl clearfix">
+            <?=$content?>
+        </div>
+        <div class="gift-bag fl">
+            <span>礼包码内容：</span>
+                    <span class="gift-bag-text">
+                    </span>
+        </div>
+
+ <div class="anli">
+            <span class="anli-1">
+                <i>加入“第一游戏”，</i>
+                <i>帅哥美女陪你玩，各种福利免费领！</i></span>
+            <span class="anli-2">
+                   <a href="http://jq.qq.com/?_wv=1027&k=cDoHIt" class="anli-qq"> QQ群：129308599</a>
+                    <a href="http://mp.weixin.qq.com/s?__biz=MzA4NDg4NjU2Nw==&mid=208193469&idx=1&sn=0d803852c6ee53c6a550588e788bc857#rd" class="anli-wx">微信公众号：V1_game</a>
+            </span>
+        </div>
+        <div class="item_pic clearfix">
+
+
+            <ul class="pic_ul">
+                <li>
+                <?
+                  foreach($albumsData as $key=>$photo){
+                ?>
+                   <img src="<?=$photo['thumbnail_image']?>">
+                <?
+                    if($key==count($albumsData)-1) echo '</li>';
+                    elseif(($key+1)%2==0) echo '</li><li>';
+                  }
+                ?>
+            </ul>
+            <!--<div class="dot">-->
+            <!--<h1 class="active"></h1>-->
+
+            <!--<h1></h1>-->
+            <!--</div>-->
+        </div>
+    </div>
+    <div class="xxx clearfix" style="display:none;">
+        <div class="item_js_main fl clearfix">
+            <!--comment start-->
+            <div class="height" id="comment2">
+    <div class="commentLogin">
+        <form method="get" name="postForm" id="postForm" action="">
+            <input type="hidden" id="gameId" name="gameId" value="">
+            <div class="discuss">
+                <div id="disComment" class="comment" style="display:none;">
+                    <div class="pl-box" id="no1">
+
+                        <div class="fbpl">
+                            <h2>网友评论：</h2>
+                            <section class="df-item">
+
+                                <label class="df-title">给个评价吧</label>
+
+                                <div class="rating-item">
+
+                                    <div class="df-stars" data-init="true">
+                                        <input class="slider-field" id="rating" type="range" name="rating" value="0"
+                                               max="5"
+                                               min="0" step="1">
+
+                                        <div class="slider-selected" style="width:0px;display:block;"
+                                             data-mobile="true"></div>
+                                        <div class="slider-hover"></div>
+                                    </div>
+
+                                </div>
+
+                            </section>
+                        </div>
+
+
+                        <div class="commentLogin">
+                        <textarea onclick="if(this.value=='我来说两句！')this.value='';" id="content_discuss"
+                            name="content" class="textLogin2">我来说两句！</textarea>
+
+                            <div id="num02">
+                                <span id="content_discuss_tips">还可输入 150个字。</span>
+                                <input type="button" value="发布评论" name="publish" class="btn2 btn_start">
+                                <input type="button" value="取消" name="close" class="btn2 btn_start J_close">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="pl_head">
+                    <h2><a href="javascript:void(0)" class="addComment">添加评论</a></h2>
+
+                </div>
+                <div class="pl_con" id="data" style="">
+
+                </div>
+            </div>
+    </div>
+    </form>
+
+
+    </div>
+
+    <div style="display:none" id="fenye" class="page_change"></div>
+    <div style="display:none" id="data" class="pl_con"></div>
+    <div style="display:none" id="fenye2" class="page_change page_change_nl">
+        <div class="discussion"></div>
+    </div>
+
+
+</div>
+
+<!--comment end-->
+
+        </div>
+    </div>
+
+</div>
+
+
+<div class="clean80px clearfix"></div>
+
+<!--底部 start-->
+<!--#include virtual="/phone/public/footer.html"-->
+<!--底部 end-->
+<a id="cms_module_5" class="module_anchor"></a>
+<script type="text/javascript" src="http://static.v1.cn/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://static.v1game.cn/<?=$version?>js/sea.js"></script>
+<script type="text/javascript" src="http://static.v1game.cn/<?=$version?>js/game/h5/plugin/jquery.form.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1game.cn/<?=$version?>js/game/h5/phone/info/page/index');
+</script>
+
+<div id="cms_module_form">
+    <textarea id="cms_module_form_contents" cols="60" rows="10"></textarea>
+    
+    <p>
+    <button id="cms_module_form_btn_submit"> Save </button>&nbsp;
+    <button id="cms_module_form_btn_clear"> Clear </button>&nbsp;
+    <button id="cms_module_form_btn_cancel"> Cancel </button>
+    </p>
+</div></body>
+</html><script>window.onload=function(){document.getElementsByTagName("body")[0].ondblclick=function(){if(window.confirm("退出编辑模式？")){location.href="http://g.cms.v1cn/page/pages/preview/pid/49"}}}</script>

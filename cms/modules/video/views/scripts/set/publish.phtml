@@ -1,0 +1,8 @@
+<?php if ($this->published === false): ?>
+<p>发布失败</p>
+<?php else: ?>
+<p>发布成功</p>
+
+<a href="<?=$this->url_workplace ?>" target="_blank">可编辑版本</a> |
+<a href="<?=$this->url_published ?>" target="_blank">发布版本</a>
+<?php endif; ?>

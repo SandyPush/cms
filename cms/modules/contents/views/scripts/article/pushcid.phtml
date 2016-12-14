@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CMS_文章列表</title>
+<?=$this->headLink() ?>
+<?=$this->headScript() ?>
+<script>
+function recommend(aid,level)
+{
+	if(level == 9)
+	{
+		var msg='确定取消推荐此文章吗?';
+	}else
+	{
+		var msg='确定推荐此文章吗?';
+	}
+	if(confirm(msg))
+	{
+		window.location="/contents/article/recommend/id/"+aid+"/level/"+level;
+	}
+}
+function add()
+{
+	window.location='/contents/article/add/cid/'+$('#cid').val();
+}
+function on_submit(obj)
+{
+	if(obj.title.value!='')obj.action="/contents/article/pushcid/order/postdate";
+	if(obj.author.value!='')obj.action="/contents/article/pushcid/order/postdate";
+	if(obj.realname.value!='')obj.action="/contents/article/pushcid/order/postdate";
+	if(obj.article_type.checked)obj.action="/contents/article/pushcid/order/postdate";
+}
+
+if(navigator.userAgent.indexOf("Firefox")<=0){  
+      alert('警告：在非Firefox浏览器中添加或编辑视频内容，可能会造成embed标签缺失，请使用Firefox系列浏览器');
+}  
+</script>
+</head>
+
+<body>
+<div class="area">
+	<div class="help">
+    <p>帮助</p>
+    <p>1、此处为文章批量推送;</p>    
+    <p class="soart">
+    	<form action="/contents/article/pushcid" name="search_form" method="post" onsubmit="on_submit(this)">
+            <label>分类搜索:<?=$this->formSelect('cid', $this->cid, null, $this->category_options)?></label>
+        	<label>标题搜索:<input class="input" type="text" name="title" value="<?=$this->title?>" size="16" /></label>
+            <label>作者搜索:<input class="input" type="text" name="author" value="<?=$this->author?>" size="8" /></label>
+            <label>发布者搜索:<input class="input" type="text" name="realname" value="<?=$this->realname?>" size="8" /></label>
+			<label>新闻来源:
+					<?php echo $this->formSelect('publisher_id', $this->publisher_id, array('onchange'=>'this.form.publisher.value=this.options[this.selectedIndex].innerText'), $this->publisher_select) ?></label>
+            <label><input type="checkbox" name="article_type" value="1" <?=$this->article_type?'checked':''?> />是否约稿</label>
+            <input type="submit" value="显示"></button>
+        </form>
+    </p>    
+    </div>
+	<form action="/contents/article/savepushcid" name="search_form" method="post" target="submitToAjax">
+    <div class="nr">
+    	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+        	<tr>
+            	<th>aid</th>
+                <th>标题</th>
+                <th>分类</th>
+                <th>权重</th>
+                <th>发布者</th>
+                <th title="按发布时间排序">
+                	<?php if($this->order=='postdate'){?>发布时间<img src="/images/order_down.gif"/>
+                	<?php }else{?><a href="/contents/article/index?order=postdate&<?=$this->search_para?>">发布时间</a><?php }?>
+                </th>
+            </tr>
+    <?php foreach ($this->result as $key => $value): 
+		$value['href']= ($value['islink'] ? 'h' : $this->push_url).substr($value['url'],1);
+	?>
+            <tr>
+        	<td><input type="checkbox" name="aids[]" value="<?=$value['aid']?>" /><?=$value['aid']?></td>
+                <td style="width:45%;"><a href="<?=$value['href']?>" target="_blank"><?=$this->escape($value['title']) ?></a></td>
+                <td><a href="/contents/article/index/cid/<?=$value['cid']?>"><?=$this->escape($value['category']) ?></a></td>
+                <td><?=$value['level']?></td>
+                <td><?=$this->escape($value['realname']) ?></td>
+                <td><?=$this->escape(date("Y-m-d H:i:s",$value['postdate'])) ?></td>
+            </tr>
+    <?php endforeach;  ?>
+        </table>
+        
+    <h2>
+        <input type="checkbox" id="selectAll"/>&nbsp;推送到：<?=$this->formSelect('cid', $this->cid, null, $this->category_options)?>
+        <input value="提交" type="submit" />
+    </h2>   
+    </div>
+    </form>
+    
+    <div class="fy">
+		<?=$this->pagebar ?>
+	</div>
+
+    </div>
+    <iframe src="about:blank" style="display:none" name="submitToAjax"></iframe>
+</body>
+</html>
+<script>
+    $("#selectAll").click(function(){
+       console.log($(this).attr("checked"));
+       if($(this).attr("checked")){
+        $("input:checkbox").attr("checked",true);
+       }else{
+        $("input:checkbox").attr("checked","");
+       } 
+    });
+</script>

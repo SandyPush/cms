@@ -1,0 +1,294 @@
+a:8:{i:0;s:1263:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/login.css" charset="utf-8" rel="stylesheet" />
+</head>
+<body>
+    <div class="background">
+        <div class="backg_in">
+        <!--header begin-->
+        <!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+        <!--header end-->
+            <!--中间主体部分 begin-->
+            <div class="main">
+               <!--#CMS_MODULE(V2_BANNER)#-->
+               <div class="pay clearfix">
+                   <!--#CMS_MODULE(V2_REGISTER_LEFT)#-->
+                   <!--#CMS_MODULE(V2_LOGIN_MORE)#-->
+               </div>
+            </div>
+            <!--中间主体部分 end-->
+            <!---底部 begin--->
+            <!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+            <!---底部 end--->
+        </div>
+</div>
+<!--#CMS_MODULE(V2_CORLORBOX)#-->
+</body>";i:1;s:1228:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/login.css" charset="utf-8" rel="stylesheet" />
+</head>
+<body>
+    <div class="background">
+        <div class="backg_in">
+        <!--header begin-->
+        <!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+        <!--header end-->
+            <!--中间主体部分 begin-->
+            <div class="main">
+               <!--#CMS_MODULE(V2_BANNER)#-->
+               <div class="pay clearfix">
+                   <!--#CMS_MODULE(V2_REGISTER_LEFT)#-->
+                   <!--#CMS_MODULE(V2_LOGIN_MORE)#-->
+               </div>
+            </div>
+            <!--中间主体部分 end-->
+            <!---底部 begin--->
+            <!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+            <!---底部 end--->
+        </div>
+</div>
+</body>";i:2;s:1644:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/login.css" charset="utf-8" rel="stylesheet" />
+</head>
+<body>
+    <div class="background">
+        <div class="backg_in">
+        <!--header begin-->
+        <!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+        <!--header end-->
+            <!--中间主体部分 begin-->
+            <div class="main">
+               <!--#CMS_MODULE(V2_BANNER)#-->
+               <div class="pay clearfix">
+                   <!--#CMS_MODULE(V2_REGISTER_LEFT)#-->
+                   <!--#CMS_MODULE(V2_LOGIN_MORE)#-->
+               </div>
+            </div>
+            <!--中间主体部分 end-->
+            <!---底部 begin--->
+            <!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+            <!---底部 end--->
+        </div>
+</div>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/login/register');
+</script>
+</body>";i:3;s:1694:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta name="bannerTitle" content="register">
+    <title>注册</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/login.css" charset="utf-8" rel="stylesheet" />
+</head>
+<body>
+    <div class="background">
+        <div class="backg_in">
+        <!--header begin-->
+        <!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+        <!--header end-->
+            <!--中间主体部分 begin-->
+            <div class="main">
+               <!--#CMS_MODULE(V2_BANNER)#-->
+               <div class="pay clearfix">
+                   <!--#CMS_MODULE(V2_REGISTER_LEFT)#-->
+                   <!--#CMS_MODULE(V2_LOGIN_MORE)#-->
+               </div>
+            </div>
+            <!--中间主体部分 end-->
+            <!---底部 begin--->
+            <!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+            <!---底部 end--->
+        </div>
+</div>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/login/register');
+</script>
+</body>";i:4;s:1678:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta name="bannerTitle" content="register">
+    <title>注册</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/login.css" charset="utf-8" rel="stylesheet" />
+</head>
+<body>
+    <div class="background">
+        <div class="backg_in">
+        <!--header begin-->
+        <!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+        <!--header end-->
+            <!--中间主体部分 begin-->
+            <div class="main">
+               <!--#CMS_MODULE(V2_BANNER)#-->
+               <div class="pay clearfix">
+                   <!--#CMS_MODULE(V2_REGISTER_LEFT)#-->
+                   <!--#CMS_MODULE(V2_LOGIN_MORE)#-->
+               </div>
+            </div>
+            <!--中间主体部分 end-->
+            <!---底部 begin--->
+            <!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+            <!---底部 end--->
+        </div>
+</div>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://passport.v1.cn/js/user/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/login/register');
+</script>
+</body>";i:5;s:1694:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta name="bannerTitle" content="register">
+    <title>注册</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/login.css" charset="utf-8" rel="stylesheet" />
+</head>
+<body>
+    <div class="background">
+        <div class="backg_in">
+        <!--header begin-->
+        <!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+        <!--header end-->
+            <!--中间主体部分 begin-->
+            <div class="main">
+               <!--#CMS_MODULE(V2_BANNER)#-->
+               <div class="pay clearfix">
+                   <!--#CMS_MODULE(V2_REGISTER_LEFT)#-->
+                   <!--#CMS_MODULE(V2_LOGIN_MORE)#-->
+               </div>
+            </div>
+            <!--中间主体部分 end-->
+            <!---底部 begin--->
+            <!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+            <!---底部 end--->
+        </div>
+</div>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/login/register');
+</script>
+</body>";i:6;s:1832:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta name="bannerTitle" content="register">
+    <title>注册</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/login.css" charset="utf-8" rel="stylesheet" />
+</head>
+<body>
+    <div class="background">
+        <div class="backg_in">
+        <!--header begin-->
+        <!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+        <!--header end-->
+            <!--中间主体部分 begin-->
+            <div class="main">
+               <!--#CMS_MODULE(V2_BANNER)#-->
+               <div class="pay clearfix">
+                   <!--#CMS_MODULE(V2_REGISTER_LEFT)#-->
+                   <!--#CMS_MODULE(V2_LOGIN_MORE)#-->
+               </div>
+            </div>
+            <!--中间主体部分 end-->
+            <!---底部 begin--->
+            <!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+            <!---底部 end--->
+        </div>
+</div>
+
+<!---防沉迷认证 start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/anti_addiction.shtml"-->
+<!---防沉迷认证 end--->
+
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/login/register');
+</script>
+</body>";i:7;s:1928:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta name="bannerTitle" content="register">
+    <title>注册</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/login.css" charset="utf-8" rel="stylesheet" />
+</head>
+<body>
+    <div class="background">
+        <div class="backg_in">
+        <!--header begin-->
+        <!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+        <!--header end-->
+            <!--中间主体部分 begin-->
+            <div class="main">
+               <!--#CMS_MODULE(V2_BANNER)#-->
+               <div class="pay clearfix">
+                   <!--#CMS_MODULE(V2_REGISTER_LEFT)#-->
+                   <!--#CMS_MODULE(V2_LOGIN_MORE)#-->
+               </div>
+            </div>
+            <!--中间主体部分 end-->
+            <!---底部 begin--->
+            <!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+            <!---底部 end--->
+        </div>
+</div>
+
+<!---防沉迷认证 start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/anti_addiction.shtml"-->
+<!---防沉迷认证 end--->
+
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<!-- script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script -->
+<script src="http://static.v1game.cn/201507273/js/game/h5/plugin/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/login/register');
+</script>
+</body>";}

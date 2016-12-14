@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+#dialog_header {
+    background: #6D84B4;
+    color: #fff;
+    padding: 0 10px;
+}
+
+#dialog_header h1 {
+    font-size: 14px;
+    margin: 0;
+    line-height: 32px;
+}
+
+#dialog_body {
+    padding: 10px;
+}
+
+#dialog_footer {
+    padding: 0 10px;
+}
+
+#txt_content {
+    width: 580px;
+    font-family: courier new;
+}
+
+/* funcs */
+#func_toolbar {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    line-height: 20px;
+    padding: 3px 0;
+}
+
+#func_selecter {
+    float: left;
+}

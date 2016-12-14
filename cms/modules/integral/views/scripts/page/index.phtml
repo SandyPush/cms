@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CMS_积分页面更新列表</title>
+<?php 
+	echo $this->headLink();
+	echo $this->headScript();
+?>
+<script type="text/javascript" src="/scripts/date/WdatePicker.js"></script>
+</head>
+
+<body>
+	<div class="area">
+		<div class="help">
+			<p>帮助</p>
+			<p>1、积分页面更新列表。</p>
+			<p class="soart"></p>
+			<form name="search_form" method="post">
+				<label>标题：<input class="input" type="text" name="title" value="<?php echo $this->title; ?>" size="16" /></label>
+				<label>发布者：<input class="input" type="text" name="realname" value="<?php echo $this->realname; ?>" size="8" /></label>
+				<p class="soart"></p>
+				<label>日期：<input class="input" type="text" name="start_time" value="<?php echo $this->start_time; ?>" onclick="WdatePicker()" size="16"/></label>
+				<label>至 <input class="input" type="text" name="end_time" value="<?php echo $this->end_time; ?>" onclick="WdatePicker()" size="16"/></label>
+				<input type="submit" value="搜索" />
+			</form>
+		</div>
+		<div class="nr">
+			<h2>
+				<a href="/integral/page/add"><button>添加内容</button></a>
+			</h2>
+			<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+				<tr>
+					<th width="5%">编号</th>
+					<th width="10%">标题</th>
+					<th>第一美女</th>
+					<th>每日一笑</th>
+					<th width="5%">发布者</th>
+					<th width="12%">发布时间</th>
+					<th width="10%">操作</th>
+				</tr>
+				<?php
+					foreach ($this->items as $key => $val):
+				?>
+				<tr>
+					<td><?php echo $val['id']; ?></td>
+					<td><?php echo $val['title']; ?></td>
+					<td><?php echo $val['content1_desc']; ?></td>
+					<td><?php echo $val['content2_desc']; ?></td>
+					<td><?php echo $val['username']; ?></td>
+					<td align="center"><?php if ($val['publish_time'] != '0000-00-00 00:00:00') echo $val['publish_time']; else echo '未发布'; ?></td>
+					<td aligh="center">
+                        <a href="/integral/page/preview/id/<?php echo $val['id']; ?>" target="_blank"><img src="/theme/default/image/preview.png" alt="预览" title="预览"/></a>
+                        <a href="/integral/page/edit/id/<?php echo $val['id']; ?>"><img src="/theme/default/image/edit.png" alt="编辑" title="编辑"/></a>
+                        <a href="/integral/page/publish/id/<?php echo $val['id']; ?>"><img src="/theme/default/image/publish.png" alt="发布" title="发布"/></a>
+                        <a href="javascript:void(0);" class="del" url="/integral/page/del/id/<?php echo $val['id']; ?>"><img src="/theme/default/image/delete.png" alt="删除" title="删除"/></a>
+					</td>
+				</tr>
+				<?php
+					endforeach;
+				?>
+			</table>
+		</div>
+		<div class="fy">
+			<?php echo $this->pagebar; ?>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$('.del').click(function(){
+			if (confirm('确认删除？')) {
+				location.href = $(this).attr('url');
+			}
+		});
+	</script>
+</body>
+</html>

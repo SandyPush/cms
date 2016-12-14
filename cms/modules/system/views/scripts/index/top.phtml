@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link href="/theme/default/frametop.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="header">
+	<div class="yh" style="float:right">欢迎您：<?=$this->user_realname ?>(<?=$this->user_name?>) | <a href="/system/index/user/" target="_blank">[用户管理]</a> | 频道：
+	<?php foreach($this->channels as $key => $value):?>
+        <a href="#here" onclick="window.parent.location='/system/index/index/channel/<?=$key?>';" ><span <?php if($this->user_channel==$key)echo 'style="color:red;"';?>><?=$value?></span></a>
+    <?php endforeach;?> | <a href="/system/index/logout/" target="_top">[退出]</a></div>
+    <div class="logo"><a href="#"><img src="/theme/default/image/logo.png" border="0" /></a></div>
+</div>
+</body>
+</html>
+<script>
+function usermange()
+{
+	var dialog_url="/system/index/user/";
+    var imgurl = window.showModalDialog(dialog_url, "", "dialogHeight:650px; dialogWidth:800px; resizable:0; scroll:0; status:0; unadorned:0;");
+}
+</script>

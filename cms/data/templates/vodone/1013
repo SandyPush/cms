@@ -1,0 +1,71 @@
+a:5:{i:0;s:2246:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.sLogo,.play,.icon,.iconS');</script>
+
+<style type="text/css">
+*html,*html body{background-image:url(about:blank);background-attachment:fixed;}
+</style>
+
+<![endif]-->
+
+<script src="http://pic.v1.cn/cms/special_topic/common/js/jquery.cookie.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/special_topic/common/js/commentlink.js" language="javascript" type="text/javascript"></script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/comment_css.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/content.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+<body>
+<div>
+1234
+<!--#CMS_MODULE(栏头_v1内容页)#-->
+</div>
+</body>
+</html>
+";i:1;s:199:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+</head>
+
+<body>
+<!--#CMS_MODULE(栏头_v1内容页)#-->
+</body>
+</html>
+";i:2;s:39:"<!--#CMS_MODULE(栏头_v1内容页)#-->";i:3;s:199:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+</head>
+
+ <body>
+<!--#CMS_MODULE(栏头_v1内容页)#-->
+ </body>
+</html>";i:4;s:41:"<!--#CMS_MODULE(栏头_v1内容页)#-->
+";}

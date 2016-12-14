@@ -1,0 +1,2852 @@
+a:20:{i:0;s:3821:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <div class="nav">
+            <li class="shouye_01"><a class="shouye" href="www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="#v1" class="v1">第一视频</a></li>
+  </div>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+$(function(){
+  $(".Channel8").hide();
+  setTimeout(
+    function(){
+	  $(".Channel7").slideUp("slow");
+	  $(".Channel8").slideDown("slow");
+	},15000
+  );
+})
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+        var v1_top = $("#v1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=v1_top){
+			set_cur(".v1");
+                }else if(scroH>=zv1_top){
+			set_cur(".zv1");
+		}else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+	$(".nav a"+n).addClass("cur");
+}
+$(function(){
+  $(window).scroll(
+    function(){
+	 if($(window).scrollTop()>50){
+	   $(".hearder").show();
+	 }
+	 else{
+	 $(".hearder").hide();
+	 }
+	}
+  )
+
+});
+
+</script>
+
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:1;s:3790:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <div class="nav">
+            <li class="shouye_01"><a class="shouye" href="www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="#v1" class="v1">第一视频</a></li>
+  </div>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+$(function(){
+  $(".Channel8").hide();
+  setTimeout(
+    function(){
+	  $(".Channel7").slideUp("slow");
+	  $(".Channel8").slideDown("slow");
+	},15000
+  );
+})
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+        var v1_top = $("#v1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=v1_top){
+			set_cur(".v1");
+                }else if(scroH>=zv1_top){
+			set_cur(".zv1");
+		}else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+
+}
+$(function(){
+  $(window).scroll(
+    function(){
+	 if($(window).scrollTop()>50){
+	   $(".hearder").show();
+	 }
+	 else{
+	 $(".hearder").hide();
+	 }
+	}
+  )
+
+});
+
+</script>
+
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:2;s:3794:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <div class="nav">
+            <li class="shouye_01"><a class="shouye" href="www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt cur">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="#v1" class="v1">第一视频</a></li>
+  </div>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+$(function(){
+  $(".Channel8").hide();
+  setTimeout(
+    function(){
+	  $(".Channel7").slideUp("slow");
+	  $(".Channel8").slideDown("slow");
+	},15000
+  );
+})
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+        var v1_top = $("#v1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=v1_top){
+			set_cur(".v1");
+                }else if(scroH>=zv1_top){
+			set_cur(".zv1");
+		}else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+
+}
+$(function(){
+  $(window).scroll(
+    function(){
+	 if($(window).scrollTop()>50){
+	   $(".hearder").show();
+	 }
+	 else{
+	 $(".hearder").hide();
+	 }
+	}
+  )
+
+});
+
+</script>
+
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:3;s:3456:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <div class="nav">
+            <li class="shouye_01"><a class="shouye" href="www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt cur">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="#v1" class="v1">第一视频</a></li>
+  </div>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+        var v1_top = $("#v1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=v1_top){
+			set_cur(".v1");
+                }else if(scroH>=zv1_top){
+			set_cur(".zv1");
+		}else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+
+}
+
+</script>
+
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:4;s:3629:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <div class="nav">
+            <li class="shouye_01"><a class="shouye" href="www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt cur">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="#v1" class="v1">第一视频</a></li>
+  </div>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+        var v1_top = $("#v1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=v1_top){
+			set_cur(".v1");
+                }else if(scroH>=zv1_top){
+			set_cur(".zv1");
+		}else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+
+}
+
+$(function(){
+  $(window).scroll(
+    function(){
+	 if($(window).scrollTop()>50){
+	   $(".hearder").show();
+	 }
+	 else{
+	 $(".hearder").hide();
+	 }
+	}
+  )
+
+});
+</script>
+
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:5;s:3718:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <div class="nav">
+            <li class="shouye_01"><a class="shouye" href="www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt cur">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="#v1" class="v1">第一视频</a></li>
+  </div>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+        var v1_top = $("#v1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=v1_top){
+			set_cur(".v1");
+                }else if(scroH>=zv1_top){
+			set_cur(".zv1");
+		}else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+       $(".nav a"+n).addClass("cur");
+       var cname=".nav a"+n;
+       alert(cname);
+}
+
+$(function(){
+  $(window).scroll(
+    function(){
+	 if($(window).scrollTop()>50){
+	   $(".hearder").show();
+	 }
+	 else{
+	 $(".hearder").hide();
+	 }
+	}
+  )
+
+});
+</script>
+
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:6;s:3722:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <div class="nav">
+            <li class="shouye_01"><a class="shouye" href="www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt cur">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="#v1" class="v1">第一视频</a></li>
+  </div>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+        var v1_top = $("#v1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=v1_top){
+			set_cur(".v1");
+                }else if(scroH>=zv1_top){
+			set_cur(".zv1");
+		}else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+       $(".nav a"+n).addClass("cur");
+       //var cname=".nav a"+n;
+       //alert(cname);
+}
+
+$(function(){
+  $(window).scroll(
+    function(){
+	 if($(window).scrollTop()>50){
+	   $(".hearder").show();
+	 }
+	 else{
+	 $(".hearder").hide();
+	 }
+	}
+  )
+
+});
+</script>
+
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:7;s:3718:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <div class="nav">
+            <li class="shouye_01"><a class="shouye" href="www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt cur">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="#v1" class="v1">第一视频</a></li>
+  </div>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+        var v1_top = $("#v1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=v1_top){
+			set_cur(".v1");
+                }else if(scroH>=zv1_top){
+			set_cur(".zv1");
+		}else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+       $(".nav a"+n).addClass("cur");
+       var cname=".nav a"+n;
+       alert(cname);
+}
+
+$(function(){
+  $(window).scroll(
+    function(){
+	 if($(window).scrollTop()>50){
+	   $(".hearder").show();
+	 }
+	 else{
+	 $(".hearder").hide();
+	 }
+	}
+  )
+
+});
+</script>
+
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:8;s:3688:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <div class="nav">
+            <li class="shouye_01"><a class="shouye" href="www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt cur">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="#v1" class="v1">第一视频</a></li>
+  </div>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+        var v1_top = $("#v1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=v1_top){
+			set_cur(".v1");
+                }else if(scroH>=zv1_top){
+			set_cur(".zv1");
+		}else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+       $(".nav a"+n).addClass("cur");
+       alert("111");
+}
+
+$(function(){
+  $(window).scroll(
+    function(){
+	 if($(window).scrollTop()>50){
+	   $(".hearder").show();
+	 }
+	 else{
+	 $(".hearder").hide();
+	 }
+	}
+  )
+
+});
+</script>
+
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:9;s:3825:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <div class="nav">
+            <li class="shouye_01"><a class="shouye" href="www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt cur">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="#v1" class="v1">第一视频</a></li>
+  </div>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+$(function(){
+  $(".Channel8").hide();
+  setTimeout(
+    function(){
+	  $(".Channel7").slideUp("slow");
+	  $(".Channel8").slideDown("slow");
+	},15000
+  );
+})
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+        var v1_top = $("#v1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=v1_top){
+			set_cur(".v1");
+                }else if(scroH>=zv1_top){
+			set_cur(".zv1");
+		}else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+	$(".nav a"+n).addClass("cur");
+}
+$(function(){
+  $(window).scroll(
+    function(){
+	 if($(window).scrollTop()>50){
+	   $(".hearder").show();
+	 }
+	 else{
+	 $(".hearder").hide();
+	 }
+	}
+  )
+
+});
+
+</script>
+
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:10;s:3823:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <ul class="nav">
+            <li class="shouye_01"><a class="shouye" href="www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt cur">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="#v1" class="v1">第一视频</a></li>
+  </ul>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+$(function(){
+  $(".Channel8").hide();
+  setTimeout(
+    function(){
+	  $(".Channel7").slideUp("slow");
+	  $(".Channel8").slideDown("slow");
+	},15000
+  );
+})
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+        var v1_top = $("#v1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=v1_top){
+			set_cur(".v1");
+                }else if(scroH>=zv1_top){
+			set_cur(".zv1");
+		}else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+	$(".nav a"+n).addClass("cur");
+}
+$(function(){
+  $(window).scroll(
+    function(){
+	 if($(window).scrollTop()>50){
+	   $(".hearder").show();
+	 }
+	 else{
+	 $(".hearder").hide();
+	 }
+	}
+  )
+
+});
+
+</script>
+
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:11;s:3730:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <ul class="nav">
+            <li class="shouye_01"><a class="shouye" href="www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt cur">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="#v1" class="v1">第一视频</a></li>
+  </ul>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+$(function(){
+  $(".Channel8").hide();
+  setTimeout(
+    function(){
+	  $(".Channel7").slideUp("slow");
+	  $(".Channel8").slideDown("slow");
+	},15000
+  );
+})
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=zv1_top){
+			set_cur(".zv1");
+                }else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+	$(".nav a"+n).addClass("cur");
+}
+$(function(){
+  $(window).scroll(
+    function(){
+	 if($(window).scrollTop()>50){
+	   $(".hearder").show();
+	 }
+	 else{
+	 $(".hearder").hide();
+	 }
+	}
+  )
+
+});
+
+</script>
+
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:12;s:3737:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <ul class="nav">
+            <li class="shouye_01"><a class="shouye" href="http://www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt cur">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="#v1" class="v1">第一视频</a></li>
+  </ul>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+$(function(){
+  $(".Channel8").hide();
+  setTimeout(
+    function(){
+	  $(".Channel7").slideUp("slow");
+	  $(".Channel8").slideDown("slow");
+	},15000
+  );
+})
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=zv1_top){
+			set_cur(".zv1");
+                }else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+	$(".nav a"+n).addClass("cur");
+}
+$(function(){
+  $(window).scroll(
+    function(){
+	 if($(window).scrollTop()>50){
+	   $(".hearder").show();
+	 }
+	 else{
+	 $(".hearder").hide();
+	 }
+	}
+  )
+
+});
+
+</script>
+
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:13;s:3762:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <ul class="nav">
+            <li class="shouye_01"><a class="shouye" href="http://www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt cur">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="#v1" target="_blank" class="v1">第一视频这一年</a></li>
+  </ul>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+$(function(){
+  $(".Channel8").hide();
+  setTimeout(
+    function(){
+	  $(".Channel7").slideUp("slow");
+	  $(".Channel8").slideDown("slow");
+	},15000
+  );
+})
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=zv1_top){
+			set_cur(".zv1");
+                }else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+	$(".nav a"+n).addClass("cur");
+}
+$(function(){
+  $(window).scroll(
+    function(){
+	 if($(window).scrollTop()>50){
+	   $(".hearder").show();
+	 }
+	 else{
+	 $(".hearder").hide();
+	 }
+	}
+  )
+
+});
+
+</script>
+
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:14;s:3762:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <ul class="nav">
+            <li class="shouye_01"><a class="shouye" href="http://www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt cur">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="#v1" target="_blank" class="v1">第一视频这一年</a></li>
+  </ul>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+$(function(){
+  $(".Channel8").hide();
+  setTimeout(
+    function(){
+	  $(".Channel7").slideUp("slow");
+	  $(".Channel8").slideDown("slow");
+	},15000
+  );
+})
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=zv1_top){
+			set_cur(".zv1");
+                }else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+	$(".nav a"+n).addClass("cur");
+}
+$(function(){
+  $(window).scroll(
+    function(){
+	 if($(window).scrollTop()>50){
+	   $(".hearder").show();
+	 }
+	 else{
+	 $(".hearder").hide();
+	 }
+	}
+  )
+
+});
+
+</script>
+
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:15;s:3799:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <ul class="nav">
+            <li class="shouye_01"><a class="shouye" href="http://www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt cur">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="http://www.v1.cn/2013-12-26/928099.shtml" target="_blank" class="v1">第一视频这一年</a></li>
+  </ul>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+$(function(){
+  $(".Channel8").hide();
+  setTimeout(
+    function(){
+	  $(".Channel7").slideUp("slow");
+	  $(".Channel8").slideDown("slow");
+	},15000
+  );
+})
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=zv1_top){
+			set_cur(".zv1");
+                }else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+	$(".nav a"+n).addClass("cur");
+}
+$(function(){
+  $(window).scroll(
+    function(){
+	 if($(window).scrollTop()>50){
+	   $(".hearder").show();
+	 }
+	 else{
+	 $(".hearder").hide();
+	 }
+	}
+  )
+
+});
+
+</script>
+
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:16;s:3826:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <ul class="nav">
+            <li class="shouye_01"><a class="shouye" href="http://www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt cur">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="http://www.v1.cn/2013-12-26/928099.shtml" target="_blank" class="v1">第一视频这一年</a></li>
+  </ul>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+$(function(){
+  $(".Channel8").hide();
+  setTimeout(
+    function(){
+	  $(".Channel7").slideUp("slow");
+	  $(".Channel8").slideDown("slow");
+	},15000
+  );
+})
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=zv1_top){
+			set_cur(".zv1");
+                }else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+	$(".nav a"+n).addClass("cur");
+}
+$(function(){
+  $(window).scroll(
+    function(){
+	 if($(window).scrollTop()>50){
+	   $(".hearder").show();
+	 }
+	 else{
+	 $(".hearder").hide();
+	 }
+	}
+  )
+
+});
+
+</script>
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:17;s:3828:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <ul class="nav">
+            <li class="shouye_01"><a class="shouye" href="http://www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt cur">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="http://www.v1.cn/2013-12-26/928099.shtml" target="_blank" class="v1">第一视频这一年</a></li>
+  </ul>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+<!--#CMS_MODULE(评论)#-->
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+$(function(){
+  $(".Channel8").hide();
+  setTimeout(
+    function(){
+	  $(".Channel7").slideUp("slow");
+	  $(".Channel8").slideDown("slow");
+	},15000
+  );
+})
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=zv1_top){
+			set_cur(".zv1");
+                }else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+	$(".nav a"+n).addClass("cur");
+}
+$(function(){
+  $(window).scroll(
+    function(){
+	 if($(window).scrollTop()>50){
+	   $(".hearder").show();
+	 }
+	 else{
+	 $(".hearder").hide();
+	 }
+	}
+  )
+
+});
+
+</script>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:18;s:4188:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <ul class="nav">
+            <li class="shouye_01"><a class="shouye" href="http://www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt cur">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="http://www.v1.cn/2013-12-26/928099.shtml" target="_blank" class="v1">第一视频这一年</a></li>
+  </ul>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+<!--#CMS_MODULE(评论)#-->
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+$(function(){
+  $(".Channel8").hide();
+  setTimeout(
+    function(){
+	  $(".Channel7").slideUp("slow");
+	  $(".Channel8").slideDown("slow");
+	},15000
+  );
+})
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=zv1_top){
+			set_cur(".zv1");
+                }else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+	$(".nav a"+n).addClass("cur");
+}
+$(function(){
+  $(window).scroll(
+    function(){
+	 if($(window).scrollTop()>50){
+	   $(".hearder").show();
+	 }
+	 else{
+	 $(".hearder").hide();
+	 }
+	}
+  )
+
+});
+
+</script>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:19;s:4420:"<!--#
+  $sort=CMS_FUNCTION('toPinyin',$cms_page_category.'Zt');
+  $sort=$sort['pinyin_for_full'];
+#-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/nianz/css/style-nz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/nianz/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/nianz/js/jquery.easing.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+  //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$cms_page_category}Zt', 3]);
+</script>
+
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<div class="hearder" style="display:none;">
+   <ul class="nav">
+            <li class="shouye_01"><a class="shouye" href="http://www.v1.cn" target="_blank">首页</a></li>
+            <li class="qnr_01"><a class="qnr" href="#">我们去哪儿</a></li>
+             <li class="tt_01"><a href="#tt" class="tt cur">头条</a></li>
+             <li class="ox_01"><a href="#ox" class="ox">偶像</a></li>
+             <li class="aq_01"><a href="#aq" class="aq">爱情</a></li>
+            <li class="hz_01"> <a href="#hz" class="hz">孩子</a></li>
+            <li class="zv1_01"> <a href="#zv1" class="zv1">最V1</a></li>
+             <li class="v1_01"><a href="http://www.v1.cn/2013-12-26/928099.shtml" target="_blank" class="v1">第一视频这一年</a></li>
+  </ul>
+  </div>
+  
+<div class="Channel7">
+  <!--#CMS_MODULE(code007)#-->
+ </div>
+
+<div class="Channel8">
+ <div class="wrapBox1700">
+<!--#CMS_MODULE(视频模块)#-->
+<!--#CMS_MODULE(code008)#-->
+ </div>
+</div>
+
+ <div class="Channel1 clearfix" id="tt">
+<div class="Box1000 clearfix">
+     <!--#CMS_MODULE(code001)#-->
+</div>
+ </div>
+
+
+
+ <div class="Channel2 clearfix" id="ox">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code002)#-->
+       
+     </div>  
+ </div>
+ 
+ <div class="Channel3 clearfix" id="aq">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code003)#-->
+       
+     </div>  
+ </div>
+ 
+  <div class="Channel4 clearfix" id="hz">
+    <div class="Box1000 clearfix">
+      <!--#CMS_MODULE(code004)#-->
+     </div>  
+ </div>
+ 
+  <div class="Channel5 clearfix" id="zv1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code005)#-->   
+     </div>  
+ </div>
+
+<!--#CMS_MODULE(评论)#-->
+
+   <div class="Channel6 clearfix" id="v1">
+    <div class="Box1000 clearfix">
+       <!--#CMS_MODULE(code006)#-->   
+     </div>  
+ </div>
+ 
+  <script type="text/javascript">
+$(function(){
+  $(".Channel8").hide();
+  setTimeout(
+    function(){
+	  $(".Channel7").slideUp("slow");
+	  $(".Channel8").slideDown("slow");
+	},15000
+  );
+})
+
+$(function(){
+	var tt_top = $("#tt").offset().top;
+	var ox_top = $("#ox").offset().top;
+	var aq_top = $("#aq").offset().top;
+	var hz_top = $("#hz").offset().top;
+	var zv1_top = $("#zv1").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+		var scroH = $(this).scrollTop();
+		if(scroH>=zv1_top){
+			set_cur(".zv1");
+                }else if(scroH>=hz_top){
+			set_cur(".hz");
+		}else if(scroH>=aq_top){
+			set_cur(".aq");
+		}else if(scroH>=ox_top){
+			set_cur(".ox");
+		}else if(scroH>=tt_top){
+			set_cur(".tt");
+		}
+	});
+	
+});
+
+function set_cur(n){
+	if($(".nav a").hasClass("cur")){
+		$(".nav a").removeClass("cur");
+	}
+	$(".nav a"+n).addClass("cur");
+}
+$(function(){
+  $(window).scroll(
+    function(){
+	 if($(window).scrollTop()>50){
+	   $(".hearder").show();
+	 }
+	 else{
+	 $(".hearder").hide();
+	 }
+	}
+  )
+
+});
+
+</script>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";}

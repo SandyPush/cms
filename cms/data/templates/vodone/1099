@@ -1,0 +1,1371 @@
+a:18:{i:0;s:3062:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/sports.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<!--#CMS_MODULE(频道code001)#-->
+
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code002)#-->
+   <!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad)#-->
+<!--adv end-->
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code003)#-->
+   <!--#CMS_MODULE(频道code004)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code005)#-->
+   <!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->   
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code009)#-->
+<!--#CMS_MODULE(频道code010)#-->
+   </div>
+<!--#CMS_MODULE(频道code011)#-->
+</div>
+<!--#CMS_MODULE(频道code012)#-->
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:1;s:3059:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/ent.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<!--#CMS_MODULE(频道code001)#-->
+
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code002)#-->
+   <!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad)#-->
+<!--adv end-->
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code003)#-->
+   <!--#CMS_MODULE(频道code004)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code005)#-->
+   <!--#CMS_MODULE(频道code006)#-->
+</div>
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->   
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code009)#-->
+<!--#CMS_MODULE(频道code010)#-->
+   </div>
+<!--#CMS_MODULE(频道code011)#-->
+</div>
+<!--#CMS_MODULE(频道code012)#-->
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:2;s:3120:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/ent.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<!--#CMS_MODULE(频道code001)#-->
+
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code002)#-->
+   <!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad)#-->
+<!--adv end-->
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code003)#-->
+   <!--#CMS_MODULE(频道code004)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code005)#-->
+   <!--#CMS_MODULE(频道code006)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code007)#-->
+<!--#CMS_MODULE(频道code008)#-->   
+</div>
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code009)#-->
+<!--#CMS_MODULE(频道code010)#-->
+   </div>
+<!--#CMS_MODULE(频道code011)#-->
+</div>
+<!--#CMS_MODULE(频道code012)#-->
+<!--adv-->
+   <!--#CMS_MODULE(code_ad02)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:3;s:3039:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/ent.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<!--#CMS_MODULE(频道code001)#-->
+
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code002)#-->
+   <!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad)#-->
+<!--adv end-->
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code003)#-->
+   <!--#CMS_MODULE(频道code004)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code005)#-->
+   <!--#CMS_MODULE(频道code006)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+
+<!--#CMS_MODULE(频道code007)#--> 
+
+<div class="wrap1070 mgT20 height">
+   <div class="wrap760 fl">
+<!--#CMS_MODULE(频道code008)#-->
+<!--#CMS_MODULE(频道code009)#-->
+   </div>
+<!--#CMS_MODULE(频道code010)#-->
+</div>
+<!--#CMS_MODULE(频道code011)#-->
+<!--adv-->
+   <!--#CMS_MODULE(code_ad02)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:4;s:3044:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/ent.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<!--#CMS_MODULE(频道code001)#-->
+
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code002)#-->
+   <!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad)#-->
+<!--adv end-->
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code003)#-->
+   <!--#CMS_MODULE(频道code004)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code005)#-->
+   <!--#CMS_MODULE(频道code006)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+
+<!--#CMS_MODULE(频道code007)#--> 
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code008)#-->
+<!--#CMS_MODULE(频道code009)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code010)#-->
+<!--#CMS_MODULE(频道code011)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad02)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:5;s:3080:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/ent.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<!--#CMS_MODULE(频道code001)#-->
+
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code002)#-->
+   <!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad)#-->
+<!--adv end-->
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code003)#-->
+   <!--#CMS_MODULE(频道code004)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code005)#-->
+   <!--#CMS_MODULE(频道code006)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+
+<!--#CMS_MODULE(频道code007)#--> 
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code008)#-->
+<!--#CMS_MODULE(频道code009)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code010)#-->
+<!--#CMS_MODULE(频道code011)#-->
+</div>
+<!--#CMS_MODULE(频道code012)#-->
+<!--adv-->
+   <!--#CMS_MODULE(code_ad02)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:6;s:3202:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/ent.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<!--#CMS_MODULE(频道code001)#-->
+
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code002)#-->
+   <!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad)#-->
+<!--adv end-->
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code003)#-->
+   <!--#CMS_MODULE(频道code004)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code005)#-->
+   <!--#CMS_MODULE(频道code006)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+
+<!--#CMS_MODULE(频道code007)#--> 
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code008)#-->
+<!--#CMS_MODULE(频道code009)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code010)#-->
+<!--#CMS_MODULE(频道code011)#-->
+</div>
+<!--#CMS_MODULE(频道code012)#-->
+<!--adv-->
+   <!--#CMS_MODULE(code_ad02)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:7;s:3302:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/ent.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<!--#CMS_MODULE(频道code001)#-->
+
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code002)#-->
+   <!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad)#-->
+<!--adv end-->
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code003)#-->
+   <!--#CMS_MODULE(频道code004)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code005)#-->
+   <!--#CMS_MODULE(频道code006)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+
+<!--#CMS_MODULE(频道code007)#--> 
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code008)#-->
+<!--#CMS_MODULE(频道code009)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code010)#-->
+<!--#CMS_MODULE(频道code011)#-->
+</div>
+<!--#CMS_MODULE(频道code012)#-->
+<!--adv-->
+   <!--#CMS_MODULE(code_ad02)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:8;s:3475:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/ent.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+//登陆注册
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+//baidu 统计
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<!--#CMS_MODULE(频道code001)#-->
+
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code002)#-->
+   <!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad)#-->
+<!--adv end-->
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code003)#-->
+   <!--#CMS_MODULE(频道code004)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code005)#-->
+   <!--#CMS_MODULE(频道code006)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+
+<!--#CMS_MODULE(频道code007)#--> 
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code008)#-->
+<!--#CMS_MODULE(频道code009)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code010)#-->
+<!--#CMS_MODULE(频道code011)#-->
+</div>
+<!--#CMS_MODULE(频道code012)#-->
+<!--adv-->
+   <!--#CMS_MODULE(code_ad02)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:9;s:3516:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/ent.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+//登陆注册
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+   headerGetUser();
+});
+//baidu 统计
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<!--#CMS_MODULE(频道code001)#-->
+
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code002)#-->
+   <!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad)#-->
+<!--adv end-->
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code003)#-->
+   <!--#CMS_MODULE(频道code004)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code005)#-->
+   <!--#CMS_MODULE(频道code006)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+
+<!--#CMS_MODULE(频道code007)#--> 
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code008)#-->
+<!--#CMS_MODULE(频道code009)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code010)#-->
+<!--#CMS_MODULE(频道code011)#-->
+</div>
+<!--#CMS_MODULE(频道code012)#-->
+<!--adv-->
+   <!--#CMS_MODULE(code_ad02)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:10;s:3517:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/ent.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+//登陆注册
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+    headerGetUser();
+});
+//baidu 统计
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<!--#CMS_MODULE(频道code001)#-->
+
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code002)#-->
+   <!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad)#-->
+<!--adv end-->
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code003)#-->
+   <!--#CMS_MODULE(频道code004)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code005)#-->
+   <!--#CMS_MODULE(频道code006)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+
+<!--#CMS_MODULE(频道code007)#--> 
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code008)#-->
+<!--#CMS_MODULE(频道code009)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code010)#-->
+<!--#CMS_MODULE(频道code011)#-->
+</div>
+<!--#CMS_MODULE(频道code012)#-->
+<!--adv-->
+   <!--#CMS_MODULE(code_ad02)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:11;s:3553:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/ent.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+//登陆注册
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+    headerGetUser();
+});
+//baidu 统计
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<!--#CMS_MODULE(频道code001)#-->
+
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code002)#-->
+   <!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad)#-->
+<!--adv end-->
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code003)#-->
+   <!--#CMS_MODULE(频道code004)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+   <!--#CMS_MODULE(频道code005)#-->
+   <!--#CMS_MODULE(频道code006)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+
+<!--#CMS_MODULE(频道code007)#--> 
+
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code008)#-->
+<!--#CMS_MODULE(频道code009)#-->
+</div>
+<div class="wrap1070 mgT20 height">
+<!--#CMS_MODULE(频道code010)#-->
+<!--#CMS_MODULE(频道code011)#-->
+</div>
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code012)#-->
+<!--adv-->
+   <!--#CMS_MODULE(code_ad02)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:12;s:3583:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/ent.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+//登陆注册
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+    headerGetUser();
+});
+//baidu 统计
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<!--#CMS_MODULE(频道code001)#-->
+
+<div class="wrap1070 mgT20 height box-a">
+   <!--#CMS_MODULE(频道code002)#-->
+   <!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad)#-->
+<!--adv end-->
+<div class="wrap1070 mgT20 height box-b">
+   <!--#CMS_MODULE(频道code003)#-->
+   <!--#CMS_MODULE(频道code004)#-->
+</div>
+<div class="wrap1070 mgT20 height box-c">
+   <!--#CMS_MODULE(频道code005)#-->
+   <!--#CMS_MODULE(频道code006)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+
+<!--#CMS_MODULE(频道code007)#--> 
+
+<div class="wrap1070 mgT20 height box-d">
+<!--#CMS_MODULE(频道code008)#-->
+<!--#CMS_MODULE(频道code009)#-->
+</div>
+<div class="wrap1070 mgT20 height box-e">
+<!--#CMS_MODULE(频道code010)#-->
+<!--#CMS_MODULE(频道code011)#-->
+</div>
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code012)#-->
+<!--adv-->
+   <!--#CMS_MODULE(code_ad02)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:13;s:3559:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/ent.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+//登陆注册
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+    headerGetUser();
+});
+//baidu 统计
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<!--#CMS_MODULE(频道code001)#-->
+
+<div class="wrap1070 height box-a">
+   <!--#CMS_MODULE(频道code002)#-->
+   <!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad)#-->
+<!--adv end-->
+<div class="wrap1070 height box-b">
+   <!--#CMS_MODULE(频道code003)#-->
+   <!--#CMS_MODULE(频道code004)#-->
+</div>
+<div class="wrap1070 height box-c">
+   <!--#CMS_MODULE(频道code005)#-->
+   <!--#CMS_MODULE(频道code006)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+
+<!--#CMS_MODULE(频道code007)#--> 
+
+<div class="wrap1070 height box-d">
+<!--#CMS_MODULE(频道code008)#-->
+<!--#CMS_MODULE(频道code009)#-->
+</div>
+<div class="wrap1070 mgT20 height box-e">
+<!--#CMS_MODULE(频道code010)#-->
+<!--#CMS_MODULE(频道code011)#-->
+</div>
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code012)#-->
+<!--adv-->
+   <!--#CMS_MODULE(code_ad02)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:14;s:3559:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/ent.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+//登陆注册
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+    headerGetUser();
+});
+//baidu 统计
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<!--#CMS_MODULE(频道code001)#-->
+
+<div class="wrap1070 height box-a">
+   <!--#CMS_MODULE(频道code002)#-->
+   <!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad)#-->
+<!--adv end-->
+<div class="wrap1070 height box-b">
+   <!--#CMS_MODULE(频道code003)#-->
+   <!--#CMS_MODULE(频道code004)#-->
+</div>
+<div class="wrap1070 height box-c">
+   <!--#CMS_MODULE(频道code005)#-->
+   <!--#CMS_MODULE(频道code006)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+
+<!--#CMS_MODULE(频道code007)#--> 
+
+<div class="wrap1070 height box-d">
+<!--#CMS_MODULE(频道code008)#-->
+<!--#CMS_MODULE(频道code009)#-->
+</div>
+<div class="wrap1070 mgT20 height box-e">
+<!--#CMS_MODULE(频道code010)#-->
+<!--#CMS_MODULE(频道code011)#-->
+</div>
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code012)#-->
+<!--adv-->
+   <!--#CMS_MODULE(code_ad02)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:15;s:3547:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/ent.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+//登陆注册
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+    headerGetUser();
+});
+//baidu 统计
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<!--#CMS_MODULE(频道code001)#-->
+
+<div class="wrap1070 height box-a">
+   <!--#CMS_MODULE(频道code002)#-->
+   <!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad)#-->
+<!--adv end-->
+<div class="wrap1070 height box-b">
+   <!--#CMS_MODULE(频道code003)#-->
+   <!--#CMS_MODULE(频道code004)#-->
+</div>
+<div class="wrap1070 height box-c">
+   <!--#CMS_MODULE(频道code005)#-->
+   <!--#CMS_MODULE(频道code006)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+
+<!--#CMS_MODULE(频道code007)#--> 
+
+<div class="wrap1070 height box-d">
+<!--#CMS_MODULE(频道code008)#-->
+<!--#CMS_MODULE(频道code009)#-->
+</div>
+<div class="wrap1070 height">
+<!--#CMS_MODULE(频道code010)#-->
+<!--#CMS_MODULE(频道code011)#-->
+</div>
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code012)#-->
+<!--adv-->
+   <!--#CMS_MODULE(code_ad02)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:16;s:3523:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/ent.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+//登陆注册
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+    headerGetUser();
+});
+//baidu 统计
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<!--#CMS_MODULE(频道code001)#-->
+
+<div class="wrap1070 height">
+   <!--#CMS_MODULE(频道code002)#-->
+   <!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad)#-->
+<!--adv end-->
+<div class="wrap1070 height">
+   <!--#CMS_MODULE(频道code003)#-->
+   <!--#CMS_MODULE(频道code004)#-->
+</div>
+<div class="wrap1070 height">
+   <!--#CMS_MODULE(频道code005)#-->
+   <!--#CMS_MODULE(频道code006)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+
+<!--#CMS_MODULE(频道code007)#--> 
+
+<div class="wrap1070 height">
+<!--#CMS_MODULE(频道code008)#-->
+<!--#CMS_MODULE(频道code009)#-->
+</div>
+<div class="wrap1070 height">
+<!--#CMS_MODULE(频道code010)#-->
+<!--#CMS_MODULE(频道code011)#-->
+</div>
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code012)#-->
+<!--adv-->
+   <!--#CMS_MODULE(code_ad02)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";i:17;s:3600:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/ent.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/css/channel14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_head_foot14.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/channel_redian14.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/channel14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+//登陆注册
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+    headerGetUser();
+});
+//baidu 统计
+        player={};
+        player.config={}
+        player.config.sort='';
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(频道页header)#-->
+<!--#CMS_MODULE(频道code001)#-->
+
+<div class="wrap1070 height">
+   <!--#CMS_MODULE(频道code002)#-->
+   <!--#CMS_MODULE(频道排行榜)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad)#-->
+<!--adv end-->
+<div class="wrap1070 height">
+   <!--#CMS_MODULE(频道code003)#-->
+   <!--#CMS_MODULE(频道code004)#-->
+</div>
+<div class="wrap1070 height">
+   <!--#CMS_MODULE(频道code005)#-->
+   <!--#CMS_MODULE(频道code006)#-->
+</div>
+<!--adv-->
+   <!--#CMS_MODULE(code_ad01)#-->
+<!--adv end-->
+
+<!--#CMS_MODULE(频道code007)#--> 
+
+<div class="wrap1070 height">
+<!--#CMS_MODULE(频道code008)#-->
+<!--#CMS_MODULE(频道code009)#-->
+</div>
+<div class="wrap1070 height">
+<!--#CMS_MODULE(频道code010)#-->
+<!--#CMS_MODULE(频道code011)#-->
+</div>
+<!--#CMS_MODULE(频道code013)#-->
+<!--#CMS_MODULE(频道code012)#-->
+<!--adv-->
+   <!--#CMS_MODULE(code_ad02)#-->
+<!--adv end-->
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/channel_bottom.shtml"-->
+<!--ssi#include virtual="/ssi/cont/channel_bottom_statistics.shtml"-->
+<!--1070px 底部 end-->
+</body>
+</html>
+";}

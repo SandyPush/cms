@@ -1,0 +1,187 @@
+<script>
+	function list(uid)
+	{
+		document.forms[0].uid.value=uid;
+		document.forms[0].action='/count/index/list';
+		document.forms[0].target='_blank';
+		document.forms[0].submit();
+		//revert
+		document.forms[0].action='';
+		document.forms[0].uid.value='-1';
+		document.forms[0].target= '';
+	}
+	function excel(uid)
+	{
+		document.forms[0].uid.value=uid;
+		document.forms[0].action='/count/index/export';
+		document.forms[0].target='_blank';
+		document.forms[0].submit();
+		//revert
+		document.forms[0].action='';
+		document.forms[0].uid.value='-1';
+		document.forms[0].target= '';
+	}
+	function changeChannel(obj)
+	{
+		window.parent.location='/system/index/index/channel/'+obj.value;
+	}
+	function changedatetype(obj)
+	{
+		switch(obj.value)
+		{
+			case 'day':
+				$('#select_day').show();
+				$('#select_month').show();
+				$('#select_quarter').hide();
+				$('#select_week').hide();
+				$('#join').hide();
+				$('#select_end_year').hide();
+				$('#select_end_month').hide();
+				$('#select_end_day').hide();
+				break;
+			case 'month':
+				$('#select_day').hide();
+				$('#select_month').show();
+				$('#select_quarter').hide();
+				$('#select_week').hide();
+				$('#join').hide();
+				$('#select_end_year').hide();
+				$('#select_end_month').hide();
+				$('#select_end_day').hide();
+				break;
+			case 'week':
+				$('#select_day').hide();
+				$('#select_month').hide();
+				$('#select_quarter').hide();
+				$('#select_week').show();
+				$('#join').hide();
+				$('#select_end_year').hide();
+				$('#select_end_month').hide();
+				$('#select_end_day').hide();
+				break;
+			case 'quarter':
+				$('#select_day').hide();
+				$('#select_month').hide();
+				$('#select_quarter').show();
+				$('#select_week').hide();
+				$('#join').hide();
+				$('#select_end_year').hide();
+				$('#select_end_month').hide();
+				$('#select_end_day').hide();
+				break;
+			case 'year':
+				$('#select_day').hide();
+				$('#select_month').hide();
+				$('#select_quarter').hide();
+				$('#select_week').hide();
+				$('#join').hide();
+				$('#select_end_year').hide();
+				$('#select_end_month').hide();
+				$('#select_end_day').hide();
+				break;
+			case 'custom':
+				$('#select_day').show();
+				$('#select_month').show();
+				$('#select_quarter').hide();
+				$('#select_week').hide();
+				$('#join').show();
+				$('#select_end_year').show();
+				$('#select_end_month').show();
+				$('#select_end_day').show();
+				break;
+		}
+	}
+	$(document).ready(function(){
+		changedatetype($('#datetype')[0]);
+	});
+</script>
+
+<div class="area" >
+	<div class="help">
+    <p>帮助</p>
+    <p>1、此处为工作量统计列表(<?=$this->channelname ?>);</p>
+    <p>2、此处只统计用户组>2的工作人员的工作量;</p>    
+    <p class="soart">
+    	<form action="" name="search_form" method="post">
+			<input type="hidden" name="channel" value="<?=$this->channel?>">
+            <span>日期类型:<?=$this->formSelect('datetype', $this->datetype, array('onchange'=>'changedatetype(this)'), $this->datetypes)?></span>
+            <span>用户:<?=$this->formSelect('uid', $this->uid, null, $this->usernamelist)?></span>
+            <span><?=$this->formSelect('year', $this->year, null, $this->years)?>年</span>
+            <span id="select_month"><?=$this->formSelect('month', $this->month, null, $this->months)?>月</span>
+            <span id="select_day"><?=$this->formSelect('day', $this->day, null, $this->days)?>日</span>
+            <span id="select_quarter"><?=$this->formSelect('quarter', $this->quarter, null, $this->quarters)?>季度</span>
+            <span id="select_week"><?=$this->formSelect('week', $this->week, null, $this->weeks)?>周</span>
+            <span id="join">至&nbsp;&nbsp;</span>
+            <span id="select_end_year"><?=$this->formSelect('end_year', $this->end_year, null, $this->years)?>年</span>
+            <span id="select_end_month"><?=$this->formSelect('end_month', $this->end_month, null, $this->months)?>月</span>
+            <span id="select_end_day"><?=$this->formSelect('end_day', $this->end_day, null, $this->days)?>日</span>
+            <input type="submit" value="显示"></button>
+        </form>
+    </p>    
+    </div>
+	<div class="">
+    	<table cellpadding="0" cellspacing="0" border="0"  class="list" width="115%">
+        	<tr>
+            	<th>用户名</th>
+                <th>文章数</th>
+                <th>专题数</th>
+                <th>浏览量</th>
+                <!--th>评论量</th-->
+                <th>稿件字数</th>
+                <th>详细</th>				
+            </tr>
+	<?php
+		$count = 0;
+		$fcount = 0;
+		$totalhits = 0;
+		$totalsize = 0;
+	?>
+    <?php foreach ($this->data as $key => $value): ?>
+	<?php	
+	   $sarticle= $safocus= $sapv= $sacontent_length= array();
+	   $_realname= '';
+	   foreach ($value as $k => $v){
+			if (is_numeric($v['article'])) $count += $v['article'];
+			if (is_numeric($v['focus'])) $fcount += $v['focus'];
+			if (is_numeric($v['pv'])) $totalhits += $v['pv'];
+			if (is_numeric($v['content_length'])) $totalsize += $v['content_length'];	
+
+			if($v['article'])$sarticle[]= $v['channelname'].'('.$v['article'].')';
+			if($v['focus'])$safocus[]= $v['channelname'].'('.$v['focus'].')';
+			if($v['pv'])$sapv[]= $v['channelname'].'('.$v['pv'].')';
+			if($v['content_length'])$sacontent_length[]= $v['channelname'].'('.$v['content_length'].')';
+			$_realname= $_realname? $_realname: $v['realname'];
+		}
+		
+			$_sarticle= join('/', $sarticle);
+			$_safocus= join('/', $safocus);
+			$_sapv= join('/', $sapv);
+			$_sacontent_length= join('/', $sacontent_length);
+
+			$_sarticle= $_sarticle? $_sarticle."/总数({$v[sumarticle]})": ' ';
+			$_safocus= $_safocus? $_safocus."/总数({$v[sumfocus]})": ' ';
+			$_sapv= $_sapv? $_sapv."/总数({$v[sumpv]})": ' ';
+			$_sacontent_length= $_sacontent_length? $_sacontent_length."/总数({$v[sumcontent_length]})": ' ';
+
+	?>
+            <tr>
+        		<td><?=$_realname?></td>
+                <td><?=$_sarticle?></td>
+                <td><?=$_safocus?></td>
+                <td><?=$_sapv?></td>
+                <!--td><?=$value['comments']?></td-->
+                <td><?=$_sacontent_length?></td>
+                <td><a href="#here" onclick="list(<?=$key?>)">详细</a> | <a href="#here" onclick="excel(<?=$key?>)">导出Excel</a></td>			
+            </tr>
+    <?php endforeach;  ?>
+	<tr style="color:red">
+		<td>合计</td>	
+		<td><?=$count?></td>
+		<td><?=$fcount?></td>
+		<td><?=$totalhits?></td>	
+		<td><?=$totalsize?></td>
+		<td>--</td>	
+	 </tr>
+     </table>
+    </div>
+    </div>

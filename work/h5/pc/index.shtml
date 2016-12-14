@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>第一游戏H5平台</title>
+<meta name="keywords" content="HTML5游戏,ios游戏,android游戏,h5游戏,第一游戏网" />
+<meta name="description" content="第一游戏平台-网页游戏,全国最具权威的网页游戏平台,第一游戏致力于把最好的游戏奉献给玩家。" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+<meta name="bannerTitle" content="home">
+<!--#include virtual="/version.shtml"-->
+    <link href="http://static.v1game.cn/<!--#echo var="version"-->css/game/h5/pc/page/index.css" rel="stylesheet">
+
+<!--#include virtual="./public/baidu.html"-->
+</head>
+<body id="body">
+<!--header begin-->
+<!--#include virtual="./public/header.html"-->
+<!--header end-->
+
+<!--首页 Home start-->
+<div class="page_wrap">
+    <!--背景 左侧 body background left start
+    <div class="bodyBg_left"></div>
+    背景 左侧 body background left end-->
+    <!--首页首屏焦点图 start-->
+    <div class="homeFocus">
+        <!--轮播列表 start-->
+        <div id="slides">
+            <a class="btn_left prev" href="javascript:void(0);"></a>
+
+            <div class="homeFocus_content" style="">
+                <!--#include virtual="./public/index_slide.html"-->
+
+            </div>
+            <a class="btn_right next" href="javascript:void(0);"></a>
+        </div>
+        <!--轮播列表 end-->
+        <!--登陆框 Login start-->
+        <div class="login">
+            <div class="login_box">
+                <!--登陆 login box start-->
+                <div class="login_user" id="loginNo">
+                    <div class="loginHead">
+                        <h2 class="loginHead_h">欢迎登录V1游戏平台</h2>
+                    </div>
+                    <!--无验证码 class="login_content" 
+                        有验证码 class="login_content add_verify"-->
+                    <div class="login_content">
+                        <ul class="login_form">
+                            <li>
+                                <p class="loginInput_item">
+                                    <input class="loginInput userName curr" type="text" value="用户名/邮箱/手机号" id="username"
+                                           name="username">
+                                </p>
+                            </li>
+                            <li>
+                                <p class="loginInput_item">
+                                    <input class="loginInput userPsw curr" type="password" value="输入密码" id="password"
+                                           name="password">
+                                </p>
+                            </li>
+                            <!--li class="la_verify">
+                                <label class="login_account_verify">验证码：</label>
+                                <input type="text" class="loginInput login_account_input" id="captcha">
+                                <a href="javascript:void(0);" title="看不清，换一张" class="login_account_code" id="refresh_login">
+                                    <img border="0" src="http://pass.g.v1.cn/main/vcodeimage.json" alt="看不清，换一张" class="login_account_img">
+                                </a>
+                            </li-->
+                        </ul>
+                        <div class="loginTxt">
+                            <p class="loginTxt_auto">
+                                <lable><input class="loginCheck" type="checkbox" id="cookieID" name="cookieID">自动登录
+                                </lable>
+                            </p>
+                            <p class="loginTxt_forget">
+                                <a class="loginTxt_forget_a"
+                                   href="http://passport.v1.cn/edit/findpwd/torestpwd.do?backurl=http://g.v1.cn"
+                                   target="_blank">忘记密码</a>
+                            </p>
+                        </div>
+                        <div class="loginBtn">
+                            <a class="btn_gre_l fl" id="loginButton">登录</a>
+                            <a href="http://h.v1game.cn/pc/register.shtml" class="btn_ora_l fr" target="_blank">注册</a>
+                        </div>
+                    </div>
+                    <!--第三方登陆 Login Third start-->
+                    <div class="loginThird" style="display:none;">
+                        <dl>
+                            <dt>其他账号登陆</dt>
+                            <dd>
+                                <a href="javascript:void(0);" class="btn_top" id="qqLogin">
+                                    <i class="icon_qq"></i>QQ
+                                </a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:void(0);" class="btn_top" id="sinaLogin">
+                                    <i class="icon_weibo"></i>微博
+                                </a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <!--第三方登陆 Login Third end-->
+                </div>
+                <!--登陆 login box end-->
+            </div>
+        </div>
+        <!--登陆框 Login end-->
+    </div>
+    <!--首页首屏焦点图 end-->
+    <!--首页内容 homeContent start-->
+    <div class="homeContent">
+        <!--我玩过的 playedgame start-->
+        <div class="main clearfix gamePlayedList" style="display: none;">
+            <div class="modH modH_l">
+                <h2 class="modH_title">我玩过的</h2>
+            </div>
+
+            <!--我玩过的 滚动 开始-->
+            <div class="playedG_all"><a class="btn_pdl fl" href="javascript:void(0);" move=0></a>
+
+                <div class="playedG_box fl">
+                    <div class="playedG_content">
+                        <ul class="playedG_list"></ul>
+                    </div>
+                </div>
+                <a class="btn_pdr fl" href="javascript:void(0);"></a>
+            </div>
+            <!--我玩过的 滚动 结束-->
+        </div>
+        <!--我玩过的 playedgame end-->
+    </div>
+
+    <div class="main clearfix">
+        <!--精品推荐 Recommend start-->
+        <div class="recommend">
+
+            <div class="modH modH_l">
+                <h2 class="modH_title">精品推荐</h2>
+            </div>
+            <!--推荐列表 recommend_list start-->
+            <ul class="recommend_list">
+
+
+                <!--#include virtual="./public/index_recommend.html"-->
+
+
+            </ul>
+            <!--推荐列表 recommendList end-->
+        </div>
+    </div>
+    <!--精品推荐 Recommend end-->
+
+    <div class="main clearfix">
+        <div class="main_left fl">
+            <!--分类导航  start-->
+            <div class="nav_box clearfix">
+                <h2 class="nav_title">游戏推荐:</h2>
+                <ul class="nav_ul">
+                    <!--#include virtual="./public/index_tab.html"-->
+                </ul>
+            </div>
+            <!--分类导航  end-->
+            <!--最新30游戏 newGame start-->
+            <div class="newGame fl">
+<ul class="newGame_list">
+</ul>
+                <div class="pageNub"></div>
+            </div>
+            <!--最新30游戏 newGame  end--></div>
+        <!--右侧排行  start-->
+        <div class="ri_hot fl">
+            <div class="ri_AD">
+                <!--#include virtual="./public/index_ad.html"-->
+            </div>
+            <div class="ri_month">
+                <div class="modH ">
+                    <h2 class="modH_title">月度排行</h2></div>
+                <ul class="ri_HotList">
+                    <!--#include virtual="./public/order1.html"-->
+                </ul>
+            </div>
+            <div class="ri_week">
+                <div class="modH ">
+                    <h2 class="modH_title">周度排行</h2></div>
+                <ul class="ri_HotList">
+                    <!--#include virtual="./public/order2.html"-->
+                </ul>
+            </div>
+
+
+        </div>
+
+        <!--右侧排行 newGame  end-->
+    </div>
+
+
+    <!--首页内容 homeContent end-->
+    <!--背景 右侧 body background right start
+    <div class="bodyBg_right"></div>
+    -背景 右侧 body background right end-->
+</div>
+
+<!--二维码  start-->
+<div class="christmas_ad">
+  <div class="close1">
+   <img src="http://static.v1game.cn/<!--#echo var="version"-->/images/game/h5/san.png" alt="扫一扫"  class="san" />
+    <img src="http://static.v1game.cn/<!--#echo var="version"-->/images/game/h5/close1.png" alt="close" class="btn" />
+    <p class="qc_p">第一游戏公众号</p>
+    <img src="http://static.v1game.cn/<!--#echo var="version"-->/images/game/h5/gz.jpg" alt="第一游戏微信公众号" />
+    <p class="qc_p">H5游戏随时玩</p>
+    <img src="http://static.v1game.cn/<!--#echo var="version"-->/images/game/h5/h5_cq.jpg" alt="H5游戏平台微信号" />
+	</div>
+</div>
+<!--二维码  end-->
+<!--首页 Home end-->
+
+<!--底部 begin-->
+<!--#include virtual="./public/footer.html"-->
+<!--底部 end-->
+
+<script type="text/javascript" src="http://static.v1.cn/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://static.v1game.cn/<!--#echo var='version'-->js/game/h5/plugin/jquery-page.js"></script>
+<script type="text/javascript" src="http://static.v1game.cn/<!--#echo var='version'-->js/game/h5/plugin/passport.js"></script>
+<script type="text/javascript" src="http://static.v1game.cn/<!--#echo var='version'-->js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1game.cn/<!--#echo var="version"-->js/game/h5/pc/home/page/index');
+</script>
+
+</body>
+</html><script>window.onload=function(){document.getElementsByTagName("body")[0].ondblclick=function(){if(window.confirm("进入编辑模式？")){Url=location.pathname;Url=Url.replace(/(\.(html|shtml|htm))/,".edit$1");location.href="http://"+location.host+Url;}}}</script>

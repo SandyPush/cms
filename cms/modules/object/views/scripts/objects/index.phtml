@@ -1,0 +1,63 @@
+<div class="area">
+<div class="help">
+    <p>帮助</p>
+    <p>1、此处为模块列表;</p>    
+    <p>2、模块有三种类型,分别是模块,手动区模块,手动区列表.</p>  
+    <p class="soart">
+	<form action="/object/objects/index/" method="get">	
+		<label><?=$this->formSelect('type', $this->param('type'), null, $this->options)?>		
+		<input class="input" type="text" name="key" value="<?=$this->param('key') ?>" /> 
+		<input type="submit" value=" 过滤 " />
+		</label>
+	</form>
+	</p>
+</div>
+<div class="nr">
+<h2>
+        	<button onclick="window.location.href='/object/objects/create/?type=<?=$this->param('type') ?>'">新建模块</a></button>
+        	<a href="#nogo">模块</a>
+</h2>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+<thead>
+    <tr>
+        <td width="40">ID</td>
+	<td width="120">名称</td>
+        <td>简介</td>
+        <td width="60">类型</td>
+        <td width="190">操作</td>
+    </tr>
+</thead>
+<tbody>
+    <?php foreach ($this->objects as $k => $obj): ?>
+    <tr class="<?=$k % 2 == 0 ? 'alt' : '' ?>">
+        <td><?=$obj->oid?></td>
+	<td><?=$obj->name?></td>
+        <td><?=$obj->description ?></td>
+        <td>
+            <?php if ($obj->type == 'code'): ?>
+              代码
+            <?php elseif ($obj->type == 'manual'): ?>
+              手动区
+            <?php else: ?>
+              列表
+            <?php endif; ?>
+        </td>
+        <td>
+            <a href="/object/objects/edit/oid/<?=$obj->oid ?>">编辑</a> 		
+            | <a href="/object/objects/del/oid/<?=$obj->oid ?>" onclick="if (!confirm('确定删除？')) return false">删除</a>
+			<? if($obj->type == 'manual'): ?>
+			| <a href="/contentarea/index/index/oid/<?=$obj->oid ?>">属性管理</a>
+			| <a href="/contentarea/index/add/oid/<?=$obj->oid ?>">添加属性</a>
+			<? elseif($obj->type == 'list'): ?>
+			| <a href="/customlist/index/index/oid/<?=$obj->oid ?>">编辑内容</a> 
+			<?endif?>
+        </td>
+    </tr>
+    <?php endforeach; ?>
+</tbody>
+</table>
+</div>
+<div class="fy">
+		<?=$this->pagebar ?>
+</div> 
+</div>

@@ -1,0 +1,48 @@
+<div class="area">
+	<div class="help">
+	    <p>帮助</p>
+	    <p>1、此处为用户日志列表;</p>    
+    <p class="soart">
+    	<form action="/system/user/log" name="search_form" method="post" >
+        	<label>开始时间:<input class="input" type="text" name="startTime" size="16" onclick="new WdatePicker({startDate:'%y-%M-%d %H:%i:%s',dateFmt:'yyyy-MM-dd HH:mm:ss',alwaysUseStartDate:false});" value="" /></label>
+            <label>结束时间:<input class="input" type="text" name="endTime" size="16" onclick="new WdatePicker({startDate:'%y-%M-%d %H:%i:%s',dateFmt:'yyyy-MM-dd HH:mm:ss',alwaysUseStartDate:false});" value="" /></label>
+            <label>按用户:<input class="input" type="text" name="username" /></label>
+            <label>按行为:<input class="input" type="text" name="userAction" /></label>       
+            <input type="submit" value="显示" />
+        </form>
+    </p>    
+    </div>
+	<div class="nr">
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+        	<tr>
+            	<th width="1"></th>
+            	<th width="14%">时间</th>
+                <th width="8%">用户名</th>
+				<th width="8%">姓名</th>
+                <th width="8%">IP</th>
+                <!--th width="8%">module</th>
+                <th width="8%">controller</th>
+                <th width="8%">action</th-->
+				<th>module/controller/action/parameter</th>
+                <th width="280px">useragent</th>
+                
+            </tr>
+    <?php foreach ($this->logs as $k => $log): ?>
+            <tr>
+		        <td style="background-color: <?=$user['active'] ? '#9c0' : 'green' ?>"></td>
+		        <td><?=$log['time']?></td>
+		        <td><?=$this->escape($log['username']) ?></td>
+		        <td><?=$this->escape($log['realname']) ?></td>
+				<td><?=$this->escape($log['ip']) ?></td>
+		        <!--td><?=$log['module'] ?></td>
+				<td><?=$log['controller'] ?></td>
+				<td><?=$log['action'] ?></td-->
+                <td><?=$log['operateURL'] ?></td>
+		        <td title="<?=($log['useragent']) ?>"><?=substrs($log['useragent'],40,1,1) ?></td>		     
+            </tr>
+    <?php endforeach;  ?>
+
+        </table>
+        <?=$this->pagebar ?>
+     </div> 
+</div>

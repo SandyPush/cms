@@ -1,0 +1,2475 @@
+a:20:{i:0;s:2815:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/box/js/actbox.js"></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<!--#CMS_MODULE(code001)#-->
+
+<!--#CMS_MODULE(code002)#-->
+
+<!--#CMS_MODULE(code003)#-->
+
+<!--#CMS_MODULE(code004)#-->
+
+<!--#CMS_MODULE(code005)#-->
+
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(code007)#-->
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(专题大模块style15)#-->
+
+<!--#CMS_MODULE(专题大模块style16)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+
+<!--#CMS_MODULE(code011)#-->
+
+<!--#CMS_MODULE(code012)#-->
+
+<!--#CMS_MODULE(code013)#-->
+
+<!--#CMS_MODULE(code014)#-->
+
+<!--#CMS_MODULE(code015)#-->
+
+<!--#CMS_MODULE(code016)#-->
+
+<!--#CMS_MODULE(code017)#-->
+
+<!--#CMS_MODULE(code018)#-->
+
+<!--#CMS_MODULE(code019)#-->
+
+<!--#CMS_MODULE(code020)#-->
+
+<!--#CMS_MODULE(code021)#-->
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:1;s:2819:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css">
+
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<!--#CMS_MODULE(code001)#-->
+
+<!--#CMS_MODULE(code002)#-->
+
+<!--#CMS_MODULE(code003)#-->
+
+<!--#CMS_MODULE(code004)#-->
+
+<!--#CMS_MODULE(code005)#-->
+
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(code007)#-->
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(专题大模块style15)#-->
+
+<!--#CMS_MODULE(专题大模块style16)#-->
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/box/js/actbox.js"></script>
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+
+<!--#CMS_MODULE(code011)#-->
+
+<!--#CMS_MODULE(code012)#-->
+
+<!--#CMS_MODULE(code013)#-->
+
+<!--#CMS_MODULE(code014)#-->
+
+<!--#CMS_MODULE(code015)#-->
+
+<!--#CMS_MODULE(code016)#-->
+
+<!--#CMS_MODULE(code017)#-->
+
+<!--#CMS_MODULE(code018)#-->
+
+<!--#CMS_MODULE(code019)#-->
+
+<!--#CMS_MODULE(code020)#-->
+
+<!--#CMS_MODULE(code021)#-->
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:2;s:2823:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css">
+
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<!--#CMS_MODULE(code001)#-->
+
+<!--#CMS_MODULE(code002)#-->
+
+<!--#CMS_MODULE(code003)#-->
+
+<!--#CMS_MODULE(code004)#-->
+
+<!--#CMS_MODULE(code005)#-->
+
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(code007)#-->
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(专题大模块style15)#-->
+
+<!--#CMS_MODULE(专题大模块style16)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+
+<!--#CMS_MODULE(code011)#-->
+
+<!--#CMS_MODULE(code012)#-->
+
+<!--#CMS_MODULE(code013)#-->
+
+<!--#CMS_MODULE(code014)#-->
+
+<!--#CMS_MODULE(code015)#-->
+
+<!--#CMS_MODULE(code016)#-->
+
+<!--#CMS_MODULE(code017)#-->
+
+<!--#CMS_MODULE(code018)#-->
+
+<!--#CMS_MODULE(code019)#-->
+
+<!--#CMS_MODULE(code020)#-->
+
+<!--#CMS_MODULE(code021)#-->
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/box/js/actbox.js"></script>
+</body>
+</html>
+";i:3;s:2811:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css">
+
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/box/js/actbox.js"></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<!--#CMS_MODULE(code001)#-->
+
+<!--#CMS_MODULE(code002)#-->
+
+<!--#CMS_MODULE(code003)#-->
+
+<!--#CMS_MODULE(code004)#-->
+
+<!--#CMS_MODULE(code005)#-->
+
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(code007)#-->
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(专题大模块style15)#-->
+
+<!--#CMS_MODULE(专题大模块style16)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+
+<!--#CMS_MODULE(code011)#-->
+
+<!--#CMS_MODULE(code012)#-->
+
+<!--#CMS_MODULE(code013)#-->
+
+<!--#CMS_MODULE(code014)#-->
+
+<!--#CMS_MODULE(code015)#-->
+
+<!--#CMS_MODULE(code016)#-->
+
+<!--#CMS_MODULE(code017)#-->
+
+<!--#CMS_MODULE(code018)#-->
+
+<!--#CMS_MODULE(code019)#-->
+
+<!--#CMS_MODULE(code020)#-->
+
+<!--#CMS_MODULE(code021)#-->
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:4;s:2815:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css">
+
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<!--#CMS_MODULE(code001)#-->
+
+<!--#CMS_MODULE(code002)#-->
+
+<!--#CMS_MODULE(code003)#-->
+
+<!--#CMS_MODULE(code004)#-->
+
+<!--#CMS_MODULE(code005)#-->
+
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(code007)#-->
+
+<!--#CMS_MODULE(code008)#-->
+
+<!--#CMS_MODULE(专题大模块style15)#-->
+
+<!--#CMS_MODULE(专题大模块style16)#-->
+
+<!--#CMS_MODULE(code009)#-->
+
+<!--#CMS_MODULE(code010)#-->
+
+<!--#CMS_MODULE(code011)#-->
+
+<!--#CMS_MODULE(code012)#-->
+
+<!--#CMS_MODULE(code013)#-->
+
+<!--#CMS_MODULE(code014)#-->
+
+<!--#CMS_MODULE(code015)#-->
+
+<!--#CMS_MODULE(code016)#-->
+
+<!--#CMS_MODULE(code017)#-->
+
+<!--#CMS_MODULE(code018)#-->
+
+<!--#CMS_MODULE(code019)#-->
+
+<!--#CMS_MODULE(code020)#-->
+
+<!--#CMS_MODULE(code021)#-->
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/box/js/actbox.js"></script>
+
+</body>
+</html>
+";i:5;s:3796:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css">
+
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery.dragsort-0.5.1.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<ul id="list1">
+
+<li><!--#CMS_MODULE(code001)#--></li>
+
+<li><!--#CMS_MODULE(code002)#--></li>
+
+<li><!--#CMS_MODULE(code003)#--></li>
+
+<li><!--#CMS_MODULE(code004)#--></li>
+
+<li><!--#CMS_MODULE(code005)#--></li>
+
+<li><!--#CMS_MODULE(code006)#--></li>
+
+<li><!--#CMS_MODULE(code007)#--></li>
+
+<li><!--#CMS_MODULE(code008)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style15)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style16)#--></li>
+
+<li><!--#CMS_MODULE(code009)#--></li>
+
+<li><!--#CMS_MODULE(code010)#--></li>
+
+<li><!--#CMS_MODULE(code011)#--></li>
+
+<li><!--#CMS_MODULE(code012)#--></li>
+
+<li><!--#CMS_MODULE(code013)#--></li>
+
+<li><!--#CMS_MODULE(code014)#--></li>
+
+<li><!--#CMS_MODULE(code015)#--></li>
+
+<li><!--#CMS_MODULE(code016)#--></li>
+
+<li><!--#CMS_MODULE(code017)#--></li>
+
+<li><!--#CMS_MODULE(code018)#--></li>
+
+<li><!--#CMS_MODULE(code019)#--></li>
+
+<li><!--#CMS_MODULE(code020)#--></li>
+
+<li><!--#CMS_MODULE(code021)#--></li>
+
+</ul>
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+
+
+<!-- save sort order here which can be retrieved on server on postback -->
+	<input name="list1SortOrder" type="" />
+
+	<script type="text/javascript">
+		$("#list1, #list2").dragsort({ itemSelector:"li",dragSelector: "div", dragBetween: true, dragEnd: saveOrder, placeHolderTemplate: "<li class='placeHolder'><div></div></li>" });
+		
+		function saveOrder() {
+			var data = $("#list2 li").map(function() {
+                    console.log($(this).attr("id"));
+                    return $(this).children().html(); 
+                }).get();
+			$("input[name=list1SortOrder]").val(data.join("|"));
+		};
+	</script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/box/js/actbox.js"></script>
+
+</body>
+</html>
+";i:6;s:3907:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/v1_pic.css" ></script>
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery.dragsort-0.5.1.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<ul id="list1">
+
+<li><!--#CMS_MODULE(code001)#--></li>
+
+<li><!--#CMS_MODULE(code002)#--></li>
+
+<li><!--#CMS_MODULE(code003)#--></li>
+
+<li><!--#CMS_MODULE(code004)#--></li>
+
+<li><!--#CMS_MODULE(code005)#--></li>
+
+<li><!--#CMS_MODULE(code006)#--></li>
+
+<li><!--#CMS_MODULE(code007)#--></li>
+
+<li><!--#CMS_MODULE(code008)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style15)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style16)#--></li>
+
+<li><!--#CMS_MODULE(code009)#--></li>
+
+<li><!--#CMS_MODULE(code010)#--></li>
+
+<li><!--#CMS_MODULE(code011)#--></li>
+
+<li><!--#CMS_MODULE(code012)#--></li>
+
+<li><!--#CMS_MODULE(code013)#--></li>
+
+<li><!--#CMS_MODULE(code014)#--></li>
+
+<li><!--#CMS_MODULE(code015)#--></li>
+
+<li><!--#CMS_MODULE(code016)#--></li>
+
+<li><!--#CMS_MODULE(code017)#--></li>
+
+<li><!--#CMS_MODULE(code018)#--></li>
+
+<li><!--#CMS_MODULE(code019)#--></li>
+
+<li><!--#CMS_MODULE(code020)#--></li>
+
+<li><!--#CMS_MODULE(code021)#--></li>
+
+</ul>
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+
+
+<!-- save sort order here which can be retrieved on server on postback -->
+	<input name="list1SortOrder" type="" />
+
+	<script type="text/javascript">
+		$("#list1, #list2").dragsort({ itemSelector:"li",dragSelector: "div", dragBetween: true, dragEnd: saveOrder, placeHolderTemplate: "<li class='placeHolder'><div></div></li>" });
+		
+		function saveOrder() {
+			var data = $("#list2 li").map(function() {
+                    console.log($(this).attr("id"));
+                    return $(this).children().html(); 
+                }).get();
+			$("input[name=list1SortOrder]").val(data.join("|"));
+		};
+	</script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/box/js/actbox.js"></script>
+
+</body>
+</html>
+";i:7;s:4030:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css">
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/common/css/v1_pic.css" ></script>
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/dsj_tj.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery.dragsort-0.5.1.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<ul id="list1">
+
+<li><!--#CMS_MODULE(code001)#--></li>
+
+<li><!--#CMS_MODULE(code002)#--></li>
+
+<li><!--#CMS_MODULE(code003)#--></li>
+
+<li><!--#CMS_MODULE(code004)#--></li>
+
+<li><!--#CMS_MODULE(code005)#--></li>
+
+<li><!--#CMS_MODULE(code006)#--></li>
+
+<li><!--#CMS_MODULE(code007)#--></li>
+
+<li><!--#CMS_MODULE(code008)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style15)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style16)#--></li>
+
+<li><!--#CMS_MODULE(code009)#--></li>
+
+<li><!--#CMS_MODULE(code010)#--></li>
+
+<li><!--#CMS_MODULE(code011)#--></li>
+
+<li><!--#CMS_MODULE(code012)#--></li>
+
+<li><!--#CMS_MODULE(code013)#--></li>
+
+<li><!--#CMS_MODULE(code014)#--></li>
+
+<li><!--#CMS_MODULE(code015)#--></li>
+
+<li><!--#CMS_MODULE(code016)#--></li>
+
+<li><!--#CMS_MODULE(code017)#--></li>
+
+<li><!--#CMS_MODULE(code018)#--></li>
+
+<li><!--#CMS_MODULE(code019)#--></li>
+
+<li><!--#CMS_MODULE(code020)#--></li>
+
+<li><!--#CMS_MODULE(code021)#--></li>
+
+</ul>
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+
+
+<!-- save sort order here which can be retrieved on server on postback -->
+	<input name="list1SortOrder" type="" />
+
+	<script type="text/javascript">
+		$("#list1, #list2").dragsort({ itemSelector:"li",dragSelector: "div", dragBetween: true, dragEnd: saveOrder, placeHolderTemplate: "<li class='placeHolder'><div></div></li>" });
+		
+		function saveOrder() {
+			var data = $("#list2 li").map(function() {
+                    console.log($(this).attr("id"));
+                    return $(this).children().html(); 
+                }).get();
+			$("input[name=list1SortOrder]").val(data.join("|"));
+		};
+	</script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/box/js/actbox.js"></script>
+
+</body>
+</html>
+";i:8;s:3915:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css">
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/dsj_tj.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery.dragsort-0.5.1.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<ul id="list1">
+
+<li><!--#CMS_MODULE(code001)#--></li>
+
+<li><!--#CMS_MODULE(code002)#--></li>
+
+<li><!--#CMS_MODULE(code003)#--></li>
+
+<li><!--#CMS_MODULE(code004)#--></li>
+
+<li><!--#CMS_MODULE(code005)#--></li>
+
+<li><!--#CMS_MODULE(code006)#--></li>
+
+<li><!--#CMS_MODULE(code007)#--></li>
+
+<li><!--#CMS_MODULE(code008)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style15)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style16)#--></li>
+
+<li><!--#CMS_MODULE(code009)#--></li>
+
+<li><!--#CMS_MODULE(code010)#--></li>
+
+<li><!--#CMS_MODULE(code011)#--></li>
+
+<li><!--#CMS_MODULE(code012)#--></li>
+
+<li><!--#CMS_MODULE(code013)#--></li>
+
+<li><!--#CMS_MODULE(code014)#--></li>
+
+<li><!--#CMS_MODULE(code015)#--></li>
+
+<li><!--#CMS_MODULE(code016)#--></li>
+
+<li><!--#CMS_MODULE(code017)#--></li>
+
+<li><!--#CMS_MODULE(code018)#--></li>
+
+<li><!--#CMS_MODULE(code019)#--></li>
+
+<li><!--#CMS_MODULE(code020)#--></li>
+
+<li><!--#CMS_MODULE(code021)#--></li>
+
+</ul>
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+
+
+<!-- save sort order here which can be retrieved on server on postback -->
+	<input name="list1SortOrder" type="" />
+
+	<script type="text/javascript">
+		$("#list1, #list2").dragsort({ itemSelector:"li",dragSelector: "div", dragBetween: true, dragEnd: saveOrder, placeHolderTemplate: "<li class='placeHolder'><div></div></li>" });
+		
+		function saveOrder() {
+			var data = $("#list2 li").map(function() {
+                    console.log($(this).attr("id"));
+                    return $(this).children().html(); 
+                }).get();
+			$("input[name=list1SortOrder]").val(data.join("|"));
+		};
+	</script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/box/js/actbox.js"></script>
+
+</body>
+</html>
+";i:9;s:3917:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/dsj_tj.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery.dragsort-0.5.1.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<ul id="list1">
+
+<li><!--#CMS_MODULE(code001)#--></li>
+
+<li><!--#CMS_MODULE(code002)#--></li>
+
+<li><!--#CMS_MODULE(code003)#--></li>
+
+<li><!--#CMS_MODULE(code004)#--></li>
+
+<li><!--#CMS_MODULE(code005)#--></li>
+
+<li><!--#CMS_MODULE(code006)#--></li>
+
+<li><!--#CMS_MODULE(code007)#--></li>
+
+<li><!--#CMS_MODULE(code008)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style15)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style16)#--></li>
+
+<li><!--#CMS_MODULE(code009)#--></li>
+
+<li><!--#CMS_MODULE(code010)#--></li>
+
+<li><!--#CMS_MODULE(code011)#--></li>
+
+<li><!--#CMS_MODULE(code012)#--></li>
+
+<li><!--#CMS_MODULE(code013)#--></li>
+
+<li><!--#CMS_MODULE(code014)#--></li>
+
+<li><!--#CMS_MODULE(code015)#--></li>
+
+<li><!--#CMS_MODULE(code016)#--></li>
+
+<li><!--#CMS_MODULE(code017)#--></li>
+
+<li><!--#CMS_MODULE(code018)#--></li>
+
+<li><!--#CMS_MODULE(code019)#--></li>
+
+<li><!--#CMS_MODULE(code020)#--></li>
+
+<li><!--#CMS_MODULE(code021)#--></li>
+
+</ul>
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+
+
+<!-- save sort order here which can be retrieved on server on postback -->
+	<input name="list1SortOrder" type="" />
+
+	<script type="text/javascript">
+		$("#list1, #list2").dragsort({ itemSelector:"li",dragSelector: "div", dragBetween: true, dragEnd: saveOrder, placeHolderTemplate: "<li class='placeHolder'><div></div></li>" });
+		
+		function saveOrder() {
+			var data = $("#list2 li").map(function() {
+                    console.log($(this).attr("id"));
+                    return $(this).children().html(); 
+                }).get();
+			$("input[name=list1SortOrder]").val(data.join("|"));
+		};
+	</script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/box/js/actbox.js"></script>
+
+</body>
+</html>
+";i:10;s:3796:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery.dragsort-0.5.1.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<ul id="list1">
+
+<li><!--#CMS_MODULE(code001)#--></li>
+
+<li><!--#CMS_MODULE(code002)#--></li>
+
+<li><!--#CMS_MODULE(code003)#--></li>
+
+<li><!--#CMS_MODULE(code004)#--></li>
+
+<li><!--#CMS_MODULE(code005)#--></li>
+
+<li><!--#CMS_MODULE(code006)#--></li>
+
+<li><!--#CMS_MODULE(code007)#--></li>
+
+<li><!--#CMS_MODULE(code008)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style15)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style16)#--></li>
+
+<li><!--#CMS_MODULE(code009)#--></li>
+
+<li><!--#CMS_MODULE(code010)#--></li>
+
+<li><!--#CMS_MODULE(code011)#--></li>
+
+<li><!--#CMS_MODULE(code012)#--></li>
+
+<li><!--#CMS_MODULE(code013)#--></li>
+
+<li><!--#CMS_MODULE(code014)#--></li>
+
+<li><!--#CMS_MODULE(code015)#--></li>
+
+<li><!--#CMS_MODULE(code016)#--></li>
+
+<li><!--#CMS_MODULE(code017)#--></li>
+
+<li><!--#CMS_MODULE(code018)#--></li>
+
+<li><!--#CMS_MODULE(code019)#--></li>
+
+<li><!--#CMS_MODULE(code020)#--></li>
+
+<li><!--#CMS_MODULE(code021)#--></li>
+
+</ul>
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+
+
+<!-- save sort order here which can be retrieved on server on postback -->
+	<input name="list1SortOrder" type="" />
+
+	<script type="text/javascript">
+		$("#list1, #list2").dragsort({ itemSelector:"li",dragSelector: "div", dragBetween: true, dragEnd: saveOrder, placeHolderTemplate: "<li class='placeHolder'><div></div></li>" });
+		
+		function saveOrder() {
+			var data = $("#list2 li").map(function() {
+                    console.log($(this).attr("id"));
+                    return $(this).children().html(); 
+                }).get();
+			$("input[name=list1SortOrder]").val(data.join("|"));
+		};
+	</script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/box/js/actbox.js"></script>
+
+</body>
+</html>
+";i:11;s:3882:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery.dragsort-0.5.1.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<ul id="list1">
+
+<li><!--#CMS_MODULE(MTcode002)#--></li>
+
+<li><!--#CMS_MODULE(code001)#--></li>
+
+<li><!--#CMS_MODULE(code002)#--></li>
+
+<li><!--#CMS_MODULE(MTcode003)#--></li>
+
+<li><!--#CMS_MODULE(code003)#--></li>
+
+<li><!--#CMS_MODULE(code004)#--></li>
+
+<li><!--#CMS_MODULE(code005)#--></li>
+
+<li><!--#CMS_MODULE(code006)#--></li>
+
+<li><!--#CMS_MODULE(code007)#--></li>
+
+<li><!--#CMS_MODULE(code008)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style15)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style16)#--></li>
+
+<li><!--#CMS_MODULE(code009)#--></li>
+
+<li><!--#CMS_MODULE(code010)#--></li>
+
+<li><!--#CMS_MODULE(code011)#--></li>
+
+<li><!--#CMS_MODULE(code012)#--></li>
+
+<li><!--#CMS_MODULE(code013)#--></li>
+
+<li><!--#CMS_MODULE(code014)#--></li>
+
+<li><!--#CMS_MODULE(code015)#--></li>
+
+<li><!--#CMS_MODULE(code016)#--></li>
+
+<li><!--#CMS_MODULE(code017)#--></li>
+
+<li><!--#CMS_MODULE(code018)#--></li>
+
+<li><!--#CMS_MODULE(code019)#--></li>
+
+<li><!--#CMS_MODULE(code020)#--></li>
+
+<li><!--#CMS_MODULE(code021)#--></li>
+
+</ul>
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+
+
+<!-- save sort order here which can be retrieved on server on postback -->
+	<input name="list1SortOrder" type="" />
+
+	<script type="text/javascript">
+		$("#list1, #list2").dragsort({ itemSelector:"li",dragSelector: "div", dragBetween: true, dragEnd: saveOrder, placeHolderTemplate: "<li class='placeHolder'><div></div></li>" });
+		
+		function saveOrder() {
+			var data = $("#list2 li").map(function() {
+                    console.log($(this).attr("id"));
+                    return $(this).children().html(); 
+                }).get();
+			$("input[name=list1SortOrder]").val(data.join("|"));
+		};
+	</script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/box/js/actbox.js"></script>
+
+</body>
+</html>
+";i:12;s:3960:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery.dragsort-0.5.1.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<ul id="list1">
+
+<li><!--#CMS_MODULE(MTcode002)#--></li>
+
+<li><!--#CMS_MODULE(code001)#--></li>
+
+<li><!--#CMS_MODULE(code002)#--></li>
+
+<li><!--#CMS_MODULE(MTcode003)#--></li>
+
+<li><!--#CMS_MODULE(code003)#--></li>
+
+<li><!--#CMS_MODULE(code004)#--></li>
+
+<li><!--#CMS_MODULE(code005)#--></li>
+
+<li><!--#CMS_MODULE(code006)#--></li>
+
+<li><!--#CMS_MODULE(code007)#--></li>
+
+<li><!--#CMS_MODULE(code008)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style15)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style16)#--></li>
+
+<li><!--#CMS_MODULE(code009)#--></li>
+
+<li><!--#CMS_MODULE(code010)#--></li>
+
+<li><!--#CMS_MODULE(code011)#--></li>
+
+<li><!--#CMS_MODULE(code012)#--></li>
+
+<li><!--#CMS_MODULE(code013)#--></li>
+
+<li><!--#CMS_MODULE(code014)#--></li>
+
+<li><!--#CMS_MODULE(code015)#--></li>
+
+<li><!--#CMS_MODULE(code016)#--></li>
+
+<li><!--#CMS_MODULE(code017)#--></li>
+
+<li><!--#CMS_MODULE(code018)#--></li>
+
+<li><!--#CMS_MODULE(code019)#--></li>
+
+<li><!--#CMS_MODULE(code020)#--></li>
+
+<li><!--#CMS_MODULE(code021)#--></li>
+
+</ul>
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+
+
+<!-- save sort order here which can be retrieved on server on postback -->
+	<input name="list1SortOrder" type="" />
+
+	<script type="text/javascript">
+		if(location.href.indexOf("work.")!=-1){
+                  $("#list1, #list2").dragsort({ itemSelector:"li",dragSelector: "div", dragBetween: true, dragEnd: saveOrder, placeHolderTemplate: "<li class='placeHolder'><div></div></li>" });
+                }
+		
+		function saveOrder() {
+			var data = $("#list2 li").map(function() {
+                    console.log($(this).attr("id"));
+                    return $(this).children().html(); 
+                }).get();
+			$("input[name=list1SortOrder]").val(data.join("|"));
+		};
+	</script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/box/js/actbox.js"></script>
+
+</body>
+</html>
+";i:13;s:3862:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery.dragsort-0.5.1.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<ul id="list1">
+
+<li><!--#CMS_MODULE(MTcode002)#--></li>
+
+<li><!--#CMS_MODULE(code001)#--></li>
+
+<li><!--#CMS_MODULE(code002)#--></li>
+
+<li><!--#CMS_MODULE(MTcode003)#--></li>
+
+<li><!--#CMS_MODULE(code003)#--></li>
+
+<li><!--#CMS_MODULE(code004)#--></li>
+
+<li><!--#CMS_MODULE(code005)#--></li>
+
+<li><!--#CMS_MODULE(code006)#--></li>
+
+<li><!--#CMS_MODULE(code007)#--></li>
+
+<li><!--#CMS_MODULE(code008)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style15)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style16)#--></li>
+
+<li><!--#CMS_MODULE(code009)#--></li>
+
+<li><!--#CMS_MODULE(code010)#--></li>
+
+<li><!--#CMS_MODULE(code011)#--></li>
+
+<li><!--#CMS_MODULE(code012)#--></li>
+
+<li><!--#CMS_MODULE(code013)#--></li>
+
+<li><!--#CMS_MODULE(code014)#--></li>
+
+<li><!--#CMS_MODULE(code015)#--></li>
+
+<li><!--#CMS_MODULE(code016)#--></li>
+
+<li><!--#CMS_MODULE(code017)#--></li>
+
+<li><!--#CMS_MODULE(code018)#--></li>
+
+<li><!--#CMS_MODULE(code019)#--></li>
+
+<li><!--#CMS_MODULE(code020)#--></li>
+
+<li><!--#CMS_MODULE(code021)#--></li>
+
+</ul>
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+
+
+<!-- save sort order here which can be retrieved on server on postback -->
+	<input name="list1SortOrder" type="" />
+
+	<script type="text/javascript">
+		if(location.href.indexOf("work.")!=-1){
+                  $("#list1, #list2").dragsort({ itemSelector:"li",dragSelector: "div", dragBetween: true, dragEnd: saveOrder, placeHolderTemplate: "<li class='placeHolder'><div></div></li>" });
+                }
+		
+		function saveOrder() {
+			var data = $("#list2 li").map(function() {
+                    console.log($(this).attr("id"));
+                    return $(this).children().html(); 
+                }).get();
+			$("input[name=list1SortOrder]").val(data.join("|"));
+		};
+	</script>
+
+
+</body>
+</html>
+";i:14;s:3862:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery.dragsort-0.5.1.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<ul id="list1">
+
+<li><!--#CMS_MODULE(MTcode002)#--></li>
+
+<li><!--#CMS_MODULE(code001)#--></li>
+
+<li><!--#CMS_MODULE(code002)#--></li>
+
+<li><!--#CMS_MODULE(MTcode003)#--></li>
+
+<li><!--#CMS_MODULE(code003)#--></li>
+
+<li><!--#CMS_MODULE(code004)#--></li>
+
+<li><!--#CMS_MODULE(code005)#--></li>
+
+<li><!--#CMS_MODULE(code006)#--></li>
+
+<li><!--#CMS_MODULE(code007)#--></li>
+
+<li><!--#CMS_MODULE(code008)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style15)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style16)#--></li>
+
+<li><!--#CMS_MODULE(code009)#--></li>
+
+<li><!--#CMS_MODULE(code010)#--></li>
+
+<li><!--#CMS_MODULE(code011)#--></li>
+
+<li><!--#CMS_MODULE(code012)#--></li>
+
+<li><!--#CMS_MODULE(code013)#--></li>
+
+<li><!--#CMS_MODULE(code014)#--></li>
+
+<li><!--#CMS_MODULE(code015)#--></li>
+
+<li><!--#CMS_MODULE(code016)#--></li>
+
+<li><!--#CMS_MODULE(code017)#--></li>
+
+<li><!--#CMS_MODULE(code018)#--></li>
+
+<li><!--#CMS_MODULE(code019)#--></li>
+
+<li><!--#CMS_MODULE(code020)#--></li>
+
+<li><!--#CMS_MODULE(code021)#--></li>
+
+</ul>
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+
+
+<!-- save sort order here which can be retrieved on server on postback -->
+	<input name="list1SortOrder" type="" />
+
+	<script type="text/javascript">
+		if(location.href.indexOf("work.")!=-1){
+                  $("#list1, #list2").dragsort({ itemSelector:"li",dragSelector: "div", dragBetween: true, dragEnd: saveOrder, placeHolderTemplate: "<li class='placeHolder'><div></div></li>" });
+                }
+		
+		function saveOrder() {
+			var data = $("#list2 li").map(function() {
+                    console.log($(this).attr("id"));
+                    return $(this).children().html(); 
+                }).get();
+			$("input[name=list1SortOrder]").val(data.join("|"));
+		};
+	</script>
+
+
+</body>
+</html>
+";i:15;s:3869:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery.dragsort-0.5.1.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<ul id="list1">
+
+<li><!--#CMS_MODULE(MTcode002)#--></li>
+
+<li><!--#CMS_MODULE(code001)#--></li>
+
+<li><!--#CMS_MODULE(code002)#--></li>
+
+<li><!--#CMS_MODULE(MTcode003)#--></li>
+
+<li><!--#CMS_MODULE(code003)#--></li>
+
+<li><!--#CMS_MODULE(code004)#--></li>
+
+<li><!--#CMS_MODULE(code005)#--></li>
+
+<li><!--#CMS_MODULE(code006)#--></li>
+
+<li><!--#CMS_MODULE(code007)#--></li>
+
+<li><!--#CMS_MODULE(code008)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style15)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style16)#--></li>
+
+<li><!--#CMS_MODULE(code009)#--></li>
+
+<li><!--#CMS_MODULE(code010)#--></li>
+
+<li><!--#CMS_MODULE(code011)#--></li>
+
+<li><!--#CMS_MODULE(code012)#--></li>
+
+<li><!--#CMS_MODULE(code013)#--></li>
+
+<li><!--#CMS_MODULE(code014)#--></li>
+
+<li><!--#CMS_MODULE(code015)#--></li>
+
+<li><!--#CMS_MODULE(code016)#--></li>
+
+<li><!--#CMS_MODULE(code017)#--></li>
+
+<li><!--#CMS_MODULE(code018)#--></li>
+
+<li><!--#CMS_MODULE(code019)#--></li>
+
+<li><!--#CMS_MODULE(code020)#--></li>
+
+<li><!--#CMS_MODULE(code021)#--></li>
+
+</ul>
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+
+
+<!-- save sort order here which can be retrieved on server on postback -->
+	<!--<input name="list1SortOrder" type="" />-->
+
+	<script type="text/javascript">
+		if(location.href.indexOf("work.")!=-1){
+                  $("#list1, #list2").dragsort({ itemSelector:"li",dragSelector: "div", dragBetween: true, dragEnd: saveOrder, placeHolderTemplate: "<li class='placeHolder'><div></div></li>" });
+                }
+		
+		function saveOrder() {
+			var data = $("#list2 li").map(function() {
+                    console.log($(this).attr("id"));
+                    return $(this).children().html(); 
+                }).get();
+			$("input[name=list1SortOrder]").val(data.join("|"));
+		};
+	</script>
+
+
+</body>
+</html>
+";i:16;s:4229:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery.dragsort-0.5.1.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<ul id="list1">
+
+<li><!--#CMS_MODULE(MTcode002)#--></li>
+
+<li><!--#CMS_MODULE(code001)#--></li>
+
+<li><!--#CMS_MODULE(code002)#--></li>
+
+<li><!--#CMS_MODULE(MTcode003)#--></li>
+
+<li><!--#CMS_MODULE(code003)#--></li>
+
+<li><!--#CMS_MODULE(code004)#--></li>
+
+<li><!--#CMS_MODULE(code005)#--></li>
+
+<li><!--#CMS_MODULE(code006)#--></li>
+
+<li><!--#CMS_MODULE(code007)#--></li>
+
+<li><!--#CMS_MODULE(code008)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style15)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style16)#--></li>
+
+<li><!--#CMS_MODULE(code009)#--></li>
+
+<li><!--#CMS_MODULE(code010)#--></li>
+
+<li><!--#CMS_MODULE(code011)#--></li>
+
+<li><!--#CMS_MODULE(code012)#--></li>
+
+<li><!--#CMS_MODULE(code013)#--></li>
+
+<li><!--#CMS_MODULE(code014)#--></li>
+
+<li><!--#CMS_MODULE(code015)#--></li>
+
+<li><!--#CMS_MODULE(code016)#--></li>
+
+<li><!--#CMS_MODULE(code017)#--></li>
+
+<li><!--#CMS_MODULE(code018)#--></li>
+
+<li><!--#CMS_MODULE(code019)#--></li>
+
+<li><!--#CMS_MODULE(code020)#--></li>
+
+<li><!--#CMS_MODULE(code021)#--></li>
+
+</ul>
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+
+
+<!-- save sort order here which can be retrieved on server on postback -->
+	<!--<input name="list1SortOrder" type="" />-->
+
+	<script type="text/javascript">
+		if(location.href.indexOf("work.")!=-1){
+                  $("#list1, #list2").dragsort({ itemSelector:"li",dragSelector: "div", dragBetween: true, dragEnd: saveOrder, placeHolderTemplate: "<li class='placeHolder'><div></div></li>" });
+                }
+		
+		function saveOrder() {
+			var data = $("#list2 li").map(function() {
+                    console.log($(this).attr("id"));
+                    return $(this).children().html(); 
+                }).get();
+			$("input[name=list1SortOrder]").val(data.join("|"));
+		};
+	</script>
+
+
+</body>
+</html>
+";i:17;s:4356:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery.dragsort-0.5.1.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+
+  //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$cms_page_category}zt', 3]);
+</script>
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<ul id="list1">
+
+<li><!--#CMS_MODULE(MTcode002)#--></li>
+
+<li><!--#CMS_MODULE(code001)#--></li>
+
+<li><!--#CMS_MODULE(code002)#--></li>
+
+<li><!--#CMS_MODULE(MTcode003)#--></li>
+
+<li><!--#CMS_MODULE(code003)#--></li>
+
+<li><!--#CMS_MODULE(code004)#--></li>
+
+<li><!--#CMS_MODULE(code005)#--></li>
+
+<li><!--#CMS_MODULE(code006)#--></li>
+
+<li><!--#CMS_MODULE(code007)#--></li>
+
+<li><!--#CMS_MODULE(code008)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style15)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style16)#--></li>
+
+<li><!--#CMS_MODULE(code009)#--></li>
+
+<li><!--#CMS_MODULE(code010)#--></li>
+
+<li><!--#CMS_MODULE(code011)#--></li>
+
+<li><!--#CMS_MODULE(code012)#--></li>
+
+<li><!--#CMS_MODULE(code013)#--></li>
+
+<li><!--#CMS_MODULE(code014)#--></li>
+
+<li><!--#CMS_MODULE(code015)#--></li>
+
+<li><!--#CMS_MODULE(code016)#--></li>
+
+<li><!--#CMS_MODULE(code017)#--></li>
+
+<li><!--#CMS_MODULE(code018)#--></li>
+
+<li><!--#CMS_MODULE(code019)#--></li>
+
+<li><!--#CMS_MODULE(code020)#--></li>
+
+<li><!--#CMS_MODULE(code021)#--></li>
+
+</ul>
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+
+
+<!-- save sort order here which can be retrieved on server on postback -->
+	<!--<input name="list1SortOrder" type="" />-->
+
+	<script type="text/javascript">
+		if(location.href.indexOf("work.")!=-1){
+                  $("#list1, #list2").dragsort({ itemSelector:"li",dragSelector: "div", dragBetween: true, dragEnd: saveOrder, placeHolderTemplate: "<li class='placeHolder'><div></div></li>" });
+                }
+		
+		function saveOrder() {
+			var data = $("#list2 li").map(function() {
+                    console.log($(this).attr("id"));
+                    return $(this).children().html(); 
+                }).get();
+			$("input[name=list1SortOrder]").val(data.join("|"));
+		};
+	</script>
+
+
+</body>
+</html>
+";i:18;s:4229:"<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery.dragsort-0.5.1.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<ul id="list1">
+
+<li><!--#CMS_MODULE(MTcode002)#--></li>
+
+<li><!--#CMS_MODULE(code001)#--></li>
+
+<li><!--#CMS_MODULE(code002)#--></li>
+
+<li><!--#CMS_MODULE(MTcode003)#--></li>
+
+<li><!--#CMS_MODULE(code003)#--></li>
+
+<li><!--#CMS_MODULE(code004)#--></li>
+
+<li><!--#CMS_MODULE(code005)#--></li>
+
+<li><!--#CMS_MODULE(code006)#--></li>
+
+<li><!--#CMS_MODULE(code007)#--></li>
+
+<li><!--#CMS_MODULE(code008)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style15)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style16)#--></li>
+
+<li><!--#CMS_MODULE(code009)#--></li>
+
+<li><!--#CMS_MODULE(code010)#--></li>
+
+<li><!--#CMS_MODULE(code011)#--></li>
+
+<li><!--#CMS_MODULE(code012)#--></li>
+
+<li><!--#CMS_MODULE(code013)#--></li>
+
+<li><!--#CMS_MODULE(code014)#--></li>
+
+<li><!--#CMS_MODULE(code015)#--></li>
+
+<li><!--#CMS_MODULE(code016)#--></li>
+
+<li><!--#CMS_MODULE(code017)#--></li>
+
+<li><!--#CMS_MODULE(code018)#--></li>
+
+<li><!--#CMS_MODULE(code019)#--></li>
+
+<li><!--#CMS_MODULE(code020)#--></li>
+
+<li><!--#CMS_MODULE(code021)#--></li>
+
+</ul>
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+
+
+<!-- save sort order here which can be retrieved on server on postback -->
+	<!--<input name="list1SortOrder" type="" />-->
+
+	<script type="text/javascript">
+		if(location.href.indexOf("work.")!=-1){
+                  $("#list1, #list2").dragsort({ itemSelector:"li",dragSelector: "div", dragBetween: true, dragEnd: saveOrder, placeHolderTemplate: "<li class='placeHolder'><div></div></li>" });
+                }
+		
+		function saveOrder() {
+			var data = $("#list2 li").map(function() {
+                    console.log($(this).attr("id"));
+                    return $(this).children().html(); 
+                }).get();
+			$("input[name=list1SortOrder]").val(data.join("|"));
+		};
+	</script>
+
+
+</body>
+</html>
+";i:19;s:4461:"<!--#
+  $sort=CMS_FUNCTION('toPinyin',$cms_page_category.'Zt');
+  $sort=$sort['pinyin_for_full'];
+#-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/dsj/css/dsj_2014.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/new_special/box/css/box.css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery.dragsort-0.5.1.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.headerLeftBox a.sLogo,.video_left,.video_right,.pre-foc,.next-foc,.hdqh li div div span');</script>
+<![endif]-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+  //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$cms_page_category}Zt', 3]);
+</script>
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(公用header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<!--#CMS_MODULE(导语)#-->
+<div class="video_right"><!--#CMS_MODULE(视频模块)#--></div>
+</div>
+
+</div>
+
+<ul id="list1">
+
+<li><!--#CMS_MODULE(MTcode002)#--></li>
+
+<li><!--#CMS_MODULE(code001)#--></li>
+
+<li><!--#CMS_MODULE(code002)#--></li>
+
+<li><!--#CMS_MODULE(MTcode003)#--></li>
+
+<li><!--#CMS_MODULE(code003)#--></li>
+
+<li><!--#CMS_MODULE(code004)#--></li>
+
+<li><!--#CMS_MODULE(code005)#--></li>
+
+<li><!--#CMS_MODULE(code006)#--></li>
+
+<li><!--#CMS_MODULE(code007)#--></li>
+
+<li><!--#CMS_MODULE(code008)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style15)#--></li>
+
+<li><!--#CMS_MODULE(专题大模块style16)#--></li>
+
+<li><!--#CMS_MODULE(code009)#--></li>
+
+<li><!--#CMS_MODULE(code010)#--></li>
+
+<li><!--#CMS_MODULE(code011)#--></li>
+
+<li><!--#CMS_MODULE(code012)#--></li>
+
+<li><!--#CMS_MODULE(code013)#--></li>
+
+<li><!--#CMS_MODULE(code014)#--></li>
+
+<li><!--#CMS_MODULE(code015)#--></li>
+
+<li><!--#CMS_MODULE(code016)#--></li>
+
+<li><!--#CMS_MODULE(code017)#--></li>
+
+<li><!--#CMS_MODULE(code018)#--></li>
+
+<li><!--#CMS_MODULE(code019)#--></li>
+
+<li><!--#CMS_MODULE(code020)#--></li>
+
+<li><!--#CMS_MODULE(code021)#--></li>
+
+</ul>
+
+<!--#CMS_MODULE(评论)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+
+
+<!-- save sort order here which can be retrieved on server on postback -->
+	<!--<input name="list1SortOrder" type="" />-->
+
+	<script type="text/javascript">
+		if(location.href.indexOf("work.")!=-1){
+                  $("#list1, #list2").dragsort({ itemSelector:"li",dragSelector: "div", dragBetween: true, dragEnd: saveOrder, placeHolderTemplate: "<li class='placeHolder'><div></div></li>" });
+                }
+		
+		function saveOrder() {
+			var data = $("#list2 li").map(function() {
+                    console.log($(this).attr("id"));
+                    return $(this).children().html(); 
+                }).get();
+			$("input[name=list1SortOrder]").val(data.join("|"));
+		};
+	</script>
+
+
+</body>
+</html>
+";}

@@ -1,0 +1,1 @@
+SELECT DISTINCT a.* FROM albums a WHERE status = 1 ORDER BY createdate DESC LIMIT 0, 10

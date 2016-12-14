@@ -1,0 +1,2859 @@
+a:20:{i:0;s:3106:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年焦点图1)#-->
+     <!--#CMS_MODULE(汽车六十周年焦点图2)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+  <embed width="100%" height="100%" name="plugin" src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" type="application/x-shockwave-flash">
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".pre-foc",btnPrev:".next-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+<script src="http://pic.v1.cn/cms/car-60years/js/fangun.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:1;s:3613:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年焦点图1)#-->
+     <!--#CMS_MODULE(汽车六十周年焦点图2)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="485" height="111">
+        <param name="movie" value="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <embed src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" width="485" height="111" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed></object>
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".pre-foc",btnPrev:".next-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+<script src="http://pic.v1.cn/cms/car-60years/js/fangun.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:2;s:3615:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年焦点图1)#-->
+     <!--#CMS_MODULE(汽车六十周年焦点图2)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1000" height="265">
+        <param name="movie" value="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <embed src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" width="1000" height="265" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed></object>
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".pre-foc",btnPrev:".next-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+<script src="http://pic.v1.cn/cms/car-60years/js/fangun.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:3;s:3615:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年焦点图1)#-->
+     <!--#CMS_MODULE(汽车六十周年焦点图2)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1000" height="265">
+        <param name="movie" value="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <embed src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" width="1000" height="265" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed></object>
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".pre-foc",btnPrev:".next-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+<script src="http://pic.v1.cn/cms/car-60years/js/fangun.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:4;s:7311:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+ <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+<body>
+<div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a target="_blank" class="sLogo" href="http://www.v1.cn/">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a target="_blank" href="http://www.v1.cn/">首页</a><span>|</span></li>
+  <li><a target="_blank" href="http://news.v1.cn/">新闻</a><span>|</span></li>
+  <li><a target="_blank" href="http://mil.v1.cn/">军事</a><span>|</span></li>
+  <li><a target="_blank" href="http://shehui.v1.cn/">社会</a><span>|</span></li>
+  <li><a target="_blank" href="http://finance.v1.cn/">财经</a><span>|</span></li>
+  <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a><span>|</span></li>
+
+  <li><div class="CTmenu_list" id="morepane"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body" style="display: none;">
+	  <a target="_blank" href="http://sports.v1.cn/">体育</a>
+	  <a target="_blank" href="http://auto.v1.cn/">汽车</a>
+          <a target="_blank" href="http://paike.v1.cn/">拍客</a>
+	  <a target="_blank" href="http://v.v1.cn/">影视</a>
+	  <a target="_blank" href="http://music.v1.cn/">音乐</a>
+	  <a target="_blank" href="http://culture.v1.cn/">文化</a>
+          <a target="_blank" href="http://tech.v1.cn/">科技</a>
+	  <a target="_blank" href="http://games.v1.cn/">游戏</a>
+	  <a target="_blank" href="http://lady.v1.cn/">女性</a>
+	  <a target="_blank" href="http://fun.v1.cn/">搞笑</a>
+          <a target="_blank" href="http://life.v1.cn/">乐活</a>
+	  <a target="_blank" href="http://travel.v1.cn/">旅游</a>
+	  <a target="_blank" href="http://city.v1.cn/">城市</a>
+	  <a target="_blank" href="http://bgt.v1.cn/">曝光台</a>
+	  </div>
+      </div>
+  </li>
+
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">
+  <div><input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord"><button id="searchBut" class="newsSearchBtn" type="submit">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a href="javascript:void(0);" onclick="login()">登录</a><a href="javascript:void(0);" onclick="register()">注册</a></div></li>
+  <li><a onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" href="javascript:void(0);">上传</a></li>
+
+  <li><div class="CTmenu_list" id="firstpane"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      </div>
+	  </div>
+  </li>
+</ul>
+
+  </div>
+  </div>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年焦点图1)#-->
+     <!--#CMS_MODULE(汽车六十周年焦点图2)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1000" height="265">
+        <param name="movie" value="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <embed src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" width="1000" height="265" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed></object>
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".pre-foc",btnPrev:".next-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+<script src="http://pic.v1.cn/cms/car-60years/js/fangun.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:5;s:7254:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+ <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+<body>
+<div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a target="_blank" class="sLogo" href="http://www.v1.cn/">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a target="_blank" href="http://www.v1.cn/">首页</a><span>|</span></li>
+  <li><a target="_blank" href="http://news.v1.cn/">新闻</a><span>|</span></li>
+  <li><a target="_blank" href="http://mil.v1.cn/">军事</a><span>|</span></li>
+  <li><a target="_blank" href="http://shehui.v1.cn/">社会</a><span>|</span></li>
+  <li><a target="_blank" href="http://finance.v1.cn/">财经</a><span>|</span></li>
+  <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a><span>|</span></li>
+
+  <li><div class="CTmenu_list" id="morepane"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body" style="display: none;">
+	  <a target="_blank" href="http://sports.v1.cn/">体育</a>
+	  <a target="_blank" href="http://auto.v1.cn/">汽车</a>
+          <a target="_blank" href="http://paike.v1.cn/">拍客</a>
+	  <a target="_blank" href="http://v.v1.cn/">影视</a>
+	  <a target="_blank" href="http://music.v1.cn/">音乐</a>
+	  <a target="_blank" href="http://culture.v1.cn/">文化</a>
+          <a target="_blank" href="http://tech.v1.cn/">科技</a>
+	  <a target="_blank" href="http://games.v1.cn/">游戏</a>
+	  <a target="_blank" href="http://lady.v1.cn/">女性</a>
+	  <a target="_blank" href="http://fun.v1.cn/">搞笑</a>
+          <a target="_blank" href="http://life.v1.cn/">乐活</a>
+	  <a target="_blank" href="http://travel.v1.cn/">旅游</a>
+	  <a target="_blank" href="http://city.v1.cn/">城市</a>
+	  <a target="_blank" href="http://bgt.v1.cn/">曝光台</a>
+	  </div>
+      </div>
+  </li>
+
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">
+  <div><input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord"><button id="searchBut" class="newsSearchBtn" type="submit">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a href="javascript:void(0);" onclick="login()">登录</a><a href="javascript:void(0);" onclick="register()">注册</a></div></li>
+  <li><a onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" href="javascript:void(0);">上传</a></li>
+
+  <li><div class="CTmenu_list" id="firstpane"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      </div>
+	  </div>
+  </li>
+</ul>
+
+  </div>
+  </div>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年焦点图)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1000" height="265">
+        <param name="movie" value="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <embed src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" width="1000" height="265" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed></object>
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".pre-foc",btnPrev:".next-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+<script src="http://pic.v1.cn/cms/car-60years/js/fangun.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:6;s:7626:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+ <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+<body>
+<div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a target="_blank" class="sLogo" href="http://www.v1.cn/">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a target="_blank" href="http://www.v1.cn/">首页</a><span>|</span></li>
+  <li><a target="_blank" href="http://news.v1.cn/">新闻</a><span>|</span></li>
+  <li><a target="_blank" href="http://mil.v1.cn/">军事</a><span>|</span></li>
+  <li><a target="_blank" href="http://shehui.v1.cn/">社会</a><span>|</span></li>
+  <li><a target="_blank" href="http://finance.v1.cn/">财经</a><span>|</span></li>
+  <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a><span>|</span></li>
+
+  <li><div class="CTmenu_list" id="morepane"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body" style="display: none;">
+	  <a target="_blank" href="http://sports.v1.cn/">体育</a>
+	  <a target="_blank" href="http://auto.v1.cn/">汽车</a>
+          <a target="_blank" href="http://paike.v1.cn/">拍客</a>
+	  <a target="_blank" href="http://v.v1.cn/">影视</a>
+	  <a target="_blank" href="http://music.v1.cn/">音乐</a>
+	  <a target="_blank" href="http://culture.v1.cn/">文化</a>
+          <a target="_blank" href="http://tech.v1.cn/">科技</a>
+	  <a target="_blank" href="http://games.v1.cn/">游戏</a>
+	  <a target="_blank" href="http://lady.v1.cn/">女性</a>
+	  <a target="_blank" href="http://fun.v1.cn/">搞笑</a>
+          <a target="_blank" href="http://life.v1.cn/">乐活</a>
+	  <a target="_blank" href="http://travel.v1.cn/">旅游</a>
+	  <a target="_blank" href="http://city.v1.cn/">城市</a>
+	  <a target="_blank" href="http://bgt.v1.cn/">曝光台</a>
+	  </div>
+      </div>
+  </li>
+
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">
+  <div><input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord"><button id="searchBut" class="newsSearchBtn" type="submit">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a href="javascript:void(0);" onclick="login()">登录</a><a href="javascript:void(0);" onclick="register()">注册</a></div></li>
+  <li><a onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" href="javascript:void(0);">上传</a></li>
+
+  <li><div class="CTmenu_list" id="firstpane"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      </div>
+	  </div>
+  </li>
+</ul>
+
+  </div>
+  </div>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年焦点图page01)#-->
+     <!--#CMS_MODULE(汽车六十周年焦点图page02)#-->
+     <!--#CMS_MODULE(汽车六十周年焦点图page03)#-->
+     <!--#CMS_MODULE(汽车六十周年焦点图page04)#-->
+     <!--#CMS_MODULE(汽车六十周年焦点图page05)#-->
+     <!--#CMS_MODULE(汽车六十周年焦点图page06)#-->
+     <!--#CMS_MODULE(汽车六十周年焦点图page07)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1000" height="265">
+        <param name="movie" value="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <embed src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" width="1000" height="265" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed></object>
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".pre-foc",btnPrev:".next-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+<script src="http://pic.v1.cn/cms/car-60years/js/fangun.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:7;s:7254:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+ <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+<body>
+<div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a target="_blank" class="sLogo" href="http://www.v1.cn/">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a target="_blank" href="http://www.v1.cn/">首页</a><span>|</span></li>
+  <li><a target="_blank" href="http://news.v1.cn/">新闻</a><span>|</span></li>
+  <li><a target="_blank" href="http://mil.v1.cn/">军事</a><span>|</span></li>
+  <li><a target="_blank" href="http://shehui.v1.cn/">社会</a><span>|</span></li>
+  <li><a target="_blank" href="http://finance.v1.cn/">财经</a><span>|</span></li>
+  <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a><span>|</span></li>
+
+  <li><div class="CTmenu_list" id="morepane"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body" style="display: none;">
+	  <a target="_blank" href="http://sports.v1.cn/">体育</a>
+	  <a target="_blank" href="http://auto.v1.cn/">汽车</a>
+          <a target="_blank" href="http://paike.v1.cn/">拍客</a>
+	  <a target="_blank" href="http://v.v1.cn/">影视</a>
+	  <a target="_blank" href="http://music.v1.cn/">音乐</a>
+	  <a target="_blank" href="http://culture.v1.cn/">文化</a>
+          <a target="_blank" href="http://tech.v1.cn/">科技</a>
+	  <a target="_blank" href="http://games.v1.cn/">游戏</a>
+	  <a target="_blank" href="http://lady.v1.cn/">女性</a>
+	  <a target="_blank" href="http://fun.v1.cn/">搞笑</a>
+          <a target="_blank" href="http://life.v1.cn/">乐活</a>
+	  <a target="_blank" href="http://travel.v1.cn/">旅游</a>
+	  <a target="_blank" href="http://city.v1.cn/">城市</a>
+	  <a target="_blank" href="http://bgt.v1.cn/">曝光台</a>
+	  </div>
+      </div>
+  </li>
+
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">
+  <div><input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord"><button id="searchBut" class="newsSearchBtn" type="submit">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a href="javascript:void(0);" onclick="login()">登录</a><a href="javascript:void(0);" onclick="register()">注册</a></div></li>
+  <li><a onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" href="javascript:void(0);">上传</a></li>
+
+  <li><div class="CTmenu_list" id="firstpane"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      </div>
+	  </div>
+  </li>
+</ul>
+
+  </div>
+  </div>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年焦点图)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1000" height="265">
+        <param name="movie" value="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <embed src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" width="1000" height="265" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed></object>
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".pre-foc",btnPrev:".next-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+<script src="http://pic.v1.cn/cms/car-60years/js/fangun.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:8;s:7626:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+ <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+<body>
+<div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a target="_blank" class="sLogo" href="http://www.v1.cn/">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a target="_blank" href="http://www.v1.cn/">首页</a><span>|</span></li>
+  <li><a target="_blank" href="http://news.v1.cn/">新闻</a><span>|</span></li>
+  <li><a target="_blank" href="http://mil.v1.cn/">军事</a><span>|</span></li>
+  <li><a target="_blank" href="http://shehui.v1.cn/">社会</a><span>|</span></li>
+  <li><a target="_blank" href="http://finance.v1.cn/">财经</a><span>|</span></li>
+  <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a><span>|</span></li>
+
+  <li><div class="CTmenu_list" id="morepane"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body" style="display: none;">
+	  <a target="_blank" href="http://sports.v1.cn/">体育</a>
+	  <a target="_blank" href="http://auto.v1.cn/">汽车</a>
+          <a target="_blank" href="http://paike.v1.cn/">拍客</a>
+	  <a target="_blank" href="http://v.v1.cn/">影视</a>
+	  <a target="_blank" href="http://music.v1.cn/">音乐</a>
+	  <a target="_blank" href="http://culture.v1.cn/">文化</a>
+          <a target="_blank" href="http://tech.v1.cn/">科技</a>
+	  <a target="_blank" href="http://games.v1.cn/">游戏</a>
+	  <a target="_blank" href="http://lady.v1.cn/">女性</a>
+	  <a target="_blank" href="http://fun.v1.cn/">搞笑</a>
+          <a target="_blank" href="http://life.v1.cn/">乐活</a>
+	  <a target="_blank" href="http://travel.v1.cn/">旅游</a>
+	  <a target="_blank" href="http://city.v1.cn/">城市</a>
+	  <a target="_blank" href="http://bgt.v1.cn/">曝光台</a>
+	  </div>
+      </div>
+  </li>
+
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">
+  <div><input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord"><button id="searchBut" class="newsSearchBtn" type="submit">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a href="javascript:void(0);" onclick="login()">登录</a><a href="javascript:void(0);" onclick="register()">注册</a></div></li>
+  <li><a onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" href="javascript:void(0);">上传</a></li>
+
+  <li><div class="CTmenu_list" id="firstpane"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      </div>
+	  </div>
+  </li>
+</ul>
+
+  </div>
+  </div>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年焦点图page01)#-->
+     <!--#CMS_MODULE(汽车六十周年焦点图page02)#-->
+     <!--#CMS_MODULE(汽车六十周年焦点图page03)#-->
+     <!--#CMS_MODULE(汽车六十周年焦点图page04)#-->
+     <!--#CMS_MODULE(汽车六十周年焦点图page05)#-->
+     <!--#CMS_MODULE(汽车六十周年焦点图page06)#-->
+     <!--#CMS_MODULE(汽车六十周年焦点图page07)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1000" height="265">
+        <param name="movie" value="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <embed src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" width="1000" height="265" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed></object>
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".pre-foc",btnPrev:".next-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+<script src="http://pic.v1.cn/cms/car-60years/js/fangun.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:9;s:7256:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+ <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+<body>
+<div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a target="_blank" class="sLogo" href="http://www.v1.cn/">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a target="_blank" href="http://www.v1.cn/">首页</a><span>|</span></li>
+  <li><a target="_blank" href="http://news.v1.cn/">新闻</a><span>|</span></li>
+  <li><a target="_blank" href="http://mil.v1.cn/">军事</a><span>|</span></li>
+  <li><a target="_blank" href="http://shehui.v1.cn/">社会</a><span>|</span></li>
+  <li><a target="_blank" href="http://finance.v1.cn/">财经</a><span>|</span></li>
+  <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a><span>|</span></li>
+
+  <li><div class="CTmenu_list" id="morepane"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body" style="display: none;">
+	  <a target="_blank" href="http://sports.v1.cn/">体育</a>
+	  <a target="_blank" href="http://auto.v1.cn/">汽车</a>
+          <a target="_blank" href="http://paike.v1.cn/">拍客</a>
+	  <a target="_blank" href="http://v.v1.cn/">影视</a>
+	  <a target="_blank" href="http://music.v1.cn/">音乐</a>
+	  <a target="_blank" href="http://culture.v1.cn/">文化</a>
+          <a target="_blank" href="http://tech.v1.cn/">科技</a>
+	  <a target="_blank" href="http://games.v1.cn/">游戏</a>
+	  <a target="_blank" href="http://lady.v1.cn/">女性</a>
+	  <a target="_blank" href="http://fun.v1.cn/">搞笑</a>
+          <a target="_blank" href="http://life.v1.cn/">乐活</a>
+	  <a target="_blank" href="http://travel.v1.cn/">旅游</a>
+	  <a target="_blank" href="http://city.v1.cn/">城市</a>
+	  <a target="_blank" href="http://bgt.v1.cn/">曝光台</a>
+	  </div>
+      </div>
+  </li>
+
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">
+  <div><input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord"><button id="searchBut" class="newsSearchBtn" type="submit">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a href="javascript:void(0);" onclick="login()">登录</a><a href="javascript:void(0);" onclick="register()">注册</a></div></li>
+  <li><a onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" href="javascript:void(0);">上传</a></li>
+
+  <li><div class="CTmenu_list" id="firstpane"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      </div>
+	  </div>
+  </li>
+</ul>
+
+  </div>
+  </div>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年大模块)#-->
+
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1000" height="265">
+        <param name="movie" value="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <embed src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" width="1000" height="265" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed></object>
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".pre-foc",btnPrev:".next-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+<script src="http://pic.v1.cn/cms/car-60years/js/fangun.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:10;s:7254:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+ <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+<body>
+<div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a target="_blank" class="sLogo" href="http://www.v1.cn/">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a target="_blank" href="http://www.v1.cn/">首页</a><span>|</span></li>
+  <li><a target="_blank" href="http://news.v1.cn/">新闻</a><span>|</span></li>
+  <li><a target="_blank" href="http://mil.v1.cn/">军事</a><span>|</span></li>
+  <li><a target="_blank" href="http://shehui.v1.cn/">社会</a><span>|</span></li>
+  <li><a target="_blank" href="http://finance.v1.cn/">财经</a><span>|</span></li>
+  <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a><span>|</span></li>
+
+  <li><div class="CTmenu_list" id="morepane"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body" style="display: none;">
+	  <a target="_blank" href="http://sports.v1.cn/">体育</a>
+	  <a target="_blank" href="http://auto.v1.cn/">汽车</a>
+          <a target="_blank" href="http://paike.v1.cn/">拍客</a>
+	  <a target="_blank" href="http://v.v1.cn/">影视</a>
+	  <a target="_blank" href="http://music.v1.cn/">音乐</a>
+	  <a target="_blank" href="http://culture.v1.cn/">文化</a>
+          <a target="_blank" href="http://tech.v1.cn/">科技</a>
+	  <a target="_blank" href="http://games.v1.cn/">游戏</a>
+	  <a target="_blank" href="http://lady.v1.cn/">女性</a>
+	  <a target="_blank" href="http://fun.v1.cn/">搞笑</a>
+          <a target="_blank" href="http://life.v1.cn/">乐活</a>
+	  <a target="_blank" href="http://travel.v1.cn/">旅游</a>
+	  <a target="_blank" href="http://city.v1.cn/">城市</a>
+	  <a target="_blank" href="http://bgt.v1.cn/">曝光台</a>
+	  </div>
+      </div>
+  </li>
+
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">
+  <div><input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord"><button id="searchBut" class="newsSearchBtn" type="submit">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a href="javascript:void(0);" onclick="login()">登录</a><a href="javascript:void(0);" onclick="register()">注册</a></div></li>
+  <li><a onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" href="javascript:void(0);">上传</a></li>
+
+  <li><div class="CTmenu_list" id="firstpane"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      </div>
+	  </div>
+  </li>
+</ul>
+
+  </div>
+  </div>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年大模块)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1000" height="265">
+        <param name="movie" value="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <embed src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" width="1000" height="265" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed></object>
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".pre-foc",btnPrev:".next-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+<script src="http://pic.v1.cn/cms/car-60years/js/fangun.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:11;s:7253:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+ <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+<body>
+<div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a target="_blank" class="sLogo" href="http://www.v1.cn/">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a target="_blank" href="http://www.v1.cn/">首页</a><span>|</span></li>
+  <li><a target="_blank" href="http://news.v1.cn/">新闻</a><span>|</span></li>
+  <li><a target="_blank" href="http://mil.v1.cn/">军事</a><span>|</span></li>
+  <li><a target="_blank" href="http://shehui.v1.cn/">社会</a><span>|</span></li>
+  <li><a target="_blank" href="http://finance.v1.cn/">财经</a><span>|</span></li>
+  <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a><span>|</span></li>
+
+  <li><div class="CTmenu_list" id="morepane"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body" style="display: none;">
+	  <a target="_blank" href="http://sports.v1.cn/">体育</a>
+	  <a target="_blank" href="http://auto.v1.cn/">汽车</a>
+          <a target="_blank" href="http://paike.v1.cn/">拍客</a>
+	  <a target="_blank" href="http://v.v1.cn/">影视</a>
+	  <a target="_blank" href="http://music.v1.cn/">音乐</a>
+	  <a target="_blank" href="http://culture.v1.cn/">文化</a>
+          <a target="_blank" href="http://tech.v1.cn/">科技</a>
+	  <a target="_blank" href="http://games.v1.cn/">游戏</a>
+	  <a target="_blank" href="http://lady.v1.cn/">女性</a>
+	  <a target="_blank" href="http://fun.v1.cn/">搞笑</a>
+          <a target="_blank" href="http://life.v1.cn/">乐活</a>
+	  <a target="_blank" href="http://travel.v1.cn/">旅游</a>
+	  <a target="_blank" href="http://city.v1.cn/">城市</a>
+	  <a target="_blank" href="http://bgt.v1.cn/">曝光台</a>
+	  </div>
+      </div>
+  </li>
+
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">
+  <div><input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord"><button id="searchBut" class="newsSearchBtn" type="submit">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a href="javascript:void(0);" onclick="login()">登录</a><a href="javascript:void(0);" onclick="register()">注册</a></div></li>
+  <li><a onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" href="javascript:void(0);">上传</a></li>
+
+  <li><div class="CTmenu_list" id="firstpane"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      </div>
+	  </div>
+  </li>
+</ul>
+
+  </div>
+  </div>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年JS模块)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1000" height="265">
+        <param name="movie" value="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <embed src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" width="1000" height="265" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed></object>
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".pre-foc",btnPrev:".next-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+<script src="http://pic.v1.cn/cms/car-60years/js/fangun.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:12;s:7253:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+ <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+<body>
+<div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a target="_blank" class="sLogo" href="http://www.v1.cn/">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a target="_blank" href="http://www.v1.cn/">首页</a><span>|</span></li>
+  <li><a target="_blank" href="http://news.v1.cn/">新闻</a><span>|</span></li>
+  <li><a target="_blank" href="http://mil.v1.cn/">军事</a><span>|</span></li>
+  <li><a target="_blank" href="http://shehui.v1.cn/">社会</a><span>|</span></li>
+  <li><a target="_blank" href="http://finance.v1.cn/">财经</a><span>|</span></li>
+  <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a><span>|</span></li>
+
+  <li><div class="CTmenu_list" id="morepane"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body" style="display: none;">
+	  <a target="_blank" href="http://sports.v1.cn/">体育</a>
+	  <a target="_blank" href="http://auto.v1.cn/">汽车</a>
+          <a target="_blank" href="http://paike.v1.cn/">拍客</a>
+	  <a target="_blank" href="http://v.v1.cn/">影视</a>
+	  <a target="_blank" href="http://music.v1.cn/">音乐</a>
+	  <a target="_blank" href="http://culture.v1.cn/">文化</a>
+          <a target="_blank" href="http://tech.v1.cn/">科技</a>
+	  <a target="_blank" href="http://games.v1.cn/">游戏</a>
+	  <a target="_blank" href="http://lady.v1.cn/">女性</a>
+	  <a target="_blank" href="http://fun.v1.cn/">搞笑</a>
+          <a target="_blank" href="http://life.v1.cn/">乐活</a>
+	  <a target="_blank" href="http://travel.v1.cn/">旅游</a>
+	  <a target="_blank" href="http://city.v1.cn/">城市</a>
+	  <a target="_blank" href="http://bgt.v1.cn/">曝光台</a>
+	  </div>
+      </div>
+  </li>
+
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">
+  <div><input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord"><button id="searchBut" class="newsSearchBtn" type="submit">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a href="javascript:void(0);" onclick="login()">登录</a><a href="javascript:void(0);" onclick="register()">注册</a></div></li>
+  <li><a onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" href="javascript:void(0);">上传</a></li>
+
+  <li><div class="CTmenu_list" id="firstpane"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      </div>
+	  </div>
+  </li>
+</ul>
+
+  </div>
+  </div>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年JS模块)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1000" height="265">
+        <param name="movie" value="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <embed src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" width="1000" height="265" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed></object>
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+<script src="http://pic.v1.cn/cms/car-60years/js/fangun.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:13;s:7310:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+ <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+<body>
+<div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a target="_blank" class="sLogo" href="http://www.v1.cn/">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a target="_blank" href="http://www.v1.cn/">首页</a><span>|</span></li>
+  <li><a target="_blank" href="http://news.v1.cn/">新闻</a><span>|</span></li>
+  <li><a target="_blank" href="http://mil.v1.cn/">军事</a><span>|</span></li>
+  <li><a target="_blank" href="http://shehui.v1.cn/">社会</a><span>|</span></li>
+  <li><a target="_blank" href="http://finance.v1.cn/">财经</a><span>|</span></li>
+  <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a><span>|</span></li>
+
+  <li><div class="CTmenu_list" id="morepane"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body" style="display: none;">
+	  <a target="_blank" href="http://sports.v1.cn/">体育</a>
+	  <a target="_blank" href="http://auto.v1.cn/">汽车</a>
+          <a target="_blank" href="http://paike.v1.cn/">拍客</a>
+	  <a target="_blank" href="http://v.v1.cn/">影视</a>
+	  <a target="_blank" href="http://music.v1.cn/">音乐</a>
+	  <a target="_blank" href="http://culture.v1.cn/">文化</a>
+          <a target="_blank" href="http://tech.v1.cn/">科技</a>
+	  <a target="_blank" href="http://games.v1.cn/">游戏</a>
+	  <a target="_blank" href="http://lady.v1.cn/">女性</a>
+	  <a target="_blank" href="http://fun.v1.cn/">搞笑</a>
+          <a target="_blank" href="http://life.v1.cn/">乐活</a>
+	  <a target="_blank" href="http://travel.v1.cn/">旅游</a>
+	  <a target="_blank" href="http://city.v1.cn/">城市</a>
+	  <a target="_blank" href="http://bgt.v1.cn/">曝光台</a>
+	  </div>
+      </div>
+  </li>
+
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">
+  <div><input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord"><button id="searchBut" class="newsSearchBtn" type="submit">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a href="javascript:void(0);" onclick="login()">登录</a><a href="javascript:void(0);" onclick="register()">注册</a></div></li>
+  <li><a onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" href="javascript:void(0);">上传</a></li>
+
+  <li><div class="CTmenu_list" id="firstpane"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      </div>
+	  </div>
+  </li>
+</ul>
+
+  </div>
+  </div>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年JS模块)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1000" height="265">
+        <param name="movie" value="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <param name="allowScriptAccess" value="always">
+        <embed src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" width="1000" height="265" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed></object>
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+<script src="http://pic.v1.cn/cms/car-60years/js/fangun.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:14;s:7337:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+ <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+<body>
+<div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a target="_blank" class="sLogo" href="http://www.v1.cn/">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a target="_blank" href="http://www.v1.cn/">首页</a><span>|</span></li>
+  <li><a target="_blank" href="http://news.v1.cn/">新闻</a><span>|</span></li>
+  <li><a target="_blank" href="http://mil.v1.cn/">军事</a><span>|</span></li>
+  <li><a target="_blank" href="http://shehui.v1.cn/">社会</a><span>|</span></li>
+  <li><a target="_blank" href="http://finance.v1.cn/">财经</a><span>|</span></li>
+  <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a><span>|</span></li>
+
+  <li><div class="CTmenu_list" id="morepane"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body" style="display: none;">
+	  <a target="_blank" href="http://sports.v1.cn/">体育</a>
+	  <a target="_blank" href="http://auto.v1.cn/">汽车</a>
+          <a target="_blank" href="http://paike.v1.cn/">拍客</a>
+	  <a target="_blank" href="http://v.v1.cn/">影视</a>
+	  <a target="_blank" href="http://music.v1.cn/">音乐</a>
+	  <a target="_blank" href="http://culture.v1.cn/">文化</a>
+          <a target="_blank" href="http://tech.v1.cn/">科技</a>
+	  <a target="_blank" href="http://games.v1.cn/">游戏</a>
+	  <a target="_blank" href="http://lady.v1.cn/">女性</a>
+	  <a target="_blank" href="http://fun.v1.cn/">搞笑</a>
+          <a target="_blank" href="http://life.v1.cn/">乐活</a>
+	  <a target="_blank" href="http://travel.v1.cn/">旅游</a>
+	  <a target="_blank" href="http://city.v1.cn/">城市</a>
+	  <a target="_blank" href="http://bgt.v1.cn/">曝光台</a>
+	  </div>
+      </div>
+  </li>
+
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">
+  <div><input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord"><button id="searchBut" class="newsSearchBtn" type="submit">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a href="javascript:void(0);" onclick="login()">登录</a><a href="javascript:void(0);" onclick="register()">注册</a></div></li>
+  <li><a onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" href="javascript:void(0);">上传</a></li>
+
+  <li><div class="CTmenu_list" id="firstpane"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      </div>
+	  </div>
+  </li>
+</ul>
+
+  </div>
+  </div>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年JS模块)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1000" height="265">
+        <param name="movie" value="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <param name="allowScriptAccess" value="always">
+        <embed src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" width="1000" height="265" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" allowScriptAccess="always"></embed></object>
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+<script src="http://pic.v1.cn/cms/car-60years/js/fangun.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:15;s:7058:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+</head>
+
+<body>
+<div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a target="_blank" class="sLogo" href="http://www.v1.cn/">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a target="_blank" href="http://www.v1.cn/">首页</a><span>|</span></li>
+  <li><a target="_blank" href="http://news.v1.cn/">新闻</a><span>|</span></li>
+  <li><a target="_blank" href="http://mil.v1.cn/">军事</a><span>|</span></li>
+  <li><a target="_blank" href="http://shehui.v1.cn/">社会</a><span>|</span></li>
+  <li><a target="_blank" href="http://finance.v1.cn/">财经</a><span>|</span></li>
+  <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a><span>|</span></li>
+
+  <li><div class="CTmenu_list" id="morepane"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body" style="display: none;">
+	  <a target="_blank" href="http://sports.v1.cn/">体育</a>
+	  <a target="_blank" href="http://auto.v1.cn/">汽车</a>
+          <a target="_blank" href="http://paike.v1.cn/">拍客</a>
+	  <a target="_blank" href="http://v.v1.cn/">影视</a>
+	  <a target="_blank" href="http://music.v1.cn/">音乐</a>
+	  <a target="_blank" href="http://culture.v1.cn/">文化</a>
+          <a target="_blank" href="http://tech.v1.cn/">科技</a>
+	  <a target="_blank" href="http://games.v1.cn/">游戏</a>
+	  <a target="_blank" href="http://lady.v1.cn/">女性</a>
+	  <a target="_blank" href="http://fun.v1.cn/">搞笑</a>
+          <a target="_blank" href="http://life.v1.cn/">乐活</a>
+	  <a target="_blank" href="http://travel.v1.cn/">旅游</a>
+	  <a target="_blank" href="http://city.v1.cn/">城市</a>
+	  <a target="_blank" href="http://bgt.v1.cn/">曝光台</a>
+	  </div>
+      </div>
+  </li>
+
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">
+  <div><input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord"><button id="searchBut" class="newsSearchBtn" type="submit">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a href="javascript:void(0);" onclick="login()">登录</a><a href="javascript:void(0);" onclick="register()">注册</a></div></li>
+  <li><a onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" href="javascript:void(0);">上传</a></li>
+
+  <li><div class="CTmenu_list" id="firstpane"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      </div>
+	  </div>
+  </li>
+</ul>
+
+  </div>
+  </div>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年JS模块)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1000" height="265">
+        <param name="movie" value="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <param name="allowScriptAccess" value="always">
+        <embed src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" width="1000" height="265" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" allowScriptAccess="always"></embed></object>
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+<script src="http://pic.v1.cn/cms/car-60years/js/fangun.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:16;s:6742:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a target="_blank" class="sLogo" href="http://www.v1.cn/">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a target="_blank" href="http://www.v1.cn/">首页</a><span>|</span></li>
+  <li><a target="_blank" href="http://news.v1.cn/">新闻</a><span>|</span></li>
+  <li><a target="_blank" href="http://mil.v1.cn/">军事</a><span>|</span></li>
+  <li><a target="_blank" href="http://shehui.v1.cn/">社会</a><span>|</span></li>
+  <li><a target="_blank" href="http://finance.v1.cn/">财经</a><span>|</span></li>
+  <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a><span>|</span></li>
+
+  <li><div class="CTmenu_list" id="morepane"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body" style="display: none;">
+	  <a target="_blank" href="http://sports.v1.cn/">体育</a>
+	  <a target="_blank" href="http://auto.v1.cn/">汽车</a>
+          <a target="_blank" href="http://paike.v1.cn/">拍客</a>
+	  <a target="_blank" href="http://v.v1.cn/">影视</a>
+	  <a target="_blank" href="http://music.v1.cn/">音乐</a>
+	  <a target="_blank" href="http://culture.v1.cn/">文化</a>
+          <a target="_blank" href="http://tech.v1.cn/">科技</a>
+	  <a target="_blank" href="http://games.v1.cn/">游戏</a>
+	  <a target="_blank" href="http://lady.v1.cn/">女性</a>
+	  <a target="_blank" href="http://fun.v1.cn/">搞笑</a>
+          <a target="_blank" href="http://life.v1.cn/">乐活</a>
+	  <a target="_blank" href="http://travel.v1.cn/">旅游</a>
+	  <a target="_blank" href="http://city.v1.cn/">城市</a>
+	  <a target="_blank" href="http://bgt.v1.cn/">曝光台</a>
+	  </div>
+      </div>
+  </li>
+
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">
+  <div><input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord"><button id="searchBut" class="newsSearchBtn" type="submit">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a href="javascript:void(0);" onclick="login()">登录</a><a href="javascript:void(0);" onclick="register()">注册</a></div></li>
+  <li><a onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" href="javascript:void(0);">上传</a></li>
+
+  <li><div class="CTmenu_list" id="firstpane"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      </div>
+	  </div>
+  </li>
+</ul>
+
+  </div>
+  </div>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年JS模块)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1000" height="265">
+        <param name="movie" value="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <param name="allowScriptAccess" value="always">
+        <embed src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" width="1000" height="265" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" allowScriptAccess="always"></embed></object>
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+<script src="http://pic.v1.cn/cms/car-60years/js/fangun.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:17;s:6628:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a target="_blank" class="sLogo" href="http://www.v1.cn/">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a target="_blank" href="http://www.v1.cn/">首页</a><span>|</span></li>
+  <li><a target="_blank" href="http://news.v1.cn/">新闻</a><span>|</span></li>
+  <li><a target="_blank" href="http://mil.v1.cn/">军事</a><span>|</span></li>
+  <li><a target="_blank" href="http://shehui.v1.cn/">社会</a><span>|</span></li>
+  <li><a target="_blank" href="http://finance.v1.cn/">财经</a><span>|</span></li>
+  <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a><span>|</span></li>
+
+  <li><div class="CTmenu_list" id="morepane"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body" style="display: none;">
+	  <a target="_blank" href="http://sports.v1.cn/">体育</a>
+	  <a target="_blank" href="http://auto.v1.cn/">汽车</a>
+          <a target="_blank" href="http://paike.v1.cn/">拍客</a>
+	  <a target="_blank" href="http://v.v1.cn/">影视</a>
+	  <a target="_blank" href="http://music.v1.cn/">音乐</a>
+	  <a target="_blank" href="http://culture.v1.cn/">文化</a>
+          <a target="_blank" href="http://tech.v1.cn/">科技</a>
+	  <a target="_blank" href="http://games.v1.cn/">游戏</a>
+	  <a target="_blank" href="http://lady.v1.cn/">女性</a>
+	  <a target="_blank" href="http://fun.v1.cn/">搞笑</a>
+          <a target="_blank" href="http://life.v1.cn/">乐活</a>
+	  <a target="_blank" href="http://travel.v1.cn/">旅游</a>
+	  <a target="_blank" href="http://city.v1.cn/">城市</a>
+	  <a target="_blank" href="http://bgt.v1.cn/">曝光台</a>
+	  </div>
+      </div>
+  </li>
+
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">
+  <div><input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord"><button id="searchBut" class="newsSearchBtn" type="submit">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a href="javascript:void(0);" onclick="login()">登录</a><a href="javascript:void(0);" onclick="register()">注册</a></div></li>
+  <li><a onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" href="javascript:void(0);">上传</a></li>
+
+  <li><div class="CTmenu_list" id="firstpane"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      </div>
+	  </div>
+  </li>
+</ul>
+
+  </div>
+  </div>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年JS模块)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1000" height="265">
+        <param name="movie" value="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <param name="allowScriptAccess" value="always">
+        <embed src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" width="1000" height="265" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" allowScriptAccess="always"></embed></object>
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+
+</body>
+</html>
+";i:18;s:7337:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+ <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+<body>
+<div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a target="_blank" class="sLogo" href="http://www.v1.cn/">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a target="_blank" href="http://www.v1.cn/">首页</a><span>|</span></li>
+  <li><a target="_blank" href="http://news.v1.cn/">新闻</a><span>|</span></li>
+  <li><a target="_blank" href="http://mil.v1.cn/">军事</a><span>|</span></li>
+  <li><a target="_blank" href="http://shehui.v1.cn/">社会</a><span>|</span></li>
+  <li><a target="_blank" href="http://finance.v1.cn/">财经</a><span>|</span></li>
+  <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a><span>|</span></li>
+
+  <li><div class="CTmenu_list" id="morepane"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body" style="display: none;">
+	  <a target="_blank" href="http://sports.v1.cn/">体育</a>
+	  <a target="_blank" href="http://auto.v1.cn/">汽车</a>
+          <a target="_blank" href="http://paike.v1.cn/">拍客</a>
+	  <a target="_blank" href="http://v.v1.cn/">影视</a>
+	  <a target="_blank" href="http://music.v1.cn/">音乐</a>
+	  <a target="_blank" href="http://culture.v1.cn/">文化</a>
+          <a target="_blank" href="http://tech.v1.cn/">科技</a>
+	  <a target="_blank" href="http://games.v1.cn/">游戏</a>
+	  <a target="_blank" href="http://lady.v1.cn/">女性</a>
+	  <a target="_blank" href="http://fun.v1.cn/">搞笑</a>
+          <a target="_blank" href="http://life.v1.cn/">乐活</a>
+	  <a target="_blank" href="http://travel.v1.cn/">旅游</a>
+	  <a target="_blank" href="http://city.v1.cn/">城市</a>
+	  <a target="_blank" href="http://bgt.v1.cn/">曝光台</a>
+	  </div>
+      </div>
+  </li>
+
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">
+  <div><input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord"><button id="searchBut" class="newsSearchBtn" type="submit">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a href="javascript:void(0);" onclick="login()">登录</a><a href="javascript:void(0);" onclick="register()">注册</a></div></li>
+  <li><a onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" href="javascript:void(0);">上传</a></li>
+
+  <li><div class="CTmenu_list" id="firstpane"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      </div>
+	  </div>
+  </li>
+</ul>
+
+  </div>
+  </div>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年JS模块)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1000" height="265">
+        <param name="movie" value="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <param name="allowScriptAccess" value="always">
+        <embed src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" width="1000" height="265" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" allowScriptAccess="always"></embed></object>
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+<script src="http://pic.v1.cn/cms/car-60years/js/fangun.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";i:19;s:7567:"<!--#
+  $sort=CMS_FUNCTION('toPinyin',$cms_page_category.'Zt');
+  $sort=$sort['pinyin_for_full'];
+#-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汽车六十周年</title>
+<link href="http://pic.v1.cn/cms/car-60years/css/style-carzn.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script src="http://pic.v1.cn/cms/car-60years/js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/car-60years/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+ <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+//百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$cms_page_category}Zt', 3]);
+    </script>
+</head>
+
+<body>
+<div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a target="_blank" class="sLogo" href="http://www.v1.cn/">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a target="_blank" href="http://www.v1.cn/">首页</a><span>|</span></li>
+  <li><a target="_blank" href="http://news.v1.cn/">新闻</a><span>|</span></li>
+  <li><a target="_blank" href="http://mil.v1.cn/">军事</a><span>|</span></li>
+  <li><a target="_blank" href="http://shehui.v1.cn/">社会</a><span>|</span></li>
+  <li><a target="_blank" href="http://finance.v1.cn/">财经</a><span>|</span></li>
+  <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a><span>|</span></li>
+
+  <li><div class="CTmenu_list" id="morepane"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body" style="display: none;">
+	  <a target="_blank" href="http://sports.v1.cn/">体育</a>
+	  <a target="_blank" href="http://auto.v1.cn/">汽车</a>
+          <a target="_blank" href="http://paike.v1.cn/">拍客</a>
+	  <a target="_blank" href="http://v.v1.cn/">影视</a>
+	  <a target="_blank" href="http://music.v1.cn/">音乐</a>
+	  <a target="_blank" href="http://culture.v1.cn/">文化</a>
+          <a target="_blank" href="http://tech.v1.cn/">科技</a>
+	  <a target="_blank" href="http://games.v1.cn/">游戏</a>
+	  <a target="_blank" href="http://lady.v1.cn/">女性</a>
+	  <a target="_blank" href="http://fun.v1.cn/">搞笑</a>
+          <a target="_blank" href="http://life.v1.cn/">乐活</a>
+	  <a target="_blank" href="http://travel.v1.cn/">旅游</a>
+	  <a target="_blank" href="http://city.v1.cn/">城市</a>
+	  <a target="_blank" href="http://bgt.v1.cn/">曝光台</a>
+	  </div>
+      </div>
+  </li>
+
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">
+  <div><input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord"><button id="searchBut" class="newsSearchBtn" type="submit">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a href="javascript:void(0);" onclick="login()">登录</a><a href="javascript:void(0);" onclick="register()">注册</a></div></li>
+  <li><a onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" href="javascript:void(0);">上传</a></li>
+
+  <li><div class="CTmenu_list" id="firstpane"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+	  <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      <a target="_blank" href="#">时尚大尚师时尚尚大…</a>
+      </div>
+	  </div>
+  </li>
+</ul>
+
+  </div>
+  </div>
+<div class="tou-tu wrapBox1000"></div>
+<!--#CMS_MODULE(汽车六十周年背景图片)#-->
+<div class="focus wrapBox1000 clearfix">
+   <span class="pre-foc"></span>
+   <span class="next-foc"></span>
+   <div class="hdqh" id="hdqh">
+      <ul>
+     <!--#CMS_MODULE(汽车六十周年JS模块)#-->
+      </ul>
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix" >
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1000" height="265">
+        <param name="movie" value="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <param name="allowScriptAccess" value="always">
+        <embed src="http://pic.v1.cn/cms/car-60years/autoTime.swf?localPath=http://pic.v1.cn/cms/car-60years/" width="1000" height="265" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" allowScriptAccess="always"></embed></object>
+</div>
+
+<div class="partner wrapBox1000 clearfix" >
+   <span>合作伙伴</span>
+   <span class="prev-hz"></span>
+   <div id="content-hz">
+   <ul id="content_list-hz">
+      <!--#CMS_MODULE(汽车六十周年合作伙伴)#-->     
+   </ul>
+   </div>
+   <span class="next-hz"></span>
+</div>
+<div class="foot">
+<ul>
+     <li>第一视频公司 版权所有</li>
+     <li>热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077</li>
+  </ul>
+</div>
+<script>
+   if(jQuery("#hdqh li").length>1){
+    jQuery("#hdqh").jCarouselLite({auto:null,speed:1000,stop:null,btnNext:".next-foc",btnPrev:".pre-foc",scroll:1,visible:1});
+}
+</script>
+<script>
+$(function () {
+		$(".num2,.num3,.num5,.num6,.num8,").hover( 
+							function(){
+						$(this).find("span").css({top:"35px",left:"10px"});
+						$(this).find("div").css({top:"0px",left:"0px"});
+								},
+						function(){
+						$(this).find("span").css("top","143px")
+						$(this).find("div").css({top:"143px",left:"0px"});
+								}
+								);
+		$(".num1").hover( 
+							function(){
+						$(this).find("div").css({filter:"alpha(opacity=30)",opacity:"0.30"});
+								},
+						function(){
+						$(this).find("div").css({filter:"alpha(opacity=40)",opacity:"0.40"});
+								}
+								)	
+		$(".num4,.num7").hover( 
+							function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -455px",color:"#ffffff"});
+								},
+						function(){
+						$(this).find("span").css({background:"url(http://pic.v1.cn/cms/car-60years/images/icon.png) no-repeat -357px -394px",color:"#eeeeee"});
+								}
+								)
+			
+			})
+  
+</script>
+<script src="http://pic.v1.cn/cms/car-60years/js/fangun.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>
+";}

@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<a id="cms_module_4" class="module_anchor"></a>
+<meta name="bannerTitle" content="mine" />
+    
+    <!--#include virtual="/version.shtml"-->
+    <link href="http://static.v1game.cn/<!--#echo var="version"-->css/game/h5/phone/page/profile/homepage.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" href="http://static.v1game.cn/<!--#echo var="version"-->images/game/h5/apple-touch-icon-152x152.png">
+
+<!--#include virtual="/pc/public/baidu.html"-->
+<script type="text/javascript" src="http://g.cms.v1cn/scripts/jquery/jquery.js"></script>
+<script type="text/javascript" src="http://g.cms.v1cn/scripts/edit.js"></script>
+<link href="http://g.cms.v1cn/styles/edit.css" media="screen" rel="stylesheet" type="text/css" />
+<script type="text/javascript">var cms_pageid = 52; var cms_type = 3; var cms_modules = {"4":{"type":"code","name":"H5_Head","2":1},"2":{"type":"code","name":"H5_Content","2":1},"5":{"type":"code","name":"H5_Js","2":1}}; var EXTRA_MENUS = [];</script>
+</head>
+<body>
+<img src="http://h.v1game.cn/images/game/h5/logowx.jpg" width="0" height="0"  style="position:absolute;left:-9999px">
+<!--头部 start-->
+<!--#include virtual="/phone/public/header.html"-->
+<!--头部 end-->
+<a id="cms_module_2" class="module_anchor"></a>
+<div id="main">
+    <div id="navigation" class="clearfix">
+        <ul class="n_box oreder_box">
+            <li data-type="HGame.getFavorGame" class="curr">我的收藏</li>
+            <li data-type="HGame.getPlayedGames">我玩过的</li>
+            <li data-type="recommend">今日推荐</li>
+        </ul>
+    </div>
+    <!--栏目按钮 结束-->
+
+    <!--最新模块 2列n排-->
+    <div id="wrapper" class="clearfix">
+        <ul node-type="gameList" class="w_box clearfix"></ul>
+        <div style="display:block;" class="add_more">数据正在努力加载中... <img src="http://static.v1game.cn/<!--#echo var="version"-->images/game/h5/loading.gif"/>
+        </div>
+        <div class="clean80px"></div>
+    </div>
+    <div style="display:none" class="mine_recommend">
+        <!--#include virtual="./public/mine_recommend.html"-->
+    </div>
+</div>
+
+<!--底部 start-->
+<!--#include virtual="/phone/public/footer.html"-->
+<!--底部 end-->
+<a id="cms_module_5" class="module_anchor"></a>
+<script type="text/javascript" src="http://static.v1.cn/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://static.v1game.cn/<!--#echo var="version"-->js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('' +
+    'http://static.v1game.cn/<!--#echo var="version"-->js/game/h5/phone/profile/page/mine');
+</script>
+
+<div id="cms_module_form">
+    <textarea id="cms_module_form_contents" cols="60" rows="10"></textarea>
+    
+    <p>
+    <button id="cms_module_form_btn_submit"> Save </button>&nbsp;
+    <button id="cms_module_form_btn_clear"> Clear </button>&nbsp;
+    <button id="cms_module_form_btn_cancel"> Cancel </button>
+    </p>
+</div></body>
+</html><script>window.onload=function(){document.getElementsByTagName("body")[0].ondblclick=function(){if(window.confirm("退出编辑模式？")){location.href="http://g.cms.v1cn/page/pages/preview/pid/52"}}}</script>

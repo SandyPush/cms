@@ -1,0 +1,34 @@
+<div class="area">
+<div class="help"> 
+	<p>帮助</p>
+	<p>1、用户组添加页面;</p>  
+<?=$this->showErrors()?>
+</div>
+
+<div class="nr">
+ 	<h2>添加用户组</h2>
+
+<form action="" method="post">
+<table width="100%" cellspacing="1" class="form">
+<tbody>
+    <tr>
+        <td width="70">组 名 称</td>
+        <td><input type="text" name="name" value="<?=$this->param('name') ?>" class="input"/></td>
+    </tr>
+    <tr>
+        <td>权限继承</td>
+        <td><?=$this->formSelect('inherit', $this->param('inherit'), null, $this->groups)?></td>
+    </tr>
+    <tr class="alt">
+        <td>简　　介</td>
+        <td><textarea name="intro" cols="50" rows="5"><?=$this->escape($this->param('intro'))?></textarea></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><button type="submit" name="submit">添加用户组</button></td>
+    </tr>    
+</tbody>
+</table>
+</form>
+</div>
+</div>

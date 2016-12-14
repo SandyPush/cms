@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>推送文章</title>
+<?=$this->headLink() ?>
+<?=$this->headScript() ?>
+</head>
+<body>
+<div class="area">
+	<div class="nr">
+		<h2><a href="#">推送文章</a></h2>
+		<div class="con" style="display:none">
+			<form name="add_form" action="/contents/article/add/" method="post">
+				<input type="text" class="input" size="60" id="title" name="title" value="<?=$this->result['title']?>"/>
+				<input type="text" class="input" size="60" id="stitle" name="stitle" value="<?=$this->result['subtitle']?>"/>
+				<textarea name="intro"><?=$this->result['summary']?></textarea>
+				<textarea name="contents"><?=$this->result['content']?></textarea>
+				<input type="text" name="publisher" size="10" value="<?=$this->result['source']?>">
+				<input name="author" type="text" class="input" value="<?=$this->result['author']?>" />
+				<input name="postdate" type="text" value="<?=$this->result['pub_date']?>" />
+				<input name="tags" type="text" size="40" value="<?=$this->result['keywords']?>" />
+	      </form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+<script>
+$(document).ready(function (){
+	document.forms[0].submit();
+});
+</script>

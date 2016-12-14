@@ -1,0 +1,51 @@
+<?=$this->showErrors()?>
+<div class="area">
+<div class="nr">
+<h2>
+<button onclick="window.location.href='/template/templates/'">返回</button>
+<a href="#nogo">编辑模板</a>        	
+</h2>
+<form action="" method="post" onsubmit="return checkForm();">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+<tbody>
+    <tr>
+        <td>名称</td>
+        <td><input type="text" name="name" value="<?=$this->param('name', $this->tpl->name) ?>" /></td>
+    </tr>
+    <tr>
+        <td>类型</td>
+        <td><?=$this->formSelect('type', $this->tpl->type, null, $this->type_array)?></td>
+    </tr>
+    <tr class="alt">
+        <td>简介</td>
+        <td><input type="text" name="desc" value="<?=$this->param('desc', $this->tpl->description) ?>" size="80"/></td>
+    </tr>
+    <tr>
+        <td>内容<br />(html)</td>
+        <td><textarea name="content" cols="100" rows="24" style="font-family: courier new"><?=$this->escape($this->param('text', $this->tpl->content))?></textarea></td>
+    </tr>
+	<tr>
+        <td></td>
+        <td align="left"><input type="submit" name="submit" value="   提 交   " /><a href="/template/templates/log/id/<?=$this->id?>">&nbsp;&nbsp;查看最近的历史记录(按时间倒序,每修改一次,保存一次记录,最多20次)</a></td>
+    </tr>
+</tbody>
+</table>
+</form>
+</div> 
+</div>
+<script type="text/javascript">
+function checkForm()
+{
+	if(!$(":input[name='name']").val())
+	{
+		alert('名称请填写完整!');
+		return false;
+	}	
+	else if(!$(":input[name='desc']").val())
+	{
+		alert('简介请填写完整!');
+		return false;
+	}
+	return true;
+}
+</script>

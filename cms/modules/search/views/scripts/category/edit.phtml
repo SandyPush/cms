@@ -1,0 +1,115 @@
+<?=$this->headLink() ?>
+<?=$this->headScript() ?>
+<script>
+function checkForm()
+{
+	if(document.forms[0].elements['name'].value=='')
+	{
+		alert('类别名称不能为空');
+		return false;
+	}
+	var patten=/^\/[a-z0-9\-\_\/]+\/$|^\/$/i;
+	if(!patten.test(document.forms[0].elements['pub_dir'].value))
+	{
+		alert('目录不符合要求');
+		return false;
+	}
+}
+</script>
+<div class="area">
+<div class="help"> 
+	<p>帮助</p>
+	<p>1、期刊类别编辑页面;</p>  
+<?=$this->showErrors()?>
+</div>
+
+<div class="nr">
+ 	<h2>编辑期刊类别</h2>
+
+<form action="/category/index/save/" method="post" onsubmit="return(checkForm());" enctype="multipart/form-data">
+<input type="hidden" name="cid" value="<?=$this->data['cid']?>">
+<table width="100%" cellspacing="1" class="form">
+<tbody>
+    <tr>
+        <td width="80">父类名称</td>
+        <td><?=$this->formSelect('parent', $this->data['parent'], null, $this->parent_options)?></td>
+    </tr>
+    <tr>
+        <td>期刊名称</td>
+        <td><input type="text" name="name" value="<?=$this->data['name']?>" class="input"/></td>
+    </tr>
+    <tr>
+	<td>期刊封面</td>
+	<td><input name="cover" type="file" size="60" class="input" /> 
+	<br> <a href="<?=$this->data['cover']?>" target="_blank"><img src="<?=$this->data['cover']? trim($this->data['cover']): "/images/nopic.jpg"?>" alt="" /></a></td>
+    </tr>
+    <tr>
+	<td>内容摘要</td>
+	<td valign="bottom">
+	<textarea id="desc" name="desc" cols="75" rows="5"  onkeyup="checkLenth(this,'intro_length_view','intro_length',160)"><?=$this->data['desc']?></textarea><span id="intro_length_view">文字最大字节数：160，<span id="intro_length"></span></span>
+	</td>
+    </tr>
+    <tr>
+        <td>期刊说明</td>
+        <td><input type="text" name="info"  value="<?=$this->data['info']?>" class="input"/></td>
+    </tr>
+    <tr>
+        <td>数据目录</td>
+        <td><input type="text" name="pub_dir" value="<?=$this->data['pub_dir']?>"  class="input"/><font color="red">ftp上传数据的目录</font></td>
+    </tr>
+    <tr>
+        <td>电子版当期</td>
+        <td><input type="text" name="exe_price" value="<?=$this->data['exe_price']?>"  class="input"/><font color="red">价格：人民币元(格式: 00.00)</font></td>
+    </tr>
+    <tr>
+        <td>电子版过刊</td>
+        <td><input type="text" name="old_exe_price" value="<?=$this->data['old_exe_price']?>" class="input"/><font color="red">价格：人民币元(格式: 00.00)</font></td>
+    </tr>
+    <tr>
+        <td>纸版当期价</td>
+        <td><input type="text" name="page_price" value="<?=$this->data['page_price']?>"  class="input"/><font color="red">价格：人民币元(格式: 00.00)</font></td>
+    </tr>
+    <tr>
+        <td>纸版过刊价价</td>
+        <td><input type="text" name="old_page_price" value="<?=$this->data['old_page_price']?>" class="input"/><font color="red">价格：人民币元(格式: 00.00)</font></td>
+    </tr>
+    <tr>
+        <td>类　　型</td>
+        <td><?=$this->formSelect('type', $this->data['type'], null, $this->type_select)?></td>
+    </tr>
+    <tr class="alt">
+        <td>绑定栏目</td>
+        <td><?=$this->formSelect('bind_id', $this->data['bind_id'], null, $this->page_options)?></td>
+    </tr>
+	<tr>
+        <td>类　　型</td>
+        <td><?=$this->formSelect('type', $this->data['type'], null, $this->type_select)?></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><input type="submit" >保存类别</button></td>
+    </tr>    
+</tbody>
+</table>
+</form>
+</div>
+</div>
+<script>
+function checkLenth(obj,view_id,length_id,max_length)
+{
+	var strlength=count_length(obj.value);
+	if(strlength <= max_length)
+	{
+		$('#'+view_id).removeClass().addClass('info');
+		$('#'+length_id).text('还剩'+(max_length-strlength)+'字');
+	}else
+	{
+		$('#'+view_id).removeClass().addClass('info').addClass('war');
+		$('#'+length_id).text('超出'+(strlength-max_length)+'字');
+	}
+}
+function count_length(objValue)
+{
+	return objValue.replace(/[^\x00-\xff]/g,"**").length;
+}
+</script>

@@ -1,0 +1,83 @@
+a:5:{i:0;s:451:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+</head>
+<body>12345
+<!--#CMS_MODULE(css_js)#-->
+<!--#CMS_MODULE(content)#-->
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:1;s:507:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+</head>
+<body>12345
+<!--ssi#include virtual="/ssi/module/nav_top.shtml"-->
+<!--#CMS_MODULE(css_js)#-->
+<!--#CMS_MODULE(content)#-->
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:2;s:559:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+</head>
+<body>12345
+<!--ssi#include virtual="/ssi/vodone/header.html"-->
+<!--#CMS_MODULE(css_js)#-->
+<!--#CMS_MODULE(content)#-->
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+<!--ssi#include virtual="/ssi/vodone/footer.html"-->
+</body>
+</html>";i:3;s:559:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+</head>
+<body>12345
+<!--ssi#include virtual="/ssi/vodone/header.html"-->
+<!--#CMS_MODULE(css_js)#-->
+<!--#CMS_MODULE(content)#-->
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+<!--ssi#include virtual="/ssi/vodone/footer.html"-->
+</body>
+</html>";i:4;s:554:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+</head>
+<body>
+<!--ssi#include virtual="/ssi/vodone/header.html"-->
+<!--#CMS_MODULE(css_js)#-->
+<!--#CMS_MODULE(content)#-->
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+<!--ssi#include virtual="/ssi/vodone/footer.html"-->
+</body>
+</html>";}

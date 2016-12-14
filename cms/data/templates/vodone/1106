@@ -1,0 +1,5095 @@
+a:20:{i:0;s:7697:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: true,
+            generatePagination: false,
+            slidesLoaded: function() {
+                var items_count = $('#big-slides .pagination li').length;
+                for(var i=o;i<items_count;i++){
+                    items_width = $(this).outerWidth(true);
+                    items_width = items_width++;
+                    alert(items_width);
+                }
+            }
+        });
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+						<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code023)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="box-title"><!--#CMS_MODULE(专题大模块style7)#--></div>
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="box-title"><!--#CMS_MODULE(专题大模块style8)#--></div>
+				<div class="box-con">
+					<div class="">
+						<!--#CMS_MODULE(code010)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="box-title"><!--#CMS_MODULE(专题大模块style9)#--></div>
+				<div class="box-con box-border" style="padding:20px 19px;">
+				<!--#CMS_MODULE(code024)#-->
+				</div>
+			</div>
+			<div class="box">
+				<div class="box-title"><!--#CMS_MODULE(专题大模块style10)#--></div>
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+					  <!--#CMS_MODULE(code026)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    <div class="title_bg clearfix">
+                        <div class="box-title"><!--#CMS_MODULE(专题大模块style11)#--></div>
+                    </div>
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    <div class="title_bg clearfix">
+                        <div class="box-title"><!--#CMS_MODULE(专题大模块style12)#--></div>
+                    </div>
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                    <div class="title_bg clearfix">
+                       <div class="box-title"><!--#CMS_MODULE(专题大模块style13)#--></div>
+                    </div>
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+";i:1;s:7827:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: true,
+            generatePagination: false,
+            slidesLoaded: function() {
+                var items_count = $('#big-slides .pagination li').length;
+                for(var i=o;i<items_count;i++){
+                    items_width = $(this).outerWidth(true);
+                    items_width = items_width++;
+                    alert(items_width);
+                }
+            }
+        });
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+						<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code023)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="box-title"><!--#CMS_MODULE(专题大模块style7)#--></div>
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="box-title"><!--#CMS_MODULE(专题大模块style8)#--></div>
+				<div class="box-con">
+					<div class="">
+						<!--#CMS_MODULE(code010)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="box-title"><!--#CMS_MODULE(专题大模块style9)#--></div>
+				<div class="box-con box-border" style="padding:20px 19px;">
+				<!--#CMS_MODULE(code024)#-->
+				</div>
+			</div>
+			<div class="box">
+				<div class="box-title"><!--#CMS_MODULE(专题大模块style10)#--></div>
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+					  <!--#CMS_MODULE(code026)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    <div class="title_bg clearfix">
+                        <div class="box-title"><!--#CMS_MODULE(专题大模块style11)#--></div>
+                    </div>
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    <div class="title_bg clearfix">
+                        <div class="box-title"><!--#CMS_MODULE(专题大模块style12)#--></div>
+                    </div>
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                    <div class="title_bg clearfix">
+                       <div class="box-title"><!--#CMS_MODULE(专题大模块style13)#--></div>
+                    </div>
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:2;s:7721:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: true,
+            generatePagination: false,
+            slidesLoaded: function() {
+                var items_count = $('#big-slides .pagination li').length;
+                for(var i=o;i<items_count;i++){
+                    items_width = $(this).outerWidth(true);
+                    items_width = items_width++;
+                    alert(items_width);
+                }
+            }
+        });
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+						<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code023)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="box-title"><!--#CMS_MODULE(专题大模块style7)#--></div>
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="box-title"><!--#CMS_MODULE(专题大模块style8)#--></div>
+				<div class="box-con">
+					<div class="">
+						<!--#CMS_MODULE(code010)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style9)#-->
+				<!--#CMS_MODULE(code024)#-->
+			</div>
+			<div class="box">
+				<div class="box-title"><!--#CMS_MODULE(专题大模块style10)#--></div>
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+					  <!--#CMS_MODULE(code026)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    <div class="title_bg clearfix">
+                        <div class="box-title"><!--#CMS_MODULE(专题大模块style11)#--></div>
+                    </div>
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    <div class="title_bg clearfix">
+                        <div class="box-title"><!--#CMS_MODULE(专题大模块style12)#--></div>
+                    </div>
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                    <div class="title_bg clearfix">
+                       <div class="box-title"><!--#CMS_MODULE(专题大模块style13)#--></div>
+                    </div>
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:3;s:9219:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201406166666"></script>
+<!--<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>-->
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: true,
+            generatePagination: false,
+            slidesLoaded: function() {
+                var items_count = $('#big-slides .pagination li').length;
+                for(var i=o;i<items_count;i++){
+                    items_width = $(this).outerWidth(true);
+                    items_width = items_width++;
+                    alert(items_width);
+                }
+            }
+        });
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+						<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code023)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="box-title"><!--#CMS_MODULE(专题大模块style7)#--></div>
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="box-title"><!--#CMS_MODULE(专题大模块style8)#--></div>
+				<div class="box-con">
+					<div class="">
+						<!--#CMS_MODULE(code010)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style9)#-->
+				<!--#CMS_MODULE(code024)#-->
+			</div>
+			<div class="box">
+				<div class="box-title"><!--#CMS_MODULE(专题大模块style10)#--></div>
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+					  <!--#CMS_MODULE(code026)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    <div class="title_bg clearfix">
+                        <div class="box-title"><!--#CMS_MODULE(专题大模块style11)#--></div>
+                    </div>
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    <div class="title_bg clearfix">
+                        <div class="box-title"><!--#CMS_MODULE(专题大模块style12)#--></div>
+                    </div>
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                    <div class="title_bg clearfix">
+                       <div class="box-title"><!--#CMS_MODULE(专题大模块style13)#--></div>
+                    </div>
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:4;s:8779:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201406166666"></script>
+<!--<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>-->
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: true,
+            generatePagination: false,
+            slidesLoaded: function() {
+                var items_count = $('#big-slides .pagination li').length;
+                for(var i=o;i<items_count;i++){
+                    items_width = $(this).outerWidth(true);
+                    items_width = items_width++;
+                    alert(items_width);
+                }
+            }
+        });
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+						<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code023)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style7)#-->
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style8)#-->
+				
+						<!--#CMS_MODULE(code010)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style9)#-->
+				<!--#CMS_MODULE(code024)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style10)#-->
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+					  <!--#CMS_MODULE(code026)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style11)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style12)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                       <!--#CMS_MODULE(专题大模块style13)#-->
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:5;s:10177:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201406166666"></script>
+<!--<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>-->
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script src="js/slides.min.jquery.js"></script>
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            generateNextPrev: false,
+            next: 'focus-slides-next',
+            prev: 'focus-slides-prev',
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+                */
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+                */
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+              
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: false,
+            next: 'big-slides-next',
+            prev: 'big-slides-prev',
+            generatePagination: false
+        });
+        
+        var obj = $('#big-slides .pagination'),
+            wrapWidth = 0,
+            showCount = 7,
+            hasNextClicks = 0,
+            itemsCount = obj.find('ul li').length,
+            allClicks = itemsCount%showCount==0 ? parseInt(itemsCount/showCount)-1 : parseInt(itemsCount/showCount);
+        //初始化wrap的的宽
+        obj.find('ul li').each(function(){
+            wrapWidth += $(this).outerWidth(true);
+        })
+        obj.find('ul').width(wrapWidth);
+        
+        if(itemsCount > showCount){
+            $('.pagination-next').click(function(){
+                if(hasNextClicks < allClicks){
+                    hasNextClicks++;
+                    warpLeft = -showCount*obj.find('ul li').outerWidth(true)*hasNextClicks;
+                    obj.find('ul').animate({
+                            marginLeft:warpLeft
+                    },500)
+                }
+            })
+            $('.pagination-prev').click(function(){
+                if(hasNextClicks>0){
+                    hasNextClicks--;
+                    obj.find('ul').animate({
+                        marginLeft:-showCount*obj.find('ul li').outerWidth(true)*hasNextClicks
+                    },500)
+                }
+            })
+        }else{
+            obj.find('.pagination-prev').hide();
+            obj.find('.pagination-next').hide();
+        }
+        
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+						<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code023)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style7)#-->
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style8)#-->
+				
+						<!--#CMS_MODULE(code010)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style9)#-->
+				<!--#CMS_MODULE(code024)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style10)#-->
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+					  <!--#CMS_MODULE(code026)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style11)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style12)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                       <!--#CMS_MODULE(专题大模块style13)#-->
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:6;s:10190:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201406166666"></script>
+<!--<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>-->
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script src="js/slides.min.jquery.js"></script>
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            generateNextPrev: false,
+            next: 'focus-slides-next',
+            prev: 'focus-slides-prev',
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+                */
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+                */
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+              
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: false,
+            next: 'big-slides-next',
+            prev: 'big-slides-prev',
+            generatePagination: false
+        });
+        
+        var obj = $('#big-slides .pagination'),
+            wrapWidth = 0,
+            showCount = 7,
+            hasNextClicks = 0,
+            itemsCount = obj.find('ul li').length,
+            allClicks = itemsCount%showCount==0 ? parseInt(itemsCount/showCount)-1 : parseInt(itemsCount/showCount);
+        //初始化wrap的的宽
+        obj.find('ul li').each(function(){
+            wrapWidth += $(this).outerWidth(true);
+        })
+        obj.find('ul').width(wrapWidth);
+        
+        if(itemsCount > showCount){
+            $('.pagination-next').click(function(){
+                if(hasNextClicks < allClicks){
+                    hasNextClicks++;
+                    warpLeft = -showCount*obj.find('ul li').outerWidth(true)*hasNextClicks;
+                    obj.find('ul').animate({
+                            marginLeft:warpLeft
+                    },500)
+                }
+            })
+            $('.pagination-prev').click(function(){
+                if(hasNextClicks>0){
+                    hasNextClicks--;
+                    obj.find('ul').animate({
+                        marginLeft:-showCount*obj.find('ul li').outerWidth(true)*hasNextClicks
+                    },500)
+                }
+            })
+        }else{
+            obj.find('.pagination-prev').hide();
+            obj.find('.pagination-next').hide();
+        }
+        
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框/文字颜色)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+						<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code023)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style7)#-->
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style8)#-->
+				
+						<!--#CMS_MODULE(code010)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style9)#-->
+				<!--#CMS_MODULE(code024)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style10)#-->
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+					  <!--#CMS_MODULE(code026)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style11)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style12)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                       <!--#CMS_MODULE(专题大模块style13)#-->
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:7;s:10177:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201406166666"></script>
+<!--<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>-->
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script src="js/slides.min.jquery.js"></script>
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            generateNextPrev: false,
+            next: 'focus-slides-next',
+            prev: 'focus-slides-prev',
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+                */
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+                */
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+              
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: false,
+            next: 'big-slides-next',
+            prev: 'big-slides-prev',
+            generatePagination: false
+        });
+        
+        var obj = $('#big-slides .pagination'),
+            wrapWidth = 0,
+            showCount = 7,
+            hasNextClicks = 0,
+            itemsCount = obj.find('ul li').length,
+            allClicks = itemsCount%showCount==0 ? parseInt(itemsCount/showCount)-1 : parseInt(itemsCount/showCount);
+        //初始化wrap的的宽
+        obj.find('ul li').each(function(){
+            wrapWidth += $(this).outerWidth(true);
+        })
+        obj.find('ul').width(wrapWidth);
+        
+        if(itemsCount > showCount){
+            $('.pagination-next').click(function(){
+                if(hasNextClicks < allClicks){
+                    hasNextClicks++;
+                    warpLeft = -showCount*obj.find('ul li').outerWidth(true)*hasNextClicks;
+                    obj.find('ul').animate({
+                            marginLeft:warpLeft
+                    },500)
+                }
+            })
+            $('.pagination-prev').click(function(){
+                if(hasNextClicks>0){
+                    hasNextClicks--;
+                    obj.find('ul').animate({
+                        marginLeft:-showCount*obj.find('ul li').outerWidth(true)*hasNextClicks
+                    },500)
+                }
+            })
+        }else{
+            obj.find('.pagination-prev').hide();
+            obj.find('.pagination-next').hide();
+        }
+        
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+						<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code023)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style7)#-->
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style8)#-->
+				
+						<!--#CMS_MODULE(code010)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style9)#-->
+				<!--#CMS_MODULE(code024)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style10)#-->
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+					  <!--#CMS_MODULE(code026)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style11)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style12)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                       <!--#CMS_MODULE(专题大模块style13)#-->
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:8;s:10201:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201406166666"></script>
+<!--<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>-->
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script src="js/slides.min.jquery.js"></script>
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            generateNextPrev: false,
+            next: 'focus-slides-next',
+            prev: 'focus-slides-prev',
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+                */
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+                */
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+              
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: false,
+            next: 'big-slides-next',
+            prev: 'big-slides-prev',
+            generatePagination: false
+        });
+        
+        var obj = $('#big-slides .pagination'),
+            wrapWidth = 0,
+            showCount = 7,
+            hasNextClicks = 0,
+            itemsCount = obj.find('ul li').length,
+            allClicks = itemsCount%showCount==0 ? parseInt(itemsCount/showCount)-1 : parseInt(itemsCount/showCount);
+        //初始化wrap的的宽
+        obj.find('ul li').each(function(){
+            wrapWidth += $(this).outerWidth(true);
+        })
+        obj.find('ul').width(wrapWidth);
+        
+        if(itemsCount > showCount){
+            $('.pagination-next').click(function(){
+                if(hasNextClicks < allClicks){
+                    hasNextClicks++;
+                    warpLeft = -showCount*obj.find('ul li').outerWidth(true)*hasNextClicks;
+                    obj.find('ul').animate({
+                            marginLeft:warpLeft
+                    },500)
+                }
+            })
+            $('.pagination-prev').click(function(){
+                if(hasNextClicks>0){
+                    hasNextClicks--;
+                    obj.find('ul').animate({
+                        marginLeft:-showCount*obj.find('ul li').outerWidth(true)*hasNextClicks
+                    },500)
+                }
+            })
+        }else{
+            obj.find('.pagination-prev').hide();
+            obj.find('.pagination-next').hide();
+        }
+        
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;border:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;border:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+						<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code023)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style7)#-->
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style8)#-->
+				
+						<!--#CMS_MODULE(code010)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style9)#-->
+				<!--#CMS_MODULE(code024)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style10)#-->
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+					  <!--#CMS_MODULE(code026)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style11)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style12)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                       <!--#CMS_MODULE(专题大模块style13)#-->
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:9;s:10164:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201406166666"></script>
+<!--<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>-->
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script src="js/slides.min.jquery.js"></script>
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            generateNextPrev: false,
+            next: 'focus-slides-next',
+            prev: 'focus-slides-prev',
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+                */
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+                */
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+              
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: false,
+            next: 'big-slides-next',
+            prev: 'big-slides-prev',
+            generatePagination: false
+        });
+        
+        var obj = $('#big-slides .pagination'),
+            wrapWidth = 0,
+            showCount = 7,
+            hasNextClicks = 0,
+            itemsCount = obj.find('ul li').length,
+            allClicks = itemsCount%showCount==0 ? parseInt(itemsCount/showCount)-1 : parseInt(itemsCount/showCount);
+        //初始化wrap的的宽
+        obj.find('ul li').each(function(){
+            wrapWidth += $(this).outerWidth(true);
+        })
+        obj.find('ul').width(wrapWidth);
+        
+        if(itemsCount > showCount){
+            $('.pagination-next').click(function(){
+                if(hasNextClicks < allClicks){
+                    hasNextClicks++;
+                    warpLeft = -showCount*obj.find('ul li').outerWidth(true)*hasNextClicks;
+                    obj.find('ul').animate({
+                            marginLeft:warpLeft
+                    },500)
+                }
+            })
+            $('.pagination-prev').click(function(){
+                if(hasNextClicks>0){
+                    hasNextClicks--;
+                    obj.find('ul').animate({
+                        marginLeft:-showCount*obj.find('ul li').outerWidth(true)*hasNextClicks
+                    },500)
+                }
+            })
+        }else{
+            obj.find('.pagination-prev').hide();
+            obj.find('.pagination-next').hide();
+        }
+        
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;border:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;border:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+						<!--#CMS_MODULE(code002)#-->
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code023)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style7)#-->
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style8)#-->
+				
+						<!--#CMS_MODULE(code010)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style9)#-->
+				<!--#CMS_MODULE(code024)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style10)#-->
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style11)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style12)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                       <!--#CMS_MODULE(专题大模块style13)#-->
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:10;s:10098:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201406166666"></script>
+<!--<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>-->
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script src="js/slides.min.jquery.js"></script>
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            generateNextPrev: false,
+            next: 'focus-slides-next',
+            prev: 'focus-slides-prev',
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+                */
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+                */
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+              
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: false,
+            next: 'big-slides-next',
+            prev: 'big-slides-prev',
+            generatePagination: false
+        });
+        
+        var obj = $('#big-slides .pagination'),
+            wrapWidth = 0,
+            showCount = 7,
+            hasNextClicks = 0,
+            itemsCount = obj.find('ul li').length,
+            allClicks = itemsCount%showCount==0 ? parseInt(itemsCount/showCount)-1 : parseInt(itemsCount/showCount);
+        //初始化wrap的的宽
+        obj.find('ul li').each(function(){
+            wrapWidth += $(this).outerWidth(true);
+        })
+        obj.find('ul').width(wrapWidth);
+        
+        if(itemsCount > showCount){
+            $('.pagination-next').click(function(){
+                if(hasNextClicks < allClicks){
+                    hasNextClicks++;
+                    warpLeft = -showCount*obj.find('ul li').outerWidth(true)*hasNextClicks;
+                    obj.find('ul').animate({
+                            marginLeft:warpLeft
+                    },500)
+                }
+            })
+            $('.pagination-prev').click(function(){
+                if(hasNextClicks>0){
+                    hasNextClicks--;
+                    obj.find('ul').animate({
+                        marginLeft:-showCount*obj.find('ul li').outerWidth(true)*hasNextClicks
+                    },500)
+                }
+            })
+        }else{
+            obj.find('.pagination-prev').hide();
+            obj.find('.pagination-next').hide();
+        }
+        
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;border:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;border:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+<!--#CMS_MODULE(code003)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style7)#-->
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style8)#-->
+				
+						<!--#CMS_MODULE(code010)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style9)#-->
+				<!--#CMS_MODULE(code024)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style10)#-->
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style11)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style12)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                       <!--#CMS_MODULE(专题大模块style13)#-->
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:11;s:10128:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201406166666"></script>
+<!--<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>-->
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script src="js/slides.min.jquery.js"></script>
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            generateNextPrev: false,
+            next: 'focus-slides-next',
+            prev: 'focus-slides-prev',
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+                */
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+                */
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+              
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: false,
+            next: 'big-slides-next',
+            prev: 'big-slides-prev',
+            generatePagination: false
+        });
+        
+        var obj = $('#big-slides .pagination'),
+            wrapWidth = 0,
+            showCount = 7,
+            hasNextClicks = 0,
+            itemsCount = obj.find('ul li').length,
+            allClicks = itemsCount%showCount==0 ? parseInt(itemsCount/showCount)-1 : parseInt(itemsCount/showCount);
+        //初始化wrap的的宽
+        obj.find('ul li').each(function(){
+            wrapWidth += $(this).outerWidth(true);
+        })
+        obj.find('ul').width(wrapWidth);
+        
+        if(itemsCount > showCount){
+            $('.pagination-next').click(function(){
+                if(hasNextClicks < allClicks){
+                    hasNextClicks++;
+                    warpLeft = -showCount*obj.find('ul li').outerWidth(true)*hasNextClicks;
+                    obj.find('ul').animate({
+                            marginLeft:warpLeft
+                    },500)
+                }
+            })
+            $('.pagination-prev').click(function(){
+                if(hasNextClicks>0){
+                    hasNextClicks--;
+                    obj.find('ul').animate({
+                        marginLeft:-showCount*obj.find('ul li').outerWidth(true)*hasNextClicks
+                    },500)
+                }
+            })
+        }else{
+            obj.find('.pagination-prev').hide();
+            obj.find('.pagination-next').hide();
+        }
+        
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;border:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;border:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code023)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style7)#-->
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style8)#-->
+				
+						<!--#CMS_MODULE(code010)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style9)#-->
+				<!--#CMS_MODULE(code024)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style10)#-->
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style11)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style12)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                       <!--#CMS_MODULE(专题大模块style13)#-->
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:12;s:10413:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201406166666"></script>
+<!--<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>-->
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script src="js/slides.min.jquery.js"></script>
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            generateNextPrev: false,
+            next: 'focus-slides-next',
+            prev: 'focus-slides-prev',
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+                */
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+                */
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+              
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: false,
+            next: 'big-slides-next',
+            prev: 'big-slides-prev',
+            generatePagination: false
+        });
+        
+        var obj = $('#big-slides .pagination'),
+            wrapWidth = 0,
+            showCount = 7,
+            hasNextClicks = 0,
+            itemsCount = obj.find('ul li').length,
+            allClicks = itemsCount%showCount==0 ? parseInt(itemsCount/showCount)-1 : parseInt(itemsCount/showCount);
+        //初始化wrap的的宽
+        obj.find('ul li').each(function(){
+            wrapWidth += $(this).outerWidth(true);
+        })
+        obj.find('ul').width(wrapWidth);
+        
+        if(itemsCount > showCount){
+            $('.pagination-next').click(function(){
+                if(hasNextClicks < allClicks){
+                    hasNextClicks++;
+                    warpLeft = -showCount*obj.find('ul li').outerWidth(true)*hasNextClicks;
+                    obj.find('ul').animate({
+                            marginLeft:warpLeft
+                    },500)
+                }
+            })
+            $('.pagination-prev').click(function(){
+                if(hasNextClicks>0){
+                    hasNextClicks--;
+                    obj.find('ul').animate({
+                        marginLeft:-showCount*obj.find('ul li').outerWidth(true)*hasNextClicks
+                    },500)
+                }
+            })
+        }else{
+            obj.find('.pagination-prev').hide();
+            obj.find('.pagination-next').hide();
+        }
+        
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;border:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+if(location.href.search('.shtml')=='-1'){
+document.write('<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>'+
+'<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>');
+}
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;border:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code023)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style7)#-->
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style8)#-->
+				
+						<!--#CMS_MODULE(code010)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style9)#-->
+				<!--#CMS_MODULE(code024)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style10)#-->
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style11)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style12)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                       <!--#CMS_MODULE(专题大模块style13)#-->
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:13;s:10082:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script src="js/slides.min.jquery.js"></script>
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            generateNextPrev: false,
+            next: 'focus-slides-next',
+            prev: 'focus-slides-prev',
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+                */
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+                */
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+              
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: false,
+            next: 'big-slides-next',
+            prev: 'big-slides-prev',
+            generatePagination: false
+        });
+        
+        var obj = $('#big-slides .pagination'),
+            wrapWidth = 0,
+            showCount = 7,
+            hasNextClicks = 0,
+            itemsCount = obj.find('ul li').length,
+            allClicks = itemsCount%showCount==0 ? parseInt(itemsCount/showCount)-1 : parseInt(itemsCount/showCount);
+        //初始化wrap的的宽
+        obj.find('ul li').each(function(){
+            wrapWidth += $(this).outerWidth(true);
+        })
+        obj.find('ul').width(wrapWidth);
+        
+        if(itemsCount > showCount){
+            $('.pagination-next').click(function(){
+                if(hasNextClicks < allClicks){
+                    hasNextClicks++;
+                    warpLeft = -showCount*obj.find('ul li').outerWidth(true)*hasNextClicks;
+                    obj.find('ul').animate({
+                            marginLeft:warpLeft
+                    },500)
+                }
+            })
+            $('.pagination-prev').click(function(){
+                if(hasNextClicks>0){
+                    hasNextClicks--;
+                    obj.find('ul').animate({
+                        marginLeft:-showCount*obj.find('ul li').outerWidth(true)*hasNextClicks
+                    },500)
+                }
+            })
+        }else{
+            obj.find('.pagination-prev').hide();
+            obj.find('.pagination-next').hide();
+        }
+        
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;border:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+if(location.href.search('.shtml')=='-1'){
+document.write('<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>'+
+'<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>');
+}
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;border:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code023)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style7)#-->
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style8)#-->
+				
+						<!--#CMS_MODULE(code010)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style9)#-->
+				<!--#CMS_MODULE(code024)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style10)#-->
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style11)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style12)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                       <!--#CMS_MODULE(专题大模块style13)#-->
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:14;s:10132:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201406166666"></script>
+<!--<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>-->
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script src="js/slides.min.jquery.js"></script>
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            generateNextPrev: false,
+            next: 'focus-slides-next',
+            prev: 'focus-slides-prev',
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+                */
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+                */
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+              
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: false,
+            next: 'big-slides-next',
+            prev: 'big-slides-prev',
+            generatePagination: false
+        });
+        
+        var obj = $('#big-slides .pagination'),
+            wrapWidth = 0,
+            showCount = 7,
+            hasNextClicks = 0,
+            itemsCount = obj.find('ul li').length,
+            allClicks = itemsCount%showCount==0 ? parseInt(itemsCount/showCount)-1 : parseInt(itemsCount/showCount);
+        //初始化wrap的的宽
+        obj.find('ul li').each(function(){
+            wrapWidth += $(this).outerWidth(true);
+        })
+        obj.find('ul').width(wrapWidth);
+        
+        if(itemsCount > showCount){
+            $('.pagination-next').click(function(){
+                if(hasNextClicks < allClicks){
+                    hasNextClicks++;
+                    warpLeft = -showCount*obj.find('ul li').outerWidth(true)*hasNextClicks;
+                    obj.find('ul').animate({
+                            marginLeft:warpLeft
+                    },500)
+                }
+            })
+            $('.pagination-prev').click(function(){
+                if(hasNextClicks>0){
+                    hasNextClicks--;
+                    obj.find('ul').animate({
+                        marginLeft:-showCount*obj.find('ul li').outerWidth(true)*hasNextClicks
+                    },500)
+                }
+            })
+        }else{
+            obj.find('.pagination-prev').hide();
+            obj.find('.pagination-next').hide();
+        }
+        
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;border:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;border:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code023)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style7)#-->
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style8)#-->
+				
+						<!--#CMS_MODULE(code010)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style9)#-->
+				<!--#CMS_MODULE(code024)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style10)#-->
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style11)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style12)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                       <!--#CMS_MODULE(专题大模块style13)#-->
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:15;s:10131:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+<!--<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>-->
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script src="js/slides.min.jquery.js"></script>
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            generateNextPrev: false,
+            next: 'focus-slides-next',
+            prev: 'focus-slides-prev',
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+                */
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+                */
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+              
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: false,
+            next: 'big-slides-next',
+            prev: 'big-slides-prev',
+            generatePagination: false
+        });
+        
+        var obj = $('#big-slides .pagination'),
+            wrapWidth = 0,
+            showCount = 7,
+            hasNextClicks = 0,
+            itemsCount = obj.find('ul li').length,
+            allClicks = itemsCount%showCount==0 ? parseInt(itemsCount/showCount)-1 : parseInt(itemsCount/showCount);
+        //初始化wrap的的宽
+        obj.find('ul li').each(function(){
+            wrapWidth += $(this).outerWidth(true);
+        })
+        obj.find('ul').width(wrapWidth);
+        
+        if(itemsCount > showCount){
+            $('.pagination-next').click(function(){
+                if(hasNextClicks < allClicks){
+                    hasNextClicks++;
+                    warpLeft = -showCount*obj.find('ul li').outerWidth(true)*hasNextClicks;
+                    obj.find('ul').animate({
+                            marginLeft:warpLeft
+                    },500)
+                }
+            })
+            $('.pagination-prev').click(function(){
+                if(hasNextClicks>0){
+                    hasNextClicks--;
+                    obj.find('ul').animate({
+                        marginLeft:-showCount*obj.find('ul li').outerWidth(true)*hasNextClicks
+                    },500)
+                }
+            })
+        }else{
+            obj.find('.pagination-prev').hide();
+            obj.find('.pagination-next').hide();
+        }
+        
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;border:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;border:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code023)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style7)#-->
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style8)#-->
+				
+						<!--#CMS_MODULE(code010)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style9)#-->
+				<!--#CMS_MODULE(code024)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style10)#-->
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style11)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style12)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                       <!--#CMS_MODULE(专题大模块style13)#-->
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:16;s:10341:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+<!--<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>-->
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script src="js/slides.min.jquery.js"></script>
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            generateNextPrev: false,
+            next: 'focus-slides-next',
+            prev: 'focus-slides-prev',
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+                */
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+                */
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+              
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: false,
+            next: 'big-slides-next',
+            prev: 'big-slides-prev',
+            generatePagination: false
+        });
+        
+        var obj = $('#big-slides .pagination'),
+            wrapWidth = 0,
+            showCount = 7,
+            hasNextClicks = 0,
+            itemsCount = obj.find('ul li').length,
+            allClicks = itemsCount%showCount==0 ? parseInt(itemsCount/showCount)-1 : parseInt(itemsCount/showCount);
+        //初始化wrap的的宽
+        obj.find('ul li').each(function(){
+            wrapWidth += $(this).outerWidth(true);
+        })
+        obj.find('ul').width(wrapWidth);
+        
+        if(itemsCount > showCount){
+            $('.pagination-next').click(function(){
+                if(hasNextClicks < allClicks){
+                    hasNextClicks++;
+                    warpLeft = -showCount*obj.find('ul li').outerWidth(true)*hasNextClicks;
+                    obj.find('ul').animate({
+                            marginLeft:warpLeft
+                    },500)
+                }
+            })
+            $('.pagination-prev').click(function(){
+                if(hasNextClicks>0){
+                    hasNextClicks--;
+                    obj.find('ul').animate({
+                        marginLeft:-showCount*obj.find('ul li').outerWidth(true)*hasNextClicks
+                    },500)
+                }
+            })
+        }else{
+            obj.find('.pagination-prev').hide();
+            obj.find('.pagination-next').hide();
+        }
+        
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;border:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;border:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code023)#-->
+<!--#CMS_MODULE(code024)#-->
+<!--#CMS_MODULE(code025)#-->
+<!--#CMS_MODULE(code026)#-->
+<!--#CMS_MODULE(code027)#-->
+<!--#CMS_MODULE(code028)#-->
+<!--#CMS_MODULE(code029)#-->
+<!--#CMS_MODULE(code030)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style7)#-->
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style8)#-->
+				
+						<!--#CMS_MODULE(code010)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style9)#-->
+				<!--#CMS_MODULE(code024)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style10)#-->
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style11)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style12)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                       <!--#CMS_MODULE(专题大模块style13)#-->
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:17;s:10281:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+<!--<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>-->
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script src="js/slides.min.jquery.js"></script>
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            generateNextPrev: false,
+            next: 'focus-slides-next',
+            prev: 'focus-slides-prev',
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+                */
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+                */
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+              
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: false,
+            next: 'big-slides-next',
+            prev: 'big-slides-prev',
+            generatePagination: false
+        });
+        
+        var obj = $('#big-slides .pagination'),
+            wrapWidth = 0,
+            showCount = 7,
+            hasNextClicks = 0,
+            itemsCount = obj.find('ul li').length,
+            allClicks = itemsCount%showCount==0 ? parseInt(itemsCount/showCount)-1 : parseInt(itemsCount/showCount);
+        //初始化wrap的的宽
+        obj.find('ul li').each(function(){
+            wrapWidth += $(this).outerWidth(true);
+        })
+        obj.find('ul').width(wrapWidth);
+        
+        if(itemsCount > showCount){
+            $('.pagination-next').click(function(){
+                if(hasNextClicks < allClicks){
+                    hasNextClicks++;
+                    warpLeft = -showCount*obj.find('ul li').outerWidth(true)*hasNextClicks;
+                    obj.find('ul').animate({
+                            marginLeft:warpLeft
+                    },500)
+                }
+            })
+            $('.pagination-prev').click(function(){
+                if(hasNextClicks>0){
+                    hasNextClicks--;
+                    obj.find('ul').animate({
+                        marginLeft:-showCount*obj.find('ul li').outerWidth(true)*hasNextClicks
+                    },500)
+                }
+            })
+        }else{
+            obj.find('.pagination-prev').hide();
+            obj.find('.pagination-next').hide();
+        }
+        
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;border:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;border:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code023)#-->
+<!--#CMS_MODULE(code026)#-->
+<!--#CMS_MODULE(code027)#-->
+<!--#CMS_MODULE(code028)#-->
+<!--#CMS_MODULE(code029)#-->
+<!--#CMS_MODULE(code030)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style7)#-->
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style8)#-->
+				
+						<!--#CMS_MODULE(code010)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style9)#-->
+				<!--#CMS_MODULE(code024)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style10)#-->
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style11)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style12)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                       <!--#CMS_MODULE(专题大模块style13)#-->
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:18;s:10281:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+<!--<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>-->
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script src="js/slides.min.jquery.js"></script>
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            generateNextPrev: false,
+            next: 'focus-slides-next',
+            prev: 'focus-slides-prev',
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+                */
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+                */
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+              
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: false,
+            next: 'big-slides-next',
+            prev: 'big-slides-prev',
+            generatePagination: false
+        });
+        
+        var obj = $('#big-slides .pagination'),
+            wrapWidth = 0,
+            showCount = 7,
+            hasNextClicks = 0,
+            itemsCount = obj.find('ul li').length,
+            allClicks = itemsCount%showCount==0 ? parseInt(itemsCount/showCount)-1 : parseInt(itemsCount/showCount);
+        //初始化wrap的的宽
+        obj.find('ul li').each(function(){
+            wrapWidth += $(this).outerWidth(true);
+        })
+        obj.find('ul').width(wrapWidth);
+        
+        if(itemsCount > showCount){
+            $('.pagination-next').click(function(){
+                if(hasNextClicks < allClicks){
+                    hasNextClicks++;
+                    warpLeft = -showCount*obj.find('ul li').outerWidth(true)*hasNextClicks;
+                    obj.find('ul').animate({
+                            marginLeft:warpLeft
+                    },500)
+                }
+            })
+            $('.pagination-prev').click(function(){
+                if(hasNextClicks>0){
+                    hasNextClicks--;
+                    obj.find('ul').animate({
+                        marginLeft:-showCount*obj.find('ul li').outerWidth(true)*hasNextClicks
+                    },500)
+                }
+            })
+        }else{
+            obj.find('.pagination-prev').hide();
+            obj.find('.pagination-next').hide();
+        }
+        
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;border:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;border:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code023)#-->
+<!--#CMS_MODULE(code026)#-->
+<!--#CMS_MODULE(code027)#-->
+<!--#CMS_MODULE(code028)#-->
+<!--#CMS_MODULE(code029)#-->
+<!--#CMS_MODULE(code030)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style7)#-->
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style8)#-->
+				
+						<!--#CMS_MODULE(code010)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style9)#-->
+				<!--#CMS_MODULE(code024)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style10)#-->
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style11)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style12)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                       <!--#CMS_MODULE(专题大模块style13)#-->
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";i:19;s:10232:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/360onebox/css/onebox.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script src="http://pic.v1.cn/cms/new_special/common/js/carousellite.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jdtqh.js" ></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/focupic.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/hyrcqh.js" ></script>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/base.js"></script>
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script language="javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+<!--<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>-->
+<script src="http://pic.v1.cn/cms/new_special/360onebox/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<!--跑马灯 start-->
+<script>
+    $(function(){
+        $('#focus-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide, fade',
+            pause: 2000,
+            hoverPause: true,
+            generateNextPrev: false,
+            next: 'focus-slides-next',
+            prev: 'focus-slides-prev',
+            animationStart: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:-50
+                },100);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+                */
+            },
+            animationComplete: function(current){
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+                /*
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationComplete on slide: ', current);
+                };
+                */
+            },
+            slidesLoaded: function() {
+                $('#focus-slides .caption').animate({
+                    bottom:0
+                },200);
+            }
+        });
+              
+        $('#big-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'slide',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 400,
+            generateNextPrev: false,
+            next: 'big-slides-next',
+            prev: 'big-slides-prev',
+            generatePagination: false
+        });
+        
+        var obj = $('#big-slides .pagination'),
+            wrapWidth = 0,
+            showCount = 7,
+            hasNextClicks = 0,
+            itemsCount = obj.find('ul li').length,
+            allClicks = itemsCount%showCount==0 ? parseInt(itemsCount/showCount)-1 : parseInt(itemsCount/showCount);
+        //初始化wrap的的宽
+        obj.find('ul li').each(function(){
+            wrapWidth += $(this).outerWidth(true);
+        })
+        obj.find('ul').width(wrapWidth);
+        
+        if(itemsCount > showCount){
+            $('.pagination-next').click(function(){
+                if(hasNextClicks < allClicks){
+                    hasNextClicks++;
+                    warpLeft = -showCount*obj.find('ul li').outerWidth(true)*hasNextClicks;
+                    obj.find('ul').animate({
+                            marginLeft:warpLeft
+                    },500)
+                }
+            })
+            $('.pagination-prev').click(function(){
+                if(hasNextClicks>0){
+                    hasNextClicks--;
+                    obj.find('ul').animate({
+                        marginLeft:-showCount*obj.find('ul li').outerWidth(true)*hasNextClicks
+                    },500)
+                }
+            })
+        }else{
+            obj.find('.pagination-prev').hide();
+            obj.find('.pagination-next').hide();
+        }
+        
+        $('#medium-slides').slides({
+            preloadImage: 'img/loading.gif',
+            play: 5000,
+            effect: 'fade',
+            pause: 2000,
+            hoverPause: true,
+            slideSpeed: 200,
+            fadeSpeed: 200,
+            generateNextPrev: false,
+            generatePagination: false
+        });
+    });
+</script>
+<!--跑马灯 end-->
+<style>
+.CThearderWrap{z-index:0;}
+a:hover{color:#1647e9;}
+.header{background:url(images/onebox_02.jpg) no-repeat center top #000;}
+.nav{background:none;border:none;}
+.title_bg{height:30px;}
+.panel-overlay p{font-size:20px;line-height:70px;}
+</style>
+</head>
+
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+	<!--header-->
+	<div class="header">
+		<div class="wrap">
+			<div class="nav" style="background:none;border:none;">
+				<!--#CMS_MODULE(code001)#-->
+			</div>
+		</div>
+	</div>
+	
+	<!--content-->
+	<div class="wrap">
+		<div class="content">
+			<div class="first">
+				<div class="fl fl-con">
+					<div class="lead">
+						<!--#CMS_MODULE(导语)#-->
+						<!--p class="share">分享到：
+							<a class="sina" href="#">新浪微博</a>
+							<a class="qzone" href="#">qq空间</a>
+							<a class="tencent" href="#">腾讯微博</a>
+						</p-->
+					</div>
+					<div class="news">
+                                         <ul class="news-list">
+<!--#CMS_MODULE(code003)#-->
+<!--#CMS_MODULE(code023)#-->
+<!--#CMS_MODULE(code026)#-->
+<!--#CMS_MODULE(code027)#-->
+<!--#CMS_MODULE(code028)#-->
+<!--#CMS_MODULE(code029)#-->
+<!--#CMS_MODULE(code030)#-->
+                                         </ul>
+					</div>
+					<div class="new">
+						<!--#CMS_MODULE(code004)#-->
+					</div>
+				</div>
+				<div class="fr fr-con">
+					<div class="scroll">
+						<!--#CMS_MODULE(code022)#-->
+					</div>
+					<div class="new-r">
+						<!--#CMS_MODULE(code005)#-->
+                                                <!--#CMS_MODULE(code021)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style7)#-->
+				<div class="box-con">
+					<!--#CMS_MODULE(code007)#-->
+					<div class="fr con-r">
+						<!--#CMS_MODULE(code008)#-->
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style8)#-->
+				
+						<!--#CMS_MODULE(code010)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style9)#-->
+				<!--#CMS_MODULE(code024)#-->
+			</div>
+			<div class="box">
+				<!--#CMS_MODULE(专题大模块style10)#-->
+				
+				<div class="box-con box-border"  style="padding:20px 26px;">
+<div id="medium-slides" class="medium-slides">
+                                          <!--#CMS_MODULE(code025)#-->
+</div>
+				</div>
+<div class="figure">
+                                                
+						<!--#CMS_MODULE(code013)#-->
+					</div>
+                <div class="secarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style11)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code015)#-->
+                    </div>
+                </div>
+                <div class="thirarae">
+                    
+                        <!--#CMS_MODULE(专题大模块style12)#-->
+                    <div class="wrapBox1000">
+                        <!--#CMS_MODULE(code017)#-->
+                    </div>
+                 </div>
+                 <div class="firaraeOneSix clearfix">
+                       <!--#CMS_MODULE(专题大模块style13)#-->
+                    <div class="wrapBox1000 clearfix">
+                        <!--#CMS_MODULE(code019)#-->
+                    </div>
+                </div>
+                <div class="wrapBox1000">
+                    <!--#CMS_MODULE(结语)#-->
+                </div>
+			</div>
+		</div>
+	</div>
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>";}

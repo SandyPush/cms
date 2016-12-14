@@ -1,0 +1,1164 @@
+a:20:{i:0;s:1858:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--底部信息 end-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>
+";i:1;s:1858:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--底部信息 end-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>
+";i:2;s:1858:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--底部信息 end-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>
+";i:3;s:2057:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/gameValidate.js" type="text/javascript">
+    <script src="http://static.v1.cn/gplatform/v1.0/js/customer.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--底部信息 end-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>
+";i:4;s:2158:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/gameValidate.js" type="text/javascript">
+    <script src="http://static.v1.cn/gplatform/v1.0/js/customer.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--底部信息 end-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>
+";i:5;s:2167:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/gameValidate.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/customer.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--底部信息 end-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>
+";i:6;s:2167:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/gameValidate.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/customer.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--底部信息 end-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>
+";i:7;s:2278:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/gameValidate.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/customer.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/jquery.cityselect.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--底部信息 end-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>
+";i:8;s:2380:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/gameValidate.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/customer.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/city.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/jquery.cityselect.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--底部信息 end-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>
+";i:9;s:2278:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/gameValidate.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/customer.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/jquery.cityselect.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--底部信息 end-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>
+";i:10;s:2380:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/gameValidate.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/customer.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/city.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/jquery.cityselect.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--底部信息 end-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>
+";i:11;s:2325:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/gameValidate.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/customer.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/city.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/jquery.cityselect.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--底部信息 end-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+</body>
+</html>
+";i:12;s:2262:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/gameValidate.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/customer.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/city.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/jquery.cityselect.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--底部信息 end-->
+</body>
+</html>
+";i:13;s:2380:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/gameValidate.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/customer.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/city.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/jquery.cityselect.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/jquery.uploadify-3.1.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--底部信息 end-->
+</body>
+</html>
+";i:14;s:2369:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/gameValidate.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/customer.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/city.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/jquery.cityselect.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/WdatePicker.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--底部信息 end-->
+</body>
+</html>
+";i:15;s:2262:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/gameValidate.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/customer.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/city.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/jquery.cityselect.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--底部信息 end-->
+</body>
+</html>
+";i:16;s:2370:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/gameValidate.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/customer.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/city.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/jquery.cityselect.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/ajaxfileupload.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--底部信息 end-->
+</body>
+</html>
+";i:17;s:2471:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/gameValidate.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/customer.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/city.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/jquery.cityselect.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/ajaxfileupload.js" type="text/javascript"></script>
+    <script src="http://dev.v1cn/Gplatform/lunan/website/joson.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--底部信息 end-->
+</body>
+</html>
+";i:18;s:2262:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/gameValidate.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/customer.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/city.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/jquery.cityselect.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--底部信息 end-->
+</body>
+</html>
+";i:19;s:2302:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/game/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/game/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/game/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/game/gplatform/v1.0/js/gameValidate.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/game/gplatform/v1.0/js/customer.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/game/gplatform/v1.0/js/city.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/game/gplatform/v1.0/js/jquery.cityselect.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+    <!--左侧部分 start--> 
+    <div class="service_content">
+   	<!--#CMS_MODULE(SERVICE_CONTENT)#-->
+    </div>
+    <!--左侧部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            <!--#CMS_MODULE(SERVICE_INFORMATION)#-->
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE_HOT_TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+
+<!--底部信息 start-->
+<!--底部信息 end-->
+</body>
+</html>
+";}

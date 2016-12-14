@@ -1,0 +1,1270 @@
+a:20:{i:0;s:1281:"<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:948px">
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";i:1;s:1314:"<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:710px">
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+</div>
+<div style="width:948px">
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";i:2;s:1356:"<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:710px">
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+<br><br>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+<br><br>
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+<br><br>
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+<br><br>
+</div>
+
+<div style="width:948px">
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";i:3;s:1340:"<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:710px">
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+<br>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+<br>
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+<br>
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+<br>
+</div>
+
+<div style="width:948px">
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";i:4;s:1411:"<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:710px">
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+<br>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+<br>
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+<br>
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+<br>
+</div>
+
+<div style="width:948px">
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";i:5;s:1397:"<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:710px">
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+<br>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+<br>
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+<br>
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+<br>
+</div>
+
+<div style="width:948px">
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";i:6;s:1555:"<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:710px">
+
+<!--游戏推荐 Start-->
+<!--#CMS_MODULE(blank8)#-->
+<!--游戏推荐 End-->
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+<br>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+<br>
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+<br>
+
+
+<!--客服 Start-->
+<!--#CMS_MODULE(blank7)#-->
+<!--客服 End-->
+
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+<br>
+</div>
+
+<div style="width:948px">
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";i:7;s:1561:"<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:710px">
+
+<!--游戏推荐 Start-->
+<!--#CMS_MODULE(blank8)#-->
+<!--游戏推荐 End-->
+<br>
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+<br>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+<br>
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+<br>
+
+
+<!--客服 Start-->
+<!--#CMS_MODULE(blank7)#-->
+<!--客服 End-->
+
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+<br>
+</div>
+
+<div style="width:948px">
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";i:8;s:1607:"<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:710px">
+
+<div style="background-color:#FFF;">
+<!--游戏推荐 Start-->
+<!--#CMS_MODULE(blank8)#-->
+<!--游戏推荐 End-->
+</div>
+<br>
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+<br>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+<br>
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+<br>
+
+
+<!--客服 Start-->
+<!--#CMS_MODULE(blank7)#-->
+<!--客服 End-->
+
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+<br>
+</div>
+
+<div style="width:948px">
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";i:9;s:1638:"<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:710px">
+
+<div style="background-color:#FFF;">
+<!--游戏推荐 Start-->
+<!--#CMS_MODULE(blank8)#-->
+<!--游戏推荐 End-->
+</div>
+<br>
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+<br>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+<br>
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+<br>
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+<br>
+</div>
+
+<div style="width:260px">
+<!--客服 Start-->
+<!--#CMS_MODULE(blank7)#-->
+<!--客服 End-->
+</div>
+
+<div style="width:948px">
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";i:10;s:1594:"<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:710px">
+
+<!--游戏推荐 Start-->
+<!--#CMS_MODULE(blank8)#-->
+<!--游戏推荐 End-->
+</div>
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+<br>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+<br>
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+<br>
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+<br>
+</div>
+
+<div style="width:260px">
+<!--客服 Start-->
+<!--#CMS_MODULE(blank7)#-->
+<!--客服 End-->
+</div>
+
+<div style="width:948px">
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";i:11;s:1601:"<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:710px">
+
+<div>
+<!--游戏推荐 Start-->
+<!--#CMS_MODULE(blank8)#-->
+<!--游戏推荐 End-->
+</div>
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+<br>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+<br>
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+<br>
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+<br>
+</div>
+
+<div style="width:260px">
+<!--客服 Start-->
+<!--#CMS_MODULE(blank7)#-->
+<!--客服 End-->
+</div>
+
+<div style="width:948px">
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";i:12;s:1607:"<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:710px">
+
+<div>
+<!--游戏推荐 Start-->
+<!--#CMS_MODULE(blank8)#-->
+<!--游戏推荐 End-->
+</div>
+<br>
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+<br>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+<br>
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+<br>
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+<br>
+</div>
+
+<div style="width:260px">
+<!--客服 Start-->
+<!--#CMS_MODULE(blank7)#-->
+<!--客服 End-->
+</div>
+
+<div style="width:948px">
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";i:13;s:1705:"<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:710px">
+
+<div>
+<!--游戏推荐 Start-->
+<!--#CMS_MODULE(blank8)#-->
+<!--游戏推荐 End-->
+</div>
+<br>
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+<br>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+<br>
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+<br>
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+<br>
+</div>
+
+<div>
+<!--游戏推荐 Start-->
+<!--#CMS_MODULE(blank9)#-->
+<!--游戏推荐 End-->
+</div>
+
+<div style="width:260px">
+<!--客服 Start-->
+<!--#CMS_MODULE(blank7)#-->
+<!--客服 End-->
+</div>
+
+<div style="width:948px">
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";i:14;s:1729:"<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:710px">
+
+<div>
+<!--游戏推荐 Start-->
+<!--#CMS_MODULE(blank8)#-->
+<!--游戏推荐 End-->
+</div>
+<br>
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+<br>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+<br>
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+<br>
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+<br>
+</div>
+
+<div>
+<!--游戏页面抽屉导航 Start-->
+<!--#CMS_MODULE(blank9)#-->
+<!--游戏页面抽屉导航 End-->
+</div>
+
+<div style="width:260px">
+<!--客服 Start-->
+<!--#CMS_MODULE(blank7)#-->
+<!--客服 End-->
+</div>
+
+<div style="width:948px">
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";i:15;s:1741:"<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:710px">
+
+<div>
+<!--游戏推荐 Start-->
+<!--#CMS_MODULE(blank8)#-->
+<!--游戏推荐 End-->
+</div>
+<br>
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+<br>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+<br>
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+<br>
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+<br>
+</div>
+
+<div>
+<!--游戏页面抽屉导航 Start-->
+<!--#CMS_MODULE(blank9)#-->
+<!--游戏页面抽屉导航 End-->
+</div>
+<br>
+
+<div style="width:260px">
+<!--客服 Start-->
+<!--#CMS_MODULE(blank7)#-->
+<!--客服 End-->
+</div>
+<br>
+
+<div style="width:948px">
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";i:16;s:1828:"<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:710px">
+
+<div>
+<!--游戏推荐 Start-->
+<!--#CMS_MODULE(blank8)#-->
+<!--游戏推荐 End-->
+</div>
+<br>
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+<br>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+<br>
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+<br>
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+<br>
+</div>
+
+<!--游戏页面抽屉导航 Start-->
+<!--#CMS_MODULE(blank9)#-->
+<!--游戏页面抽屉导航 End-->
+<br>
+
+<!--新手礼包说明 Start-->
+<!--#CMS_MODULE(blank10)#-->
+<!--新手礼包说明 End-->
+<br>
+
+<div style="width:260px">
+<!--客服 Start-->
+<!--#CMS_MODULE(blank7)#-->
+<!--客服 End-->
+</div>
+<br>
+
+<div style="width:948px">
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";i:17;s:1863:"<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:710px">
+
+<div>
+<!--游戏推荐 Start-->
+<!--#CMS_MODULE(blank8)#-->
+<!--游戏推荐 End-->
+</div>
+<br>
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+<br>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+<br>
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+<br>
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+<br>
+</div>
+
+<!--游戏页面抽屉导航 Start-->
+<!--#CMS_MODULE(blank9)#-->
+<!--游戏页面抽屉导航 End-->
+<br>
+
+<div style="width:688px">
+<!--新手礼包说明 Start-->
+<!--#CMS_MODULE(blank10)#-->
+<!--新手礼包说明 End-->
+</div>
+<br>
+
+<div style="width:260px">
+<!--客服 Start-->
+<!--#CMS_MODULE(blank7)#-->
+<!--客服 End-->
+</div>
+<br>
+
+<div style="width:948px">
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";i:18;s:1864:"<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/game.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:710px">
+
+<div>
+<!--游戏推荐 Start-->
+<!--#CMS_MODULE(blank8)#-->
+<!--游戏推荐 End-->
+</div>
+<br>
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+<br>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+<br>
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+<br>
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+<br>
+</div>
+
+<!--游戏页面抽屉导航 Start-->
+<!--#CMS_MODULE(blank9)#-->
+<!--游戏页面抽屉导航 End-->
+<br>
+
+<div style="width:688px">
+<!--新手礼包说明 Start-->
+<!--#CMS_MODULE(blank10)#-->
+<!--新手礼包说明 End-->
+</div>
+<br>
+
+<div style="width:260px">
+<!--客服 Start-->
+<!--#CMS_MODULE(blank7)#-->
+<!--客服 End-->
+</div>
+<br>
+
+<div style="width:948px">
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";i:19;s:1862:"<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common.css" />
+<link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/zt.css" />
+<script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script tyle="text/javascript" src="http://hzw.g.v1.cn/static/slides.jquery.js"></script>
+<script>
+$(document).ready(function(){
+if(typeof($('#focus_slide').slides)!='undefined'){
+  $('#focus_slide').slides({
+        preload: true,
+        play: 5000,
+        pause: 2000,
+        hoverPause: true
+  });
+}
+
+$('#focus_slide').css("margin-top","0")
+});
+</script>
+<div style="width:710px">
+
+<div>
+<!--游戏推荐 Start-->
+<!--#CMS_MODULE(blank8)#-->
+<!--游戏推荐 End-->
+</div>
+<br>
+
+<div class="focus_mod">
+<!--首页焦点图 Start-->
+<!--#CMS_MODULE(blank1)#-->
+<!--首页焦点图 End-->
+
+<!--新手卡 Start-->
+<!--#CMS_MODULE(blank2)#-->
+<!--新手卡 End-->
+</div>
+<br>
+
+<!--首页游戏资料 Start-->
+<!--#CMS_MODULE(blank3)#-->
+<!--首页游戏资料 End-->
+<br>
+
+<!--首页游戏美图 Start-->
+<!--#CMS_MODULE(blank4)#-->
+<!--首页游戏美图 End-->
+<br>
+
+<!--新闻资料页竖四 Start-->
+<!--#CMS_MODULE(blank5)#-->
+<!--新闻资料页竖四 End-->
+<br>
+</div>
+
+<!--游戏页面抽屉导航 Start-->
+<!--#CMS_MODULE(blank9)#-->
+<!--游戏页面抽屉导航 End-->
+<br>
+
+<div style="width:688px">
+<!--新手礼包说明 Start-->
+<!--#CMS_MODULE(blank10)#-->
+<!--新手礼包说明 End-->
+</div>
+<br>
+
+<div style="width:260px">
+<!--客服 Start-->
+<!--#CMS_MODULE(blank7)#-->
+<!--客服 End-->
+</div>
+<br>
+
+<div style="width:948px">
+<!--友情链接 Start-->
+<!--#CMS_MODULE(blank6)#-->
+<!--友情链接 End-->
+</div>";}

@@ -1,0 +1,1881 @@
+a:20:{i:0;s:6325:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台充值平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<div class="left wrap240">
+    <div class="way_pay pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">请选择充值方式</h2>
+        </div>
+        <ul id="payType">
+            
+        </ul>
+    </div>
+    <div class="server_cen pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li>客服电话：400-188-1888</li>
+            <li>服务时间：7*24小时</li>
+        </ul>
+    </div>
+    <div class="normal_pro pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li><a href="#" target="_blank">骏网一卡通充值比例调整公告</a> </li>
+            <li><a href="#" target="_blank">第三方账号（QQ、微博）登录相关操</a></li>
+            <li><a href="#" target="_blank">充值方式介绍</a></li>
+            <li><a href="#" target="_blank">账号密保设置流程与FAQ</a></li>
+            <li><a href="#" target="_blank">账号密码找回流程</a></li>
+            <li><a href="#" target="_blank">网页游戏充值常见问题FAQ</a></li>
+        </ul>
+    </div>
+</div>
+ <div class="wrap720 pad left"  id="zf_02">
+        <div class="arrow arrow_01"></div>
+        <div class="module_hd">
+            <h2>您当前选择的是“<span class="hd_highlight">余额支付(支付宝)</span>”充值方式</h2>
+        </div>
+     <form id="payForm" method="post">
+        <input type="text" placeholder="订单编号" id="orderNo" name="pay[orderNo]"><br>
+        <input type="text" placeholder="支付方式" id="payTypeInput" name="pay[payType]"><br>
+        <input type="text" placeholder="游戏" id="gameNoInput" name="pay[gameNo]"><br>
+        <input type="text" placeholder="区服" id="gameServerInput" name="pay[serverNo]"><br>
+        <input type="text" placeholder="用户ssoUID" id="ssoUIDInput" name="pay[ssoUID]"><br>
+        <input type="text" placeholder="备注信息" id="remarkInput" name="pay[remarks]"><br>
+        <ul class="cur_pay">
+           <li>
+            <span>充值账号:</span>
+            <input type="text" id="usernameInput">
+        </li>
+        <li>
+            <span>充值到:</span>
+            <label class="payfor cur_payfor"><input type="radio" name="pay[depositWhere]" checked="checked" value="1" >游戏</label>
+            <label class="payfor"><input type="radio" name="pay[depositWhere]" value="2" >V豆</label>
+        </li>
+        <li>
+            <span class="left">选择游戏:</span>
+            <select id="games">
+                <option value ="">选择游戏</option>
+            </select>
+            <select id="gameServer">
+                <option value ="">选择服务器</option>
+            </select>
+        </li>
+        <li id="denominationID">
+            <span class="left">充值金额:</span>
+            <ul class="left pay_num">
+                <li><label><input type="radio" value="0.01" id="denominationYuan" name="pay[money]">0.01元</label></li>
+                <li><label><input type="radio" value="10" id="denominationYuan" name="pay[money]">10元</label></li>
+                <li><label><input type="radio" value="30" id="denominationYuan" name="pay[money]">30元</label></li>
+                <li class="cur_paynum"><label><input type="radio" value="50" id="denominationYuan" name="pay[money]" checked="checked">50元</label></li>
+                <li><label><input type="radio" value="100" id="denominationYuan" name="pay[money]">100元</label></li>
+                <li><label><input type="radio" value="500" id="denominationYuan" name="pay[money]" >500元</label></li>
+                <li><label><input type="radio" value="1000" id="denominationYuan" name="pay[money]" >1000元</label></li>
+                <li><label><input type="radio" value="2000" id="denominationYuan" name="pay[money]" >2000元</label></li>
+                <li class="last"><input type="text" maxlength="5" id="denominationYuanCustom" name="moneyCustom">元</li>
+            </ul>
+        </li>
+            <li id="bankID">
+                <span>选择银行</span>
+                <ul class="bank_chose">
+                  
+                </ul>
+            </li>
+           <li id="openMore"><div class="more more_open"><a>更多</a></div></li>
+           <li id="closeMore"><div class="more_close more"><a>收起</a></div></li>
+        </ul>
+    </form>
+        <a class="btn_orange_l" href="javascript:void(0);" id="buttonOK1">确定充值</a>
+        <p class="explain">
+            <span>支付宝余额支付：</span>
+            只要您的支付宝账户中存有余额，就可以为游戏进行充值。
+        </p>
+    </div>
+</div>
+<div id="pop_message" class="infor_sure">
+    <h2>请确认充值信息<span id="pop_close"></span></h2>
+    <div class="bottom">
+    <ul>
+        <li><span>充值方式：</span> <p id="payName">余额支付(支付宝)</p></li>
+        <li><span>订单号：</span>  <p id="orderNoShow">201409161147584973</p></li>
+        <li><span>充值账号：</span>  <p id="username">penny99199</p></li>
+        <li><span>游戏：</span>  <p id="gameAndServer">七杀   1050服</p></li>
+        <li><span>充值金额：</span>  <p><em id="money">100</em> 元</p></li>
+    </ul>
+        <a href="javascript:void(0);" class="btn_orange_l" id="buttonOK2">确定充值</a>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</html>
+</body>";i:1;s:6408:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台充值平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<div class="left wrap240">
+    <div class="way_pay pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">请选择充值方式</h2>
+        </div>
+        <ul id="payType">
+            
+        </ul>
+    </div>
+    <div class="server_cen pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li>客服电话：400-188-1888</li>
+            <li>服务时间：7*24小时</li>
+        </ul>
+    </div>
+    <div class="normal_pro pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li><a href="#" target="_blank">骏网一卡通充值比例调整公告</a> </li>
+            <li><a href="#" target="_blank">第三方账号（QQ、微博）登录相关操</a></li>
+            <li><a href="#" target="_blank">充值方式介绍</a></li>
+            <li><a href="#" target="_blank">账号密保设置流程与FAQ</a></li>
+            <li><a href="#" target="_blank">账号密码找回流程</a></li>
+            <li><a href="#" target="_blank">网页游戏充值常见问题FAQ</a></li>
+        </ul>
+    </div>
+</div>
+ <div class="wrap720 pad left"  id="zf_02">
+        <div class="arrow arrow_01"></div>
+        <div class="module_hd">
+            <h2>您当前选择的是“<span class="hd_highlight">余额支付(支付宝)</span>”充值方式</h2>
+        </div>
+     <form id="payForm" method="post">
+        <input type="text" placeholder="订单编号" id="orderNo" name="pay[orderNo]"><br>
+        <input type="text" placeholder="支付方式" id="payTypeInput" name="pay[payType]"><br>
+        <input type="text" placeholder="游戏" id="gameNoInput" name="pay[gameNo]"><br>
+        <input type="text" placeholder="区服" id="gameServerInput" name="pay[serverNo]"><br>
+        <input type="text" placeholder="用户ssoUID" id="ssoUIDInput" name="pay[ssoUID]"><br>
+        <input type="text" placeholder="备注信息" id="remarkInput" name="pay[remarks]"><br>
+        <ul class="cur_pay">
+           <li>
+            <span>充值账号:</span>
+            <input type="text" id="usernameInput">
+        </li>
+        <li>
+            <span>充值到:</span>
+            <label class="payfor cur_payfor"><input type="radio" name="pay[depositWhere]" checked="checked" value="1" >游戏</label>
+            <label class="payfor"><input type="radio" name="pay[depositWhere]" value="2" >V豆</label>
+        </li>
+        <li>
+            <span class="left">选择游戏:</span>
+            <select id="games">
+                <option value ="">选择游戏</option>
+            </select>
+            <select id="gameServer">
+                <option value ="">选择服务器</option>
+            </select>
+        </li>
+        <li id="denominationID">
+            <span class="left">充值金额:</span>
+            <ul class="left pay_num">
+                <li><label><input type="radio" value="0.01" id="denominationYuan" name="pay[money]">0.01元</label></li>
+                <li><label><input type="radio" value="10" id="denominationYuan" name="pay[money]">10元</label></li>
+                <li><label><input type="radio" value="30" id="denominationYuan" name="pay[money]">30元</label></li>
+                <li class="cur_paynum"><label><input type="radio" value="50" id="denominationYuan" name="pay[money]" checked="checked">50元</label></li>
+                <li><label><input type="radio" value="100" id="denominationYuan" name="pay[money]">100元</label></li>
+                <li><label><input type="radio" value="500" id="denominationYuan" name="pay[money]" >500元</label></li>
+                <li><label><input type="radio" value="1000" id="denominationYuan" name="pay[money]" >1000元</label></li>
+                <li><label><input type="radio" value="2000" id="denominationYuan" name="pay[money]" >2000元</label></li>
+                <li class="last"><input type="text" maxlength="5" id="denominationYuanCustom" name="moneyCustom">元</li>
+            </ul>
+        </li>
+            <li id="bankID">
+                <span>选择银行</span>
+                <ul class="bank_chose">
+                  
+                </ul>
+            </li>
+           <li id="openMore"><div class="more more_open"><a>更多</a></div></li>
+           <li id="closeMore"><div class="more_close more"><a>收起</a></div></li>
+        </ul>
+    </form>
+        <a class="btn_orange_l" href="javascript:void(0);" id="buttonOK1">确定充值</a>
+        <p class="explain">
+            <span>支付宝余额支付：</span>
+            只要您的支付宝账户中存有余额，就可以为游戏进行充值。
+        </p>
+    </div>
+</div>
+<div id="pop_message" class="infor_sure">
+    <h2>请确认充值信息<span id="pop_close"></span></h2>
+    <div class="bottom">
+    <ul>
+        <li><span>充值方式：</span> <p id="payName">余额支付(支付宝)</p></li>
+        <li><span>订单号：</span>  <p id="orderNoShow">201409161147584973</p></li>
+        <li><span>充值账号：</span>  <p id="username">penny99199</p></li>
+        <li><span>游戏：</span>  <p id="gameAndServer">七杀   1050服</p></li>
+        <li><span>充值金额：</span>  <p><em id="money">100</em> 元</p></li>
+    </ul>
+        <a href="javascript:void(0);" class="btn_orange_l" id="buttonOK2">确定充值</a>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</html>
+</body>";i:2;s:6505:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台充值平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<div class="left wrap240">
+    <div class="way_pay pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">请选择充值方式</h2>
+        </div>
+        <ul id="payType">
+            
+        </ul>
+    </div>
+    <div class="server_cen pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li>客服电话：400-188-1888</li>
+            <li>服务时间：7*24小时</li>
+        </ul>
+    </div>
+    <div class="normal_pro pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li><a href="#" target="_blank">骏网一卡通充值比例调整公告</a> </li>
+            <li><a href="#" target="_blank">第三方账号（QQ、微博）登录相关操</a></li>
+            <li><a href="#" target="_blank">充值方式介绍</a></li>
+            <li><a href="#" target="_blank">账号密保设置流程与FAQ</a></li>
+            <li><a href="#" target="_blank">账号密码找回流程</a></li>
+            <li><a href="#" target="_blank">网页游戏充值常见问题FAQ</a></li>
+        </ul>
+    </div>
+</div>
+ <div class="wrap720 pad left"  id="zf_02">
+        <div class="arrow arrow_01"></div>
+        <div class="module_hd">
+            <h2>您当前选择的是“<span class="hd_highlight">余额支付(支付宝)</span>”充值方式</h2>
+        </div>
+     <form id="payForm" method="post">
+        <input type="text" placeholder="订单编号" id="orderNo" name="pay[orderNo]"><br>
+        <input type="text" placeholder="支付方式" id="payTypeInput" name="pay[payType]"><br>
+        <input type="text" placeholder="游戏" id="gameNoInput" name="pay[gameNo]"><br>
+        <input type="text" placeholder="区服" id="gameServerInput" name="pay[serverNo]"><br>
+        <input type="text" placeholder="用户ssoUID" id="ssoUIDInput" name="pay[ssoUID]"><br>
+        <input type="text" placeholder="备注信息" id="remarkInput" name="pay[remarks]"><br>
+        <ul class="cur_pay">
+           <li>
+            <span>充值账号:</span>
+            <input type="text" id="usernameInput">
+        </li>
+        <li>
+            <span>充值到:</span>
+            <label class="payfor cur_payfor"><input type="radio" name="pay[depositWhere]" checked="checked" value="1" >游戏</label>
+            <label class="payfor"><input type="radio" name="pay[depositWhere]" value="2" >V豆</label>
+        </li>
+        <li>
+            <span class="left">选择游戏:</span>
+            <select id="games">
+                <option value ="">选择游戏</option>
+            </select>
+            <select id="gameServer">
+                <option value ="">选择服务器</option>
+            </select>
+        </li>
+        <li id="denominationID">
+            <span class="left">充值金额:</span>
+            <ul class="left pay_num">
+                <li><label><input type="radio" value="0.01" id="denominationYuan" name="pay[money]">0.01元</label></li>
+                <li><label><input type="radio" value="10" id="denominationYuan" name="pay[money]">10元</label></li>
+                <li><label><input type="radio" value="30" id="denominationYuan" name="pay[money]">30元</label></li>
+                <li class="cur_paynum"><label><input type="radio" value="50" id="denominationYuan" name="pay[money]" checked="checked">50元</label></li>
+                <li><label><input type="radio" value="100" id="denominationYuan" name="pay[money]">100元</label></li>
+                <li><label><input type="radio" value="500" id="denominationYuan" name="pay[money]" >500元</label></li>
+                <li><label><input type="radio" value="1000" id="denominationYuan" name="pay[money]" >1000元</label></li>
+                <li><label><input type="radio" value="2000" id="denominationYuan" name="pay[money]" >2000元</label></li>
+                <li class="last"><input type="text" maxlength="5" id="denominationYuanCustom" name="moneyCustom">元</li>
+            </ul>
+        </li>
+            <li id="bankID">
+                <span>选择银行</span>
+                <ul class="bank_chose">
+                  
+                </ul>
+            </li>
+           <li id="openMore"><div class="more more_open"><a>更多</a></div></li>
+           <li id="closeMore"><div class="more_close more"><a>收起</a></div></li>
+        </ul>
+    </form>
+        <a class="btn_orange_l" href="javascript:void(0);" id="buttonOK1">确定充值</a>
+        <p class="explain">
+            <span>支付宝余额支付：</span>
+            只要您的支付宝账户中存有余额，就可以为游戏进行充值。
+        </p>
+    </div>
+</div>
+<div id="pop_message" class="infor_sure">
+    <h2>请确认充值信息<span id="pop_close"></span></h2>
+    <div class="bottom">
+    <ul>
+        <li><span>充值方式：</span> <p id="payName">余额支付(支付宝)</p></li>
+        <li><span>订单号：</span>  <p id="orderNoShow">201409161147584973</p></li>
+        <li><span>充值账号：</span>  <p id="username">penny99199</p></li>
+        <li><span>游戏：</span>  <p id="gameAndServer">七杀   1050服</p></li>
+        <li><span>充值金额：</span>  <p><em id="money">100</em> 元</p></li>
+    </ul>
+        <a href="javascript:void(0);" class="btn_orange_l" id="buttonOK2">确定充值</a>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</html>
+</body>";i:3;s:6714:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台充值平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<div class="left wrap240">
+    <div class="way_pay pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">请选择充值方式</h2>
+        </div>
+        <ul id="payType">
+            
+        </ul>
+    </div>
+    <div class="server_cen pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li>客服电话：400-188-1888</li>
+            <li>服务时间：7*24小时</li>
+        </ul>
+    </div>
+    <div class="normal_pro pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li><a href="#" target="_blank">骏网一卡通充值比例调整公告</a> </li>
+            <li><a href="#" target="_blank">第三方账号（QQ、微博）登录相关操</a></li>
+            <li><a href="#" target="_blank">充值方式介绍</a></li>
+            <li><a href="#" target="_blank">账号密保设置流程与FAQ</a></li>
+            <li><a href="#" target="_blank">账号密码找回流程</a></li>
+            <li><a href="#" target="_blank">网页游戏充值常见问题FAQ</a></li>
+        </ul>
+    </div>
+</div>
+ <div class="wrap720 pad left"  id="zf_02">
+        <div class="arrow arrow_01"></div>
+        <div class="module_hd">
+            <h2>您当前选择的是“<span class="hd_highlight">余额支付(支付宝)</span>”充值方式</h2>
+        </div>
+     <form id="payForm" method="post">
+        <input type="text" placeholder="订单编号" id="orderNo" name="pay[orderNo]"><br>
+        <input type="text" placeholder="支付方式" id="payTypeInput" name="pay[payType]"><br>
+        <input type="text" placeholder="游戏" id="gameNoInput" name="pay[gameNo]"><br>
+        <input type="text" placeholder="区服" id="gameServerInput" name="pay[serverNo]"><br>
+        <input type="text" placeholder="用户ssoUID" id="ssoUIDInput" name="pay[ssoUID]"><br>
+        <input type="text" placeholder="备注信息" id="remarkInput" name="pay[remarks]"><br>
+
+        <input type="text" placeholder="第三方唯一码" id="thirdOnlyID" name="pay[thirdOnlyID]"><br>
+        <input type="text" placeholder="第三方标识" id="thirdName" name="pay[thirdName]"><br>
+        <ul class="cur_pay">
+           <li>
+            <span>充值账号:</span>
+            <input type="text" id="usernameInput">
+        </li>
+        <li>
+            <span>充值到:</span>
+            <label class="payfor cur_payfor"><input type="radio" name="pay[depositWhere]" checked="checked" value="1" >游戏</label>
+            <label class="payfor"><input type="radio" name="pay[depositWhere]" value="2" >V豆</label>
+        </li>
+        <li>
+            <span class="left">选择游戏:</span>
+            <select id="games">
+                <option value ="">选择游戏</option>
+            </select>
+            <select id="gameServer">
+                <option value ="">选择服务器</option>
+            </select>
+        </li>
+        <li id="denominationID">
+            <span class="left">充值金额:</span>
+            <ul class="left pay_num">
+                <li><label><input type="radio" value="0.01" id="denominationYuan" name="pay[money]">0.01元</label></li>
+                <li><label><input type="radio" value="10" id="denominationYuan" name="pay[money]">10元</label></li>
+                <li><label><input type="radio" value="30" id="denominationYuan" name="pay[money]">30元</label></li>
+                <li class="cur_paynum"><label><input type="radio" value="50" id="denominationYuan" name="pay[money]" checked="checked">50元</label></li>
+                <li><label><input type="radio" value="100" id="denominationYuan" name="pay[money]">100元</label></li>
+                <li><label><input type="radio" value="500" id="denominationYuan" name="pay[money]" >500元</label></li>
+                <li><label><input type="radio" value="1000" id="denominationYuan" name="pay[money]" >1000元</label></li>
+                <li><label><input type="radio" value="2000" id="denominationYuan" name="pay[money]" >2000元</label></li>
+                <li class="last"><input type="text" maxlength="5" id="denominationYuanCustom" name="moneyCustom">元</li>
+            </ul>
+        </li>
+            <li id="bankID">
+                <span>选择银行</span>
+                <ul class="bank_chose">
+                  
+                </ul>
+            </li>
+           <li id="openMore"><div class="more more_open"><a>更多</a></div></li>
+           <li id="closeMore"><div class="more_close more"><a>收起</a></div></li>
+        </ul>
+    </form>
+        <a class="btn_orange_l" href="javascript:void(0);" id="buttonOK1">确定充值</a>
+        <p class="explain">
+            <span>支付宝余额支付：</span>
+            只要您的支付宝账户中存有余额，就可以为游戏进行充值。
+        </p>
+    </div>
+</div>
+<div id="pop_message" class="infor_sure">
+    <h2>请确认充值信息<span id="pop_close"></span></h2>
+    <div class="bottom">
+    <ul>
+        <li><span>充值方式：</span> <p id="payName">余额支付(支付宝)</p></li>
+        <li><span>订单号：</span>  <p id="orderNoShow">201409161147584973</p></li>
+        <li><span>充值账号：</span>  <p id="username">penny99199</p></li>
+        <li><span>游戏：</span>  <p id="gameAndServer">七杀   1050服</p></li>
+        <li><span>充值金额：</span>  <p><em id="money">100</em> 元</p></li>
+    </ul>
+        <a href="javascript:void(0);" class="btn_orange_l" id="buttonOK2">确定充值</a>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</html>
+</body>";i:4;s:6644:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台充值平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<div class="left wrap240">
+    <div class="way_pay pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">请选择充值方式</h2>
+        </div>
+        <ul id="payType">
+            
+        </ul>
+    </div>
+    <div class="server_cen pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li>客服电话：400-188-1888</li>
+            <li>服务时间：7*24小时</li>
+        </ul>
+    </div>
+    <div class="normal_pro pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li><a href="#" target="_blank">骏网一卡通充值比例调整公告</a> </li>
+            <li><a href="#" target="_blank">第三方账号（QQ、微博）登录相关操</a></li>
+            <li><a href="#" target="_blank">充值方式介绍</a></li>
+            <li><a href="#" target="_blank">账号密保设置流程与FAQ</a></li>
+            <li><a href="#" target="_blank">账号密码找回流程</a></li>
+            <li><a href="#" target="_blank">网页游戏充值常见问题FAQ</a></li>
+        </ul>
+    </div>
+</div>
+ <div class="wrap720 pad left"  id="zf_02">
+        <div class="arrow arrow_01"></div>
+        <div class="module_hd">
+            <h2>您当前选择的是“<span class="hd_highlight">余额支付(支付宝)</span>”充值方式</h2>
+        </div>
+     <form id="payForm" method="post">
+        <input type="text" placeholder="订单编号" id="orderNo" name="pay[orderNo]"><br>
+        <input type="text" placeholder="支付方式" id="payTypeInput" name="pay[payType]"><br>
+        <input type="text" placeholder="游戏" id="gameNoInput" name="pay[gameNo]"><br>
+        <input type="text" placeholder="区服" id="gameServerInput" name="pay[serverNo]"><br>
+        <input type="text" placeholder="用户ssoUID" id="ssoUIDInput" name="pay[ssoUID]"><br>
+        <input type="text" placeholder="备注信息" id="remarkInput" name="pay[remarks]"><br>
+
+        <input type="text" placeholder="第三方唯一码" id="thirdOnlyID" name="pay[thirdOnlyID]"><br>
+        <input type="text" placeholder="第三方标识" id="thirdName" name="pay[thirdName]"><br>
+        <ul class="cur_pay">
+           <li>
+            <span>充值账号:</span>
+            <input type="text" id="usernameInput">
+        </li>
+        <li>
+            <span>充值到:</span>
+            <label class="payfor cur_payfor"><input type="radio" name="pay[depositWhere]" checked="checked" value="1" >游戏</label>
+            <label class="payfor"><input type="radio" name="pay[depositWhere]" value="2" >V豆</label>
+        </li>
+        <li>
+            <span class="left">选择游戏:</span>
+            <select id="games">
+                <option value ="">选择游戏</option>
+            </select>
+            <select id="gameServer">
+                <option value ="">选择服务器</option>
+            </select>
+        </li>
+        <li id="denominationID">
+            <span class="left">充值金额:</span>
+            <ul class="left pay_num">
+                <li><label><input type="radio" value="0.01" id="denominationYuan" name="pay[money]">0.01元</label></li>
+                <li><label><input type="radio" value="10" id="denominationYuan" name="pay[money]">10元</label></li>
+                <li><label><input type="radio" value="30" id="denominationYuan" name="pay[money]">30元</label></li>
+                <li class="cur_paynum"><label><input type="radio" value="50" id="denominationYuan" name="pay[money]" checked="checked">50元</label></li>
+                <li><label><input type="radio" value="100" id="denominationYuan" name="pay[money]">100元</label></li>
+                <li><label><input type="radio" value="500" id="denominationYuan" name="pay[money]" >500元</label></li>
+                <li><label><input type="radio" value="1000" id="denominationYuan" name="pay[money]" >1000元</label></li>
+                <li><label><input type="radio" value="2000" id="denominationYuan" name="pay[money]" >2000元</label></li>
+                <li class="last"><input type="text" maxlength="5" id="denominationYuanCustom" name="moneyCustom">元</li>
+            </ul>
+        </li>
+            <li id="bankID">
+                <span>选择银行</span>
+                <ul class="bank_chose">
+                  
+                </ul>
+            </li>
+           <li id="openMore"><div class="more more_open"><a>更多</a></div></li>
+           <li id="closeMore"><div class="more_close more"><a>收起</a></div></li>
+        </ul>
+    </form>
+        <a class="btn_orange_l" href="javascript:void(0);" id="buttonOK1">确定充值</a>
+        <p class="explain">
+            <span>支付宝余额支付：</span>
+            只要您的支付宝账户中存有余额，就可以为游戏进行充值。
+        </p>
+    </div>
+</div>
+<div id="pop_message" class="infor_sure">
+    <h2>请确认充值信息<span id="pop_close"></span></h2>
+    <div class="bottom">
+    <ul>
+        <li><span>充值方式：</span> <p id="payName"></p></li>
+        <li><span>订单号：</span>  <p id="orderNoShow"></p></li>
+        <li><span>充值账号：</span>  <p id="username"></p></li>
+        <li><span>游戏：</span>  <p id="gameAndServer"></p></li>
+        <li><span>充值金额：</span>  <p><em id="money"></em> 元</p></li>
+    </ul>
+        <a href="javascript:void(0);" class="btn_orange_l" id="buttonOK2">确定充值</a>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</html>
+</body>";i:5;s:6668:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台充值平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<div class="left wrap240">
+    <div class="way_pay pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">请选择充值方式</h2>
+        </div>
+        <ul id="payType">
+            
+        </ul>
+    </div>
+    <div class="server_cen pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li>客服电话：400-188-1888</li>
+            <li>服务时间：7*24小时</li>
+        </ul>
+    </div>
+    <div class="normal_pro pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li><a href="#" target="_blank">骏网一卡通充值比例调整公告</a> </li>
+            <li><a href="#" target="_blank">第三方账号（QQ、微博）登录相关操</a></li>
+            <li><a href="#" target="_blank">充值方式介绍</a></li>
+            <li><a href="#" target="_blank">账号密保设置流程与FAQ</a></li>
+            <li><a href="#" target="_blank">账号密码找回流程</a></li>
+            <li><a href="#" target="_blank">网页游戏充值常见问题FAQ</a></li>
+        </ul>
+    </div>
+</div>
+ <div class="wrap720 pad left"  id="zf_02">
+        <div class="arrow arrow_01"></div>
+        <div class="module_hd">
+            <h2>您当前选择的是“<span class="hd_highlight">余额支付(支付宝)</span>”充值方式</h2>
+        </div>
+     <form id="payForm" method="post">
+        <input type="text" placeholder="订单编号" id="orderNo" name="pay[orderNo]"><br>
+        <input type="text" placeholder="支付方式" id="payTypeInput" name="pay[payType]"><br>
+        <input type="text" placeholder="游戏" id="gameNoInput" name="pay[gameNo]"><br>
+        <input type="text" placeholder="区服" id="gameServerInput" name="pay[serverNo]"><br>
+        <input type="text" placeholder="用户ssoUID" id="ssoUIDInput" name="pay[ssoUID]"><br>
+        <input type="text" placeholder="备注信息" id="remarkInput" name="pay[remarks]"><br>
+
+        <input type="text" placeholder="第三方唯一码" id="thirdOnlyID" name="pay[thirdOnlyID]"><br>
+        <input type="text" placeholder="第三方标识" id="thirdName" name="pay[thirdName]"><br>
+        <ul class="cur_pay">
+           <li>
+            <span>充值账号:</span>
+            <input type="text" id="usernameInput">
+        </li>
+        <li>
+            <span>充值到:</span>
+            <label class="payfor cur_payfor"><input type="radio" id="toGame" name="pay[depositWhere]" checked="checked" value="1" >游戏</label>
+            <label class="payfor"><input type="radio" id="toVDou" name="pay[depositWhere]" value="2" >V豆</label>
+        </li>
+        <li>
+            <span class="left">选择游戏:</span>
+            <select id="games">
+                <option value ="">选择游戏</option>
+            </select>
+            <select id="gameServer">
+                <option value ="">选择服务器</option>
+            </select>
+        </li>
+        <li id="denominationID">
+            <span class="left">充值金额:</span>
+            <ul class="left pay_num">
+                <li><label><input type="radio" value="0.01" id="denominationYuan" name="pay[money]">0.01元</label></li>
+                <li><label><input type="radio" value="10" id="denominationYuan" name="pay[money]">10元</label></li>
+                <li><label><input type="radio" value="30" id="denominationYuan" name="pay[money]">30元</label></li>
+                <li class="cur_paynum"><label><input type="radio" value="50" id="denominationYuan" name="pay[money]" checked="checked">50元</label></li>
+                <li><label><input type="radio" value="100" id="denominationYuan" name="pay[money]">100元</label></li>
+                <li><label><input type="radio" value="500" id="denominationYuan" name="pay[money]" >500元</label></li>
+                <li><label><input type="radio" value="1000" id="denominationYuan" name="pay[money]" >1000元</label></li>
+                <li><label><input type="radio" value="2000" id="denominationYuan" name="pay[money]" >2000元</label></li>
+                <li class="last"><input type="text" maxlength="5" id="denominationYuanCustom" name="moneyCustom">元</li>
+            </ul>
+        </li>
+            <li id="bankID">
+                <span>选择银行</span>
+                <ul class="bank_chose">
+                  
+                </ul>
+            </li>
+           <li id="openMore"><div class="more more_open"><a>更多</a></div></li>
+           <li id="closeMore"><div class="more_close more"><a>收起</a></div></li>
+        </ul>
+    </form>
+        <a class="btn_orange_l" href="javascript:void(0);" id="buttonOK1">确定充值</a>
+        <p class="explain">
+            <span>支付宝余额支付：</span>
+            只要您的支付宝账户中存有余额，就可以为游戏进行充值。
+        </p>
+    </div>
+</div>
+<div id="pop_message" class="infor_sure">
+    <h2>请确认充值信息<span id="pop_close"></span></h2>
+    <div class="bottom">
+    <ul>
+        <li><span>充值方式：</span> <p id="payName"></p></li>
+        <li><span>订单号：</span>  <p id="orderNoShow"></p></li>
+        <li><span>充值账号：</span>  <p id="username"></p></li>
+        <li><span>游戏：</span>  <p id="gameAndServer"></p></li>
+        <li><span>充值金额：</span>  <p><em id="money"></em> 元</p></li>
+    </ul>
+        <a href="javascript:void(0);" class="btn_orange_l" id="buttonOK2">确定充值</a>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</html>
+</body>";i:6;s:6459:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台充值平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<div class="left wrap240">
+    <div class="way_pay pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">请选择充值方式</h2>
+        </div>
+        <ul id="payType">
+            
+        </ul>
+    </div>
+    <div class="server_cen pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li>客服电话：400-188-1888</li>
+            <li>服务时间：7*24小时</li>
+        </ul>
+    </div>
+    <div class="normal_pro pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li><a href="#" target="_blank">骏网一卡通充值比例调整公告</a> </li>
+            <li><a href="#" target="_blank">第三方账号（QQ、微博）登录相关操</a></li>
+            <li><a href="#" target="_blank">充值方式介绍</a></li>
+            <li><a href="#" target="_blank">账号密保设置流程与FAQ</a></li>
+            <li><a href="#" target="_blank">账号密码找回流程</a></li>
+            <li><a href="#" target="_blank">网页游戏充值常见问题FAQ</a></li>
+        </ul>
+    </div>
+</div>
+ <div class="wrap720 pad left"  id="zf_02">
+        <div class="arrow arrow_01"></div>
+        <div class="module_hd">
+            <h2>您当前选择的是“<span class="hd_highlight">余额支付(支付宝)</span>”充值方式</h2>
+        </div>
+     <form id="payForm" method="post">
+        <input type="text" placeholder="订单编号" id="orderNo" name="pay[orderNo]"><br>
+        <input type="text" placeholder="支付方式" id="payTypeInput" name="pay[payType]"><br>
+        <input type="text" placeholder="游戏" id="gameNoInput" name="pay[gameNo]"><br>
+        <input type="text" placeholder="区服" id="gameServerInput" name="pay[serverNo]"><br>
+        <input type="text" placeholder="用户ssoUID" id="ssoUIDInput" name="pay[ssoUID]"><br>
+        <input type="text" placeholder="备注信息" id="remarkInput" name="pay[remarks]"><br>
+        <ul class="cur_pay">
+           <li>
+            <span>充值账号:</span>
+            <input type="text" id="usernameInput">
+        </li>
+        <li>
+            <span>充值到:</span>
+            <label class="payfor cur_payfor"><input type="radio" id="toGame" name="pay[depositWhere]" checked="checked" value="1" >游戏</label>
+            <label class="payfor"><input type="radio" id="toVDou" name="pay[depositWhere]" value="2" >V豆</label>
+        </li>
+        <li>
+            <span class="left">选择游戏:</span>
+            <select id="games">
+                <option value ="">选择游戏</option>
+            </select>
+            <select id="gameServer">
+                <option value ="">选择服务器</option>
+            </select>
+        </li>
+        <li id="denominationID">
+            <span class="left">充值金额:</span>
+            <ul class="left pay_num">
+                <li><label><input type="radio" value="0.01" id="denominationYuan" name="pay[money]">0.01元</label></li>
+                <li><label><input type="radio" value="10" id="denominationYuan" name="pay[money]">10元</label></li>
+                <li><label><input type="radio" value="30" id="denominationYuan" name="pay[money]">30元</label></li>
+                <li class="cur_paynum"><label><input type="radio" value="50" id="denominationYuan" name="pay[money]" checked="checked">50元</label></li>
+                <li><label><input type="radio" value="100" id="denominationYuan" name="pay[money]">100元</label></li>
+                <li><label><input type="radio" value="500" id="denominationYuan" name="pay[money]" >500元</label></li>
+                <li><label><input type="radio" value="1000" id="denominationYuan" name="pay[money]" >1000元</label></li>
+                <li><label><input type="radio" value="2000" id="denominationYuan" name="pay[money]" >2000元</label></li>
+                <li class="last"><input type="text" maxlength="5" id="denominationYuanCustom" name="moneyCustom">元</li>
+            </ul>
+        </li>
+            <li id="bankID">
+                <span>选择银行</span>
+                <ul class="bank_chose">
+                  
+                </ul>
+            </li>
+           <li id="openMore"><div class="more more_open"><a>更多</a></div></li>
+           <li id="closeMore"><div class="more_close more"><a>收起</a></div></li>
+        </ul>
+    </form>
+        <a class="btn_orange_l" href="javascript:void(0);" id="buttonOK1">确定充值</a>
+        <p class="explain">
+            <span>支付宝余额支付：</span>
+            只要您的支付宝账户中存有余额，就可以为游戏进行充值。
+        </p>
+    </div>
+</div>
+<div id="pop_message" class="infor_sure">
+    <h2>请确认充值信息<span id="pop_close"></span></h2>
+    <div class="bottom">
+    <ul>
+        <li><span>充值方式：</span> <p id="payName"></p></li>
+        <li><span>订单号：</span>  <p id="orderNoShow"></p></li>
+        <li><span>充值账号：</span>  <p id="username"></p></li>
+        <li><span>游戏：</span>  <p id="gameAndServer"></p></li>
+        <li><span>充值金额：</span>  <p><em id="money"></em> 元</p></li>
+    </ul>
+        <a href="javascript:void(0);" class="btn_orange_l" id="buttonOK2">确定充值</a>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</html>
+</body>";i:7;s:6480:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台充值平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<div class="left wrap240">
+    <div class="way_pay pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">请选择充值方式</h2>
+        </div>
+        <ul id="payType">
+            
+        </ul>
+    </div>
+    <div class="server_cen pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li>客服电话：400-188-1888</li>
+            <li>服务时间：7*24小时</li>
+        </ul>
+    </div>
+    <div class="normal_pro pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li><a href="#" target="_blank">骏网一卡通充值比例调整公告</a> </li>
+            <li><a href="#" target="_blank">第三方账号（QQ、微博）登录相关操</a></li>
+            <li><a href="#" target="_blank">充值方式介绍</a></li>
+            <li><a href="#" target="_blank">账号密保设置流程与FAQ</a></li>
+            <li><a href="#" target="_blank">账号密码找回流程</a></li>
+            <li><a href="#" target="_blank">网页游戏充值常见问题FAQ</a></li>
+        </ul>
+    </div>
+</div>
+ <div class="wrap720 pad left"  id="zf_02">
+        <div class="arrow arrow_01"></div>
+        <div class="module_hd">
+            <h2>您当前选择的是“<span class="hd_highlight">余额支付(支付宝)</span>”充值方式</h2>
+        </div>
+     <form id="payForm" method="post">
+        <input type="text" placeholder="订单编号" id="orderNo" name="pay[orderNo]"><br>
+        <input type="text" placeholder="支付方式" id="payTypeInput" name="pay[payType]"><br>
+        <input type="text" placeholder="游戏" id="gameNoInput" name="pay[gameNo]"><br>
+        <input type="text" placeholder="区服" id="gameServerInput" name="pay[serverNo]"><br>
+        <input type="text" placeholder="用户ssoUID" id="ssoUIDInput" name="pay[ssoUID]"><br>
+        <input type="text" placeholder="备注信息" id="remarkInput" name="pay[remarks]"><br>
+        <ul class="cur_pay">
+           <li>
+            <span>充值账号:</span>
+            <input type="text" id="usernameInput">
+        </li>
+        <li>
+            <span>充值到:</span>
+            <label class="payfor cur_payfor"><input type="radio" id="toGame" name="pay[depositWhere]" checked="checked" value="1" >游戏</label>
+            <label class="payfor" style="display:none"><input type="radio" id="toVDou" name="pay[depositWhere]" value="2" >V豆</label>
+        </li>
+        <li>
+            <span class="left">选择游戏:</span>
+            <select id="games">
+                <option value ="">选择游戏</option>
+            </select>
+            <select id="gameServer">
+                <option value ="">选择服务器</option>
+            </select>
+        </li>
+        <li id="denominationID">
+            <span class="left">充值金额:</span>
+            <ul class="left pay_num">
+                <li><label><input type="radio" value="0.01" id="denominationYuan" name="pay[money]">0.01元</label></li>
+                <li><label><input type="radio" value="10" id="denominationYuan" name="pay[money]">10元</label></li>
+                <li><label><input type="radio" value="30" id="denominationYuan" name="pay[money]">30元</label></li>
+                <li class="cur_paynum"><label><input type="radio" value="50" id="denominationYuan" name="pay[money]" checked="checked">50元</label></li>
+                <li><label><input type="radio" value="100" id="denominationYuan" name="pay[money]">100元</label></li>
+                <li><label><input type="radio" value="500" id="denominationYuan" name="pay[money]" >500元</label></li>
+                <li><label><input type="radio" value="1000" id="denominationYuan" name="pay[money]" >1000元</label></li>
+                <li><label><input type="radio" value="2000" id="denominationYuan" name="pay[money]" >2000元</label></li>
+                <li class="last"><input type="text" maxlength="5" id="denominationYuanCustom" name="moneyCustom">元</li>
+            </ul>
+        </li>
+            <li id="bankID">
+                <span>选择银行</span>
+                <ul class="bank_chose">
+                  
+                </ul>
+            </li>
+           <li id="openMore"><div class="more more_open"><a>更多</a></div></li>
+           <li id="closeMore"><div class="more_close more"><a>收起</a></div></li>
+        </ul>
+    </form>
+        <a class="btn_orange_l" href="javascript:void(0);" id="buttonOK1">确定充值</a>
+        <p class="explain">
+            <span>支付宝余额支付：</span>
+            只要您的支付宝账户中存有余额，就可以为游戏进行充值。
+        </p>
+    </div>
+</div>
+<div id="pop_message" class="infor_sure">
+    <h2>请确认充值信息<span id="pop_close"></span></h2>
+    <div class="bottom">
+    <ul>
+        <li><span>充值方式：</span> <p id="payName"></p></li>
+        <li><span>订单号：</span>  <p id="orderNoShow"></p></li>
+        <li><span>充值账号：</span>  <p id="username"></p></li>
+        <li><span>游戏：</span>  <p id="gameAndServer"></p></li>
+        <li><span>充值金额：</span>  <p><em id="money"></em> 元</p></li>
+    </ul>
+        <a href="javascript:void(0);" class="btn_orange_l" id="buttonOK2">确定充值</a>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</html>
+</body>";i:8;s:6492:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台充值平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<div class="left wrap240">
+    <div class="way_pay pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">请选择充值方式</h2>
+        </div>
+        <ul id="payType">
+            
+        </ul>
+    </div>
+    <div class="server_cen pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li>客服电话：400-188-1888</li>
+            <li>服务时间：7*24小时</li>
+        </ul>
+    </div>
+    <div class="normal_pro pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li><a href="#" target="_blank">骏网一卡通充值比例调整公告</a> </li>
+            <li><a href="#" target="_blank">第三方账号（QQ、微博）登录相关操</a></li>
+            <li><a href="#" target="_blank">充值方式介绍</a></li>
+            <li><a href="#" target="_blank">账号密保设置流程与FAQ</a></li>
+            <li><a href="#" target="_blank">账号密码找回流程</a></li>
+            <li><a href="#" target="_blank">网页游戏充值常见问题FAQ</a></li>
+        </ul>
+    </div>
+</div>
+ <div class="wrap720 pad left"  id="zf_02">
+        <div class="arrow arrow_01"></div>
+        <div class="module_hd">
+            <h2>您当前选择的是“<span class="hd_highlight">余额支付(支付宝)</span>”充值方式</h2>
+        </div>
+     <form id="payForm" method="post">
+        <input type="hidden" placeholder="订单编号" id="orderNo" name="pay[orderNo]"><br>
+        <input type="hidden" placeholder="支付方式" id="payTypeInput" name="pay[payType]"><br>
+        <input type="hidden" placeholder="游戏" id="gameNoInput" name="pay[gameNo]"><br>
+        <input type="hidden" placeholder="区服" id="gameServerInput" name="pay[serverNo]"><br>
+        <input type="hidden" placeholder="用户ssoUID" id="ssoUIDInput" name="pay[ssoUID]"><br>
+        <input type="hidden" placeholder="备注信息" id="remarkInput" name="pay[remarks]"><br>
+        <ul class="cur_pay">
+           <li>
+            <span>充值账号:</span>
+            <input type="text" id="usernameInput">
+        </li>
+        <li>
+            <span>充值到:</span>
+            <label class="payfor cur_payfor"><input type="radio" id="toGame" name="pay[depositWhere]" checked="checked" value="1" >游戏</label>
+            <label class="payfor" style="display:none"><input type="radio" id="toVDou" name="pay[depositWhere]" value="2" >V豆</label>
+        </li>
+        <li>
+            <span class="left">选择游戏:</span>
+            <select id="games">
+                <option value ="">选择游戏</option>
+            </select>
+            <select id="gameServer">
+                <option value ="">选择服务器</option>
+            </select>
+        </li>
+        <li id="denominationID">
+            <span class="left">充值金额:</span>
+            <ul class="left pay_num">
+                <li><label><input type="radio" value="0.01" id="denominationYuan" name="pay[money]">0.01元</label></li>
+                <li><label><input type="radio" value="10" id="denominationYuan" name="pay[money]">10元</label></li>
+                <li><label><input type="radio" value="30" id="denominationYuan" name="pay[money]">30元</label></li>
+                <li class="cur_paynum"><label><input type="radio" value="50" id="denominationYuan" name="pay[money]" checked="checked">50元</label></li>
+                <li><label><input type="radio" value="100" id="denominationYuan" name="pay[money]">100元</label></li>
+                <li><label><input type="radio" value="500" id="denominationYuan" name="pay[money]" >500元</label></li>
+                <li><label><input type="radio" value="1000" id="denominationYuan" name="pay[money]" >1000元</label></li>
+                <li><label><input type="radio" value="2000" id="denominationYuan" name="pay[money]" >2000元</label></li>
+                <li class="last"><input type="text" maxlength="5" id="denominationYuanCustom" name="moneyCustom">元</li>
+            </ul>
+        </li>
+            <li id="bankID">
+                <span>选择银行</span>
+                <ul class="bank_chose">
+                  
+                </ul>
+            </li>
+           <li id="openMore"><div class="more more_open"><a>更多</a></div></li>
+           <li id="closeMore"><div class="more_close more"><a>收起</a></div></li>
+        </ul>
+    </form>
+        <a class="btn_orange_l" href="javascript:void(0);" id="buttonOK1">确定充值</a>
+        <p class="explain">
+            <span>支付宝余额支付：</span>
+            只要您的支付宝账户中存有余额，就可以为游戏进行充值。
+        </p>
+    </div>
+</div>
+<div id="pop_message" class="infor_sure">
+    <h2>请确认充值信息<span id="pop_close"></span></h2>
+    <div class="bottom">
+    <ul>
+        <li><span>充值方式：</span> <p id="payName"></p></li>
+        <li><span>订单号：</span>  <p id="orderNoShow"></p></li>
+        <li><span>充值账号：</span>  <p id="username"></p></li>
+        <li><span>游戏：</span>  <p id="gameAndServer"></p></li>
+        <li><span>充值金额：</span>  <p><em id="money"></em> 元</p></li>
+    </ul>
+        <a href="javascript:void(0);" class="btn_orange_l" id="buttonOK2">确定充值</a>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</html>
+</body>";i:9;s:6346:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台充值平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<div class="left wrap240">
+    <div class="way_pay pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">请选择充值方式</h2>
+        </div>
+        <ul id="payType">
+            
+        </ul>
+    </div>
+    <div class="server_cen pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li>客服电话：400-188-1888</li>
+            <li>服务时间：7*24小时</li>
+        </ul>
+    </div>
+    <div class="normal_pro pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li><a href="#" target="_blank">骏网一卡通充值比例调整公告</a> </li>
+            <li><a href="#" target="_blank">第三方账号（QQ、微博）登录相关操</a></li>
+            <li><a href="#" target="_blank">充值方式介绍</a></li>
+            <li><a href="#" target="_blank">账号密保设置流程与FAQ</a></li>
+            <li><a href="#" target="_blank">账号密码找回流程</a></li>
+            <li><a href="#" target="_blank">网页游戏充值常见问题FAQ</a></li>
+        </ul>
+    </div>
+</div>
+ <div class="wrap720 pad left"  id="zf_02">
+        <div class="arrow arrow_01"></div>
+        <div class="module_hd">
+            <h2>您当前选择的是“<span class="hd_highlight">余额支付(支付宝)</span>”充值方式</h2>
+        </div>
+     <form id="payForm" method="post">
+        <input type="hidden" placeholder="订单编号" id="orderNo" name="pay[orderNo]">
+        <input type="hidden" placeholder="支付方式" id="payTypeInput" name="pay[payType]">
+        <input type="hidden" placeholder="游戏" id="gameNoInput" name="pay[gameNo]">
+        <input type="hidden" placeholder="区服" id="gameServerInput" name="pay[serverNo]">
+        <input type="hidden" placeholder="用户ssoUID" id="ssoUIDInput" name="pay[ssoUID]">
+        <input type="hidden" placeholder="备注信息" id="remarkInput" name="pay[remarks]">
+        <ul class="cur_pay">
+           <li>
+            <span>充值账号:</span>
+            <input type="text" id="usernameInput">
+        </li>
+        <li>
+            <span>充值到:</span>
+            <label class="payfor cur_payfor"><input type="radio" id="toGame" name="pay[depositWhere]" checked="checked" value="1" >游戏</label>
+            <label class="payfor" style="display:none"><input type="radio" id="toVDou" name="pay[depositWhere]" value="2" >V豆</label>
+        </li>
+        <li>
+            <span class="left">选择游戏:</span>
+            <select id="games">
+                <option value ="">选择游戏</option>
+            </select>
+            <select id="gameServer">
+                <option value ="">选择服务器</option>
+            </select>
+        </li>
+        <li id="denominationID">
+            <span class="left">充值金额:</span>
+            <ul class="left pay_num">
+                <li><label><input type="radio" value="10" id="denominationYuan" name="pay[money]">10元</label></li>
+                <li><label><input type="radio" value="30" id="denominationYuan" name="pay[money]">30元</label></li>
+                <li class="cur_paynum"><label><input type="radio" value="50" id="denominationYuan" name="pay[money]" checked="checked">50元</label></li>
+                <li><label><input type="radio" value="100" id="denominationYuan" name="pay[money]">100元</label></li>
+                <li><label><input type="radio" value="500" id="denominationYuan" name="pay[money]" >500元</label></li>
+                <li><label><input type="radio" value="1000" id="denominationYuan" name="pay[money]" >1000元</label></li>
+                <li><label><input type="radio" value="2000" id="denominationYuan" name="pay[money]" >2000元</label></li>
+                <li class="last"><input type="text" maxlength="5" id="denominationYuanCustom" name="moneyCustom">元</li>
+            </ul>
+        </li>
+            <li id="bankID">
+                <span>选择银行</span>
+                <ul class="bank_chose">
+                  
+                </ul>
+            </li>
+           <li id="openMore"><div class="more more_open"><a>更多</a></div></li>
+           <li id="closeMore"><div class="more_close more"><a>收起</a></div></li>
+        </ul>
+    </form>
+        <a class="btn_orange_l" href="javascript:void(0);" id="buttonOK1">确定充值</a>
+        <p class="explain">
+            <span>支付宝余额支付：</span>
+            只要您的支付宝账户中存有余额，就可以为游戏进行充值。
+        </p>
+    </div>
+</div>
+<div id="pop_message" class="infor_sure">
+    <h2>请确认充值信息<span id="pop_close"></span></h2>
+    <div class="bottom">
+    <ul>
+        <li><span>充值方式：</span> <p id="payName"></p></li>
+        <li><span>订单号：</span>  <p id="orderNoShow"></p></li>
+        <li><span>充值账号：</span>  <p id="username"></p></li>
+        <li><span>游戏：</span>  <p id="gameAndServer"></p></li>
+        <li><span>充值金额：</span>  <p><em id="money"></em> 元</p></li>
+    </ul>
+        <a href="javascript:void(0);" class="btn_orange_l" id="buttonOK2">确定充值</a>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</html>
+</body>";i:10;s:6363:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台充值平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<div class="left wrap240">
+    <div class="way_pay pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">请选择充值方式</h2>
+        </div>
+        <ul id="payType">
+            
+        </ul>
+    </div>
+    <div class="server_cen pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li>客服电话：400-188-1888</li>
+            <li>服务时间：7*24小时</li>
+        </ul>
+    </div>
+    <div class="normal_pro pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li><a href="#" target="_blank">骏网一卡通充值比例调整公告</a> </li>
+            <li><a href="#" target="_blank">第三方账号（QQ、微博）登录相关操</a></li>
+            <li><a href="#" target="_blank">充值方式介绍</a></li>
+            <li><a href="#" target="_blank">账号密保设置流程与FAQ</a></li>
+            <li><a href="#" target="_blank">账号密码找回流程</a></li>
+            <li><a href="#" target="_blank">网页游戏充值常见问题FAQ</a></li>
+        </ul>
+    </div>
+</div>
+ <div class="wrap720 pad left"  id="zf_02">
+        <div class="arrow arrow_01"></div>
+        <div class="module_hd">
+            <h2>您当前选择的是“<span id="payTypeName" class="hd_highlight">余额支付(支付宝)</span>”充值方式</h2>
+        </div>
+     <form id="payForm" method="post">
+        <input type="hidden" placeholder="订单编号" id="orderNo" name="pay[orderNo]">
+        <input type="hidden" placeholder="支付方式" id="payTypeInput" name="pay[payType]">
+        <input type="hidden" placeholder="游戏" id="gameNoInput" name="pay[gameNo]">
+        <input type="hidden" placeholder="区服" id="gameServerInput" name="pay[serverNo]">
+        <input type="hidden" placeholder="用户ssoUID" id="ssoUIDInput" name="pay[ssoUID]">
+        <input type="hidden" placeholder="备注信息" id="remarkInput" name="pay[remarks]">
+        <ul class="cur_pay">
+           <li>
+            <span>充值账号:</span>
+            <input type="text" id="usernameInput">
+        </li>
+        <li>
+            <span>充值到:</span>
+            <label class="payfor cur_payfor"><input type="radio" id="toGame" name="pay[depositWhere]" checked="checked" value="1" >游戏</label>
+            <label class="payfor" style="display:none"><input type="radio" id="toVDou" name="pay[depositWhere]" value="2" >V豆</label>
+        </li>
+        <li>
+            <span class="left">选择游戏:</span>
+            <select id="games">
+                <option value ="">选择游戏</option>
+            </select>
+            <select id="gameServer">
+                <option value ="">选择服务器</option>
+            </select>
+        </li>
+        <li id="denominationID">
+            <span class="left">充值金额:</span>
+            <ul class="left pay_num">
+                <li><label><input type="radio" value="10" id="denominationYuan" name="pay[money]">10元</label></li>
+                <li><label><input type="radio" value="30" id="denominationYuan" name="pay[money]">30元</label></li>
+                <li class="cur_paynum"><label><input type="radio" value="50" id="denominationYuan" name="pay[money]" checked="checked">50元</label></li>
+                <li><label><input type="radio" value="100" id="denominationYuan" name="pay[money]">100元</label></li>
+                <li><label><input type="radio" value="500" id="denominationYuan" name="pay[money]" >500元</label></li>
+                <li><label><input type="radio" value="1000" id="denominationYuan" name="pay[money]" >1000元</label></li>
+                <li><label><input type="radio" value="2000" id="denominationYuan" name="pay[money]" >2000元</label></li>
+                <li class="last"><input type="text" maxlength="5" id="denominationYuanCustom" name="moneyCustom">元</li>
+            </ul>
+        </li>
+            <li id="bankID">
+                <span>选择银行</span>
+                <ul class="bank_chose">
+                  
+                </ul>
+            </li>
+           <li id="openMore"><div class="more more_open"><a>更多</a></div></li>
+           <li id="closeMore"><div class="more_close more"><a>收起</a></div></li>
+        </ul>
+    </form>
+        <a class="btn_orange_l" href="javascript:void(0);" id="buttonOK1">确定充值</a>
+        <p class="explain">
+            <span>支付宝余额支付：</span>
+            只要您的支付宝账户中存有余额，就可以为游戏进行充值。
+        </p>
+    </div>
+</div>
+<div id="pop_message" class="infor_sure">
+    <h2>请确认充值信息<span id="pop_close"></span></h2>
+    <div class="bottom">
+    <ul>
+        <li><span>充值方式：</span> <p id="payName"></p></li>
+        <li><span>订单号：</span>  <p id="orderNoShow"></p></li>
+        <li><span>充值账号：</span>  <p id="username"></p></li>
+        <li><span>游戏：</span>  <p id="gameAndServer"></p></li>
+        <li><span>充值金额：</span>  <p><em id="money"></em> 元</p></li>
+    </ul>
+        <a href="javascript:void(0);" class="btn_orange_l" id="buttonOK2">确定充值</a>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</html>
+</body>";i:11;s:6340:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台充值平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<div class="left wrap240">
+    <div class="way_pay pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">请选择充值方式</h2>
+        </div>
+        <ul id="payType">
+            
+        </ul>
+    </div>
+    <div class="server_cen pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li>客服电话：400-188-1888</li>
+            <li>服务时间：7*24小时</li>
+        </ul>
+    </div>
+    <div class="normal_pro pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li><a href="#" target="_blank">骏网一卡通充值比例调整公告</a> </li>
+            <li><a href="#" target="_blank">第三方账号（QQ、微博）登录相关操</a></li>
+            <li><a href="#" target="_blank">充值方式介绍</a></li>
+            <li><a href="#" target="_blank">账号密保设置流程与FAQ</a></li>
+            <li><a href="#" target="_blank">账号密码找回流程</a></li>
+            <li><a href="#" target="_blank">网页游戏充值常见问题FAQ</a></li>
+        </ul>
+    </div>
+</div>
+ <div class="wrap720 pad left"  id="zf_02">
+        <div class="arrow arrow_01"></div>
+        <div class="module_hd">
+            <h2>您当前选择的是“<span id="payTypeName" class="hd_highlight"></span>”充值方式</h2>
+        </div>
+     <form id="payForm" method="post">
+        <input type="hidden" placeholder="订单编号" id="orderNo" name="pay[orderNo]">
+        <input type="hidden" placeholder="支付方式" id="payTypeInput" name="pay[payType]">
+        <input type="hidden" placeholder="游戏" id="gameNoInput" name="pay[gameNo]">
+        <input type="hidden" placeholder="区服" id="gameServerInput" name="pay[serverNo]">
+        <input type="hidden" placeholder="用户ssoUID" id="ssoUIDInput" name="pay[ssoUID]">
+        <input type="hidden" placeholder="备注信息" id="remarkInput" name="pay[remarks]">
+        <ul class="cur_pay">
+           <li>
+            <span>充值账号:</span>
+            <input type="text" id="usernameInput">
+        </li>
+        <li>
+            <span>充值到:</span>
+            <label class="payfor cur_payfor"><input type="radio" id="toGame" name="pay[depositWhere]" checked="checked" value="1" >游戏</label>
+            <label class="payfor" style="display:none"><input type="radio" id="toVDou" name="pay[depositWhere]" value="2" >V豆</label>
+        </li>
+        <li>
+            <span class="left">选择游戏:</span>
+            <select id="games">
+                <option value ="">选择游戏</option>
+            </select>
+            <select id="gameServer">
+                <option value ="">选择服务器</option>
+            </select>
+        </li>
+        <li id="denominationID">
+            <span class="left">充值金额:</span>
+            <ul class="left pay_num">
+                <li><label><input type="radio" value="10" id="denominationYuan" name="pay[money]">10元</label></li>
+                <li><label><input type="radio" value="30" id="denominationYuan" name="pay[money]">30元</label></li>
+                <li class="cur_paynum"><label><input type="radio" value="50" id="denominationYuan" name="pay[money]" checked="checked">50元</label></li>
+                <li><label><input type="radio" value="100" id="denominationYuan" name="pay[money]">100元</label></li>
+                <li><label><input type="radio" value="500" id="denominationYuan" name="pay[money]" >500元</label></li>
+                <li><label><input type="radio" value="1000" id="denominationYuan" name="pay[money]" >1000元</label></li>
+                <li><label><input type="radio" value="2000" id="denominationYuan" name="pay[money]" >2000元</label></li>
+                <li class="last"><input type="text" maxlength="5" id="denominationYuanCustom" name="moneyCustom">元</li>
+            </ul>
+        </li>
+            <li id="bankID">
+                <span>选择银行</span>
+                <ul class="bank_chose">
+                  
+                </ul>
+            </li>
+           <li id="openMore"><div class="more more_open"><a>更多</a></div></li>
+           <li id="closeMore"><div class="more_close more"><a>收起</a></div></li>
+        </ul>
+    </form>
+        <a class="btn_orange_l" href="javascript:void(0);" id="buttonOK1">确定充值</a>
+        <p class="explain">
+            <span>支付宝余额支付：</span>
+            只要您的支付宝账户中存有余额，就可以为游戏进行充值。
+        </p>
+    </div>
+</div>
+<div id="pop_message" class="infor_sure">
+    <h2>请确认充值信息<span id="pop_close"></span></h2>
+    <div class="bottom">
+    <ul>
+        <li><span>充值方式：</span> <p id="payName"></p></li>
+        <li><span>订单号：</span>  <p id="orderNoShow"></p></li>
+        <li><span>充值账号：</span>  <p id="username"></p></li>
+        <li><span>游戏：</span>  <p id="gameAndServer"></p></li>
+        <li><span>充值金额：</span>  <p><em id="money"></em> 元</p></li>
+    </ul>
+        <a href="javascript:void(0);" class="btn_orange_l" id="buttonOK2">确定充值</a>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</html>
+</body>";i:12;s:6436:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台充值平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<div class="left wrap240">
+    <div class="way_pay pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">请选择充值方式</h2>
+        </div>
+        <ul id="payType">
+            
+        </ul>
+    </div>
+    <div class="server_cen pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li>客服电话：400-188-1888</li>
+            <li>服务时间：7*24小时</li>
+        </ul>
+    </div>
+    <div class="normal_pro pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li><a href="#" target="_blank">骏网一卡通充值比例调整公告</a> </li>
+            <li><a href="#" target="_blank">第三方账号（QQ、微博）登录相关操</a></li>
+            <li><a href="#" target="_blank">充值方式介绍</a></li>
+            <li><a href="#" target="_blank">账号密保设置流程与FAQ</a></li>
+            <li><a href="#" target="_blank">账号密码找回流程</a></li>
+            <li><a href="#" target="_blank">网页游戏充值常见问题FAQ</a></li>
+        </ul>
+    </div>
+</div>
+ <div class="wrap720 pad left"  id="zf_02">
+        <div class="arrow arrow_01"></div>
+        <div class="module_hd">
+            <h2>您当前选择的是“<span id="payTypeName" class="hd_highlight"></span>”充值方式</h2>
+        </div>
+     <form id="payForm" method="post">
+        <input type="hidden" placeholder="订单编号" id="orderNo" name="pay[orderNo]">
+        <input type="hidden" placeholder="支付方式" id="payTypeInput" name="pay[payType]">
+        <input type="hidden" placeholder="游戏" id="gameNoInput" name="pay[gameNo]">
+        <input type="hidden" placeholder="区服" id="gameServerInput" name="pay[serverNo]">
+        <input type="hidden" placeholder="用户ssoUID" id="ssoUIDInput" name="pay[ssoUID]">
+        <input type="hidden" placeholder="备注信息" id="remarkInput" name="pay[remarks]">
+        <ul class="cur_pay">
+           <li>
+            <span>充值账号:</span>
+            <input type="text" id="usernameInput">
+        </li>
+        <li>
+            <span>充值到:</span>
+            <label class="payfor cur_payfor"><input type="radio" id="toGame" name="pay[depositWhere]" checked="checked" value="1" >游戏</label>
+            <label class="payfor" style="display:none"><input type="radio" id="toVDou" name="pay[depositWhere]" value="2" >V豆</label>
+        </li>
+        <li>
+            <span class="left">选择游戏:</span>
+            <select id="games">
+                <option value ="">选择游戏</option>
+            </select>
+            <select id="gameServer">
+                <option value ="">选择服务器</option>
+            </select>
+        </li>
+        <li id="denominationID">
+            <span class="left">充值金额:</span>
+            <ul class="left pay_num">
+                <li><label><input type="radio" value="10" id="denominationYuan" name="pay[money]">10元</label></li>
+                <li><label><input type="radio" value="30" id="denominationYuan" name="pay[money]">30元</label></li>
+                <li class="cur_paynum"><label><input type="radio" value="50" id="denominationYuan" name="pay[money]" checked="checked">50元</label></li>
+                <li><label><input type="radio" value="100" id="denominationYuan" name="pay[money]">100元</label></li>
+                <li><label><input type="radio" value="500" id="denominationYuan" name="pay[money]" >500元</label></li>
+                <li><label><input type="radio" value="1000" id="denominationYuan" name="pay[money]" >1000元</label></li>
+                <li><label><input type="radio" value="2000" id="denominationYuan" name="pay[money]" >2000元</label></li>
+                <li class="last"><input type="text" maxlength="5" id="denominationYuanCustom" name="moneyCustom">元</li>
+            </ul>
+        </li>
+            <li id="bankID">
+                <span>选择银行</span>
+                <ul class="bank_chose">
+                  
+                </ul>
+            </li>
+           <li id="openMore"><div class="more more_open"><a>更多</a></div></li>
+           <li id="closeMore"><div class="more_close more"><a>收起</a></div></li>
+        </ul>
+    </form>
+        <a class="btn_orange_l" href="javascript:void(0);" id="buttonOK1">确定充值</a>
+        <p class="explain">
+            <span>支付宝余额支付：</span>
+            只要您的支付宝账户中存有余额，就可以为游戏进行充值。
+        </p>
+    </div>
+</div>
+<div id="pop_message" class="infor_sure">
+    <h2>请确认充值信息<span id="pop_close"></span></h2>
+    <div class="bottom">
+    <ul>
+        <li><span>充值方式：</span> <p id="payName"></p></li>
+        <li><span>订单号：</span>  <p id="orderNoShow"></p></li>
+        <li><span>充值账号：</span>  <p id="username"></p></li>
+        <li><span>游戏：</span>  <p id="gameAndServer"></p></li>
+        <li><span>充值金额：</span>  <p><em id="money"></em> 元</p></li>
+    </ul>
+        <a href="javascript:void(0);" class="btn_orange_l" id="buttonOK2">确定充值</a>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</html>
+</body>";i:13;s:6552:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台充值平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<div class="left wrap240">
+    <div class="way_pay pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">请选择充值方式</h2>
+        </div>
+        <ul id="payType">
+            
+        </ul>
+    </div>
+    <div class="server_cen pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li>客服电话：400-188-1888</li>
+            <li>服务时间：7*24小时</li>
+        </ul>
+    </div>
+    <div class="normal_pro pad">
+        <div class="module_hd">
+            <h2 class="module_hd_arrow">客服中心</h2>
+        </div>
+        <ul>
+            <li><a href="#" target="_blank">骏网一卡通充值比例调整公告</a> </li>
+            <li><a href="#" target="_blank">第三方账号（QQ、微博）登录相关操</a></li>
+            <li><a href="#" target="_blank">充值方式介绍</a></li>
+            <li><a href="#" target="_blank">账号密保设置流程与FAQ</a></li>
+            <li><a href="#" target="_blank">账号密码找回流程</a></li>
+            <li><a href="#" target="_blank">网页游戏充值常见问题FAQ</a></li>
+        </ul>
+    </div>
+</div>
+ <div class="wrap720 pad left"  id="zf_02">
+        <div class="arrow arrow_01"></div>
+        <div class="module_hd">
+            <h2>您当前选择的是“<span id="payTypeName" class="hd_highlight"></span>”充值方式</h2>
+        </div>
+     <form id="payForm" method="post">
+        <input type="hidden" placeholder="订单编号" id="orderNo" name="pay[orderNo]">
+        <input type="hidden" placeholder="支付方式" id="payTypeInput" name="pay[payType]">
+        <input type="hidden" placeholder="游戏" id="gameNoInput" name="pay[gameNo]">
+        <input type="hidden" placeholder="区服" id="gameServerInput" name="pay[serverNo]">
+        <input type="hidden" placeholder="用户ssoUID" id="ssoUIDInput" name="pay[ssoUID]">
+        <input type="hidden" placeholder="备注信息" id="remarkInput" name="pay[remarks]">
+        <ul class="cur_pay">
+           <li>
+            <span>充值账号:</span>
+            <input type="text" id="usernameInput">
+        </li>
+        <li>
+            <span>充值到:</span>
+            <label class="payfor cur_payfor"><input type="radio" id="toGame" name="pay[depositWhere]" checked="checked" value="1" >游戏</label>
+            <label class="payfor" style="display:none"><input type="radio" id="toVDou" name="pay[depositWhere]" value="2" >V豆</label>
+        </li>
+        <li>
+            <span class="left">选择游戏:</span>
+            <select id="games">
+                <option value ="">选择游戏</option>
+            </select>
+            <select id="gameServer">
+                <option value ="">选择服务器</option>
+            </select>
+        </li>
+        <li id="denominationID">
+            <span class="left">充值金额:</span>
+            <ul class="left pay_num">
+                <li><label><input type="radio" value="1" id="denominationYuan" name="pay[money]">1元</label></li>
+                <li><label><input type="radio" value="10" id="denominationYuan" name="pay[money]">10元</label></li>
+                <li><label><input type="radio" value="30" id="denominationYuan" name="pay[money]">30元</label></li>
+                <li class="cur_paynum"><label><input type="radio" value="50" id="denominationYuan" name="pay[money]" checked="checked">50元</label></li>
+                <li><label><input type="radio" value="100" id="denominationYuan" name="pay[money]">100元</label></li>
+                <li><label><input type="radio" value="500" id="denominationYuan" name="pay[money]" >500元</label></li>
+                <li><label><input type="radio" value="1000" id="denominationYuan" name="pay[money]" >1000元</label></li>
+                <li><label><input type="radio" value="2000" id="denominationYuan" name="pay[money]" >2000元</label></li>
+                <li class="last"><input type="text" maxlength="5" id="denominationYuanCustom" name="moneyCustom">元</li>
+            </ul>
+        </li>
+            <li id="bankID">
+                <span>选择银行</span>
+                <ul class="bank_chose">
+                  
+                </ul>
+            </li>
+           <li id="openMore"><div class="more more_open"><a>更多</a></div></li>
+           <li id="closeMore"><div class="more_close more"><a>收起</a></div></li>
+        </ul>
+    </form>
+        <a class="btn_orange_l" href="javascript:void(0);" id="buttonOK1">确定充值</a>
+        <p class="explain">
+            <span>支付宝余额支付：</span>
+            只要您的支付宝账户中存有余额，就可以为游戏进行充值。
+        </p>
+    </div>
+</div>
+<div id="pop_message" class="infor_sure">
+    <h2>请确认充值信息<span id="pop_close"></span></h2>
+    <div class="bottom">
+    <ul>
+        <li><span>充值方式：</span> <p id="payName"></p></li>
+        <li><span>订单号：</span>  <p id="orderNoShow"></p></li>
+        <li><span>充值账号：</span>  <p id="username"></p></li>
+        <li><span>游戏：</span>  <p id="gameAndServer"></p></li>
+        <li><span>充值金额：</span>  <p><em id="money"></em> 元</p></li>
+    </ul>
+        <a href="javascript:void(0);" class="btn_orange_l" id="buttonOK2">确定充值</a>
+    </div>
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</html>
+</body>";i:14;s:1122:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台充值平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<!--#CMS_MODULE{RECHARGE_CONTENT}#-->
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</html>
+</body>";i:15;s:1122:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台充值平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<!--#CMS_MODULE(RECHARGE_CONTENT)#-->
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</html>
+</body>";i:16;s:1122:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台充值平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<!--#CMS_MODULE(RECHARGE_CONTENT)#-->
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:17;s:1139:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1网页游戏充值中心,V1网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<!--#CMS_MODULE(RECHARGE_CONTENT)#-->
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:18;s:1160:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1网页游戏充值中心,V1网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body style="display:none">
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<!--#CMS_MODULE(RECHARGE_CONTENT)#-->
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";i:19;s:1190:"<!DOCTYPE html>
+<html>
+<head>
+    <title>V1网页游戏充值中心,V1网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="http://static.v1.cn/game/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v1.0/css/pay.css" charset="utf-8" rel="stylesheet" />
+<script src="http://static.v1.cn/game/gplatform/v1.0/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script src="http://static.v1.cn/game/gplatform/v1.0/js/library.js" type="text/javascript"></script>
+<script src="http://static.v1.cn/game/gplatform/v1.0/js/pay.js" type="text/javascript"></script>
+<script src="https://pay.v1.cn/bank.js" type="text/javascript"></script>
+</head>
+<body style="display:none">
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<div class="wrap980">
+<!--#CMS_MODULE(RECHARGE_CONTENT)#-->
+</div>
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+</body>
+</html>";}

@@ -1,0 +1,4145 @@
+a:20:{i:0;s:6638:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="#" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+<form target="_blank" id="searchForm" method="get" action="http://so.v1.cn/search/news/video/all/q_">  
+          <input type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWord" name="searchWord">
+<button id="searchBut" type="submit" class="search index_icon">搜索</button>
+</from>
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a href="http://big5.v1.cn/"+locationHost+"/" class="btn" target="_blank">繁体版</a></li> 
+            <li class="top_login"><a href="#" target="_blank"><i class="i index_icon">1</i>登录登录登录</a></li>
+            <li><a href="#" target="_blank">注册</a></li>
+            <li class="top_put index_icon"><a href="#" target="_blank">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+</body>
+</html>
+";i:1;s:6912:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="#" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+<form target="_blank" id="searchForm" method="get" action="http://so.v1.cn/search/news/video/all/q_">  
+          <input type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWord" name="searchWord">
+<button id="searchBut" type="submit" class="search index_icon">搜索</button>
+</from>
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+</body>
+</html>
+";i:2;s:7547:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="#" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+<form target="_blank" id="searchForm" method="get" action="http://so.v1.cn/search/news/video/all/q_">  
+          <input type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWord" name="searchWord">
+<button id="searchBut" type="submit" class="search index_icon">搜索</button>
+</from>
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){       
+v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=zhuanji&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!----v1统计代码end------>
+
+</body>
+</html>
+";i:3;s:7896:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="#" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+<form target="_blank" id="searchForm" method="get" action="http://so.v1.cn/search/news/video/all/q_">  
+          <input type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWord" name="searchWord">
+<button id="searchBut" type="submit" class="search index_icon">搜索</button>
+</from>
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){       
+v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=zhuanji&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!----v1统计代码end------>
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+
+</body>
+</html>
+";i:4;s:7991:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="#" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+<form target="_blank" id="searchForm" method="get" action="http://so.v1.cn/search/news/video/all/q_">  
+          <input type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWord" name="searchWord">
+<button id="searchBut" type="submit" class="search index_icon">搜索</button>
+</from>
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){       
+v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=zhuanji&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!----v1统计代码end------>
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+
+</body>
+</html>
+";i:5;s:8478:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/login.js"></script>
+
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="#" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+<form target="_blank" id="searchForm" method="get" action="http://so.v1.cn/search/news/video/all/q_">  
+          <input type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWord" name="searchWord">
+<button id="searchBut" type="submit" class="search index_icon">搜索</button>
+</from>
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){       
+v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=zhuanji&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!----v1统计代码end------>
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+
+</body>
+</html>
+";i:6;s:8815:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+
+
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="#" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+<form target="_blank" id="searchForm" method="get" action="http://so.v1.cn/search/news/video/all/q_">  
+          <input type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWord" name="searchWord">
+<button id="searchBut" type="submit" class="search index_icon">搜索</button>
+</from>
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){       
+v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=zhuanji&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!----v1统计代码end------>
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+
+</body>
+</html>
+";i:7;s:8817:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="#" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+<form target="_blank" id="searchForm" method="get" action="http://so.v1.cn/search/news/video/all/q_">  
+          <input type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWord" name="searchWord">
+<button id="searchBut" type="submit" class="search index_icon">搜索</button>
+</from>
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){       
+v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=zhuanji&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!----v1统计代码end------>
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+
+</body>
+</html>
+";i:8;s:8708:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="#" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+ 
+          <input type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWord" name="searchWord">
+<button id="searchBut" type="submit" class="search index_icon">搜索</button>
+
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){       
+v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=zhuanji&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!----v1统计代码end------>
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+
+</body>
+</html>
+";i:9;s:8717:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="#" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+ 
+          <input type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWordNew" name="searchWordNew">
+<button id="searchButNew" type="submit" class="search index_icon">搜索</button>
+
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){       
+v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=zhuanji&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!----v1统计代码end------>
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+
+</body>
+</html>
+";i:10;s:8684:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="#" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+ 
+ <input type="text" name="searchWordNew" id="searchWordNew" class="text gray99" value='请输入关键字' onfocus="setDefaultValueOnfocus()" onblur="setDefaultValueOnblur()">
+                <button class="search index_icon" type="button" id="searchButNew">搜索</button>
+
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){       
+v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=zhuanji&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!----v1统计代码end------>
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+
+</body>
+</html>
+";i:11;s:8838:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="#" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+ 
+ <form target="_blank" id="searchForm" method="get" action="http://so.v1.cn/search/news/video/all/q_">  
+          <input target="_parent" type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWord" name="searchWord">
+<button id="searchBut" type="submit" class="search index_icon">搜索</button>
+</from>
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){       
+v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=zhuanji&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!----v1统计代码end------>
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+
+</body>
+</html>
+";i:12;s:8931:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="#" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+ 
+ <form target="_blank" id="searchForm" method="get" action="http://so.v1.cn/search/news/video/all/q_">  
+          <input target="_parent" type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWord" name="searchWord">
+<button id="searchBut" type="submit" class="search index_icon">搜索</button>
+</from>
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){       
+v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=zhuanji&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!----v1统计代码end------>
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+
+</body>
+</html>
+";i:13;s:8948:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="#" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+ 
+ <form target="_blank" id="searchForm" method="get" action="http://so.v1.cn/search/news/video/all/q_">  
+          <input target="_parent" type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWord" name="searchWord">
+<button target="_parent" id="searchBut" type="submit" class="search index_icon">搜索</button>
+</from>
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){       
+v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=zhuanji&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!----v1统计代码end------>
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+
+</body>
+</html>
+";i:14;s:8931:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="#" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+ 
+ <form target="_blank" id="searchForm" method="get" action="http://so.v1.cn/search/news/video/all/q_">  
+          <input type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWord" name="searchWord">
+<button target="_parent" id="searchBut" type="submit" class="search index_icon">搜索</button>
+</from>
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){       
+v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=zhuanji&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!----v1统计代码end------>
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+
+</body>
+</html>
+";i:15;s:8946:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="http://www.v1.cn" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+ 
+ <form target="_blank" id="searchForm" method="get" action="http://so.v1.cn/search/news/video/all/q_">  
+          <input type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWord" name="searchWord">
+<button target="_parent" id="searchBut" type="submit" class="search index_icon">搜索</button>
+</from>
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){       
+v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=zhuanji&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!----v1统计代码end------>
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+
+</body>
+</html>
+";i:16;s:8932:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="http://www.v1.cn" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+ 
+ <form target="_blank" id="searchForm" method="get" action="http://so.v1.cn/search/news/video/all/q_">  
+          <input type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWord" name="searchWord">
+<button target="_parent" id="searchBut" type="submit" class="search index_icon">搜索</button>
+</from>
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+
+<!-- START v1 v1.0 -->
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=zhuanti&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!-- END v1 v1.0 -->
+
+</body>
+</html>
+";i:17;s:9170:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="http://www.v1.cn" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+ 
+ <form target="_blank" id="searchForm" method="get" action="http://so.v1.cn/search/news/video/all/q_">  
+          <input type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWord" name="searchWord">
+<button target="_parent" id="searchBut" type="submit" class="search index_icon">搜索</button>
+</from>
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+
+<!-- START v1 v1.0 -->
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=zhuanti&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!-- END v1 v1.0 -->
+
+</body>
+</html>
+";i:18;s:9008:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="http://www.v1.cn" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+ 
+ <form target="_blank" id="searchForm" method="get" action="http://so.v1.cn/search/news/video/all/q_">  
+          <input type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWord" name="searchWord">
+<button target="_parent" id="searchBut" type="submit" class="search index_icon">搜索</button>
+</from>
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+
+<!-- START v1 v1.0 -->
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=zhuanti&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!-- END v1 v1.0 -->
+
+</body>
+</html>
+";i:19;s:9240:"<!--#
+  $sort=CMS_FUNCTION('toPinyin',$cms_page_category.'Zt');
+  $sort=$sort['pinyin_for_full'];
+#-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/css/lanmu.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/v1_static(new)/common/css/redian.css" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/fy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+  //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$cms_page_category}Zt', 3]);
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".outside .tab-con").first().show().siblings().hide();
+  $(".tab-u").mouseover(
+    function(){
+      var ind=$(this).index();
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".outside > .tab-con").eq(ind).show().siblings().hide();
+    }
+  );
+});
+
+//scepcial 视频tab
+$(function(){
+$(".spvideotab div").first().show().siblings().hide();
+$(".spvideotab_title li").click(
+function(){
+var ind=$(this).index();
+$(this).addClass("spvideothis").siblings().removeClass("spvideothis");
+$(".spvideotab > div").eq(ind).show().siblings().hide();
+}
+);
+});
+</script>
+
+<script>
+$(document).ready(function(){
+        //计算内容数量
+        tabDiv=$("#spvideotab li");
+        $("i.gray99").html("("+tabDiv.length+")");
+        
+        //计算总播放PV
+        var contentPv=0;
+        $("#spvideotab li").each(function(i){
+            contentPv+=parseInt($(this).attr("data"));
+        });
+        d = new Date();
+        t = (Math.ceil(d.getTime()/1000)-parseInt($("#dateline").html()))/86400;
+        if(t<1) t=1;
+        if(t<=10) decline=0.8;
+        if(t>10 && t<30) decline=0.6;
+        if(t>=30) decline=0.5;
+        contentPv=Math.ceil(t*contentPv*decline);
+        $("#bofangshu").html("<i>总播放：</i>"+contentPv);
+});
+</script>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.index_icon,.one_focus .bg,.mask,.rightBoxPanel_jdrd .play');</script>
+
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper" class="muen">
+   <div class="top">
+       <div class="top_mian mg">
+          <div class="logo"><a href="http://www.v1.cn" title="第一视频"></a></div>
+          <!--顶部下拉导航-->
+          <div class="minisubnav index_icon" style="display:none;">
+             <dt class="subnav_but">导航</dt>
+             <ul class="subnav_toggle">
+                <i class="caret"><i></i></i>
+                <li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+         <li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+         <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+         <li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+         <li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+         <li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+         <li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+         <li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+         <li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+         <li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+         <li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+         <li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+         <li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+         <li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+         <li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+         <li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+         <li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+         <li><a href="http://gongyi.v1.cn/" target="_blank">公益</a></li>
+         <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+         <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+             </ul>
+          </div>
+          <!--顶部下拉导航 end-->
+          <div class="searchbox"><i class="index_icon"></i>
+ 
+ <form target="_blank" id="searchForm" method="get" action="http://so.v1.cn/search/news/video/all/q_">  
+          <input type="text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}" class="text gray99" id="searchWord" name="searchWord">
+<button target="_parent" id="searchBut" type="submit" class="search index_icon">搜索</button>
+</from>
+
+<script type="text/javascript">
+var Search=document.getElementById("text");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+          </div>
+          <ul class="userbox">
+            <li class="lang"><a target=“_parent” class="btn" href="http://big5.v1.cn/www.v1.cn/">繁体版</a></li> 
+          <li class="top_login homeLogin"><a target="_parent" onclick="login()" class="sBox sBox01" href="javascript:void(0);"><i class="i index_icon">1</i>登录</a></li>
+          <li class="homeRegis"><a target="_parent" onclick="register()" class="sBox sBox02" href="javascript:void(0);">注册</a></li>
+          <li class="top_put index_icon"><a target="_parent" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')" class="sBox sBox03" href="javascript:void(0);">上传</a></li>
+          </ul>
+       </div>
+   </div>
+   <script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+url=location.href;
+}else{
+url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+   <!--#CMS_MODULE(code001)#-->
+   </div>
+</div>
+
+   <!--#CMS_MODULE(专辑_001)#-->
+   
+  
+   <div class="Box1000 clearfix">
+   
+   <div class="spBoxleft height">
+     <!--#CMS_MODULE(code002)#-->
+   </div>
+
+
+    
+    
+<div class="boxRight">
+     
+    <!--ssi#include virtual="/ssi/jueduiredian_common.html"-->
+    <!--ssi#include virtual="/ssi/spbfb_common.html"-->
+       
+    </div>
+</div>
+ 
+   <div class="Box1000 clearfix">
+ <!--ssi#include virtual="/ssi/lanmu/jctj.shtml"-->
+   </div>
+
+<!--ssi#include virtual="/ssi/lanmu/footer.shtml"-->
+
+<div id="dateline" style="display:none"><!--#echo time();#--></div>  
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+
+<!-- START v1 v1.0 -->
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=zhuanti&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!-- END v1 v1.0 -->
+
+</body>
+</html>
+";}

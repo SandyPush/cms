@@ -1,0 +1,531 @@
+a:1:{i:0;s:24651:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>内容页</title>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.sLogo,.play,.icon,.iconS');</script>
+
+<style type="text/css">
+*html,*html body{background-image:url(about:blank);background-attachment:fixed;}
+</style>
+
+<![endif]-->
+
+<script src="http://pic.v1.cn/cms/special_topic/common/js/jquery.cookie.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/special_topic/common/js/commentlink.js" language="javascript" type="text/javascript"></script>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/comment_css.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/content.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+ <body>
+
+  <div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/mil/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li><div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body">
+	  <a href="#" target="_blank">体育</a>
+	  <a href="#" target="_blank">汽车</a>
+      <a href="#" target="_blank">拍客</a>
+	  <a href="#" target="_blank">影视</a>
+	  <a href="#" target="_blank">音乐</a>
+	  <a href="#" target="_blank">文化</a>
+      <a href="#" target="_blank">科技</a>
+	  <a href="#" target="_blank">游戏</a>
+	  <a href="#" target="_blank">女性</a>
+	  <a href="#" target="_blank" class="red">搞笑</a>
+      <a href="#" target="_blank">乐活</a>
+	  <a href="#" target="_blank">旅游</a>
+	  <a href="#" target="_blank">城市</a>
+	  <a href="#" target="_blank">曝光台</a>
+
+      </div>
+  </li>
+
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><a href="javascript:void(0);" onclick="login()">登录</a></li>
+  <li><a href="javascript:void(0);" onclick="register()">注册</a></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+
+  <li><div id="firstpane" class="CTmenu_list"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a href="#" target="_blank">时尚大尚师时尚尚大…</a>
+	  <a href="#" target="_blank">时尚大尚师时尚尚大…</a>
+      <a href="#" target="_blank">时尚大尚师时尚尚大…</a>
+      </div>
+  </li>
+
+</div>
+</ul>
+
+  </div>
+  </div>
+
+<div class="wrapBox1000">
+<div class="CTleftBox">
+<div class="subNav">
+<div>新闻&nbsp;>&nbsp;热点关注</div>
+<h1>央视暗访幼师培训机构 缴费即可获资格证</h1>
+</div>
+
+<div id="video" style="height:534px;">
+            <object id="play1" width="630" height="534" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,115,0">
+			<param value="http://www.v1.cn/player/cloud/cloud_player.swf" name="movie">
+			<param value="#000000" name="bgcolor">
+			<param value="id=651824&startSwfUrl=http://www.v1.cn/player/cloud/loading.swf&videoXmlUrl=http://pic.v1.cn/cloudone/xml/video/201306/19/651824.xml" name="FlashVars">
+			<param value="always" name="allowScriptAccess">
+			<param value="true" name="allowFullScreen">
+			<param value="opaque" name="wmode">
+			<embed width="630" height="534" type="application/x-shockwave-flash" cover="http://pic106.v1.cn/cloud/20130619/images/651824-s.jpg" wmode="opaque" allowfullscreen="true" allowscriptaccess="always" bgcolor="#000000" name="play1" flashvars="id=651824&startSwfUrl=http://www.v1.cn/player/cloud/loading.swf&videoXmlUrl=http://pic.v1.cn/cloudone/xml/video/201306/19/651824.xml" src="http://www.v1.cn/player/cloud/cloud_player.swf">
+			</object> 
+<script>
+	$(function() {
+    if (navigator.userAgent.match(/mobile/i)) {
+		var html ="<video width=\"630\" height=\"534\" controls> "+ 
+                 " <source src=\"<ds:value-of select='mp4url'/>\" type=\"video/mp4\" />  "+
+                 " <source src=\"media/movie.ogg\" type=\"video/ogg\" />   "+
+                 " </video>";
+	  $("#video").html(html);
+	  return false;
+	}
+	})
+</script>
+</div>
+
+<div class="videoInfor">
+<div class="iconObject01">
+<span class="icon icon01 dingHide" id="dingSpan" onclick="updateAndAddSupportTimes()">3045</span>
+<span class="icon icon02 caiHide" id="caiSpan" onclick="updateAndAddOpposeTimes()">1000</span>
+<span class="icon icon03">3400</span>
+<span class="icon icon04">3405</span>
+</div>
+<div class="iconObject02">
+<span class="left">转发到:</span>
+<a onclick="playerShareFunction('sina','663437','../../user','http://pic106.v1.cn/cloud/20130623/images/663437.jpg')" title="转发到新浪微博" href="javascript:void(0)" class="iconS icon001">sina</a>
+<a href="#" class="iconS icon002">qq</a>
+<a href="#" class="iconS icon003">zhuan</a>
+<a href="#" class="iconS icon004">weixin</a>
+</div>
+<div class="iconObject03">播放：<span style="font:20px 微软雅黑;margin-right:5px;">234,5</span>万</div>
+</div>
+
+<div class="videoInfor02">
+<h2>视频信息</h2>
+<div class="clearfix">
+<dl class="inforList" style="margin-right:50px;">
+<dt>频道：新闻/热点关注</dt>
+<dd>来源：天津卫视</dd>
+</dl>
+
+<dl class="inforList">
+<dt>标签：<a href="#">洛阳一景区</a><a href="#">洛阳一景区</a><a href="#">洛阳一景区</a><a href="#">洛阳一景区</a><a href="#">洛阳一景区</a></dt>
+<dd>发布时间：2013-06-03</dd>
+</dl>
+</div>
+<div class="inforList clearfix">摘要：日光台海砂危楼何日光台海砂日光台海砂危楼何日光台海砂日光台海砂危楼何日光台海砂日光台海砂危楼何日光台海砂日光台海砂危楼何日光台海砂日光台海砂危楼何日光台海砂日光台海砂危楼何日光台海砂</div>
+</div>
+
+<div class="videoInfor03">
+<h2><a href="#">大家都在看</a></h2>
+<!--
+<dl>
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/100.png" width="100" height="75"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">日光台海砂危楼何日光台海砂危楼何</a></dd>
+</dl>
+
+<dl>
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/100.png" width="100" height="75"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">日光台海砂危楼何日光台海砂危楼何</a></dd>
+</dl>
+
+<dl>
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/100.png" width="100" height="75"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">日光台海砂危楼何日光台海砂危楼何</a></dd>
+</dl>
+
+<dl>
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/100.png" width="100" height="75"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">日光台海砂危楼何日光台海砂危楼何</a></dd>
+</dl>
+
+<dl>
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/100.png" width="100" height="75"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">日光台海砂危楼何日光台海砂危楼何</a></dd>
+</dl>
+-->
+</div>
+
+<div class="videoInfor03">
+<h2><a href="#">精彩图集</a></h2>
+<dl>
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/100.png" width="100" height="75"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">日光台海砂危楼何日光台海砂危楼何</a></dd>
+</dl>
+
+<dl>
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/100.png" width="100" height="75"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">日光台海砂危楼何日光台海砂危楼何</a></dd>
+</dl>
+
+<dl>
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/100.png" width="100" height="75"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">日光台海砂危楼何日光台海砂危楼何</a></dd>
+</dl>
+
+<dl>
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/100.png" width="100" height="75"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">日光台海砂危楼何日光台海砂危楼何</a></dd>
+</dl>
+
+<dl>
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/100.png" width="100" height="75"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">日光台海砂危楼何日光台海砂危楼何</a></dd>
+</dl>
+</div>
+
+<div>
+<a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/630_200.jpg" width="630" height="200"></a>
+</div>
+<div>
+<a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/630_90.png" width="630" height="90"></a>
+</div>
+
+
+<!--  评论    -->
+
+
+<div id="comment2" style="width:630px;float:left;">
+        <h2>网友评论：</h2>
+         <div class="commentLogin">
+			<form name="add-news" id="add-news" method="post" action="http://discuss.v1.cn/discuss/comment/save-comment.jhtml">
+            <input type="hidden" value="#" id="cmtBackUrl" name="backurl" />
+			<input type="hidden" value="" name="news.userId" id="userId">
+		    <input type="hidden" value="" name="news.userName" id="userName">
+		    <input type="hidden" value="" name="news.id" id="id">
+		    <input type="hidden" value="0" name="news.status" id="status">
+		    <input type="hidden" value="" name="news.keyword" id="keyword">
+		    <input type="hidden" value="127.0.0.1" name="news.ip" id="ip">
+		    <input type="hidden" value="list" name="operType" id="operType">
+		    <input type="hidden" value="" name="curPage" id="curPage">
+		    <input type="hidden" value="http://ynews.v1.cn/news/news/jump.jhtml?newsId=&to=http://ynews.v1.cn/news/news/jump.jhtml?newsId=" name="jumpURL" id="jumpURL">
+		    <input type="hidden" value="http://discuss.v1.cn/discuss/comments/" name="postURL" id="postURL">
+			<!--
+              <div id="cmtLogin" style="display:block;">
+                <label>用户名</label>
+                <input name="uname" id="cmt_uname" class="ipt02 inputcheckbox" />
+                <label>密码</label>
+                <input type="password" name="pass" id="cmt_pass" class="ipt02 inputcheckbox" />
+                <input name="button" type="button" class="btn3 dl" id="cmtfrmbutton" value="" />
+                <input name="button" type="button" class="btn3 zc" id="cmtReg" value="" />
+              </div>
+             -->
+			<textarea onkeydown="postComentLenCheck('content_discuss','150','content_discuss_tips')" onkeyup="postComentLenCheck('content_discuss','150','content_discuss_tips')" class="textLogin2"   name="newsComment.content" id="content_discuss" onclick="if(this.value=='写两句评论吧^_^')this.value='';">写两句评论吧^_^</textarea>
+
+            <div id="num02">                           
+                <input type="checkbox" name="ext[sync_mb]"  checked="checked" class="checkbox" style="display:none;"/>
+                <span class="d02" style="display:none;">同步到微博</span>
+                <input type="button" class="btn2"  name="发表评论" value="发表评论" onclick="submitComment('http://discuss.v1.cn/discuss/comments/','','','post');" style="cursor:pointer;">
+				<!--<span id="content_discuss_tips">还可输入150个字</span>-->    
+			</div>
+			</div>
+
+				<div style="display:none" id="fenye" class="page_change"></div>
+				<div style="display:none" id="data" class="pl_con"></div>
+				<div style="display:none" id="fenye2" class="page_change page_change_nl">
+				<div class="discussion"></div></form>
+					<script>
+						$(function(){
+						var baseURL='http://discuss.v1.cn/discuss/comment/';
+						submitComment(baseURL,'','','list');
+						})
+					</script>	
+				</div>
+
+
+</div><!--  comment2 结束  -->
+<!--  评论结束    -->
+
+</div>
+
+
+<div class="CTrightBox">
+<div style="height:46px;"><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/340_46.png" width="340" height="46"></a></div>
+<div style="padding-top:20px;background:#fff;height:100px;"><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/340_100.png" width="340" height="100"></a></div>
+
+<div class="clearfix"><!-- tab 开始-->
+
+<div class="wgt-tab-v">
+
+<div class="titleBox">
+<h1	class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">相关视频</a></span>
+<span class="tab-u"><a href="#" target="_blank">精彩推荐</a></span>
+</h1>
+</div>
+
+<div class="outside	display-control" style="clear:both;">
+
+<div class="tab-con current">
+
+<div class="tabbox">
+<div class="tabpad">
+
+<div class="rightBox">
+<dl class="rightPicBox">
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/132_99.png" width="132" height="99"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">日光台海砂危楼何</a></dd>
+</dl>
+
+<dl class="rightPicBox">
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/132_99.png" width="132" height="99"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">日光台海砂危楼何</a></dd>
+</dl>
+
+<dl class="rightPicBox">
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/132_99.png" width="132" height="99"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">日光台海砂危楼何</a></dd>
+</dl>
+
+<dl class="rightPicBox">
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/132_99.png" width="132" height="99"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">日光台海砂危楼何</a></dd>
+</dl>
+
+<dl class="rightPicBox">
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/132_99.png" width="132" height="99"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">日光台海砂危楼何</a></dd>
+</dl>
+
+<dl class="rightPicBox">
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/132_99.png" width="132" height="99"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">日光台海砂危楼何</a></dd>
+</dl>
+
+</div>
+
+</div>
+</div><!-- tabbox 结束 -->
+
+</div><!-- tab-con 结束 -->
+
+
+<div class="tab-con">
+
+<div class="tabbox">
+<div class="tabpad">
+
+<div class="rightBox">
+<dl class="rightPicBox">
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/132_99.png" width="132" height="99"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">剪影姐盛夏新歌类类</a></dd>
+</dl>
+
+<dl class="rightPicBox">
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/132_99.png" width="132" height="99"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">剪影姐盛夏新歌类类</a></dd>
+</dl>
+
+<dl class="rightPicBox">
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/132_99.png" width="132" height="99"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">剪影姐盛夏新歌类类</a></dd>
+</dl>
+
+<dl class="rightPicBox">
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/132_99.png" width="132" height="99"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">剪影姐盛夏新歌类类</a></dd>
+</dl>
+
+<dl class="rightPicBox">
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/132_99.png" width="132" height="99"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">剪影姐盛夏新歌类类</a></dd>
+</dl>
+
+<dl class="rightPicBox">
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/132_99.png" width="132" height="99"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">剪影姐盛夏新歌类类</a></dd>
+</dl>
+
+</div>
+</div>
+</div><!-- tabbox 结束 -->
+</div><!-- tab-con 结束 -->
+
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+
+
+<div class="rightBoxPanel">
+<h2>栏头栏头</h2>
+<!--
+<dl class="clearfix">
+<dt class="left"><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/112_63.png" width="112" height="63"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd class="threeBoxList"><a href="#" target="_blank">剪影姐盛夏新歌类类剪影姐盛夏新歌类类剪影姐</a></dd>
+</dl>
+
+<dl class="clearfix">
+<dt class="left"><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/112_63.png" width="112" height="63"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd class="threeBoxList"><a href="#" target="_blank">剪影姐盛夏新歌类类剪影姐盛夏新歌类类剪影姐</a></dd>
+</dl>
+
+<dl class="clearfix">
+<dt class="left"><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/112_63.png" width="112" height="63"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd class="threeBoxList"><a href="#" target="_blank">剪影姐盛夏新歌类类剪影姐盛夏新歌类类剪影姐</a></dd>
+</dl>
+-->
+</div>
+
+<div class="adverBox300">
+<a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/300_250.jpg" width="300" height="250"></a>
+</div>
+
+
+<div class="rightBoxPanel">
+<h2>央视推荐</h2>
+<dl class="rightPicBox">
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/132_99.png" width="132" height="99"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">日光台海砂危楼何</a></dd>
+</dl>
+
+<dl class="rightPicBox">
+<dt><a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/132_99.png" width="132" height="99"></a><a class="play" target="_blank" href="#"></a></dt>
+<dd><a href="#" target="_blank">日光台海砂危楼何</a></dd>
+</dl>
+</div>
+
+
+<div id="entFirst"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1	class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+
+<div class="outside	display-control" style="clear:both;">
+<!-- SSI引入 -->
+</div><!--display-control结束-->
+
+</div>
+</div><!-- tab 结束 -->
+
+
+<div class="adverBox320">
+<a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/320_100.png" width="320" height="100"></a>
+</div>
+
+</div>
+
+
+
+<div class="wrapBox1000 adver">
+<a href="#" target="_blank"><img src="http://pic.v1.cn/cms/v1_static/images/adver1000.jpg" width="1000" height="90"></a>
+</div>
+
+
+<div class="wrapBox1000 footer clearfix">
+<ul class="left">
+<li><a href="http://www.v1.cn/vodone/companyprofile.shtml" target="_blank">公司介绍</a></li>
+<li><a href="http://www.v1.cn/vodone/customerservice.shtml" target="_blank">客服中心</a></li>
+<li><a href="mailto:service@v1.cn" target="_blank">联系我们</a></li>
+<li><a href="http://www.v1.cn/zhaopin/index.shtml" target="_blank">第一视频招聘</a></li>
+<li><a href="http://www.v1.cn/roll/1/1.shtml" target="_blank">滚动新闻</a></li>
+<li><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>
+<li><a href="http://www.v1.cn/vodone/lawservice.shtml" target="_blank">法律声明</a></li>
+<li><a href="#" target="_blank">帮助中心</a></li>
+<li><a href="mailto:jiucuo@v1.cn" target="_blank">举报差错</a></li>
+<li><a href="http://www.v1.cn/vodone/companynews.shtml" target="_blank">公司动态</a></li>
+</ul>
+</div>
+
+<div class="regisBox">
+第一视频公司 版权所有<br/>
+热线: 400-610-0220 邮箱:service@v1.cn 不良信息举报: 010-57839077
+</div>
+
+<div class="regisBoxEnd">
+<span>互联网出版许可证(新出网证(京)字026号)</span><span>信息网络传播视听节目许可证(0105136)</span><span class="s">测绘资质证书(甲测资字11002065)</span><span>互联网新闻信息服务许可证(国新网许可证编号1112008001)</span><span>电信与信息服务业务经营许可证(京ICP备10014938号)</span><span class="s">京公网安备：110105002116</span><span>营业执照注册号：110000008537773</span>
+</div>
+
+<div class="footerLogoBox">
+<a href="https://www.itrust.org.cn/yz/pjwx.asp?wm=2775453304" target="_blank" class="footerLogo footerLogo01"></a>
+<a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005121600020" target="_blank" class="footerLogo footerLogo02"></a>
+<a href="http://net.china.com.cn/index.htm" target="_blank" class="footerLogo footerLogo03"></a>
+<a href="http://www.bnia.cn/" target="_blank" class="footerLogo footerLogo04"></a>
+<a href="http://www.bj.cyberpolice.cn/index.jsp" target="_blank" class="footerLogo footerLogo05"></a>
+<a href="http://fzp.bjhd.gov.cn/Default.aspx?TabId=105" target="_blank" class="footerLogo footerLogo06"></a>
+<a href="http://www.bjjubao.org/index.htm" target="_blank" class="footerLogo footerLogo07"></a>
+<a href="https://ss.cnnic.cn/verifyseal.dll?sn=2010090700100002044&ct=df&pa=438901" target="_blank" class="footerLogo footerLogo08"></a>
+<a href="http://www.315online.com.cn/member/315100087.html" target="_blank" class="footerLogo footerLogo09"></a>
+<a href="http://www.bcpcn.com//zhtml/tags/BCP85754599.html" target="_blank" class="footerLogo footerLogo10"></a>
+</div>
+
+
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+
+
+
+ </body>
+</html>
+";}

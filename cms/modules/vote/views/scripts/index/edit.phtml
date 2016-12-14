@@ -1,0 +1,46 @@
+<div class="area">
+<div class="help"> 
+	<p>帮助</p>
+	<p>1、投票主题编辑页面;</p>  
+	<p>2、关闭状态不判断其他任何条件,不接受投票,活动状态根据时间来决定是否接受投票。</p> 
+</div>
+<div class="nr">
+<h2>
+<button onclick="window.location.href='/vote/index/'">返回</button>
+<a href="#nogo">编辑投票主题</a>        	
+</h2>
+	<form action="/vote/index/update" method="post">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+	<tbody>
+		<tr>
+			<td>投票主题</td>
+			<td><input type="text" name="title" size="40" value="<?=$this->data['title']?>"/></td>
+		</tr>
+		<tr>
+			<td>开始时间</td>			
+			<td><input name="starttime" type="text" size="20"  onclick="new WdatePicker({startDate:'%y-%M-%d %h:%i:%s',dateFmt:'yyyy-MM-dd HH:mm:ss',alwaysUseStartDate:false});" value="<?=date('Y-m-d H:i:s',$this->data['starttime'])?>" /></td>
+		</tr>
+		<tr>
+			<td>结束时间</td>
+			<td><input name="endtime" type="text" size="20"  onclick="new WdatePicker({startDate:'%y-%M-%d %h:%i:%s',dateFmt:'yyyy-MM-dd HH:mm:ss',alwaysUseStartDate:false});" value="<?=date('Y-m-d H:i:s',$this->data['endtime'])?>"  /></td>
+		</tr>
+		<tr>
+			<td>状态</td>
+			<td><select name="status" >				
+					<option value="1" label="正常" <?=$this->select[1]?>>正常</option>
+					<option value="2" label="过期" <?=$this->select[2]?>>过期</option>
+					<option value="3" label="关闭" <?=$this->select[3]?>>关闭</option>
+					<option value="4" label="停止" <?=$this->select[4]?>>停止</option>
+					<option value="5" label="删除" <?=$this->select[5]?>>删除</option>				
+				</select></td>
+		</tr>	
+		<tr>
+			<td></td>
+			<td align="left"><input type="hidden" name="vid" value="<?=$this->data['vid']?>" /><input type="submit" value="   提 交   " /></td>
+		</tr>
+	</tbody>
+	</table>
+	</form>
+	</div>
+</div>
+

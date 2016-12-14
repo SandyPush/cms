@@ -1,0 +1,42 @@
+<div class="area">
+	<div class="help">
+	    <p>帮助</p>
+	    <p>1、模板名称请使用英文字母或数字;</p>
+	    <p>2、模板简介请使用中文描述该模板用途;</p>
+	</div>
+<div class="nr">
+<h2>
+<button onclick="window.location.href='/template/templates/create/'">新建模板</button>
+模板列表        	
+</h2>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+<thead>
+    <tr>
+        <td width="40">ID</td>
+	<td width="120">名称</td>
+	<td width="120">类型</td>
+        <td>简介</td>
+        <td width="80">操作</td>
+    </tr>
+</thead>
+<tbody>
+    <?php foreach ($this->templates as $k => $tpl): ?>
+    <tr class="<?=$k % 2 == 0 ? 'alt' : '' ?>">
+        <td><?=$tpl->id?></td>
+		<td><?=$tpl->name?></td>
+		<td><?=$this->type_array[$tpl->type]?></td>
+        <td><?=$tpl->description ?></td>
+        <td>
+            <a href="/template/templates/edit/id/<?=$tpl->id ?>">编辑</a> | 
+            <a href="/template/templates/del/id/<?=$tpl->id ?>" onclick="if (!confirm('确定删除？')) return false">删除</a></td>
+    </tr>
+    <?php endforeach; ?>
+</tbody>
+</table>
+<div class="fy">
+<div class="fpage">
+<?=$this->pagebar ?>
+</div> 
+</div> 
+</div> 
+</div>

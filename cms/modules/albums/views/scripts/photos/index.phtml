@@ -1,0 +1,48 @@
+<div class="area">
+	<div class="nr">
+	<h2>
+		<button onclick="window.location = '/albums/photos/upload/aid/<?=$this->album['aid']?>'">上传图片</button>
+		<a href="#nogo"><?=$this->album['title']?></a> <a href="javascript: history.go(-1)">&lt;&lt; 返回</a> 
+	</h2>
+    
+    <?php if (!$this->photos): ?>
+    <p style="padding: 10px">暂未上传图片，<a href="/albums/photos/upload/aid/<?=$this->album['aid']?>">上传</a></p>
+    <?php else: ?>
+    <form action="" method="post">
+	<table width="100%" cellpadding="4" cellspacing="1">
+	<tr>
+        <?php $i = 0; foreach ($this->photos as $p): ?>
+		<td>
+            <table cellpadding="4" cellspacing="1">
+            <tr>
+                <td rowspan="3"><img src="<?=$p['square_image']?>" alt=''/></td>
+            </tr>
+            <tr>
+                <td>标题: <input type="text" name="title[<?=$p['pid']?>]" size="50" style="width: 320px" value="<?=$this->escape($p['title'])?>"/></td>
+            </tr>
+            <tr>
+                <td>摘要: <textarea cols="50" rows="2" name="intro[<?=$p['pid']?>]" style="width: 320px"><?=$this->escape($p['intro'])?></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label><input type="radio" name="cover" value="<?=$p['pid']?>" <?=$this->album['cover'] == $p['pid'] ? 'checked="checked"' : ''?>/>设为图集封面</label>
+                    <label><input type="text" maxlength="3" style="width: 24px;" name="sequence[<?=$p['pid']?>]" value="<?=$p['sequence']?>" />设置排序</a></label>
+                    <label><input type="checkbox" name="delete[<?=$p['pid']?>]" value="1" />删除</a></label>
+                </td>
+            </tr>
+            </table>
+		</td>
+        <?php $i ++; if ($i % 2 == 0): ?>
+        </tr>
+        <tr>
+        <?php endif; ?>
+        <?php endforeach; ?>
+	</tr>
+	</table>
+
+    <input type="hidden" name="aid" value="<?=$this->album['aid']?>" />
+    <input type="submit" value=" 修 改 " /> <input type="reset" value=" 取 消 " onclick="window.location='/albums/albums/'"/>
+    </form>
+    <?php endif; ?>
+	</div>
+</div>

@@ -1,0 +1,41 @@
+<?php
+print <<<EOT
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type="text/css">
+*{margin:0;padding:0}
+body{background-color: #FFFFFF;font-size:15px}
+table{border-collapse:collapse;margin:100px auto}
+td{border:1px solid #949472;padding:3px}
+strong{color:#666666}
+input,textarea{border:1px solid #949472;font-size:12px}
+</style>
+</head>
+<body>
+<table width="400" height="100" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="middle" bgcolor="#ebebeb"><strong>操作已成功!</strong></td>
+  </tr>
+</table>
+<div id="content" style="display:none">$html</div>
+<script type="text/javascript">
+window.onload=function(){
+	try{
+		var oEditor = parent.FCKeditorAPI.GetInstance("contents");
+		var html=document.getElementById('content').innerHTML;
+		if(oEditor.EditMode==parent.FCK_EDITMODE_WYSIWYG){
+			oEditor.InsertHtml(html);			
+			oEditor.Commands.GetCommand('char_cv').Execute();			
+		}		
+	}catch(e){};	
+	window.location.href= '/fckeditor/editor/plugins/albums/form.html';
+	parent.$('#dialog').dialog('destroy'); 
+}
+ </script>
+</body>
+</html>
+EOT;
+?>

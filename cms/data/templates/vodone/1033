@@ -1,0 +1,169 @@
+a:1:{i:0;s:7439:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link href="http://pic.v1.cn/cms/special_channel/css/style_ent.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script src="http://pic.v1.cn/cms/special_channel/js/jquery.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1/common/js/time.js"></script>
+</head>
+<body>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:635px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+<div style="margin-top:40px;*padding-top:40px;" class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(标准频道-logo)#-->
+<div class="searchBox">
+<form target="_blank" id="searchForm" method="get" action="http://ynews.v1.cn/news/search/s.jhtml">       
+<input type="text" onblur="Onblur()" onfocus="Onfocus()" id="search" value="请输入关键字" class="text" name="searchWord">
+<button id="searchBut" type="submit" class="search">搜 索</button>
+<div class="hotword">
+  <span>热搜词：</span>
+  <!--#CMS_MODULE(标准频道-热搜词)#-->
+</div>
+</form>
+</div>
+</div>
+<div class="nav clearfix">
+   <div class="wrapBox1000 clearfix">
+    <ul class="navLeft left">
+      <li><a target="_blank" href="http://news.v1.cn/">新闻</a></li>
+      <li><a target="_blank" href="http://mil.v1.cn/">军事</a></li>
+      <li><a target="_blank" href="http://shehui.v1.cn/">社会</a></li>
+      <li><a target="_blank" href="http://finance.v1.cn/">财经</a></li>
+      <li><a target="_blank" href="http://ent.v1.cn/">娱乐</a></li>
+      <li><a target="_blank" href="http://sports.v1.cn/">体育</a></li>
+      <li><a target="_blank" href="http://auto.v1.cn/">汽车</a></li>
+    </ul>
+    <ul class="navRight right">
+      <li><a target="_blank" href="http://paike.v1.cn/">拍客</a></li>
+      <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+      <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+      <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      <li><a target="_blank" href="http://lady.v1.cn/">女性</a></li>
+      <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+      <li><a target="_blank" href="http://life.v1.cn/">乐活</a></li>
+      <li><a target="_blank" href="http://travel.v1.cn/">旅游</a></li>
+      <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+      <li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+      <li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+      <a class="new" href="#"></a>
+     </ul>
+   </div>
+</div>
+<iframe src="http://site.cheshi.com/data/new_header.php?action=auto.data.v1.cn&color=blue&size=960" width="960" height="210" scrolling="No" frameborder="0" style="margin:0 auto;"></iframe>
+
+<div id="box" class="fcupic wrapBox980">
+       <!--#CMS_MODULE(标准频道-焦点图)#-->
+    </div>
+<div class="firarae wrapBox980">
+<div class="fir_left">
+<div class="fl_title">
+<!--#CMS_MODULE(特殊频道-娱乐头条标题)#-->
+</div>
+<div class="fl_con clearfix">
+<div class="flc01">
+<!--#CMS_MODULE(特殊频道-头条左侧)#-->
+</div>
+<div class="flc02">
+<!--#CMS_MODULE(特殊频道-头条右侧)#-->
+</div>
+</div>
+</div>
+<div class="fir_right">
+
+<!--#CMS_MODULE(特殊频道-右侧（合作专题）)#-->  
+
+</div>
+</div>
+<div class="ad_03 wrapBox980">
+<!--#CMS_MODULE(特殊频道-980广告一)#-->
+</div>
+<div class="second_area wrapBox980">
+      <div class="ylkb">
+         
+            <!--#CMS_MODULE(特殊频道-八条图文列表)#-->
+         
+      </div>
+<div class="yl_rangking">
+       <!--#CMS_MODULE(特殊频道-右侧（排行01）)#--> 
+</div>
+   </div>
+   <div class=" third_area wrapBox980">
+      <div class="bg_star">
+       <div class="ad_04"><!--#CMS_MODULE(特殊频道-630广告)#--></div>
+         
+            <!--#CMS_MODULE(特殊频道-八条图文列表1)#-->
+                 
+      </div>
+<div class="bagua">
+       
+      <!--#CMS_MODULE(特殊频道-右侧（星光现场）)#--> 
+</div>
+   </div>
+   <div class="fourth_area wrapBox980">
+      <div class="ysqy">
+         
+            <!--#CMS_MODULE(特殊频道-八条图文列表2)#-->
+         
+      </div>
+<div class="ys_rangking">
+      <!--#CMS_MODULE(特殊频道-右侧（排行02）)#--> 
+</div>
+   </div>
+   <div class="ad_06 wrapBox980"><!--#CMS_MODULE(特殊频道-980广告二)#--></div>
+   <div class="sixth_area wrapBox980">
+      <div class="xztk">
+         
+            <!--#CMS_MODULE(特殊频道-八条图文列表4)#-->
+         
+      </div>
+   <div class="ylgd">
+	 <!--#CMS_MODULE(特殊频道-右侧（滚动）)#-->  
+</div>
+   </div>
+<iframe src="http://site.cheshi.com/data/seller.php?action=auto.data.v1.cn" width="960px" height="372px" scrolling="No" frameborder="0" style="margin:0 auto;"></iframe>
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+<script src="http://pic.v1.cn/cms/special_channel/js/focupic.js" language="javascript" type="text/javascript"></script>
+   <!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/bz_channel/js/DD_belatedPNG_0.0.8a.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+var aList=$("li.search").find("a");
+	aList.each(function(){
+		var hrefValue=$(this).attr("href");
+		if(hrefValue.substr(0,22)!='http://video.baidu.com'){
+			var value=encodeURI($(this).text());
+			$(this).attr("href","http://ynews.v1.cn/news/search/s.jhtml?searchWord="+value); 
+		}
+	});
+});
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";}

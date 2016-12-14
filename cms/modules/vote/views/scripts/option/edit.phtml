@@ -1,0 +1,52 @@
+<div class="area">
+<div class="help"> 
+	<p>帮助</p>
+	<p>1、此处为(<a href="/vote/problem/index/vid/<?=$this->vid?>"><?=$this->vote['title']?></a> >  <?=$this->problem['title']?>)的具体投票选项管理;</p>     
+	<p>2、自定义属性用于添加附带的应用参数，如图片。</p> 
+	<p>3、状态有正常和删除两种,正常状态，正常显示；删除状态，不显示在界面或接口里;</p>  
+</div>
+<div class="nr">
+<h2>
+<button onclick="window.location.href='/vote/option/index/vid/<?=$this->vid?>/pid/<?=$this->pid?>'">返回</button>
+<a href="#nogo">添加选项</a>        	
+</h2>
+	<form action="/vote/option/update" method="post">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+	<tbody>
+		<tr>
+			<td>选项</td>
+			<td><input type="text" name="title" value="<?=$this->data['title']?>" size="40"/>建议在15个汉字以内</td>
+		</tr>
+		<tr>
+			<td>排序</td>
+			<td><input type="text" name="orderby"  value="<?=$this->data['orderby']?>" /></td>
+		</tr>
+		<tr>
+			<td>票数</td>
+			<td><input type="text" name="click" value="<?=$this->data['click']?>"  />可修改票数</td>
+		</tr>
+		<tr>
+			<td>自定义属性</td>
+			<td><textarea type="text" name="other" cols="50" rows="8" /><?=stripslashes($this->data['other'])?></textarea >
+		</tr>
+		<tr>
+			<td>选项方式</td>
+			<td><input type="radio" name="ctype" value="0" <?=$this->checked[0]?> > 单选 <input type="radio" name="ctype" value="1" <?=$this->checked[1]?>>复选</td>
+		</tr>
+		<tr>
+			<td>状态</td>
+			<td><select name="status" >				
+					<option value="0" label="正常" <?=$this->select[0]?>>正常</option>				
+					<option value="1" label="删除" <?=$this->select[1]?>>删除</option>				
+				</select></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="left"><input type="hidden" name="vid" value="<?=$this->vid?>" /><input type="hidden" name="pid" value="<?=$this->pid?>" /><input type="hidden" name="oid" value="<?=$this->oid?>" /><input type="submit" value="   提 交   " /></td>
+		</tr>
+	</tbody>
+	</table>
+	</form>
+	</div>
+</div>
+

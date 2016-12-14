@@ -1,0 +1,92 @@
+a:1:{i:0;s:3488:"<!DOCTYPE html>
+<html>
+<head>
+    <title>游戏平台</title>
+    <meta charset="utf-8" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/common.css" charset="utf-8" rel="stylesheet" />
+    <link href="http://static.v1.cn/gplatform/v1.0/css/service.css" charset="utf-8" rel="stylesheet" />
+    <script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://static.v1.cn/gplatform/v1.0/js/common.js" type="text/javascript"></script>
+</head>
+<body>
+<!--顶部 start-->
+<!--ssi#include virtual="/ssi/common/header.shtml"-->
+<!--顶部 end-->
+
+<!--主体内容 start-->
+<div class="main hide clearfix">  
+	<!--左侧主要部分 start-->
+    <div class="service_content">
+    	<div class="module_hd">
+            <h2 id="gameRecommand" class="module_hd_tab">结果查询</h2>
+        </div>
+        <!--结果查询菜单 start--> 
+        <form>
+            	<div class="search_menu">
+                	<div class="search_menu_item">
+                    	<label class="menu_name">账号：</label>
+                        <input class="menu_text_input"type="text">
+                        <span></span>
+                    </div>
+                    <div class="search_menu_item">
+                    	<label class="menu_name">订单号：</label>
+                        <input class="menu_text_input tips"type="password" value="ssssssss">
+                        <span class="tip_text">输入的订单号不正确 </span>
+                    </div>
+                </div>
+                <a class="btn_orange_l" href="#">查询</a>
+         </form>
+        <!--结果查询菜单 end--> 
+    </div>
+    <!--左侧主要部分 end-->
+    <!--右侧边栏 start-->
+    <div class="sevice_bar">
+    		<!--右侧边栏上部 start-->
+            <div class="cf_information">
+            <div class="module_hd">
+                <h2 class="module_hd_arrow">客服信息</h2>
+            </div>
+            
+            <ul class="fk_list">
+            	<li class="kf_list_item">
+                	<span>服务时间：</span>
+                    <em>7*24小时</em>
+                </li>
+                <li class="kf_list_item">
+                	<span>客服电话：</span>
+                    <em>400 1000 1000</em>
+                </li>
+                <li class="kf_list_item">
+                	<span>客服邮箱：</span>
+                    <em>kefu@v1.cn</em>
+                </li>
+                <li class="kf_list_item">
+                	<span>在线客服：</span>
+                    <a class="service_btn01" href="###">客服001</a>
+                    <a class="service_btn02" href="###">客服002</a>
+                </li>
+            </ul>
+        </div>
+        <!--右侧边栏上部 end-->
+        <!--右侧边栏下部 start-->
+        	<div class="hots_question">
+        	<div class="module_hd">
+                <h2 class="module_hd_arrow">热点问题</h2>
+            </div>
+            
+            <ul class="hot_list">
+            	<!--#CMS_MODULE(SERVICE-HOT-TEXT)#-->
+            </ul>
+        </div>
+        <!--右侧边栏下部 end-->
+    </div>
+    <!--右侧边栏 end-->
+</div>
+<!--主体内容 end-->
+<!--底部信息 start-->
+<!--ssi#include virtual="/ssi/common/footer.shtml"-->
+<!--底部信息 end-->
+<!--ssi#include virtual="/ssi/common/anti_addiction.shtml"-->
+
+</body>
+</html>";}

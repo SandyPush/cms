@@ -1,0 +1,659 @@
+a:20:{i:0;s:641:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>第五模板</title>
+<link href="http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+123
+ <!--#CMS_MODULE(视频模块NO4)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(code001)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+<!--#CMS_MODULE(code002)#-->
+</div>
+</body>
+</html>
+";i:1;s:581:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>第五模板</title>
+<link href="http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+123
+ <!--#CMS_MODULE(视频模块NO4)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+</div>
+</body>
+</html>
+";i:2;s:694:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>第五模板</title>
+<link href="http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+123
+<!--#CMS_MODULE(视频模块NO4)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块三)#-->
+<!--#CMS_MODULE(NO4模块四)#-->
+</div>
+</body>
+</html>
+";i:3;s:729:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>第五模板</title>
+<link href="http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+123
+<!--#CMS_MODULE(视频模块NO4)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块三)#-->
+<!--#CMS_MODULE(NO4模块四)#-->
+</div>
+<!--#CMS_MODULE(NO4模块五)#-->
+</body>
+</html>
+";i:4;s:759:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>第五模板</title>
+<link href="http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(视频模块NO4)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块三)#-->
+<!--#CMS_MODULE(NO4模块四)#-->
+</div>
+<!--#CMS_MODULE(NO4模块五)#-->
+</body>
+</html>
+";i:5;s:868:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>第五模板</title>
+<link href="http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(视频模块NO4)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块三)#-->
+<!--#CMS_MODULE(NO4模块四)#-->
+</div>
+<!--#CMS_MODULE(NO4模块五)#-->
+</body>
+</html>
+";i:6;s:903:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>第五模板</title>
+<link href="http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(视频模块NO4)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块三)#-->
+<!--#CMS_MODULE(NO4模块四)#-->
+</div>
+<!--#CMS_MODULE(NO4模块五)#-->
+<!--#CMS_MODULE(专题footer)#-->
+</body>
+</html>
+";i:7;s:908:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(视频模块NO4)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块三)#-->
+<!--#CMS_MODULE(NO4模块四)#-->
+</div>
+<!--#CMS_MODULE(NO4模块五)#-->
+<!--#CMS_MODULE(专题footer)#-->
+</body>
+</html>
+";i:8;s:954:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(视频模块NO4)#-->
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块三)#-->
+<!--#CMS_MODULE(NO4模块四)#-->
+</div>
+<!--#CMS_MODULE(NO4模块五)#-->
+<!--#CMS_MODULE(专题footer)#-->
+</body>
+</html>
+";i:9;s:994:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(视频模块NO4)#-->
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块三)#-->
+<!--#CMS_MODULE(NO4模块四)#-->
+</div>
+<!--#CMS_MODULE(NO4模块五)#-->
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:10;s:1089:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(视频模块NO4)#-->
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块三)#-->
+<!--#CMS_MODULE(NO4模块四)#-->
+</div>
+<!--#CMS_MODULE(NO4模块五)#-->
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:11;s:1073:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<!--#CMS_FUNCTION('cssBox','index.css',array(
+  'http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css',
+))#-->
+
+<!--#CMS_FUNCTION('jsBox','index.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/v1_static/js/globalFun.js',
+))#-->
+
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(视频模块NO4)#-->
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块三)#-->
+<!--#CMS_MODULE(NO4模块四)#-->
+</div>
+<!--#CMS_MODULE(NO4模块五)#-->
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:12;s:1002:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<!--#CMS_FUNCTION('cssBox','no5.css',array(
+  'http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css',
+))#-->
+
+<!--#CMS_FUNCTION('jsBox','no5.js',array(
+  'http://pic.v1.cn/cms/v1_static/js/globalFun.js',
+))#-->
+
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(视频模块NO4)#-->
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块三)#-->
+<!--#CMS_MODULE(NO4模块四)#-->
+</div>
+<!--#CMS_MODULE(NO4模块五)#-->
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:13;s:1069:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<!--#CMS_FUNCTION('cssBox','no5.css',array(
+  'http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css',
+))#-->
+
+<!--#CMS_FUNCTION('jsBox','no5.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/v1_static/js/globalFun.js',
+))#-->
+
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(视频模块NO4)#-->
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块三)#-->
+<!--#CMS_MODULE(NO4模块四)#-->
+</div>
+<!--#CMS_MODULE(NO4模块五)#-->
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:14;s:1183:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<!--#CMS_FUNCTION('cssBox','no5.css',array(
+  'http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css',
+))#-->
+
+<!--#CMS_FUNCTION('jsBox','no5.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/v1_static/js/globalFun.js',
+))#-->
+
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(视频模块NO4)#-->
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块三)#-->
+<!--#CMS_MODULE(NO4模块四)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块六)#-->
+<!--#CMS_MODULE(NO4模块七)#-->
+</div>
+<!--#CMS_MODULE(NO4模块五)#-->
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:15;s:1303:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--#CMS_FUNCTION('cssBox','no5.css',array(
+  'http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css',
+))#-->
+
+<!--#CMS_FUNCTION('jsBox','no5.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/v1_static/js/globalFun.js',
+))#-->
+
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(视频模块NO4)#-->
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块三)#-->
+<!--#CMS_MODULE(NO4模块四)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块六)#-->
+<!--#CMS_MODULE(NO4模块七)#-->
+</div>
+<!--#CMS_MODULE(NO4模块五)#-->
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:16;s:1348:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--#CMS_FUNCTION('cssBox','no5.css',array(
+  'http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css',
+))#-->
+
+<!--#CMS_FUNCTION('jsBox','no5.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/v1_static/js/globalFun.js',
+))#-->
+
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(视频模块NO4)#-->
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块三)#-->
+<!--#CMS_MODULE(NO4模块四)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块六)#-->
+<!--#CMS_MODULE(NO4模块七)#-->
+</div>
+<!--#CMS_MODULE(NO4模块五)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:17;s:1757:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/no4/js/qh.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=20140319"></script>
+
+<!--#CMS_FUNCTION('cssBox','no5.css',array(
+  'http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css',
+))#-->
+
+<!--#CMS_FUNCTION('jsBox','no5.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/v1_static/js/globalFun.js',
+))#-->
+
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(视频模块NO4)#-->
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块三)#-->
+<!--#CMS_MODULE(NO4模块四)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块六)#-->
+<!--#CMS_MODULE(NO4模块七)#-->
+</div>
+<!--#CMS_MODULE(NO4模块五)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:18;s:2117:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/no4/js/qh.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=20140319"></script>
+
+<!--#CMS_FUNCTION('cssBox','no5.css',array(
+  'http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css',
+))#-->
+
+<!--#CMS_FUNCTION('jsBox','no5.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/v1_static/js/globalFun.js',
+))#-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(视频模块NO4)#-->
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块三)#-->
+<!--#CMS_MODULE(NO4模块四)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块六)#-->
+<!--#CMS_MODULE(NO4模块七)#-->
+</div>
+<!--#CMS_MODULE(NO4模块五)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:19;s:2349:"<!--#
+  $sort=CMS_FUNCTION('toPinyin',$cms_page_category.'Zt');
+  $sort=$sort['pinyin_for_full'];
+#-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/no4/js/qh.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=20140319"></script>
+
+<!--#CMS_FUNCTION('cssBox','no5.css',array(
+  'http://pic.v1.cn/cms/new_special/no5/css/style-Demofive.css',
+))#-->
+
+<!--#CMS_FUNCTION('jsBox','no5.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/v1_static/js/globalFun.js',
+))#-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+  //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$cms_page_category}Zt', 3]);
+</script>
+
+
+</head>
+
+<body>
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(视频模块NO4)#-->
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#-->
+<!--#CMS_MODULE(NO4模块二)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块三)#-->
+<!--#CMS_MODULE(NO4模块四)#-->
+</div>
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块六)#-->
+<!--#CMS_MODULE(NO4模块七)#-->
+</div>
+<!--#CMS_MODULE(NO4模块五)#-->
+
+<!--#CMS_MODULE(底部浮层评论)#-->
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";}

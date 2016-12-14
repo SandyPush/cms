@@ -1,0 +1,1025 @@
+a:7:{i:0;s:2572:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+      headerGetUser();
+  });
+</script>
+<script type="text/javascript">
+  			$(document).ready(function(){
+  				var sli=$("#ulbox").find("li");
+  				var t=$(sli);
+  				var w;
+  				var q;
+  				var num=10;  
+  				for(var c=0;c<t.length;c++){
+		  				w=t[c];
+		  				q=$(w);
+		  				q.hide();
+  				}				
+  				for(var i=0;i<num;i++){
+	  				w=t[i];
+	  				q=$(w);
+	  				q.show();
+  				}
+  				$("#hiddenbox").val(num);
+  				$("#buttonbox").click(function(){
+  					num+=10;
+	  				for(var b=0;b<num;b++){
+	  				w=t[b];
+	  				q=$(w);
+	  				q.show();
+					if(num==50){
+						$("#buttonbox").hide();
+					}
+  				}
+  				});				
+  			});
+</script>
+<style type="text/css">
+#wrapper{width:100%px;}
+a:hover{color:#1647e9;}
+.wrap{width:980px;margin:0 auto;}
+ul.video-list{overflow:hidden;}
+ul.video-list li{float:left;width:190px;padding:10px 3px;}
+ul.video-list .list-img,ul.video-list .list-img img{width:190px;height:143px;}
+ul.video-list .list-title,ul.video-list .list-summary{margin:0;padding:0}
+ul.video-list .list-title{font-size:14px;}
+ul.video-list .list-title a,ul.video-list .list-summary a{display:block;}
+ul.video-list .list-summary a{color:#666;}
+.more{line-height:38px;background:#ebebeb;color:#666;cursor: pointer;text-align:center;}
+.l-title h2{font-size:20px;font-weight:bold;padding:50px 10px 0;}
+</style>
+</head>
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(code001)#-->
+
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:1;s:2588:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+      headerGetUser();
+  });
+</script>
+<script type="text/javascript">
+  			$(document).ready(function(){
+  				var sli=$("#ulbox").find("li");
+  				var t=$(sli);
+  				var w;
+  				var q;
+  				var num=10;  
+  				for(var c=0;c<t.length;c++){
+		  				w=t[c];
+		  				q=$(w);
+		  				q.hide();
+  				}				
+  				for(var i=0;i<num;i++){
+	  				w=t[i];
+	  				q=$(w);
+	  				q.show();
+  				}
+  				$("#hiddenbox").val(num);
+  				$("#buttonbox").click(function(){
+  					num+=10;
+	  				for(var b=0;b<num;b++){
+	  				w=t[b];
+	  				q=$(w);
+	  				q.show();
+					if(num==50){
+						$("#buttonbox").hide();
+					}
+  				}
+  				});				
+  			});
+</script>
+<style type="text/css">
+#wrapper{width:100%px;}
+a:hover{color:#1647e9;}
+.wrap{width:980px;margin:0 auto;}
+ul.video-list{overflow:hidden;}
+ul.video-list li{float:left;width:190px;padding:10px 3px;}
+ul.video-list .list-img,ul.video-list .list-img img{width:190px;height:143px;}
+ul.video-list .list-title,ul.video-list .list-summary{margin:0;padding:0}
+ul.video-list .list-title{font-size:14px;}
+ul.video-list .list-title a,ul.video-list .list-summary a{display:block;padding-top:5px;}
+ul.video-list .list-summary a{color:#666;}
+.more{line-height:38px;background:#ebebeb;color:#666;cursor: pointer;text-align:center;}
+.l-title h2{font-size:20px;font-weight:bold;padding:50px 10px 0;}
+</style>
+</head>
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(code001)#-->
+
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:2;s:4461:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+      headerGetUser();
+  });
+</script>
+<script type="text/javascript">
+  			$(document).ready(function(){
+  				var sli=$("#ulbox").find("li");
+  				var t=$(sli);
+  				var w;
+  				var q;
+  				var num=2;  
+  				var slitwo=$("#ulbox01").find("li");
+  				var ttwo=$(slitwo);
+  				var wtwo;
+  				var qtwo;
+  				var slithree=$("#ulbox02").find("li");
+  				var tthree=$(slithree);
+  				var wthree;
+  				var qthree;
+  				var slifour=$("#ulbox03").find("li");
+  				var tfour=$(slifour);
+  				var wfour;
+  				var qfour;
+  				var slifive=$("#ulbox04").find("li");
+  				var tfive=$(slifive);
+  				var wfive;
+  				var qfive;
+  				
+  				//第一个ul
+  				for(var c=0;c<t.length;c++){
+		  				w=t[c];
+		  				q=$(w);
+		  				q.hide();
+  				}				
+  				for(var i=0;i<num;i++){
+	  				w=t[i];
+	  				q=$(w);
+	  				q.show();
+  				}
+  				//第二个UL
+  				for(var z=0;z<ttwo.length;z++){
+		  				wtwo=ttwo[z];
+		  				qtwo=$(wtwo);
+		  				qtwo.hide();
+  				}				
+  				for(var x=0;x<num;x++){
+	  				wtwo=ttwo[x];
+	  				qtwo=$(wtwo);
+	  				qtwo.show();
+  				}
+  				//第3个UL
+  				for(var zthree=0;zthree<tthree.length;zthree++){
+		  				wthree=tthree[zthree];
+		  				qthree=$(wthree);
+		  				qthree.hide();
+  				}				
+  				for(var xthree=0;xthree<num;xthree++){
+	  				wthree=tthree[xthree];
+	  				qthree=$(wthree);
+	  				qthree.show();
+  				}
+  				//第3个UL
+  				for(var zfour=0;zfour<tfour.length;zfour++){
+		  				wfour=tfour[zfour];
+		  				qfour=$(wfour);
+		  				qfour.hide();
+  				}				
+  				for(var xfour=0;xfour<num;xfour++){
+	  				wfour=tfour[xfour];
+	  				qfour=$(wfour);
+	  				qfour.show();
+  				}
+  				//第4个UL
+  				for(var zfive=0;zfive<tfive.length;zfive++){
+		  				wfive=tfive[zfive];
+		  				qfive=$(wfive);
+		  				qfive.hide();
+  				}				
+  				for(var xfive=0;xfive<num;xfive++){
+	  				wfive=tfive[xfive];
+	  				qfive=$(wfive);
+	  				qfive.show();
+  				}
+  				$("#hiddenbox").val(num);
+  				$("#buttonbox").click(function(){
+  					num+=2;
+	  				for(var b=0;b<num;b++){
+	  				w=t[b];
+	  				q=$(w);
+	  				q.show();
+	  				wtwo=ttwo[b];
+	  				qtwo=$(wtwo);
+	  				qtwo.show();
+	  				wthree=tthree[b];
+	  				qthree=$(wthree);
+	  				qthree.show();
+	  				wfour=tfour[b];
+	  				qfour=$(wfour);
+	  				qfour.show();
+	  				wfive=tfive[b];
+	  				qfive=$(wfive);
+	  				qfive.show();
+					if(num==10){
+						$("#buttonbox").hide();
+					}
+  				}
+  				});				
+  			});
+</script>
+<style type="text/css">
+#wrapper{width:100%px;}
+a:hover{color:#1647e9;}
+.wrap{width:980px;margin:0 auto;}
+ul.video-list{overflow:hidden;}
+ul.video-list li{float:left;width:190px;padding:10px 3px;}
+ul.video-list .list-img,ul.video-list .list-img img{width:190px;height:143px;}
+ul.video-list .list-title,ul.video-list .list-summary{margin:0;padding:0}
+ul.video-list .list-title{font-size:14px;}
+ul.video-list .list-title a,ul.video-list .list-summary a{display:block;padding-top:5px;}
+ul.video-list .list-summary a{color:#666;}
+.more{line-height:38px;background:#ebebeb;color:#666;cursor: pointer;text-align:center;}
+.l-title h2{font-size:20px;font-weight:bold;padding:50px 10px 0;}
+</style>
+</head>
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+
+<!--#CMS_MODULE(code001)#-->
+
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:3;s:5136:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+      headerGetUser();
+  });
+</script>
+<script type="text/javascript">
+  			$(document).ready(function(){
+  				var sli=$("#ulbox").find("li");
+  				var t=$(sli);
+  				var w;
+  				var q;
+  				var num=2;  
+  				var slitwo=$("#ulbox01").find("li");
+  				var ttwo=$(slitwo);
+  				var wtwo;
+  				var qtwo;
+  				var slithree=$("#ulbox02").find("li");
+  				var tthree=$(slithree);
+  				var wthree;
+  				var qthree;
+  				var slifour=$("#ulbox03").find("li");
+  				var tfour=$(slifour);
+  				var wfour;
+  				var qfour;
+  				var slifive=$("#ulbox04").find("li");
+  				var tfive=$(slifive);
+  				var wfive;
+  				var qfive;
+  				
+  				//第一个ul
+  				for(var c=0;c<t.length;c++){
+		  				w=t[c];
+		  				q=$(w);
+		  				q.hide();
+  				}				
+  				for(var i=0;i<num;i++){
+	  				w=t[i];
+	  				q=$(w);
+	  				q.show();
+  				}
+  				//第二个UL
+  				for(var z=0;z<ttwo.length;z++){
+		  				wtwo=ttwo[z];
+		  				qtwo=$(wtwo);
+		  				qtwo.hide();
+  				}				
+  				for(var x=0;x<num;x++){
+	  				wtwo=ttwo[x];
+	  				qtwo=$(wtwo);
+	  				qtwo.show();
+  				}
+  				//第3个UL
+  				for(var zthree=0;zthree<tthree.length;zthree++){
+		  				wthree=tthree[zthree];
+		  				qthree=$(wthree);
+		  				qthree.hide();
+  				}				
+  				for(var xthree=0;xthree<num;xthree++){
+	  				wthree=tthree[xthree];
+	  				qthree=$(wthree);
+	  				qthree.show();
+  				}
+  				//第3个UL
+  				for(var zfour=0;zfour<tfour.length;zfour++){
+		  				wfour=tfour[zfour];
+		  				qfour=$(wfour);
+		  				qfour.hide();
+  				}				
+  				for(var xfour=0;xfour<num;xfour++){
+	  				wfour=tfour[xfour];
+	  				qfour=$(wfour);
+	  				qfour.show();
+  				}
+  				//第4个UL
+  				for(var zfive=0;zfive<tfive.length;zfive++){
+		  				wfive=tfive[zfive];
+		  				qfive=$(wfive);
+		  				qfive.hide();
+  				}				
+  				for(var xfive=0;xfive<num;xfive++){
+	  				wfive=tfive[xfive];
+	  				qfive=$(wfive);
+	  				qfive.show();
+  				}
+  				$("#hiddenbox").val(num);
+  				$("#buttonbox").click(function(){
+  					num+=2;
+	  				for(var b=0;b<num;b++){
+	  				w=t[b];
+	  				q=$(w);
+	  				q.show();
+	  				wtwo=ttwo[b];
+	  				qtwo=$(wtwo);
+	  				qtwo.show();
+	  				wthree=tthree[b];
+	  				qthree=$(wthree);
+	  				qthree.show();
+	  				wfour=tfour[b];
+	  				qfour=$(wfour);
+	  				qfour.show();
+	  				wfive=tfive[b];
+	  				qfive=$(wfive);
+	  				qfive.show();
+					if(num==10){
+						$("#buttonbox").hide();
+					}
+  				}
+  				});				
+  			});
+</script>
+<style type="text/css">
+#wrapper{width:100%px;}
+a:hover{color:#1647e9;}
+.wrap{width:980px;margin:0 auto;}
+ul.video-list{overflow:hidden;}
+ul.video-list li{float:left;width:190px;padding:10px 3px;}
+ul.video-list .list-img,ul.video-list .list-img img{width:190px;height:143px;}
+ul.video-list .list-title,ul.video-list .list-summary{margin:0;padding:0}
+ul.video-list .list-title{font-size:14px;}
+ul.video-list .list-title a,ul.video-list .list-summary a{display:block;padding-top:5px;}
+ul.video-list .list-summary a{color:#666;}
+.more{line-height:38px;background:#ebebeb;color:#666;cursor: pointer;text-align:center;}
+.l-title h2{font-size:20px;font-weight:bold;padding:50px 10px 0;}
+</style>
+</head>
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+
+<div class="wrap">
+    <div class="l-title"><h2><!--#CMS_MODULE(code001)#--></h2></div>
+    <input id="hiddenbox" type="hidden"/>
+    <div class="video">
+<ul class="video-list" id="ulbox">
+           <!--#CMS_MODULE(code002)#-->
+        </ul>
+	<ul class="video-list" id="ulbox01">
+           <!--#CMS_MODULE(code003)#-->
+        </ul>
+<ul class="video-list" id="ulbox02">
+           <!--#CMS_MODULE(code004)#-->
+        </ul>
+<ul class="video-list" id="ulbox03">
+           <!--#CMS_MODULE(code005)#-->
+        </ul>
+<ul class="video-list" id="ulbox04">
+           <!--#CMS_MODULE(code006)#-->
+        </ul>
+   </div>
+<div id="buttonbox" class="more">点击加载更多</div>
+</div>
+
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:4;s:5130:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+      headerGetUser();
+  });
+</script>
+<script type="text/javascript">
+  			$(document).ready(function(){
+  				var sli=$("#ulbox").find("li");
+  				var t=$(sli);
+  				var w;
+  				var q;
+  				var num=2;  
+  				var slitwo=$("#ulbox01").find("li");
+  				var ttwo=$(slitwo);
+  				var wtwo;
+  				var qtwo;
+  				var slithree=$("#ulbox02").find("li");
+  				var tthree=$(slithree);
+  				var wthree;
+  				var qthree;
+  				var slifour=$("#ulbox03").find("li");
+  				var tfour=$(slifour);
+  				var wfour;
+  				var qfour;
+  				var slifive=$("#ulbox04").find("li");
+  				var tfive=$(slifive);
+  				var wfive;
+  				var qfive;
+  				
+  				//第一个ul
+  				for(var c=0;c<t.length;c++){
+		  				w=t[c];
+		  				q=$(w);
+		  				q.hide();
+  				}				
+  				for(var i=0;i<num;i++){
+	  				w=t[i];
+	  				q=$(w);
+	  				q.show();
+  				}
+  				//第二个UL
+  				for(var z=0;z<ttwo.length;z++){
+		  				wtwo=ttwo[z];
+		  				qtwo=$(wtwo);
+		  				qtwo.hide();
+  				}				
+  				for(var x=0;x<num;x++){
+	  				wtwo=ttwo[x];
+	  				qtwo=$(wtwo);
+	  				qtwo.show();
+  				}
+  				//第3个UL
+  				for(var zthree=0;zthree<tthree.length;zthree++){
+		  				wthree=tthree[zthree];
+		  				qthree=$(wthree);
+		  				qthree.hide();
+  				}				
+  				for(var xthree=0;xthree<num;xthree++){
+	  				wthree=tthree[xthree];
+	  				qthree=$(wthree);
+	  				qthree.show();
+  				}
+  				//第3个UL
+  				for(var zfour=0;zfour<tfour.length;zfour++){
+		  				wfour=tfour[zfour];
+		  				qfour=$(wfour);
+		  				qfour.hide();
+  				}				
+  				for(var xfour=0;xfour<num;xfour++){
+	  				wfour=tfour[xfour];
+	  				qfour=$(wfour);
+	  				qfour.show();
+  				}
+  				//第4个UL
+  				for(var zfive=0;zfive<tfive.length;zfive++){
+		  				wfive=tfive[zfive];
+		  				qfive=$(wfive);
+		  				qfive.hide();
+  				}				
+  				for(var xfive=0;xfive<num;xfive++){
+	  				wfive=tfive[xfive];
+	  				qfive=$(wfive);
+	  				qfive.show();
+  				}
+  				$("#hiddenbox").val(num);
+  				$("#buttonbox").click(function(){
+  					num+=2;
+	  				for(var b=0;b<num;b++){
+	  				w=t[b];
+	  				q=$(w);
+	  				q.show();
+	  				wtwo=ttwo[b];
+	  				qtwo=$(wtwo);
+	  				qtwo.show();
+	  				wthree=tthree[b];
+	  				qthree=$(wthree);
+	  				qthree.show();
+	  				wfour=tfour[b];
+	  				qfour=$(wfour);
+	  				qfour.show();
+	  				wfive=tfive[b];
+	  				qfive=$(wfive);
+	  				qfive.show();
+					if(num==10){
+						$("#buttonbox").hide();
+					}
+  				}
+  				});				
+  			});
+</script>
+<style type="text/css">
+#wrapper{width:100%px;}
+a:hover{color:#1647e9;}
+.wrap{width:980px;margin:0 auto;}
+.video{overflow:hidden;}
+ul.video-list{float:left;}
+ul.video-list li{width:190px;padding:10px 3px;}
+ul.video-list .list-img,ul.video-list .list-img img{width:190px;height:143px;}
+ul.video-list .list-title,ul.video-list .list-summary{margin:0;padding:0}
+ul.video-list .list-title{font-size:14px;}
+ul.video-list .list-title a,ul.video-list .list-summary a{display:block;}
+ul.video-list .list-summary a{color:#666;}
+.more{line-height:38px;background:#ebebeb;color:#666;cursor: pointer;text-align:center;}
+.l-title h2{font-size:20px;font-weight:bold;padding:10px 10px 0;}
+</style>
+</head>
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+
+<div class="wrap">
+    <div class="l-title"><h2><!--#CMS_MODULE(code001)#--></h2></div>
+    <input id="hiddenbox" type="hidden"/>
+    <div class="video">
+<ul class="video-list" id="ulbox">
+           <!--#CMS_MODULE(code002)#-->
+        </ul>
+	<ul class="video-list" id="ulbox01">
+           <!--#CMS_MODULE(code003)#-->
+        </ul>
+<ul class="video-list" id="ulbox02">
+           <!--#CMS_MODULE(code004)#-->
+        </ul>
+<ul class="video-list" id="ulbox03">
+           <!--#CMS_MODULE(code005)#-->
+        </ul>
+<ul class="video-list" id="ulbox04">
+           <!--#CMS_MODULE(code006)#-->
+        </ul>
+   </div>
+<div id="buttonbox" class="more">点击加载更多</div>
+</div>
+
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:5;s:5147:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+      headerGetUser();
+  });
+</script>
+<script type="text/javascript">
+  			$(document).ready(function(){
+  				var sli=$("#ulbox").find("li");
+  				var t=$(sli);
+  				var w;
+  				var q;
+  				var num=2;  
+  				var slitwo=$("#ulbox01").find("li");
+  				var ttwo=$(slitwo);
+  				var wtwo;
+  				var qtwo;
+  				var slithree=$("#ulbox02").find("li");
+  				var tthree=$(slithree);
+  				var wthree;
+  				var qthree;
+  				var slifour=$("#ulbox03").find("li");
+  				var tfour=$(slifour);
+  				var wfour;
+  				var qfour;
+  				var slifive=$("#ulbox04").find("li");
+  				var tfive=$(slifive);
+  				var wfive;
+  				var qfive;
+  				
+  				//第一个ul
+  				for(var c=0;c<t.length;c++){
+		  				w=t[c];
+		  				q=$(w);
+		  				q.hide();
+  				}				
+  				for(var i=0;i<num;i++){
+	  				w=t[i];
+	  				q=$(w);
+	  				q.show();
+  				}
+  				//第二个UL
+  				for(var z=0;z<ttwo.length;z++){
+		  				wtwo=ttwo[z];
+		  				qtwo=$(wtwo);
+		  				qtwo.hide();
+  				}				
+  				for(var x=0;x<num;x++){
+	  				wtwo=ttwo[x];
+	  				qtwo=$(wtwo);
+	  				qtwo.show();
+  				}
+  				//第3个UL
+  				for(var zthree=0;zthree<tthree.length;zthree++){
+		  				wthree=tthree[zthree];
+		  				qthree=$(wthree);
+		  				qthree.hide();
+  				}				
+  				for(var xthree=0;xthree<num;xthree++){
+	  				wthree=tthree[xthree];
+	  				qthree=$(wthree);
+	  				qthree.show();
+  				}
+  				//第3个UL
+  				for(var zfour=0;zfour<tfour.length;zfour++){
+		  				wfour=tfour[zfour];
+		  				qfour=$(wfour);
+		  				qfour.hide();
+  				}				
+  				for(var xfour=0;xfour<num;xfour++){
+	  				wfour=tfour[xfour];
+	  				qfour=$(wfour);
+	  				qfour.show();
+  				}
+  				//第4个UL
+  				for(var zfive=0;zfive<tfive.length;zfive++){
+		  				wfive=tfive[zfive];
+		  				qfive=$(wfive);
+		  				qfive.hide();
+  				}				
+  				for(var xfive=0;xfive<num;xfive++){
+	  				wfive=tfive[xfive];
+	  				qfive=$(wfive);
+	  				qfive.show();
+  				}
+  				$("#hiddenbox").val(num);
+  				$("#buttonbox").click(function(){
+  					num+=2;
+	  				for(var b=0;b<num;b++){
+	  				w=t[b];
+	  				q=$(w);
+	  				q.show();
+	  				wtwo=ttwo[b];
+	  				qtwo=$(wtwo);
+	  				qtwo.show();
+	  				wthree=tthree[b];
+	  				qthree=$(wthree);
+	  				qthree.show();
+	  				wfour=tfour[b];
+	  				qfour=$(wfour);
+	  				qfour.show();
+	  				wfive=tfive[b];
+	  				qfive=$(wfive);
+	  				qfive.show();
+					if(num==10){
+						$("#buttonbox").hide();
+					}
+  				}
+  				});				
+  			});
+</script>
+<style type="text/css">
+#wrapper{width:100%px;}
+a:hover{color:#1647e9;}
+.wrap{width:980px;margin:0 auto;}
+.video{overflow:hidden;}
+ul.video-list{float:left;}
+ul.video-list li{width:190px;padding:10px 3px;}
+ul.video-list .list-img,ul.video-list .list-img img{width:190px;height:143px;}
+ul.video-list .list-title,ul.video-list .list-summary{margin:0;padding:0}
+ul.video-list .list-title{font-size:14px;}
+ul.video-list .list-title a,ul.video-list .list-summary a{display:block;padding-top:50px;}
+ul.video-list .list-summary a{color:#666;}
+.more{line-height:38px;background:#ebebeb;color:#666;cursor: pointer;text-align:center;}
+.l-title h2{font-size:20px;font-weight:bold;padding:10px 10px 0;}
+</style>
+</head>
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+
+<div class="wrap">
+    <div class="l-title"><h2><!--#CMS_MODULE(code001)#--></h2></div>
+    <input id="hiddenbox" type="hidden"/>
+    <div class="video">
+<ul class="video-list" id="ulbox">
+           <!--#CMS_MODULE(code002)#-->
+        </ul>
+	<ul class="video-list" id="ulbox01">
+           <!--#CMS_MODULE(code003)#-->
+        </ul>
+<ul class="video-list" id="ulbox02">
+           <!--#CMS_MODULE(code004)#-->
+        </ul>
+<ul class="video-list" id="ulbox03">
+           <!--#CMS_MODULE(code005)#-->
+        </ul>
+<ul class="video-list" id="ulbox04">
+           <!--#CMS_MODULE(code006)#-->
+        </ul>
+   </div>
+<div id="buttonbox" class="more">点击加载更多</div>
+</div>
+
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";i:6;s:5146:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="title" content="{$cms_page_title}" />
+<meta name="keywords" content="{$cms_page_keywords}"/>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="application-name" content="第一视频网" />
+<meta name="msapplication-starturl" content="http://www.v1.cn/" />
+<meta name="robots" content="all" />
+<title>{$cms_page_title}</title>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<script language="javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+$(function(){
+      headerGetUser();
+  });
+</script>
+<script type="text/javascript">
+  			$(document).ready(function(){
+  				var sli=$("#ulbox").find("li");
+  				var t=$(sli);
+  				var w;
+  				var q;
+  				var num=2;  
+  				var slitwo=$("#ulbox01").find("li");
+  				var ttwo=$(slitwo);
+  				var wtwo;
+  				var qtwo;
+  				var slithree=$("#ulbox02").find("li");
+  				var tthree=$(slithree);
+  				var wthree;
+  				var qthree;
+  				var slifour=$("#ulbox03").find("li");
+  				var tfour=$(slifour);
+  				var wfour;
+  				var qfour;
+  				var slifive=$("#ulbox04").find("li");
+  				var tfive=$(slifive);
+  				var wfive;
+  				var qfive;
+  				
+  				//第一个ul
+  				for(var c=0;c<t.length;c++){
+		  				w=t[c];
+		  				q=$(w);
+		  				q.hide();
+  				}				
+  				for(var i=0;i<num;i++){
+	  				w=t[i];
+	  				q=$(w);
+	  				q.show();
+  				}
+  				//第二个UL
+  				for(var z=0;z<ttwo.length;z++){
+		  				wtwo=ttwo[z];
+		  				qtwo=$(wtwo);
+		  				qtwo.hide();
+  				}				
+  				for(var x=0;x<num;x++){
+	  				wtwo=ttwo[x];
+	  				qtwo=$(wtwo);
+	  				qtwo.show();
+  				}
+  				//第3个UL
+  				for(var zthree=0;zthree<tthree.length;zthree++){
+		  				wthree=tthree[zthree];
+		  				qthree=$(wthree);
+		  				qthree.hide();
+  				}				
+  				for(var xthree=0;xthree<num;xthree++){
+	  				wthree=tthree[xthree];
+	  				qthree=$(wthree);
+	  				qthree.show();
+  				}
+  				//第3个UL
+  				for(var zfour=0;zfour<tfour.length;zfour++){
+		  				wfour=tfour[zfour];
+		  				qfour=$(wfour);
+		  				qfour.hide();
+  				}				
+  				for(var xfour=0;xfour<num;xfour++){
+	  				wfour=tfour[xfour];
+	  				qfour=$(wfour);
+	  				qfour.show();
+  				}
+  				//第4个UL
+  				for(var zfive=0;zfive<tfive.length;zfive++){
+		  				wfive=tfive[zfive];
+		  				qfive=$(wfive);
+		  				qfive.hide();
+  				}				
+  				for(var xfive=0;xfive<num;xfive++){
+	  				wfive=tfive[xfive];
+	  				qfive=$(wfive);
+	  				qfive.show();
+  				}
+  				$("#hiddenbox").val(num);
+  				$("#buttonbox").click(function(){
+  					num+=2;
+	  				for(var b=0;b<num;b++){
+	  				w=t[b];
+	  				q=$(w);
+	  				q.show();
+	  				wtwo=ttwo[b];
+	  				qtwo=$(wtwo);
+	  				qtwo.show();
+	  				wthree=tthree[b];
+	  				qthree=$(wthree);
+	  				qthree.show();
+	  				wfour=tfour[b];
+	  				qfour=$(wfour);
+	  				qfour.show();
+	  				wfive=tfive[b];
+	  				qfive=$(wfive);
+	  				qfive.show();
+					if(num==10){
+						$("#buttonbox").hide();
+					}
+  				}
+  				});				
+  			});
+</script>
+<style type="text/css">
+#wrapper{width:100%px;}
+a:hover{color:#1647e9;}
+.wrap{width:980px;margin:0 auto;}
+.video{overflow:hidden;}
+ul.video-list{float:left;}
+ul.video-list li{width:190px;padding:10px 3px;}
+ul.video-list .list-img,ul.video-list .list-img img{width:190px;height:143px;}
+ul.video-list .list-title,ul.video-list .list-summary{margin:0;padding:0}
+ul.video-list .list-title{font-size:14px;}
+ul.video-list .list-title a,ul.video-list .list-summary a{display:block;padding-top:5px;}
+ul.video-list .list-summary a{color:#666;}
+.more{line-height:38px;background:#ebebeb;color:#666;cursor: pointer;text-align:center;}
+.l-title h2{font-size:20px;font-weight:bold;padding:50px 10px 0;}
+</style>
+</head>
+<body>
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+
+<div class="wrap">
+    <div class="l-title"><h2><!--#CMS_MODULE(code001)#--></h2></div>
+    <input id="hiddenbox" type="hidden"/>
+    <div class="video">
+<ul class="video-list" id="ulbox">
+           <!--#CMS_MODULE(code002)#-->
+        </ul>
+	<ul class="video-list" id="ulbox01">
+           <!--#CMS_MODULE(code003)#-->
+        </ul>
+<ul class="video-list" id="ulbox02">
+           <!--#CMS_MODULE(code004)#-->
+        </ul>
+<ul class="video-list" id="ulbox03">
+           <!--#CMS_MODULE(code005)#-->
+        </ul>
+<ul class="video-list" id="ulbox04">
+           <!--#CMS_MODULE(code006)#-->
+        </ul>
+   </div>
+<div id="buttonbox" class="more">点击加载更多</div>
+</div>
+
+<!--#CMS_MODULE(评论)#-->
+<div class="ztfoot">
+<!--#CMS_MODULE(专题footer)#-->
+</div>
+<!--#CMS_MODULE(zhuantitongji)#-->
+</body>
+</html>
+";}

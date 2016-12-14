@@ -1,0 +1,32 @@
+<div class="area">
+<div class="help"> 
+	<p>帮助</p>
+	<p>1、此处为(<?=$this->vote['title']?>)所属的投票题目管理;</p>      
+	<p>2、投票题目是显示在投票界面里的问题，支持单题目，也支持多个题目;</p> 
+</div>
+<div class="nr">
+<h2>
+<button onclick="window.location.href='/vote/problem/index/vid/<?=$this->vid?>'">返回</button>
+<a href="#nogo">添加题目</a>        	
+</h2>
+	<form action="/vote/problem/create" method="post">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+	<tbody>
+		<tr>
+			<td>名称</td>
+			<td><input type="text" name="title" size="40"/>建议在20个汉字以内</td>
+		</tr>
+		<tr>
+			<td>排序</td>
+			<td><input type="text" name="orderby" value="1"/>可以设置投票题目的顺序</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="left"><input type="hidden" name="vid" value="<?=$this->vid?>" /><input type="submit" value="   提 交   " /></td>
+		</tr>
+	</tbody>
+	</table>
+	</form>
+	</div>
+</div>
+

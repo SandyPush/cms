@@ -1,0 +1,28 @@
+a:6:{i:0;s:483:"<script language="JavaScript">
+function toDesktop(sUrl,sName){
+try
+{
+var WshShell = new ActiveXObject("WScript.Shell");
+var oUrlLink = WshShell.CreateShortcut(WshShell.SpecialFolders("Desktop") + "\\" + sName + ".url");
+oUrlLink.TargetPath = sUrl;
+oUrlLink.Save();
+}
+catch(e)
+{
+alert("当前IE安全级别不允许操作！");
+}
+}
+</script>
+<input name="btn" type="button" id="btn" value="第一视频网" onClick="toDesktop('http:\//www.v1.cn/','第一视频网')">
+";i:1;s:224:"<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/kjfw.js"></script>
+<input name="btn" type="button" id="btn" value="第一视频网" onClick="toDesktop('http:\//www.v1.cn/','第一视频网')">
+";i:2;s:59:"<!--#CMS_MODULE(css_js)#-->
+<!--#CMS_MODULE(code001)#-->
+";i:3;s:63:"??
+<!--#CMS_MODULE(css_js)#-->
+<!--#CMS_MODULE(code001)#-->
+";i:4;s:61:"
+<!--#CMS_MODULE(css_js)#-->
+<!--#CMS_MODULE(code001)#-->
+";i:5;s:30:"<!--#CMS_MODULE(code001)#-->
+";}

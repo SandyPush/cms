@@ -1,0 +1,30 @@
+a:4:{i:0;s:116:"<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<!--#CMS_MODULE(blank1)#-->
+</body>
+</html>";i:1;s:191:"<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<!--#CMS_MODULE(blank1)#-->
+</body>
+</html>";i:2;s:344:"<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />   
+</head>
+<body>
+<!--#CMS_MODULE(blank1)#-->
+</body>
+</html>";i:3;s:27:"<!--#CMS_MODULE(blank1)#-->";}

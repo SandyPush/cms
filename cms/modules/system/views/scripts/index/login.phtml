@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta content="IE=7" http-equiv="X-UA-Compatible">
+
+
+<title>CMS登录</title>
+  	<link href="/theme/default/login.css" rel="stylesheet" type="text/css">
+    <?=$this->headScript()?>
+</head>
+<body class="bg10">
+		<div id="login">
+			<form action="" method="post">	
+            <div class="cut1">
+                <div class="logo"><img width="272" height="41" alt="" src="/theme/default/image/login_logo.jpg"></div>
+			<input type="hidden" value="" id="url">
+			<ul>
+                <li>欢迎您登录：</li>
+			
+            <li><input  class="ipt" style="width:200px" name="username"  id="userName"></li>
+			<li><input type="password" class="ipt" style="width:200px" id="passWord" name="password"></li>
+            <li><select class="xiala"  name="channel" id="channel">
+                    <?php foreach($this->channels as $key => $value): ?>
+			  			<option value="<?=$key?>"><?=$value?></option>
+			  		<?php endforeach; ?>
+            </select></li>
+
+		
+ 			<li style="color:red" id="message"></li>
+                <li>    
+                <input type="image" src="/theme/default/image/login_cut2.jpg" />
+                </li>
+			</ul>
+			</div>
+			</form>	
+			<div class="cut2">
+                <img src="/theme/default/image/dl_logo.jpg"><br>
+                第一视频公司 版权所有<br>
+                热线:010-57839077 400-610-0220 邮箱:<a target="_blank" href="mailto:service@v1.cn" id="email">service@corp.vodone.com</a> 不良信息举报:400-610-0220
+			</div>
+		</div>
+	<script>
+	var url_str=window.location.toString();
+	var arr=url_str.split("?");
+	$('#channel').val(arr[1]);
+	$('#userName').focus();
+</script>
+	
+</body></html>

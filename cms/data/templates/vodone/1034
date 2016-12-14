@@ -1,0 +1,814 @@
+a:3:{i:0;s:12630:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>内容页</title>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.sLogo,.play,.icon,.iconS');</script>
+
+<style type="text/css">
+*html,*html body{background-image:url(about:blank);background-attachment:fixed;}
+</style>
+
+<![endif]-->
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_picture/css/v1_pic.css"/>
+<script src="http://pic.v1.cn/cms/special_topic/common/js/jquery.cookie.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/special_topic/common/js/commentlink.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/content.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+ <body>
+
+  <div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/mil/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li></li>
+  <li>
+    <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body">
+        <a href="#" target="_blank">体育</a>
+        <a href="#" target="_blank">汽车</a>
+        <a href="#" target="_blank">拍客</a>
+        <a href="#" target="_blank">影视</a>
+        <a href="#" target="_blank">音乐</a>
+        <a href="#" target="_blank">文化</a>
+        <a href="#" target="_blank">科技</a>
+        <a href="#" target="_blank">游戏</a>
+        <a href="#" target="_blank">女性</a>
+        <a href="#" target="_blank" class="red">搞笑</a>
+        <a href="#" target="_blank">乐活</a>
+        <a href="#" target="_blank">旅游</a>
+        <a href="#" target="_blank">城市</a>
+        <a href="#" target="_blank">曝光台</a>
+        </div>
+    </div>
+  </li>
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><a href="javascript:void(0);" onclick="login()">登录</a></li>
+  <li><a href="javascript:void(0);" onclick="register()">注册</a></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+
+  <li><div id="firstpane" class="CTmenu_list"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a href="#" target="_blank">时尚大尚师时尚尚大…</a>
+	  <a href="#" target="_blank">时尚大尚师时尚尚大…</a>
+      <a href="#" target="_blank">时尚大尚师时尚尚大…</a>
+      </div>
+	  </div>
+  </li>
+</ul>
+
+  </div>
+  </div>
+
+<div class="clear"></div>
+
+<div id="part00" class="part00 udv-clearfix">   
+			<h2 class="tw_title udv-clearfix">
+        		<span class="tw_title_cont" id="d_picTit">北川老县城地震遗址遭50年来最强洪水(1/14)</span>
+			</h2>
+            <div class="tw_tit">
+        		<span class="h4tit">2013年6月19日11：16</span>
+                <span class="h4tit">来源：天山网</span>
+                <span class="h4tit01"><a class="wypingl" href="#">我要评论</a>（<a class="pingl" href="">26</a>人参与）</span>     
+                      
+                <span class="iconObject02">
+                <span class="left">转发到:</span>
+                <a class="iconS icon001" href="#" title="转发到新浪微博" onclick="playerShareFunction('sina','695385','../../user','')">新浪微博</a>
+                <a class="iconS icon002" href="#" title="转发到腾讯微博" onclick="playerShareFunction('qq','695385','../../user','')">腾讯微博</a>
+                <a class="iconS icon003" href="#" title="转发到网易微博" onclick="playerShareFunction('163','695385','../../user','')">网易微博</a>
+                <a class="iconS icon004" href="#" title="转发到搜狐微博" onclick="playerShareFunction('sohu','695385','../../user','')">搜狐微博</a>
+                <a class="iconS icon005" href="#" title="转发到开心网" onclick="playerShareFunction('kaixin','695385','../../user','')">开心网</a>
+                <a class="iconS icon006" href="#" title="转发到天涯社区" onclick="playerShareFunction('tianya','695385','../../user','')">天涯社区</a>
+                </span>
+
+			</div>
+
+<div id="yao">
+  <div id="bd">
+<div id="content">
+	<div class="md" id="downloads">
+	<div class="download">
+
+
+<div id="carousel_photo_container" style="width:950px;">
+
+	 <img src="http://pic.v1.cn/cms/v1_picture/samples/MM/1.jpg" id="carousel_photo" alt="风景（1）" style="width:950px; height:580px;" />
+</div>
+<p class="image" id="carousel_photo_intro">美女(1)</p>
+<div id="carousel">
+<div id="carousel_btn_lastgroup"><a href="#1"></a></div>
+<div id="carousel_container">
+	 <ul id="samples_list">
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/1.jpg" target="_blank" title="美女（1）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-01.jpg" alt="美女（1）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/2.jpg" target="_blank" title="美女（2）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-02.jpg" alt="美女（2）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/3.jpg" target="_blank" title="美女（3）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-03.jpg" alt="美女（3）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/4.jpg" target="_blank" title="美女（4）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-04.jpg" alt="美女（4）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/5.jpg" target="_blank" title="美女（5）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-05.jpg" alt="美女（5）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/6.jpg" target="_blank" title="美女（6）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-06.jpg" alt="美女（6）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/7.jpg" target="_blank" title="美女（7）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-07.jpg" alt="美女（7）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/8.jpg" target="_blank" title="美女（8）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-08.jpg" alt="美女（8）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/9.jpg" target="_blank" title="美女（9）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-09.jpg" alt="美女（9）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/10.jpg" target="_blank" title="美女（10）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-10.jpg" alt="美女（10）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/11.jpg" target="_blank" title="美女（11）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-11.jpg" alt="美女（11）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/12.jpg" target="_blank" title="美女（12）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-12.jpg" alt="美女（12）" /></a></li>
+	 </ul>
+</div>
+<div id="carousel_btn_nextgroup"><a href="#1"></a></div>
+</div>
+    </div>
+	</div>
+</div>
+
+<div id="side"></div>
+</div>
+
+</div><script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/v1_picture/js/yao.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+var Album = new YAO.YAlbum();
+//-->
+</script>
+
+</div>
+<div class="main">
+ <div class="ad"><img src="images/ad.png"></div>
+
+           <div id="comment2">
+<div class="commentLogin">
+<form id="add-news" name="add-news" method="post" action="http://discuss.v1.cn/discuss/comment/save-comment.jhtml">
+<input id="userId" type="hidden" value="" name="news.userId">
+<input id="userName" type="hidden" value="" name="news.userName">
+<input id="id" type="hidden" value="697752" name="news.id">
+<input id="status" type="hidden" value="0" name="news.status">
+<input id="keyword" type="hidden" value="" name="news.keyword">
+<input id="ip" type="hidden" name="news.ip">
+<input id="operType" type="hidden" value="list" name="operType">
+<input id="curPage" type="hidden" value="" name="curPage">
+<input id="jumpURL" type="hidden" value="http://ynews.v1.cn/news/news/jump.jhtml?newsId=384004&to=http://ynews.v1.cn/news/news/jump.jhtml?newsId=697752" name="jumpURL">
+<input id="postURL" type="hidden" value="http://discuss.v1.cn/discuss/comments/" name="postURL">
+<div class="discuss">
+<div id="disComment" class="comment">
+
+<div class="fbpl">
+<h2> 发表评论 </h2>
+<textarea id="content_discuss" class="textLogin2" rows="3" cols="100" onkeydown="postComentLenCheck('content_discuss','150','content_discuss_tips')" onkeyup="postComentLenCheck('content_discuss','150','content_discuss_tips')" name="newsComment.content"></textarea>
+<div style="text-align:right;">
+<input class="btn2" type="button" onclick="submitComment('http://discuss.v1.cn/discuss/comments/','','','post');" value="发表评论" name="发表评论" style="cursor:pointer;" title="按 Ctrl + Enter 提交">
+</div>
+</div>
+
+<div id="fenye2" class="page_change page_change_nl" style="display:none"> </div>
+</div>
+</div>
+</form>
+</div>
+
+<div class="discussion"></div>
+<script>
+$(function(){
+var baseURL='http://discuss.v1.cn/discuss/comment/';
+submitComment(baseURL,'','','list');
+})
+</script>
+</div>
+           
+           <div id="fenye" class="page_change" >
+<span>全部评论（8983）</span>
+</div>
+<div id="data" class="pl_con" style="">
+<dl>
+<dt>
+<img width="50" 'height="50" src="http://pic.v1.cn/cloudone/images/avatar/default.gif">
+</dt>
+<dd class="infor">
+<span>第一视频网友</span>
+2013-07-11 16:10:57
+</dd>
+<dd>
+<p>fhk</p>
+</dd>
+</dl>
+<dl>
+<dt>
+<img width="50" 'height="50" src="http://pic.v1.cn/cloudone/images/avatar/default.gif">
+</dt>
+<dd class="infor">
+<span>第一视频网友</span>
+2013-07-11 16:10:55
+</dd>
+<dd>
+<p>fjhgjk</p>
+</dd>
+</dl>
+<dl>
+<dt>
+<img width="50" 'height="50" src="http://pic.v1.cn/cloudone/images/avatar/default.gif">
+</dt>
+<dd class="infor">
+<span>第一视频网友</span>
+2013-07-11 16:10:54
+</dd>
+<dd>
+<p>fjhjh</p>
+</dd>
+</dl>
+<dl>
+<dt>
+<img width="50" 'height="50" src="http://pic.v1.cn/cloudone/images/avatar/default.gif">
+</dt>
+<dd class="infor">
+<span>第一视频网友</span>
+2013-07-11 16:10:52
+</dd>
+<dd>
+<p>fkgh </p>
+</dd>
+</dl>
+</div>
+<div id="fenye2" class="page_change page_change_nl" style="">
+<p>查看全部跟帖</p>
+</div>
+</div>
+
+
+</body>
+</html>
+";i:1;s:12627:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>图集</title>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.sLogo,.play,.icon,.iconS');</script>
+
+<style type="text/css">
+*html,*html body{background-image:url(about:blank);background-attachment:fixed;}
+</style>
+
+<![endif]-->
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_picture/css/v1_pic.css"/>
+<script src="http://pic.v1.cn/cms/special_topic/common/js/jquery.cookie.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/special_topic/common/js/commentlink.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/content.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+ <body>
+
+  <div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/mil/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li></li>
+  <li>
+    <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body">
+        <a href="#" target="_blank">体育</a>
+        <a href="#" target="_blank">汽车</a>
+        <a href="#" target="_blank">拍客</a>
+        <a href="#" target="_blank">影视</a>
+        <a href="#" target="_blank">音乐</a>
+        <a href="#" target="_blank">文化</a>
+        <a href="#" target="_blank">科技</a>
+        <a href="#" target="_blank">游戏</a>
+        <a href="#" target="_blank">女性</a>
+        <a href="#" target="_blank" class="red">搞笑</a>
+        <a href="#" target="_blank">乐活</a>
+        <a href="#" target="_blank">旅游</a>
+        <a href="#" target="_blank">城市</a>
+        <a href="#" target="_blank">曝光台</a>
+        </div>
+    </div>
+  </li>
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><a href="javascript:void(0);" onclick="login()">登录</a></li>
+  <li><a href="javascript:void(0);" onclick="register()">注册</a></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+
+  <li><div id="firstpane" class="CTmenu_list"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a href="#" target="_blank">时尚大尚师时尚尚大…</a>
+	  <a href="#" target="_blank">时尚大尚师时尚尚大…</a>
+      <a href="#" target="_blank">时尚大尚师时尚尚大…</a>
+      </div>
+	  </div>
+  </li>
+</ul>
+
+  </div>
+  </div>
+
+<div class="clear"></div>
+
+<div id="part00" class="part00 udv-clearfix">   
+			<h2 class="tw_title udv-clearfix">
+        		<span class="tw_title_cont" id="d_picTit">北川老县城地震遗址遭50年来最强洪水(1/14)</span>
+			</h2>
+            <div class="tw_tit">
+        		<span class="h4tit">2013年6月19日11：16</span>
+                <span class="h4tit">来源：天山网</span>
+                <span class="h4tit01"><a class="wypingl" href="#">我要评论</a>（<a class="pingl" href="">26</a>人参与）</span>     
+                      
+                <span class="iconObject02">
+                <span class="left">转发到:</span>
+                <a class="iconS icon001" href="#" title="转发到新浪微博" onclick="playerShareFunction('sina','695385','../../user','')">新浪微博</a>
+                <a class="iconS icon002" href="#" title="转发到腾讯微博" onclick="playerShareFunction('qq','695385','../../user','')">腾讯微博</a>
+                <a class="iconS icon003" href="#" title="转发到网易微博" onclick="playerShareFunction('163','695385','../../user','')">网易微博</a>
+                <a class="iconS icon004" href="#" title="转发到搜狐微博" onclick="playerShareFunction('sohu','695385','../../user','')">搜狐微博</a>
+                <a class="iconS icon005" href="#" title="转发到开心网" onclick="playerShareFunction('kaixin','695385','../../user','')">开心网</a>
+                <a class="iconS icon006" href="#" title="转发到天涯社区" onclick="playerShareFunction('tianya','695385','../../user','')">天涯社区</a>
+                </span>
+
+			</div>
+
+<div id="yao">
+  <div id="bd">
+<div id="content">
+	<div class="md" id="downloads">
+	<div class="download">
+
+
+<div id="carousel_photo_container" style="width:950px;">
+
+	 <img src="http://pic.v1.cn/cms/v1_picture/samples/MM/1.jpg" id="carousel_photo" alt="风景（1）" style="width:950px; height:580px;" />
+</div>
+<p class="image" id="carousel_photo_intro">美女(1)</p>
+<div id="carousel">
+<div id="carousel_btn_lastgroup"><a href="#1"></a></div>
+<div id="carousel_container">
+	 <ul id="samples_list">
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/1.jpg" target="_blank" title="美女（1）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-01.jpg" alt="美女（1）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/2.jpg" target="_blank" title="美女（2）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-02.jpg" alt="美女（2）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/3.jpg" target="_blank" title="美女（3）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-03.jpg" alt="美女（3）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/4.jpg" target="_blank" title="美女（4）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-04.jpg" alt="美女（4）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/5.jpg" target="_blank" title="美女（5）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-05.jpg" alt="美女（5）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/6.jpg" target="_blank" title="美女（6）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-06.jpg" alt="美女（6）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/7.jpg" target="_blank" title="美女（7）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-07.jpg" alt="美女（7）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/8.jpg" target="_blank" title="美女（8）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-08.jpg" alt="美女（8）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/9.jpg" target="_blank" title="美女（9）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-09.jpg" alt="美女（9）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/10.jpg" target="_blank" title="美女（10）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-10.jpg" alt="美女（10）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/11.jpg" target="_blank" title="美女（11）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-11.jpg" alt="美女（11）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/12.jpg" target="_blank" title="美女（12）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-12.jpg" alt="美女（12）" /></a></li>
+	 </ul>
+</div>
+<div id="carousel_btn_nextgroup"><a href="#1"></a></div>
+</div>
+    </div>
+	</div>
+</div>
+
+<div id="side"></div>
+</div>
+
+</div><script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/v1_picture/js/yao.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+var Album = new YAO.YAlbum();
+//-->
+</script>
+
+</div>
+<div class="main">
+ <div class="ad"><img src="images/ad.png"></div>
+
+           <div id="comment2">
+<div class="commentLogin">
+<form id="add-news" name="add-news" method="post" action="http://discuss.v1.cn/discuss/comment/save-comment.jhtml">
+<input id="userId" type="hidden" value="" name="news.userId">
+<input id="userName" type="hidden" value="" name="news.userName">
+<input id="id" type="hidden" value="697752" name="news.id">
+<input id="status" type="hidden" value="0" name="news.status">
+<input id="keyword" type="hidden" value="" name="news.keyword">
+<input id="ip" type="hidden" name="news.ip">
+<input id="operType" type="hidden" value="list" name="operType">
+<input id="curPage" type="hidden" value="" name="curPage">
+<input id="jumpURL" type="hidden" value="http://ynews.v1.cn/news/news/jump.jhtml?newsId=384004&to=http://ynews.v1.cn/news/news/jump.jhtml?newsId=697752" name="jumpURL">
+<input id="postURL" type="hidden" value="http://discuss.v1.cn/discuss/comments/" name="postURL">
+<div class="discuss">
+<div id="disComment" class="comment">
+
+<div class="fbpl">
+<h2> 发表评论 </h2>
+<textarea id="content_discuss" class="textLogin2" rows="3" cols="100" onkeydown="postComentLenCheck('content_discuss','150','content_discuss_tips')" onkeyup="postComentLenCheck('content_discuss','150','content_discuss_tips')" name="newsComment.content"></textarea>
+<div style="text-align:right;">
+<input class="btn2" type="button" onclick="submitComment('http://discuss.v1.cn/discuss/comments/','','','post');" value="发表评论" name="发表评论" style="cursor:pointer;" title="按 Ctrl + Enter 提交">
+</div>
+</div>
+
+<div id="fenye2" class="page_change page_change_nl" style="display:none"> </div>
+</div>
+</div>
+</form>
+</div>
+
+<div class="discussion"></div>
+<script>
+$(function(){
+var baseURL='http://discuss.v1.cn/discuss/comment/';
+submitComment(baseURL,'','','list');
+})
+</script>
+</div>
+           
+           <div id="fenye" class="page_change" >
+<span>全部评论（8983）</span>
+</div>
+<div id="data" class="pl_con" style="">
+<dl>
+<dt>
+<img width="50" 'height="50" src="http://pic.v1.cn/cloudone/images/avatar/default.gif">
+</dt>
+<dd class="infor">
+<span>第一视频网友</span>
+2013-07-11 16:10:57
+</dd>
+<dd>
+<p>fhk</p>
+</dd>
+</dl>
+<dl>
+<dt>
+<img width="50" 'height="50" src="http://pic.v1.cn/cloudone/images/avatar/default.gif">
+</dt>
+<dd class="infor">
+<span>第一视频网友</span>
+2013-07-11 16:10:55
+</dd>
+<dd>
+<p>fjhgjk</p>
+</dd>
+</dl>
+<dl>
+<dt>
+<img width="50" 'height="50" src="http://pic.v1.cn/cloudone/images/avatar/default.gif">
+</dt>
+<dd class="infor">
+<span>第一视频网友</span>
+2013-07-11 16:10:54
+</dd>
+<dd>
+<p>fjhjh</p>
+</dd>
+</dl>
+<dl>
+<dt>
+<img width="50" 'height="50" src="http://pic.v1.cn/cloudone/images/avatar/default.gif">
+</dt>
+<dd class="infor">
+<span>第一视频网友</span>
+2013-07-11 16:10:52
+</dd>
+<dd>
+<p>fkgh </p>
+</dd>
+</dl>
+</div>
+<div id="fenye2" class="page_change page_change_nl" style="">
+<p>查看全部跟帖</p>
+</div>
+</div>
+
+
+</body>
+</html>
+";i:2;s:12659:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>图集</title>
+<!--[if IE 6]>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.sLogo,.play,.icon,.iconS');</script>
+
+<style type="text/css">
+*html,*html body{background-image:url(about:blank);background-attachment:fixed;}
+</style>
+
+<![endif]-->
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_picture/css/v1_pic.css"/>
+<script src="http://pic.v1.cn/cms/special_topic/common/js/jquery.cookie.js" language="javascript" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/special_topic/common/js/commentlink.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/content.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+ <body>
+
+  <div class="CThearderWrap">
+  <div class="wrapBox1000 clearfix">
+  <div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/mil/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+
+  <li></li>
+  <li>
+    <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+      <div class="CTmoreMenu_body">
+        <a href="#" target="_blank">体育</a>
+        <a href="#" target="_blank">汽车</a>
+        <a href="#" target="_blank">拍客</a>
+        <a href="#" target="_blank">影视</a>
+        <a href="#" target="_blank">音乐</a>
+        <a href="#" target="_blank">文化</a>
+        <a href="#" target="_blank">科技</a>
+        <a href="#" target="_blank">游戏</a>
+        <a href="#" target="_blank">女性</a>
+        <a href="#" target="_blank" class="red">搞笑</a>
+        <a href="#" target="_blank">乐活</a>
+        <a href="#" target="_blank">旅游</a>
+        <a href="#" target="_blank">城市</a>
+        <a href="#" target="_blank">曝光台</a>
+        </div>
+    </div>
+  </li>
+  </ul>
+  </div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><a href="javascript:void(0);" onclick="login()">登录</a></li>
+  <li><a href="javascript:void(0);" onclick="register()">注册</a></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+
+  <li><div id="firstpane" class="CTmenu_list"><p class="CTmenu_head">记录</p>
+      <div class="CTmenu_body">
+	  <a href="#" target="_blank">时尚大尚师时尚尚大…</a>
+	  <a href="#" target="_blank">时尚大尚师时尚尚大…</a>
+      <a href="#" target="_blank">时尚大尚师时尚尚大…</a>
+      </div>
+	  </div>
+  </li>
+</ul>
+
+  </div>
+  </div>
+
+<div class="clear"></div>
+
+<div id="part00" class="part00 udv-clearfix">   
+			<h2 class="tw_title udv-clearfix">
+        		<span class="tw_title_cont" id="d_picTit">北川老县城地震遗址遭50年来最强洪水(1/14)</span>
+			</h2>
+            <div class="tw_tit">
+        		<span class="h4tit">2013年6月19日11：16</span>
+                <span class="h4tit">来源：天山网</span>
+                <span class="h4tit01"><a class="wypingl" href="#">我要评论</a>（<a class="pingl" href="">26</a>人参与）</span>     
+                      
+                <span class="iconObject02">
+                <span class="left">转发到:</span>
+                <a class="iconS icon001" href="#" title="转发到新浪微博" onclick="playerShareFunction('sina','695385','../../user','')">新浪微博</a>
+                <a class="iconS icon002" href="#" title="转发到腾讯微博" onclick="playerShareFunction('qq','695385','../../user','')">腾讯微博</a>
+                <a class="iconS icon003" href="#" title="转发到网易微博" onclick="playerShareFunction('163','695385','../../user','')">网易微博</a>
+                <a class="iconS icon004" href="#" title="转发到搜狐微博" onclick="playerShareFunction('sohu','695385','../../user','')">搜狐微博</a>
+                <a class="iconS icon005" href="#" title="转发到开心网" onclick="playerShareFunction('kaixin','695385','../../user','')">开心网</a>
+                <a class="iconS icon006" href="#" title="转发到天涯社区" onclick="playerShareFunction('tianya','695385','../../user','')">天涯社区</a>
+                </span>
+
+			</div>
+
+<div id="yao">
+  <div id="bd">
+<div id="content">
+	<div class="md" id="downloads">
+	<div class="download">
+
+
+<div id="carousel_photo_container" style="width:950px;">
+
+	 <img src="http://pic.v1.cn/cms/v1_picture/samples/MM/1.jpg" id="carousel_photo" alt="风景（1）" style="width:950px; height:580px;" />
+</div>
+<p class="image" id="carousel_photo_intro">美女(1)</p>
+<div id="carousel">
+<div id="carousel_btn_lastgroup"><a href="#1"></a></div>
+<div id="carousel_container">
+	 <ul id="samples_list">
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/1.jpg" target="_blank" title="美女（1）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-01.jpg" alt="美女（1）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/2.jpg" target="_blank" title="美女（2）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-02.jpg" alt="美女（2）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/3.jpg" target="_blank" title="美女（3）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-03.jpg" alt="美女（3）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/4.jpg" target="_blank" title="美女（4）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-04.jpg" alt="美女（4）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/5.jpg" target="_blank" title="美女（5）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-05.jpg" alt="美女（5）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/6.jpg" target="_blank" title="美女（6）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-06.jpg" alt="美女（6）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/7.jpg" target="_blank" title="美女（7）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-07.jpg" alt="美女（7）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/8.jpg" target="_blank" title="美女（8）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-08.jpg" alt="美女（8）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/9.jpg" target="_blank" title="美女（9）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-09.jpg" alt="美女（9）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/10.jpg" target="_blank" title="美女（10）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-10.jpg" alt="美女（10）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/11.jpg" target="_blank" title="美女（11）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-11.jpg" alt="美女（11）" /></a></li>
+		 <li><a href="http://pic.v1.cn/cms/v1_picture/samples/MM/12.jpg" target="_blank" title="美女（12）"><img src="http://pic.v1.cn/cms/v1_picture/samples/mm-12.jpg" alt="美女（12）" /></a></li>
+	 </ul>
+</div>
+<div id="carousel_btn_nextgroup"><a href="#1"></a></div>
+</div>
+    </div>
+	</div>
+</div>
+
+<div id="side"></div>
+</div>
+
+</div><script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/v1_picture/js/yao.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+var Album = new YAO.YAlbum();
+//-->
+</script>
+
+</div>
+<div class="main">
+ <div class="ad"><img src="http://pic.v1.cn/cms/v1_picture/images/ad.png"></div>
+
+           <div id="comment2">
+<div class="commentLogin">
+<form id="add-news" name="add-news" method="post" action="http://discuss.v1.cn/discuss/comment/save-comment.jhtml">
+<input id="userId" type="hidden" value="" name="news.userId">
+<input id="userName" type="hidden" value="" name="news.userName">
+<input id="id" type="hidden" value="697752" name="news.id">
+<input id="status" type="hidden" value="0" name="news.status">
+<input id="keyword" type="hidden" value="" name="news.keyword">
+<input id="ip" type="hidden" name="news.ip">
+<input id="operType" type="hidden" value="list" name="operType">
+<input id="curPage" type="hidden" value="" name="curPage">
+<input id="jumpURL" type="hidden" value="http://ynews.v1.cn/news/news/jump.jhtml?newsId=384004&to=http://ynews.v1.cn/news/news/jump.jhtml?newsId=697752" name="jumpURL">
+<input id="postURL" type="hidden" value="http://discuss.v1.cn/discuss/comments/" name="postURL">
+<div class="discuss">
+<div id="disComment" class="comment">
+
+<div class="fbpl">
+<h2> 发表评论 </h2>
+<textarea id="content_discuss" class="textLogin2" rows="3" cols="100" onkeydown="postComentLenCheck('content_discuss','150','content_discuss_tips')" onkeyup="postComentLenCheck('content_discuss','150','content_discuss_tips')" name="newsComment.content"></textarea>
+<div style="text-align:right;">
+<input class="btn2" type="button" onclick="submitComment('http://discuss.v1.cn/discuss/comments/','','','post');" value="发表评论" name="发表评论" style="cursor:pointer;" title="按 Ctrl + Enter 提交">
+</div>
+</div>
+
+<div id="fenye2" class="page_change page_change_nl" style="display:none"> </div>
+</div>
+</div>
+</form>
+</div>
+
+<div class="discussion"></div>
+<script>
+$(function(){
+var baseURL='http://discuss.v1.cn/discuss/comment/';
+submitComment(baseURL,'','','list');
+})
+</script>
+</div>
+           
+           <div id="fenye" class="page_change" >
+<span>全部评论（8983）</span>
+</div>
+<div id="data" class="pl_con" style="">
+<dl>
+<dt>
+<img width="50" 'height="50" src="http://pic.v1.cn/cloudone/images/avatar/default.gif">
+</dt>
+<dd class="infor">
+<span>第一视频网友</span>
+2013-07-11 16:10:57
+</dd>
+<dd>
+<p>fhk</p>
+</dd>
+</dl>
+<dl>
+<dt>
+<img width="50" 'height="50" src="http://pic.v1.cn/cloudone/images/avatar/default.gif">
+</dt>
+<dd class="infor">
+<span>第一视频网友</span>
+2013-07-11 16:10:55
+</dd>
+<dd>
+<p>fjhgjk</p>
+</dd>
+</dl>
+<dl>
+<dt>
+<img width="50" 'height="50" src="http://pic.v1.cn/cloudone/images/avatar/default.gif">
+</dt>
+<dd class="infor">
+<span>第一视频网友</span>
+2013-07-11 16:10:54
+</dd>
+<dd>
+<p>fjhjh</p>
+</dd>
+</dl>
+<dl>
+<dt>
+<img width="50" 'height="50" src="http://pic.v1.cn/cloudone/images/avatar/default.gif">
+</dt>
+<dd class="infor">
+<span>第一视频网友</span>
+2013-07-11 16:10:52
+</dd>
+<dd>
+<p>fkgh </p>
+</dd>
+</dl>
+</div>
+<div id="fenye2" class="page_change page_change_nl" style="">
+<p>查看全部跟帖</p>
+</div>
+</div>
+
+
+</body>
+</html>
+";}

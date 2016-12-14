@@ -1,0 +1,1357 @@
+a:10:{i:0;s:15660:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='zh-CN' xml:lang='zh-CN' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common/common.css" />
+    <link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+    <script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+    <script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/slides.jquery.js"></script>
+    <script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/common.js"></script>
+</head>
+<body>
+<!--弹出框start-->
+<!--注册start-->
+<div class="pop" style="display:none;">
+    <div class="register">
+        <div class="reg-title">
+            <h2>快速注册V1游戏账号与全球数亿玩家一起畅享游戏给我们带来的欢乐！</h2>
+            <a href="" class="reg_close">关闭</a>
+        </div>
+        <div class="reg-content">
+            <ul class="reg-list">
+                <li>
+                    <label class="reg_lab reg_nm">账号：</label>
+                    <input type="text" class="input_box">
+                    <p class="reg_prompt">6~20位字母和数字组成的账号</p>
+                </li>
+                <li>
+                    <label class="reg_lab reg_pwd">密码：</label>
+                    <input type="text" class="input_box">
+                    <p class="reg_prompt more">6~20位字母和数字组成的登录密码，平台和游戏通用</p>
+                </li>
+                <li>
+                    <label class="reg_lab reg_conpwd">确认密码：</label>
+                    <input type="text" class="input_box">
+                    <p class="reg_prompt">需要与密码一致</p>
+                </li>
+                <li>
+                    <label class="reg_lab reg_code">验证码：</label>
+                    <input type="text" class="input_box input_box_code">
+                    <p class="reg_prompt_img"><img src="http://hzw.g.v1.cn/static/images/pop/code.jpg" border="0" alt="" width="102" height="32"/></p>
+                    <p class="reg_prompt"><a class="reg_link" href="" target="_blank">看不清，换一张</a></p>
+                </li>
+                <li>
+                    <input type="checkbox" class="reg_confirm">
+                    <p class="reg_conprompt"><a class="reg_link" href="" target="_blank">《V1游戏通行证用户服务协议》</a></p>
+                </li>
+                <li>
+                    <input type="button" value="接受协议并提交注册" class="reg_btn">
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--注册end-->
+<!--请先登录后再领取礼包start-->
+<div class="pop" style="display:none;">
+    <div class="login_first">
+        <a href="" class="lf_close">关闭</a>
+    </div>
+</div>
+<!--请先登录后再领取礼包end-->
+<!--未开服提示start-->
+<div class="pop" style="display:none;">
+    <div class="no_service">
+        <div class="no_service_clo">
+            <a href="" class="no_close">关闭</a>
+        </div>
+        <div class="ns_txt">
+            <p class="ns_title">《凡人修真》 583服-超越君王 将于9:00开启</p>
+            <p>要不转到首页看看：<a class="ns_link" href="" target="_blank">http://web.4399.com/tgzt/</a></p>
+            <p>或者逛逛游戏论坛：<a class="ns_link" href="" target="_blank">http://bbs.youjia.cn</a></p>
+            <p>如果对于这个异常有任何疑问，不妨联系下我们的在线客服吧。</p>
+            <div class="ns_ser">
+                <a href="" class="ns_service_btn">客服002</a>
+                <a href="" class="ns_service_btn">客服001</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--未开服提示end-->
+<!--弹出框end-->
+<!--顶部整站导航 start-->
+<div class="site_nav">
+    <div class="full_wrap">
+        <h1 class="v1_logo"><a href="http://www.v1.cn" target="_self">第一视频</a></h1>
+        <dl class="recommendation">
+            <dt>推荐游戏：</dt>
+            <dd><a href="#" target="_blank">热血海贼王</a>
+            <dd><a href="#" target="_blank">七杀</a>
+            <dd><a href="#" target="_blank">大将军</a>
+            <dd><a href="#" target="_blank">凡人修真</a>
+            <dd><a href="#" target="_blank">神武九天</a>
+            <dd><a href="#" target="_blank">更多>></a>
+        </dl>
+        <ul class="site_nav_items">
+            <li class="bookmark "><a href="#">收藏本站</a></li>
+            <li><a href="#" target="_blank">账号注册</a></li>
+            <li><a href="#" target="_blank">游戏充值</a></li>
+        </ul>
+    </div>
+</div>
+<!--顶部整站导航 end-->
+<div class="main">
+    <!--导航 start-->
+    <div class="full_wrap">
+        <div class="game_nav">
+            <h1 class="game_logo"><a href="http://www.v1.cn" target="_self">热血海贼王</a></h1>
+            <ul class="game_items">
+                <li class="curr"><a class="home" href="" target="_self">官网首页</a></li>
+                <li><a class="news" href="" target="_self">新闻中心</a></li>
+                <li><a class="information" href="" target="_self">游戏资料</a></li>
+                <li><a class="pay" href="" target="_self">游戏充值</a></li>
+                <li><a class="service" href="" target="_self">客服中心</a></li>
+                <li><a class="forum" href="" target="_self">官方论坛</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--导航 end-->
+    <!--内容 start-->
+    <div class="full_wrap">
+        <!--内容-左 start-->
+        <div class="col_side">
+            <!--开始游戏 start-->
+            <div class="start_play">
+                <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="270" height="339" id="start_game" align="middle">
+                    <param name="movie" value="start_game.swf" />
+                    <param name="quality" value="high" />
+                    <param name="bgcolor" value="#ffffff" />
+                    <param name="play" value="true" />
+                    <param name="loop" value="true" />
+                    <param name="wmode" value="transparent" />
+                    <param name="scale" value="showall" />
+                    <param name="menu" value="true" />
+                    <param name="devicefont" value="false" />
+                    <param name="salign" value="" />
+                    <param name="allowScriptAccess" value="sameDomain" />
+                    <param name="flashvars" value="url=http://www.baidu.com" />
+                    <embed src="http://hzw.g.v1.cn/static/images/start_game.swf" width="270" height="339" name="start_game" 
+                           type="application/x-shockwave-flash"
+                           wmode="transparent"
+                           flashvars="url=http://www.baidu.com"> 
+                    </embed>
+                </object>
+            </div>
+            <!--开始游戏 end-->
+            <!--登录 start-->
+            <div class="login">
+                <form>
+                    <ul class="login_form_cont">
+                        <li><label class="login_account_nm">账号：</label><input type="text" /></li>
+                        <li><label class="login_account_pwd">密码：</label><input type="text" /></li>
+                    </ul>
+                    <p class="login_form_cb"><label><input type="checkbox" />下次自动登录</label><a href="#" target="_blank">忘记密码？</a></p>
+                    <p class="login_btns clearfix"><input class="login_btn" type="button" value="登录" /><input class="improved_info" type="button" value="完善资料" /></p>
+                    <p class="login_type clearfix"><a href="#">注册账号</a><a class="v1_login" href="#">V1登录</a><a class="qq_login" href="#">QQ登录</a></p>
+                </form>
+            </div>
+            <!--登录 end-->
+            <!--选择服务器 start-->
+            <div class="select_server">
+                <h2>选择服务器</h2>
+                <ul>
+                    <li class="dis_server"><a href="" target='_blank'>双线1区伟大起航</a></li>
+                    <li><a href="" target='_blank'>双线1区伟大起航</a></li>
+                    <li><a href="" target='_blank'>双线1区伟大起航</a></li>
+                </ul>
+                <a class="btn_01 more_server" href="#" target="_blank"><span>更多服务器》</span></a>
+            </div>
+            <!--选择服务器 end-->
+            <!--客服信息 start-->
+            <div class="service_info">
+                <h2>客服信息</h2>
+                <dl>
+                    <dt>服务时间：</dt>
+                    <dd>9:00-20:00</dd>
+                </dl>
+                <dl>
+                    <dt>客服电话： </dt>
+                    <dd>010-12345678</dd>
+                </dl>
+                <dl>
+                    <dt>客服邮箱：</dt>
+                    <dd>kefu@v1.cn</dd>
+                </dl>
+                <dl>
+                    <dt>在线客服：</dt>
+                    <dd><a class="btn_01" href=""><span>客服001</span></a><a class="btn_01" href=""><span>客服002</span></a></dd>
+                </dl>
+                <dl>
+                    <dt>官网QQ群：</dt>
+                    <dd>12345678</dd>
+                </dl>
+            </div>
+            <!--客服信息 end-->
+        </div>
+        <!--内容-左 end-->
+        <!--内容-右 start-->
+        <div class="col_main">
+            <!--新闻title start-->
+            <div class="focus_mod news_title">
+                <div class="title_img">
+                    <h2><span class="t_news">新闻中心</span></h2>
+                    <p>当前位置：<a href="" target="_blank">首页</a>  &gt;  <a href="" target="_blank">新闻中心</a>  &gt;  <span>婚姻系统即将上线 有缘人终成伴侣</span></p>
+                </div>
+            </div>
+            <!--新闻title end-->
+            <!--新闻内容 start-->
+            <div class="common_cont_mod cont_page mt10">
+                <div class="common_cont_mod_bd game_info_bd">
+                    <div class="box">
+                        <h2>婚姻系统即将上线 有缘人终成伴侣</h2>
+                        <div class="box_txt">
+                            <p>千呼万唤始出来，大家呼唤已久的4399独步天下结婚系统很快就要上线啦！！大家终于可以和心仪已久的玩伴们终成眷侣啦！！在系统上线之前，先来看看是什么样子吧~~世界上芸芸众生，要修得夫妻缘分，首先要把有好感的对象变成有缘人。</p>
+                            <p>一、婚姻NPC</p>
+                            <p>玩家可通过到鹊桥找到婚姻NPC红娘：</p>
+                            <p>独步天下婚姻系统</p>
+                            <p>点击NPC可打开对话界面，如下图：</p>
+                            <p>独步天下结婚</p>
+                            <p>二、求婚条件</p>
+                            <p>1)结婚对象必须为一名男角色和一名女角色，且双方都为单身状态（没有亲密侠侣）；</p>
+                            <p>2)结婚双方等级都必须达到40级；</p>
+                            <p>3)结婚双方的亲密度达到5级；</p>
+                            <p>独步天下求婚</p>
+                            <p>独步天下结婚</p>
+                            <p>三、预约婚宴</p>
+                            <p>1)求婚成功后，双方均可到红娘处进行婚宴预约，扣除先预约者相应费用；</p>
+                            <p>2)一方预约成功后，则双方都不能再更改预约；</p>
+                            <p>3)选择婚宴后，选择婚宴的举行时间，只能预约今日24小时内的整点作为婚宴开始时间；</p>
+                            <p>来个最贵的吧，结婚嘛，不要吝啬哟。</p>
+                            <p>四、邀请宾客</p>
+                            <p>1)【邀请宾客】操作的从求婚成功到婚宴结束这段时间内都可进行邀请；</p>
+                            <p>2)每种婚宴可邀请的宾客数不同，简约婚宴不能邀请宾客，高级婚宴可邀请最多10个玩家，豪华婚宴可邀请做多30个玩家；</p>
+                            <p>3)婚独步天下结婚</p>
+                            <p>越高级的婚宴，邀请的朋友越多。</p>
+                            <p>独步天下结婚</p>
+                            <p>让我们一起去祝福新人，最重要的就是大家记得多包点红包哦！</p>
+                            <p>五、举办婚礼</p>
+                            <p>1)举办婚宴需要预约时间，只能预约游戏中的整点作为婚宴开始时间，每场婚宴的持续时间为40分钟；</p>
+                            <p>2)婚宴开始后，红娘周围每过5分钟会刷新出一批喜糖（采集怪），所有玩家都可进行采集；</p>
+                            <p>3)婚宴开始后到该婚礼结束，进入襄阳城的所有玩家，界面上出现一条祝福进度条，玩家可点击按钮进行【送花祝福】，送花后可增加进度条的进度值；</p>
+                            <p>4)该进度值为全服进度值，当进度值满了后，进行全服的天降元宝；</p>
+                            <p>独步天下元宝</p>
+                            <p>一地都是糖果,很爽有没有！</p>
+                            <p>独步天下结婚</p>
+                            <p>这场景真是太过瘾了！</p>
+                            <p>六、婚姻奖励</p>
+                            <p>1)求婚成功后，双方打怪打怪、双修均有经验加成；</p>
+                            <p>2)代表爱情忠贞的【同心锁】和绝版【新婚之喜】时装；</p>
+                            <p>七、离婚</p>
+                            <p>1)在红娘NPC处点击【解除婚约】，弹出解除婚约界面；</p>
+                            <p>2)玩家点击解除婚约按钮后，扣除10W银两，向亲密侠侣发送离婚申请；</p>
+                            <p>3)解除婚约图标下方显示72小时倒计时，也可申请【强制解除】则扣除898元宝，和亲密侠侣解除婚约，两人都恢复单身状态；</p>
+                            <p>4399独步天下运营团队</p>
+                            <p>查看更多4399独步天下信息</p>
+                            <p><a href="" target="_blank">独步天下官网</a> | <a href="" target="_blank">独步天下资料大全</a> | <a href="" target="_blank">独步天下攻略</a> | </p>
+                            <p><a href="" target="_blank">独步天下礼包</a> | <a href="" target="_blank">独步天下论坛</a> |</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--新闻内容 end-->
+        </div>
+        <!--内容-右 end-->
+    </div>
+    <!--内容 end-->
+</div>
+</body>
+</html>
+";i:1;s:12367:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='zh-CN' xml:lang='zh-CN' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common/common.css" />
+    <link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+    <script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+    <script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/slides.jquery.js"></script>
+    <script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/common.js"></script>
+</head>
+<body>
+<!--顶部整站导航 start-->
+<div class="site_nav">
+    <div class="full_wrap">
+        <h1 class="v1_logo"><a href="http://www.v1.cn" target="_self">第一视频</a></h1>
+        <dl class="recommendation">
+            <dt>推荐游戏：</dt>
+            <dd><a href="#" target="_blank">热血海贼王</a>
+            <dd><a href="#" target="_blank">七杀</a>
+            <dd><a href="#" target="_blank">大将军</a>
+            <dd><a href="#" target="_blank">凡人修真</a>
+            <dd><a href="#" target="_blank">神武九天</a>
+            <dd><a href="#" target="_blank">更多>></a>
+        </dl>
+        <ul class="site_nav_items">
+            <li class="bookmark "><a href="#">收藏本站</a></li>
+            <li><a href="#" target="_blank">账号注册</a></li>
+            <li><a href="#" target="_blank">游戏充值</a></li>
+        </ul>
+    </div>
+</div>
+<!--顶部整站导航 end-->
+<div class="main">
+    <!--导航 start-->
+    <div class="full_wrap">
+        <div class="game_nav">
+            <h1 class="game_logo"><a href="http://www.v1.cn" target="_self">热血海贼王</a></h1>
+            <ul class="game_items">
+                <li class="curr"><a class="home" href="" target="_self">官网首页</a></li>
+                <li><a class="news" href="" target="_self">新闻中心</a></li>
+                <li><a class="information" href="" target="_self">游戏资料</a></li>
+                <li><a class="pay" href="" target="_self">游戏充值</a></li>
+                <li><a class="service" href="" target="_self">客服中心</a></li>
+                <li><a class="forum" href="" target="_self">官方论坛</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--导航 end-->
+    <!--内容 start-->
+    <div class="full_wrap">
+        <!--内容-左 start-->
+        <div class="col_side">
+            <!--开始游戏 start-->
+            <div class="start_play">
+                <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="270" height="339" id="start_game" align="middle">
+                    <param name="movie" value="start_game.swf" />
+                    <param name="quality" value="high" />
+                    <param name="bgcolor" value="#ffffff" />
+                    <param name="play" value="true" />
+                    <param name="loop" value="true" />
+                    <param name="wmode" value="transparent" />
+                    <param name="scale" value="showall" />
+                    <param name="menu" value="true" />
+                    <param name="devicefont" value="false" />
+                    <param name="salign" value="" />
+                    <param name="allowScriptAccess" value="sameDomain" />
+                    <param name="flashvars" value="url=http://www.baidu.com" />
+                    <embed src="http://hzw.g.v1.cn/static/images/start_game.swf" width="270" height="339" name="start_game" 
+                           type="application/x-shockwave-flash"
+                           wmode="transparent"
+                           flashvars="url=http://www.baidu.com"> 
+                    </embed>
+                </object>
+            </div>
+            <!--开始游戏 end-->
+            <!--登录 start-->
+            <div class="login">
+                <form>
+                    <ul class="login_form_cont">
+                        <li><label class="login_account_nm">账号：</label><input type="text" /></li>
+                        <li><label class="login_account_pwd">密码：</label><input type="text" /></li>
+                    </ul>
+                    <p class="login_form_cb"><label><input type="checkbox" />下次自动登录</label><a href="#" target="_blank">忘记密码？</a></p>
+                    <p class="login_btns clearfix"><input class="login_btn" type="button" value="登录" /><input class="improved_info" type="button" value="完善资料" /></p>
+                    <p class="login_type clearfix"><a href="#">注册账号</a><a class="v1_login" href="#">V1登录</a><a class="qq_login" href="#">QQ登录</a></p>
+                </form>
+            </div>
+            <!--登录 end-->
+            <!--选择服务器 start-->
+            <div class="select_server">
+                <h2>选择服务器</h2>
+                <ul>
+                    <li class="dis_server"><a href="" target='_blank'>双线1区伟大起航</a></li>
+                    <li><a href="" target='_blank'>双线1区伟大起航</a></li>
+                    <li><a href="" target='_blank'>双线1区伟大起航</a></li>
+                </ul>
+                <a class="btn_01 more_server" href="#" target="_blank"><span>更多服务器》</span></a>
+            </div>
+            <!--选择服务器 end-->
+            <!--客服信息 start-->
+            <div class="service_info">
+                <h2>客服信息</h2>
+                <dl>
+                    <dt>服务时间：</dt>
+                    <dd>9:00-20:00</dd>
+                </dl>
+                <dl>
+                    <dt>客服电话： </dt>
+                    <dd>010-12345678</dd>
+                </dl>
+                <dl>
+                    <dt>客服邮箱：</dt>
+                    <dd>kefu@v1.cn</dd>
+                </dl>
+                <dl>
+                    <dt>在线客服：</dt>
+                    <dd><a class="btn_01" href=""><span>客服001</span></a><a class="btn_01" href=""><span>客服002</span></a></dd>
+                </dl>
+                <dl>
+                    <dt>官网QQ群：</dt>
+                    <dd>12345678</dd>
+                </dl>
+            </div>
+            <!--客服信息 end-->
+        </div>
+        <!--内容-左 end-->
+        <!--内容-右 start-->
+        <div class="col_main">
+            <!--新闻title start-->
+            <div class="focus_mod news_title">
+                <div class="title_img">
+                    <h2><span class="t_news">新闻中心</span></h2>
+                    <p>当前位置：<a href="" target="_blank">首页</a>  &gt;  <a href="" target="_blank">新闻中心</a>  &gt;  <span>婚姻系统即将上线 有缘人终成伴侣</span></p>
+                </div>
+            </div>
+            <!--新闻title end-->
+            <!--新闻内容 start-->
+            <div class="common_cont_mod cont_page mt10">
+                <div class="common_cont_mod_bd game_info_bd">
+                    <div class="box">
+                        <h2>婚姻系统即将上线 有缘人终成伴侣</h2>
+                        <div class="box_txt">
+                            <p>千呼万唤始出来，大家呼唤已久的4399独步天下结婚系统很快就要上线啦！！大家终于可以和心仪已久的玩伴们终成眷侣啦！！在系统上线之前，先来看看是什么样子吧~~世界上芸芸众生，要修得夫妻缘分，首先要把有好感的对象变成有缘人。</p>
+                            <p>一、婚姻NPC</p>
+                            <p>玩家可通过到鹊桥找到婚姻NPC红娘：</p>
+                            <p>独步天下婚姻系统</p>
+                            <p>点击NPC可打开对话界面，如下图：</p>
+                            <p>独步天下结婚</p>
+                            <p>二、求婚条件</p>
+                            <p>1)结婚对象必须为一名男角色和一名女角色，且双方都为单身状态（没有亲密侠侣）；</p>
+                            <p>2)结婚双方等级都必须达到40级；</p>
+                            <p>3)结婚双方的亲密度达到5级；</p>
+                            <p>独步天下求婚</p>
+                            <p>独步天下结婚</p>
+                            <p>三、预约婚宴</p>
+                            <p>1)求婚成功后，双方均可到红娘处进行婚宴预约，扣除先预约者相应费用；</p>
+                            <p>2)一方预约成功后，则双方都不能再更改预约；</p>
+                            <p>3)选择婚宴后，选择婚宴的举行时间，只能预约今日24小时内的整点作为婚宴开始时间；</p>
+                            <p>来个最贵的吧，结婚嘛，不要吝啬哟。</p>
+                            <p>四、邀请宾客</p>
+                            <p>1)【邀请宾客】操作的从求婚成功到婚宴结束这段时间内都可进行邀请；</p>
+                            <p>2)每种婚宴可邀请的宾客数不同，简约婚宴不能邀请宾客，高级婚宴可邀请最多10个玩家，豪华婚宴可邀请做多30个玩家；</p>
+                            <p>3)婚独步天下结婚</p>
+                            <p>越高级的婚宴，邀请的朋友越多。</p>
+                            <p>独步天下结婚</p>
+                            <p>让我们一起去祝福新人，最重要的就是大家记得多包点红包哦！</p>
+                            <p>五、举办婚礼</p>
+                            <p>1)举办婚宴需要预约时间，只能预约游戏中的整点作为婚宴开始时间，每场婚宴的持续时间为40分钟；</p>
+                            <p>2)婚宴开始后，红娘周围每过5分钟会刷新出一批喜糖（采集怪），所有玩家都可进行采集；</p>
+                            <p>3)婚宴开始后到该婚礼结束，进入襄阳城的所有玩家，界面上出现一条祝福进度条，玩家可点击按钮进行【送花祝福】，送花后可增加进度条的进度值；</p>
+                            <p>4)该进度值为全服进度值，当进度值满了后，进行全服的天降元宝；</p>
+                            <p>独步天下元宝</p>
+                            <p>一地都是糖果,很爽有没有！</p>
+                            <p>独步天下结婚</p>
+                            <p>这场景真是太过瘾了！</p>
+                            <p>六、婚姻奖励</p>
+                            <p>1)求婚成功后，双方打怪打怪、双修均有经验加成；</p>
+                            <p>2)代表爱情忠贞的【同心锁】和绝版【新婚之喜】时装；</p>
+                            <p>七、离婚</p>
+                            <p>1)在红娘NPC处点击【解除婚约】，弹出解除婚约界面；</p>
+                            <p>2)玩家点击解除婚约按钮后，扣除10W银两，向亲密侠侣发送离婚申请；</p>
+                            <p>3)解除婚约图标下方显示72小时倒计时，也可申请【强制解除】则扣除898元宝，和亲密侠侣解除婚约，两人都恢复单身状态；</p>
+                            <p>4399独步天下运营团队</p>
+                            <p>查看更多4399独步天下信息</p>
+                            <p><a href="" target="_blank">独步天下官网</a> | <a href="" target="_blank">独步天下资料大全</a> | <a href="" target="_blank">独步天下攻略</a> | </p>
+                            <p><a href="" target="_blank">独步天下礼包</a> | <a href="" target="_blank">独步天下论坛</a> |</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--新闻内容 end-->
+        </div>
+        <!--内容-右 end-->
+    </div>
+    <!--内容 end-->
+</div>
+</body>
+</html>";i:2;s:11620:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='zh-CN' xml:lang='zh-CN' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common/common.css" />
+    <link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+    <script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+    <script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/slides.jquery.js"></script>
+    <script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/common.js"></script>
+</head>
+<body>
+<!--顶部整站导航 start-->
+<script>
+    $.get('http://hzw.g.v1.cn/navigation.shtml',function(data){
+        document.write(data);
+    });
+</script>
+<!--顶部整站导航 end-->
+<div class="main">
+    <!--导航 start-->
+    <div class="full_wrap">
+        <div class="game_nav">
+            <h1 class="game_logo"><a href="http://www.v1.cn" target="_self">热血海贼王</a></h1>
+            <ul class="game_items">
+                <li class="curr"><a class="home" href="" target="_self">官网首页</a></li>
+                <li><a class="news" href="" target="_self">新闻中心</a></li>
+                <li><a class="information" href="" target="_self">游戏资料</a></li>
+                <li><a class="pay" href="" target="_self">游戏充值</a></li>
+                <li><a class="service" href="" target="_self">客服中心</a></li>
+                <li><a class="forum" href="" target="_self">官方论坛</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--导航 end-->
+    <!--内容 start-->
+    <div class="full_wrap">
+        <!--内容-左 start-->
+        <div class="col_side">
+            <!--开始游戏 start-->
+            <div class="start_play">
+                <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="270" height="339" id="start_game" align="middle">
+                    <param name="movie" value="start_game.swf" />
+                    <param name="quality" value="high" />
+                    <param name="bgcolor" value="#ffffff" />
+                    <param name="play" value="true" />
+                    <param name="loop" value="true" />
+                    <param name="wmode" value="transparent" />
+                    <param name="scale" value="showall" />
+                    <param name="menu" value="true" />
+                    <param name="devicefont" value="false" />
+                    <param name="salign" value="" />
+                    <param name="allowScriptAccess" value="sameDomain" />
+                    <param name="flashvars" value="url=http://www.baidu.com" />
+                    <embed src="http://hzw.g.v1.cn/static/images/start_game.swf" width="270" height="339" name="start_game" 
+                           type="application/x-shockwave-flash"
+                           wmode="transparent"
+                           flashvars="url=http://www.baidu.com"> 
+                    </embed>
+                </object>
+            </div>
+            <!--开始游戏 end-->
+            <!--登录 start-->
+            <div class="login">
+                <form>
+                    <ul class="login_form_cont">
+                        <li><label class="login_account_nm">账号：</label><input type="text" /></li>
+                        <li><label class="login_account_pwd">密码：</label><input type="text" /></li>
+                    </ul>
+                    <p class="login_form_cb"><label><input type="checkbox" />下次自动登录</label><a href="#" target="_blank">忘记密码？</a></p>
+                    <p class="login_btns clearfix"><input class="login_btn" type="button" value="登录" /><input class="improved_info" type="button" value="完善资料" /></p>
+                    <p class="login_type clearfix"><a href="#">注册账号</a><a class="v1_login" href="#">V1登录</a><a class="qq_login" href="#">QQ登录</a></p>
+                </form>
+            </div>
+            <!--登录 end-->
+            <!--选择服务器 start-->
+            <div class="select_server">
+                <h2>选择服务器</h2>
+                <ul>
+                    <li class="dis_server"><a href="" target='_blank'>双线1区伟大起航</a></li>
+                    <li><a href="" target='_blank'>双线1区伟大起航</a></li>
+                    <li><a href="" target='_blank'>双线1区伟大起航</a></li>
+                </ul>
+                <a class="btn_01 more_server" href="#" target="_blank"><span>更多服务器》</span></a>
+            </div>
+            <!--选择服务器 end-->
+            <!--客服信息 start-->
+            <div class="service_info">
+                <h2>客服信息</h2>
+                <dl>
+                    <dt>服务时间：</dt>
+                    <dd>9:00-20:00</dd>
+                </dl>
+                <dl>
+                    <dt>客服电话： </dt>
+                    <dd>010-12345678</dd>
+                </dl>
+                <dl>
+                    <dt>客服邮箱：</dt>
+                    <dd>kefu@v1.cn</dd>
+                </dl>
+                <dl>
+                    <dt>在线客服：</dt>
+                    <dd><a class="btn_01" href=""><span>客服001</span></a><a class="btn_01" href=""><span>客服002</span></a></dd>
+                </dl>
+                <dl>
+                    <dt>官网QQ群：</dt>
+                    <dd>12345678</dd>
+                </dl>
+            </div>
+            <!--客服信息 end-->
+        </div>
+        <!--内容-左 end-->
+        <!--内容-右 start-->
+        <div class="col_main">
+            <!--新闻title start-->
+            <div class="focus_mod news_title">
+                <div class="title_img">
+                    <h2><span class="t_news">新闻中心</span></h2>
+                    <p>当前位置：<a href="" target="_blank">首页</a>  &gt;  <a href="" target="_blank">新闻中心</a>  &gt;  <span>婚姻系统即将上线 有缘人终成伴侣</span></p>
+                </div>
+            </div>
+            <!--新闻title end-->
+            <!--新闻内容 start-->
+            <div class="common_cont_mod cont_page mt10">
+                <div class="common_cont_mod_bd game_info_bd">
+                    <div class="box">
+                        <h2>婚姻系统即将上线 有缘人终成伴侣</h2>
+                        <div class="box_txt">
+                            <p>千呼万唤始出来，大家呼唤已久的4399独步天下结婚系统很快就要上线啦！！大家终于可以和心仪已久的玩伴们终成眷侣啦！！在系统上线之前，先来看看是什么样子吧~~世界上芸芸众生，要修得夫妻缘分，首先要把有好感的对象变成有缘人。</p>
+                            <p>一、婚姻NPC</p>
+                            <p>玩家可通过到鹊桥找到婚姻NPC红娘：</p>
+                            <p>独步天下婚姻系统</p>
+                            <p>点击NPC可打开对话界面，如下图：</p>
+                            <p>独步天下结婚</p>
+                            <p>二、求婚条件</p>
+                            <p>1)结婚对象必须为一名男角色和一名女角色，且双方都为单身状态（没有亲密侠侣）；</p>
+                            <p>2)结婚双方等级都必须达到40级；</p>
+                            <p>3)结婚双方的亲密度达到5级；</p>
+                            <p>独步天下求婚</p>
+                            <p>独步天下结婚</p>
+                            <p>三、预约婚宴</p>
+                            <p>1)求婚成功后，双方均可到红娘处进行婚宴预约，扣除先预约者相应费用；</p>
+                            <p>2)一方预约成功后，则双方都不能再更改预约；</p>
+                            <p>3)选择婚宴后，选择婚宴的举行时间，只能预约今日24小时内的整点作为婚宴开始时间；</p>
+                            <p>来个最贵的吧，结婚嘛，不要吝啬哟。</p>
+                            <p>四、邀请宾客</p>
+                            <p>1)【邀请宾客】操作的从求婚成功到婚宴结束这段时间内都可进行邀请；</p>
+                            <p>2)每种婚宴可邀请的宾客数不同，简约婚宴不能邀请宾客，高级婚宴可邀请最多10个玩家，豪华婚宴可邀请做多30个玩家；</p>
+                            <p>3)婚独步天下结婚</p>
+                            <p>越高级的婚宴，邀请的朋友越多。</p>
+                            <p>独步天下结婚</p>
+                            <p>让我们一起去祝福新人，最重要的就是大家记得多包点红包哦！</p>
+                            <p>五、举办婚礼</p>
+                            <p>1)举办婚宴需要预约时间，只能预约游戏中的整点作为婚宴开始时间，每场婚宴的持续时间为40分钟；</p>
+                            <p>2)婚宴开始后，红娘周围每过5分钟会刷新出一批喜糖（采集怪），所有玩家都可进行采集；</p>
+                            <p>3)婚宴开始后到该婚礼结束，进入襄阳城的所有玩家，界面上出现一条祝福进度条，玩家可点击按钮进行【送花祝福】，送花后可增加进度条的进度值；</p>
+                            <p>4)该进度值为全服进度值，当进度值满了后，进行全服的天降元宝；</p>
+                            <p>独步天下元宝</p>
+                            <p>一地都是糖果,很爽有没有！</p>
+                            <p>独步天下结婚</p>
+                            <p>这场景真是太过瘾了！</p>
+                            <p>六、婚姻奖励</p>
+                            <p>1)求婚成功后，双方打怪打怪、双修均有经验加成；</p>
+                            <p>2)代表爱情忠贞的【同心锁】和绝版【新婚之喜】时装；</p>
+                            <p>七、离婚</p>
+                            <p>1)在红娘NPC处点击【解除婚约】，弹出解除婚约界面；</p>
+                            <p>2)玩家点击解除婚约按钮后，扣除10W银两，向亲密侠侣发送离婚申请；</p>
+                            <p>3)解除婚约图标下方显示72小时倒计时，也可申请【强制解除】则扣除898元宝，和亲密侠侣解除婚约，两人都恢复单身状态；</p>
+                            <p>4399独步天下运营团队</p>
+                            <p>查看更多4399独步天下信息</p>
+                            <p><a href="" target="_blank">独步天下官网</a> | <a href="" target="_blank">独步天下资料大全</a> | <a href="" target="_blank">独步天下攻略</a> | </p>
+                            <p><a href="" target="_blank">独步天下礼包</a> | <a href="" target="_blank">独步天下论坛</a> |</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--新闻内容 end-->
+        </div>
+        <!--内容-右 end-->
+    </div>
+    <!--内容 end-->
+</div>
+</body>
+</html>";i:3;s:11656:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='zh-CN' xml:lang='zh-CN' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common/common.css" />
+    <link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+    <script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+    <script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/slides.jquery.js"></script>
+    <script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/common.js"></script>
+</head>
+<body>
+<!--顶部整站导航 start-->
+<div id="navigation"></div>
+<script>
+    $.get('http://hzw.g.v1.cn/navigation.shtml',function(data){
+        $("#navigation").html(data);
+    });
+</script>
+<!--顶部整站导航 end-->
+<div class="main">
+    <!--导航 start-->
+    <div class="full_wrap">
+        <div class="game_nav">
+            <h1 class="game_logo"><a href="http://www.v1.cn" target="_self">热血海贼王</a></h1>
+            <ul class="game_items">
+                <li class="curr"><a class="home" href="" target="_self">官网首页</a></li>
+                <li><a class="news" href="" target="_self">新闻中心</a></li>
+                <li><a class="information" href="" target="_self">游戏资料</a></li>
+                <li><a class="pay" href="" target="_self">游戏充值</a></li>
+                <li><a class="service" href="" target="_self">客服中心</a></li>
+                <li><a class="forum" href="" target="_self">官方论坛</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--导航 end-->
+    <!--内容 start-->
+    <div class="full_wrap">
+        <!--内容-左 start-->
+        <div class="col_side">
+            <!--开始游戏 start-->
+            <div class="start_play">
+                <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="270" height="339" id="start_game" align="middle">
+                    <param name="movie" value="start_game.swf" />
+                    <param name="quality" value="high" />
+                    <param name="bgcolor" value="#ffffff" />
+                    <param name="play" value="true" />
+                    <param name="loop" value="true" />
+                    <param name="wmode" value="transparent" />
+                    <param name="scale" value="showall" />
+                    <param name="menu" value="true" />
+                    <param name="devicefont" value="false" />
+                    <param name="salign" value="" />
+                    <param name="allowScriptAccess" value="sameDomain" />
+                    <param name="flashvars" value="url=http://www.baidu.com" />
+                    <embed src="http://hzw.g.v1.cn/static/images/start_game.swf" width="270" height="339" name="start_game" 
+                           type="application/x-shockwave-flash"
+                           wmode="transparent"
+                           flashvars="url=http://www.baidu.com"> 
+                    </embed>
+                </object>
+            </div>
+            <!--开始游戏 end-->
+            <!--登录 start-->
+            <div class="login">
+                <form>
+                    <ul class="login_form_cont">
+                        <li><label class="login_account_nm">账号：</label><input type="text" /></li>
+                        <li><label class="login_account_pwd">密码：</label><input type="text" /></li>
+                    </ul>
+                    <p class="login_form_cb"><label><input type="checkbox" />下次自动登录</label><a href="#" target="_blank">忘记密码？</a></p>
+                    <p class="login_btns clearfix"><input class="login_btn" type="button" value="登录" /><input class="improved_info" type="button" value="完善资料" /></p>
+                    <p class="login_type clearfix"><a href="#">注册账号</a><a class="v1_login" href="#">V1登录</a><a class="qq_login" href="#">QQ登录</a></p>
+                </form>
+            </div>
+            <!--登录 end-->
+            <!--选择服务器 start-->
+            <div class="select_server">
+                <h2>选择服务器</h2>
+                <ul>
+                    <li class="dis_server"><a href="" target='_blank'>双线1区伟大起航</a></li>
+                    <li><a href="" target='_blank'>双线1区伟大起航</a></li>
+                    <li><a href="" target='_blank'>双线1区伟大起航</a></li>
+                </ul>
+                <a class="btn_01 more_server" href="#" target="_blank"><span>更多服务器》</span></a>
+            </div>
+            <!--选择服务器 end-->
+            <!--客服信息 start-->
+            <div class="service_info">
+                <h2>客服信息</h2>
+                <dl>
+                    <dt>服务时间：</dt>
+                    <dd>9:00-20:00</dd>
+                </dl>
+                <dl>
+                    <dt>客服电话： </dt>
+                    <dd>010-12345678</dd>
+                </dl>
+                <dl>
+                    <dt>客服邮箱：</dt>
+                    <dd>kefu@v1.cn</dd>
+                </dl>
+                <dl>
+                    <dt>在线客服：</dt>
+                    <dd><a class="btn_01" href=""><span>客服001</span></a><a class="btn_01" href=""><span>客服002</span></a></dd>
+                </dl>
+                <dl>
+                    <dt>官网QQ群：</dt>
+                    <dd>12345678</dd>
+                </dl>
+            </div>
+            <!--客服信息 end-->
+        </div>
+        <!--内容-左 end-->
+        <!--内容-右 start-->
+        <div class="col_main">
+            <!--新闻title start-->
+            <div class="focus_mod news_title">
+                <div class="title_img">
+                    <h2><span class="t_news">新闻中心</span></h2>
+                    <p>当前位置：<a href="" target="_blank">首页</a>  &gt;  <a href="" target="_blank">新闻中心</a>  &gt;  <span>婚姻系统即将上线 有缘人终成伴侣</span></p>
+                </div>
+            </div>
+            <!--新闻title end-->
+            <!--新闻内容 start-->
+            <div class="common_cont_mod cont_page mt10">
+                <div class="common_cont_mod_bd game_info_bd">
+                    <div class="box">
+                        <h2>婚姻系统即将上线 有缘人终成伴侣</h2>
+                        <div class="box_txt">
+                            <p>千呼万唤始出来，大家呼唤已久的4399独步天下结婚系统很快就要上线啦！！大家终于可以和心仪已久的玩伴们终成眷侣啦！！在系统上线之前，先来看看是什么样子吧~~世界上芸芸众生，要修得夫妻缘分，首先要把有好感的对象变成有缘人。</p>
+                            <p>一、婚姻NPC</p>
+                            <p>玩家可通过到鹊桥找到婚姻NPC红娘：</p>
+                            <p>独步天下婚姻系统</p>
+                            <p>点击NPC可打开对话界面，如下图：</p>
+                            <p>独步天下结婚</p>
+                            <p>二、求婚条件</p>
+                            <p>1)结婚对象必须为一名男角色和一名女角色，且双方都为单身状态（没有亲密侠侣）；</p>
+                            <p>2)结婚双方等级都必须达到40级；</p>
+                            <p>3)结婚双方的亲密度达到5级；</p>
+                            <p>独步天下求婚</p>
+                            <p>独步天下结婚</p>
+                            <p>三、预约婚宴</p>
+                            <p>1)求婚成功后，双方均可到红娘处进行婚宴预约，扣除先预约者相应费用；</p>
+                            <p>2)一方预约成功后，则双方都不能再更改预约；</p>
+                            <p>3)选择婚宴后，选择婚宴的举行时间，只能预约今日24小时内的整点作为婚宴开始时间；</p>
+                            <p>来个最贵的吧，结婚嘛，不要吝啬哟。</p>
+                            <p>四、邀请宾客</p>
+                            <p>1)【邀请宾客】操作的从求婚成功到婚宴结束这段时间内都可进行邀请；</p>
+                            <p>2)每种婚宴可邀请的宾客数不同，简约婚宴不能邀请宾客，高级婚宴可邀请最多10个玩家，豪华婚宴可邀请做多30个玩家；</p>
+                            <p>3)婚独步天下结婚</p>
+                            <p>越高级的婚宴，邀请的朋友越多。</p>
+                            <p>独步天下结婚</p>
+                            <p>让我们一起去祝福新人，最重要的就是大家记得多包点红包哦！</p>
+                            <p>五、举办婚礼</p>
+                            <p>1)举办婚宴需要预约时间，只能预约游戏中的整点作为婚宴开始时间，每场婚宴的持续时间为40分钟；</p>
+                            <p>2)婚宴开始后，红娘周围每过5分钟会刷新出一批喜糖（采集怪），所有玩家都可进行采集；</p>
+                            <p>3)婚宴开始后到该婚礼结束，进入襄阳城的所有玩家，界面上出现一条祝福进度条，玩家可点击按钮进行【送花祝福】，送花后可增加进度条的进度值；</p>
+                            <p>4)该进度值为全服进度值，当进度值满了后，进行全服的天降元宝；</p>
+                            <p>独步天下元宝</p>
+                            <p>一地都是糖果,很爽有没有！</p>
+                            <p>独步天下结婚</p>
+                            <p>这场景真是太过瘾了！</p>
+                            <p>六、婚姻奖励</p>
+                            <p>1)求婚成功后，双方打怪打怪、双修均有经验加成；</p>
+                            <p>2)代表爱情忠贞的【同心锁】和绝版【新婚之喜】时装；</p>
+                            <p>七、离婚</p>
+                            <p>1)在红娘NPC处点击【解除婚约】，弹出解除婚约界面；</p>
+                            <p>2)玩家点击解除婚约按钮后，扣除10W银两，向亲密侠侣发送离婚申请；</p>
+                            <p>3)解除婚约图标下方显示72小时倒计时，也可申请【强制解除】则扣除898元宝，和亲密侠侣解除婚约，两人都恢复单身状态；</p>
+                            <p>4399独步天下运营团队</p>
+                            <p>查看更多4399独步天下信息</p>
+                            <p><a href="" target="_blank">独步天下官网</a> | <a href="" target="_blank">独步天下资料大全</a> | <a href="" target="_blank">独步天下攻略</a> | </p>
+                            <p><a href="" target="_blank">独步天下礼包</a> | <a href="" target="_blank">独步天下论坛</a> |</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--新闻内容 end-->
+        </div>
+        <!--内容-右 end-->
+    </div>
+    <!--内容 end-->
+</div>
+</body>
+</html>";i:4;s:11571:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='zh-CN' xml:lang='zh-CN' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common/common.css" />
+    <link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+    <script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+    <script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/slides.jquery.js"></script>
+    <script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/common.js"></script>
+</head>
+<body>
+<!--顶部整站导航 start-->
+<!--#
+echo file_get_contents("http://hzw.g.v1.cn/navigation.shtml");
+#-->
+<!--顶部整站导航 end-->
+<div class="main">
+    <!--导航 start-->
+    <div class="full_wrap">
+        <div class="game_nav">
+            <h1 class="game_logo"><a href="http://www.v1.cn" target="_self">热血海贼王</a></h1>
+            <ul class="game_items">
+                <li class="curr"><a class="home" href="" target="_self">官网首页</a></li>
+                <li><a class="news" href="" target="_self">新闻中心</a></li>
+                <li><a class="information" href="" target="_self">游戏资料</a></li>
+                <li><a class="pay" href="" target="_self">游戏充值</a></li>
+                <li><a class="service" href="" target="_self">客服中心</a></li>
+                <li><a class="forum" href="" target="_self">官方论坛</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--导航 end-->
+    <!--内容 start-->
+    <div class="full_wrap">
+        <!--内容-左 start-->
+        <div class="col_side">
+            <!--开始游戏 start-->
+            <div class="start_play">
+                <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="270" height="339" id="start_game" align="middle">
+                    <param name="movie" value="start_game.swf" />
+                    <param name="quality" value="high" />
+                    <param name="bgcolor" value="#ffffff" />
+                    <param name="play" value="true" />
+                    <param name="loop" value="true" />
+                    <param name="wmode" value="transparent" />
+                    <param name="scale" value="showall" />
+                    <param name="menu" value="true" />
+                    <param name="devicefont" value="false" />
+                    <param name="salign" value="" />
+                    <param name="allowScriptAccess" value="sameDomain" />
+                    <param name="flashvars" value="url=http://www.baidu.com" />
+                    <embed src="http://hzw.g.v1.cn/static/images/start_game.swf" width="270" height="339" name="start_game" 
+                           type="application/x-shockwave-flash"
+                           wmode="transparent"
+                           flashvars="url=http://www.baidu.com"> 
+                    </embed>
+                </object>
+            </div>
+            <!--开始游戏 end-->
+            <!--登录 start-->
+            <div class="login">
+                <form>
+                    <ul class="login_form_cont">
+                        <li><label class="login_account_nm">账号：</label><input type="text" /></li>
+                        <li><label class="login_account_pwd">密码：</label><input type="text" /></li>
+                    </ul>
+                    <p class="login_form_cb"><label><input type="checkbox" />下次自动登录</label><a href="#" target="_blank">忘记密码？</a></p>
+                    <p class="login_btns clearfix"><input class="login_btn" type="button" value="登录" /><input class="improved_info" type="button" value="完善资料" /></p>
+                    <p class="login_type clearfix"><a href="#">注册账号</a><a class="v1_login" href="#">V1登录</a><a class="qq_login" href="#">QQ登录</a></p>
+                </form>
+            </div>
+            <!--登录 end-->
+            <!--选择服务器 start-->
+            <div class="select_server">
+                <h2>选择服务器</h2>
+                <ul>
+                    <li class="dis_server"><a href="" target='_blank'>双线1区伟大起航</a></li>
+                    <li><a href="" target='_blank'>双线1区伟大起航</a></li>
+                    <li><a href="" target='_blank'>双线1区伟大起航</a></li>
+                </ul>
+                <a class="btn_01 more_server" href="#" target="_blank"><span>更多服务器》</span></a>
+            </div>
+            <!--选择服务器 end-->
+            <!--客服信息 start-->
+            <div class="service_info">
+                <h2>客服信息</h2>
+                <dl>
+                    <dt>服务时间：</dt>
+                    <dd>9:00-20:00</dd>
+                </dl>
+                <dl>
+                    <dt>客服电话： </dt>
+                    <dd>010-12345678</dd>
+                </dl>
+                <dl>
+                    <dt>客服邮箱：</dt>
+                    <dd>kefu@v1.cn</dd>
+                </dl>
+                <dl>
+                    <dt>在线客服：</dt>
+                    <dd><a class="btn_01" href=""><span>客服001</span></a><a class="btn_01" href=""><span>客服002</span></a></dd>
+                </dl>
+                <dl>
+                    <dt>官网QQ群：</dt>
+                    <dd>12345678</dd>
+                </dl>
+            </div>
+            <!--客服信息 end-->
+        </div>
+        <!--内容-左 end-->
+        <!--内容-右 start-->
+        <div class="col_main">
+            <!--新闻title start-->
+            <div class="focus_mod news_title">
+                <div class="title_img">
+                    <h2><span class="t_news">新闻中心</span></h2>
+                    <p>当前位置：<a href="" target="_blank">首页</a>  &gt;  <a href="" target="_blank">新闻中心</a>  &gt;  <span>婚姻系统即将上线 有缘人终成伴侣</span></p>
+                </div>
+            </div>
+            <!--新闻title end-->
+            <!--新闻内容 start-->
+            <div class="common_cont_mod cont_page mt10">
+                <div class="common_cont_mod_bd game_info_bd">
+                    <div class="box">
+                        <h2>婚姻系统即将上线 有缘人终成伴侣</h2>
+                        <div class="box_txt">
+                            <p>千呼万唤始出来，大家呼唤已久的4399独步天下结婚系统很快就要上线啦！！大家终于可以和心仪已久的玩伴们终成眷侣啦！！在系统上线之前，先来看看是什么样子吧~~世界上芸芸众生，要修得夫妻缘分，首先要把有好感的对象变成有缘人。</p>
+                            <p>一、婚姻NPC</p>
+                            <p>玩家可通过到鹊桥找到婚姻NPC红娘：</p>
+                            <p>独步天下婚姻系统</p>
+                            <p>点击NPC可打开对话界面，如下图：</p>
+                            <p>独步天下结婚</p>
+                            <p>二、求婚条件</p>
+                            <p>1)结婚对象必须为一名男角色和一名女角色，且双方都为单身状态（没有亲密侠侣）；</p>
+                            <p>2)结婚双方等级都必须达到40级；</p>
+                            <p>3)结婚双方的亲密度达到5级；</p>
+                            <p>独步天下求婚</p>
+                            <p>独步天下结婚</p>
+                            <p>三、预约婚宴</p>
+                            <p>1)求婚成功后，双方均可到红娘处进行婚宴预约，扣除先预约者相应费用；</p>
+                            <p>2)一方预约成功后，则双方都不能再更改预约；</p>
+                            <p>3)选择婚宴后，选择婚宴的举行时间，只能预约今日24小时内的整点作为婚宴开始时间；</p>
+                            <p>来个最贵的吧，结婚嘛，不要吝啬哟。</p>
+                            <p>四、邀请宾客</p>
+                            <p>1)【邀请宾客】操作的从求婚成功到婚宴结束这段时间内都可进行邀请；</p>
+                            <p>2)每种婚宴可邀请的宾客数不同，简约婚宴不能邀请宾客，高级婚宴可邀请最多10个玩家，豪华婚宴可邀请做多30个玩家；</p>
+                            <p>3)婚独步天下结婚</p>
+                            <p>越高级的婚宴，邀请的朋友越多。</p>
+                            <p>独步天下结婚</p>
+                            <p>让我们一起去祝福新人，最重要的就是大家记得多包点红包哦！</p>
+                            <p>五、举办婚礼</p>
+                            <p>1)举办婚宴需要预约时间，只能预约游戏中的整点作为婚宴开始时间，每场婚宴的持续时间为40分钟；</p>
+                            <p>2)婚宴开始后，红娘周围每过5分钟会刷新出一批喜糖（采集怪），所有玩家都可进行采集；</p>
+                            <p>3)婚宴开始后到该婚礼结束，进入襄阳城的所有玩家，界面上出现一条祝福进度条，玩家可点击按钮进行【送花祝福】，送花后可增加进度条的进度值；</p>
+                            <p>4)该进度值为全服进度值，当进度值满了后，进行全服的天降元宝；</p>
+                            <p>独步天下元宝</p>
+                            <p>一地都是糖果,很爽有没有！</p>
+                            <p>独步天下结婚</p>
+                            <p>这场景真是太过瘾了！</p>
+                            <p>六、婚姻奖励</p>
+                            <p>1)求婚成功后，双方打怪打怪、双修均有经验加成；</p>
+                            <p>2)代表爱情忠贞的【同心锁】和绝版【新婚之喜】时装；</p>
+                            <p>七、离婚</p>
+                            <p>1)在红娘NPC处点击【解除婚约】，弹出解除婚约界面；</p>
+                            <p>2)玩家点击解除婚约按钮后，扣除10W银两，向亲密侠侣发送离婚申请；</p>
+                            <p>3)解除婚约图标下方显示72小时倒计时，也可申请【强制解除】则扣除898元宝，和亲密侠侣解除婚约，两人都恢复单身状态；</p>
+                            <p>4399独步天下运营团队</p>
+                            <p>查看更多4399独步天下信息</p>
+                            <p><a href="" target="_blank">独步天下官网</a> | <a href="" target="_blank">独步天下资料大全</a> | <a href="" target="_blank">独步天下攻略</a> | </p>
+                            <p><a href="" target="_blank">独步天下礼包</a> | <a href="" target="_blank">独步天下论坛</a> |</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--新闻内容 end-->
+        </div>
+        <!--内容-右 end-->
+    </div>
+    <!--内容 end-->
+</div>
+</body>
+</html>";i:5;s:7058:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='zh-CN' xml:lang='zh-CN' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common/common.css" />
+    <link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+    <script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+    <script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/slides.jquery.js"></script>
+    <script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/common.js"></script>
+</head>
+<body>
+<!--顶部整站导航 start-->
+<div id="navigation"></div>
+<!--#
+echo file_get_contents("http://hzw.g.v1.cn/navigation.shtml");
+#-->
+<!--顶部整站导航 end-->
+<div class="main">
+    <!--导航 start-->
+<!--#
+echo file_get_contents("http://hzw.g.v1.cn/gameNav.shtml");
+#-->
+    <!--导航 end-->
+    <!--内容 start-->
+    <div class="full_wrap">
+        <!--内容-左 start-->
+<!--#
+echo file_get_contents("http://hzw.g.v1.cn/left.shtml");
+#-->
+        <!--内容-左 end-->
+        <!--内容-右 start-->
+        <div class="col_main">
+            <!--新闻title start-->
+            <div class="focus_mod news_title">
+                <div class="title_img">
+                    <h2><span class="t_news">新闻中心</span></h2>
+                    <p>当前位置：<a href="" target="_blank">首页</a>  &gt;  <a href="" target="_blank">新闻中心</a>  &gt;  <span>婚姻系统即将上线 有缘人终成伴侣</span></p>
+                </div>
+            </div>
+            <!--新闻title end-->
+            <!--新闻内容 start-->
+            <div class="common_cont_mod cont_page mt10">
+                <div class="common_cont_mod_bd game_info_bd">
+                    <div class="box">
+                        <h2>婚姻系统即将上线 有缘人终成伴侣</h2>
+                        <div class="box_txt">
+                            <p>千呼万唤始出来，大家呼唤已久的4399独步天下结婚系统很快就要上线啦！！大家终于可以和心仪已久的玩伴们终成眷侣啦！！在系统上线之前，先来看看是什么样子吧~~世界上芸芸众生，要修得夫妻缘分，首先要把有好感的对象变成有缘人。</p>
+                            <p>一、婚姻NPC</p>
+                            <p>玩家可通过到鹊桥找到婚姻NPC红娘：</p>
+                            <p>独步天下婚姻系统</p>
+                            <p>点击NPC可打开对话界面，如下图：</p>
+                            <p>独步天下结婚</p>
+                            <p>二、求婚条件</p>
+                            <p>1)结婚对象必须为一名男角色和一名女角色，且双方都为单身状态（没有亲密侠侣）；</p>
+                            <p>2)结婚双方等级都必须达到40级；</p>
+                            <p>3)结婚双方的亲密度达到5级；</p>
+                            <p>独步天下求婚</p>
+                            <p>独步天下结婚</p>
+                            <p>三、预约婚宴</p>
+                            <p>1)求婚成功后，双方均可到红娘处进行婚宴预约，扣除先预约者相应费用；</p>
+                            <p>2)一方预约成功后，则双方都不能再更改预约；</p>
+                            <p>3)选择婚宴后，选择婚宴的举行时间，只能预约今日24小时内的整点作为婚宴开始时间；</p>
+                            <p>来个最贵的吧，结婚嘛，不要吝啬哟。</p>
+                            <p>四、邀请宾客</p>
+                            <p>1)【邀请宾客】操作的从求婚成功到婚宴结束这段时间内都可进行邀请；</p>
+                            <p>2)每种婚宴可邀请的宾客数不同，简约婚宴不能邀请宾客，高级婚宴可邀请最多10个玩家，豪华婚宴可邀请做多30个玩家；</p>
+                            <p>3)婚独步天下结婚</p>
+                            <p>越高级的婚宴，邀请的朋友越多。</p>
+                            <p>独步天下结婚</p>
+                            <p>让我们一起去祝福新人，最重要的就是大家记得多包点红包哦！</p>
+                            <p>五、举办婚礼</p>
+                            <p>1)举办婚宴需要预约时间，只能预约游戏中的整点作为婚宴开始时间，每场婚宴的持续时间为40分钟；</p>
+                            <p>2)婚宴开始后，红娘周围每过5分钟会刷新出一批喜糖（采集怪），所有玩家都可进行采集；</p>
+                            <p>3)婚宴开始后到该婚礼结束，进入襄阳城的所有玩家，界面上出现一条祝福进度条，玩家可点击按钮进行【送花祝福】，送花后可增加进度条的进度值；</p>
+                            <p>4)该进度值为全服进度值，当进度值满了后，进行全服的天降元宝；</p>
+                            <p>独步天下元宝</p>
+                            <p>一地都是糖果,很爽有没有！</p>
+                            <p>独步天下结婚</p>
+                            <p>这场景真是太过瘾了！</p>
+                            <p>六、婚姻奖励</p>
+                            <p>1)求婚成功后，双方打怪打怪、双修均有经验加成；</p>
+                            <p>2)代表爱情忠贞的【同心锁】和绝版【新婚之喜】时装；</p>
+                            <p>七、离婚</p>
+                            <p>1)在红娘NPC处点击【解除婚约】，弹出解除婚约界面；</p>
+                            <p>2)玩家点击解除婚约按钮后，扣除10W银两，向亲密侠侣发送离婚申请；</p>
+                            <p>3)解除婚约图标下方显示72小时倒计时，也可申请【强制解除】则扣除898元宝，和亲密侠侣解除婚约，两人都恢复单身状态；</p>
+                            <p>4399独步天下运营团队</p>
+                            <p>查看更多4399独步天下信息</p>
+                            <p><a href="" target="_blank">独步天下官网</a> | <a href="" target="_blank">独步天下资料大全</a> | <a href="" target="_blank">独步天下攻略</a> | </p>
+                            <p><a href="" target="_blank">独步天下礼包</a> | <a href="" target="_blank">独步天下论坛</a> |</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--新闻内容 end-->
+        </div>
+        <!--内容-右 end-->
+    </div>
+    <!--内容 end-->
+</div>
+</body>
+</html>
+";i:6;s:2420:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='zh-CN' xml:lang='zh-CN' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common/common.css" />
+    <link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+    <script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+    <script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/slides.jquery.js"></script>
+    <script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/common.js"></script>
+</head>
+<body>
+<!--顶部整站导航 start-->
+<div id="navigation"></div>
+<!--#
+echo file_get_contents("http://hzw.g.v1.cn/navigation.shtml");
+#-->
+<!--顶部整站导航 end-->
+<div class="main">
+    <!--导航 start-->
+<!--#
+echo file_get_contents("http://hzw.g.v1.cn/gameNav.shtml");
+#-->
+    <!--导航 end-->
+    <!--内容 start-->
+    <div class="full_wrap">
+        <!--内容-左 start-->
+<!--#
+echo file_get_contents("http://hzw.g.v1.cn/left.shtml");
+#-->
+        <!--内容-左 end-->
+        <!--内容-右 start-->
+        <div class="col_main">
+            <!--新闻title start-->
+            <div class="focus_mod news_title">
+                <div class="title_img">
+                    <h2><span class="t_news">新闻中心</span></h2>
+                    <p>当前位置：<a href="http://hzw.g.v1.cn" target="_blank">首页</a>  &gt;  <a href="" target="_blank">新闻中心</a>  &gt;  <span>{$title}</span></p>
+                </div>
+            </div>
+            <!--新闻title end-->
+            <!--新闻内容 start-->
+            <div class="common_cont_mod cont_page mt10">
+                <div class="common_cont_mod_bd game_info_bd">
+                    <div class="box">
+                        <h2>{$title}</h2>
+                        <div class="box_txt">
+                            {$contents}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--新闻内容 end-->
+        </div>
+        <!--内容-右 end-->
+    </div>
+    <!--内容 end-->
+</div>
+</body>
+</html>";i:7;s:2430:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='zh-CN' xml:lang='zh-CN' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>{$title}</title>
+    <link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/common/common.css" />
+    <link type="text/css" rel="stylesheet" href="http://hzw.g.v1.cn/static/hzw.css" />
+    <script tyle="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+    <script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/slides.jquery.js"></script>
+    <script tyle="text/javascript" src="http://hzw.g.v1.cn/static/common/common.js"></script>
+</head>
+<body>
+<!--顶部整站导航 start-->
+<div id="navigation"></div>
+<!--#
+echo file_get_contents("http://hzw.g.v1.cn/navigation.shtml");
+#-->
+<!--顶部整站导航 end-->
+<div class="main">
+    <!--导航 start-->
+<!--#
+echo file_get_contents("http://hzw.g.v1.cn/gameNav.shtml");
+#-->
+    <!--导航 end-->
+    <!--内容 start-->
+    <div class="full_wrap">
+        <!--内容-左 start-->
+<!--#
+echo file_get_contents("http://hzw.g.v1.cn/left.shtml");
+#-->
+        <!--内容-左 end-->
+        <!--内容-右 start-->
+        <div class="col_main">
+            <!--新闻title start-->
+            <div class="focus_mod news_title">
+                <div class="title_img">
+                    <h2><span class="t_news">新闻中心</span></h2>
+                    <p>当前位置：<a href="http://hzw.g.v1.cn" target="_blank">首页</a>  &gt;  <a href="" target="_blank">新闻中心</a>  &gt;  <span>{$title}</span></p>
+                </div>
+            </div>
+            <!--新闻title end-->
+            <!--新闻内容 start-->
+            <div class="common_cont_mod cont_page mt10">
+                <div class="common_cont_mod_bd game_info_bd">
+                    <div class="box">
+                        <h2>{$title}</h2>
+                        <div class="box_txt">
+                            {$contents}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--新闻内容 end-->
+        </div>
+        <!--内容-右 end-->
+    </div>
+    <!--内容 end-->
+</div>
+</body>
+</html>
+";i:8;s:2002:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='zh-CN' xml:lang='zh-CN' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>{$title}</title>
+<!--#
+echo file_get_contents("http://hzw.g.v1.cn/header.shtml");
+#-->
+</head>
+<body>
+<!--顶部整站导航 start-->
+<div id="navigation"></div>
+<!--#
+echo file_get_contents("http://hzw.g.v1.cn/navigation.shtml");
+#-->
+<!--顶部整站导航 end-->
+<div class="main">
+    <!--导航 start-->
+<!--#
+echo file_get_contents("http://hzw.g.v1.cn/gameNav.shtml");
+#-->
+    <!--导航 end-->
+    <!--内容 start-->
+    <div class="full_wrap">
+        <!--内容-左 start-->
+<!--#
+echo file_get_contents("http://hzw.g.v1.cn/left.shtml");
+#-->
+        <!--内容-左 end-->
+        <!--内容-右 start-->
+        <div class="col_main">
+            <!--新闻title start-->
+            <div class="focus_mod news_title">
+                <div class="title_img">
+                    <h2><span class="t_news">新闻中心</span></h2>
+                    <p>当前位置：<a href="http://hzw.g.v1.cn" target="_blank">首页</a>  &gt;  <a href="" target="_blank">新闻中心</a>  &gt;  <span>{$title}</span></p>
+                </div>
+            </div>
+            <!--新闻title end-->
+            <!--新闻内容 start-->
+            <div class="common_cont_mod cont_page mt10">
+                <div class="common_cont_mod_bd game_info_bd">
+                    <div class="box">
+                        <h2>{$title}</h2>
+                        <div class="box_txt">
+                            {$contents}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--新闻内容 end-->
+        </div>
+        <!--内容-右 end-->
+    </div>
+    <!--内容 end-->
+</div>
+</body>
+</html>
+";i:9;s:2026:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='zh-CN' xml:lang='zh-CN' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>{$title}_V1游戏热血海贼王</title>
+<!--#
+echo file_get_contents("http://hzw.g.v1.cn/header.shtml");
+#-->
+</head>
+<body>
+<!--顶部整站导航 start-->
+<div id="navigation"></div>
+<!--#
+echo file_get_contents("http://hzw.g.v1.cn/navigation.shtml");
+#-->
+<!--顶部整站导航 end-->
+<div class="main">
+    <!--导航 start-->
+<!--#
+echo file_get_contents("http://hzw.g.v1.cn/gameNav.shtml");
+#-->
+    <!--导航 end-->
+    <!--内容 start-->
+    <div class="full_wrap">
+        <!--内容-左 start-->
+<!--#
+echo file_get_contents("http://hzw.g.v1.cn/left.shtml");
+#-->
+        <!--内容-左 end-->
+        <!--内容-右 start-->
+        <div class="col_main">
+            <!--新闻title start-->
+            <div class="focus_mod news_title">
+                <div class="title_img">
+                    <h2><span class="t_news">新闻中心</span></h2>
+                    <p>当前位置：<a href="http://hzw.g.v1.cn" target="_blank">首页</a>  &gt;  <a href="" target="_blank">新闻中心</a>  &gt;  <span>{$title}</span></p>
+                </div>
+            </div>
+            <!--新闻title end-->
+            <!--新闻内容 start-->
+            <div class="common_cont_mod cont_page mt10">
+                <div class="common_cont_mod_bd game_info_bd">
+                    <div class="box">
+                        <h2>{$title}</h2>
+                        <div class="box_txt">
+                            {$contents}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--新闻内容 end-->
+        </div>
+        <!--内容-右 end-->
+    </div>
+    <!--内容 end-->
+</div>
+</body>
+</html>
+";}

@@ -1,0 +1,337 @@
+a:6:{i:0;s:5468:"<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>500w</title>
+<link href="http://pic.v1.cn/cms/500w/css/style-500w.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+</head>
+
+<body>
+
+<div class="CThearderWrap">
+<div class="wrapBox1000 clearfix">
+
+<div class="headerLeftBox">
+  <div class="left"><a href="http://www.v1.cn/" class="sLogo" target="_blank">首页</a></div>
+  <ul class="hearderChannel">
+  <li><a href="http://www.v1.cn/" target="_blank">首页</a><span>|</span></li>
+  <li><a href="http://news.v1.cn/" target="_blank">新闻</a><span>|</span></li>
+  <li><a href="http://mil.v1.cn/" target="_blank">军事</a><span>|</span></li>
+  <li><a href="http://shehui.v1.cn/" target="_blank">社会</a><span>|</span></li>
+  <li><a href="http://finance.v1.cn/" target="_blank">财经</a><span>|</span></li>
+  <li><a href="http://ent.v1.cn/" target="_blank">娱乐</a><span>|</span></li>
+  <li>
+  <div id="morepane" class="CTmenu_list"><p class="CTmoreMenu_head">更多</p>
+  <div class="CTmoreMenu_body">
+  <a href="http://sports.v1.cn/" target="_blank">体育</a>
+  <a href="http://auto.v1.cn/" target="_blank">汽车</a>
+  <a href="http://paike.v1.cn/" target="_blank">拍客</a>
+  <a href="http://v.v1.cn/" target="_blank">影视</a>
+  <a href="http://music.v1.cn/" target="_blank">音乐</a>
+  <a href="http://culture.v1.cn/" target="_blank">文化</a>
+  <a href="http://tech.v1.cn/" target="_blank">科技</a>
+  <a href="http://games.v1.cn/" target="_blank">游戏</a>
+  <a href="http://lady.v1.cn/" target="_blank">女性</a>
+  <a href="http://fun.v1.cn/" target="_blank">搞笑</a>
+  <a href="http://life.v1.cn/" target="_blank">乐活</a>
+  <a href="http://travel.v1.cn/" target="_blank">旅游</a>
+  <a href="http://bgt.v1.cn/" target="_blank">曝光台</a>
+  </div>
+  </div>
+  </li>
+  </ul>
+</div>
+
+<div class="headerCenterBox">
+  <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+  <div><input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()"><button type="submit" class="newsSearchBtn" id="searchBut">搜索</button></div>
+  </form>
+</div>
+
+<ul class="headerRightBox">
+  <li><div class="homeLogin"><a onclick="login()" href="javascript:void(0);">登录</a><a onclick="register()" href="javascript:void(0);">注册</a></div></li>
+  <li><a href="javascript:void(0);" onclick="openWindow('http://ynews.v1.cn/news/router/index.jhtml','http://ynews.v1.cn/news/home/index.jhtml')">上传</a></li>
+</ul>
+
+</div>
+</div>
+
+<div class="con-block clearfix">
+   <ul class="object">
+      <li>活动对象： 活动期间第一彩、中国足彩网新注册用户</li>
+      <li>活动时间： 2013.9.1起</li>
+      <li>活动内容： 新用户注册送5元</li>
+   </ul>
+   <ul class="rule">
+     <li>一、本活动仅限于2013年9月1日之后首次注册且绑定身份证、真实姓名、手机号的用户。</li>
+     <li>二、注册完成完善身份信息即送5元彩金到奖励帐户。</li>
+     <li>三、赠送的彩金只能用于购彩，不能提现。</li>
+     <li>四、本活动与其它活动不冲突。新注册用户以唯一真实姓名、身份证号、手机号、IP地址进行判定,一个用户注册多个</li>
+     <li>账号参与活动视为作弊，网站有权查封作弊账号。</li>
+     <li>五、仅限网站注册用户参与此活动。</li>
+     <li>六、最终解释权归第一彩和中国足彩网所有。</li>
+   </ul>
+   <a href="#" target="_blank" class="register"></a>
+   <a href="http://www.v1.cn" target="_blank" class="v1-link"></a>
+</div>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201305151112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+</script>
+<script>
+$(document).ready(function()
+{
+ 	//更多
+	$("#morepane p.CTmoreMenu_head").click(function()
+    {
+		$(this).css({backgroundImage:""}).next("div.CTmoreMenu_body").slideToggle(0).siblings("div.CTmoreMenu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:""});
+	});
+    
+});
+</script>
+<script>
+var Search=document.getElementById("search");
+function Onfocus()
+	{
+	if(Search.value=="请输入关键字")
+		{
+			Search.value="";
+		}
+	}
+function Onblur()
+	{
+if(Search.value=="")
+		{
+Search.value="请输入关键字";
+		}
+	}
+
+</script>
+</body>
+</html>
+";i:1;s:1520:"<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>500w</title>
+<link href="http://pic.v1.cn/cms/500w/css/style-500w.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+<!--ssi#include virtual="/ssi/contentHeader_common.html"-->
+
+<div class="con-block clearfix">
+   <ul class="object">
+      <li>活动对象： 活动期间第一彩、中国足彩网新注册用户</li>
+      <li>活动时间： 2013.9.1起</li>
+      <li>活动内容： 新用户注册送5元</li>
+   </ul>
+   <ul class="rule">
+     <li>一、本活动仅限于2013年9月1日之后首次注册且绑定身份证、真实姓名、手机号的用户。</li>
+     <li>二、注册完成完善身份信息即送5元彩金到奖励帐户。</li>
+     <li>三、赠送的彩金只能用于购彩，不能提现。</li>
+     <li>四、本活动与其它活动不冲突。新注册用户以唯一真实姓名、身份证号、手机号、IP地址进行判定,一个用户注册多个</li>
+     <li>账号参与活动视为作弊，网站有权查封作弊账号。</li>
+     <li>五、仅限网站注册用户参与此活动。</li>
+     <li>六、最终解释权归第一彩和中国足彩网所有。</li>
+   </ul>
+   <a href="#" target="_blank" class="register"></a>
+   <a href="http://www.v1.cn" target="_blank" class="v1-link"></a>
+</div>
+</body>
+</html>
+";i:2;s:1576:"<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>500w</title>
+<link href="http://pic.v1.cn/cms/500w/css/style-500w.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+<!--ssi#include virtual="/ssi/contentHeader_common.html"-->
+
+<div class="con-block clearfix">
+   <ul class="object">
+      <li>活动对象： 活动期间第一彩、中国足彩网新注册用户</li>
+      <li>活动时间： 2013.9.1起</li>
+      <li>活动内容： 新用户注册送5元</li>
+   </ul>
+   <ul class="rule">
+     <li>一、本活动仅限于2013年9月1日之后首次注册且绑定身份证、真实姓名、手机号的用户。</li>
+     <li>二、注册完成完善身份信息即送5元彩金到奖励帐户。</li>
+     <li>三、赠送的彩金只能用于购彩，不能提现。</li>
+     <li>四、本活动与其它活动不冲突。新注册用户以唯一真实姓名、身份证号、手机号、IP地址进行判定,一个用户注册多个</li>
+     <li>账号参与活动视为作弊，网站有权查封作弊账号。</li>
+     <li>五、仅限网站注册用户参与此活动。</li>
+     <li>六、最终解释权归第一彩和中国足彩网所有。</li>
+   </ul>
+   <a href="#" target="_blank" class="register"></a>
+   <a href="http://www.v1.cn" target="_blank" class="v1-link"></a>
+</div>
+<style>
+.CThearderWrap{overflow:visiblity;}
+</style>
+</body>
+</html>
+";i:3;s:1574:"<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>500w</title>
+<link href="http://pic.v1.cn/cms/500w/css/style-500w.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+<!--ssi#include virtual="/ssi/contentHeader_common.html"-->
+
+<div class="con-block clearfix">
+   <ul class="object">
+      <li>活动对象： 活动期间第一彩、中国足彩网新注册用户</li>
+      <li>活动时间： 2013.9.1起</li>
+      <li>活动内容： 新用户注册送5元</li>
+   </ul>
+   <ul class="rule">
+     <li>一、本活动仅限于2013年9月1日之后首次注册且绑定身份证、真实姓名、手机号的用户。</li>
+     <li>二、注册完成完善身份信息即送5元彩金到奖励帐户。</li>
+     <li>三、赠送的彩金只能用于购彩，不能提现。</li>
+     <li>四、本活动与其它活动不冲突。新注册用户以唯一真实姓名、身份证号、手机号、IP地址进行判定,一个用户注册多个</li>
+     <li>账号参与活动视为作弊，网站有权查封作弊账号。</li>
+     <li>五、仅限网站注册用户参与此活动。</li>
+     <li>六、最终解释权归第一彩和中国足彩网所有。</li>
+   </ul>
+   <a href="#" target="_blank" class="register"></a>
+   <a href="http://www.v1.cn" target="_blank" class="v1-link"></a>
+</div>
+<style>
+.CThearderWrap{overflow:visible;}
+</style>
+</body>
+</html>
+";i:4;s:2288:"<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>500w</title>
+<link href="http://pic.v1.cn/cms/500w/css/style-500w.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+
+</head>
+
+<body>
+<!--ssi#include virtual="/ssi/contentHeader_common.html"-->
+
+<div class="con-block clearfix">
+   <ul class="object">
+      <li>活动对象： 活动期间第一彩、中国足彩网新注册用户</li>
+      <li>活动时间： 2013.9.1起</li>
+      <li>活动内容： 新用户注册送5元</li>
+   </ul>
+   <ul class="rule">
+     <li>一、本活动仅限于2013年9月1日之后首次注册且绑定身份证、真实姓名、手机号的用户。</li>
+     <li>二、注册完成完善身份信息即送5元彩金到奖励帐户。</li>
+     <li>三、赠送的彩金只能用于购彩，不能提现。</li>
+     <li>四、本活动与其它活动不冲突。新注册用户以唯一真实姓名、身份证号、手机号、IP地址进行判定,一个用户注册多个</li>
+     <li>账号参与活动视为作弊，网站有权查封作弊账号。</li>
+     <li>五、仅限网站注册用户参与此活动。</li>
+     <li>六、最终解释权归第一彩和中国足彩网所有。</li>
+   </ul>
+   <a href="#" target="_blank" class="register"></a>
+   <a href="http://www.v1.cn" target="_blank" class="v1-link"></a>
+</div>
+<style>
+.CThearderWrap{overflow:visible;}
+</style>
+
+<!-- START v1 v1.0 -->
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=hezuo&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!-- END v1 v1.0 -->
+</body>
+</html>
+";i:5;s:2646:"<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>500w</title>
+<link href="http://pic.v1.cn/cms/500w/css/style-500w.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+</head>
+
+<body>
+<!--ssi#include virtual="/ssi/contentHeader_common.html"-->
+
+<div class="con-block clearfix">
+   <ul class="object">
+      <li>活动对象： 活动期间第一彩、中国足彩网新注册用户</li>
+      <li>活动时间： 2013.9.1起</li>
+      <li>活动内容： 新用户注册送5元</li>
+   </ul>
+   <ul class="rule">
+     <li>一、本活动仅限于2013年9月1日之后首次注册且绑定身份证、真实姓名、手机号的用户。</li>
+     <li>二、注册完成完善身份信息即送5元彩金到奖励帐户。</li>
+     <li>三、赠送的彩金只能用于购彩，不能提现。</li>
+     <li>四、本活动与其它活动不冲突。新注册用户以唯一真实姓名、身份证号、手机号、IP地址进行判定,一个用户注册多个</li>
+     <li>账号参与活动视为作弊，网站有权查封作弊账号。</li>
+     <li>五、仅限网站注册用户参与此活动。</li>
+     <li>六、最终解释权归第一彩和中国足彩网所有。</li>
+   </ul>
+   <a href="#" target="_blank" class="register"></a>
+   <a href="http://www.v1.cn" target="_blank" class="v1-link"></a>
+</div>
+<style>
+.CThearderWrap{overflow:visible;}
+</style>
+
+<!-- START v1 v1.0 -->
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=hezuo&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!-- END v1 v1.0 -->
+</body>
+</html>
+";}

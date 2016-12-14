@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CMS_用户管理</title>
+<?=$this->headLink() ?>
+<?=$this->headScript() ?>
+</head>
+<body>
+<base target="_self">
+<div class="area">
+    <p class="soart">
+    	<form action="/system/index/user/" name="search_form" method="post" onsubmit="">
+        	<label>用户名:<input class="input" type="text" name="username" value="<?=$this->username?>" size="16" /></label>
+            <label>真实姓名:<input class="input" type="text" name="realname" value="<?=$this->realname?>" size="8" /></label>
+            <input type="submit" value="显示"></button>
+        </form>
+    </p>    
+	<div class="nr">
+    	<h2><button onclick="useradd()">添加用户</button>用户列表</h2>
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+        	<tr>
+            	<th width="1"></th>
+            	<th>ID</th>
+                <th>用户名</th>
+                <th>姓名</th>
+                <th>加入日期</th>
+                <th>操作</th>
+                
+            </tr>
+    <?php foreach ($this->users as $k => $user): ?>
+            <tr>
+		        <td style="background-color: <?=$user['active'] ? '#9c0' : '#ccc' ?>"></td>
+		        <td><?=$user['uid']?></td>
+		        <td><?=$this->escape($user['username']) ?></td>
+		        <td><?=$this->escape($user['realname']) ?></td>
+		        <td><?=$user['joindate'] ?></td>
+		        <td>
+		            <a href="#here" onclick="useredit(<?=$user['uid']?>)">编辑</a>
+	<?php if($user['active']){?>
+		            <a href="#here" onclick="if(confirm('确定禁用吗?'))window.location='/system/index/active/uid/<?=$user['uid']?>/aid/0'">禁用</a>
+	<?php }else{ ?>
+		            <a href="#here" onclick="if(confirm('确定激活吗?'))window.location='/system/index/active/uid/<?=$user['uid']?>/aid/1'">激活</a>
+	<?php } ?>
+		        </td>
+            </tr>
+    <?php endforeach;  ?>
+
+        </table>
+        
+     </div>
+     
+	<div class="fy">
+		<?=$this->pagebar ?>
+	</div>  
+</div>
+</body>
+</html>
+<script>
+function useradd()
+{
+	var dialog_url="/system/index/useradd/";
+    var imgurl = window.showModalDialog(dialog_url, "", "dialogHeight:400px; dialogWidth:400px; resizable:0; scroll:0; status:0; unadorned:0;");
+}
+function useredit(uid)
+{
+	var dialog_url="/system/index/useredit/uid/"+uid;
+    var imgurl = window.showModalDialog(dialog_url, "", "dialogHeight:350px; dialogWidth:400px; resizable:0; scroll:0; status:0; unadorned:0;");
+}
+</script>
+

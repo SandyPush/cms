@@ -1,0 +1,54 @@
+<div class="area">
+	<div class="help">
+    <p class="soart">
+    	<p>帮助</p>
+        <p>1、此处为图集列表;</p>    
+        <p>&nbsp;</p>
+        <form action="/albums/albums/index" name="search_form" method="post">
+            <label>分类搜索:<?=$this->formSelect('cid', $this->cid, null, $this->category_options)?></label>
+        	<label>标题搜索:<input class="input" type="text" name="title" value="<?=$this->title?>" size="16" /></label>
+            <label>发布者搜索:<input class="input" type="text" name="realname" value="<?=$this->realname?>" size="8" /></label>
+            <input type="submit" value="显示"></button>
+        </form>
+    </p>    
+    </div>
+    
+    <div class="nr">
+	<h2>
+		<button onclick="window.location.href='/albums/albums/create/'">创建图集</button>
+		<a href="#nogo">图集列表</a> 
+	</h2>
+
+	<table cellpadding="4" cellspacing="1" border="0" width="100%" class="list">
+	<tr>
+		<th width="120">封面</th>
+		<th>标题</th>
+        <th>分类</th>
+		<th width="50">图片数</th>
+		<th width="70">发布者</th>
+		<th width="160">发布时间</th>
+		<th width="220" align="center">操作</th>
+	</tr>
+	<?php foreach ($this->all as $album): ?>
+	<tr>
+		<td><a href="<?=$album['publish_url']?>" target="_blank"><img src="<?=$album['cover']?>" alt='' border="0"/></a></td>
+		<td><a href="<?=$album['publish_url']?>" target="_blank"><?=$this->escape($album['title'])?></a></td>
+        <td align="center"><a href="/albums/albums/index/cid/<?=$album['cid']?>"><?=$album['category']?></a></td>
+		<td align="center"><?=$album['photos']?></td>
+		<td><?=$album['realname']?></td>
+		<td><?=$album['pubdate'] ? date("Y-m-d H:i:s", $album['pubdate']) : 未发布?></td>
+		<td>
+            <a href="<?=$album['publish_url']?>" target="_blank">预览</a> |
+            <a href="/albums/photos/?aid=<?=$album['aid']?>">管理</a> |
+			<a href="/albums/albums/publish/?aid=<?=$album['aid']?>" target="_blank">发布</a> |
+			<a href="/albums/albums/edit/aid/<?=$album['aid']?>">编辑</a> |
+			<a href="/albums/albums/disable/aid/<?=$album['aid']?>" onclick="if (!confirm('删除图集会删除此图集下的所有图片，确定删除此图集？')) return false">删除</a>
+		</td>
+	</tr>
+	<?php endforeach; ?>
+	</table>
+    <p>&nbsp;</p>
+    <?=$this->pagebar?>
+	</div>
+
+</div>

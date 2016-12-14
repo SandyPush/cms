@@ -1,0 +1,306 @@
+a:14:{i:0;s:652:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(H5_Top)#-->
+<!--#CMS_MODULE(H5_Content)#-->
+
+<font color=red>HTML5游戏_首页_iPhone_模板</font><p>
+
+<!--#CMS_MODULE(H5_Bottom)#-->
+</body>
+</html>";i:1;s:652:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(H5_Top)#-->
+<!--#CMS_MODULE(H5_Content)#-->
+
+<font color=red>HTML5游戏_首页_iPhone_模板</font><p>
+
+<!--#CMS_MODULE(H5_Bottom)#-->
+</body>
+</html>";i:2;s:677:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<link href="http://static.v1.cn/css/game/h5/phone/page/index.css" rel="stylesheet">
+</head>
+<body>
+<!--#CMS_MODULE(H5_Top)#-->
+<!--#CMS_MODULE(H5_Content)#-->
+
+<font color=red>HTML5游戏_首页_iPhone_模板</font><p>
+
+<!--#CMS_MODULE(H5_Bottom)#-->
+</body>
+</html>";i:3;s:963:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<link href="http://static.v1.cn/css/game/h5/phone/page/index.css" rel="stylesheet">
+</head>
+<body>
+<!--#CMS_MODULE(H5_Top)#-->
+<!--#CMS_MODULE(H5_Content)#-->
+
+<font color=red>HTML5游戏_首页_iPhone_模板</font><p>
+
+<!--#CMS_MODULE(H5_Bottom)#-->
+<script type="text/javascript" src="http://static.v1.cn/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/js/game/h5/phone/home/page/index');
+</script>
+</body>
+</html>";i:4;s:1189:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.4, maximum-scale=0.4, user-scalable=no" >
+<meta name="bannerTitle" content="home">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link href="http://static.v1.cn/css/game/h5/phone/page/index.css" rel="stylesheet">
+</head>
+<body>
+<!--#CMS_MODULE(H5_Top)#-->
+<!--#CMS_MODULE(H5_Content)#-->
+
+<font color=red>HTML5游戏_首页_iPhone_模板</font><p>
+
+<!--#CMS_MODULE(H5_Bottom)#-->
+<script type="text/javascript" src="http://static.v1.cn/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/js/game/h5/phone/home/page/index');
+</script>
+</body>
+</html>";i:5;s:1125:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.4, maximum-scale=0.4, user-scalable=no" >
+<meta name="bannerTitle" content="home">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link href="http://static.v1.cn/css/game/h5/phone/page/index.css" rel="stylesheet">
+</head>
+<body>
+<!--#CMS_MODULE(H5_Top)#-->
+<!--#CMS_MODULE(H5_Content)#-->
+<!--#CMS_MODULE(H5_Bottom)#-->
+<script type="text/javascript" src="http://static.v1.cn/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/js/game/h5/phone/home/page/index');
+</script>
+</body>
+</html>";i:6;s:1125:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.4, maximum-scale=0.4, user-scalable=no" >
+<meta name="bannerTitle" content="home">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link href="http://static.v1.cn/css/game/h5/phone/page/index.css" rel="stylesheet">
+</head>
+<body>
+<!--#CMS_MODULE(H5_Top)#-->
+<!--#CMS_MODULE(H5_Content)#-->
+<!--#CMS_MODULE(H5_Bottom)#-->
+<script type="text/javascript" src="http://static.v1.cn/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/js/game/h5/phone/home/page/index');
+</script>
+</body>
+</html>";i:7;s:900:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<!--#CMS_MODULE(H5_Head)#-->
+</head>
+<body>
+<!--头部 start-->
+<!--ssi#include virtual="/phone/public/header.html"-->
+<!--头部 end-->
+<!--#CMS_MODULE(H5_Content)#-->
+<!--底部 start-->
+<!--ssi#include virtual="/phone/public/footer.html"-->
+<!--底部 end-->
+<!--#CMS_MODULE(H5_Js)#-->
+</body>
+</html>";i:8;s:1121:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}-V1游戏平台-全国最具权威的H5游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<!--#CMS_MODULE(H5_Head)#-->
+</head>
+<body>
+<img src="http://h.v1game.cn/images/game/h5/logowx.jpg" width="0" height="0"  style="position:absolute;left:-9999px">
+<!--头部 start-->
+<!--ssi#include virtual="/phone/public/header.html"-->
+<!--头部 end-->
+<!--#CMS_MODULE(H5_Content)#-->
+<!--底部 start-->
+<!--ssi#include virtual="/phone/public/footer.html"-->
+<!--底部 end-->
+<!--#CMS_MODULE(H5_Js)#-->
+</body>
+</html>";i:9;s:985:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<!--#CMS_MODULE(H5_Head)#-->
+</head>
+<body>
+<img src="http://h.v1game.cn/images/game/h5/logowx.jpg" width="0" height="0"  style="position:absolute;left:-9999px">
+<!--头部 start-->
+<!--ssi#include virtual="/phone/public/header.html"-->
+<!--头部 end-->
+<!--#CMS_MODULE(H5_Content)#-->
+<!--底部 start-->
+<!--ssi#include virtual="/phone/public/footer.html"-->
+<!--底部 end-->
+<!--#CMS_MODULE(H5_Js)#-->
+</body>
+</html>";i:10;s:985:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<!--#CMS_MODULE(H5_Head)#-->
+</head>
+<body>
+<img src="http://h.v1game.cn/images/game/h5/logowx.jpg" width="0" height="0"  style="position:absolute;left:-9999px">
+<!--头部 start-->
+<!--ssi#include virtual="/phone/public/header.html"-->
+<!--头部 end-->
+<!--#CMS_MODULE(H5_Content)#-->
+<!--底部 start-->
+<!--ssi#include virtual="/phone/public/footer.html"-->
+<!--底部 end-->
+<!--#CMS_MODULE(H5_Js)#-->
+</body>
+</html>";i:11;s:1019:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<!--#CMS_MODULE(H5_Head)#-->
+</head>
+<body>
+<img src="http://h.v1game.cn/images/game/h5/logowx.jpg" width="0" height="0"  style="position:absolute;left:-9999px">
+<!--头部 start-->
+<!--ssi#include virtual="/phone/public/header.html"-->
+<!--头部 end-->
+<!--#CMS_MODULE(H5_Content)#-->
+<!--底部 start-->
+<!--ssi#include virtual="/phone/public/footer.html"-->
+<!--底部 end-->
+<!--#CMS_MODULE(H5_Js)#-->
+</body>
+</html>";i:12;s:1294:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<!--#CMS_MODULE(H5_Head)#-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?ed08b77fdf68cfae185c69402aa909ba";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+<img src="http://h.v1game.cn/images/game/h5/logowx.jpg" width="0" height="0"  style="position:absolute;left:-9999px">
+<!--头部 start-->
+<!--ssi#include virtual="/phone/public/header.html"-->
+<!--头部 end-->
+<!--#CMS_MODULE(H5_Content)#-->
+<!--底部 start-->
+<!--ssi#include virtual="/phone/public/footer.html"-->
+<!--底部 end-->
+<!--#CMS_MODULE(H5_Js)#-->
+</body>
+</html>";i:13;s:1071:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<!--#CMS_MODULE(H5_Head)#-->
+<!--ssi#include virtual="/pc/public/baidu.html"-->
+</head>
+<body>
+<img src="http://h.v1game.cn/images/game/h5/logowx.jpg" width="0" height="0"  style="position:absolute;left:-9999px">
+<!--头部 start-->
+<!--ssi#include virtual="/phone/public/header.html"-->
+<!--头部 end-->
+<!--#CMS_MODULE(H5_Content)#-->
+<!--底部 start-->
+<!--ssi#include virtual="/phone/public/footer.html"-->
+<!--底部 end-->
+<!--#CMS_MODULE(H5_Js)#-->
+</body>
+</html>";}

@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<script src="../../../../scripts/jquery/jquery.js" type="text/javascript"></script>
+<script type="text/javascript"  src="edit.js"></script>
+<style type="text/css">
+*{margin:0;padding:0}
+body{background-color: #FFFFFF;font-size:12px}
+table{border-collapse:collapse;margin:2px}
+td{border:1px solid #949472;padding:3px;line-height:20px;}
+strong{color:#666666}
+input,textarea{border:1px solid #949472;font-size:12px;padding-top:2px;}
+</style>
+</head>
+
+<body>
+<form action="/fckeditor/albums/index" method="post" enctype="multipart/form-data">
+<table width="99%" height="145" cellpadding="0" cellspacing="1">
+  <tr>
+    <td height="36" colspan="4" align="left"><label>注意:图片地址可以上传,也可以填写URl,也可以使用视界图片,使用视界图片时填写ID即可,三者优先顺序与排列顺序相同.&nbsp;<img src="/images/add.gif" width="16" height="16" title="增加一张图片" onclick="addattachfrom();"/>&nbsp;<img src="/images/del.gif" width="16" height="16" title="减少一张图片" onclick="removeattachfrom();"/><br />
+	<a href="/fckeditor/albums/swf">用Flash上传工具批量上传</a>(&nbsp;<img src="/theme/default/image/new.gif" alt="hot" />)
+	</label></td>
+  </tr>
+  <tr>
+    <td align="left" bgcolor="#EBEBEB"><label></label></td>
+    <td align="left" bgcolor="#EBEBEB"><strong>图片地址</strong></td>
+    <td align="left" bgcolor="#EBEBEB"><strong>图注</strong></td>
+    <td align="left" bgcolor="#EBEBEB"><strong>文字介绍</strong></td>
+  </tr>
+
+<!--begin-->
+  <tbody class="cell">
+  <tr>
+    <td width="159" rowspan="3" align="center"><img src="/images/nopic.jpg" width="100" height="80" id="preview1" /></td>
+    <td width="380">UP:
+	<label>
+      <input name="upfile[]" type="file" id="upfile1" size="12" onblur="//previewImage(this,1);"/>
+    </label></td>
+    <td width="188" rowspan="3" valign="top"><label>
+      <textarea name="alt[]" class="alt" id="alt1" cols="20" rows="5"></textarea>
+	 <span id="lenalt1"></span>
+    </label></td>
+    <td width="433" rowspan="3" valign="top">
+    <textarea name="info[]" class="info" id="info1" cols="42" rows="5"></textarea>
+	<br /><span id="leninfo1"></span>
+	</td>	 
+  </tr>
+  <tr>
+    <td valign="top">URL:
+      <label>
+      <input name="fileurl[]" type="text" id="fileurl1" size="20" onblur="previewImage(this,2);" />
+      </label></td>
+  </tr>
+  <tr>
+    <td height="18" valign="top">ID:
+      <label>
+      <input name="titanpic[]" type="text" id="titanpic1" size="20"  onblur="previewImage(this,3);" />
+      </label></td>
+  </tr>
+  </tbody>
+  <!--end-->
+
+  <tr>
+    <td height="50" colspan="4" align="center"><label>
+      <input type="submit" id="button" value="   提交   " />
+      &nbsp;
+      <input type="button" id="button2" value="   重填   "  onclick="window.location.href=window.location.href;return false;"/>
+	</label></td>
+  </tr>
+</table>
+</form>
+</body>
+</html>

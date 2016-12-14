@@ -1,0 +1,111 @@
+<script type="text/javascript" >
+	function del(){document.forms[0].submit();}	
+</script>
+<div class="area">
+	<div class="help">
+    <p>帮助</p>
+    <p>1、此处为添加名家页面;</p> 
+	<p>2、名家头像为55x55图片，名家姓名+头衔的总字数应小于14个汉字;</p>
+
+    </div>
+<div class="nr">
+<h2>
+<button onclick="window.location.href='/contents/column/'">返回</button>
+<a href="#nogo">添加名家</a>        	
+</h2>
+<form action="/contents/column/insert" method="post" enctype="multipart/form-data" onsubmit="return checkForm();">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+<tbody>
+    <tr>
+        <td>名家姓名</td><td><input type="text" name="name" id="name" size="12" value=""/></td>
+    </tr>
+    <tr>
+        <td>名家头衔</td><td><input type="text" name="title" id="title" size="20" value=""/></td>
+    </tr>
+    <tr>
+        <td>名家头像</td>
+        <td><input name="icon" type="file" size="35" class="input" />  55px*55px
+        </td>
+    </tr>
+
+    <tr>
+        <td>名家介绍</td>
+        <td>
+            <textarea id="intro" name="intro" cols="60" rows="5" onkeyup="checkLenth(this,'intro_length_view','intro_length',64)"></textarea>
+				<span id="intro_length_view">文字最大字节数：64，<span id="intro_length"></span></span>
+        </td>
+    </tr>
+
+    <tr>
+        <td>官网地址</td>
+        <td><input type="text" name="homeUrl" id="homeUrl" size="60" value="" /></td>
+    </tr>
+    <tr>
+        <td>博客地址</td>
+        <td><input type="text" name="blogUrl" id="blogUrl" size="60" value="" /></td>
+    </tr>
+    <tr>
+        <td>军团地址</td>
+        <td><input type="text" name="groupUrl" id="groupUrl" size="60" value="" /></td>
+    </tr>
+    <tr>
+        <td>提问地址</td>
+        <td><input type="text" name="qaUrl" id="qaUrl" size="60" value="" /></td>
+    </tr>
+	<tr>
+        <td></td>
+        <td align="left"><input type="submit" value="   提 交   " /><input type="reset" value="   清空   " /></td>
+    </tr>
+</tbody>
+</table>
+</form>
+</div> 
+</div>
+<script type="text/javascript">
+function checkLenth(obj,view_id,length_id,max_length)
+{
+	var strlength=count_length(obj.value);
+	if(strlength <= max_length)
+	{
+		$('#'+view_id).removeClass().addClass('info');
+		$('#'+length_id).text('还剩'+(max_length-strlength)+'字节');
+	}else
+	{
+		$('#'+view_id).removeClass().addClass('info').addClass('war');
+		$('#'+length_id).text('超出'+(strlength-max_length)+'字节');
+	}
+}
+
+function count_length(objValue)
+{
+	return objValue.replace(/[^\x00-\xff]/g,"**").length;
+}
+
+function checkForm(){
+	if(!$('#name').val()){
+		alert('名字不能为空');
+		return false;
+	}else if(!$("#title").val()){
+		alert('头衔不能为空');
+		return false;
+	}else if(!$("input[name='icon']").val()){
+		alert('头像不能为空');
+		return false;
+	}else if(!$("#intro").val()){
+		alert('介绍不能为空');
+		return false;
+	}else if(!$("#homeUrl").val()){
+		alert('官网地址不能为空');
+		return false;
+	}else if(!$("#blogUrl").val()){
+		alert('博客地址不能为空');
+		return false;
+	}else if(!$("#groupUrl").val()){
+		alert('军团地址不能为空');
+		return false;
+	}else if(!$("#qaUrl").val()){
+		alert('提问地址不能为空');
+		return false;
+	}
+}
+</script>

@@ -1,0 +1,73 @@
+a:4:{i:0;s:627:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(H5_Top)#-->
+<!--#CMS_MODULE(H5_Content)#-->
+
+HTML5游戏_首页_iPad_模板<p>
+
+<!--#CMS_MODULE(H5_Bottom)#-->
+</body>
+</html>";i:1;s:650:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(H5_Top)#-->
+<!--#CMS_MODULE(H5_Content)#-->
+
+<font color=red>HTML5游戏_首页_iPad_模板</font><p>
+
+<!--#CMS_MODULE(H5_Bottom)#-->
+</body>
+</html>";i:2;s:650:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(H5_Top)#-->
+<!--#CMS_MODULE(H5_Content)#-->
+
+<font color=red>HTML5游戏_首页_iPad_模板</font><p>
+
+<!--#CMS_MODULE(H5_Bottom)#-->
+</body>
+</html>";i:3;s:650:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(H5_Top)#-->
+<!--#CMS_MODULE(H5_Content)#-->
+
+<font color=red>HTML5游戏_首页_iPad_模板</font><p>
+
+<!--#CMS_MODULE(H5_Bottom)#-->
+</body>
+</html>";}

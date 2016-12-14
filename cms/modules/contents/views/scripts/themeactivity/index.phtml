@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>CMS_活动列表</title>
+    <?php
+    echo $this->headLink();
+    echo $this->headScript();
+    ?>
+    <script type="text/javascript" src="/scripts/date/WdatePicker.js"></script>
+</head>
+
+<body>
+<div class="area">
+<!--    <div class="help">
+        <p>帮助</p>
+        <p>1、此处为活动列表。</p>
+        <p class="soart"></p>
+        <form action="" name="search_form" method="post">
+            <label>标题：<input class="input" type="text" name="title" value="<?/*=$this->title*/?>" size="16" /></label>
+            <label>发布者：<input class="input" type="text" name="realname" value="<?/*=$this->realname*/?>" size="8" /></label>
+            <p class="soart"></p>
+            <label>日期：<input class="input" type="text" name="start_date" onclick="WdatePicker()" size="16"/></label>
+            <label>至 <input class="input" type="text" name="end_date" onclick="WdatePicker()" size="16"/></label>
+            <input type="submit" value="搜索" />
+        </form>
+    </div>-->
+    <div class="nr">
+        <h2>
+            <a href="/contents/themeactivity/themeactivity-add"><button>添加活动</button></a>
+        </h2>
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+            <tr>
+                <th width="5%">编号</th>
+                <th width="10%">获奖者</th>
+                <th>获得奖品</th>
+
+                <th width="10%">获奖时间</th>
+                <th width="15%">添加时间</th>
+                <th width="15%">操作</th>
+            </tr>
+            <?php
+            foreach ($this->activities as $key => $val):
+                ?>
+                <tr>
+                    <td><?php echo $val['id']; ?></td>
+                    <td><?php echo $val['username']; ?></td>
+                    <td><?php echo $val['desc']; ?></td>
+
+
+                    <td align="center" style="line-height: 20px;"><?php echo $val['getrewardtime'] ?></td>
+                    <td align="center"><?php echo date('Y-m-d,H:i:s',$val['create_time']); ?></td>
+                    <td aligh="center">
+                  <a href="javascript:void(0);" class="del" url="/contents/themeactivity/themeactivity-del/id/<?php echo $val['id']; ?>"><img src="/theme/default/image/delete.png" alt="删除" title="删除" /></a>
+                    </td>
+                </tr>
+                <?php
+            endforeach;
+            ?>
+        </table>
+    </div>
+    <div class="fy">
+        <?php echo $this->pagebar; ?>
+    </div>
+</div>
+<script type="text/javascript">
+    $('.del').click(function(){
+        if (confirm('确认删除？')) {
+            location.href = $(this).attr('url');
+        }
+    });
+</script>
+</body>
+</html>

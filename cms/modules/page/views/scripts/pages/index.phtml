@@ -1,0 +1,88 @@
+<div class="area">
+	<div class="help">
+    <p>帮助</p>
+    <p>1、此处为栏目列表，点击标题为在新开页面预览该栏目页;</p>    
+    </div>
+	<div class="nr">
+    	<h2>
+		<button onclick="window.location.href='/page/pages/create/'">添加栏目</button>
+		<a href="#nogo">栏目列表</a> 
+        </h2>
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" class="list sort">
+        	<tr>
+            	<th>&nbsp;</th>
+                <th class="tree">&nbsp;</th>
+                <th>标题</th>
+                <th>操作</th>
+            </tr>
+    <?php foreach ($this->all_list as $key => $value): ?>
+    <?php 
+		$value['url']= str_replace(array('index.html', 'index.htm'),'', $value['url']);
+    	switch($value['level']){
+		    case 0: $class='';break;
+		    case 1: $class='t';break;
+		    case 2: $class='ht';break;
+		    case 3: $class='d4';break;
+                    case 4: $class='d5';break;
+		    default: $class='';break;
+		}
+
+        if($value['parent']==0){
+            $display='';
+            $parent='p0';
+        }else{
+            $display='none';
+            $parent='p'.$value['parent'];
+        }
+
+	 ?>
+            <tr pid="p<?=$value['pid']?>" parent="<?=$parent?>" style="display: <?=$display?>;">
+            	<td><?=$value['pid']?></td>
+                <td><p class="<?=$class?>"> <span style="font-size: 18px;font-weight: bold;">+</span> <a href="<?=$value['published_url']?>" target="_blank"><?=$this->escape($value['name'])?></a></p></td>
+                <td><?=$this->escape($value['title']) ?></td>                
+                <td>
+		            <a href="/page/pages/preview/pid/<?=$value['pid'] ?>" target="_blank">预览</a> |
+		            <a href="/page/pages/publish/pid/<?=$value['pid'] ?>" target="_blank">发布</a> |
+		            <a href="/flashppt/index/index/pid/<?=$value['pid'] ?>">头图</a> | 
+					<a href="#" onclick="if(confirm('真的要删除该栏目吗?'))window.location='/page/pages/del/pid/<?=$value['pid'] ?>'">删除</a>  | 
+		            <a href="/page/pages/edit/pid/<?=$value['pid'] ?>">编辑</a> 
+                </td>
+            </tr>
+    <?php endforeach;  ?>
+        </table>
+        
+     </div>
+      
+</div>
+
+<script>
+$(document).ready(function(){
+    /*
+    fs=parent.window.frames;
+    f=fs['topFrame'];
+    headerTextArray=$(f.document).find('div.yh').text().match(/\((.*?)\)/i);
+    headerText=headerTextArray[1];
+    users='admin,handong,hewenzhen,tengjichuan,gonglixu,gaona,sujunjie,xieshaocong,wangchunliang,yangzhenhua,wangyu,linfeng,yihongli,cuiyue,wangzheng,liuliyuyi';
+    if(users.indexOf(headerText)==-1){
+        $("tbody tr").eq(1).find("a").eq(2).attr({"href":"javascript:alert('没有权限!');","target":"_self"})
+    }
+    */
+
+    //控制折叠
+    $("tr[parent*='p']").click(function(){
+        pid=$(this).eq(0).attr("pid");
+        icon=$(this).find('span').html();
+        if(icon=="+"){
+            $(this).find('span').html('-');
+        }else{
+            //$(this).find('span').html('+');
+        }
+
+        $("tr[parent="+pid+"]").each(function(i){
+            if($(this).css("display")=='none'){
+                $(this).show();
+            }
+        });
+    });   
+});
+</script>

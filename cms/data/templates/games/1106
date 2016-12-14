@@ -1,0 +1,1687 @@
+a:17:{i:0;s:9870:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>活动中心</title>
+    <link href="../../../game/gplatform/v2.0/css/common.css" rel="stylesheet" />
+    <link href="../../../game/gplatform/v2.0/css/page.css" rel="stylesheet" />
+</head>
+<body>
+<!--顶部 header begin-->
+<!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+<!--顶部 header end-->
+<div class="page_wrap">
+    <!--背景 左侧 body background left start-->
+    <div class="bodyBg_left"></div>
+    <!--背景 左侧 body background left end-->
+    <div class="main">
+        <!--活动中心 Activity Center start-->
+        <div class="actCenter">
+            <!--活动中心顶部焦点图 Activity Center Focus Top start-->
+            <div class="actFocus_top">
+                <!--#CMS_MODULE(V2_EVENT_FOCUS)#-->
+            </div>
+            <!--活动中心顶部焦点图 Focus Top end-->
+            <!--筛选 Filter start-->
+            <div class="filter">
+                <div class="modF">
+                    <dl>
+                        <dt>游戏类型：</dt>
+                        <dd><a href="###" class="btn_top">不限</a></dd>
+                        <dd><a href="###" class="btn_top">角色扮演</a></dd>
+                        <dd class="curr"><a href="###" class="btn_top">模拟经营</a></dd>
+                        <dd><a href="###" class="btn_top">角色扮演</a></dd>
+                        <dd><a href="###" class="btn_top">角色扮演</a></dd>
+                    </dl>
+                    <ul class="notice">
+                        <li>
+                            <a target="_blank" href="" class="noticeA">【百战天下】友霸礼包，拥有高属性炫酷称号，专属高级装备，让您升级打怪更轻松！</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="" class="noticeA">【百战天下】友霸礼包，拥有高属性炫酷称号，专属高级装备，让您升级打怪更轻松！</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="" class="noticeA">【百战天下】友霸礼包，拥有高属性炫酷称号，专属高级装备，让您升级打怪更轻松！</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="" class="noticeA">【百战天下】友霸礼包，拥有高属性炫酷称号，专属高级装备，让您升级打怪更轻松！</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--筛选 Filter end-->
+
+            <!--内容 Content start-->
+
+            <div class="actCenter_content">
+                <ul class="actCenter_list clearfix">
+                    <li>
+                        <div class="modA">
+                            <div class="modA_img">
+                                <img width="340" height="220" border="0" src="http://img.g.v1.cn/games/20141203/16021_0x0.jpg" alt="">
+                            </div>
+                            <div class="grnLine">神武三国</div>
+                            <div class="mod_txtBox modA_txt">
+                                <h3 class="mod_title">神武三国</h3>
+                                <p class="description">杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派</p>
+                            </div>
+                            <span class="hot_lg_r"></span>
+                            <div class="modA_top">
+                                <a href="###" class="mark_blue">游戏活动</a>
+                                <a href="###" class="mark_red">推荐活动</a>
+                            </div>
+                            <div class="modB modB_l">
+                                <span class="btn_time fl">
+                                    <i class="icon_time"></i>
+                                    剩余41天22时38分26秒
+                                </span>
+                                <a target="_blank" class="btn_gre_m fr" href="###">参与活动</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="modA">
+                            <div class="modA_img">
+                                <img width="340" height="220" border="0" src="http://img.g.v1.cn/games/20141203/16021_0x0.jpg" alt="">
+                            </div>
+                            <div class="grnLine">神武三国</div>
+                            <div class="mod_txtBox modA_txt">
+                                <h3 class="mod_title">神武三国</h3>
+                                <p class="description">杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派</p>
+                            </div>
+                            <span class="hot_lg_r"></span>
+                            <div class="modA_top">
+                                <a href="###" class="mark_blue">游戏活动</a>
+                                <a href="###" class="mark_red">推荐活动</a>
+                            </div>
+                            <div class="modB modB_l">
+                                <span class="btn_time fl">
+                                    <i class="icon_time"></i>
+                                    剩余41天22时38分26秒
+                                </span>
+                                <a target="_blank" class="btn_gre_m fr" href="###">参与活动</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="modA">
+                            <div class="modA_img">
+                                <img width="340" height="220" border="0" src="http://img.g.v1.cn/games/20141203/16021_0x0.jpg" alt="">
+                            </div>
+                            <div class="grnLine">神武三国</div>
+                            <div class="mod_txtBox modA_txt">
+                                <h3 class="mod_title">神武三国</h3>
+                                <p class="description">杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派</p>
+                            </div>
+                            <span class="hot_lg_r"></span>
+                            <div class="modA_top">
+                                <a href="###" class="mark_blue">游戏活动</a>
+                                <a href="###" class="mark_red">推荐活动</a>
+                            </div>
+                            <div class="modB modB_l">
+                                <span class="btn_time fl">
+                                    <i class="icon_time"></i>
+                                    剩余41天22时38分26秒
+                                </span>
+                                <a target="_blank" class="btn_gre_m fr" href="###">参与活动</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="modA">
+                            <div class="modA_img">
+                                <img width="340" height="220" border="0" src="http://img.g.v1.cn/games/20141203/16021_0x0.jpg" alt="">
+                            </div>
+                            <div class="grnLine">神武三国</div>
+                            <div class="mod_txtBox modA_txt">
+                                <h3 class="mod_title">神武三国</h3>
+                                <p class="description">杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派</p>
+                            </div>
+                            <span class="hot_lg_r"></span>
+                            <div class="modA_top">
+                                <a href="###" class="mark_blue">游戏活动</a>
+                                <a href="###" class="mark_red">推荐活动</a>
+                            </div>
+                            <div class="modB modB_l">
+                                <span class="btn_bla_l fr">活动结束</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <!--加载更多 loadMore start-->
+
+                <div class="loadMore">
+                    <p class="loadMore_txt">
+                        正在加载
+                    </p>
+                </div>
+
+                <!--加载更多 loadMore end-->
+
+            </div>
+
+            <!--内容 Content end-->
+
+        </div>
+
+        <!--活动中心 content end-->
+
+    </div>
+    <!--背景 右侧 body background right start-->
+    <div class="bodyBg_right"></div>
+    <!--背景 右侧 body background right end-->
+</div>
+
+<!---底部 footer start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+<!---底部 footer end--->
+</body>
+</html>";i:1;s:9892:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>活动中心</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/page.css" rel="stylesheet" />
+</head>
+<body>
+<!--顶部 header begin-->
+<!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+<!--顶部 header end-->
+<div class="page_wrap">
+    <!--背景 左侧 body background left start-->
+    <div class="bodyBg_left"></div>
+    <!--背景 左侧 body background left end-->
+    <div class="main">
+        <!--活动中心 Activity Center start-->
+        <div class="actCenter">
+            <!--活动中心顶部焦点图 Activity Center Focus Top start-->
+            <div class="actFocus_top">
+                <!--#CMS_MODULE(V2_EVENT_FOCUS)#-->
+            </div>
+            <!--活动中心顶部焦点图 Focus Top end-->
+            <!--筛选 Filter start-->
+            <div class="filter">
+                <div class="modF">
+                    <dl>
+                        <dt>游戏类型：</dt>
+                        <dd><a href="###" class="btn_top">不限</a></dd>
+                        <dd><a href="###" class="btn_top">角色扮演</a></dd>
+                        <dd class="curr"><a href="###" class="btn_top">模拟经营</a></dd>
+                        <dd><a href="###" class="btn_top">角色扮演</a></dd>
+                        <dd><a href="###" class="btn_top">角色扮演</a></dd>
+                    </dl>
+                    <ul class="notice">
+                        <li>
+                            <a target="_blank" href="" class="noticeA">【百战天下】友霸礼包，拥有高属性炫酷称号，专属高级装备，让您升级打怪更轻松！</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="" class="noticeA">【百战天下】友霸礼包，拥有高属性炫酷称号，专属高级装备，让您升级打怪更轻松！</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="" class="noticeA">【百战天下】友霸礼包，拥有高属性炫酷称号，专属高级装备，让您升级打怪更轻松！</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="" class="noticeA">【百战天下】友霸礼包，拥有高属性炫酷称号，专属高级装备，让您升级打怪更轻松！</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--筛选 Filter end-->
+
+            <!--内容 Content start-->
+
+            <div class="actCenter_content">
+                <ul class="actCenter_list clearfix">
+                    <li>
+                        <div class="modA">
+                            <div class="modA_img">
+                                <img width="340" height="220" border="0" src="http://img.g.v1.cn/games/20141203/16021_0x0.jpg" alt="">
+                            </div>
+                            <div class="grnLine">神武三国</div>
+                            <div class="mod_txtBox modA_txt">
+                                <h3 class="mod_title">神武三国</h3>
+                                <p class="description">杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派</p>
+                            </div>
+                            <span class="hot_lg_r"></span>
+                            <div class="modA_top">
+                                <a href="###" class="mark_blue">游戏活动</a>
+                                <a href="###" class="mark_red">推荐活动</a>
+                            </div>
+                            <div class="modB modB_l">
+                                <span class="btn_time fl">
+                                    <i class="icon_time"></i>
+                                    剩余41天22时38分26秒
+                                </span>
+                                <a target="_blank" class="btn_gre_m fr" href="###">参与活动</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="modA">
+                            <div class="modA_img">
+                                <img width="340" height="220" border="0" src="http://img.g.v1.cn/games/20141203/16021_0x0.jpg" alt="">
+                            </div>
+                            <div class="grnLine">神武三国</div>
+                            <div class="mod_txtBox modA_txt">
+                                <h3 class="mod_title">神武三国</h3>
+                                <p class="description">杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派</p>
+                            </div>
+                            <span class="hot_lg_r"></span>
+                            <div class="modA_top">
+                                <a href="###" class="mark_blue">游戏活动</a>
+                                <a href="###" class="mark_red">推荐活动</a>
+                            </div>
+                            <div class="modB modB_l">
+                                <span class="btn_time fl">
+                                    <i class="icon_time"></i>
+                                    剩余41天22时38分26秒
+                                </span>
+                                <a target="_blank" class="btn_gre_m fr" href="###">参与活动</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="modA">
+                            <div class="modA_img">
+                                <img width="340" height="220" border="0" src="http://img.g.v1.cn/games/20141203/16021_0x0.jpg" alt="">
+                            </div>
+                            <div class="grnLine">神武三国</div>
+                            <div class="mod_txtBox modA_txt">
+                                <h3 class="mod_title">神武三国</h3>
+                                <p class="description">杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派</p>
+                            </div>
+                            <span class="hot_lg_r"></span>
+                            <div class="modA_top">
+                                <a href="###" class="mark_blue">游戏活动</a>
+                                <a href="###" class="mark_red">推荐活动</a>
+                            </div>
+                            <div class="modB modB_l">
+                                <span class="btn_time fl">
+                                    <i class="icon_time"></i>
+                                    剩余41天22时38分26秒
+                                </span>
+                                <a target="_blank" class="btn_gre_m fr" href="###">参与活动</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="modA">
+                            <div class="modA_img">
+                                <img width="340" height="220" border="0" src="http://img.g.v1.cn/games/20141203/16021_0x0.jpg" alt="">
+                            </div>
+                            <div class="grnLine">神武三国</div>
+                            <div class="mod_txtBox modA_txt">
+                                <h3 class="mod_title">神武三国</h3>
+                                <p class="description">杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派</p>
+                            </div>
+                            <span class="hot_lg_r"></span>
+                            <div class="modA_top">
+                                <a href="###" class="mark_blue">游戏活动</a>
+                                <a href="###" class="mark_red">推荐活动</a>
+                            </div>
+                            <div class="modB modB_l">
+                                <span class="btn_bla_l fr">活动结束</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <!--加载更多 loadMore start-->
+
+                <div class="loadMore">
+                    <p class="loadMore_txt">
+                        正在加载
+                    </p>
+                </div>
+
+                <!--加载更多 loadMore end-->
+
+            </div>
+
+            <!--内容 Content end-->
+
+        </div>
+
+        <!--活动中心 content end-->
+
+    </div>
+    <!--背景 右侧 body background right start-->
+    <div class="bodyBg_right"></div>
+    <!--背景 右侧 body background right end-->
+</div>
+
+<!---底部 footer start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+<!---底部 footer end--->
+</body>
+</html>";i:2;s:9892:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>活动中心</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/page.css" rel="stylesheet" />
+</head>
+<body>
+<!--顶部 header begin-->
+<!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+<!--顶部 header end-->
+<div class="page_wrap">
+    <!--背景 左侧 body background left start-->
+    <div class="bodyBg_left"></div>
+    <!--背景 左侧 body background left end-->
+    <div class="main">
+        <!--活动中心 Activity Center start-->
+        <div class="actCenter">
+            <!--活动中心顶部焦点图 Activity Center Focus Top start-->
+            <div class="actFocus_top">
+                <!--#CMS_MODULE(V2_EVENT_FOCUS)#-->
+            </div>
+            <!--活动中心顶部焦点图 Focus Top end-->
+            <!--筛选 Filter start-->
+            <div class="filter">
+                <div class="modF">
+                    <dl>
+                        <dt>游戏类型：</dt>
+                        <dd><a href="###" class="btn_top">不限</a></dd>
+                        <dd><a href="###" class="btn_top">角色扮演</a></dd>
+                        <dd class="curr"><a href="###" class="btn_top">模拟经营</a></dd>
+                        <dd><a href="###" class="btn_top">角色扮演</a></dd>
+                        <dd><a href="###" class="btn_top">角色扮演</a></dd>
+                    </dl>
+                    <ul class="notice">
+                        <li>
+                            <a target="_blank" href="" class="noticeA">【百战天下】友霸礼包，拥有高属性炫酷称号，专属高级装备，让您升级打怪更轻松！</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="" class="noticeA">【百战天下】友霸礼包，拥有高属性炫酷称号，专属高级装备，让您升级打怪更轻松！</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="" class="noticeA">【百战天下】友霸礼包，拥有高属性炫酷称号，专属高级装备，让您升级打怪更轻松！</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="" class="noticeA">【百战天下】友霸礼包，拥有高属性炫酷称号，专属高级装备，让您升级打怪更轻松！</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--筛选 Filter end-->
+
+            <!--内容 Content start-->
+
+            <div class="actCenter_content">
+                <ul class="actCenter_list clearfix">
+                    <li>
+                        <div class="modA">
+                            <div class="modA_img">
+                                <img width="340" height="220" border="0" src="http://img.g.v1.cn/games/20141203/16021_0x0.jpg" alt="">
+                            </div>
+                            <div class="grnLine">神武三国</div>
+                            <div class="mod_txtBox modA_txt">
+                                <h3 class="mod_title">神武三国</h3>
+                                <p class="description">杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派</p>
+                            </div>
+                            <span class="hot_lg_r"></span>
+                            <div class="modA_top">
+                                <a href="###" class="mark_blue">游戏活动</a>
+                                <a href="###" class="mark_red">推荐活动</a>
+                            </div>
+                            <div class="modB modB_l">
+                                <span class="btn_time fl">
+                                    <i class="icon_time"></i>
+                                    剩余41天22时38分26秒
+                                </span>
+                                <a target="_blank" class="btn_gre_m fr" href="###">参与活动</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="modA">
+                            <div class="modA_img">
+                                <img width="340" height="220" border="0" src="http://img.g.v1.cn/games/20141203/16021_0x0.jpg" alt="">
+                            </div>
+                            <div class="grnLine">神武三国</div>
+                            <div class="mod_txtBox modA_txt">
+                                <h3 class="mod_title">神武三国</h3>
+                                <p class="description">杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派</p>
+                            </div>
+                            <span class="hot_lg_r"></span>
+                            <div class="modA_top">
+                                <a href="###" class="mark_blue">游戏活动</a>
+                                <a href="###" class="mark_red">推荐活动</a>
+                            </div>
+                            <div class="modB modB_l">
+                                <span class="btn_time fl">
+                                    <i class="icon_time"></i>
+                                    剩余41天22时38分26秒
+                                </span>
+                                <a target="_blank" class="btn_gre_m fr" href="###">参与活动</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="modA">
+                            <div class="modA_img">
+                                <img width="340" height="220" border="0" src="http://img.g.v1.cn/games/20141203/16021_0x0.jpg" alt="">
+                            </div>
+                            <div class="grnLine">神武三国</div>
+                            <div class="mod_txtBox modA_txt">
+                                <h3 class="mod_title">神武三国</h3>
+                                <p class="description">杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派</p>
+                            </div>
+                            <span class="hot_lg_r"></span>
+                            <div class="modA_top">
+                                <a href="###" class="mark_blue">游戏活动</a>
+                                <a href="###" class="mark_red">推荐活动</a>
+                            </div>
+                            <div class="modB modB_l">
+                                <span class="btn_time fl">
+                                    <i class="icon_time"></i>
+                                    剩余41天22时38分26秒
+                                </span>
+                                <a target="_blank" class="btn_gre_m fr" href="###">参与活动</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="modA">
+                            <div class="modA_img">
+                                <img width="340" height="220" border="0" src="http://img.g.v1.cn/games/20141203/16021_0x0.jpg" alt="">
+                            </div>
+                            <div class="grnLine">神武三国</div>
+                            <div class="mod_txtBox modA_txt">
+                                <h3 class="mod_title">神武三国</h3>
+                                <p class="description">杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派</p>
+                            </div>
+                            <span class="hot_lg_r"></span>
+                            <div class="modA_top">
+                                <a href="###" class="mark_blue">游戏活动</a>
+                                <a href="###" class="mark_red">推荐活动</a>
+                            </div>
+                            <div class="modB modB_l">
+                                <span class="btn_bla_l fr">活动结束</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <!--加载更多 loadMore start-->
+
+                <div class="loadMore">
+                    <p class="loadMore_txt">
+                        正在加载
+                    </p>
+                </div>
+
+                <!--加载更多 loadMore end-->
+
+            </div>
+
+            <!--内容 Content end-->
+
+        </div>
+
+        <!--活动中心 content end-->
+
+    </div>
+    <!--背景 右侧 body background right start-->
+    <div class="bodyBg_right"></div>
+    <!--背景 右侧 body background right end-->
+</div>
+
+<!---底部 footer start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+<!---底部 footer end--->
+</body>
+</html>";i:3;s:8940:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>活动中心</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/page.css" rel="stylesheet" />
+</head>
+<body>
+<!--顶部 header begin-->
+<!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+<!--顶部 header end-->
+<div class="page_wrap">
+    <!--背景 左侧 body background left start-->
+    <div class="bodyBg_left"></div>
+    <!--背景 左侧 body background left end-->
+    <div class="main">
+        <!--活动中心 Activity Center start-->
+        <div class="actCenter">
+            <!--活动中心顶部焦点图 Activity Center Focus Top start-->
+            <div class="actFocus_top">
+                <!--#CMS_MODULE(V2_EVENT_FOCUS)#-->
+            </div>
+            <!--活动中心顶部焦点图 Focus Top end-->
+            <!--筛选 Filter start-->
+            <div class="filter">
+                <div class="modF">
+                    <dl>
+                        <dt>游戏类型：</dt>
+                        <dd><a href="###" class="btn_top">不限</a></dd>
+                        <dd><a href="###" class="btn_top">角色扮演</a></dd>
+                        <dd class="curr"><a href="###" class="btn_top">模拟经营</a></dd>
+                        <dd><a href="###" class="btn_top">角色扮演</a></dd>
+                        <dd><a href="###" class="btn_top">角色扮演</a></dd>
+                    </dl>
+                    <ul class="notice">
+                        <!--#CMS_MODULE(V2_NOTICE)#-->
+                    </ul>
+                </div>
+            </div>
+            <!--筛选 Filter end-->
+
+            <!--内容 Content start-->
+
+            <div class="actCenter_content">
+                <ul class="actCenter_list clearfix">
+                    <li>
+                        <div class="modA">
+                            <div class="modA_img">
+                                <img width="340" height="220" border="0" src="http://img.g.v1.cn/games/20141203/16021_0x0.jpg" alt="">
+                            </div>
+                            <div class="grnLine">神武三国</div>
+                            <div class="mod_txtBox modA_txt">
+                                <h3 class="mod_title">神武三国</h3>
+                                <p class="description">杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派</p>
+                            </div>
+                            <span class="hot_lg_r"></span>
+                            <div class="modA_top">
+                                <a href="###" class="mark_blue">游戏活动</a>
+                                <a href="###" class="mark_red">推荐活动</a>
+                            </div>
+                            <div class="modB modB_l">
+                                <span class="btn_time fl">
+                                    <i class="icon_time"></i>
+                                    剩余41天22时38分26秒
+                                </span>
+                                <a target="_blank" class="btn_gre_m fr" href="###">参与活动</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="modA">
+                            <div class="modA_img">
+                                <img width="340" height="220" border="0" src="http://img.g.v1.cn/games/20141203/16021_0x0.jpg" alt="">
+                            </div>
+                            <div class="grnLine">神武三国</div>
+                            <div class="mod_txtBox modA_txt">
+                                <h3 class="mod_title">神武三国</h3>
+                                <p class="description">杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派</p>
+                            </div>
+                            <span class="hot_lg_r"></span>
+                            <div class="modA_top">
+                                <a href="###" class="mark_blue">游戏活动</a>
+                                <a href="###" class="mark_red">推荐活动</a>
+                            </div>
+                            <div class="modB modB_l">
+                                <span class="btn_time fl">
+                                    <i class="icon_time"></i>
+                                    剩余41天22时38分26秒
+                                </span>
+                                <a target="_blank" class="btn_gre_m fr" href="###">参与活动</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="modA">
+                            <div class="modA_img">
+                                <img width="340" height="220" border="0" src="http://img.g.v1.cn/games/20141203/16021_0x0.jpg" alt="">
+                            </div>
+                            <div class="grnLine">神武三国</div>
+                            <div class="mod_txtBox modA_txt">
+                                <h3 class="mod_title">神武三国</h3>
+                                <p class="description">杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派</p>
+                            </div>
+                            <span class="hot_lg_r"></span>
+                            <div class="modA_top">
+                                <a href="###" class="mark_blue">游戏活动</a>
+                                <a href="###" class="mark_red">推荐活动</a>
+                            </div>
+                            <div class="modB modB_l">
+                                <span class="btn_time fl">
+                                    <i class="icon_time"></i>
+                                    剩余41天22时38分26秒
+                                </span>
+                                <a target="_blank" class="btn_gre_m fr" href="###">参与活动</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="modA">
+                            <div class="modA_img">
+                                <img width="340" height="220" border="0" src="http://img.g.v1.cn/games/20141203/16021_0x0.jpg" alt="">
+                            </div>
+                            <div class="grnLine">神武三国</div>
+                            <div class="mod_txtBox modA_txt">
+                                <h3 class="mod_title">神武三国</h3>
+                                <p class="description">杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派杀双端网游黑暗之光硬派</p>
+                            </div>
+                            <span class="hot_lg_r"></span>
+                            <div class="modA_top">
+                                <a href="###" class="mark_blue">游戏活动</a>
+                                <a href="###" class="mark_red">推荐活动</a>
+                            </div>
+                            <div class="modB modB_l">
+                                <span class="btn_bla_l fr">活动结束</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <!--加载更多 loadMore start-->
+
+                <div class="loadMore">
+                    <p class="loadMore_txt">
+                        正在加载
+                    </p>
+                </div>
+
+                <!--加载更多 loadMore end-->
+
+            </div>
+
+            <!--内容 Content end-->
+
+        </div>
+
+        <!--活动中心 content end-->
+
+    </div>
+    <!--背景 右侧 body background right start-->
+    <div class="bodyBg_right"></div>
+    <!--背景 右侧 body background right end-->
+</div>
+
+<!---底部 footer start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+<!---底部 footer end--->
+</body>
+</html>";i:4;s:2757:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>活动中心</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/page.css" rel="stylesheet" />
+</head>
+<body>
+<!--顶部 header begin-->
+<!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+<!--顶部 header end-->
+<div class="page_wrap">
+    <!--背景 左侧 body background left start-->
+    <div class="bodyBg_left"></div>
+    <!--背景 左侧 body background left end-->
+    <div class="main">
+        <!--活动中心 Activity Center start-->
+        <div class="actCenter">
+            <!--活动中心顶部焦点图 Activity Center Focus Top start-->
+            <div class="actFocus_top">
+                <!--#CMS_MODULE(V2_EVENT_FOCUS)#-->
+            </div>
+            <!--活动中心顶部焦点图 Focus Top end-->
+            <!--筛选 Filter start-->
+            <div class="filter">
+                <div class="modF">
+                    <dl>
+                        <dt>游戏类型：</dt>
+                        <dd><a href="###" class="btn_top">不限</a></dd>
+                        <dd><a href="###" class="btn_top">角色扮演</a></dd>
+                        <dd class="curr"><a href="###" class="btn_top">模拟经营</a></dd>
+                        <dd><a href="###" class="btn_top">角色扮演</a></dd>
+                        <dd><a href="###" class="btn_top">角色扮演</a></dd>
+                    </dl>
+                    <ul class="notice">
+                        <!--#CMS_MODULE(V2_NOTICE)#-->
+                    </ul>
+                </div>
+            </div>
+            <!--筛选 Filter end-->
+            <!--内容 Content start-->
+            <div class="actCenter_content">
+                <ul class="actCenter_list clearfix">
+                    <!--#CMS_MODULE(V2_EVENT_LIST)#-->
+                </ul>
+                <!--加载更多 loadMore start-->
+                <div class="loadMore">
+                    <p class="loadMore_txt">
+                        正在加载
+                    </p>
+                </div>
+                <!--加载更多 loadMore end-->
+            </div>
+            <!--内容 Content end-->
+        </div>
+        <!--活动中心 content end-->
+    </div>
+    <!--背景 右侧 body background right start-->
+    <div class="bodyBg_right"></div>
+    <!--背景 右侧 body background right end-->
+</div>
+
+<!---底部 footer start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+<!---底部 footer end--->
+</body>
+</html>";i:5;s:3180:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>活动中心</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/page.css" rel="stylesheet" />
+</head>
+<body>
+<!--顶部 header begin-->
+<!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+<!--顶部 header end-->
+<div class="page_wrap">
+    <!--背景 左侧 body background left start-->
+    <div class="bodyBg_left"></div>
+    <!--背景 左侧 body background left end-->
+    <div class="main">
+        <!--活动中心 Activity Center start-->
+        <div class="actCenter">
+            <!--活动中心顶部焦点图 Activity Center Focus Top start-->
+            <div class="actFocus_top">
+                <!--#CMS_MODULE(V2_EVENT_FOCUS)#-->
+            </div>
+            <!--活动中心顶部焦点图 Focus Top end-->
+            <!--筛选 Filter start-->
+            <div class="filter">
+                <div class="modF">
+                    <dl>
+                        <dt>游戏类型：</dt>
+                        <dd><a href="###" class="btn_top">不限</a></dd>
+                        <dd><a href="###" class="btn_top">角色扮演</a></dd>
+                        <dd class="curr"><a href="###" class="btn_top">模拟经营</a></dd>
+                        <dd><a href="###" class="btn_top">角色扮演</a></dd>
+                        <dd><a href="###" class="btn_top">角色扮演</a></dd>
+                    </dl>
+                    <ul class="notice">
+                        <!--#CMS_MODULE(V2_NOTICE)#-->
+                    </ul>
+                </div>
+            </div>
+            <!--筛选 Filter end-->
+            <!--内容 Content start-->
+            <div class="actCenter_content">
+                <ul class="actCenter_list clearfix">
+                    <!--#CMS_MODULE(V2_EVENT_LIST)#-->
+                </ul>
+                <!--加载更多 loadMore start-->
+                <div class="loadMore">
+                    <p class="loadMore_txt">
+                        正在加载
+                    </p>
+                </div>
+                <!--加载更多 loadMore end-->
+            </div>
+            <!--内容 Content end-->
+        </div>
+        <!--活动中心 content end-->
+    </div>
+    <!--背景 右侧 body background right start-->
+    <div class="bodyBg_right"></div>
+    <!--背景 右侧 body background right end-->
+</div>
+
+<!---底部 footer start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+<!---底部 footer end--->
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/activities/page/index');
+</script>
+</body>
+</html>";i:6;s:3095:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>活动中心</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/page.css" rel="stylesheet" />
+</head>
+<body>
+<!--顶部 header begin-->
+<!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+<!--顶部 header end-->
+<div class="page_wrap">
+    <!--背景 左侧 body background left start-->
+    <div class="bodyBg_left"></div>
+    <!--背景 左侧 body background left end-->
+    <div class="main">
+        <!--活动中心 Activity Center start-->
+        <div class="actCenter">
+            <!--活动中心顶部焦点图 Activity Center Focus Top start-->
+            <div class="actFocus_top">
+                <!--#CMS_MODULE(V2_EVENT_FOCUS)#-->
+            </div>
+            <!--活动中心顶部焦点图 Focus Top end-->
+            <!--筛选 Filter start-->
+            <div class="filter">
+                <div class="modF">
+                    <dl>
+                        <dt>活动类型：</dt>
+                        <dd><a href="##" class="btn_top">不限</a></dd>
+                        <dd><a href="##" class="btn_top">平台活动</a></dd>
+                        <dd class="curr"><a href="##" class="btn_top">游戏活动</a></dd>
+                        <dd><a href="##" class="btn_top">推荐活动</a></dd>
+                    </dl>
+                    <ul class="notice">
+                        <!--#CMS_MODULE(V2_NOTICE)#-->
+                    </ul>
+                </div>
+            </div>
+            <!--筛选 Filter end-->
+            <!--内容 Content start-->
+            <div class="actCenter_content">
+                <ul class="actCenter_list clearfix">
+                    <!--#CMS_MODULE(V2_EVENT_LIST)#-->
+                </ul>
+                <!--加载更多 loadMore start-->
+                <div class="loadMore">
+                    <p class="loadMore_txt">
+                        正在加载
+                    </p>
+                </div>
+                <!--加载更多 loadMore end-->
+            </div>
+            <!--内容 Content end-->
+        </div>
+        <!--活动中心 content end-->
+    </div>
+    <!--背景 右侧 body background right start-->
+    <div class="bodyBg_right"></div>
+    <!--背景 右侧 body background right end-->
+</div>
+
+<!---底部 footer start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+<!---底部 footer end--->
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/activities/page/index');
+</script>
+</body>
+</html>";i:7;s:3095:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>活动中心</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/page.css" rel="stylesheet" />
+</head>
+<body>
+<!--顶部 header begin-->
+<!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+<!--顶部 header end-->
+<div class="page_wrap">
+    <!--背景 左侧 body background left start-->
+    <div class="bodyBg_left"></div>
+    <!--背景 左侧 body background left end-->
+    <div class="main">
+        <!--活动中心 Activity Center start-->
+        <div class="actCenter">
+            <!--活动中心顶部焦点图 Activity Center Focus Top start-->
+            <div class="actFocus_top">
+                <!--#CMS_MODULE(V2_EVENT_FOCUS)#-->
+            </div>
+            <!--活动中心顶部焦点图 Focus Top end-->
+            <!--筛选 Filter start-->
+            <div class="filter">
+                <div class="modF">
+                    <dl>
+                        <dt>活动类型：</dt>
+                        <dd><a href="##" class="btn_top">全部</a></dd>
+                        <dd><a href="##" class="btn_top">平台活动</a></dd>
+                        <dd class="curr"><a href="##" class="btn_top">游戏活动</a></dd>
+                        <dd><a href="##" class="btn_top">推荐活动</a></dd>
+                    </dl>
+                    <ul class="notice">
+                        <!--#CMS_MODULE(V2_NOTICE)#-->
+                    </ul>
+                </div>
+            </div>
+            <!--筛选 Filter end-->
+            <!--内容 Content start-->
+            <div class="actCenter_content">
+                <ul class="actCenter_list clearfix">
+                    <!--#CMS_MODULE(V2_EVENT_LIST)#-->
+                </ul>
+                <!--加载更多 loadMore start-->
+                <div class="loadMore">
+                    <p class="loadMore_txt">
+                        正在加载
+                    </p>
+                </div>
+                <!--加载更多 loadMore end-->
+            </div>
+            <!--内容 Content end-->
+        </div>
+        <!--活动中心 content end-->
+    </div>
+    <!--背景 右侧 body background right start-->
+    <div class="bodyBg_right"></div>
+    <!--背景 右侧 body background right end-->
+</div>
+
+<!---底部 footer start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+<!---底部 footer end--->
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/activities/page/index');
+</script>
+</body>
+</html>";i:8;s:3142:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>活动中心</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/page.css" rel="stylesheet" />
+</head>
+<body>
+<!--ssi#config timefmt="%Y,%m,%d,%H,%M,%S"-->
+<!--顶部 header begin-->
+<!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+<!--顶部 header end-->
+<div class="page_wrap">
+    <!--背景 左侧 body background left start-->
+    <div class="bodyBg_left"></div>
+    <!--背景 左侧 body background left end-->
+    <div class="main">
+        <!--活动中心 Activity Center start-->
+        <div class="actCenter">
+            <!--活动中心顶部焦点图 Activity Center Focus Top start-->
+            <div class="actFocus_top">
+                <!--#CMS_MODULE(V2_EVENT_FOCUS)#-->
+            </div>
+            <!--活动中心顶部焦点图 Focus Top end-->
+            <!--筛选 Filter start-->
+            <div class="filter">
+                <div class="modF">
+                    <dl>
+                        <dt>活动类型：</dt>
+                        <dd><a href="##" class="btn_top">全部</a></dd>
+                        <dd><a href="##" class="btn_top">平台活动</a></dd>
+                        <dd class="curr"><a href="##" class="btn_top">游戏活动</a></dd>
+                        <dd><a href="##" class="btn_top">推荐活动</a></dd>
+                    </dl>
+                    <ul class="notice">
+                        <!--#CMS_MODULE(V2_NOTICE)#-->
+                    </ul>
+                </div>
+            </div>
+            <!--筛选 Filter end-->
+            <!--内容 Content start-->
+            <div class="actCenter_content">
+                <ul class="actCenter_list clearfix">
+                    <!--#CMS_MODULE(V2_EVENT_LIST)#-->
+                </ul>
+                <!--加载更多 loadMore start-->
+                <div class="loadMore">
+                    <p class="loadMore_txt">
+                        正在加载
+                    </p>
+                </div>
+                <!--加载更多 loadMore end-->
+            </div>
+            <!--内容 Content end-->
+        </div>
+        <!--活动中心 content end-->
+    </div>
+    <!--背景 右侧 body background right start-->
+    <div class="bodyBg_right"></div>
+    <!--背景 右侧 body background right end-->
+</div>
+
+<!---底部 footer start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+<!---底部 footer end--->
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/activities/page/index');
+</script>
+</body>
+</html>";i:9;s:3223:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>活动中心</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/page.css" rel="stylesheet" />
+</head>
+<body>
+<!--ssi#config timefmt="%Y,%m,%d,%H,%M,%S"-->
+<div id="timeLocal" style="display:none"><!--ssi#echo var="DATE_LOCAL"--></div>
+<!--顶部 header begin-->
+<!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+<!--顶部 header end-->
+<div class="page_wrap">
+    <!--背景 左侧 body background left start-->
+    <div class="bodyBg_left"></div>
+    <!--背景 左侧 body background left end-->
+    <div class="main">
+        <!--活动中心 Activity Center start-->
+        <div class="actCenter">
+            <!--活动中心顶部焦点图 Activity Center Focus Top start-->
+            <div class="actFocus_top">
+                <!--#CMS_MODULE(V2_EVENT_FOCUS)#-->
+            </div>
+            <!--活动中心顶部焦点图 Focus Top end-->
+            <!--筛选 Filter start-->
+            <div class="filter">
+                <div class="modF">
+                    <dl>
+                        <dt>活动类型：</dt>
+                        <dd><a href="##" class="btn_top">全部</a></dd>
+                        <dd><a href="##" class="btn_top">平台活动</a></dd>
+                        <dd class="curr"><a href="##" class="btn_top">游戏活动</a></dd>
+                        <dd><a href="##" class="btn_top">推荐活动</a></dd>
+                    </dl>
+                    <ul class="notice">
+                        <!--#CMS_MODULE(V2_NOTICE)#-->
+                    </ul>
+                </div>
+            </div>
+            <!--筛选 Filter end-->
+            <!--内容 Content start-->
+            <div class="actCenter_content">
+                <ul class="actCenter_list clearfix">
+                    <!--#CMS_MODULE(V2_EVENT_LIST)#-->
+                </ul>
+                <!--加载更多 loadMore start-->
+                <div class="loadMore">
+                    <p class="loadMore_txt">
+                        正在加载
+                    </p>
+                </div>
+                <!--加载更多 loadMore end-->
+            </div>
+            <!--内容 Content end-->
+        </div>
+        <!--活动中心 content end-->
+    </div>
+    <!--背景 右侧 body background right start-->
+    <div class="bodyBg_right"></div>
+    <!--背景 右侧 body background right end-->
+</div>
+
+<!---底部 footer start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+<!---底部 footer end--->
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/activities/page/index');
+</script>
+</body>
+</html>";i:10;s:3240:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>活动中心</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/page.css" rel="stylesheet" />
+</head>
+<body>
+<!--ssi#config timefmt="%Y,%m,%d,%H,%M,%S"-->
+<div id="timeLocal" style="display:none"><!--ssi#echo var="DATE_LOCAL"--></div>
+<!--顶部 header begin-->
+<!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+<!--顶部 header end-->
+<div class="page_wrap">
+    <!--背景 左侧 body background left start-->
+    <div class="bodyBg_left"></div>
+    <!--背景 左侧 body background left end-->
+    <div class="main">
+        <!--活动中心 Activity Center start-->
+        <div class="actCenter">
+            <!--活动中心顶部焦点图 Activity Center Focus Top start-->
+            <div class="actFocus_top">
+                <!--#CMS_MODULE(V2_EVENT_FOCUS)#-->
+            </div>
+            <!--活动中心顶部焦点图 Focus Top end-->
+            <!--筛选 Filter start-->
+            <div class="filter">
+                <div class="modF">
+                    <dl>
+                        <dt>活动类型：</dt>
+                        <dd><a href="##" class="btn_top">全部</a></dd>
+                        <dd><a href="##" class="btn_top">平台活动</a></dd>
+                        <dd class="curr"><a href="##" class="btn_top">游戏活动</a></dd>
+                        <dd><a href="##" class="btn_top">推荐活动</a></dd>
+                    </dl>
+                    <ul class="notice">
+                        <!--#CMS_MODULE(V2_NOTICE)#-->
+                    </ul>
+                </div>
+            </div>
+            <!--筛选 Filter end-->
+            <!--内容 Content start-->
+            <div class="actCenter_content">
+                <ul id="mainContent" class="actCenter_list clearfix">
+                    <!--#CMS_MODULE(V2_EVENT_LIST)#-->
+                </ul>
+                <!--加载更多 loadMore start-->
+                <div class="loadMore">
+                    <p class="loadMore_txt">
+                        正在加载
+                    </p>
+                </div>
+                <!--加载更多 loadMore end-->
+            </div>
+            <!--内容 Content end-->
+        </div>
+        <!--活动中心 content end-->
+    </div>
+    <!--背景 右侧 body background right start-->
+    <div class="bodyBg_right"></div>
+    <!--背景 右侧 body background right end-->
+</div>
+
+<!---底部 footer start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+<!---底部 footer end--->
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/activities/page/index');
+</script>
+</body>
+</html>";i:11;s:3324:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>活动中心</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/page.css" rel="stylesheet" />
+</head>
+<body>
+<!--ssi#config timefmt="%Y,%m,%d,%H,%M,%S"-->
+<div id="timeLocal" style="display:none"><!--ssi#echo var="DATE_LOCAL"--></div>
+<!--顶部 header begin-->
+<!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+<!--顶部 header end-->
+<div class="page_wrap">
+    <!--背景 左侧 body background left start-->
+    <div class="bodyBg_left"></div>
+    <!--背景 左侧 body background left end-->
+    <div class="main">
+        <!--活动中心 Activity Center start-->
+        <div class="actCenter">
+            <!--活动中心顶部焦点图 Activity Center Focus Top start-->
+            <div class="actFocus_top">
+                <!--#CMS_MODULE(V2_EVENT_FOCUS)#-->
+            </div>
+            <!--活动中心顶部焦点图 Focus Top end-->
+            <!--筛选 Filter start-->
+            <div class="filter">
+                <div class="modF">
+                    <dl id="searchType">
+                        <dt>活动类型：</dt>
+                        <dd class="curr"><a href="javascript:void(0);" class="btn_top">全部</a></dd>
+                        <dd><a href="javascript:void(0);" class="btn_top">平台活动</a></dd>
+                        <dd><a href="javascript:void(0);" class="btn_top">游戏活动</a></dd>
+                        <dd><a href="javascript:void(0);" class="btn_top">推荐活动</a></dd>
+                    </dl>
+                    <ul class="notice">
+                        <!--#CMS_MODULE(V2_NOTICE)#-->
+                    </ul>
+                </div>
+            </div>
+            <!--筛选 Filter end-->
+            <!--内容 Content start-->
+            <div class="actCenter_content">
+                <ul id="mainContent" class="actCenter_list clearfix">
+                    <!--#CMS_MODULE(V2_EVENT_LIST)#-->
+                </ul>
+                <!--加载更多 loadMore start-->
+                <div class="loadMore">
+                    <p class="loadMore_txt">
+                        正在加载
+                    </p>
+                </div>
+                <!--加载更多 loadMore end-->
+            </div>
+            <!--内容 Content end-->
+        </div>
+        <!--活动中心 content end-->
+    </div>
+    <!--背景 右侧 body background right start-->
+    <div class="bodyBg_right"></div>
+    <!--背景 右侧 body background right end-->
+</div>
+
+<!---底部 footer start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+<!---底部 footer end--->
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/activities/page/index');
+</script>
+</body>
+</html>";i:12;s:3319:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>活动中心</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/page.css" rel="stylesheet" />
+</head>
+<body>
+<!--ssi#config timefmt="%Y,%m,%d,%H,%M,%S"-->
+<div id="timeLocal" style="display:none"><!--ssi#echo var="DATE_LOCAL"--></div>
+<!--顶部 header begin-->
+<!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+<!--顶部 header end-->
+<div class="page_wrap">
+    <!--背景 左侧 body background left start-->
+    <div class="bodyBg_left"></div>
+    <!--背景 左侧 body background left end-->
+    <div class="main">
+        <!--活动中心 Activity Center start-->
+        <div class="actCenter">
+            <!--活动中心顶部焦点图 Activity Center Focus Top start-->
+            <div class="actFocus_top">
+                <!--#CMS_MODULE(V2_EVENT_FOCUS)#-->
+            </div>
+            <!--活动中心顶部焦点图 Focus Top end-->
+            <!--筛选 Filter start-->
+            <div class="filter">
+                <div class="modF">
+                    <dl id="searchType">
+                        <dt>活动类型：</dt>
+                        <dd class="curr"><a href="javascript:void(0);" class="btn_top">全部</a></dd>
+                        <dd><a href="javascript:void(0);" class="btn_top">平台活动</a></dd>
+                        <dd><a href="javascript:void(0);" class="btn_top">游戏活动</a></dd>
+                        <dd><a href="javascript:void(0);" class="btn_top">推荐活动</a></dd>
+                    </dl>
+                    <ul class="notice">
+                        <!--#CMS_MODULE(V2_NOTICE)#-->
+                    </ul>
+                </div>
+            </div>
+            <!--筛选 Filter end-->
+            <!--内容 Content start-->
+            <div class="actCenter_content">
+                <ul id="mainContent" class="actCenter_list clearfix">
+                    <!--#CMS_MODULE(V2_EVENT_LIST)#-->
+                </ul>
+                <!--加载更多 loadMore start>
+                <div class="loadMore">
+                    <p class="loadMore_txt">
+                        正在加载
+                    </p>
+                </div>
+                <加载更多 loadMore end-->
+            </div>
+            <!--内容 Content end-->
+        </div>
+        <!--活动中心 content end-->
+    </div>
+    <!--背景 右侧 body background right start-->
+    <div class="bodyBg_right"></div>
+    <!--背景 右侧 body background right end-->
+</div>
+
+<!---底部 footer start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+<!---底部 footer end--->
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/activities/page/index');
+</script>
+</body>
+</html>";i:13;s:3436:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>活动中心</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/page.css" rel="stylesheet" />
+</head>
+<body>
+<!--ssi#config timefmt="%Y,%m,%d,%H,%M,%S"-->
+<div id="timeLocal" style="display:none"><!--ssi#echo var="DATE_LOCAL"--></div>
+<!--顶部 header begin-->
+<!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+<!--顶部 header end-->
+<div class="page_wrap">
+    <!--背景 左侧 body background left start-->
+    <div class="bodyBg_left"></div>
+    <!--背景 左侧 body background left end-->
+    <div class="main">
+        <!--活动中心 Activity Center start-->
+        <div class="actCenter">
+            <!--活动中心顶部焦点图 Activity Center Focus Top start-->
+            <div class="actFocus_top">
+                <!--#CMS_MODULE(V2_EVENT_FOCUS)#-->
+            </div>
+            <!--活动中心顶部焦点图 Focus Top end-->
+            <!--筛选 Filter start-->
+            <div class="filter">
+                <div class="modF">
+                    <dl id="searchType">
+                        <dt>活动类型：</dt>
+                        <dd class="curr"><a href="javascript:void(0);" class="btn_top">全部</a></dd>
+                        <dd><a href="javascript:void(0);" class="btn_top">平台活动</a></dd>
+                        <dd><a href="javascript:void(0);" class="btn_top">游戏活动</a></dd>
+                        <dd><a href="javascript:void(0);" class="btn_top">推荐活动</a></dd>
+                    </dl>
+                    <ul class="notice">
+                        <!--#CMS_MODULE(V2_NOTICE)#-->
+                    </ul>
+                </div>
+            </div>
+            <!--筛选 Filter end-->
+            <!--内容 Content start-->
+            <div class="actCenter_content">
+                <ul id="mainContent" class="actCenter_list clearfix">
+                    <!--#CMS_MODULE(V2_EVENT_LIST)#-->
+                </ul>
+                <!--加载更多 loadMore start>
+                <div class="loadMore">
+                    <p class="loadMore_txt">
+                        正在加载
+                    </p>
+                </div>
+                <加载更多 loadMore end-->
+            </div>
+            <!--内容 Content end-->
+        </div>
+        <!--活动中心 content end-->
+    </div>
+    <!--背景 右侧 body background right start-->
+    <div class="bodyBg_right"></div>
+    <!--背景 右侧 body background right end-->
+</div>
+<!---返回顶部 start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/totop.shtml"-->
+<!---返回顶部 end--->
+<!---底部 footer start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+<!---底部 footer end--->
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/activities/page/index');
+</script>
+</body>
+</html>";i:14;s:3483:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta name="bannerTitle" content="event">
+    <title>活动中心</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/page.css" rel="stylesheet" />
+</head>
+<body>
+<!--ssi#config timefmt="%Y,%m,%d,%H,%M,%S"-->
+<div id="timeLocal" style="display:none"><!--ssi#echo var="DATE_LOCAL"--></div>
+<!--顶部 header begin-->
+<!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+<!--顶部 header end-->
+<div class="page_wrap">
+    <!--背景 左侧 body background left start-->
+    <div class="bodyBg_left"></div>
+    <!--背景 左侧 body background left end-->
+    <div class="main">
+        <!--活动中心 Activity Center start-->
+        <div class="actCenter">
+            <!--活动中心顶部焦点图 Activity Center Focus Top start-->
+            <div class="actFocus_top">
+                <!--#CMS_MODULE(V2_EVENT_FOCUS)#-->
+            </div>
+            <!--活动中心顶部焦点图 Focus Top end-->
+            <!--筛选 Filter start-->
+            <div class="filter">
+                <div class="modF">
+                    <dl id="searchType">
+                        <dt>活动类型：</dt>
+                        <dd class="curr"><a href="javascript:void(0);" class="btn_top">全部</a></dd>
+                        <dd><a href="javascript:void(0);" class="btn_top">平台活动</a></dd>
+                        <dd><a href="javascript:void(0);" class="btn_top">游戏活动</a></dd>
+                        <dd><a href="javascript:void(0);" class="btn_top">推荐活动</a></dd>
+                    </dl>
+                    <ul class="notice">
+                        <!--#CMS_MODULE(V2_NOTICE)#-->
+                    </ul>
+                </div>
+            </div>
+            <!--筛选 Filter end-->
+            <!--内容 Content start-->
+            <div class="actCenter_content">
+                <ul id="mainContent" class="actCenter_list clearfix">
+                    <!--#CMS_MODULE(V2_EVENT_LIST)#-->
+                </ul>
+                <!--加载更多 loadMore start>
+                <div class="loadMore">
+                    <p class="loadMore_txt">
+                        正在加载
+                    </p>
+                </div>
+                <加载更多 loadMore end-->
+            </div>
+            <!--内容 Content end-->
+        </div>
+        <!--活动中心 content end-->
+    </div>
+    <!--背景 右侧 body background right start-->
+    <div class="bodyBg_right"></div>
+    <!--背景 右侧 body background right end-->
+</div>
+<!---返回顶部 start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/totop.shtml"-->
+<!---返回顶部 end--->
+<!---底部 footer start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+<!---底部 footer end--->
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/activities/page/index');
+</script>
+</body>
+</html>";i:15;s:3537:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta name="bannerTitle" content="event">
+    <title>V1网页游戏活动中心-最新网页游戏活动,V1网页游戏</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/page.css" rel="stylesheet" />
+</head>
+<body>
+<!--ssi#config timefmt="%Y,%m,%d,%H,%M,%S"-->
+<div id="timeLocal" style="display:none"><!--ssi#echo var="DATE_LOCAL"--></div>
+<!--顶部 header begin-->
+<!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+<!--顶部 header end-->
+<div class="page_wrap">
+    <!--背景 左侧 body background left start-->
+    <div class="bodyBg_left"></div>
+    <!--背景 左侧 body background left end-->
+    <div class="main">
+        <!--活动中心 Activity Center start-->
+        <div class="actCenter">
+            <!--活动中心顶部焦点图 Activity Center Focus Top start-->
+            <div class="actFocus_top">
+                <!--#CMS_MODULE(V2_EVENT_FOCUS)#-->
+            </div>
+            <!--活动中心顶部焦点图 Focus Top end-->
+            <!--筛选 Filter start-->
+            <div class="filter">
+                <div class="modF">
+                    <dl id="searchType">
+                        <dt>活动类型：</dt>
+                        <dd class="curr"><a href="javascript:void(0);" class="btn_top">全部</a></dd>
+                        <dd><a href="javascript:void(0);" class="btn_top">平台活动</a></dd>
+                        <dd><a href="javascript:void(0);" class="btn_top">游戏活动</a></dd>
+                        <dd><a href="javascript:void(0);" class="btn_top">推荐活动</a></dd>
+                    </dl>
+                    <ul class="notice">
+                        <!--#CMS_MODULE(V2_NOTICE)#-->
+                    </ul>
+                </div>
+            </div>
+            <!--筛选 Filter end-->
+            <!--内容 Content start-->
+            <div class="actCenter_content">
+                <ul id="mainContent" class="actCenter_list clearfix">
+                    <!--#CMS_MODULE(V2_EVENT_LIST)#-->
+                </ul>
+                <!--加载更多 loadMore start>
+                <div class="loadMore">
+                    <p class="loadMore_txt">
+                        正在加载
+                    </p>
+                </div>
+                <加载更多 loadMore end-->
+            </div>
+            <!--内容 Content end-->
+        </div>
+        <!--活动中心 content end-->
+    </div>
+    <!--背景 右侧 body background right start-->
+    <div class="bodyBg_right"></div>
+    <!--背景 右侧 body background right end-->
+</div>
+<!---返回顶部 start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/totop.shtml"-->
+<!---返回顶部 end--->
+<!---底部 footer start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+<!---底部 footer end--->
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/activities/page/index');
+</script>
+</body>
+</html>";i:16;s:3692:"<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta name="bannerTitle" content="event">
+    <title>V1网页游戏活动中心-最新网页游戏活动,V1网页游戏</title>
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/common.css" rel="stylesheet" />
+    <link href="http://static.v1.cn/game/gplatform/v2.0/css/page.css" rel="stylesheet" />
+</head>
+<body>
+<!--ssi#config timefmt="%Y,%m,%d,%H,%M,%S"-->
+<div id="timeLocal" style="display:none"><!--ssi#echo var="DATE_LOCAL"--></div>
+<!--顶部 header begin-->
+<!--ssi#include virtual="/v1gamecn/ssi/common/header.shtml"-->
+<!--顶部 header end-->
+<div class="page_wrap">
+    <!--背景 左侧 body background left start-->
+    <div class="bodyBg_left"></div>
+    <!--背景 左侧 body background left end-->
+    <div class="main">
+        <!--活动中心 Activity Center start-->
+        <div class="actCenter">
+            <!--活动中心顶部焦点图 Activity Center Focus Top start-->
+            <div class="actFocus_top">
+                <!--#CMS_MODULE(V2_EVENT_FOCUS)#-->
+            </div>
+            <!--活动中心顶部焦点图 Focus Top end-->
+            <!--筛选 Filter start-->
+            <div class="filter">
+                <div class="modF">
+                    <dl id="searchType">
+                        <dt>活动类型：</dt>
+                        <dd class="curr"><a href="javascript:void(0);" class="btn_top">全部</a></dd>
+                        <dd><a href="javascript:void(0);" class="btn_top">平台活动</a></dd>
+                        <dd><a href="javascript:void(0);" class="btn_top">游戏活动</a></dd>
+                        <dd><a href="javascript:void(0);" class="btn_top">推荐活动</a></dd>
+                    </dl>
+                    <ul class="notice">
+                        <!--#CMS_MODULE(V2_NOTICE)#-->
+                    </ul>
+                </div>
+            </div>
+            <!--筛选 Filter end-->
+            <!--内容 Content start-->
+            <div class="actCenter_content">
+                <ul id="mainContent" class="actCenter_list clearfix">
+                    <!--#CMS_MODULE(V2_EVENT_LIST)#-->
+                </ul>
+                <!--加载更多 loadMore start>
+                <div class="loadMore">
+                    <p class="loadMore_txt">
+                        正在加载
+                    </p>
+                </div>
+                <加载更多 loadMore end-->
+            </div>
+            <!--内容 Content end-->
+        </div>
+        <!--活动中心 content end-->
+    </div>
+    <!--背景 右侧 body background right start-->
+    <div class="bodyBg_right"></div>
+    <!--背景 右侧 body background right end-->
+</div>
+<!---返回顶部 start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/totop.shtml"-->
+<!---返回顶部 end--->
+<!---底部 footer start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/footer.shtml"-->
+<!---底部 footer end--->
+<!---底部 end--->
+<!---防沉迷认证 start--->
+<!--ssi#include virtual="/v1gamecn/ssi/common/anti_addiction.shtml"-->
+<!---防沉迷认证 end--->
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+<script type="text/javascript" src="http://static.v1.cn/game/gplatform/v2.0/js/sea.js"></script>
+<script type="text/javascript">
+    seajs.use('http://static.v1.cn/game/gplatform/v2.0/js/activities/page/index');
+</script>
+</body>
+</html>";}

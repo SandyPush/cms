@@ -1,0 +1,157 @@
+a:5:{i:0;s:1270:"<?xml version="1.0" encoding="utf-8"?>
+<results>
+<video_info>
+        <video_id>654104</video_id>
+        <video_cover><![CDATA[http://pic106.v1.cn/cloud/20130620/images/654104-s.jpg]]</video_cover>
+        <video_title><![CDATA[清新法式美甲 给你职场面试加分]]></video_title>
+        <video_page_url><![CDATA[http://lady.v1.cn/2013-6-20/654104v-1.shtml]]></video_page_url>
+        <video_flash_url><![CDATA[http://flv106.v1.cn/cloud/20130620/654104.flv]]></video_flash_url>
+        <video_rank></video_rank>
+        <video_type>女性</video_type>
+        <total_play_times>11453</total_play_times>
+        <month_play_times></month_play_times>
+        <week_play_times></week_play_times>
+        <day_play_times></day_play_times>
+        <share_times></share_times>
+        <favorite_times>0</favorite_times>
+        <like_times>0</like_times>
+        <hate_times>0</hate_times>
+        <tag>
+           <string>清新</string>
+           <string>法式美甲</string>
+        </tag>
+        <description><![CDATA[清新法式美甲 给你职场面试加分]]></description>
+        <resolution></resolution>
+        <release_date>2013-06-20 07:08:07</release_date>
+        <duration>224.9</duration>
+   </video_info>
+</results>";i:1;s:1274:"<?xml version="1.0" encoding="utf-8"?>
+<results>
+        <video_info>
+        <video_id>654104</video_id>
+        <video_cover><![CDATA[http://pic106.v1.cn/cloud/20130620/images/654104-s.jpg]]></video_cover>
+        <video_title><![CDATA[清新法式美甲 给你职场面试加分]]></video_title>
+        <video_page_url><![CDATA[http://lady.v1.cn/2013-6-20/654104v-1.shtml]]></video_page_url>
+        <video_flash_url><![CDATA[http://flv106.v1.cn/cloud/20130620/654104.flv]]></video_flash_url>
+        <video_rank></video_rank>
+        <video_type>女性</video_type>
+        <total_play_times>11453</total_play_times>
+        <month_play_times></month_play_times>
+        <week_play_times></week_play_times>
+        <day_play_times></day_play_times>
+        <share_times></share_times>
+        <favorite_times>0</favorite_times>
+        <like_times>0</like_times>
+        <hate_times>0</hate_times>
+        <tag>
+                <string>清新</string>
+                <string>法式美甲</string>
+    </tag>
+    <description><![CDATA[清新法式美甲 给你职场面试加分]]></description>
+    <resolution></resolution>
+    <release_date>2013-06-20 07:08:07</release_date>
+    <duration>224.9</duration>
+</video_info>
+        </results>";i:2;s:1397:"<?xml version="1.0" encoding="utf-8"?>
+<results>
+<!--#
+   $seoDataArray=CMS_FUNCTION('seoData',$cms_page_id);
+   foreach($seoDataArray as $seoData){
+#-->  
+        <video_info>
+        <video_id>654104</video_id>
+        <video_cover><![CDATA[http://pic106.v1.cn/cloud/20130620/images/654104-s.jpg]]></video_cover>
+        <video_title><![CDATA[清新法式美甲 给你职场面试加分]]></video_title>
+        <video_page_url><![CDATA[http://lady.v1.cn/2013-6-20/654104v-1.shtml]]></video_page_url>
+        <video_flash_url><![CDATA[http://flv106.v1.cn/cloud/20130620/654104.flv]]></video_flash_url>
+        <video_rank></video_rank>
+        <video_type>女性</video_type>
+        <total_play_times>11453</total_play_times>
+        <month_play_times></month_play_times>
+        <week_play_times></week_play_times>
+        <day_play_times></day_play_times>
+        <share_times></share_times>
+        <favorite_times>0</favorite_times>
+        <like_times>0</like_times>
+        <hate_times>0</hate_times>
+        <tag>
+                <string>清新</string>
+                <string>法式美甲</string>
+    </tag>
+    <description><![CDATA[清新法式美甲 给你职场面试加分]]></description>
+    <resolution></resolution>
+    <release_date>2013-06-20 07:08:07</release_date>
+    <duration>224.9</duration>
+</video_info>
+<!--#}#-->
+        </results>";i:3;s:1354:"<?xml version="1.0" encoding="utf-8"?>
+<results>
+<!--#
+   $seoDataArray=CMS_FUNCTION('seoData',$cms_page_id);
+   foreach($seoDataArray as $seoData){
+#-->  
+        <video_info>
+        <video_id>{$seoData['aid']}</video_id>
+        <video_cover><![CDATA[{$seoData['image']}]]></video_cover>
+        <video_title><![CDATA[{$seoData['title']}]]></video_title>
+        <video_page_url><![CDATA[http://www.v1.cn{$seoData['url']}]]></video_page_url>
+        <video_flash_url><![CDATA[{$seoData['videoLink']}]]></video_flash_url>
+        <video_rank></video_rank>
+        <video_type>{$seoData['category']}</video_type>
+        <total_play_times>11453</total_play_times>
+        <month_play_times></month_play_times>
+        <week_play_times></week_play_times>
+        <day_play_times></day_play_times>
+        <share_times></share_times>
+        <favorite_times>0</favorite_times>
+        <like_times>0</like_times>
+        <hate_times>0</hate_times>
+        <tag>
+<!--#
+   foreach($seoData["tagArray"] as $tag){
+#--> 
+                <string>{$tag}</string>
+<!--#}#-->
+    </tag>
+    <description><![CDATA[{$seoData['intro']}]]></description>
+    <resolution></resolution>
+    <release_date>{$seoData['create_time']}</release_date>
+    <duration>{$seoData['duration']}</duration>
+</video_info>
+<!--#}#-->
+        </results>";i:4;s:1369:"<?xml version="1.0" encoding="utf-8"?>
+<results>
+<!--#
+   $seoDataArray=CMS_FUNCTION('seoData',$cms_page_id);
+   foreach($seoDataArray as $seoData){
+#-->  
+        <video_info>
+        <video_id>{$seoData['aid']}</video_id>
+        <video_cover><![CDATA[{$seoData['image']}]]></video_cover>
+        <video_title><![CDATA[{$seoData['title']}]]></video_title>
+        <video_page_url><![CDATA[http://www.v1.cn{$seoData['url']}]]></video_page_url>
+        <video_flash_url><![CDATA[{$seoData['videoLink']}]]></video_flash_url>
+        <video_rank></video_rank>
+        <video_type>{$seoData['category']}</video_type>
+        <total_play_times>{$seoData['pv']}</total_play_times>
+        <month_play_times>0</month_play_times>
+        <week_play_times>0</week_play_times>
+        <day_play_times>0</day_play_times>
+        <share_times>0</share_times>
+        <favorite_times>0</favorite_times>
+        <like_times>0</like_times>
+        <hate_times>0</hate_times>
+        <tag>
+<!--#
+   foreach($seoData["tagArray"] as $tag){
+#--> 
+                <string>{$tag}</string>
+<!--#}#-->
+    </tag>
+    <description><![CDATA[{$seoData['intro']}]]></description>
+    <resolution></resolution>
+    <release_date>{$seoData['create_time']}</release_date>
+    <duration>{$seoData['duration']}</duration>
+</video_info>
+<!--#}#-->
+        </results>";}

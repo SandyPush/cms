@@ -1,0 +1,63 @@
+<div class="area">
+	<div class="help">
+    <p>帮助</p>
+    <p>1、此处为专题列表;</p>    
+    <p class="soart">
+    	<form action="" name="search_form" method="post">
+            <label>分类搜索:<?=$this->formSelect('cid', $this->cid, null, $this->category_options)?></label>
+        	<label>名称搜索:<input class="input" type="text" name="title" value="<?=$this->title?>" size="16" /></label>
+            <label>发布者搜索:<input class="input" type="text" name="realname" value="<?=$this->realname?>" size="8" /></label>
+            <input type="submit" value="显示"></button>
+        </form>
+    </p>    
+    </div>
+<div class="nr">
+<h2>
+<button onclick="window.location.href='/focus/focus/create/star/<?=$this->star?>'" style="background:url(/images/zhuanti_.png) no-repeat;width: 145px;">模板方式创建专题</button>
+<button onclick="window.location.href='/focus/uploadfocus/create/'" style="background:url(/images/zhuanti_.png) no-repeat;width: 145px;">上传方式创建专题</button>
+<a href="#nogo">专题列表</a>        	
+</h2>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+<thead>
+    <tr>
+        <td width="40">ID</td>
+	<td width="120">封面</td>
+        <td>名称</td>
+        <td width="100">创建人</td>
+	<td width="200">开始</td>
+        <td width="200">操作</td>
+    </tr>
+</thead>
+<tbody>
+    <?php foreach ($this->focuses as $k => $focus): 
+    $focus['realurl'] =  str_replace('http://soccer.titan24.com/2010/', 'http://2010.titan24.com/', $focus['realurl']);
+    ?>
+    
+    <tr class="<?=$k % 2 == 0 ? 'alt' : '' ?>">
+	<td><?=$focus['fid'] ?></td>
+        <td><img src="<?=$focus['cover'] ?>" alt='cover' width="80" height="60"/></td>
+        <td><a href="<?=$focus['realurl']?>" target="_blank"><?=$focus['name']?></a></td>        
+	<td><?=$focus['realname']?></td>
+	<td><?=$focus['starttime']?></td>
+        <td>
+	<?if($focus['upload']==1):?>
+            <a href="/focus/uploadfocus/list/fid/<?=$focus['fid']?>/" title="上传"><img src="/images/dtree/folderopen.gif"></a> |		
+            <a href="/focus/uploadfocus/archive/fid/<?=$focus['fid']?>/" target="_blank" title="打包下载"><img src="/images/down.gif"></a> |
+            <a href="/focus/uploadfocus/edit/fid/<?=$focus['fid']?>/" title="编辑"><img src="/images/edit.gif"></a> |
+            <a href="/focus/focus/del/fid/<?=$focus['fid']?>/" onclick="if (!confirm('确定删除此专题，此操作将不可恢复')) return false" title="删除"><img src="/images/del.gif"></a> 
+	<?else:?>
+	        <a href="/focus/focus/preview/fid/<?=$focus['fid']?>/" target="_blank">预览</a> |
+            <a href="/focus/focus/publish/fid/<?=$focus['fid']?>/" target="_blank">发布</a> |
+            <a href="/focus/focus/edit/fid/<?=$focus['fid']?>/">编辑</a> |
+            <a href="/focus/focus/del/fid/<?=$focus['fid']?>/" onclick="if (!confirm('确定删除此专题，此操作将不可恢复')) return false">删除</a> 
+	<?endif;?>
+        </td>
+    </tr>
+    <?php endforeach; ?>
+</tbody>
+</table>
+<div class="fy">
+<?=$this->pagebar ?>
+</div> 
+</div> 
+</div>

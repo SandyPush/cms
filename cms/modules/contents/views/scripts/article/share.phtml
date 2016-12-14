@@ -1,0 +1,71 @@
+<div class="area">
+    <div class="help"> 
+		<p>帮助</p>
+        <p>1、分享内容到其他频道</p>
+	</div>
+
+	<div class="nr">
+	<h2>
+		新闻共享
+	</h2>    
+
+    <form action="" method="post" onsubmit="return saveSubmit();">
+    <table width="100%" cellpadding="4" cellspacing="1">
+    <tr>
+        <th>第1步：选择频道</th>
+    </tr>
+    <tr>
+        <td>
+        <select class="xiala"  name="channel" id="channel">
+        <?php foreach($this->channels as $key => $value): ?>
+		  <option value="<?=$key?>" <?if($this->channel==$key) echo 'selected'?>><?=$value?></option>
+		<?php endforeach; ?></td>
+        </select>
+	</tr>
+	</table>
+    <?
+        if($this->showNext){
+    ?>
+    <table width="100%" cellpadding="4" cellspacing="1">
+    <tr>
+        <th>第2步：选择分类</th>
+    </tr>
+    <tr>
+        <td><?=$this->formSelect('cid', null, '', $this->categories)?></td>
+	</tr>
+	</table>
+	<table width="100%" cellpadding="4" cellspacing="1">
+    <tr>
+        <th>第3步：选择用户</th>
+    </tr>
+    <tr>
+        <td>
+        <select class="xiala"  name="uid">
+        <?=$this->optionUser?>
+        </select>
+        </td>
+	</tr>
+	</table>
+    <input id="saveButton" type="submit" value=" 分 享 " />
+    <?}?>
+    </form>
+	</div>
+</div>
+<script>
+$(document).ready(function(){
+    $("#channel").change(function(){
+        url=location.href;
+        if(url.indexOf('?')) url=url.substring(0,url.indexOf('?'));
+        optionValue=$(this).children('option:selected').val();
+        location.href=url+"?channel="+optionValue;
+    });
+})
+    function saveSubmit(){
+        var cid=$("#cid").val();
+        if(cid==0){
+            alert('请选择分类');
+            return false;
+        }
+        return true;
+    }
+</script>

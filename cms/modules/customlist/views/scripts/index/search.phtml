@@ -1,0 +1,78 @@
+<?php
+print <<<EOT
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>51titanCMS - Powered by 51titan.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/styles/customlist.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery/jquery.js"></script>  
+</head>
+<body>
+<div class="m"></div>
+
+<div class="t">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class="tr4">
+    <td>
+	<form action="/customlist/index/search/" method="POST">
+	   &nbsp;关键字:&nbsp;
+      <input name="keyword" type="text" class="input" id="keyword" size="10" value="$keyword" />&nbsp;	 
+EOT;
+	  if($this->channel=='www'){
+		  echo "&nbsp;所属频道:&nbsp;";
+		  echo "<input type=\"hidden\" name=\"cid\" value=\"$this->cid\" />";
+		  echo str_replace("<option value=\"$this->currentChannel\" label","<option value=\"$this->currentChannel\" selected=\"selected\" label",$this->formSelect('channel', 0, NULL, $this->channels));
+	  }else{
+		  echo "&nbsp;所属栏目:&nbsp;";
+		  echo str_replace("<option value=\"$this->cid\" label","<option value=\"$this->cid\" selected=\"selected\" label",$this->formSelect('cid', 0, NULL, $this->category_select));		  
+	  }
+print <<<EOT
+	  &nbsp;作者:&nbsp;
+      <input name="author" type="text" class="input" id="author" size="10" value="$author" />&nbsp;来源:  
+	  <!--label><input type="checkbox" name="source_id[]" value="1"  />体坛网</label>
+	  <label><input type="checkbox" name="source_id[]" value="6"  />体坛周报</label-->
+      <input type="submit" value="搜索" class="btn" />
+      <input type="button" value="取消" class="btn" onclick="parent.cancelEditAnchorItem();" />
+	  </form>
+	  </td>
+  </tr>
+</table>
+
+</div>
+
+<div class="t">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class="tr2">
+    <td>标题</td>
+	<td>栏目</td>
+  </tr>
+EOT;
+foreach ($this->list as $value) {
+	if($value[url] == '') {
+		$value[url] = 'javascript:void(0);';
+	}
+    else {
+		$target=' target="_blank"';
+	}
+	$value[title] = strip_tags($value[title]);
+    print <<<EOT
+    <tr class="tr3" onmouseover="this.style.backgroundColor='#FFDDDD'" onmouseout="this.style.backgroundColor='#FFFFFF'">
+        <td><a href="$value[url]" title="$value[title]" onclick="return parent.setAnchorItem(this.href, this.title);">$value[title]</a></td>
+        <td>$value[cname]</td>
+    </tr>
+EOT;
+}
+print <<<EOT
+  <tr class="tr4">
+    <td style="text-align:right" colspan="2">$this->pagebar</td>
+  </tr>
+</table>
+</div>
+<script type="text/javascript">
+	$(":checkbox").val($this->source_id);
+</script>
+</body>
+</html>
+EOT;
+?>

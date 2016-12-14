@@ -1,0 +1,3611 @@
+a:20:{i:0;s:11656:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-V1游戏平台-V1网页游戏,全国最具权威的网页游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <link href="http://static.v1.cn/css/game/h5/pc/page/item.css" rel="stylesheet">
+</head>
+
+<body id="body">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                      <div class="ul_content">
+                        <ul class="pic_ul fl">
+<!--#
+$tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+$tj=$tj['photo'];
+foreach($tj as $photo){
+#-->
+                        <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+<!--#
+}
+#-->
+                        </ul>
+                      </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <div class="height" id="comment2" style="width:780px;float:left;">
+    <div class="commentLogin">
+
+        <!--<form action="http://discuss.v1.cn/discuss/comment/save-comment.jhtml" method="post" id="add-news"-->
+              <!--name="add-news">-->
+            <!--<input type="hidden" id="userId" name="news.userId" value="">-->
+            <!--<input type="hidden" id="userName" name="news.userName" value="">-->
+            <!--<input type="hidden" id="id" name="news.id" value="1778523">-->
+            <!--<input type="hidden" id="status" name="news.status" value="0">-->
+            <!--<input type="hidden" id="keyword" name="news.keyword" value="">-->
+            <!--<input type="hidden" id="ip" name="news.ip">-->
+            <!--<input type="hidden" id="operType" name="operType" value="post">-->
+            <!--<input type="hidden" id="curPage" name="curPage" value="">-->
+            <!--<input type="hidden" id="jumpURL" name="jumpURL"-->
+                   <!--value="http://ynews.v1.cn/news/news/jump.jhtml?newsId=384004&amp;to=http://ynews.v1.cn/news/news/jump.jhtml?newsId=1778523">-->
+            <!--<input type="hidden" id="postURL" name="postURL" value="http://discuss.v1.cn/discuss/comments/">-->
+        <form method="get" name="postForm" id="postForm" action="">
+                <input type="hidden" id="gameId" name="gameId" value="">
+
+            <div class="discuss">
+                <div id="disComment" class="comment">
+                    <div class="fbpl" id="no1">
+
+                        <h2>网友评论：</h2>
+
+                        <div class="f_l">&nbsp;<span class="c_black b f14">打分：</span></div>
+                        <div class="f_r">
+                            <div class="rating_detail">
+
+                                <div class="rating_line">
+                                    <div class="rating_list">
+                                        <input class="hover-star" type="radio" name="rater-0" value="2" title="很差"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="4" title="较差"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="6" title="可以"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="8" title="推荐"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="10" title="力荐"/>
+                                    </div>
+                                    <div id="hover-rater-0" class="rating_note"></div>
+                                </div>
+
+                            </div>
+                            <div class="rating_total">
+                                <span class="c_orange" id="value_final" >0</span>
+                            </div>
+                        </div>
+
+                        <div class="commentLogin">
+                            <textarea onclick="if(this.value=='我来说两句！')this.value='';" id="content_discuss"
+                                      name="content" class="textLogin2" >我来说两句！</textarea>
+
+                            <div id="num02">
+                                <span id="content_discuss_tips">还可输入 150个字。</span>
+                                <input type="button" value="发布评论" name="publish"  class="btn2 btn_gre_m">
+                                <input type="button" value="取消" name="close" class="btn2 J_close">
+                            </div>
+                        </div>
+
+                        <div class="pl_head">
+                            <span class="h40">全部评论</span><span class="h40">（</span><span id="itemTotalComment" class="h40"></span><span class="h40">）</span>
+                        </div>
+                    </div>
+
+                    <div class="pl_con" id="data" style="">
+
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+    </div>
+
+    <div style="display:none" id="fenye" class="page_change"></div>
+    <div style="display:none" id="data" class="pl_con"></div>
+    <div style="display:none" id="fenye2" class="page_change page_change_nl">
+        <div class="discussion"></div>
+        <!--
+                  <script>
+                    $(function(){
+                    var baseURL='http://discuss.v1.cn/discuss/comment/';
+                    submitComment(baseURL,'','','list');
+                    })
+                  </script> -->
+    </div>
+
+
+</div>
+
+
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <div class="ri_tj_box">
+    <div class="ri_tj_pic fl"><img src="http://static.v1.cn/images/game/h5/pic/008.png"></div>
+    <ul class="retui fl">
+        <li class="title">风色轨迹</li>
+        <li class="star"><img src="http://static.v1.cn/images/game/h5/item_star.png"><img
+                src="http://static.v1.cn/images/game/h5/item_star.png"><img
+                src="http://static.v1.cn/images/game/h5/item_star.png"><img
+                src="http://static.v1.cn/images/game/h5/item_star.png"><img
+                src="http://static.v1.cn/images/game/h5/item_star.png"></li>
+        <li>
+            <div class="ng_btn hh"><a href="http://pay.g.v1.cn/play?gameNo=1041"
+                                      class="btn_gre_n fl"
+                                      target="_self">抢先体验</a></div>
+        </li>
+    </ul>
+</div>
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <div class="jchd"><img src="http://static.v1.cn/images/game/h5/pic/ri_ad01.png"></div>
+<div class="jchd"><img src="http://static.v1.cn/images/game/h5/pic/ri_ad01.png"></div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    
+    <!--底部 start-->
+
+<!--ssi#include virtual="/pc/public/footer.html"-->
+    
+    <!--底部 end-->
+
+    
+
+
+    <script type="text/javascript" src="http://static.v1.cn/js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1.cn/js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1.cn/js/game/h5/plugin/jquery.form.js"></script>
+    <script type="text/javascript" src="http://static.v1.cn/js/sea.js"></script>
+    <script type="text/javascript">
+        seajs.use('http://static.v1.cn/js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";i:1;s:11646:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-V1游戏平台-V1网页游戏,全国最具权威的网页游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <link href="http://static.v1.cn/css/game/h5/pc/page/item.css" rel="stylesheet">
+</head>
+
+<body id="body">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                      <div class="ul_content">
+                        <ul class="pic_ul fl">
+<!--#
+$tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+$tj=$tj['photo'];
+foreach($tj as $photo){
+#-->
+                        <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+<!--#
+}
+#-->
+                        </ul>
+                      </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <div class="height" id="comment2" style="width:780px;float:left;">
+    <div class="commentLogin">
+
+        <!--<form action="http://discuss.v1.cn/discuss/comment/save-comment.jhtml" method="post" id="add-news"-->
+              <!--name="add-news">-->
+            <!--<input type="hidden" id="userId" name="news.userId" value="">-->
+            <!--<input type="hidden" id="userName" name="news.userName" value="">-->
+            <!--<input type="hidden" id="id" name="news.id" value="1778523">-->
+            <!--<input type="hidden" id="status" name="news.status" value="0">-->
+            <!--<input type="hidden" id="keyword" name="news.keyword" value="">-->
+            <!--<input type="hidden" id="ip" name="news.ip">-->
+            <!--<input type="hidden" id="operType" name="operType" value="post">-->
+            <!--<input type="hidden" id="curPage" name="curPage" value="">-->
+            <!--<input type="hidden" id="jumpURL" name="jumpURL"-->
+                   <!--value="http://ynews.v1.cn/news/news/jump.jhtml?newsId=384004&amp;to=http://ynews.v1.cn/news/news/jump.jhtml?newsId=1778523">-->
+            <!--<input type="hidden" id="postURL" name="postURL" value="http://discuss.v1.cn/discuss/comments/">-->
+        <form method="get" name="postForm" id="postForm" action="">
+                <input type="hidden" id="gameId" name="gameId" value="">
+
+            <div class="discuss">
+                <div id="disComment" class="comment">
+                    <div class="fbpl" id="no1">
+
+                        <h2>网友评论：</h2>
+
+                        <div class="f_l">&nbsp;<span class="c_black b f14">打分：</span></div>
+                        <div class="f_r">
+                            <div class="rating_detail">
+
+                                <div class="rating_line">
+                                    <div class="rating_list">
+                                        <input class="hover-star" type="radio" name="rater-0" value="2" title="很差"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="4" title="较差"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="6" title="可以"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="8" title="推荐"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="10" title="力荐"/>
+                                    </div>
+                                    <div id="hover-rater-0" class="rating_note"></div>
+                                </div>
+
+                            </div>
+                            <div class="rating_total">
+                                <span class="c_orange" id="value_final" >0</span>
+                            </div>
+                        </div>
+
+                        <div class="commentLogin">
+                            <textarea onclick="if(this.value=='我来说两句！')this.value='';" id="content_discuss"
+                                      name="content" class="textLogin2" >我来说两句！</textarea>
+
+                            <div id="num02">
+                                <span id="content_discuss_tips">还可输入 150个字。</span>
+                                <input type="button" value="发布评论" name="publish"  class="btn2 btn_gre_m">
+                                <input type="button" value="取消" name="close" class="btn2 J_close">
+                            </div>
+                        </div>
+
+                        <div class="pl_head">
+                            <span class="h40">全部评论</span><span class="h40">（</span><span id="itemTotalComment" class="h40"></span><span class="h40">）</span>
+                        </div>
+                    </div>
+
+                    <div class="pl_con" id="data" style="">
+
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+    </div>
+
+    <div style="display:none" id="fenye" class="page_change"></div>
+    <div style="display:none" id="data" class="pl_con"></div>
+    <div style="display:none" id="fenye2" class="page_change page_change_nl">
+        <div class="discussion"></div>
+        <!--
+                  <script>
+                    $(function(){
+                    var baseURL='http://discuss.v1.cn/discuss/comment/';
+                    submitComment(baseURL,'','','list');
+                    })
+                  </script> -->
+    </div>
+
+
+</div>
+
+
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <div class="ri_tj_box">
+    <div class="ri_tj_pic fl"><img src="http://static.v1.cn/images/game/h5/pic/008.png"></div>
+    <ul class="retui fl">
+        <li class="title">风色轨迹</li>
+        <li class="ng_star">
+            <div class="infostar fl">
+                <div class="commentstar">
+                    <div class="df-stars">
+                        <span class="allstar00" rating="6" style="width:0px"></span>
+                    </div>
+                    <div class="num" id="itemRating"></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="ng_btn hh"><a href="http://pay.g.v1.cn/play?gameNo=1041"
+                                      class="btn_gre_n fl"
+                                      target="_self">抢先体验</a></div>
+        </li>
+    </ul>
+</div>
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <div class="jchd"><img src="http://static.v1.cn/images/game/h5/pic/ri_ad01.png"></div>
+<div class="jchd"><img src="http://static.v1.cn/images/game/h5/pic/ri_ad01.png"></div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    
+    <!--底部 start-->
+
+<!--ssi#include virtual="/pc/public/footer.html"-->
+    
+    <!--底部 end-->
+
+    
+
+
+    <script type="text/javascript" src="http://static.v1.cn/js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1.cn/js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1.cn/js/game/h5/plugin/jquery.form.js"></script>
+    <script type="text/javascript" src="http://static.v1.cn/js/sea.js"></script>
+    <script type="text/javascript">
+        seajs.use('http://static.v1.cn/js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";i:2;s:11651:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-V1游戏平台-V1网页游戏,全国最具权威的网页游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <link href="http://static.v1.cn/css/game/h5/pc/page/item.css" rel="stylesheet">
+</head>
+
+<body id="body">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start play" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                      <div class="ul_content">
+                        <ul class="pic_ul fl">
+<!--#
+$tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+$tj=$tj['photo'];
+foreach($tj as $photo){
+#-->
+                        <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+<!--#
+}
+#-->
+                        </ul>
+                      </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <div class="height" id="comment2" style="width:780px;float:left;">
+    <div class="commentLogin">
+
+        <!--<form action="http://discuss.v1.cn/discuss/comment/save-comment.jhtml" method="post" id="add-news"-->
+              <!--name="add-news">-->
+            <!--<input type="hidden" id="userId" name="news.userId" value="">-->
+            <!--<input type="hidden" id="userName" name="news.userName" value="">-->
+            <!--<input type="hidden" id="id" name="news.id" value="1778523">-->
+            <!--<input type="hidden" id="status" name="news.status" value="0">-->
+            <!--<input type="hidden" id="keyword" name="news.keyword" value="">-->
+            <!--<input type="hidden" id="ip" name="news.ip">-->
+            <!--<input type="hidden" id="operType" name="operType" value="post">-->
+            <!--<input type="hidden" id="curPage" name="curPage" value="">-->
+            <!--<input type="hidden" id="jumpURL" name="jumpURL"-->
+                   <!--value="http://ynews.v1.cn/news/news/jump.jhtml?newsId=384004&amp;to=http://ynews.v1.cn/news/news/jump.jhtml?newsId=1778523">-->
+            <!--<input type="hidden" id="postURL" name="postURL" value="http://discuss.v1.cn/discuss/comments/">-->
+        <form method="get" name="postForm" id="postForm" action="">
+                <input type="hidden" id="gameId" name="gameId" value="">
+
+            <div class="discuss">
+                <div id="disComment" class="comment">
+                    <div class="fbpl" id="no1">
+
+                        <h2>网友评论：</h2>
+
+                        <div class="f_l">&nbsp;<span class="c_black b f14">打分：</span></div>
+                        <div class="f_r">
+                            <div class="rating_detail">
+
+                                <div class="rating_line">
+                                    <div class="rating_list">
+                                        <input class="hover-star" type="radio" name="rater-0" value="2" title="很差"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="4" title="较差"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="6" title="可以"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="8" title="推荐"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="10" title="力荐"/>
+                                    </div>
+                                    <div id="hover-rater-0" class="rating_note"></div>
+                                </div>
+
+                            </div>
+                            <div class="rating_total">
+                                <span class="c_orange" id="value_final" >0</span>
+                            </div>
+                        </div>
+
+                        <div class="commentLogin">
+                            <textarea onclick="if(this.value=='我来说两句！')this.value='';" id="content_discuss"
+                                      name="content" class="textLogin2" >我来说两句！</textarea>
+
+                            <div id="num02">
+                                <span id="content_discuss_tips">还可输入 150个字。</span>
+                                <input type="button" value="发布评论" name="publish"  class="btn2 btn_gre_m">
+                                <input type="button" value="取消" name="close" class="btn2 J_close">
+                            </div>
+                        </div>
+
+                        <div class="pl_head">
+                            <span class="h40">全部评论</span><span class="h40">（</span><span id="itemTotalComment" class="h40"></span><span class="h40">）</span>
+                        </div>
+                    </div>
+
+                    <div class="pl_con" id="data" style="">
+
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+    </div>
+
+    <div style="display:none" id="fenye" class="page_change"></div>
+    <div style="display:none" id="data" class="pl_con"></div>
+    <div style="display:none" id="fenye2" class="page_change page_change_nl">
+        <div class="discussion"></div>
+        <!--
+                  <script>
+                    $(function(){
+                    var baseURL='http://discuss.v1.cn/discuss/comment/';
+                    submitComment(baseURL,'','','list');
+                    })
+                  </script> -->
+    </div>
+
+
+</div>
+
+
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <div class="ri_tj_box">
+    <div class="ri_tj_pic fl"><img src="http://static.v1.cn/images/game/h5/pic/008.png"></div>
+    <ul class="retui fl">
+        <li class="title">风色轨迹</li>
+        <li class="ng_star">
+            <div class="infostar fl">
+                <div class="commentstar">
+                    <div class="df-stars">
+                        <span class="allstar00" rating="6" style="width:0px"></span>
+                    </div>
+                    <div class="num" id="itemRating"></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="ng_btn hh"><a href="http://pay.g.v1.cn/play?gameNo=1041"
+                                      class="btn_gre_n fl"
+                                      target="_self">抢先体验</a></div>
+        </li>
+    </ul>
+</div>
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <div class="jchd"><img src="http://static.v1.cn/images/game/h5/pic/ri_ad01.png"></div>
+<div class="jchd"><img src="http://static.v1.cn/images/game/h5/pic/ri_ad01.png"></div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    
+    <!--底部 start-->
+
+<!--ssi#include virtual="/pc/public/footer.html"-->
+    
+    <!--底部 end-->
+
+    
+
+
+    <script type="text/javascript" src="http://static.v1.cn/js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1.cn/js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1.cn/js/game/h5/plugin/jquery.form.js"></script>
+    <script type="text/javascript" src="http://static.v1.cn/js/sea.js"></script>
+    <script type="text/javascript">
+        seajs.use('http://static.v1.cn/js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";i:3;s:11757:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-V1游戏平台-V1网页游戏,全国最具权威的网页游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <link href="http://static.v1.cn/css/game/h5/pc/page/item.css" rel="stylesheet">
+</head>
+
+<body id="body">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start play" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                      <div class="ul_content">
+                        <ul class="pic_ul fl">
+<!--#
+$tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+$tj=$tj['photo'];
+foreach($tj as $photo){
+#-->
+                        <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+<!--#
+}
+#-->
+                        </ul>
+                      </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <div class="height" id="comment2" style="width:780px;float:left;">
+    <div class="commentLogin">
+
+        <!--<form action="http://discuss.v1.cn/discuss/comment/save-comment.jhtml" method="post" id="add-news"-->
+              <!--name="add-news">-->
+            <!--<input type="hidden" id="userId" name="news.userId" value="">-->
+            <!--<input type="hidden" id="userName" name="news.userName" value="">-->
+            <!--<input type="hidden" id="id" name="news.id" value="1778523">-->
+            <!--<input type="hidden" id="status" name="news.status" value="0">-->
+            <!--<input type="hidden" id="keyword" name="news.keyword" value="">-->
+            <!--<input type="hidden" id="ip" name="news.ip">-->
+            <!--<input type="hidden" id="operType" name="operType" value="post">-->
+            <!--<input type="hidden" id="curPage" name="curPage" value="">-->
+            <!--<input type="hidden" id="jumpURL" name="jumpURL"-->
+                   <!--value="http://ynews.v1.cn/news/news/jump.jhtml?newsId=384004&amp;to=http://ynews.v1.cn/news/news/jump.jhtml?newsId=1778523">-->
+            <!--<input type="hidden" id="postURL" name="postURL" value="http://discuss.v1.cn/discuss/comments/">-->
+        <form method="get" name="postForm" id="postForm" action="">
+                <input type="hidden" id="gameId" name="gameId" value="">
+
+            <div class="discuss">
+                <div id="disComment" class="comment">
+                    <div class="fbpl" id="no1">
+
+                        <h2>网友评论：</h2>
+
+                        <div class="f_l">&nbsp;<span class="c_black b f14">打分：</span></div>
+                        <div class="f_r">
+                            <div class="rating_detail">
+
+                                <div class="rating_line">
+                                    <div class="rating_list">
+                                        <input class="hover-star" type="radio" name="rater-0" value="2" title="很差"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="4" title="较差"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="6" title="可以"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="8" title="推荐"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="10" title="力荐"/>
+                                    </div>
+                                    <div id="hover-rater-0" class="rating_note"></div>
+                                </div>
+
+                            </div>
+                            <div class="rating_total">
+                                <span class="c_orange" id="value_final" >0</span>
+                            </div>
+                        </div>
+
+                        <div class="commentLogin">
+                            <textarea onclick="if(this.value=='我来说两句！')this.value='';" id="content_discuss"
+                                      name="content" class="textLogin2" >我来说两句！</textarea>
+
+                            <div id="num02">
+                                <span id="content_discuss_tips">还可输入 150个字。</span>
+                                <input type="button" value="发布评论" name="publish"  class="btn2 btn_gre_m">
+                                <input type="button" value="取消" name="close" class="btn2 J_close">
+                            </div>
+                        </div>
+
+                        <div class="pl_head">
+                            <span class="h40">全部评论</span><span class="h40">（</span><span id="itemTotalComment" class="h40"></span><span class="h40">）</span>
+                        </div>
+                    </div>
+
+                    <div class="pl_con" id="data" style="">
+
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+    </div>
+
+    <div style="display:none" id="fenye" class="page_change"></div>
+    <div style="display:none" id="data" class="pl_con"></div>
+    <div style="display:none" id="fenye2" class="page_change page_change_nl">
+        <div class="discussion"></div>
+        <!--
+                  <script>
+                    $(function(){
+                    var baseURL='http://discuss.v1.cn/discuss/comment/';
+                    submitComment(baseURL,'','','list');
+                    })
+                  </script> -->
+    </div>
+
+
+</div>
+
+
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <div class="ri_tj_box">
+    <div class="ri_tj_pic fl"><img src="http://static.v1.cn/images/game/h5/pic/008.png"></div>
+    <ul class="retui fl">
+        <li class="title">风色轨迹</li>
+        <li class="ng_star">
+            <div class="infostar fl">
+                <div class="commentstar">
+                    <div class="df-stars">
+                        <span class="allstar00" rating="6" style="width:0px"></span>
+                    </div>
+                    <div class="num" id="itemRating"></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="ng_btn hh"><a href="http://pay.g.v1.cn/play?gameNo=1041"
+                                      class="btn_gre_n fl"
+                                      target="_self">抢先体验</a></div>
+        </li>
+    </ul>
+</div>
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <div class="jchd"><img src="http://static.v1.cn/images/game/h5/pic/ri_ad01.png"></div>
+<div class="jchd"><img src="http://static.v1.cn/images/game/h5/pic/ri_ad01.png"></div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    
+    <!--底部 start-->
+
+<!--ssi#include virtual="/pc/public/footer.html"-->
+    
+    <!--底部 end-->
+
+    
+
+
+    <script type="text/javascript" src="http://static.v1.cn/js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1.cn/js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1.cn/js/game/h5/plugin/jquery.form.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script type="text/javascript" src="http://static.v1.cn/js/sea.js"></script>
+    <script type="text/javascript">
+        seajs.use('http://static.v1.cn/js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";i:4;s:11819:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-V1游戏平台-V1网页游戏,全国最具权威的网页游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <link href="http://static.v1game.cn/201506231/css/game/h5/pc/page/item.css" rel="stylesheet">
+</head>
+
+<body id="body">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start play" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                      <div class="ul_content">
+                        <ul class="pic_ul fl">
+<!--#
+$tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+$tj=$tj['photo'];
+foreach($tj as $photo){
+#-->
+                        <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+<!--#
+}
+#-->
+                        </ul>
+                      </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <div class="height" id="comment2" style="width:780px;float:left;">
+    <div class="commentLogin">
+
+        <!--<form action="http://discuss.v1.cn/discuss/comment/save-comment.jhtml" method="post" id="add-news"-->
+              <!--name="add-news">-->
+            <!--<input type="hidden" id="userId" name="news.userId" value="">-->
+            <!--<input type="hidden" id="userName" name="news.userName" value="">-->
+            <!--<input type="hidden" id="id" name="news.id" value="1778523">-->
+            <!--<input type="hidden" id="status" name="news.status" value="0">-->
+            <!--<input type="hidden" id="keyword" name="news.keyword" value="">-->
+            <!--<input type="hidden" id="ip" name="news.ip">-->
+            <!--<input type="hidden" id="operType" name="operType" value="post">-->
+            <!--<input type="hidden" id="curPage" name="curPage" value="">-->
+            <!--<input type="hidden" id="jumpURL" name="jumpURL"-->
+                   <!--value="http://ynews.v1.cn/news/news/jump.jhtml?newsId=384004&amp;to=http://ynews.v1.cn/news/news/jump.jhtml?newsId=1778523">-->
+            <!--<input type="hidden" id="postURL" name="postURL" value="http://discuss.v1.cn/discuss/comments/">-->
+        <form method="get" name="postForm" id="postForm" action="">
+                <input type="hidden" id="gameId" name="gameId" value="">
+
+            <div class="discuss">
+                <div id="disComment" class="comment">
+                    <div class="fbpl" id="no1">
+
+                        <h2>网友评论：</h2>
+
+                        <div class="f_l">&nbsp;<span class="c_black b f14">打分：</span></div>
+                        <div class="f_r">
+                            <div class="rating_detail">
+
+                                <div class="rating_line">
+                                    <div class="rating_list">
+                                        <input class="hover-star" type="radio" name="rater-0" value="2" title="很差"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="4" title="较差"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="6" title="可以"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="8" title="推荐"/>
+                                        <input class="hover-star" type="radio" name="rater-0" value="10" title="力荐"/>
+                                    </div>
+                                    <div id="hover-rater-0" class="rating_note"></div>
+                                </div>
+
+                            </div>
+                            <div class="rating_total">
+                                <span class="c_orange" id="value_final" >0</span>
+                            </div>
+                        </div>
+
+                        <div class="commentLogin">
+                            <textarea onclick="if(this.value=='我来说两句！')this.value='';" id="content_discuss"
+                                      name="content" class="textLogin2" >我来说两句！</textarea>
+
+                            <div id="num02">
+                                <span id="content_discuss_tips">还可输入 150个字。</span>
+                                <input type="button" value="发布评论" name="publish"  class="btn2 btn_gre_m">
+                                <input type="button" value="取消" name="close" class="btn2 J_close">
+                            </div>
+                        </div>
+
+                        <div class="pl_head">
+                            <span class="h40">全部评论</span><span class="h40">（</span><span id="itemTotalComment" class="h40"></span><span class="h40">）</span>
+                        </div>
+                    </div>
+
+                    <div class="pl_con" id="data" style="">
+
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+    </div>
+
+    <div style="display:none" id="fenye" class="page_change"></div>
+    <div style="display:none" id="data" class="pl_con"></div>
+    <div style="display:none" id="fenye2" class="page_change page_change_nl">
+        <div class="discussion"></div>
+        <!--
+                  <script>
+                    $(function(){
+                    var baseURL='http://discuss.v1.cn/discuss/comment/';
+                    submitComment(baseURL,'','','list');
+                    })
+                  </script> -->
+    </div>
+
+
+</div>
+
+
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <div class="ri_tj_box">
+    <div class="ri_tj_pic fl"><img src="http://static.v1.cn/images/game/h5/pic/008.png"></div>
+    <ul class="retui fl">
+        <li class="title">风色轨迹</li>
+        <li class="ng_star">
+            <div class="infostar fl">
+                <div class="commentstar">
+                    <div class="df-stars">
+                        <span class="allstar00" rating="6" style="width:0px"></span>
+                    </div>
+                    <div class="num" id="itemRating"></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="ng_btn hh"><a href="http://pay.g.v1.cn/play?gameNo=1041"
+                                      class="btn_gre_n fl"
+                                      target="_self">抢先体验</a></div>
+        </li>
+    </ul>
+</div>
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <div class="jchd"><img src="http://static.v1.cn/images/game/h5/pic/ri_ad01.png"></div>
+<div class="jchd"><img src="http://static.v1.cn/images/game/h5/pic/ri_ad01.png"></div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    
+    <!--底部 start-->
+
+<!--ssi#include virtual="/pc/public/footer.html"-->
+    
+    <!--底部 end-->
+
+    
+
+
+    <script type="text/javascript" src="http://static.v1.cn/201506231/js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1.cn/js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1.cn/201506231/js/game/h5/plugin/jquery.form.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/201506231/js/sea.js"></script>
+    <script type="text/javascript">
+        seajs.use('http://static.v1game.cn/201506231/js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";i:5;s:6416:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-V1游戏平台-V1网页游戏,全国最具权威的网页游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <link href="http://static.v1game.cn/201506231/css/game/h5/pc/page/item.css" rel="stylesheet">
+</head>
+
+<body id="body">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start play" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                      <div class="ul_content">
+                        <ul class="pic_ul fl">
+<!--#
+$tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+$tj=$tj['photo'];
+foreach($tj as $photo){
+#-->
+                        <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+<!--#
+}
+#-->
+                        </ul>
+                      </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <!--ssi#include virtual="comment.html"-->
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <!--ssi#include virtual="./recommend.shtml"-->
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <!--ssi#include virtual="./activity.shtml"-->
+
+            </div>
+
+
+        </div>
+
+    </div>
+    
+    <!--底部 start-->
+
+<!--ssi#include virtual="/pc/public/footer.html"-->
+    
+    <!--底部 end-->
+
+    
+
+
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.form.js"></script>
+    <script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/sea.js"></script>
+    <script type="text/javascript">
+        seajs.use('http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";i:6;s:6480:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--ssi# echo $title #-->-V1游戏平台-V1网页游戏,全国最具权威的网页游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+
+    <!--ssi#include virtual="/version.shtml"-->
+    <link href="http://static.v1game.cn/<!--ssi#echo var="version"-->css/game/h5/pc/page/item.css" rel="stylesheet">
+
+<body id="body">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start play" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                      <div class="ul_content">
+                        <ul class="pic_ul fl">
+<!--#
+$tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+$tj=$tj['photo'];
+foreach($tj as $photo){
+#-->
+                        <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+<!--#
+}
+#-->
+                        </ul>
+                      </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <!--ssi#include virtual="comment.html"-->
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <!--ssi#include virtual="./recommend.shtml"-->
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <!--ssi#include virtual="./activity.shtml"-->
+
+            </div>
+
+
+        </div>
+
+    </div>
+    
+    <!--底部 start-->
+
+<!--ssi#include virtual="/pc/public/footer.html"-->
+    
+    <!--底部 end-->
+
+    
+
+
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.form.js"></script>
+    <script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/sea.js"></script>
+    <script type="text/javascript">
+        seajs.use('http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";i:7;s:6477:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-V1游戏平台-V1网页游戏,全国最具权威的网页游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+
+    <!--ssi#include virtual="/version.shtml"-->
+    <link href="http://static.v1game.cn/<!--ssi#echo var="version"-->css/game/h5/pc/page/item.css" rel="stylesheet">
+
+<body id="body">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start play" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                      <div class="ul_content">
+                        <ul class="pic_ul fl">
+<!--#
+$tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+$tj=$tj['photo'];
+foreach($tj as $photo){
+#-->
+                        <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+<!--#
+}
+#-->
+                        </ul>
+                      </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <!--ssi#include virtual="comment.html"-->
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <!--ssi#include virtual="./recommend.shtml"-->
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <!--ssi#include virtual="./activity.shtml"-->
+
+            </div>
+
+
+        </div>
+
+    </div>
+    
+    <!--底部 start-->
+
+<!--ssi#include virtual="/pc/public/footer.html"-->
+    
+    <!--底部 end-->
+
+    
+
+
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.form.js"></script>
+    <script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/sea.js"></script>
+    <script type="text/javascript">
+        seajs.use('http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";i:8;s:6756:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-V1游戏平台-V1网页游戏,全国最具权威的网页游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <!--ssi#include virtual="/version.shtml"-->
+    <link href="http://static.v1game.cn/<!--ssi#echo var="version"-->css/game/h5/pc/page/item.css" rel="stylesheet">
+</head>
+
+<body id="body">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start play" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                        <div class="ul_content">
+                            <ul class="pic_ul fl">
+                                <!--#
+                                $tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+                                $tj=$tj['photo'];
+                                foreach($tj as $photo){
+                                #-->
+                                <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+                                <!--#
+                                }
+                                #-->
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <!--ssi#include virtual="/pc/comment.html"-->
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <!--ssi#include virtual="/pc/recommend.shtml"-->
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <!--ssi#include virtual="/pc/activity.shtml"-->
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!--底部 start-->
+
+    <!--ssi#include virtual="/pc/public/footer.html"-->
+
+    <!--底部 end-->
+
+
+
+
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.form.js"></script>
+    <script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/sea.js"></script>
+    <script type="text/javascript">
+    seajs.use('http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";i:9;s:6763:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-V1游戏平台-V1网页游戏,全国最具权威的网页游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <!--ssi#include virtual="/version.shtml"-->
+    <link href="http://static.v1game.cn/<!--ssi#echo var="version"-->css/game/h5/pc/page/item.css" rel="stylesheet">
+</head>
+
+<body id="body">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start play" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                        <div class="ul_content">
+                            <ul class="pic_ul fl">
+                                <!--#
+                                $tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+                                $tj=$tj['photo'];
+                                foreach($tj as $photo){
+                                #-->
+                                <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+                                <!--#
+                                }
+                                #-->
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <!--ssi#include virtual="/comment.html"-->
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <!--ssi#include virtual="/pc/info/recommend.shtml"-->
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <!--ssi#include virtual="/pc/info/activity.shtml"-->
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!--底部 start-->
+
+    <!--ssi#include virtual="/pc/public/footer.html"-->
+
+    <!--底部 end-->
+
+
+
+
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.form.js"></script>
+    <script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/sea.js"></script>
+    <script type="text/javascript">
+    seajs.use('http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";i:10;s:6765:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-V1游戏平台-V1网页游戏,全国最具权威的网页游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <!--ssi#include virtual="/version.shtml"-->
+    <link href="http://static.v1game.cn/<!--ssi#echo var="version"-->css/game/h5/pc/page/item.css" rel="stylesheet">
+</head>
+
+<body id="body">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start play" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                        <div class="ul_content">
+                            <ul class="pic_ul fl">
+                                <!--#
+                                $tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+                                $tj=$tj['photo'];
+                                foreach($tj as $photo){
+                                #-->
+                                <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+                                <!--#
+                                }
+                                #-->
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <!--ssi#include virtual="/comment.html"-->
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <!--ssi#include virtual="/pc/info/recommend.shtml"-->
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <!--ssi#include virtual="/pc/public/activity.shtml"-->
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!--底部 start-->
+
+    <!--ssi#include virtual="/pc/public/footer.html"-->
+
+    <!--底部 end-->
+
+
+
+
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.form.js"></script>
+    <script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/sea.js"></script>
+    <script type="text/javascript">
+    seajs.use('http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";i:11;s:6768:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-V1游戏平台-V1网页游戏,全国最具权威的网页游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <!--ssi#include virtual="/version.shtml"-->
+    <link href="http://static.v1game.cn/<!--ssi#echo var="version"-->css/game/h5/pc/page/item.css" rel="stylesheet">
+</head>
+
+<body id="body">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start play" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                        <div class="ul_content">
+                            <ul class="pic_ul fl">
+                                <!--#
+                                $tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+                                $tj=$tj['photo'];
+                                foreach($tj as $photo){
+                                #-->
+                                <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+                                <!--#
+                                }
+                                #-->
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <!--ssi#include virtual="/pc/public/comment.html"-->
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <!--ssi#include virtual="/pc/info/recommend.shtml"-->
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <!--ssi#include virtual="/pc/activity.shtml"-->
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!--底部 start-->
+
+    <!--ssi#include virtual="/pc/public/footer.html"-->
+
+    <!--底部 end-->
+
+
+
+
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.form.js"></script>
+    <script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/sea.js"></script>
+    <script type="text/javascript">
+    seajs.use('http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";i:12;s:6765:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-V1游戏平台-V1网页游戏,全国最具权威的网页游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <!--ssi#include virtual="/version.shtml"-->
+    <link href="http://static.v1game.cn/<!--ssi#echo var="version"-->css/game/h5/pc/page/item.css" rel="stylesheet">
+</head>
+
+<body id="body">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start play" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                        <div class="ul_content">
+                            <ul class="pic_ul fl">
+                                <!--#
+                                $tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+                                $tj=$tj['photo'];
+                                foreach($tj as $photo){
+                                #-->
+                                <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+                                <!--#
+                                }
+                                #-->
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <!--ssi#include virtual="/pc/public/comment.html"-->
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <!--ssi#include virtual="/pc/public/recommend.shtml"-->
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <!--ssi#include virtual="/pc/public/activity.shtml"-->
+            </div>
+        </div>
+    </div>
+
+    <!--底部 start-->
+
+    <!--ssi#include virtual="/pc/public/footer.html"-->
+
+    <!--底部 end-->
+
+
+
+
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.form.js"></script>
+    <script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/sea.js"></script>
+    <script type="text/javascript">
+    seajs.use('http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";i:13;s:6765:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-V1游戏平台-V1网页游戏,全国最具权威的网页游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <!--ssi#include virtual="/version.shtml"-->
+    <link href="http://static.v1game.cn/<!--ssi#echo var="version"-->css/game/h5/pc/page/item.css" rel="stylesheet">
+</head>
+
+<body id="body">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start play" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                        <div class="ul_content">
+                            <ul class="pic_ul fl">
+                                <!--#
+                                $tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+                                $tj=$tj['photo'];
+                                foreach($tj as $photo){
+                                #-->
+                                <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+                                <!--#
+                                }
+                                #-->
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <!--ssi#include virtual="/pc/public/comment.html"-->
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <!--ssi#include virtual="/pc/public/recommend.shtml"-->
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <!--ssi#include virtual="/pc/public/activity.shtml"-->
+            </div>
+        </div>
+    </div>
+
+    <!--底部 start-->
+
+    <!--ssi#include virtual="/pc/public/footer.html"-->
+
+    <!--底部 end-->
+
+
+
+
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.form.js"></script>
+    <script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/sea.js"></script>
+    <script type="text/javascript">
+    seajs.use('http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";i:14;s:6864:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-V1游戏平台-全国最具权威的H5游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <!--ssi#include virtual="/version.shtml"-->
+    <link href="http://static.v1game.cn/<!--ssi#echo var="version"-->css/game/h5/pc/page/item.css" rel="stylesheet">
+</head>
+
+<body id="body">
+<img src="http://h.v1game.cn/images/game/h5/logowx.jpg" width="0" height="0" style="position:absolute;left:-9999px">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start play" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                        <div class="ul_content">
+                            <ul class="pic_ul fl">
+                                <!--#
+                                $tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+                                $tj=$tj['photo'];
+                                foreach($tj as $photo){
+                                #-->
+                                <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+                                <!--#
+                                }
+                                #-->
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <!--ssi#include virtual="/pc/public/comment.html"-->
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <!--ssi#include virtual="/pc/public/recommend.shtml"-->
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <!--ssi#include virtual="/pc/public/activity.shtml"-->
+            </div>
+        </div>
+    </div>
+
+    <!--底部 start-->
+
+    <!--ssi#include virtual="/pc/public/footer.html"-->
+
+    <!--底部 end-->
+
+
+
+
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.form.js"></script>
+    <script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/sea.js"></script>
+    <script type="text/javascript">
+    seajs.use('http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";i:15;s:6746:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-V1游戏平台-全国最具权威的H5游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <!--ssi#include virtual="/version.shtml"-->
+    <link href="http://static.v1game.cn/<!--ssi#echo var="version"-->css/game/h5/pc/page/item.css" rel="stylesheet">
+</head>
+
+<body id="body">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start play" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                        <div class="ul_content">
+                            <ul class="pic_ul fl">
+                                <!--#
+                                $tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+                                $tj=$tj['photo'];
+                                foreach($tj as $photo){
+                                #-->
+                                <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+                                <!--#
+                                }
+                                #-->
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <!--ssi#include virtual="/pc/public/comment.html"-->
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <!--ssi#include virtual="/pc/public/recommend.shtml"-->
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <!--ssi#include virtual="/pc/public/activity.shtml"-->
+            </div>
+        </div>
+    </div>
+
+    <!--底部 start-->
+
+    <!--ssi#include virtual="/pc/public/footer.html"-->
+
+    <!--底部 end-->
+
+
+
+
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.form.js"></script>
+    <script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/sea.js"></script>
+    <script type="text/javascript">
+    seajs.use('http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";i:16;s:6837:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-V1游戏平台-全国最具权威的H5游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <!--ssi#include virtual="/version.shtml"-->
+    <link href="http://static.v1game.cn/<!--ssi#echo var="version"-->css/game/h5/pc/page/item.css" rel="stylesheet">
+</head>
+
+<body id="body">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" class="wxmask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <i class="J_close close"></i>
+        <h3 class="box_title"></h3>
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start play" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                        <div class="ul_content">
+                            <ul class="pic_ul fl">
+                                <!--#
+                                $tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+                                $tj=$tj['photo'];
+                                foreach($tj as $photo){
+                                #-->
+                                <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+                                <!--#
+                                }
+                                #-->
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <!--ssi#include virtual="/pc/public/comment.html"-->
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <!--ssi#include virtual="/pc/public/recommend.shtml"-->
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <!--ssi#include virtual="/pc/public/activity.shtml"-->
+            </div>
+        </div>
+    </div>
+
+    <!--底部 start-->
+
+    <!--ssi#include virtual="/pc/public/footer.html"-->
+
+    <!--底部 end-->
+
+
+
+
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.form.js"></script>
+    <script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/sea.js"></script>
+    <script type="text/javascript">
+    seajs.use('http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";i:17;s:6800:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-V1游戏平台-全国最具权威的H5游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <!--ssi#include virtual="/version.shtml"-->
+    <link href="http://static.v1game.cn/<!--ssi#echo var="version"-->css/game/h5/pc/page/item.css" rel="stylesheet">
+</head>
+
+<body id="body">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" class="wxmask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <i class="J_close close"></i>
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start play" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                        <div class="ul_content">
+                            <ul class="pic_ul fl">
+                                <!--#
+                                $tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+                                $tj=$tj['photo'];
+                                foreach($tj as $photo){
+                                #-->
+                                <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+                                <!--#
+                                }
+                                #-->
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <!--ssi#include virtual="/pc/public/comment.html"-->
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <!--ssi#include virtual="/pc/public/recommend.shtml"-->
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <!--ssi#include virtual="/pc/public/activity.shtml"-->
+            </div>
+        </div>
+    </div>
+
+    <!--底部 start-->
+
+    <!--ssi#include virtual="/pc/public/footer.html"-->
+
+    <!--底部 end-->
+
+
+
+
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.form.js"></script>
+    <script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/sea.js"></script>
+    <script type="text/javascript">
+    seajs.use('http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";i:18;s:6824:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-V1游戏平台-全国最具权威的H5游戏平台,V1游戏致力于把最好的游戏奉献给玩家</title>
+    <!--ssi#include virtual="/version.shtml"-->
+    <link href="http://static.v1game.cn/<!--ssi#echo var="version"-->css/game/h5/pc/page/item.css" rel="stylesheet">
+</head>
+
+<body id="body">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" class="wxmask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <i class="J_close close"></i>
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start play" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                        <div class="ul_content">
+                            <ul class="pic_ul fl">
+                                <!--#
+                                $tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+                                $tj=$tj['photo'];
+                                foreach($tj as $photo){
+                                #-->
+                                <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+                                <!--#
+                                }
+                                #-->
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <!--ssi#include virtual="/pc/public/comment.html"-->
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <!--ssi#include virtual="/pc/public/recommend.shtml"-->
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <!--ssi#include virtual="/pc/public/activity.shtml"-->
+            </div>
+        </div>
+    </div>
+
+    <!--底部 start-->
+
+    <!--ssi#include virtual="/pc/public/footer.html"-->
+
+    <!--底部 end-->
+
+
+
+
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.form.js"></script>
+    <script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/sea.js"></script>
+    <script type="text/javascript">
+    seajs.use('http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";i:19;s:6804:"<!--# $categoriesArray=CMS_FUNCTION('CmsGetCategories', $cid) #-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="bannerTitle" content="info">
+    <title><!--# echo $title #-->-第一游戏网</title>
+    <meta name="keywords" content="<!--# echo $keywords #-->" />
+    <!--ssi#include virtual="/version.shtml"-->
+    <link href="http://static.v1game.cn/<!--ssi#echo var="version"-->css/game/h5/pc/page/item.css" rel="stylesheet">
+</head>
+
+<body id="body">
+<!--header begin-->
+<!--ssi#include virtual="/pc/public/header.html"-->
+<!--header end-->
+
+<!--二维码遮罩 start-->
+<div id="codeMask" class="wxmask" style="display:none;">
+    <div class="mask"></div>
+    <div class="box_tc box_pre">
+        <i class="J_close close"></i>
+        <span class="wx_tip"></span>
+        <div class="box_tc_pic"><img src=""> </div>
+    </div>
+</div>
+<!--二维码遮罩 end-->
+
+<!--最终页main start-->
+<div class="page_wrap">
+    <div class="main clearfix">
+        <!--最终页main－left start-->
+
+        <div class="item_left fl">
+            <div class="box1warp clearfix box_sd">
+                <div class="pic fl"><a href="javascript:void(0);"><img class="ng_img_con" alt="" src="<!--#echo $image#-->"></a>
+                </div>
+                <ul class="gameinf fl">
+                    <li class="gi_name"><a href="javascript:void(0);"><!--# echo $title #--></a></li>
+                    <li class="gi_star">
+                        <div class="infostar fl">
+                            <div class="commentstar">
+                                <div class="df-stars">
+                                    <span class="allstar00" id="itemStar" style="width:0px"></span>
+                                </div>
+                                （<span class="num" id="itemRating"></span>）
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gi_lei"><a href="../category.shtml?cid=<!--# echo $categoriesArray['cid']#-->"><!--# echo $categoriesArray['name']#--></a></li>
+                    <li class="gi_nub"><span class="org" id="itemPlayed"></span>人玩过</li>
+                </ul>
+                <div class="gamestart fl">
+                    <div class="gi_start"><a class="btn_start play" href="<!--#echo $stitle#-->" target="_self">开始游戏</a></div>
+                </div>
+                <div class="gi_fav fl">
+                    <div class="fr clearfix">
+                        <div class="gi_fav01 sc"><a class="favor"></a></div>
+                        <div class="gi_fav01 sj" shareId="sj"><a class="">用手机玩</a></div>
+                        <a class="fxd">分享到:</a>
+                        <div class="gi_fav01 gi_fav03 wb" shareId="wx"></div>
+                        <div class="gi_fav01 gi_fav03 fx" shareId="sina"></div>
+                        
+                    </div>
+                </div>
+                <div class="itembox_info fl">
+                    <!--# echo $contents #-->
+                </div>
+                <div class="itembox_img fl clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+
+                    <div class="ul_box fl">
+                        <div class="ul_content">
+                            <ul class="pic_ul fl">
+                                <!--#
+                                $tj=CMS_FUNCTION('AlbumsContent', $author, 'h5');
+                                $tj=$tj['photo'];
+                                foreach($tj as $photo){
+                                #-->
+                                <li><img src="<!--# echo $photo['thumbnail_image'] #-->"></li>
+                                <!--#
+                                }
+                                #-->
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a></div>
+
+            </div>
+
+            <div class="itembox_played fl gamePlayedList"  style="display: none;">
+                <div class="ib_tit">我玩过的</div>
+                <div class="ib_rec box_sd clearfix">
+                    <a class="btn_pdl fl" href="javascript:void(0);"></a>
+                    <div class="playedG_box fl">
+                        <div class="playedG_content_item">
+                            <ul class="playedG_list"></ul>
+                        </div>
+                    </div>
+                    <a class="btn_pdr fl" href="javascript:void(0);"></a>
+                </div>
+            </div>
+            <div class="itembox_review fl box_sd">
+                <!--ssi#include virtual="/pc/public/comment.html"-->
+            </div>
+        </div>
+
+        <!--最终页main－右侧   start-->
+        <div class="item_right fl">
+            <div class="ri_tj fl">
+                <div class="ib_tit">今日热推</div>
+                <!--ssi#include virtual="/pc/public/recommend.shtml"-->
+
+            </div>
+
+            <div class="ri_tj fl">
+                <div class="ib_tit">最新开服</div>
+                <ul class="ri_kf">
+                    <li class="line1">
+                        <div class="l1">游戏名</div>
+                        <div class="l2">服务器名</div>
+                        <div class="l3">开服时间</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="ri_tj fl">
+                <div class="ib_tit">精彩活动</div>
+                <!--ssi#include virtual="/pc/public/activity.shtml"-->
+            </div>
+        </div>
+    </div>
+
+    <!--底部 start-->
+
+    <!--ssi#include virtual="/pc/public/footer.html"-->
+
+    <!--底部 end-->
+
+
+
+
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.rating.pack.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/plugin/jquery.form.js"></script>
+    <script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/passport.js"></script>
+    <script type="text/javascript" src="http://static.v1game.cn/<!--ssi#echo var="version"-->js/sea.js"></script>
+    <script type="text/javascript">
+    seajs.use('http://static.v1game.cn/<!--ssi#echo var="version"-->js/game/h5/pc/info/page/index');
+    </script>
+
+</body>
+</html>";}

@@ -1,0 +1,37 @@
+<div class="area">
+	<div class="help">
+	    <p>帮助</p>
+	    <p>1、此处为用户积分列表;</p>    
+    </div>
+	<div class="nr">
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+        	<tr>
+            	<th>ID</th>
+                <th>用户ID</th>
+                <th>积分</th>
+                <th>操作</th>
+                
+            </tr>
+    <?php foreach ($this->scores as $k => $score): ?>
+		    <tr>
+		        <td><?=$score['id'] ?></td>
+		        <td><?=$score['userId'] ?></td>
+		        <td><?=$score['score'] ?></td>
+            
+		        <td>
+		            
+		            <a href="/integral/level/edit/id/<?=$score['id'] ?>">编辑</a> | 
+		            <!--<a href="/integral/level/del/id/<?=$level['id'] ?>" onclick="if (!confirm('确定删除此等级？')) return false">删除</a> -->
+		            
+		            
+		        </td>
+		    </tr>
+    <?php endforeach;  ?>
+
+        </table>
+        
+     </div>
+     <div class="fy">
+    <?=$this->pagebar ?>
+  </div> 
+</div>

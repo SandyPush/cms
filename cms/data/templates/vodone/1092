@@ -1,0 +1,1951 @@
+a:4:{i:0;s:18513:"<!--#
+  $nav_array = CMS_FUNCTION('CmsArticleNav', $aid);
+  $sort=CMS_FUNCTION('toPinyin',$nav_array[1][name]);
+  $sort=$sort['pinyin_for_full'];
+#-->
+<!DOCTYPE html>
+<html>
+<head>
+<title><!--# echo $title #--> - {$nav_array[1][name]} - 第一视频网</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="title" content="<!--# echo $title #--> - 视频资讯在线观看"> 
+<meta name="keywords" content="<!--# echo $title #--> - <!--# echo $keywords #-->" />
+<meta name="description" content="<!--# echo $intro #-->" />
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_cont.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<style>
+.video_play{
+    display:block;
+    float:none;
+    height:auto;
+    overflow: hidden;
+    padding-left: 0px;
+    width: 620px;
+    margin:15px auto;
+}
+</style>
+<script type="text/javascript">
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_cont(2014)/js/pagejs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<!--ssi#include virtual="/ssi/cont/globalfun.shtml"-->
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/content.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112"></script>
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player.config.sort="{$sort}";
+</script>
+</head>
+<body>
+<input id="articleID" type="hidden" value="{$aid}">
+ <input id="parentId" type="hidden" value=""/>
+ <input id="lunboStatus" type="hidden" value="true"/>
+ <input id="nextNewsUrl" type="hidden"/>
+<!--1070px 导航 begin-->
+<!--ssi#include virtual="/ssi/cont/navtop.shtml"-->
+<!--1070px 导航 end-->
+<div class="w1070 clearfix" style="margin-top:50px;">
+    <div class="wrap760 fl">
+         <!--视频标题 begin-->
+         <div class="subNav">
+            <div class="tit">
+               <!--#
+foreach($nav_array as $val){
+$navUrl=explode('/',$val['url']);
+$navUrl=($navUrl[2] ? $navUrl[1] : 'www').".v1.cn/".$navUrl[2];
+#-->
+<a href="http://$navUrl" target="_blank" title="{$val[name]}">{$val[name]}</a>  <i>&gt;</i> 
+<!--#}#--><a href="http://www.v1.cn<!--#echo $url#-->" target="_blank" title="<!--#echo $stitle#-->"><!--#echo $stitle#--></a>
+<h1><!--#echo $title#--></h1>
+            </div>
+          </div>
+          <!--视频标题 end-->
+          <div class="title_info">
+              <li><i><!--# echo date('Y-m-d H:i',$postdate) #--></i></li>
+              <li>{$source}</li>
+              <li><a href="#add-news">我要评论</a>(<em id="plSpan">0</em>)</li>
+              <li><i>分享</i>
+              <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="bottom:0px;margin-right:4px;" >
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+<!--#
+if(!$image){
+preg_match("/<img[\w\W]*?src=\"(.*?)\"[\w\W]*?>/i",$contents,$imageArray);
+$image=$imageArray[1];
+}
+#-->
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'{$image}'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+              </li>
+              <li class="fybnOut" style="float:right;margin-right:0;">
+                 <a href="#" id="upA" style="border-right:0;"><font>上一篇</font></a>
+                 <a href="#" id="downA"><font>下一篇</font></a>
+              </li>
+          </div>
+          <script>
+             $(document).ready(function(){
+                $("#upA").attr("href",document.referrer);
+                $("#downA").attr("href",$("#xgnr li").eq(0).children("h6").children("a").attr("href"));
+             });
+          </script>
+          <div class="digest height">
+              <em>摘要：</em><p style="float:right;width:710px;">{$intro}</p>
+          </div>
+          <div class="tips01">
+             <em>标签：</em>
+             <span>
+<!--#
+$keyWordArray=explode(",",$keywords);
+foreach($keyWordArray as $keyword){
+$keywordCode=urlencode($keyword);
+#-->
+               <h3 style="float:left;"><a target="_blank" href="http://so.v1.cn/search/news/video/all/q_{$keywordCode}" tags="{$keyword}">{$keyword}</a></h3>
+<!--#}#-->
+             </span>
+          </div>
+          <div class="contents">
+<!--# echo $contents #-->
+          </div>
+          
+    <div class="conbox">
+    <!--猜你喜欢-->
+        <div class="wrap760">
+          <div class="title">猜你喜欢</div>
+     <div class="picOut">
+     <div id="cnxh">正在加载...</div>
+     <div id="cnxh1"></div>
+     <div id="cnxh2"></div>
+     </div>
+<script>
+$.get("/ssi/cnxh.shtml", {}, function(content){
+   $('#cnxh').ready(function(){
+     $('#cnxh').html();
+     $('#cnxh').html(content);
+   });  
+});
+$.get("/ssi/contad/cnxhyc1.shtml", {}, function(content){
+   $('#cnxh1').ready(function(){
+     $('#cnxh1').html(content);
+   });  
+});
+$.get("/ssi/contad/cnxhyc1.shtml", {}, function(content){
+   $('#cnxh2').ready(function(){
+     $('#cnxh2').html(content);
+   });  
+});
+</script>
+     </div>
+     <!--猜你喜欢 end-->
+     <!--大家都在看+精彩图集-->
+<div class="nypictab01 clearfix mgT20">
+    <ul class="nytabTitle01">
+        <li class="ico nytab01_cur">大家都在看</li>
+        <li class="ico nytab02">精彩图集</li>
+    </ul>
+    <div class="nypictabCon01" style="overflow:hidden;width:760px;"></div>
+<script>
+$.get("/ssi/cont/djdzk.shtml", {}, function(content){
+   $('div.nypictabCon01').ready(function(){
+     $('div.nypictabCon01').append(content);    
+   });  
+});
+
+$.get("/ssi/cont/jctj.shtml", {}, function(content){
+   $('div.nypictabCon01').ready(function(){
+     $('div.nypictabCon01').append(content);
+   });  
+});
+</script>
+</div>
+<!-- 大家都在看+精彩图集 end-->
+<!-- 今日必看+编辑热推-->
+<div class="nypictab02 clearfix mgT20">
+    <ul class="nytabTitle02">
+        <li class="ico ny2tab01_cur">今日必看</li>
+        <li class="ico ny2tab02">编辑热推</li>
+    </ul>
+   <div class="nypictabCon02" style="overflow:hidden;width:760px;"></div>
+<script>
+$.get("/ssi/cont/jrbk.shtml", {}, function(content){
+   $('div.nypictabCon02').ready(function(){
+     $('div.nypictabCon02').append(content);
+   });  
+});
+$.get("/ssi/cont/bjrt.shtml", {}, function(content){
+   $('div.nypictabCon02').ready(function(){
+     $('div.nypictabCon02').append(content);
+   });  
+});
+</script>
+</div>
+<!--今日必看+编辑热推 end-->
+    </div>
+<!--adv-->
+    <div class="adv mgT20"><!--ssi#include virtual="/ssi/contad/plfgzc.shtml"--></div>
+<!--adv end-->       
+<!--adv-->
+    <div class="advH198 mgT20"><!--ssi#include virtual="/ssi/contad/plsf.shtml"--></div>
+<!--adv end-->
+<!--网友评论 begin-->
+<div id="comment2" class="height">
+        <div class="commentLogin">
+
+      <form action="http://discuss.v1.cn/discuss/comment/save-comment.jhtml" method="post" id="add-news" name="add-news">
+        <input type="hidden" id="userId" name="news.userId" value="" />
+        <input type="hidden" id="userName" name="news.userName" value='' />
+        <input type="hidden" id="id" name="news.id" value='{$aid}' />
+        <input type="hidden" id="status" name="news.status" value='0' />
+        <input type="hidden" id="keyword" name="news.keyword" value='' />
+        <input type="hidden" id="ip" name="news.ip"  />
+        <input type="hidden" id="operType" name="operType" value='list' />
+        <input type="hidden" id="curPage" name="curPage" value=''/>
+         <input type="hidden" id="jumpURL" name="jumpURL" value='http://ynews.v1.cn/news/news/jump.jhtml?newsId=384004&to=http://ynews.v1.cn/news/news/jump.jhtml?newsId={$aid}' />
+         <input type="hidden" id="postURL" name="postURL" value='http://discuss.v1.cn/discuss/comments/' />
+    <div class="discuss">
+      <div id="disComment" class="comment">
+        <!-- 加载项 -->
+        <div id="ts">
+          <!-- <img id="loading" src="http://pic.v1.cn/cloudone/images/news/s_loading.gif" style="display:none"/> -->
+        </div>
+        <div id="tips" style="display:none"></div>
+        <!-- 加载项 -->
+        
+        <div class="fbpl">
+          
+      <h2>网友评论：</h2>
+      <div class="commentLogin">
+         <textarea onclick="if(this.value=='我来说两句！')this.value='';" id="content_discuss" name="newsComment.content" class="textLogin2" onkeyup="postComentLenCheck('content_discuss','150','content_discuss_tips')" onkeydown="postComentLenCheck('content_discuss','150','content_discuss_tips')">我来说两句！</textarea>
+         <div id="num02">                           
+            <span id="content_discuss_tips">还可输入150个字</span>  
+            <input type="button" style="cursor:pointer;" onclick="submitComment('http://discuss.v1.cn/discuss/comments/','','','post');" value="发布评论" name="发布评论" class="btn2">
+         </div>
+      </div>
+      
+      <div class="pl_head">
+         <span>全部评论</span>
+      </div>
+
+
+        </div>
+        <div class="page_change" id="fenye" style="display:none">
+        </div>
+        <div class="pl_con" id="data" style="display:none"></div>
+        <div class="page_change page_change_nl" id="fenye2" style="display:none">
+        </div>
+      </div>
+    </div>
+    </form>
+<div style="display:none" id="fenye" class="page_change"></div>
+        <div style="display:none" id="data" class="pl_con"></div>
+        <div style="display:none" id="fenye2" class="page_change page_change_nl">
+        <div class="discussion"></div>
+<!--
+          <script>
+            $(function(){
+            var baseURL='http://discuss.v1.cn/discuss/comment/';
+            submitComment(baseURL,'','','list');
+            })
+          </script> -->
+</div>
+
+
+<!--ssi#include virtual="/ssi/cont/plxf.shtml"-->
+<!--网友评论 end-->    
+    </div>
+</div>  
+</div>  
+    <div class="wrap295 fr">
+        <div class="advBox" style="margin-top:44px;">
+<!--右一广告  第一个广告位加载地域数据 定向使用-->
+<!--ssi#include virtual="/ssi/contad/btyc.shtml"--></div>
+        <!--相关视频-->
+<div class="wrap295 height" style="margin:20px 0;">
+     <ul class="title">相关视频</ul>
+     <div class="picboxes height" id="xgnr">
+<!--#
+$RelatedArray=CMS_FUNCTION('NewsRelated', $aid, 6);
+foreach($RelatedArray as $key=>$related){
+  if($key>=6) break;
+#-->
+           <li>
+             <ul>
+                <em class="{$value["iconStyle"]}"></em>
+                <em class="index_icon vd_ico" style="display:none;"></em>
+                <a href="{$related[url]}" target="_blank" title="{$related["title"]}"><img alt="{$related["title"]}" src="{$related[image]}"></a>
+             </ul>
+             <h6><a href="{$related[url]}" target="_blank" title="{$related["title"]}">{$related["title"]}</a></h6>
+           </li>
+<!--#
+}
+#-->
+     </div>
+</div>
+        <!--相关视频 end-->
+        <!--右侧绝对热点+精彩推荐 -->
+<div id="jdrd">加载中...</div>
+<script>
+$.get("/ssi/cont/jdrd.shtml", {}, function(content){
+   $('#jdrd').ready(function(){
+     $('#jdrd').html();
+     $('#jdrd').html(content);
+$(".nytabTitle03 li ").hover(
+function(){
+var ind=$(this).index();
+$(".nytabTitle03 li").each(function(){
+	var index = $(this).index();
+	var r = index + 1;
+	if(ind == index) {
+		$(this).addClass("ny3tab0"+r+"_cur").removeClass("ny3tab0"+r);
+	} else {
+	   $(this).addClass("ny3tab0"+r).removeClass("ny3tab0"+r+"_cur");
+	}
+  });
+$(".nypictabCon03 > div").eq(ind).show().siblings().hide();
+});
+   });  
+});
+</script>
+       <!--右侧绝对热点+精彩推荐 end-->
+<!--视频播放榜-->
+<div id="spbfb">加载中...</div>
+<script>
+$.get("/ssi/spbfb_common.html", {}, function(content){
+   $('#spbfb').ready(function(){
+     $('#spbfb').html();
+     $('#spbfb').html(content);
+   });  
+});
+</script>
+<!--视频播放榜 end-->
+<!--热门专辑-->
+<div id="rmzj">加载中...</div>
+<script>
+$.get("/ssi/cont/rmzj.shtml", {}, function(content){
+   $('#rmzj').ready(function(){
+     $('#rmzj').html();
+     $('#rmzj').html(content);
+   });  
+});
+</script>
+<!--热门专辑 end-->
+<!--adv-->
+<div class="advH250 mgT20">
+<!--ssi#include virtual="/ssi/contad/rdzjxf.shtml"-->
+</div>
+<!--adv end-->
+<!--央视网推荐-->
+<!--ssi#include virtual="/ssi/cont/yswtj.shtml"-->
+<!--央视网推荐 end-->
+<!--热门推荐-->
+<div id="rmtj">加载中...</div>
+<script>
+$.get("/ssi/cont/rmtj.shtml", {}, function(content){
+   $('#rmtj').ready(function(){
+     $('#rmtj').html();
+     $('#rmtj').html(content);
+   });  
+});
+</script>
+<!--热门推荐 end-->
+<!--热门投票 begin-->
+   <!--ssi#include virtual="/ssi/cont/rmtp.shtml"-->
+<!--热门投票 end-->
+    </div>
+</div>
+
+<div class="nydisclaimer marT20">
+  <span class="txt">免责声明:</span>本视频、文字仅代表作者，嘉宾个人观点，与第一视频网无关。其原创性以及其中陈述和文字内容未经本站证实，对本视频、文字以及其中全部或者部分内容的真实性、完整性、及时性本站不作任何保证或承诺，请读者仅作参考，并请自行核实相关内容
+    <iframe width="1" scrolling="no" height="1" framebroder="0" name="ad_link" id="ad_link"></iframe>
+    <a target="ad_link" id="my_link" href="about:blank"></a>
+    <script charset="gb2312" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js" language="javascript"></script>
+    <script src="http://www.v1.cn/c_include/js/ad_re.js" language="javascript"></script>
+</div>
+
+<!-- tab切换 three-->
+<div class="nypictab04 clearfix mgT20">
+    <ul class="nytabTitle04">
+        <li class="ico ny4tab01_cur">热点关注</li>
+        <li class="ico ny4tab02">频道推荐</li>
+    </ul>
+    <div class="nypictabCon04">
+<!--<div id="rdgz">
+<script>
+$.get("/ssi/module/5.shtml", {}, function(content){
+   $('#rdgz').ready(function(){
+     data=$(content).find("#picNews").children();
+     $('#rdgz').html(data);
+   });  
+});
+</script>
+</div>-->
+<!--ssi#include virtual="/ssi/cont/rdgz.shtml"-->
+<!--ssi#include virtual="/ssi/cont/pdtj.shtml"-->
+    </div>
+</div>
+<!-- tab切换 three end-->
+
+<!--adv-->
+<div class="w1070 clearfix mgT20">
+   <dt class="adv">
+<!--ssi#include virtual="/ssi/contad/dbtl.shtml"-->
+</dt>
+</div>
+<!--adv end-->
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+
+<!--页面底部评论-->
+<div id="bottombar-wrap-w">
+<div class="close-w"><a>关闭</a></div>
+<div class="wrap-cont-w">
+<div class="cont-minwidth-w">
+    <div class="cont-comment-w"><a href="#">查看<i>0</i>条评论</a></div>
+    <div class="cont-form-w">
+      <div class="form-text-w"><a class="button-w">按钮</a>
+      <input type="text" class="textarea-fw"  value="你是槽神.." onfocus="if (value =='你是槽神..'){value =''}" onblur="if (value ==''){value='你是槽神..'}" name="" />
+<img src="http://pic.v1.cn/cms/v1_static(new)/images/load.gif" style=" display: none;" class="load">
+      </div>
+    </div>
+</div>
+</div>
+</div>
+<div id="code_right"><!--ssi#include virtual="/ssi/contad/right.shtml"--></div>
+<div id="code_left"><!--ssi#include virtual="/ssi/contad/leftad.shtml"--></div>
+<!--ssi#include virtual="/ssi/cont/ycxfss2.shtml"-->
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".close-w").click(function(){
+    $("#bottombar-wrap-w").hide();
+  });
+});
+
+//到指定位置隐藏
+var m_st, m_po = 1010; //滚动到1010像素时显示
+$(window).scroll(function () {
+m_st = Math.max(document.body.scrollTop || document.documentElement.scrollTop);
+if (m_st > m_po) {
+showdiv();
+}
+else
+hidediv();
+})
+
+function showdiv() {
+$('#bottombar-wrap-w').addClass("bottom_bor_display");
+}
+function hidediv() {
+$('#bottombar-wrap-w').removeClass("bottom_bor_display");
+}
+</script>
+<!--页面底部评论 end-->
+</body>
+</html>";i:1;s:18384:"<!--#
+  $nav_array = CMS_FUNCTION('CmsArticleNav', $aid);
+  $sort=CMS_FUNCTION('toPinyin',$nav_array[1][name]);
+  $sort=$sort['pinyin_for_full'];
+#-->
+<!DOCTYPE html>
+<html>
+<head>
+<title><!--# echo $title #--> - {$nav_array[1][name]} - 第一视频网</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="title" content="<!--# echo $title #--> - 视频资讯在线观看"> 
+<meta name="keywords" content="<!--# echo $title #--> - <!--# echo $keywords #-->" />
+<meta name="description" content="<!--# echo $intro #-->" />
+
+<!--#CMS_FUNCTION('cssBox','video_detail.css',array(
+  'http://pic.v1.cn/cms/v1_static(new)/common/css/common.css',
+  'http://pic.v1.cn/cms/v1_cont(2014)/css/v1_cont.css',
+  'http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css',
+  'http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css',
+  'http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css',
+  'http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css',
+  'http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css',
+))#-->
+
+<!--ssi#include virtual="/ssi/cont/globalfun.shtml"-->
+<!--#CMS_FUNCTION('jsBox','video_detail.js',array(
+  'http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js',
+  'http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js',
+  'http://pic.v1.cn/cms/v1_cont(2014)/js/pagejs14.js',
+  'http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js',
+  'http://pic.v1.cn/cms/v1_static/js/content.js',
+  'http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048',
+  'http://pic.v1.cn/cloudone/search_new/common/js/base.js',
+  'http://pic.v1.cn/cms/news/index/js/window.js',
+  'http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112',
+))#-->
+
+<style>
+.video_play{
+    display:block;
+    float:none;
+    height:auto;
+    overflow: hidden;
+    padding-left: 0px;
+    width: 620px;
+    margin:15px auto;
+}
+</style>
+<script type="text/javascript">
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_cont(2014)/js/pagejs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player.config.sort="{$sort}";
+</script>
+</head>
+<body>
+<input id="articleID" type="hidden" value="{$aid}">
+ <input id="parentId" type="hidden" value=""/>
+ <input id="lunboStatus" type="hidden" value="true"/>
+ <input id="nextNewsUrl" type="hidden"/>
+<!--1070px 导航 begin-->
+<!--ssi#include virtual="/ssi/cont/navtop.shtml"-->
+<!--1070px 导航 end-->
+<div class="w1070 clearfix" style="margin-top:50px;">
+    <div class="wrap760 fl">
+         <!--视频标题 begin-->
+         <div class="subNav">
+            <div class="tit">
+               <!--#
+foreach($nav_array as $val){
+$navUrl=explode('/',$val['url']);
+$navUrl=($navUrl[2] ? $navUrl[1] : 'www').".v1.cn/".$navUrl[2];
+#-->
+<a href="http://$navUrl" target="_blank" title="{$val[name]}">{$val[name]}</a>  <i>&gt;</i> 
+<!--#}#--><a href="http://www.v1.cn<!--#echo $url#-->" target="_blank" title="<!--#echo $stitle#-->"><!--#echo $stitle#--></a>
+<h1><!--#echo $title#--></h1>
+            </div>
+          </div>
+          <!--视频标题 end-->
+          <div class="title_info">
+              <li><i><!--# echo date('Y-m-d H:i',$postdate) #--></i></li>
+              <li>{$source}</li>
+              <li><a href="#add-news">我要评论</a>(<em id="plSpan">0</em>)</li>
+              <li><i>分享</i>
+              <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="bottom:0px;margin-right:4px;" >
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+<!--#
+if(!$image){
+preg_match("/<img[\w\W]*?src=\"(.*?)\"[\w\W]*?>/i",$contents,$imageArray);
+$image=$imageArray[1];
+}
+#-->
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'{$image}'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+              </li>
+              <li class="fybnOut" style="float:right;margin-right:0;">
+                 <a href="#" id="upA" style="border-right:0;"><font>上一篇</font></a>
+                 <a href="#" id="downA"><font>下一篇</font></a>
+              </li>
+          </div>
+          <script>
+             $(document).ready(function(){
+                $("#upA").attr("href",document.referrer);
+                $("#downA").attr("href",$("#xgnr li").eq(0).children("h6").children("a").attr("href"));
+             });
+          </script>
+          <div class="digest height">
+              <em>摘要：</em><p style="float:right;width:710px;">{$intro}</p>
+          </div>
+          <div class="tips01">
+             <em>标签：</em>
+             <span>
+<!--#
+$keyWordArray=explode(",",$keywords);
+foreach($keyWordArray as $keyword){
+$keywordCode=urlencode($keyword);
+#-->
+               <h3 style="float:left;"><a target="_blank" href="http://so.v1.cn/search/news/video/all/q_{$keywordCode}" tags="{$keyword}">{$keyword}</a></h3>
+<!--#}#-->
+             </span>
+          </div>
+          <div class="contents">
+<!--# echo $contents #-->
+          </div>
+          
+    <div class="conbox">
+    <!--猜你喜欢-->
+        <div class="wrap760">
+          <div class="title">猜你喜欢</div>
+     <div class="picOut">
+     <div id="cnxh">正在加载...</div>
+     <div id="cnxh1"></div>
+     <div id="cnxh2"></div>
+     </div>
+<script>
+$.get("/ssi/cnxh.shtml", {}, function(content){
+   $('#cnxh').ready(function(){
+     $('#cnxh').html();
+     $('#cnxh').html(content);
+   });  
+});
+$.get("/ssi/contad/cnxhyc1.shtml", {}, function(content){
+   $('#cnxh1').ready(function(){
+     $('#cnxh1').html(content);
+   });  
+});
+$.get("/ssi/contad/cnxhyc1.shtml", {}, function(content){
+   $('#cnxh2').ready(function(){
+     $('#cnxh2').html(content);
+   });  
+});
+</script>
+     </div>
+     <!--猜你喜欢 end-->
+     <!--大家都在看+精彩图集-->
+<div class="nypictab01 clearfix mgT20">
+    <ul class="nytabTitle01">
+        <li class="ico nytab01_cur">大家都在看</li>
+        <li class="ico nytab02">精彩图集</li>
+    </ul>
+    <div class="nypictabCon01" style="overflow:hidden;width:760px;"></div>
+<script>
+$.get("/ssi/cont/djdzk.shtml", {}, function(content){
+   $('div.nypictabCon01').ready(function(){
+     $('div.nypictabCon01').append(content);    
+   });  
+});
+
+$.get("/ssi/cont/jctj.shtml", {}, function(content){
+   $('div.nypictabCon01').ready(function(){
+     $('div.nypictabCon01').append(content);
+   });  
+});
+</script>
+</div>
+<!-- 大家都在看+精彩图集 end-->
+<!-- 今日必看+编辑热推-->
+<div class="nypictab02 clearfix mgT20">
+    <ul class="nytabTitle02">
+        <li class="ico ny2tab01_cur">今日必看</li>
+        <li class="ico ny2tab02">编辑热推</li>
+    </ul>
+   <div class="nypictabCon02" style="overflow:hidden;width:760px;"></div>
+<script>
+$.get("/ssi/cont/jrbk.shtml", {}, function(content){
+   $('div.nypictabCon02').ready(function(){
+     $('div.nypictabCon02').append(content);
+   });  
+});
+$.get("/ssi/cont/bjrt.shtml", {}, function(content){
+   $('div.nypictabCon02').ready(function(){
+     $('div.nypictabCon02').append(content);
+   });  
+});
+</script>
+</div>
+<!--今日必看+编辑热推 end-->
+    </div>
+<!--adv-->
+    <div class="adv mgT20"><!--ssi#include virtual="/ssi/contad/plfgzc.shtml"--></div>
+<!--adv end-->       
+<!--adv-->
+    <div class="advH198 mgT20"><!--ssi#include virtual="/ssi/contad/plsf.shtml"--></div>
+<!--adv end-->
+<!--网友评论 begin-->
+<div id="comment2" class="height">
+        <div class="commentLogin">
+
+      <form action="http://discuss.v1.cn/discuss/comment/save-comment.jhtml" method="post" id="add-news" name="add-news">
+        <input type="hidden" id="userId" name="news.userId" value="" />
+        <input type="hidden" id="userName" name="news.userName" value='' />
+        <input type="hidden" id="id" name="news.id" value='{$aid}' />
+        <input type="hidden" id="status" name="news.status" value='0' />
+        <input type="hidden" id="keyword" name="news.keyword" value='' />
+        <input type="hidden" id="ip" name="news.ip"  />
+        <input type="hidden" id="operType" name="operType" value='list' />
+        <input type="hidden" id="curPage" name="curPage" value=''/>
+         <input type="hidden" id="jumpURL" name="jumpURL" value='http://ynews.v1.cn/news/news/jump.jhtml?newsId=384004&to=http://ynews.v1.cn/news/news/jump.jhtml?newsId={$aid}' />
+         <input type="hidden" id="postURL" name="postURL" value='http://discuss.v1.cn/discuss/comments/' />
+    <div class="discuss">
+      <div id="disComment" class="comment">
+        <!-- 加载项 -->
+        <div id="ts">
+          <!-- <img id="loading" src="http://pic.v1.cn/cloudone/images/news/s_loading.gif" style="display:none"/> -->
+        </div>
+        <div id="tips" style="display:none"></div>
+        <!-- 加载项 -->
+        
+        <div class="fbpl">
+          
+      <h2>网友评论：</h2>
+      <div class="commentLogin">
+         <textarea onclick="if(this.value=='我来说两句！')this.value='';" id="content_discuss" name="newsComment.content" class="textLogin2" onkeyup="postComentLenCheck('content_discuss','150','content_discuss_tips')" onkeydown="postComentLenCheck('content_discuss','150','content_discuss_tips')">我来说两句！</textarea>
+         <div id="num02">                           
+            <span id="content_discuss_tips">还可输入150个字</span>  
+            <input type="button" style="cursor:pointer;" onclick="submitComment('http://discuss.v1.cn/discuss/comments/','','','post');" value="发布评论" name="发布评论" class="btn2">
+         </div>
+      </div>
+      
+      <div class="pl_head">
+         <span>全部评论</span>
+      </div>
+
+
+        </div>
+        <div class="page_change" id="fenye" style="display:none">
+        </div>
+        <div class="pl_con" id="data" style="display:none"></div>
+        <div class="page_change page_change_nl" id="fenye2" style="display:none">
+        </div>
+      </div>
+    </div>
+    </form>
+<div style="display:none" id="fenye" class="page_change"></div>
+        <div style="display:none" id="data" class="pl_con"></div>
+        <div style="display:none" id="fenye2" class="page_change page_change_nl">
+        <div class="discussion"></div>
+<!--
+          <script>
+            $(function(){
+            var baseURL='http://discuss.v1.cn/discuss/comment/';
+            submitComment(baseURL,'','','list');
+            })
+          </script> -->
+</div>
+
+
+<!--ssi#include virtual="/ssi/cont/plxf.shtml"-->
+<!--网友评论 end-->    
+    </div>
+</div>  
+</div>  
+    <div class="wrap295 fr">
+        <div class="advBox" style="margin-top:44px;">
+<!--右一广告  第一个广告位加载地域数据 定向使用-->
+<!--ssi#include virtual="/ssi/contad/btyc.shtml"--></div>
+        <!--相关视频-->
+<div class="wrap295 height" style="margin:20px 0;">
+     <ul class="title">相关视频</ul>
+     <div class="picboxes height" id="xgnr">
+<!--#
+$RelatedArray=CMS_FUNCTION('NewsRelated', $aid, 6);
+foreach($RelatedArray as $key=>$related){
+  if($key>=6) break;
+#-->
+           <li>
+             <ul>
+                <em class="{$value["iconStyle"]}"></em>
+                <em class="index_icon vd_ico" style="display:none;"></em>
+                <a href="{$related[url]}" target="_blank" title="{$related["title"]}"><img alt="{$related["title"]}" src="{$related[image]}"></a>
+             </ul>
+             <h6><a href="{$related[url]}" target="_blank" title="{$related["title"]}">{$related["title"]}</a></h6>
+           </li>
+<!--#
+}
+#-->
+     </div>
+</div>
+        <!--相关视频 end-->
+        <!--右侧绝对热点+精彩推荐 -->
+<div id="jdrd">加载中...</div>
+<script>
+$.get("/ssi/cont/jdrd.shtml", {}, function(content){
+   $('#jdrd').ready(function(){
+     $('#jdrd').html();
+     $('#jdrd').html(content);
+$(".nytabTitle03 li ").hover(
+function(){
+var ind=$(this).index();
+$(".nytabTitle03 li").each(function(){
+	var index = $(this).index();
+	var r = index + 1;
+	if(ind == index) {
+		$(this).addClass("ny3tab0"+r+"_cur").removeClass("ny3tab0"+r);
+	} else {
+	   $(this).addClass("ny3tab0"+r).removeClass("ny3tab0"+r+"_cur");
+	}
+  });
+$(".nypictabCon03 > div").eq(ind).show().siblings().hide();
+});
+   });  
+});
+</script>
+       <!--右侧绝对热点+精彩推荐 end-->
+<!--视频播放榜-->
+<div id="spbfb">加载中...</div>
+<script>
+$.get("/ssi/spbfb_common.html", {}, function(content){
+   $('#spbfb').ready(function(){
+     $('#spbfb').html();
+     $('#spbfb').html(content);
+   });  
+});
+</script>
+<!--视频播放榜 end-->
+<!--热门专辑-->
+<div id="rmzj">加载中...</div>
+<script>
+$.get("/ssi/cont/rmzj.shtml", {}, function(content){
+   $('#rmzj').ready(function(){
+     $('#rmzj').html();
+     $('#rmzj').html(content);
+   });  
+});
+</script>
+<!--热门专辑 end-->
+<!--adv-->
+<div class="advH250 mgT20">
+<!--ssi#include virtual="/ssi/contad/rdzjxf.shtml"-->
+</div>
+<!--adv end-->
+<!--央视网推荐-->
+<!--ssi#include virtual="/ssi/cont/yswtj.shtml"-->
+<!--央视网推荐 end-->
+<!--热门推荐-->
+<div id="rmtj">加载中...</div>
+<script>
+$.get("/ssi/cont/rmtj.shtml", {}, function(content){
+   $('#rmtj').ready(function(){
+     $('#rmtj').html();
+     $('#rmtj').html(content);
+   });  
+});
+</script>
+<!--热门推荐 end-->
+<!--热门投票 begin-->
+   <!--ssi#include virtual="/ssi/cont/rmtp.shtml"-->
+<!--热门投票 end-->
+    </div>
+</div>
+
+<div class="nydisclaimer marT20">
+  <span class="txt">免责声明:</span>本视频、文字仅代表作者，嘉宾个人观点，与第一视频网无关。其原创性以及其中陈述和文字内容未经本站证实，对本视频、文字以及其中全部或者部分内容的真实性、完整性、及时性本站不作任何保证或承诺，请读者仅作参考，并请自行核实相关内容
+    <iframe width="1" scrolling="no" height="1" framebroder="0" name="ad_link" id="ad_link"></iframe>
+    <a target="ad_link" id="my_link" href="about:blank"></a>
+    <script charset="gb2312" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js" language="javascript"></script>
+    <script src="http://www.v1.cn/c_include/js/ad_re.js" language="javascript"></script>
+</div>
+
+<!-- tab切换 three-->
+<div class="nypictab04 clearfix mgT20">
+    <ul class="nytabTitle04">
+        <li class="ico ny4tab01_cur">热点关注</li>
+        <li class="ico ny4tab02">频道推荐</li>
+    </ul>
+    <div class="nypictabCon04">
+<!--<div id="rdgz">
+<script>
+$.get("/ssi/module/5.shtml", {}, function(content){
+   $('#rdgz').ready(function(){
+     data=$(content).find("#picNews").children();
+     $('#rdgz').html(data);
+   });  
+});
+</script>
+</div>-->
+<!--ssi#include virtual="/ssi/cont/rdgz.shtml"-->
+<!--ssi#include virtual="/ssi/cont/pdtj.shtml"-->
+    </div>
+</div>
+<!-- tab切换 three end-->
+
+<!--adv-->
+<div class="w1070 clearfix mgT20">
+   <dt class="adv">
+<!--ssi#include virtual="/ssi/contad/dbtl.shtml"-->
+</dt>
+</div>
+<!--adv end-->
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+
+<!--页面底部评论-->
+<div id="bottombar-wrap-w">
+<div class="close-w"><a>关闭</a></div>
+<div class="wrap-cont-w">
+<div class="cont-minwidth-w">
+    <div class="cont-comment-w"><a href="#">查看<i>0</i>条评论</a></div>
+    <div class="cont-form-w">
+      <div class="form-text-w"><a class="button-w">按钮</a>
+      <input type="text" class="textarea-fw"  value="你是槽神.." onfocus="if (value =='你是槽神..'){value =''}" onblur="if (value ==''){value='你是槽神..'}" name="" />
+<img src="http://pic.v1.cn/cms/v1_static(new)/images/load.gif" style=" display: none;" class="load">
+      </div>
+    </div>
+</div>
+</div>
+</div>
+<div id="code_right"><!--ssi#include virtual="/ssi/contad/right.shtml"--></div>
+<div id="code_left"><!--ssi#include virtual="/ssi/contad/leftad.shtml"--></div>
+<!--ssi#include virtual="/ssi/cont/ycxfss2.shtml"-->
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".close-w").click(function(){
+    $("#bottombar-wrap-w").hide();
+  });
+});
+
+//到指定位置隐藏
+var m_st, m_po = 1010; //滚动到1010像素时显示
+$(window).scroll(function () {
+m_st = Math.max(document.body.scrollTop || document.documentElement.scrollTop);
+if (m_st > m_po) {
+showdiv();
+}
+else
+hidediv();
+})
+
+function showdiv() {
+$('#bottombar-wrap-w').addClass("bottom_bor_display");
+}
+function hidediv() {
+$('#bottombar-wrap-w').removeClass("bottom_bor_display");
+}
+</script>
+<!--页面底部评论 end-->
+</body>
+</html>";i:2;s:18424:"<!--#
+  $nav_array = CMS_FUNCTION('CmsArticleNav', $aid);
+  $sort=CMS_FUNCTION('toPinyin',$nav_array[1][name]);
+  $sort=$sort['pinyin_for_full'];
+#-->
+<!DOCTYPE html>
+<html>
+<head>
+<title><!--# echo $title #--> - {$nav_array[1][name]} - 第一视频网</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="title" content="<!--# echo $title #--> - 视频资讯在线观看"> 
+<meta name="keywords" content="<!--# echo $title #--> - <!--# echo $keywords #-->" />
+<meta name="description" content="<!--# echo $intro #-->" />
+
+<!--#CMS_FUNCTION('cssBox','video_detail.css',array(
+  'http://pic.v1.cn/cms/v1_static(new)/common/css/common.css',
+  'http://pic.v1.cn/cms/v1_cont(2014)/css/v1_cont.css',
+  'http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css',
+  'http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css',
+  'http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css',
+  'http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css',
+  'http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css',
+))#-->
+
+<!--ssi#include virtual="/ssi/cont/globalfun.shtml"-->
+<!--#CMS_FUNCTION('jsBox','video_detail.js',array(
+  'http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js',
+  'http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js',
+  'http://pic.v1.cn/cms/v1_cont(2014)/js/pagejs14.js',
+  'http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js',
+  'http://pic.v1.cn/cms/v1_static/js/content.js',
+  'http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048',
+  'http://pic.v1.cn/cloudone/search_new/common/js/base.js',
+  'http://pic.v1.cn/cms/news/index/js/window.js',
+  'http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112',
+))#-->
+
+<style>
+.video_play{
+    display:block;
+    float:none;
+    height:auto;
+    overflow: hidden;
+    padding-left: 0px;
+    width: 620px;
+    margin:15px auto;
+}
+</style>
+<script type="text/javascript">
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_cont(2014)/js/pagejs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player.config.sort="{$sort}";
+</script>
+</head>
+<body>
+<span style="display:none">test</span>
+<input id="articleID" type="hidden" value="{$aid}">
+ <input id="parentId" type="hidden" value=""/>
+ <input id="lunboStatus" type="hidden" value="true"/>
+ <input id="nextNewsUrl" type="hidden"/>
+<!--1070px 导航 begin-->
+<!--ssi#include virtual="/ssi/cont/navtop.shtml"-->
+<!--1070px 导航 end-->
+<div class="w1070 clearfix" style="margin-top:50px;">
+    <div class="wrap760 fl">
+         <!--视频标题 begin-->
+         <div class="subNav">
+            <div class="tit">
+               <!--#
+foreach($nav_array as $val){
+$navUrl=explode('/',$val['url']);
+$navUrl=($navUrl[2] ? $navUrl[1] : 'www').".v1.cn/".$navUrl[2];
+#-->
+<a href="http://$navUrl" target="_blank" title="{$val[name]}">{$val[name]}</a>  <i>&gt;</i> 
+<!--#}#--><a href="http://www.v1.cn<!--#echo $url#-->" target="_blank" title="<!--#echo $stitle#-->"><!--#echo $stitle#--></a>
+<h1><!--#echo $title#--></h1>
+            </div>
+          </div>
+          <!--视频标题 end-->
+          <div class="title_info">
+              <li><i><!--# echo date('Y-m-d H:i',$postdate) #--></i></li>
+              <li>{$source}</li>
+              <li><a href="#add-news">我要评论</a>(<em id="plSpan">0</em>)</li>
+              <li><i>分享</i>
+              <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="bottom:0px;margin-right:4px;" >
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+<!--#
+if(!$image){
+preg_match("/<img[\w\W]*?src=\"(.*?)\"[\w\W]*?>/i",$contents,$imageArray);
+$image=$imageArray[1];
+}
+#-->
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'{$image}'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+              </li>
+              <li class="fybnOut" style="float:right;margin-right:0;">
+                 <a href="#" id="upA" style="border-right:0;"><font>上一篇</font></a>
+                 <a href="#" id="downA"><font>下一篇</font></a>
+              </li>
+          </div>
+          <script>
+             $(document).ready(function(){
+                $("#upA").attr("href",document.referrer);
+                $("#downA").attr("href",$("#xgnr li").eq(0).children("h6").children("a").attr("href"));
+             });
+          </script>
+          <div class="digest height">
+              <em>摘要：</em><p style="float:right;width:710px;">{$intro}</p>
+          </div>
+          <div class="tips01">
+             <em>标签：</em>
+             <span>
+<!--#
+$keyWordArray=explode(",",$keywords);
+foreach($keyWordArray as $keyword){
+$keywordCode=urlencode($keyword);
+#-->
+               <h3 style="float:left;"><a target="_blank" href="http://so.v1.cn/search/news/video/all/q_{$keywordCode}" tags="{$keyword}">{$keyword}</a></h3>
+<!--#}#-->
+             </span>
+          </div>
+          <div class="contents">
+<!--# echo $contents #-->
+          </div>
+          
+    <div class="conbox">
+    <!--猜你喜欢-->
+        <div class="wrap760">
+          <div class="title">猜你喜欢</div>
+     <div class="picOut">
+     <div id="cnxh">正在加载...</div>
+     <div id="cnxh1"></div>
+     <div id="cnxh2"></div>
+     </div>
+<script>
+$.get("/ssi/cnxh.shtml", {}, function(content){
+   $('#cnxh').ready(function(){
+     $('#cnxh').html();
+     $('#cnxh').html(content);
+   });  
+});
+$.get("/ssi/contad/cnxhyc1.shtml", {}, function(content){
+   $('#cnxh1').ready(function(){
+     $('#cnxh1').html(content);
+   });  
+});
+$.get("/ssi/contad/cnxhyc1.shtml", {}, function(content){
+   $('#cnxh2').ready(function(){
+     $('#cnxh2').html(content);
+   });  
+});
+</script>
+     </div>
+     <!--猜你喜欢 end-->
+     <!--大家都在看+精彩图集-->
+<div class="nypictab01 clearfix mgT20">
+    <ul class="nytabTitle01">
+        <li class="ico nytab01_cur">大家都在看</li>
+        <li class="ico nytab02">精彩图集</li>
+    </ul>
+    <div class="nypictabCon01" style="overflow:hidden;width:760px;"></div>
+<script>
+$.get("/ssi/cont/djdzk.shtml", {}, function(content){
+   $('div.nypictabCon01').ready(function(){
+     $('div.nypictabCon01').append(content);    
+   });  
+});
+
+$.get("/ssi/cont/jctj.shtml", {}, function(content){
+   $('div.nypictabCon01').ready(function(){
+     $('div.nypictabCon01').append(content);
+   });  
+});
+</script>
+</div>
+<!-- 大家都在看+精彩图集 end-->
+<!-- 今日必看+编辑热推-->
+<div class="nypictab02 clearfix mgT20">
+    <ul class="nytabTitle02">
+        <li class="ico ny2tab01_cur">今日必看</li>
+        <li class="ico ny2tab02">编辑热推</li>
+    </ul>
+   <div class="nypictabCon02" style="overflow:hidden;width:760px;"></div>
+<script>
+$.get("/ssi/cont/jrbk.shtml", {}, function(content){
+   $('div.nypictabCon02').ready(function(){
+     $('div.nypictabCon02').append(content);
+   });  
+});
+$.get("/ssi/cont/bjrt.shtml", {}, function(content){
+   $('div.nypictabCon02').ready(function(){
+     $('div.nypictabCon02').append(content);
+   });  
+});
+</script>
+</div>
+<!--今日必看+编辑热推 end-->
+    </div>
+<!--adv-->
+    <div class="adv mgT20"><!--ssi#include virtual="/ssi/contad/plfgzc.shtml"--></div>
+<!--adv end-->       
+<!--adv-->
+    <div class="advH198 mgT20"><!--ssi#include virtual="/ssi/contad/plsf.shtml"--></div>
+<!--adv end-->
+<!--网友评论 begin-->
+<div id="comment2" class="height">
+        <div class="commentLogin">
+
+      <form action="http://discuss.v1.cn/discuss/comment/save-comment.jhtml" method="post" id="add-news" name="add-news">
+        <input type="hidden" id="userId" name="news.userId" value="" />
+        <input type="hidden" id="userName" name="news.userName" value='' />
+        <input type="hidden" id="id" name="news.id" value='{$aid}' />
+        <input type="hidden" id="status" name="news.status" value='0' />
+        <input type="hidden" id="keyword" name="news.keyword" value='' />
+        <input type="hidden" id="ip" name="news.ip"  />
+        <input type="hidden" id="operType" name="operType" value='list' />
+        <input type="hidden" id="curPage" name="curPage" value=''/>
+         <input type="hidden" id="jumpURL" name="jumpURL" value='http://ynews.v1.cn/news/news/jump.jhtml?newsId=384004&to=http://ynews.v1.cn/news/news/jump.jhtml?newsId={$aid}' />
+         <input type="hidden" id="postURL" name="postURL" value='http://discuss.v1.cn/discuss/comments/' />
+    <div class="discuss">
+      <div id="disComment" class="comment">
+        <!-- 加载项 -->
+        <div id="ts">
+          <!-- <img id="loading" src="http://pic.v1.cn/cloudone/images/news/s_loading.gif" style="display:none"/> -->
+        </div>
+        <div id="tips" style="display:none"></div>
+        <!-- 加载项 -->
+        
+        <div class="fbpl">
+          
+      <h2>网友评论：</h2>
+      <div class="commentLogin">
+         <textarea onclick="if(this.value=='我来说两句！')this.value='';" id="content_discuss" name="newsComment.content" class="textLogin2" onkeyup="postComentLenCheck('content_discuss','150','content_discuss_tips')" onkeydown="postComentLenCheck('content_discuss','150','content_discuss_tips')">我来说两句！</textarea>
+         <div id="num02">                           
+            <span id="content_discuss_tips">还可输入150个字</span>  
+            <input type="button" style="cursor:pointer;" onclick="submitComment('http://discuss.v1.cn/discuss/comments/','','','post');" value="发布评论" name="发布评论" class="btn2">
+         </div>
+      </div>
+      
+      <div class="pl_head">
+         <span>全部评论</span>
+      </div>
+
+
+        </div>
+        <div class="page_change" id="fenye" style="display:none">
+        </div>
+        <div class="pl_con" id="data" style="display:none"></div>
+        <div class="page_change page_change_nl" id="fenye2" style="display:none">
+        </div>
+      </div>
+    </div>
+    </form>
+<div style="display:none" id="fenye" class="page_change"></div>
+        <div style="display:none" id="data" class="pl_con"></div>
+        <div style="display:none" id="fenye2" class="page_change page_change_nl">
+        <div class="discussion"></div>
+<!--
+          <script>
+            $(function(){
+            var baseURL='http://discuss.v1.cn/discuss/comment/';
+            submitComment(baseURL,'','','list');
+            })
+          </script> -->
+</div>
+
+
+<!--ssi#include virtual="/ssi/cont/plxf.shtml"-->
+<!--网友评论 end-->    
+    </div>
+</div>  
+</div>  
+    <div class="wrap295 fr">
+        <div class="advBox" style="margin-top:44px;">
+<!--右一广告  第一个广告位加载地域数据 定向使用-->
+<!--ssi#include virtual="/ssi/contad/btyc.shtml"--></div>
+        <!--相关视频-->
+<div class="wrap295 height" style="margin:20px 0;">
+     <ul class="title">相关视频</ul>
+     <div class="picboxes height" id="xgnr">
+<!--#
+$RelatedArray=CMS_FUNCTION('NewsRelated', $aid, 6);
+foreach($RelatedArray as $key=>$related){
+  if($key>=6) break;
+#-->
+           <li>
+             <ul>
+                <em class="{$value["iconStyle"]}"></em>
+                <em class="index_icon vd_ico" style="display:none;"></em>
+                <a href="{$related[url]}" target="_blank" title="{$related["title"]}"><img alt="{$related["title"]}" src="{$related[image]}"></a>
+             </ul>
+             <h6><a href="{$related[url]}" target="_blank" title="{$related["title"]}">{$related["title"]}</a></h6>
+           </li>
+<!--#
+}
+#-->
+     </div>
+</div>
+        <!--相关视频 end-->
+        <!--右侧绝对热点+精彩推荐 -->
+<div id="jdrd">加载中...</div>
+<script>
+$.get("/ssi/cont/jdrd.shtml", {}, function(content){
+   $('#jdrd').ready(function(){
+     $('#jdrd').html();
+     $('#jdrd').html(content);
+$(".nytabTitle03 li ").hover(
+function(){
+var ind=$(this).index();
+$(".nytabTitle03 li").each(function(){
+	var index = $(this).index();
+	var r = index + 1;
+	if(ind == index) {
+		$(this).addClass("ny3tab0"+r+"_cur").removeClass("ny3tab0"+r);
+	} else {
+	   $(this).addClass("ny3tab0"+r).removeClass("ny3tab0"+r+"_cur");
+	}
+  });
+$(".nypictabCon03 > div").eq(ind).show().siblings().hide();
+});
+   });  
+});
+</script>
+       <!--右侧绝对热点+精彩推荐 end-->
+<!--视频播放榜-->
+<div id="spbfb">加载中...</div>
+<script>
+$.get("/ssi/spbfb_common.html", {}, function(content){
+   $('#spbfb').ready(function(){
+     $('#spbfb').html();
+     $('#spbfb').html(content);
+   });  
+});
+</script>
+<!--视频播放榜 end-->
+<!--热门专辑-->
+<div id="rmzj">加载中...</div>
+<script>
+$.get("/ssi/cont/rmzj.shtml", {}, function(content){
+   $('#rmzj').ready(function(){
+     $('#rmzj').html();
+     $('#rmzj').html(content);
+   });  
+});
+</script>
+<!--热门专辑 end-->
+<!--adv-->
+<div class="advH250 mgT20">
+<!--ssi#include virtual="/ssi/contad/rdzjxf.shtml"-->
+</div>
+<!--adv end-->
+<!--央视网推荐-->
+<!--ssi#include virtual="/ssi/cont/yswtj.shtml"-->
+<!--央视网推荐 end-->
+<!--热门推荐-->
+<div id="rmtj">加载中...</div>
+<script>
+$.get("/ssi/cont/rmtj.shtml", {}, function(content){
+   $('#rmtj').ready(function(){
+     $('#rmtj').html();
+     $('#rmtj').html(content);
+   });  
+});
+</script>
+<!--热门推荐 end-->
+<!--热门投票 begin-->
+   <!--ssi#include virtual="/ssi/cont/rmtp.shtml"-->
+<!--热门投票 end-->
+    </div>
+</div>
+
+<div class="nydisclaimer marT20">
+  <span class="txt">免责声明:</span>本视频、文字仅代表作者，嘉宾个人观点，与第一视频网无关。其原创性以及其中陈述和文字内容未经本站证实，对本视频、文字以及其中全部或者部分内容的真实性、完整性、及时性本站不作任何保证或承诺，请读者仅作参考，并请自行核实相关内容
+    <iframe width="1" scrolling="no" height="1" framebroder="0" name="ad_link" id="ad_link"></iframe>
+    <a target="ad_link" id="my_link" href="about:blank"></a>
+    <script charset="gb2312" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js" language="javascript"></script>
+    <script src="http://www.v1.cn/c_include/js/ad_re.js" language="javascript"></script>
+</div>
+
+<!-- tab切换 three-->
+<div class="nypictab04 clearfix mgT20">
+    <ul class="nytabTitle04">
+        <li class="ico ny4tab01_cur">热点关注</li>
+        <li class="ico ny4tab02">频道推荐</li>
+    </ul>
+    <div class="nypictabCon04">
+<!--<div id="rdgz">
+<script>
+$.get("/ssi/module/5.shtml", {}, function(content){
+   $('#rdgz').ready(function(){
+     data=$(content).find("#picNews").children();
+     $('#rdgz').html(data);
+   });  
+});
+</script>
+</div>-->
+<!--ssi#include virtual="/ssi/cont/rdgz.shtml"-->
+<!--ssi#include virtual="/ssi/cont/pdtj.shtml"-->
+    </div>
+</div>
+<!-- tab切换 three end-->
+
+<!--adv-->
+<div class="w1070 clearfix mgT20">
+   <dt class="adv">
+<!--ssi#include virtual="/ssi/contad/dbtl.shtml"-->
+</dt>
+</div>
+<!--adv end-->
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+
+<!--页面底部评论-->
+<div id="bottombar-wrap-w">
+<div class="close-w"><a>关闭</a></div>
+<div class="wrap-cont-w">
+<div class="cont-minwidth-w">
+    <div class="cont-comment-w"><a href="#">查看<i>0</i>条评论</a></div>
+    <div class="cont-form-w">
+      <div class="form-text-w"><a class="button-w">按钮</a>
+      <input type="text" class="textarea-fw"  value="你是槽神.." onfocus="if (value =='你是槽神..'){value =''}" onblur="if (value ==''){value='你是槽神..'}" name="" />
+<img src="http://pic.v1.cn/cms/v1_static(new)/images/load.gif" style=" display: none;" class="load">
+      </div>
+    </div>
+</div>
+</div>
+</div>
+<div id="code_right"><!--ssi#include virtual="/ssi/contad/right.shtml"--></div>
+<div id="code_left"><!--ssi#include virtual="/ssi/contad/leftad.shtml"--></div>
+<!--ssi#include virtual="/ssi/cont/ycxfss2.shtml"-->
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".close-w").click(function(){
+    $("#bottombar-wrap-w").hide();
+  });
+});
+
+//到指定位置隐藏
+var m_st, m_po = 1010; //滚动到1010像素时显示
+$(window).scroll(function () {
+m_st = Math.max(document.body.scrollTop || document.documentElement.scrollTop);
+if (m_st > m_po) {
+showdiv();
+}
+else
+hidediv();
+})
+
+function showdiv() {
+$('#bottombar-wrap-w').addClass("bottom_bor_display");
+}
+function hidediv() {
+$('#bottombar-wrap-w').removeClass("bottom_bor_display");
+}
+</script>
+<!--页面底部评论 end-->
+</body>
+</html>";i:3;s:18384:"<!--#
+  $nav_array = CMS_FUNCTION('CmsArticleNav', $aid);
+  $sort=CMS_FUNCTION('toPinyin',$nav_array[1][name]);
+  $sort=$sort['pinyin_for_full'];
+#-->
+<!DOCTYPE html>
+<html>
+<head>
+<title><!--# echo $title #--> - {$nav_array[1][name]} - 第一视频网</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="title" content="<!--# echo $title #--> - 视频资讯在线观看"> 
+<meta name="keywords" content="<!--# echo $title #--> - <!--# echo $keywords #-->" />
+<meta name="description" content="<!--# echo $intro #-->" />
+
+<!--#CMS_FUNCTION('cssBox','video_detail.css',array(
+  'http://pic.v1.cn/cms/v1_static(new)/common/css/common.css',
+  'http://pic.v1.cn/cms/v1_cont(2014)/css/v1_cont.css',
+  'http://pic.v1.cn/cms/v1_cont(2014)/css/play_h_f.css',
+  'http://pic.v1.cn/cms/v1_cont(2014)/css/commentbottom.css',
+  'http://pic.v1.cn/cms/v1_cont(2014)/css/v1_tp.css',
+  'http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css',
+  'http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css',
+))#-->
+
+<!--ssi#include virtual="/ssi/cont/globalfun.shtml"-->
+<!--#CMS_FUNCTION('jsBox','video_detail.js',array(
+  'http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js',
+  'http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js',
+  'http://pic.v1.cn/cms/v1_cont(2014)/js/pagejs14.js',
+  'http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js',
+  'http://pic.v1.cn/cms/v1_static/js/content.js',
+  'http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048',
+  'http://pic.v1.cn/cloudone/search_new/common/js/base.js',
+  'http://pic.v1.cn/cms/news/index/js/window.js',
+  'http://pic.v1.cn/cloudone/news/discuss/init.js?v=201405181112',
+))#-->
+
+<style>
+.video_play{
+    display:block;
+    float:none;
+    height:auto;
+    overflow: hidden;
+    padding-left: 0px;
+    width: 620px;
+    margin:15px auto;
+}
+</style>
+<script type="text/javascript">
+   //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$nav_array[1][name]}', 3]);
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_cont(2014)/js/pagejs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+
+<script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+        player.config.sort="{$sort}";
+</script>
+</head>
+<body>
+<input id="articleID" type="hidden" value="{$aid}">
+ <input id="parentId" type="hidden" value=""/>
+ <input id="lunboStatus" type="hidden" value="true"/>
+ <input id="nextNewsUrl" type="hidden"/>
+<!--1070px 导航 begin-->
+<!--ssi#include virtual="/ssi/cont/navtop.shtml"-->
+<!--1070px 导航 end-->
+<div class="w1070 clearfix" style="margin-top:50px;">
+    <div class="wrap760 fl">
+         <!--视频标题 begin-->
+         <div class="subNav">
+            <div class="tit">
+               <!--#
+foreach($nav_array as $val){
+$navUrl=explode('/',$val['url']);
+$navUrl=($navUrl[2] ? $navUrl[1] : 'www').".v1.cn/".$navUrl[2];
+#-->
+<a href="http://$navUrl" target="_blank" title="{$val[name]}">{$val[name]}</a>  <i>&gt;</i> 
+<!--#}#--><a href="http://www.v1.cn<!--#echo $url#-->" target="_blank" title="<!--#echo $stitle#-->"><!--#echo $stitle#--></a>
+<h1><!--#echo $title#--></h1>
+            </div>
+          </div>
+          <!--视频标题 end-->
+          <div class="title_info">
+              <li><i><!--# echo date('Y-m-d H:i',$postdate) #--></i></li>
+              <li>{$source}</li>
+              <li><a href="#add-news">我要评论</a>(<em id="plSpan">0</em>)</li>
+              <li><i>分享</i>
+              <!-- Baidu Button BEGIN -->
+        <dt class="bdshare_t bds_tools get-codes-bdshare" id="bdshare" style="bottom:0px;margin-right:4px;" >
+        <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+        <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+        <a class="bds_t163" title="分享到网易微博" href="#"></a>
+        <a class="bds_tsohu" title="分享到搜狐微博" href="#"></a>
+        <span class="bds_more"></span>
+        </dt>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6497595" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        
+        <script type="text/javascript">
+bdText=document.title
+bdText=bdText.substring(0,bdText.indexOf('-'));
+bdText=bdText+'（分享自@第一视频 ）';
+<!--#
+if(!$image){
+preg_match("/<img[\w\W]*?src=\"(.*?)\"[\w\W]*?>/i",$contents,$imageArray);
+$image=$imageArray[1];
+}
+#-->
+        var bds_config={"snsKey":{'tsina':'3453959204','tqq':'4e645007e20d416abbfb2e6eea26eb31'},'bdText':bdText,'bdPic':'{$image}'}
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+        </script>
+        <!-- Baidu Button END -->
+              </li>
+              <li class="fybnOut" style="float:right;margin-right:0;">
+                 <a href="#" id="upA" style="border-right:0;"><font>上一篇</font></a>
+                 <a href="#" id="downA"><font>下一篇</font></a>
+              </li>
+          </div>
+          <script>
+             $(document).ready(function(){
+                $("#upA").attr("href",document.referrer);
+                $("#downA").attr("href",$("#xgnr li").eq(0).children("h6").children("a").attr("href"));
+             });
+          </script>
+          <div class="digest height">
+              <em>摘要：</em><p style="float:right;width:710px;">{$intro}</p>
+          </div>
+          <div class="tips01">
+             <em>标签：</em>
+             <span>
+<!--#
+$keyWordArray=explode(",",$keywords);
+foreach($keyWordArray as $keyword){
+$keywordCode=urlencode($keyword);
+#-->
+               <h3 style="float:left;"><a target="_blank" href="http://so.v1.cn/search/news/video/all/q_{$keywordCode}" tags="{$keyword}">{$keyword}</a></h3>
+<!--#}#-->
+             </span>
+          </div>
+          <div class="contents">
+<!--# echo $contents #-->
+          </div>
+          
+    <div class="conbox">
+    <!--猜你喜欢-->
+        <div class="wrap760">
+          <div class="title">猜你喜欢</div>
+     <div class="picOut">
+     <div id="cnxh">正在加载...</div>
+     <div id="cnxh1"></div>
+     <div id="cnxh2"></div>
+     </div>
+<script>
+$.get("/ssi/cnxh.shtml", {}, function(content){
+   $('#cnxh').ready(function(){
+     $('#cnxh').html();
+     $('#cnxh').html(content);
+   });  
+});
+$.get("/ssi/contad/cnxhyc1.shtml", {}, function(content){
+   $('#cnxh1').ready(function(){
+     $('#cnxh1').html(content);
+   });  
+});
+$.get("/ssi/contad/cnxhyc1.shtml", {}, function(content){
+   $('#cnxh2').ready(function(){
+     $('#cnxh2').html(content);
+   });  
+});
+</script>
+     </div>
+     <!--猜你喜欢 end-->
+     <!--大家都在看+精彩图集-->
+<div class="nypictab01 clearfix mgT20">
+    <ul class="nytabTitle01">
+        <li class="ico nytab01_cur">大家都在看</li>
+        <li class="ico nytab02">精彩图集</li>
+    </ul>
+    <div class="nypictabCon01" style="overflow:hidden;width:760px;"></div>
+<script>
+$.get("/ssi/cont/djdzk.shtml", {}, function(content){
+   $('div.nypictabCon01').ready(function(){
+     $('div.nypictabCon01').append(content);    
+   });  
+});
+
+$.get("/ssi/cont/jctj.shtml", {}, function(content){
+   $('div.nypictabCon01').ready(function(){
+     $('div.nypictabCon01').append(content);
+   });  
+});
+</script>
+</div>
+<!-- 大家都在看+精彩图集 end-->
+<!-- 今日必看+编辑热推-->
+<div class="nypictab02 clearfix mgT20">
+    <ul class="nytabTitle02">
+        <li class="ico ny2tab01_cur">今日必看</li>
+        <li class="ico ny2tab02">编辑热推</li>
+    </ul>
+   <div class="nypictabCon02" style="overflow:hidden;width:760px;"></div>
+<script>
+$.get("/ssi/cont/jrbk.shtml", {}, function(content){
+   $('div.nypictabCon02').ready(function(){
+     $('div.nypictabCon02').append(content);
+   });  
+});
+$.get("/ssi/cont/bjrt.shtml", {}, function(content){
+   $('div.nypictabCon02').ready(function(){
+     $('div.nypictabCon02').append(content);
+   });  
+});
+</script>
+</div>
+<!--今日必看+编辑热推 end-->
+    </div>
+<!--adv-->
+    <div class="adv mgT20"><!--ssi#include virtual="/ssi/contad/plfgzc.shtml"--></div>
+<!--adv end-->       
+<!--adv-->
+    <div class="advH198 mgT20"><!--ssi#include virtual="/ssi/contad/plsf.shtml"--></div>
+<!--adv end-->
+<!--网友评论 begin-->
+<div id="comment2" class="height">
+        <div class="commentLogin">
+
+      <form action="http://discuss.v1.cn/discuss/comment/save-comment.jhtml" method="post" id="add-news" name="add-news">
+        <input type="hidden" id="userId" name="news.userId" value="" />
+        <input type="hidden" id="userName" name="news.userName" value='' />
+        <input type="hidden" id="id" name="news.id" value='{$aid}' />
+        <input type="hidden" id="status" name="news.status" value='0' />
+        <input type="hidden" id="keyword" name="news.keyword" value='' />
+        <input type="hidden" id="ip" name="news.ip"  />
+        <input type="hidden" id="operType" name="operType" value='list' />
+        <input type="hidden" id="curPage" name="curPage" value=''/>
+         <input type="hidden" id="jumpURL" name="jumpURL" value='http://ynews.v1.cn/news/news/jump.jhtml?newsId=384004&to=http://ynews.v1.cn/news/news/jump.jhtml?newsId={$aid}' />
+         <input type="hidden" id="postURL" name="postURL" value='http://discuss.v1.cn/discuss/comments/' />
+    <div class="discuss">
+      <div id="disComment" class="comment">
+        <!-- 加载项 -->
+        <div id="ts">
+          <!-- <img id="loading" src="http://pic.v1.cn/cloudone/images/news/s_loading.gif" style="display:none"/> -->
+        </div>
+        <div id="tips" style="display:none"></div>
+        <!-- 加载项 -->
+        
+        <div class="fbpl">
+          
+      <h2>网友评论：</h2>
+      <div class="commentLogin">
+         <textarea onclick="if(this.value=='我来说两句！')this.value='';" id="content_discuss" name="newsComment.content" class="textLogin2" onkeyup="postComentLenCheck('content_discuss','150','content_discuss_tips')" onkeydown="postComentLenCheck('content_discuss','150','content_discuss_tips')">我来说两句！</textarea>
+         <div id="num02">                           
+            <span id="content_discuss_tips">还可输入150个字</span>  
+            <input type="button" style="cursor:pointer;" onclick="submitComment('http://discuss.v1.cn/discuss/comments/','','','post');" value="发布评论" name="发布评论" class="btn2">
+         </div>
+      </div>
+      
+      <div class="pl_head">
+         <span>全部评论</span>
+      </div>
+
+
+        </div>
+        <div class="page_change" id="fenye" style="display:none">
+        </div>
+        <div class="pl_con" id="data" style="display:none"></div>
+        <div class="page_change page_change_nl" id="fenye2" style="display:none">
+        </div>
+      </div>
+    </div>
+    </form>
+<div style="display:none" id="fenye" class="page_change"></div>
+        <div style="display:none" id="data" class="pl_con"></div>
+        <div style="display:none" id="fenye2" class="page_change page_change_nl">
+        <div class="discussion"></div>
+<!--
+          <script>
+            $(function(){
+            var baseURL='http://discuss.v1.cn/discuss/comment/';
+            submitComment(baseURL,'','','list');
+            })
+          </script> -->
+</div>
+
+
+<!--ssi#include virtual="/ssi/cont/plxf.shtml"-->
+<!--网友评论 end-->    
+    </div>
+</div>  
+</div>  
+    <div class="wrap295 fr">
+        <div class="advBox" style="margin-top:44px;">
+<!--右一广告  第一个广告位加载地域数据 定向使用-->
+<!--ssi#include virtual="/ssi/contad/btyc.shtml"--></div>
+        <!--相关视频-->
+<div class="wrap295 height" style="margin:20px 0;">
+     <ul class="title">相关视频</ul>
+     <div class="picboxes height" id="xgnr">
+<!--#
+$RelatedArray=CMS_FUNCTION('NewsRelated', $aid, 6);
+foreach($RelatedArray as $key=>$related){
+  if($key>=6) break;
+#-->
+           <li>
+             <ul>
+                <em class="{$value["iconStyle"]}"></em>
+                <em class="index_icon vd_ico" style="display:none;"></em>
+                <a href="{$related[url]}" target="_blank" title="{$related["title"]}"><img alt="{$related["title"]}" src="{$related[image]}"></a>
+             </ul>
+             <h6><a href="{$related[url]}" target="_blank" title="{$related["title"]}">{$related["title"]}</a></h6>
+           </li>
+<!--#
+}
+#-->
+     </div>
+</div>
+        <!--相关视频 end-->
+        <!--右侧绝对热点+精彩推荐 -->
+<div id="jdrd">加载中...</div>
+<script>
+$.get("/ssi/cont/jdrd.shtml", {}, function(content){
+   $('#jdrd').ready(function(){
+     $('#jdrd').html();
+     $('#jdrd').html(content);
+$(".nytabTitle03 li ").hover(
+function(){
+var ind=$(this).index();
+$(".nytabTitle03 li").each(function(){
+	var index = $(this).index();
+	var r = index + 1;
+	if(ind == index) {
+		$(this).addClass("ny3tab0"+r+"_cur").removeClass("ny3tab0"+r);
+	} else {
+	   $(this).addClass("ny3tab0"+r).removeClass("ny3tab0"+r+"_cur");
+	}
+  });
+$(".nypictabCon03 > div").eq(ind).show().siblings().hide();
+});
+   });  
+});
+</script>
+       <!--右侧绝对热点+精彩推荐 end-->
+<!--视频播放榜-->
+<div id="spbfb">加载中...</div>
+<script>
+$.get("/ssi/spbfb_common.html", {}, function(content){
+   $('#spbfb').ready(function(){
+     $('#spbfb').html();
+     $('#spbfb').html(content);
+   });  
+});
+</script>
+<!--视频播放榜 end-->
+<!--热门专辑-->
+<div id="rmzj">加载中...</div>
+<script>
+$.get("/ssi/cont/rmzj.shtml", {}, function(content){
+   $('#rmzj').ready(function(){
+     $('#rmzj').html();
+     $('#rmzj').html(content);
+   });  
+});
+</script>
+<!--热门专辑 end-->
+<!--adv-->
+<div class="advH250 mgT20">
+<!--ssi#include virtual="/ssi/contad/rdzjxf.shtml"-->
+</div>
+<!--adv end-->
+<!--央视网推荐-->
+<!--ssi#include virtual="/ssi/cont/yswtj.shtml"-->
+<!--央视网推荐 end-->
+<!--热门推荐-->
+<div id="rmtj">加载中...</div>
+<script>
+$.get("/ssi/cont/rmtj.shtml", {}, function(content){
+   $('#rmtj').ready(function(){
+     $('#rmtj').html();
+     $('#rmtj').html(content);
+   });  
+});
+</script>
+<!--热门推荐 end-->
+<!--热门投票 begin-->
+   <!--ssi#include virtual="/ssi/cont/rmtp.shtml"-->
+<!--热门投票 end-->
+    </div>
+</div>
+
+<div class="nydisclaimer marT20">
+  <span class="txt">免责声明:</span>本视频、文字仅代表作者，嘉宾个人观点，与第一视频网无关。其原创性以及其中陈述和文字内容未经本站证实，对本视频、文字以及其中全部或者部分内容的真实性、完整性、及时性本站不作任何保证或承诺，请读者仅作参考，并请自行核实相关内容
+    <iframe width="1" scrolling="no" height="1" framebroder="0" name="ad_link" id="ad_link"></iframe>
+    <a target="ad_link" id="my_link" href="about:blank"></a>
+    <script charset="gb2312" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js" language="javascript"></script>
+    <script src="http://www.v1.cn/c_include/js/ad_re.js" language="javascript"></script>
+</div>
+
+<!-- tab切换 three-->
+<div class="nypictab04 clearfix mgT20">
+    <ul class="nytabTitle04">
+        <li class="ico ny4tab01_cur">热点关注</li>
+        <li class="ico ny4tab02">频道推荐</li>
+    </ul>
+    <div class="nypictabCon04">
+<!--<div id="rdgz">
+<script>
+$.get("/ssi/module/5.shtml", {}, function(content){
+   $('#rdgz').ready(function(){
+     data=$(content).find("#picNews").children();
+     $('#rdgz').html(data);
+   });  
+});
+</script>
+</div>-->
+<!--ssi#include virtual="/ssi/cont/rdgz.shtml"-->
+<!--ssi#include virtual="/ssi/cont/pdtj.shtml"-->
+    </div>
+</div>
+<!-- tab切换 three end-->
+
+<!--adv-->
+<div class="w1070 clearfix mgT20">
+   <dt class="adv">
+<!--ssi#include virtual="/ssi/contad/dbtl.shtml"-->
+</dt>
+</div>
+<!--adv end-->
+
+<!--1070px 底部 begin-->
+<!--ssi#include virtual="/ssi/cont/navbottom.shtml"-->
+<!--1070px 底部 end-->
+
+<!--页面底部评论-->
+<div id="bottombar-wrap-w">
+<div class="close-w"><a>关闭</a></div>
+<div class="wrap-cont-w">
+<div class="cont-minwidth-w">
+    <div class="cont-comment-w"><a href="#">查看<i>0</i>条评论</a></div>
+    <div class="cont-form-w">
+      <div class="form-text-w"><a class="button-w">按钮</a>
+      <input type="text" class="textarea-fw"  value="你是槽神.." onfocus="if (value =='你是槽神..'){value =''}" onblur="if (value ==''){value='你是槽神..'}" name="" />
+<img src="http://pic.v1.cn/cms/v1_static(new)/images/load.gif" style=" display: none;" class="load">
+      </div>
+    </div>
+</div>
+</div>
+</div>
+<div id="code_right"><!--ssi#include virtual="/ssi/contad/right.shtml"--></div>
+<div id="code_left"><!--ssi#include virtual="/ssi/contad/leftad.shtml"--></div>
+<!--ssi#include virtual="/ssi/cont/ycxfss2.shtml"-->
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".close-w").click(function(){
+    $("#bottombar-wrap-w").hide();
+  });
+});
+
+//到指定位置隐藏
+var m_st, m_po = 1010; //滚动到1010像素时显示
+$(window).scroll(function () {
+m_st = Math.max(document.body.scrollTop || document.documentElement.scrollTop);
+if (m_st > m_po) {
+showdiv();
+}
+else
+hidediv();
+})
+
+function showdiv() {
+$('#bottombar-wrap-w').addClass("bottom_bor_display");
+}
+function hidediv() {
+$('#bottombar-wrap-w').removeClass("bottom_bor_display");
+}
+</script>
+<!--页面底部评论 end-->
+</body>
+</html>";}

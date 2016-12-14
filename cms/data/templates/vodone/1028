@@ -1,0 +1,670 @@
+a:16:{i:0;s:1110:"<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>百度视频_v1热门视频</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/lunbo/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/jquery-1.8.2.min.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/tab.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/new_special/lunbo/js/ScrollPic.js" type=text/javascript></SCRIPT>
+</head>
+<body>
+     <!--#CMS_MODULE(轮播视频)#-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/init.js"></script>
+<script type="text/javascript">
+
+//轮播主调函数
+function changeNewsInfo(){
+   changeZhuantiNewsInfo();
+};
+</script>
+
+</body>
+</html>
+";i:1;s:1324:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/lunbo/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/jquery-1.8.2.min.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/tab.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/new_special/lunbo/js/ScrollPic.js" type=text/javascript></SCRIPT>
+</head>
+<body>
+     <!--#CMS_MODULE(轮播视频)#-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/init.js"></script>
+<script type="text/javascript">
+
+//轮播主调函数
+function changeNewsInfo(){
+   changeZhuantiNewsInfo();
+};
+</script>
+
+</body>
+</html>
+";i:2;s:876:"<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>百度视频_v1热门视频</title>
+<link rel="stylesheet" type="text/css" href="css/v1_baidu.css" />
+<script type="text/javascript" src="js/min.js"></script>
+<script type="text/javascript" src="js/v1_min.js"></script>
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+
+<script type="text/javascript" src="js/tab.js"></script>
+<SCRIPT src="js/ScrollPic.js" type=text/javascript></SCRIPT>
+</head>
+<body>
+     <!--#CMS_MODULE(轮播视频)#-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/init.js"></script>
+<script type="text/javascript">
+
+//轮播主调函数
+function changeNewsInfo(){
+   changeZhuantiNewsInfo();
+};
+</script>
+
+</body>
+</html>
+";i:3;s:6878:"<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>百度视频_v1热门视频</title>
+<link rel="stylesheet" type="text/css" href="css/v1_baidu.css" />
+<script type="text/javascript" src="js/min.js"></script>
+<script type="text/javascript" src="js/v1_min.js"></script>
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+
+<script type="text/javascript" src="js/tab.js"></script>
+<SCRIPT src="js/ScrollPic.js" type=text/javascript></SCRIPT>
+</head>
+<body>
+     <div class="player">
+            <!-- 播放器 开始 -->
+            <div class="main_play">
+				<object id="play1" width="630" height="534" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,115,0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
+				<param name="movie" value="http://www.v1.cn/player/cloud/cloud_player.swf">
+				<param name="bgcolor" value="#000000">
+				<param name="FlashVars" value="id=31270&startSwfUrl=http://www.v1.cn/player/cloud/loading.swf&videoXmlUrl=http://pic.v1.cn/cloudone/xml/video/201101/11/31270.xml">
+				<param name="allowScriptAccess" value="always">
+				<param name="allowFullScreen" value="true">
+				<param name="wmode" value="opaque">
+				<embed width="630" height="534" src="http://www.v1.cn/player/cloud/cloud_player.swf" flashvars="autoPlay=true&showAD=true&id=31270&startSwfUrl=http://www.v1.cn/player/cloud/loading.swf&videoXmlUrl=http://pic.v1.cn/cloudone/xml/video/201101/11/31270.xml" name="play1" bgcolor="#000000" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" cover="http://pic101.v1.cn/v/20110111/1294730294824-s.jpg" type="application/x-shockwave-flash">
+				</object> 
+            </div>
+            <!-- 播放器 结束 -->
+
+            <!-- 播放器列表 开始 -->
+            <div class="re_play_list">
+                <div class="play_list_hd"> <span class="video_number"><b>推荐新闻</b></span></div>
+                <div class="play_list_bd">
+                    <ul class="video_list" id="vidList">
+                          <li>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_pic"><img class="time" alt="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" src="image/pic.jpg"></a>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_desc">太神奇了!Youtube牛人展示怎么把流动的水瞬间变成冰!</a>
+                            <div class="video_info">
+                                <span class="time">播放：538,350</span>
+                            </div>
+							<input id="news_id" type="hidden" value="637635"/>
+                            <input id="xml_url" type="hidden" value="http://pic.v1.cn/cloudone/xml/video/201306/14/637635.xml"/>
+							<input id="pic_url" type="hidden" value="http://pic106.v1.cn/cloud/20130614/images/637635-s.jpg"/>
+                        </li>
+                             <li>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_pic"><img alt="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" src="image/pic.jpg"></a>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_desc">太神奇了!Youtube牛人展示怎么把流动的水瞬间变成冰!</a>
+                            <div class="video_info">
+                                <span class="time">播放：538,350</span>
+                            </div>
+                        </li>
+                         <li>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_pic"><img alt="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" src="image/pic.jpg"></a>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_desc">太神奇了!Youtube牛人展示怎么把流动的水瞬间变成冰!</a>
+                            <div class="video_info">
+                                <span class="time">播放：538,350</span>
+                            </div>
+                        </li>
+                             <li>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_pic"><img alt="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" src="image/pic.jpg"></a>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_desc">太神奇了!Youtube牛人展示怎么把流动的水瞬间变成冰!</a>
+                            <div class="video_info">
+                                <span class="time">播放：538,350</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_pic"><img alt="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" src="image/pic.jpg"></a>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_desc">太神奇了!Youtube牛人展示怎么把流动的水瞬间变成冰!</a>
+                            <div class="video_info">
+                                <span class="time">播放：538,350</span>
+                            </div>
+                        </li>
+                             <li>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_pic"><img alt="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" src="image/pic.jpg"></a>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_desc">太神奇了!Youtube牛人展示怎么把流动的水瞬间变成冰!</a>
+                            <div class="video_info">
+                                <span class="time">播放：538,350</span>
+                            </div>
+                        </li>
+                                            </ul>
+                </div>
+            </div>
+            <!-- 播放器列表 结束 -->
+        </div>
+
+<script type="text/javascript" src="js/init.js"></script>
+<script type="text/javascript">
+
+//轮播主调函数
+function changeNewsInfo(){
+   changeZhuantiNewsInfo();
+};
+</script>
+
+</body>
+</html>
+";i:4;s:7151:"<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>百度视频_v1热门视频</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/lunbo/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/jquery-1.8.2.min.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/tab.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/new_special/lunbo/js/ScrollPic.js" type=text/javascript></SCRIPT>
+</head>
+<body>
+     <div class="player">
+            <!-- 播放器 开始 -->
+            <div class="main_play">
+				<object id="play1" width="630" height="534" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,115,0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
+				<param name="movie" value="http://www.v1.cn/player/cloud/cloud_player.swf">
+				<param name="bgcolor" value="#000000">
+				<param name="FlashVars" value="id=31270&startSwfUrl=http://www.v1.cn/player/cloud/loading.swf&videoXmlUrl=http://pic.v1.cn/cloudone/xml/video/201101/11/31270.xml">
+				<param name="allowScriptAccess" value="always">
+				<param name="allowFullScreen" value="true">
+				<param name="wmode" value="opaque">
+				<embed width="630" height="534" src="http://www.v1.cn/player/cloud/cloud_player.swf" flashvars="autoPlay=true&showAD=true&id=31270&startSwfUrl=http://www.v1.cn/player/cloud/loading.swf&videoXmlUrl=http://pic.v1.cn/cloudone/xml/video/201101/11/31270.xml" name="play1" bgcolor="#000000" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" cover="http://pic101.v1.cn/v/20110111/1294730294824-s.jpg" type="application/x-shockwave-flash">
+				</object> 
+            </div>
+            <!-- 播放器 结束 -->
+
+            <!-- 播放器列表 开始 -->
+            <div class="re_play_list">
+                <div class="play_list_hd"> <span class="video_number"><b>推荐新闻</b></span></div>
+                <div class="play_list_bd">
+                    <ul class="video_list" id="vidList">
+                          <li>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_pic"><img class="time" alt="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" src="image/pic.jpg"></a>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_desc">太神奇了!Youtube牛人展示怎么把流动的水瞬间变成冰!</a>
+                            <div class="video_info">
+                                <span class="time">播放：538,350</span>
+                            </div>
+							<input id="news_id" type="hidden" value="637635"/>
+                            <input id="xml_url" type="hidden" value="http://pic.v1.cn/cloudone/xml/video/201306/14/637635.xml"/>
+							<input id="pic_url" type="hidden" value="http://pic106.v1.cn/cloud/20130614/images/637635-s.jpg"/>
+                        </li>
+                             <li>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_pic"><img alt="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" src="image/pic.jpg"></a>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_desc">太神奇了!Youtube牛人展示怎么把流动的水瞬间变成冰!</a>
+                            <div class="video_info">
+                                <span class="time">播放：538,350</span>
+                            </div>
+                        </li>
+                         <li>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_pic"><img alt="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" src="image/pic.jpg"></a>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_desc">太神奇了!Youtube牛人展示怎么把流动的水瞬间变成冰!</a>
+                            <div class="video_info">
+                                <span class="time">播放：538,350</span>
+                            </div>
+                        </li>
+                             <li>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_pic"><img alt="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" src="image/pic.jpg"></a>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_desc">太神奇了!Youtube牛人展示怎么把流动的水瞬间变成冰!</a>
+                            <div class="video_info">
+                                <span class="time">播放：538,350</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_pic"><img alt="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" src="image/pic.jpg"></a>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_desc">太神奇了!Youtube牛人展示怎么把流动的水瞬间变成冰!</a>
+                            <div class="video_info">
+                                <span class="time">播放：538,350</span>
+                            </div>
+                        </li>
+                             <li>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_pic"><img alt="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" src="image/pic.jpg"></a>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_desc">太神奇了!Youtube牛人展示怎么把流动的水瞬间变成冰!</a>
+                            <div class="video_info">
+                                <span class="time">播放：538,350</span>
+                            </div>
+                        </li>
+                                            </ul>
+                </div>
+            </div>
+            <!-- 播放器列表 结束 -->
+        </div>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/init.js"></script>
+<script type="text/javascript">
+
+//轮播主调函数
+function changeNewsInfo(){
+   changeZhuantiNewsInfo();
+};
+</script>
+
+</body>
+</html>
+";i:5;s:1111:"<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>百度视频_v1热门视频</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/lunbo/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/jquery-1.8.2.min.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/tab.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/new_special/lunbo/js/ScrollPic.js" type=text/javascript></SCRIPT>
+</head>
+<body>
+      <!--#CMS_MODULE(轮播视频)#-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/init.js"></script>
+<script type="text/javascript">
+
+//轮播主调函数
+function changeNewsInfo(){
+   changeZhuantiNewsInfo();
+};
+</script>
+
+</body>
+</html>
+";i:6;s:1325:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/lunbo/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/jquery-1.8.2.min.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/tab.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/new_special/lunbo/js/ScrollPic.js" type=text/javascript></SCRIPT>
+</head>
+<body>
+      <!--#CMS_MODULE(轮播视频)#-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/init.js"></script>
+<script type="text/javascript">
+
+//轮播主调函数
+function changeNewsInfo(){
+   changeZhuantiNewsInfo();
+};
+</script>
+
+</body>
+</html>
+";i:7;s:1321:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/lunbo/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/jquery-1.8.2.min.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/tab.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/new_special/lunbo/js/ScrollPic.js" type=text/javascript></SCRIPT>
+</head>
+<body>
+
+<!--#CMS_MODULE(轮播视频)#-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/init.js"></script>
+<script type="text/javascript">
+
+//轮播主调函数
+function changeNewsInfo(){
+   changeZhuantiNewsInfo();
+};
+</script>
+
+</body>
+</html>
+";i:8;s:2538:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/lunbo/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/jquery-1.8.2.min.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/tab.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/new_special/lunbo/js/ScrollPic.js" type=text/javascript></SCRIPT>
+</head>
+<body>
+ <div class="player">
+
+            <div class="main_play">
+				<object id="play1" width="630" height="534" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,115,0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
+				<param name="movie" value="http://www.v1.cn/player/cloud/cloud_player.swf">
+				<param name="bgcolor" value="#000000">
+				<param name="FlashVars" value="id=31270&startSwfUrl=http://www.v1.cn/player/cloud/loading.swf&videoXmlUrl=http://pic.v1.cn/cloudone/xml/video/201101/11/31270.xml">
+				<param name="allowScriptAccess" value="always">
+				<param name="allowFullScreen" value="true">
+				<param name="wmode" value="opaque">
+				<embed width="630" height="534" src="http://www.v1.cn/player/cloud/cloud_player.swf" flashvars="autoPlay=true&showAD=true&id=31270&startSwfUrl=http://www.v1.cn/player/cloud/loading.swf&videoXmlUrl=http://pic.v1.cn/cloudone/xml/video/201101/11/31270.xml" name="play1" bgcolor="#000000" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" cover="http://pic101.v1.cn/v/20110111/1294730294824-s.jpg" type="application/x-shockwave-flash">
+				</object> 
+            </div>
+ 
+           <!--#CMS_MODULE(轮播视频)#-->
+
+        </div>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/init.js"></script>
+<script type="text/javascript">
+
+//轮播主调函数
+function changeNewsInfo(){
+   changeZhuantiNewsInfo();
+};
+</script>
+
+</body>
+</html>
+";i:9;s:1436:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/lunbo/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/jquery-1.8.2.min.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/tab.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/new_special/lunbo/js/ScrollPic.js" type=text/javascript></SCRIPT>
+</head>
+<body>
+ <div class="player">
+
+           <!--#CMS_MODULE(轮播视频-左侧)#-->
+ 
+           <!--#CMS_MODULE(轮播视频-右侧)#-->
+
+        </div>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/init.js"></script>
+<script type="text/javascript">
+
+//轮播主调函数
+function changeNewsInfo(){
+   changeZhuantiNewsInfo();
+};
+</script>
+
+</body>
+</html>
+";i:10;s:1383:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/lunbo/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/jquery-1.8.2.min.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/tab.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/new_special/lunbo/js/ScrollPic.js" type=text/javascript></SCRIPT>
+</head>
+<body>
+ <div class="player">
+
+           <!--#CMS_MODULE(轮播视频-大模块)#-->
+
+        </div>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/init.js"></script>
+<script type="text/javascript">
+
+//轮播主调函数
+function changeNewsInfo(){
+   changeZhuantiNewsInfo();
+};
+</script>
+
+</body>
+</html>
+";i:11;s:1442:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/lunbo/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/jquery-1.8.2.min.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/tab.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/new_special/lunbo/js/ScrollPic.js" type=text/javascript></SCRIPT>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+<body>
+ <div class="player">
+
+           <!--#CMS_MODULE(轮播视频-大模块)#-->
+
+        </div>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/init.js"></script>
+<script type="text/javascript">
+
+//轮播主调函数
+var playType='zhuanti';
+</script>
+
+</body>
+</html>
+";i:12;s:1344:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/lunbo/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/jquery-1.8.2.min.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/tab.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/new_special/lunbo/js/ScrollPic.js" type=text/javascript></SCRIPT>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+<body>
+ <div class="player">
+
+           <!--#CMS_MODULE(轮播视频-大模块)#-->
+
+        </div>
+
+<script type="text/javascript">
+
+//轮播主调函数
+var playType='zhuanti';
+</script>
+
+</body>
+</html>
+";i:13;s:1340:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/lunbo/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/jquery-1.8.2.min.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/tab.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/new_special/lunbo/js/ScrollPic.js" type=text/javascript></SCRIPT>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+<body>
+ <div class="player">
+
+           <!--#CMS_MODULE(轮播视频-大模块)#-->
+
+        </div>
+
+<script type="text/javascript">
+
+//轮播主调函数
+playType='zhuanti';
+</script>
+
+</body>
+</html>
+";i:14;s:1443:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/lunbo/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/jquery-1.8.2.min.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/tab.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/new_special/lunbo/js/ScrollPic.js" type=text/javascript></SCRIPT>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+<body>
+ <div class="player">
+
+           <!--#CMS_MODULE(轮播视频-大模块)#-->
+
+        </div>
+
+<script type="text/javascript">
+
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".play_list_bd").find("li");
+var li_num = li_array.length
+</script>
+
+</body>
+</html>
+";i:15;s:1803:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/new_special/lunbo/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/jquery-1.8.2.min.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/lunbo/js/tab.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/new_special/lunbo/js/ScrollPic.js" type=text/javascript></SCRIPT>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+</head>
+<body>
+ <div class="player">
+
+           <!--#CMS_MODULE(轮播视频-大模块)#-->
+
+        </div>
+
+<script type="text/javascript">
+
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".play_list_bd").find("li");
+var li_num = li_array.length
+</script>
+
+</body>
+</html>
+";}

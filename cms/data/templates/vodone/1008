@@ -1,0 +1,120 @@
+a:3:{i:0;s:1108:"<?xml version="1.0" encoding="utf-8"?>
+<document>
+    <webSite>www.v1.cn</webSite>
+    <webMaster>lichangmin@v1.cn</webMaster>
+    <updatePeri>5</updatePeri>
+
+<!--#
+   $seoDataArray=CMS_FUNCTION('seoData',$cms_page_id);
+   foreach($seoDataArray as $seoData){
+#-->    
+   <item>
+        <op>add</op>
+        <title>
+            <![CDATA[{$seoData['title']}]]>
+        </title>
+        <playLink>
+            <![CDATA[http://www.v1.cn{$seoData['url']}]]>
+        </playLink>
+        <imageLink>
+            <![CDATA[{$seoData['image']}]]>
+        </imageLink>
+        <videoLink>
+            <![CDATA[{$seoData['videoLink']}]]>
+        </videoLink>
+        <tag>
+            <![CDATA[{$seoData['tag']}]]>
+        </tag>
+        <comment>
+            <![CDATA[{$seoData['intro']}]]>
+        </comment>
+        <pubDate><![CDATA[{$seoData['create_time']}]]></pubDate>
+        <duration>
+            <![CDATA[{$seoData['duration']}]]>
+        </duration>
+        <category>
+            <![CDATA[{$seoData['category']}]]>
+        </category>
+   </item>
+<!--#}#-->
+</document>";i:1;s:1142:"<?xml version="1.0" encoding="utf-8"?>
+<document>
+    <webSite>www.v1.cn</webSite>
+    <webMaster>lichangmin@v1.cn</webMaster>
+    <updatePeri>5</updatePeri>
+
+<!--#
+   $seoDataArray=CMS_FUNCTION('seoData',$cms_page_id);
+print_r($seoDataArray);
+exit();
+   foreach($seoDataArray as $seoData){
+#-->    
+   <item>
+        <op>add</op>
+        <title>
+            <![CDATA[{$seoData['title']}]]>
+        </title>
+        <playLink>
+            <![CDATA[http://www.v1.cn{$seoData['url']}]]>
+        </playLink>
+        <imageLink>
+            <![CDATA[{$seoData['image']}]]>
+        </imageLink>
+        <videoLink>
+            <![CDATA[{$seoData['videoLink']}]]>
+        </videoLink>
+        <tag>
+            <![CDATA[{$seoData['tag']}]]>
+        </tag>
+        <comment>
+            <![CDATA[{$seoData['intro']}]]>
+        </comment>
+        <pubDate><![CDATA[{$seoData['create_time']}]]></pubDate>
+        <duration>
+            <![CDATA[{$seoData['duration']}]]>
+        </duration>
+        <category>
+            <![CDATA[{$seoData['category']}]]>
+        </category>
+   </item>
+<!--#}#-->
+</document>";i:2;s:1108:"<?xml version="1.0" encoding="utf-8"?>
+<document>
+    <webSite>www.v1.cn</webSite>
+    <webMaster>lichangmin@v1.cn</webMaster>
+    <updatePeri>5</updatePeri>
+
+<!--#
+   $seoDataArray=CMS_FUNCTION('seoData',$cms_page_id);
+   foreach($seoDataArray as $seoData){
+#-->    
+   <item>
+        <op>add</op>
+        <title>
+            <![CDATA[{$seoData['title']}]]>
+        </title>
+        <playLink>
+            <![CDATA[http://www.v1.cn{$seoData['url']}]]>
+        </playLink>
+        <imageLink>
+            <![CDATA[{$seoData['image']}]]>
+        </imageLink>
+        <videoLink>
+            <![CDATA[{$seoData['videoLink']}]]>
+        </videoLink>
+        <tag>
+            <![CDATA[{$seoData['tag']}]]>
+        </tag>
+        <comment>
+            <![CDATA[{$seoData['intro']}]]>
+        </comment>
+        <pubDate><![CDATA[{$seoData['create_time']}]]></pubDate>
+        <duration>
+            <![CDATA[{$seoData['duration']}]]>
+        </duration>
+        <category>
+            <![CDATA[{$seoData['category']}]]>
+        </category>
+   </item>
+<!--#}#-->
+</document>";}

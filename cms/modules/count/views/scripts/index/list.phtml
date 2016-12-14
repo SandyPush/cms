@@ -1,0 +1,128 @@
+<script>
+	function list()
+	{
+		document.forms[0].action='/count/index/list';
+		document.forms[0].submit();
+	}
+	function changedatetype(obj)
+	{
+		switch(obj.value)
+		{
+			case 'day':
+				$('#select_day').show();
+				$('#select_month').show();
+				$('#select_quarter').hide();
+				$('#select_week').hide();
+				$('#join').hide();
+				$('#select_end_year').hide();
+				$('#select_end_month').hide();
+				$('#select_end_day').hide();
+				break;
+			case 'month':
+				$('#select_day').hide();
+				$('#select_month').show();
+				$('#select_quarter').hide();
+				$('#select_week').hide();
+				$('#join').hide();
+				$('#select_end_year').hide();
+				$('#select_end_month').hide();
+				$('#select_end_day').hide();
+				break;
+			case 'week':
+				$('#select_day').hide();
+				$('#select_month').hide();
+				$('#select_quarter').hide();
+				$('#select_week').show();
+				$('#join').hide();
+				$('#select_end_year').hide();
+				$('#select_end_month').hide();
+				$('#select_end_day').hide();
+				break;
+			case 'quarter':
+				$('#select_day').hide();
+				$('#select_month').hide();
+				$('#select_quarter').show();
+				$('#select_week').hide();
+				$('#join').hide();
+				$('#select_end_year').hide();
+				$('#select_end_month').hide();
+				$('#select_end_day').hide();
+				break;
+			case 'year':
+				$('#select_day').hide();
+				$('#select_month').hide();
+				$('#select_quarter').hide();
+				$('#select_week').hide();
+				$('#join').hide();
+				$('#select_end_year').hide();
+				$('#select_end_month').hide();
+				$('#select_end_day').hide();
+				break;
+			case 'custom':
+				$('#select_day').show();
+				$('#select_month').show();
+				$('#select_quarter').hide();
+				$('#select_week').hide();
+				$('#join').show();
+				$('#select_end_year').show();
+				$('#select_end_month').show();
+				$('#select_end_day').show();
+				break;
+		}
+	}
+	$(document).ready(function(){
+		changedatetype($('#datetype')[0]);
+	});
+</script>
+
+<div class="area">
+	<div class="help">
+    <p>帮助</p>
+    <p>1、此处为详细列表(<?=$this->channel ?>);</p>    
+    <p class="soart">
+    	<form action="" name="search_form" method="post">
+            <span>日期类型:<?=$this->formSelect('datetype', $this->datetype, array('onchange'=>'changedatetype(this)'), $this->datetypes)?></span>
+            <span>用户:<?=$this->formSelect('uid', $this->uid, null, $this->usernamelist)?></span>
+            <span><?=$this->formSelect('year', $this->year, null, $this->years)?>年</span>
+            <span id="select_month"><?=$this->formSelect('month', $this->month, null, $this->months)?>月</span>
+            <span id="select_day"><?=$this->formSelect('day', $this->day, null, $this->days)?>日</span>
+            <span id="select_quarter"><?=$this->formSelect('quarter', $this->quarter, null, $this->quarters)?>季度</span>
+            <span id="select_week"><?=$this->formSelect('week', $this->week, null, $this->weeks)?>周</span>
+            <span id="join">至&nbsp;&nbsp;</span>
+            <span id="select_end_year"><?=$this->formSelect('end_year', $this->end_year, null, $this->years)?>年</span>
+            <span id="select_end_month"><?=$this->formSelect('end_month', $this->end_month, null, $this->months)?>月</span>
+            <span id="select_end_day"><?=$this->formSelect('end_day', $this->end_day, null, $this->days)?>日</span>
+            <!--input type="submit" value="显示"></button-->
+        </form>
+    </p>    
+    </div>
+
+	<div class="nr">
+    	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+        	<tr>
+            	<th>文章ID</th>
+                <th>文章标题</th>
+                <th>作者</th>
+                <th>发布时间</th>
+                <th>浏览量</th>
+                <th>评论量</th>
+                <th>稿件字数</th>
+            </tr>
+    <?php foreach ($this->result as $key => $value): ?>
+            <tr>
+        		<td><?=$value['aid']?></td>
+                <td><a href="/contents/article/edit/id/<?=$value['aid']?>" title="编辑"><img src="/theme/default/image/edit.png" /></a>&nbsp;<a href="<?=$value['islink']?'':$this->push_url?><?=$value['url']?>" target="_blank"><?=$value['title']?></a></td>
+                <td><?=$value['author']?></td>
+                <td><?=date('Y-m-d H:i:s',$value['postdate'])?></td>
+                <td><?=$value['pv']?></td>
+                <td><?=$value['comments']?$value['comments']:0?></td>
+                <td><?=$value['content_length']?></td>
+            </tr>
+    <?php endforeach;  ?>
+        </table>
+    </div>
+    <div class="fy">
+		<?=$this->pagebar ?>
+	</div>
+    </div>
+

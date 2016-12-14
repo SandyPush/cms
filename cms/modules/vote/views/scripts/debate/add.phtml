@@ -1,0 +1,176 @@
+<div class="area">
+<div class="help"> 
+	<p>帮助</p>
+	<p>1、此处为论战管理-添加论战页面</p>	
+	<p>2、论战有推荐和不推荐两种类型,编辑论战可以修改类型.当且仅当论战为推荐类型时才会在<a href="http://news.titan24.com/app/debate/index.php" target="_blank">论战频道</a>显示!</p> 
+	<p>3、第一次添加论战，请参考如下地址以确定论战页面上的各个元素：<br>
+	　　<a href="http://basketball.titan24.com/pk/19.html" target="_blank">http://basketball.titan24.com/pk/19.html</a></p>
+</div>
+<div class="nr">
+<h2>
+<button onclick="window.location.href='/vote/debate/'">返回</button>
+<a href="#nogo">添加论战</a>        	
+</h2>
+<form action="/vote/debate/create" method="post" enctype="multipart/form-data" onsubmit="return checkForm();">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+<tbody>
+    <tr>
+        <td>论战标题</td><td><input type="text" name="name" id="name" size="40" value="" onkeyup="checkLenth(this,'name_length_view','name_length',32)"/><span id="name_length_view">文字最大字节数：32，<span id="name_length"></span></span></td>
+    </tr>
+	<!--
+    <tr>
+        <td>论战头图</td>
+        <td><input name="photo" type="file" size="45" class="input" /> <span>尺寸:950x150,目前页面已不调用头图，可以不填</span>
+        </td>
+    </tr>
+	-->
+    <tr>
+        <td>论战导语</td>
+        <td>
+            <textarea id="intro" name="intro" cols="60" rows="5" onkeyup="checkLenth(this,'intro_length_view','intro_length',240)"></textarea>
+				<span id="intro_length_view">文字最大字节数：240，<span id="intro_length"></span></span>
+        </td>
+    </tr>
+    <tr>
+        <td>是否推荐</td>
+        <td>
+        	<input type="radio" name="level" value="1">是&nbsp;<input type="radio" name="level" value="0" checked>否 推荐论战在论战分类页面显示
+        </td>
+    </tr>
+    <tr>
+        <td>发布时间</td>
+        <td><input type="text" name="postdate" id="txt_startdate" onclick="new WdatePicker({startDate:'%y-%M-%d %h:%i:%s',dateFmt:'yyyy-MM-dd HH:mm:ss',alwaysUseStartDate:false});" value="" /></td>
+    </tr>
+	<tr><td colspan="2"><hr size="1"/></td></tr>
+    <tr>
+        <td>正方标题</td><td><input type="text" name="z_name" id="z_name" size="40" value="" onkeyup="checkLenth(this,'z_name_length_view','z_name_length',32)"/><span id="z_name_length_view">文字最大字节数：32，<span id="z_name_length"></span></span></td>
+    </tr>
+    <tr>
+        <td>正方摘要</td>
+        <td>
+            <textarea id="z_intro" name="z_intro" cols="60" rows="5" onkeyup="checkLenth(this,'z_intro_length_view','z_intro_length',160)"></textarea>
+				<span id="z_intro_length_view">文字最大字节数：160，<span id="z_intro_length"></span></span>
+        </td>
+    </tr>
+    <tr>
+        <td>正方小图</td>
+        <td><input name="z_photo" type="file" size="45" class="input" /> <span>尺寸:140x160</span>
+        </td>
+    </tr>
+    <tr>
+        <td>正方链接</td>
+        <td><input type="text" name="z_url" size="40" value="" /></td>
+    </tr>
+    <tr>
+        <td>正方支持</td>
+        <td><input type="text" name="z_count" size="20" value="" /></td>
+    </tr>
+    <tr>
+        <td>正方评论</td><td><input type="text" name="z_name2" id="z_name2" size="40" value="" onkeyup="checkLenth(this,'z_name2_length_view','z_name2_length',32)"/><span id="z_name2_length_view">文字最大字节数：32，<span id="z_name2_length"></span></span></td>
+    </tr>
+	<tr><td colspan="2"><hr size="1"/></td></tr>
+    <tr>
+        <td>反方标题</td><td><input type="text" name="f_name" id="f_name" size="40" value="" onkeyup="checkLenth(this,'f_name_length_view','f_name_length',32)"/><span id="f_name_length_view">文字最大字节数：32，<span id="f_name_length"></span></span></td>
+    </tr>
+    <tr>
+        <td>反方摘要</td>
+        <td>
+            <textarea id="f_intro" name="f_intro" cols="60" rows="5" onkeyup="checkLenth(this,'f_intro_length_view','f_intro_length',160)"></textarea>
+				<span id="f_intro_length_view">文字最大字节数：160，<span id="f_intro_length"></span></span>
+        </td>
+    </tr>
+    <tr>
+        <td>反方小图</td>
+        <td><input name="f_photo" type="file" size="45" class="input" /><span>尺寸:140x160</span>
+        </td>
+    </tr>
+    <tr>
+        <td>反方链接</td>
+        <td><input type="text" name="f_url" size="40" value="" /></td>
+    </tr>
+    <tr>
+        <td>反方支持</td>
+        <td><input type="text" name="f_count" size="20" value="" /></td>
+    </tr>
+    <tr>
+        <td>反方评论</td><td><input type="text" name="f_name2" id="f_name2" size="40" value="" onkeyup="checkLenth(this,'f_name2_length_view','f_name2_length',32)"/><span id="f_name2_length_view">文字最大字节数：32，<span id="f_name2_length"></span></span></td>
+    </tr>
+	<tr>
+        <td></td>
+        <td align="left"><input type="submit" value="   提 交   " /> <input type="reset" value="   重 填   " /></td>
+    </tr>
+</tbody>
+</table>
+</form>
+</div>
+</div>
+<script type="text/javascript">
+function checkLenth(obj,view_id,length_id,max_length)
+{
+	var strlength=count_length(obj.value);
+	if(strlength <= max_length)
+	{
+		$('#'+view_id).removeClass().addClass('info');
+		$('#'+length_id).text('还剩'+(max_length-strlength)+'字');
+	}else
+	{
+		$('#'+view_id).removeClass().addClass('info').addClass('war');
+		$('#'+length_id).text('超出'+(strlength-max_length)+'字');
+	}
+}
+
+function count_length(objValue)
+{
+	return objValue.replace(/[^\x00-\xff]/g,"**").length;
+}
+
+function checkForm(){
+	if(!$('#name').val()){
+		alert('论战标题不能为空');
+		return false;
+	}
+	//else if(!$("input[name='photo']").val()){
+	//	alert('论战头图不能为空');
+	//	return false;
+	//}
+	
+	else if(!$("#intro").val()){
+		alert('论战导语不能为空');
+		return false;
+	}else if(!$("#txt_startdate").val()){
+		alert('发布时间不能为空');
+		return false;
+	}else if(!$("#z_name").val()){
+		alert('正方标题不能为空');
+		return false;
+	}else if(!$("#z_intro").val()){
+		alert('正方摘要不能为空');
+		return false;
+	}else if(!$("input[name='z_photo']").val()){
+		alert('正方小图不能为空');
+		return false;
+	}else if(!$("input[name='z_photo']").val().match(/^[a-z]\:/i)){
+		alert('正方小图请上传一张本地图片');
+		return false;
+	}else if(!$("#z_name2").val()){
+		alert('正方评论不能为空');
+		return false;
+	}else if(!$("#f_name").val()){
+		alert('反方标题不能为空');
+		return false;
+	}else if(!$("#f_intro").val()){
+		alert('反方摘要不能为空');
+		return false;
+	}else if(!$("input[name='f_photo']").val()){
+		alert('反方小图不能为空');
+		return false;
+	}else if(!$("input[name='f_photo']").val().match(/^[a-z]\:/i)){
+		alert('正方小图请上传一张本地图片');
+		return false;
+	}else if(!$("#f_name2").val()){
+		alert('反方评论不能为空');
+		return false;
+	}
+}
+</script>
+

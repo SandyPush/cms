@@ -1,0 +1,477 @@
+a:2:{i:0;s:10518:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/children/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/children/js/zt.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/children/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+<body>
+
+<div id="code">
+    <ul>
+    <li><a href="#a1">返回顶部</a></li>
+    <li><a href="#a2">玩游戏</a></li>
+    <li><a href="#a3">吃零食</a></li>
+    <li><a href="#a4">追红人</a></li>
+    <li><a href="#a5">看大片</a></li>
+    <li><a href="#a6">老照片</a></li>
+    <li><a href="#a7">再穿越</a></li>
+    </ul>
+</div>
+<div class="topic_img">
+<a name="a1"></a>
+   <div class="wrap1000 height">
+       <div class="toptext">
+告诉你一个活着的世界，一个光与影交织的故事。时代变迁，百姓沉浮，都自这微小的孔隙中渗透出来，终绘成中国民生万象图。"用影像冲击心灵，感受事实的力量"。在这里，传递现实呼声，谋求社会福祉已触手可及。
+       </div>
+       <div class="wrap980">
+         <!--focus焦点图-->
+<div id="scrollPic">
+        <ul>
+            <li>
+                <img src="./images/01(1).jpg">
+                <div></div>
+                <!--<p class="b_tit">
+                    <span class="opacity"></span>
+                    <span class="tit">
+                        <span>蒙其·D·路飞<em>&nbsp;&nbsp;&nbsp;&nbsp;草帽海贼团【船长】</em></span>
+                        <em>恶魔果实：橡胶果实<br>悬赏：3千万（可可亚西村事件）→1亿（阿拉巴斯坦事件）→3亿（司法岛事件)→4亿（顶上战争后）</em>
+                    </span>-->
+                </p>
+            </li>
+            <li>
+                <img src="./images/02(1).jpg">
+                <div></div>
+            </li>
+            <li>
+                <img src="./images/03(1).jpg">
+                <div></div>
+            </li>
+            <li>
+                <img src="./images/04(1).jpg">
+                <div></div>
+            </li>
+            <li>
+                <img src="./images/05(1).jpg">
+                <div></div>
+            </li>
+           
+        </ul>
+        <a href="javascript:;" class="prev"></a>
+        <a href="javascript:;" class="next"></a>
+</div>
+<div id="scrollDot">
+	<div class="small">
+    	<ul>
+        	<li class="hove"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+         <!--focus 焦点图end-->
+       </div>
+   </div>
+</div>
+<div class="wrap1000">
+   <ul class="wrap980 hotpic">
+      <li>
+         <a href="#" target="_blank" title="标题">
+            <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+            <span>
+               <em>玩游戏</em>
+               <h1>大标题大标题大标题</h1>
+               <h2>文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述</h2>
+            </span>
+         </a>
+      </li> 
+      <li>
+         <a href="#" target="_blank" title="标题">
+            <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+            <span>
+               <em>玩游戏</em>
+               <h1>大标题大标题大标题</h1>
+               <h2>文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述</h2>
+            </span>
+         </a>
+      </li> 
+      <li>
+         <a href="#" target="_blank" title="标题">
+            <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+            <span>
+               <em>玩游戏</em>
+               <h1>大标题大标题大标题</h1>
+               <h2>文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述</h2>
+            </span>
+         </a>
+      </li> 
+   </ul>
+</div>
+<div class="wrap1000">
+   <div class="wrap980">
+       <h2 class="title"><img src="images/title01.png"/></h2>
+       <div class="mainpic height">
+          <ul>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+          </ul>
+       </div>
+   </div>
+</div>
+
+<div class="wrap1000">
+   <div class="wrap980">
+       <h2 class="title"><img src="images/title01.png"/></h2>
+       <div class="mainpic height">
+          <ul>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+          </ul>
+       </div>
+   </div>
+</div>
+
+<div class="wrap1000">
+   <div class="wrap980">
+       <h2 class="title"><img src="images/title01.png"/></h2>
+       <div class="mainpic height">
+          <ul>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题标题标</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+          </ul>
+       </div>
+   </div>
+</div>
+
+</body>
+</html>
+";i:1;s:8661:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/children/css/dsj.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/children/js/zt.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/children/js/demo-video.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+<body>
+
+<div id="code">
+    <ul>
+    <li><a href="#a1">返回顶部</a></li>
+    <li><a href="#a2">玩游戏</a></li>
+    <li><a href="#a3">吃零食</a></li>
+    <li><a href="#a4">追红人</a></li>
+    <li><a href="#a5">看大片</a></li>
+    <li><a href="#a6">老照片</a></li>
+    <li><a href="#a7">再穿越</a></li>
+    </ul>
+</div>
+<div class="topic_img">
+<a name="a1"></a>
+   <div class="wrap1000 height">
+       <div class="toptext">
+告诉你一个活着的世界，一个光与影交织的故事。时代变迁，百姓沉浮，都自这微小的孔隙中渗透出来，终绘成中国民生万象图。"用影像冲击心灵，感受事实的力量"。在这里，传递现实呼声，谋求社会福祉已触手可及。
+       </div>
+       <div class="wrap980">
+         <!--focus焦点图-->
+<div id="scrollPic">
+        <ul>
+            <li>
+                <img src="./images/01(1).jpg">
+                <div></div>
+                <!--<p class="b_tit">
+                    <span class="opacity"></span>
+                    <span class="tit">
+                        <span>蒙其·D·路飞<em>&nbsp;&nbsp;&nbsp;&nbsp;草帽海贼团【船长】</em></span>
+                        <em>恶魔果实：橡胶果实<br>悬赏：3千万（可可亚西村事件）→1亿（阿拉巴斯坦事件）→3亿（司法岛事件)→4亿（顶上战争后）</em>
+                    </span>-->
+                </p>
+            </li>
+            <li>
+                <img src="./images/02(1).jpg">
+                <div></div>
+            </li>
+            <li>
+                <img src="./images/03(1).jpg">
+                <div></div>
+            </li>
+            <li>
+                <img src="./images/04(1).jpg">
+                <div></div>
+            </li>
+            <li>
+                <img src="./images/05(1).jpg">
+                <div></div>
+            </li>
+           
+        </ul>
+        <a href="javascript:;" class="prev"></a>
+        <a href="javascript:;" class="next"></a>
+</div>
+<div id="scrollDot">
+	<div class="small">
+    	<ul>
+        	<li class="hove"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+         <!--focus 焦点图end-->
+       </div>
+   </div>
+</div>
+<div class="wrap1000">
+   <ul class="wrap980 hotpic">
+      <li>
+         <a href="#" target="_blank" title="标题">
+            <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+            <span>
+               <em>玩游戏</em>
+               <h1>大标题大标题大标题</h1>
+               <h2>文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述</h2>
+            </span>
+         </a>
+      </li> 
+      <li>
+         <a href="#" target="_blank" title="标题">
+            <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+            <span>
+               <em>玩游戏</em>
+               <h1>大标题大标题大标题</h1>
+               <h2>文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述</h2>
+            </span>
+         </a>
+      </li> 
+      <li>
+         <a href="#" target="_blank" title="标题">
+            <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+            <span>
+               <em>玩游戏</em>
+               <h1>大标题大标题大标题</h1>
+               <h2>文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述</h2>
+            </span>
+         </a>
+      </li> 
+   </ul>
+</div>
+
+<!--#CMS_MODULE(code001)#-->
+
+
+<div class="wrap1000">
+   <div class="wrap980">
+       <h2 class="title"><img src="images/title01.png"/></h2>
+       <div class="mainpic height">
+          <ul>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+          </ul>
+       </div>
+   </div>
+</div>
+
+<div class="wrap1000">
+   <div class="wrap980">
+       <h2 class="title"><img src="images/title01.png"/></h2>
+       <div class="mainpic height">
+          <ul>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题标题标</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+             <li>
+             <a href="#" target="_blank" title="标题">
+                <img src="http://image.v1.cn/vodone/20140520/123086_0x0.jpg" alt="标题">
+                <h3>标题标题标题标题标题标题标题</h3>
+             </a>
+             </li>
+          </ul>
+       </div>
+   </div>
+</div>
+
+</body>
+</html>
+";}

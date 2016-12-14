@@ -1,0 +1,36 @@
+<div class="area">
+	<div class="help">
+	    <p>帮助</p>
+	    <p>1、此处为用户组列表;</p>    
+    </div>
+	<div class="nr">
+    	<h2><button onclick="window.location.href='/group/create'">添加用户组</button>用户组</h2>
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+        	<tr>
+            	<th>ID</th>
+                <th>名称</th>
+                <th>类型</th>
+                <th>操作</th>
+                
+            </tr>
+    <?php foreach ($this->groups as $k => $group): ?>
+		    <tr>
+		        <td><?=$group->gid?></td>
+		        <td><?=$group->name ?></td>
+		        <td><?=$group->type ?></td>
+		        <td>
+		            <?php if ($group->type == 'custom'): ?>
+		            <a href="/system/group/edit/gid/<?=$group->gid ?>">编辑</a> | 
+		            <a href="/system/group/del/gid/<?=$group->gid ?>" onclick="if (!confirm('确定删除此用户组？')) return false">删除</a> | 
+		            <?php endif; ?>
+		            <?php if ($group->gid != 1): ?>
+		            <a href="/system/group/acl/gid/<?=$group->gid ?>">权限</a>
+		            <?php endif; ?>
+		        </td>
+		    </tr>
+    <?php endforeach;  ?>
+
+        </table>
+        
+     </div>
+</div>

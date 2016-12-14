@@ -1,0 +1,807 @@
+a:11:{i:0;s:4182:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form action="http://ynews.v1.cn/news/search/s.jhtml" method="get"
+				id="searchForm" target="_blank">       
+<input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+<button class="search" type="submit" id="searchBut">搜 索</button>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+
+<ul>
+  <li><a href="http://v.baidu.com/v?word=%B8%CA%CB%E0%B5%D8%D5%F0+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="甘肃地震">甘肃地震</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%BF%AD%CC%D8%CD%F5%E5%FA+%C4%D0%D3%A4+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="凯特王妃 男婴">凯特王妃 男婴</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%B1%B1%BE%A9%B3%D6%B5%B6%C9%CB%C8%CB+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="北京持刀伤人">北京持刀伤人</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%CA%D7%B6%BC%BB%FA%B3%A1%B1%AC%D5%A8+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="机场爆炸">机场爆炸</a> </li>
+</ul>
+
+
+</div>
+</form>
+</div>
+</div>
+
+
+<div class="nav clearfix">
+<div class="wrapBox1000 clearfix">
+
+<ul class="navLeft left">
+<li><span class="navOn">首页</span>
+<li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+<li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+<li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+<li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+<li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+<li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+<li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+</ul>
+<ul class="navRight right">
+<li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+<li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+<li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+<li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+<li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+<li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+<li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+<li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+<li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+<li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+<li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+<li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+<a href="#" class="new"></a>
+</ul>
+</div>
+</div>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>";i:1;s:4182:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form action="http://ynews.v1.cn/news/search/s.jhtml" method="get"
+				id="searchForm" target="_blank">       
+<input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+<button class="search" type="submit" id="searchBut">搜 索</button>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+
+<ul>
+  <li><a href="http://v.baidu.com/v?word=%B8%CA%CB%E0%B5%D8%D5%F0+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="甘肃地震">甘肃地震</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%BF%AD%CC%D8%CD%F5%E5%FA+%C4%D0%D3%A4+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="凯特王妃 男婴">凯特王妃 男婴</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%B1%B1%BE%A9%B3%D6%B5%B6%C9%CB%C8%CB+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="北京持刀伤人">北京持刀伤人</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%CA%D7%B6%BC%BB%FA%B3%A1%B1%AC%D5%A8+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="机场爆炸">机场爆炸</a> </li>
+</ul>
+
+
+</div>
+</form>
+</div>
+</div>
+
+
+<div class="nav clearfix">
+<div class="wrapBox1000 clearfix">
+
+<ul class="navLeft left">
+<li><span class="navOn">首页</span>
+<li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+<li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+<li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+<li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+<li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+<li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+<li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+</ul>
+<ul class="navRight right">
+<li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+<li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+<li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+<li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+<li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+<li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+<li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+<li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+<li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+<li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+<li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+<li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+<a href="#" class="new"></a>
+</ul>
+</div>
+</div>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>";i:2;s:4182:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form action="http://ynews.v1.cn/news/search/s.jhtml" method="get"
+				id="searchForm" target="_blank">       
+<input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+<button class="search" type="submit" id="searchBut">搜 索</button>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+
+<ul>
+  <li><a href="http://v.baidu.com/v?word=%B8%CA%CB%E0%B5%D8%D5%F0+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="甘肃地震">甘肃地震</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%BF%AD%CC%D8%CD%F5%E5%FA+%C4%D0%D3%A4+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="凯特王妃 男婴">凯特王妃 男婴</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%B1%B1%BE%A9%B3%D6%B5%B6%C9%CB%C8%CB+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="北京持刀伤人">北京持刀伤人</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%CA%D7%B6%BC%BB%FA%B3%A1%B1%AC%D5%A8+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="机场爆炸">机场爆炸</a> </li>
+</ul>
+
+
+</div>
+</form>
+</div>
+</div>
+
+
+<div class="nav clearfix">
+<div class="wrapBox1000 clearfix">
+
+<ul class="navLeft left">
+<li><span class="navOn">首页</span>
+<li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+<li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+<li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+<li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+<li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+<li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+<li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+</ul>
+<ul class="navRight right">
+<li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+<li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+<li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+<li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+<li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+<li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+<li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+<li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+<li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+<li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+<li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+<li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+<a href="#" class="new"></a>
+</ul>
+</div>
+</div>";i:3;s:4230:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form action="http://ynews.v1.cn/news/search/s.jhtml" method="get"
+				id="searchForm" target="_blank">       
+<input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+<button class="search" type="submit" id="searchBut">搜 索</button>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+
+<ul>
+  <li><a href="http://v.baidu.com/v?word=%B8%CA%CB%E0%B5%D8%D5%F0+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="甘肃地震">甘肃地震</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%BF%AD%CC%D8%CD%F5%E5%FA+%C4%D0%D3%A4+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="凯特王妃 男婴">凯特王妃 男婴</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%B1%B1%BE%A9%B3%D6%B5%B6%C9%CB%C8%CB+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="北京持刀伤人">北京持刀伤人</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%CA%D7%B6%BC%BB%FA%B3%A1%B1%AC%D5%A8+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="机场爆炸">机场爆炸</a> </li>
+</ul>
+
+
+</div>
+</form>
+</div>
+</div>
+
+
+<div class="nav clearfix">
+<div class="wrapBox1000 clearfix">
+
+<ul class="navLeft left">
+<li><span class="navOn"><a href="http://www.v1.cn/" target="_blank">首页</a></span>
+<li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+<li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+<li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+<li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+<li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+<li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+<li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+</ul>
+<ul class="navRight right">
+<li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+<li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+<li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+<li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+<li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+<li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+<li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+<li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+<li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+<li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+<li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+<li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+<a href="#" class="new"></a>
+</ul>
+</div>
+</div>";i:4;s:4317:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form action="http://ynews.v1.cn/news/search/s.jhtml" method="get"
+				id="searchForm" target="_blank">       
+<input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+<button class="search" type="submit" id="searchBut">搜 索</button>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+
+<ul>
+  <li><a href="http://v.baidu.com/v?word=%B8%CA%CB%E0%B5%D8%D5%F0+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="甘肃地震">甘肃地震</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%BF%AD%CC%D8%CD%F5%E5%FA+%C4%D0%D3%A4+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="凯特王妃 男婴">凯特王妃 男婴</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%B1%B1%BE%A9%B3%D6%B5%B6%C9%CB%C8%CB+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="北京持刀伤人">北京持刀伤人</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%CA%D7%B6%BC%BB%FA%B3%A1%B1%AC%D5%A8+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="机场爆炸">机场爆炸</a> </li>
+</ul>
+
+
+</div>
+</form>
+</div>
+</div>
+
+
+<div class="nav clearfix">
+<div class="wrapBox1000 clearfix">
+
+<ul class="navLeft left">
+<li><span class="navOn"><a href="http://www.v1.cn/" target="_blank">首页</a></span>
+<li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+<li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+<li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+<li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+<li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+<li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+<li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+</ul>
+<ul class="navRight right">
+<li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+<li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+<li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+<li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+<li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+<li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+<li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+<li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+<li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+<li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+<li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+<li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+<a href="#" class="new"></a>
+</ul>
+</div>
+</div>
+<style>
+  .navOn a{padding:0; background:none;}
+  .navOn a:hover{left:0;}
+</style>";i:5;s:4341:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form action="http://ynews.v1.cn/news/search/s.jhtml" method="get"
+				id="searchForm" target="_blank">       
+<input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+<button class="search" type="submit" id="searchBut">搜 索</button>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+
+<ul>
+  <li><a href="http://v.baidu.com/v?word=%B8%CA%CB%E0%B5%D8%D5%F0+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="甘肃地震">甘肃地震</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%BF%AD%CC%D8%CD%F5%E5%FA+%C4%D0%D3%A4+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="凯特王妃 男婴">凯特王妃 男婴</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%B1%B1%BE%A9%B3%D6%B5%B6%C9%CB%C8%CB+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="北京持刀伤人">北京持刀伤人</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%CA%D7%B6%BC%BB%FA%B3%A1%B1%AC%D5%A8+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="机场爆炸">机场爆炸</a> </li>
+</ul>
+
+
+</div>
+</form>
+</div>
+</div>
+
+
+<div class="nav clearfix">
+<div class="wrapBox1000 clearfix">
+
+<ul class="navLeft left">
+<li><span class="navOn"><a href="http://www.v1.cn/" target="_blank">首页</a></span>
+<li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+<li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+<li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+<li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+<li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+<li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+<li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+</ul>
+<ul class="navRight right">
+<li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+<li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+<li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+<li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+<li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+<li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+<li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+<li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+<li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+<li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+<li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+<li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+<a href="#" class="new"></a>
+</ul>
+</div>
+</div>
+<style>
+  .navLeft li .navOn a{padding:0; background:none;}
+  .navLeft li .navOn a:hover{left:0;}
+</style>";i:6;s:4401:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form action="http://ynews.v1.cn/news/search/s.jhtml" method="get"
+				id="searchForm" target="_blank">       
+<input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+<button class="search" type="submit" id="searchBut">搜 索</button>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+
+<ul>
+  <li><a href="http://v.baidu.com/v?word=%B8%CA%CB%E0%B5%D8%D5%F0+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="甘肃地震">甘肃地震</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%BF%AD%CC%D8%CD%F5%E5%FA+%C4%D0%D3%A4+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="凯特王妃 男婴">凯特王妃 男婴</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%B1%B1%BE%A9%B3%D6%B5%B6%C9%CB%C8%CB+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="北京持刀伤人">北京持刀伤人</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%CA%D7%B6%BC%BB%FA%B3%A1%B1%AC%D5%A8+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="机场爆炸">机场爆炸</a> </li>
+</ul>
+
+
+</div>
+</form>
+</div>
+</div>
+
+
+<div class="nav clearfix">
+<div class="wrapBox1000 clearfix">
+
+<ul class="navLeft left">
+<li><span class="navOn"><a href="http://www.v1.cn/" target="_blank">首页</a></span>
+<li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+<li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+<li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+<li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+<li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+<li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+<li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+</ul>
+<ul class="navRight right">
+<li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+<li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+<li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+<li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+<li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+<li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+<li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+<li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+<li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+<li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+<li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+<li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+<a href="#" class="new"></a>
+</ul>
+</div>
+</div>
+<style>
+  .navLeft li .navOn a{padding:0; background:none;}
+  .navLeft li .navOn a:hover{left:0;}
+  .wrapBox1000 .searchBox .text {height:33px;width:291px;}
+</style>";i:7;s:4401:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form action="http://ynews.v1.cn/news/search/s.jhtml" method="get"
+				id="searchForm" target="_blank">       
+<input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+<button class="search" type="submit" id="searchBut">搜 索</button>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+
+<ul>
+  <li><a href="http://v.baidu.com/v?word=%B8%CA%CB%E0%B5%D8%D5%F0+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="甘肃地震">甘肃地震</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%BF%AD%CC%D8%CD%F5%E5%FA+%C4%D0%D3%A4+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="凯特王妃 男婴">凯特王妃 男婴</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%B1%B1%BE%A9%B3%D6%B5%B6%C9%CB%C8%CB+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="北京持刀伤人">北京持刀伤人</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%CA%D7%B6%BC%BB%FA%B3%A1%B1%AC%D5%A8+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="机场爆炸">机场爆炸</a> </li>
+</ul>
+
+
+</div>
+</form>
+</div>
+</div>
+
+
+<div class="nav clearfix">
+<div class="wrapBox1000 clearfix">
+
+<ul class="navLeft left">
+<li><span class="navOn"><a href="http://www.v1.cn/" target="_blank">首页</a></span>
+<li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+<li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+<li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+<li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+<li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+<li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+<li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+</ul>
+<ul class="navRight right">
+<li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+<li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+<li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+<li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+<li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+<li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+<li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+<li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+<li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+<li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+<li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+<li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+<a href="#" class="new"></a>
+</ul>
+</div>
+</div>
+<style>
+  .navLeft li .navOn a{padding:0; background:none;}
+  .navLeft li .navOn a:hover{left:0;}
+  .wrapBox1000 .searchBox .text {height:33px;width:295px;}
+</style>";i:8;s:4401:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form action="http://ynews.v1.cn/news/search/s.jhtml" method="get"
+				id="searchForm" target="_blank">       
+<input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+<button class="search" type="submit" id="searchBut">搜 索</button>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+
+<ul>
+  <li><a href="http://v.baidu.com/v?word=%B8%CA%CB%E0%B5%D8%D5%F0+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="甘肃地震">甘肃地震</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%BF%AD%CC%D8%CD%F5%E5%FA+%C4%D0%D3%A4+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="凯特王妃 男婴">凯特王妃 男婴</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%B1%B1%BE%A9%B3%D6%B5%B6%C9%CB%C8%CB+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="北京持刀伤人">北京持刀伤人</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%CA%D7%B6%BC%BB%FA%B3%A1%B1%AC%D5%A8+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="机场爆炸">机场爆炸</a> </li>
+</ul>
+
+
+</div>
+</form>
+</div>
+</div>
+
+
+<div class="nav clearfix">
+<div class="wrapBox1000 clearfix">
+
+<ul class="navLeft left">
+<li><span class="navOn"><a href="http://www.v1.cn/" target="_blank">首页</a></span>
+<li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+<li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+<li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+<li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+<li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+<li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+<li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+</ul>
+<ul class="navRight right">
+<li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+<li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+<li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+<li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+<li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+<li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+<li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+<li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+<li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+<li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+<li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+<li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+<a href="#" class="new"></a>
+</ul>
+</div>
+</div>
+<style>
+  .navLeft li .navOn a{padding:0; background:none;}
+  .navLeft li .navOn a:hover{left:0;}
+  .wrapBox1000 .searchBox .text {height:33px;width:295px;}
+</style>";i:9;s:4401:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form action="http://ynews.v1.cn/news/search/s.jhtml" method="get"
+				id="searchForm" target="_blank">       
+<input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+<button class="search" type="submit" id="searchBut">搜 索</button>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+
+<ul>
+  <li><a href="http://v.baidu.com/v?word=%B8%CA%CB%E0%B5%D8%D5%F0+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="甘肃地震">甘肃地震</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%BF%AD%CC%D8%CD%F5%E5%FA+%C4%D0%D3%A4+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="凯特王妃 男婴">凯特王妃 男婴</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%B1%B1%BE%A9%B3%D6%B5%B6%C9%CB%C8%CB+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="北京持刀伤人">北京持刀伤人</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%CA%D7%B6%BC%BB%FA%B3%A1%B1%AC%D5%A8+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="机场爆炸">机场爆炸</a> </li>
+</ul>
+
+
+</div>
+</form>
+</div>
+</div>
+
+
+<div class="nav clearfix">
+<div class="wrapBox1000 clearfix">
+
+<ul class="navLeft left">
+<li><span class="navOn"><a href="http://www.v1.cn/" target="_blank">首页</a></span>
+<li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+<li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+<li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+<li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+<li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+<li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+<li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+</ul>
+<ul class="navRight right">
+<li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+<li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+<li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+<li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+<li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+<li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+<li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+<li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+<li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+<li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+<li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+<li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+<a href="#" class="new"></a>
+</ul>
+</div>
+</div>
+<style>
+  .navLeft li .navOn a{padding:0; background:none;}
+  .navLeft li .navOn a:hover{left:0;}
+  .wrapBox1000 .searchBox .text {height:33px;width:295px;}
+</style>";i:10;s:5113:"<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<div class="topHearder">
+<div class="wrapBox1000">
+<ul class="indextopBox clearfix">
+<li style="margin-right:38px;"><a href="javascript:void(0)" onclick="setHomepage()" class="red">设为首页</a><!-- <a href="javascript:void(0)" onclick="addCookie()">加入收藏</a>--></li>
+<li style="margin-left:10px;margin-right:650px;"><script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script>
+ 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script></li>
+<!--<li style="margin-left:10px;margin-right:370px;">&nbsp;&nbsp;北京<img src="common/images/sun.png">多云28～18℃</li>
+<li style="background:#f4f4f4;" class="btn"><a href="http://www.v1.cn/sitemap/" target="_blank">网站地图</a></li>-->
+<li><a href="http://big5.v1.cn/www.v1.cn/" class="btn" target="_blank">繁体版</a></li>
+</ul>
+</div>
+</div>
+
+<div class="wrapBox1000 clearfix" style="margin-top:40px;*padding-top:40px;">
+<div class="logoBox"></div>
+<div class="searchBox">
+<form action="http://ynews.v1.cn/news/search/s.jhtml" method="get"
+				id="searchForm" target="_blank">       
+<input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+<button class="search" type="submit" id="searchBut">搜 索</button>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+
+<ul>
+  <li><a href="http://v.baidu.com/v?word=%B8%CA%CB%E0%B5%D8%D5%F0+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="甘肃地震">甘肃地震</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%BF%AD%CC%D8%CD%F5%E5%FA+%C4%D0%D3%A4+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="凯特王妃 男婴">凯特王妃 男婴</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%B1%B1%BE%A9%B3%D6%B5%B6%C9%CB%C8%CB+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="北京持刀伤人">北京持刀伤人</a> </li>
+  <li><a href="http://v.baidu.com/v?word=%CA%D7%B6%BC%BB%FA%B3%A1%B1%AC%D5%A8+site%3Av1.cn&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800fr=v1hot" target="_blank" title="机场爆炸">机场爆炸</a> </li>
+</ul>
+
+
+</div>
+</form>
+</div>
+</div>
+
+
+<div class="nav clearfix">
+<div class="wrapBox1000 clearfix">
+
+<ul class="navLeft left">
+<li><span class="navOn"><a href="http://www.v1.cn/" target="_blank">首页</a></span>
+<li><a href="http://news.v1.cn/" target="_blank">新闻</a></li>
+<li><a href="http://mil.v1.cn/" target="_blank">军事</a></li>
+<li><a href="http://shehui.v1.cn/" target="_blank">社会</a></li>
+<li><a href="http://finance.v1.cn/" target="_blank">财经</a></li>
+<li><a href="http://ent.v1.cn/" target="_blank">娱乐</a></li>
+<li><a href="http://sports.v1.cn/" target="_blank">体育</a></li>
+<li><a href="http://auto.v1.cn/" target="_blank">汽车</a></li>
+</ul>
+<ul class="navRight right">
+<li><a href="http://paike.v1.cn/" target="_blank">拍客</a></li>
+<li><a href="http://music.v1.cn/" target="_blank">音乐</a></li>
+<li><a href="http://culture.v1.cn/" target="_blank">文化</a></li>
+<li><a href="http://tech.v1.cn/" target="_blank">科技</a></li>
+<li><a href="http://games.v1.cn/" target="_blank">游戏</a></li>
+<li><a href="http://lady.v1.cn/" target="_blank">女性</a></li>
+<li><a href="http://fun.v1.cn/" target="_blank">搞笑</a></li>
+<li><a href="http://life.v1.cn/" target="_blank">乐活</a></li>
+<li><a href="http://travel.v1.cn/" target="_blank">旅游</a></li>
+<li><a href="http://topic.v1.cn/" target="_blank">专题</a></li>
+<li><a href="http://dy.v1.cn/" target="_blank">电影</a></li>
+<li><a href="http://dsj.v1.cn/" target="_blank">电视剧</a></li>
+<a href="#" class="new"></a>
+</ul>
+</div>
+</div>
+<style>
+  .navLeft li .navOn a{padding:0; background:none;}
+  .navLeft li .navOn a:hover{left:0;}
+  .wrapBox1000 .searchBox .text {height:33px;width:295px;}
+</style>
+
+<!-- START v1 v1.0 -->
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=hezuo&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+<!-- END v1 v1.0 -->";}

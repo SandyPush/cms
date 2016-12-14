@@ -1,0 +1,523 @@
+a:10:{i:0;s:1728:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/stream/css/stream.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<div class="video_left"><!--#CMS_MODULE(视频模块)#--></div>
+<div class="video_right"><!--#CMS_MODULE(评论)#--></div>
+</div>
+
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:1;s:1838:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/stream/css/stream.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/stream/css/comment_css.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<div class="video_left"><!--#CMS_MODULE(视频模块)#--></div>
+<div class="video_right"><!--#CMS_MODULE(评论)#--></div>
+</div>
+
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:2;s:1728:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/stream/css/stream.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<div class="video_left"><!--#CMS_MODULE(视频模块)#--></div>
+<div class="video_right"><!--#CMS_MODULE(评论)#--></div>
+</div>
+
+</div>
+
+<!--#CMS_MODULE(专题footer)#-->
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:3;s:1763:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/stream/css/stream.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+<div class="head_dh clearfix">
+<!--#CMS_MODULE(专题导航)#-->
+</div>
+
+<div class="video clearfix">
+<div class="video_left"><!--#CMS_MODULE(视频模块)#--></div>
+<div class="video_right"><!--#CMS_MODULE(评论)#--></div>
+</div>
+
+</div>
+
+<!--#CMS_MODULE(滚动图片)#-->
+<!--#CMS_MODULE(专题footer)#-->
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:4;s:1688:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/stream/css/stream.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+
+<div class="video clearfix">
+<div class="video_left"><!--#CMS_MODULE(视频模块)#--></div>
+<div class="video_right"><!--#CMS_MODULE(评论)#--></div>
+</div>
+
+</div>
+
+<!--#CMS_MODULE(滚动图片)#-->
+<!--#CMS_MODULE(专题footer)#-->
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:5;s:1893:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/stream/css/stream.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/globalFun.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/scroll.js" ></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+
+<div class="video clearfix">
+<div class="video_left"><!--#CMS_MODULE(视频模块)#--></div>
+<div class="video_right"><!--#CMS_MODULE(评论)#--></div>
+</div>
+
+</div>
+
+<!--#CMS_MODULE(滚动图片)#-->
+<!--#CMS_MODULE(专题footer)#-->
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:6;s:1893:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/stream/css/stream.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/globalFun.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/scroll.js" ></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+
+<div class="video clearfix">
+<div class="video_left"><!--#CMS_MODULE(视频模块)#--></div>
+<div class="video_right"><!--#CMS_MODULE(评论)#--></div>
+</div>
+
+</div>
+
+<!--#CMS_MODULE(滚动图片)#-->
+<!--#CMS_MODULE(专题footer)#-->
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:7;s:1892:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/stream/css/stream.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/globalFun.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/stream/js/scroll.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+
+<div class="video clearfix">
+<div class="video_left"><!--#CMS_MODULE(视频模块)#--></div>
+<div class="video_right"><!--#CMS_MODULE(评论)#--></div>
+</div>
+
+</div>
+
+<!--#CMS_MODULE(滚动图片)#-->
+<!--#CMS_MODULE(专题footer)#-->
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:8;s:2250:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/stream/css/stream.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/globalFun.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/stream/js/scroll.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+
+<div class="video clearfix">
+<div class="video_left"><!--#CMS_MODULE(视频模块)#--></div>
+<div class="video_right"><!--#CMS_MODULE(评论)#--></div>
+</div>
+
+</div>
+
+<!--#CMS_MODULE(滚动图片)#-->
+<!--#CMS_MODULE(专题footer)#-->
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:9;s:2482:"<!--#
+  $sort=CMS_FUNCTION('toPinyin',$cms_page_category.'Zt');
+  $sort=$sort['pinyin_for_full'];
+#-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/stream/css/stream.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/jquery-1.7.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/globalFun.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/stream/js/scroll.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+  //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$cms_page_category}Zt', 3]);
+</script>
+
+</head>
+
+<body>
+
+<!--#CMS_MODULE(专题header)#-->
+
+<div class="main_cont">
+
+<!--#CMS_MODULE(页面背景/分栏/头图)#-->
+
+
+<div class="video clearfix">
+<div class="video_left"><!--#CMS_MODULE(视频模块)#--></div>
+<div class="video_right"><!--#CMS_MODULE(评论)#--></div>
+</div>
+
+</div>
+
+<!--#CMS_MODULE(滚动图片)#-->
+<!--#CMS_MODULE(专题footer)#-->
+
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";}

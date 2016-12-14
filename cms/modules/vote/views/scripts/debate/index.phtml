@@ -1,0 +1,41 @@
+<div class="area">
+	<div class="help">
+    <p>帮助</p>
+	<p>1、此处为论战管理页面</p> 	
+	<p>2、论战有删除和正常两种状态,编辑论战可以修改状态!</p> 
+	<p>3、论战有推荐和不推荐两种类型,编辑论战可以修改类型.当且仅当论战为推荐类型时才会在<a href="http://news.titan24.com/app/debate/index.php" target="_blank">论战频道</a>显示!</p> 
+    </div>
+	<div class="nr">	
+    	<h2>      
+			<button onclick="window.location.href='/vote/debate/add/';">添加论战</button>			
+        </h2>
+		
+    	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+		  	<tr>
+            	<th>ID</th>
+                <th width="300">标题</th>
+				<th>发布者</th>
+				<th>是否推荐</th>
+				<th>发布时间</th> 	
+				<th>状态</th> 
+				<th>操作</th> 
+			</tr>
+		  <?php foreach ($this->data as $key => $value): ?>      
+            <tr>
+        		<td><?=$value['id']?></td>
+                <td><a href="<?=$value['url']?>" target="_blank" title="预览"><?=$value['name']?></a></td>  
+				<td><?=$value['author']?></td>  
+				<td><?=$value['level']?></td>
+				<td><?=date('Y-m-d H:i:s',$value['postdate'])?></td>	
+				<td><?=$value['status']?></td>
+				<td>			
+                <a href="/vote/debate/edit/id/<?=$value['id']?>"><img src="/theme/default/image/edit.png" alt="编辑" title="编辑" /></a>
+                <a href="#nogo" onclick="window.location='/vote/debate/publish/id/<?=$value['id']?>'"><img src="/theme/default/image/publish.png" alt="发布" title="发布" /></a>
+                <a href="#nogo" onclick="if(confirm('确定删除吗?'))window.location='/vote/debate/del/id/<?=$value['id']?>'"><img src="http://cms.titan24.net.cn/theme/default/image/delete.png" alt="删除" title="删除" /></a>			        
+            </tr>		
+		 <?php endforeach;  ?>
+        </table>
+    </div>
+	<div class="fy">
+		<?=$this->pagebar ?>
+    </div>

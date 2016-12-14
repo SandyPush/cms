@@ -1,0 +1,996 @@
+a:20:{i:0;s:2902:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>专题模板二</title>
+<link href="http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body> 
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+
+      <div class="wrapBox380 arrowBg marg20">
+         <div class="titleRight">事件细节</div>
+         <div class="details">
+		    <div class="bigPic">
+			  <a href="http://www.v1.cn" target="_blank">
+			   <img src="http://pic.v1.cn/cms/new_special/no2/images/imgDemotwo_18.png"  />
+			   <span>公安部因牵扯利益：户籍改革慢太多</span>
+			</a>
+			</div>
+			<span class="s-arrow"></span>
+			<ul>
+			   <li>
+			      <span>时间:</span>2013年11月12日
+			   </li>
+			   <li>
+			      <span>地点:</span>浙江杭州
+			   </li>
+			   <li>
+			      <span>伤亡:</span>55人死亡、9人失踪、55人死亡、9人
+			   </li>
+			   <li>
+			      <span>原因:</span>青岛中石化输油管发生泄漏，抢险中起火岛中石化输油管发生泄漏，抢险中起火  
+			   </li>
+			</ul>
+		 </div>
+      </div>
+      
+      
+      <div class="wrapBox380 arrowBg">
+         <div class="titleRight">近期事件回顾</div>
+         <div class="reviewEvent">
+            <p>
+			  <span>2013.12.19</span>
+			  青岛中石化输油管发生泄漏抢险中起泄漏抢险中火岛中输油管发生泄漏抢险中泄漏抢险泄漏抢险起火  
+			</p>
+			<p>
+			  <span>2013.12.19</span>
+			  青岛中石化输油管发生泄漏抢险中起泄漏抢险中火岛中输油管发生泄漏抢险中泄漏抢险泄漏抢险起火  
+			</p>
+            <p>
+			  <span>2013.12.19</span>
+			  青岛中石化输油管发生泄漏抢险中起泄漏抢险中火岛中输油管发生泄漏抢险中泄漏抢险泄漏抢险起火  
+			</p>
+			<p>
+			  <span>2013.12.19</span>
+			  青岛中石化输油管发生泄漏抢险中起泄漏抢险中火岛中输油管发生泄漏抢险中泄漏抢险泄漏抢险起火  
+			</p>
+		 </div>
+      </div>
+
+   </div>
+</div>
+
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){
+	
+	$("#kinMaxShow").kinMaxShow();
+
+
+});
+
+</script>
+</body>
+</html>
+";i:1;s:2940:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>专题模板二</title>
+<link href="http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body> 
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+     <!--#CMS_MODULE(NO4模块七)#-->
+      <div class="wrapBox380 arrowBg marg20">
+         <div class="titleRight">事件细节</div>
+         <div class="details">
+		    <div class="bigPic">
+			  <a href="http://www.v1.cn" target="_blank">
+			   <img src="http://pic.v1.cn/cms/new_special/no2/images/imgDemotwo_18.png"  />
+			   <span>公安部因牵扯利益：户籍改革慢太多</span>
+			</a>
+			</div>
+			<span class="s-arrow"></span>
+			<ul>
+			   <li>
+			      <span>时间:</span>2013年11月12日
+			   </li>
+			   <li>
+			      <span>地点:</span>浙江杭州
+			   </li>
+			   <li>
+			      <span>伤亡:</span>55人死亡、9人失踪、55人死亡、9人
+			   </li>
+			   <li>
+			      <span>原因:</span>青岛中石化输油管发生泄漏，抢险中起火岛中石化输油管发生泄漏，抢险中起火  
+			   </li>
+			</ul>
+		 </div>
+      </div>
+      
+      
+      <div class="wrapBox380 arrowBg">
+         <div class="titleRight">近期事件回顾</div>
+         <div class="reviewEvent">
+            <p>
+			  <span>2013.12.19</span>
+			  青岛中石化输油管发生泄漏抢险中起泄漏抢险中火岛中输油管发生泄漏抢险中泄漏抢险泄漏抢险起火  
+			</p>
+			<p>
+			  <span>2013.12.19</span>
+			  青岛中石化输油管发生泄漏抢险中起泄漏抢险中火岛中输油管发生泄漏抢险中泄漏抢险泄漏抢险起火  
+			</p>
+            <p>
+			  <span>2013.12.19</span>
+			  青岛中石化输油管发生泄漏抢险中起泄漏抢险中火岛中输油管发生泄漏抢险中泄漏抢险泄漏抢险起火  
+			</p>
+			<p>
+			  <span>2013.12.19</span>
+			  青岛中石化输油管发生泄漏抢险中起泄漏抢险中火岛中输油管发生泄漏抢险中泄漏抢险泄漏抢险起火  
+			</p>
+		 </div>
+      </div>
+
+   </div>
+</div>
+
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){
+	
+	$("#kinMaxShow").kinMaxShow();
+
+
+});
+
+</script>
+</body>
+</html>
+";i:2;s:2082:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>专题模板二</title>
+<link href="http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body> 
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+     <!--#CMS_MODULE(NO4模块七)#-->
+      
+      
+      
+      <div class="wrapBox380 arrowBg">
+         <div class="titleRight">近期事件回顾</div>
+         <div class="reviewEvent">
+            <p>
+			  <span>2013.12.19</span>
+			  青岛中石化输油管发生泄漏抢险中起泄漏抢险中火岛中输油管发生泄漏抢险中泄漏抢险泄漏抢险起火  
+			</p>
+			<p>
+			  <span>2013.12.19</span>
+			  青岛中石化输油管发生泄漏抢险中起泄漏抢险中火岛中输油管发生泄漏抢险中泄漏抢险泄漏抢险起火  
+			</p>
+            <p>
+			  <span>2013.12.19</span>
+			  青岛中石化输油管发生泄漏抢险中起泄漏抢险中火岛中输油管发生泄漏抢险中泄漏抢险泄漏抢险起火  
+			</p>
+			<p>
+			  <span>2013.12.19</span>
+			  青岛中石化输油管发生泄漏抢险中起泄漏抢险中火岛中输油管发生泄漏抢险中泄漏抢险泄漏抢险起火  
+			</p>
+		 </div>
+      </div>
+
+   </div>
+</div>
+
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){
+	
+	$("#kinMaxShow").kinMaxShow();
+
+
+});
+
+</script>
+</body>
+</html>
+";i:3;s:1174:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>专题模板二</title>
+<link href="http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body> 
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+     <!--#CMS_MODULE(NO4模块七)#-->
+     <!--#CMS_MODULE(NO4模块四)#-->                
+   </div>
+</div>
+
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){	
+	$("#kinMaxShow").kinMaxShow();
+});
+</script>
+</body>
+</html>
+";i:4;s:1261:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>专题模板二</title>
+<link href="http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body> 
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+     <!--#CMS_MODULE(NO4模块七)#-->
+     <!--#CMS_MODULE(NO4模块四)#-->                
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+      <!--#CMS_MODULE(NO4模块五)#-->
+</div>
+
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){	
+	$("#kinMaxShow").kinMaxShow();
+});
+</script>
+</body>
+</html>
+";i:5;s:1255:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>专题模板二</title>
+<link href="http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body> 
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+     <!--#CMS_MODULE(NO4模块七)#-->
+     <!--#CMS_MODULE(NO4模块四)#-->                
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+      <!--#CMS_MODULE(评论)#-->
+</div>
+
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){	
+	$("#kinMaxShow").kinMaxShow();
+});
+</script>
+</body>
+</html>
+";i:6;s:1290:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>专题模板二</title>
+<link href="http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body> 
+<!--#CMS_MODULE(专题header)#-->
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+     <!--#CMS_MODULE(NO4模块七)#-->
+     <!--#CMS_MODULE(NO4模块四)#-->                
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+      <!--#CMS_MODULE(评论)#-->
+</div>
+
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){	
+	$("#kinMaxShow").kinMaxShow();
+});
+</script>
+</body>
+</html>
+";i:7;s:1290:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>专题模板二</title>
+<link href="http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body> 
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+     <!--#CMS_MODULE(NO4模块七)#-->
+     <!--#CMS_MODULE(NO4模块四)#-->                
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+      <!--#CMS_MODULE(评论)#-->
+</div>
+
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){	
+	$("#kinMaxShow").kinMaxShow();
+});
+</script>
+</body>
+</html>
+";i:8;s:1292:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body> 
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+     <!--#CMS_MODULE(NO4模块七)#-->
+     <!--#CMS_MODULE(NO4模块四)#-->                
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+      <!--#CMS_MODULE(评论)#-->
+</div>
+
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){	
+	$("#kinMaxShow").kinMaxShow();
+});
+</script>
+</body>
+</html>
+";i:9;s:1292:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body> 
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+     <!--#CMS_MODULE(NO4模块七)#-->
+     <!--#CMS_MODULE(NO4模块四)#-->                
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+      <!--#CMS_MODULE(评论)#-->
+</div>
+
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){	
+	$("#kinMaxShow").kinMaxShow();
+});
+</script>
+</body>
+</html>
+";i:10;s:1332:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body> 
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+     <!--#CMS_MODULE(NO4模块七)#-->
+     <!--#CMS_MODULE(NO4模块四)#-->                
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+      <!--#CMS_MODULE(评论)#-->
+</div>
+
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){	
+	$("#kinMaxShow").kinMaxShow();
+});
+</script>
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:11;s:1427:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+
+<body> 
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+     <!--#CMS_MODULE(NO4模块七)#-->
+     <!--#CMS_MODULE(NO4模块四)#-->                
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+      <!--#CMS_MODULE(评论)#-->
+</div>
+
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){	
+	$("#kinMaxShow").kinMaxShow();
+});
+</script>
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:12;s:1407:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<!--#CMS_FUNCTION('cssBox','no2.css',array(
+  'http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css',
+))#-->
+
+<!--#CMS_FUNCTION('jsBox','no2.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/v1_static/js/globalFun.js',
+))#-->
+
+</head>
+
+<body> 
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+     <!--#CMS_MODULE(NO4模块七)#-->
+     <!--#CMS_MODULE(NO4模块四)#-->                
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+      <!--#CMS_MODULE(评论)#-->
+</div>
+
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){	
+	$("#kinMaxShow").kinMaxShow();
+});
+</script>
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:13;s:1396:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css" rel="stylesheet" type="text/css" />
+<!--#CMS_FUNCTION('jsBox','no2.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/v1_static/js/globalFun.js',
+))#-->
+
+</head>
+
+<body> 
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+     <!--#CMS_MODULE(NO4模块七)#-->
+     <!--#CMS_MODULE(NO4模块四)#-->                
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+      <!--#CMS_MODULE(评论)#-->
+</div>
+
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){	
+	$("#kinMaxShow").kinMaxShow();
+});
+</script>
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:14;s:1550:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css" rel="stylesheet" type="text/css" />
+<!--#CMS_FUNCTION('jsBox','no2.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/v1_static/js/globalFun.js',
+))#-->
+
+</head>
+
+<body> 
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+     <!--#CMS_MODULE(NO4模块七)#-->
+     <!--#CMS_MODULE(NO4模块四)#-->                
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+      <!--#CMS_MODULE(评论)#-->
+</div>
+
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){	
+	$("#kinMaxShow").kinMaxShow();
+});
+</script>
+
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:15;s:1583:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css" rel="stylesheet" type="text/css" />
+<!--#CMS_FUNCTION('jsBox','no2.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/v1_static/js/globalFun.js',
+))#-->
+
+</head>
+
+<body> 
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+     <!--#CMS_MODULE(NO4模块七)#-->
+     <!--#CMS_MODULE(NO4模块四)#-->                
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+      <!--#CMS_MODULE(评论)#-->
+</div>
+
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){	
+	$("#kinMaxShow").kinMaxShow();
+});
+</script>
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:16;s:1622:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<link href="http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css" rel="stylesheet" type="text/css" />
+<!--#CMS_FUNCTION('jsBox','no2.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/v1_static/js/globalFun.js',
+))#-->
+
+</head>
+
+<body> 
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+     <!--#CMS_MODULE(NO4模块七)#-->
+     <!--#CMS_MODULE(NO4模块四)#-->                
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+      <!--#CMS_MODULE(评论)#-->
+</div>
+<!--#CMS_MODULE(底部浮层评论)#-->
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){	
+	$("#kinMaxShow").kinMaxShow();
+});
+</script>
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:17;s:1936:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=20140319"></script>
+
+<link href="http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css" rel="stylesheet" type="text/css" />
+<!--#CMS_FUNCTION('jsBox','no2.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/v1_static/js/globalFun.js',
+))#-->
+
+</head>
+
+<body> 
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+     <!--#CMS_MODULE(NO4模块七)#-->
+     <!--#CMS_MODULE(NO4模块四)#-->                
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+      <!--#CMS_MODULE(评论)#-->
+</div>
+<!--#CMS_MODULE(底部浮层评论)#-->
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){	
+	$("#kinMaxShow").kinMaxShow();
+});
+</script>
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:18;s:2294:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=20140319"></script>
+
+<link href="http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css" rel="stylesheet" type="text/css" />
+<!--#CMS_FUNCTION('jsBox','no2.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/v1_static/js/globalFun.js',
+))#-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+</script>
+
+</head>
+
+<body> 
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+     <!--#CMS_MODULE(NO4模块七)#-->
+     <!--#CMS_MODULE(NO4模块四)#-->                
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+      <!--#CMS_MODULE(评论)#-->
+</div>
+<!--#CMS_MODULE(底部浮层评论)#-->
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){	
+	$("#kinMaxShow").kinMaxShow();
+});
+</script>
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";i:19;s:2526:"<!--#
+  $sort=CMS_FUNCTION('toPinyin',$cms_page_category.'Zt');
+  $sort=$sort['pinyin_for_full'];
+#-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js" ></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/discuss/init.js?v=20140319"></script>
+
+<link href="http://pic.v1.cn/cms/new_special/no2/css/style-Demotwo.css" rel="stylesheet" type="text/css" />
+<!--#CMS_FUNCTION('jsBox','no2.js',array(
+  'http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js',
+  'http://pic.v1.cn/cms/v1_static/js/globalFun.js',
+))#-->
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript">
+  var userDomain = "http://user.v1.cn";
+  var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+  var staticNewsDomain = "http://www.v1.cn/";
+  $(function(){
+      headerGetUser();
+  });
+  //百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$cms_page_category}Zt', 3]);
+</script>
+
+</head>
+
+<body> 
+<!--#CMS_MODULE(NO4背景/分栏/边框)#-->
+<!--#CMS_MODULE(专题header)#-->
+<div class="wrapBox1000 clearfix">
+<!--#CMS_MODULE(NO4模块一)#--> 
+ <!--#CMS_MODULE(视频模块NO4)#-->
+</div>
+
+<div class="wrapBox1000 clearfix">
+   <!--#CMS_MODULE(NO4模块二)#--> 
+   <div class="left">
+     <!--#CMS_MODULE(NO4模块三)#-->  
+     <!--#CMS_MODULE(NO4模块七)#-->
+     <!--#CMS_MODULE(NO4模块四)#-->                
+   </div>
+</div>
+
+<div class="wrapBox1000 clearfix">
+      <!--#CMS_MODULE(评论)#-->
+</div>
+<!--#CMS_MODULE(底部浮层评论)#-->
+<script src="http://pic.v1.cn/cms/new_special/no2/js/picScroll.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){	
+	$("#kinMaxShow").kinMaxShow();
+});
+</script>
+<!--#CMS_MODULE(专题footer)#-->
+<!--#CMS_MODULE(zhuantitongji)#-->
+
+</body>
+</html>
+";}

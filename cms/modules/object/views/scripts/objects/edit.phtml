@@ -1,0 +1,49 @@
+<div class="area">
+<div class="help"> 
+	<p>帮助</p>
+	<p>1、此处为模块编辑界面;</p>
+	<p>2.模块有三种类型,分别是模块,手动区模块,手动区列表.</p>    
+<?=$this->showErrors()?>
+</div>
+<div class="nr">
+ 	<h2>
+        	<button onclick="window.location.href='/object/objects/'">返回</button>
+        	<a href="#nogo">编辑模块</a>
+     </h2>
+<form action="" method="post" onsubmit="return checkForm();">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+<tbody>
+    <tr>
+        <td>名称</td>
+        <td><input type="text" name="name" value="<?=$this->param('name', $this->obj->name) ?>" /></td>
+    </tr>
+    <tr class="alt">
+        <td>类型</td>
+        <td><?=$this->formSelect('type', $this->param('type', $this->obj->type), null, $this->types)?></td>
+    </tr>
+    <tr>
+        <td>简介</td>
+        <td><input type="text" name="desc" value="<?=$this->param('desc', $this->obj->description) ?>" size="80"/></td>
+    </tr>
+</tbody>
+</table>
+<input type="submit" name="submit" value="提 交" />
+</form>
+</div>
+</div>
+<script type="text/javascript">
+function checkForm()
+{
+	if(!$(":input[name='name']").val())
+	{
+		alert('请填写完整!');
+		return false;
+	}	
+	else if(!$(":input[name='desc']").val())
+	{
+		alert('请填写完整!');
+		return false;
+	}
+	return true;
+}
+</script>

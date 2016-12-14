@@ -1,0 +1,57 @@
+<div class="area">
+<div class="help"> 
+	<p>帮助</p>
+	<p>1、栏目名称为该栏目在系统或导航中显示的名称，请简短;</p>
+	<p>2、父栏目为该栏目所属的上一级栏目，在页面导航中有体现;</p>
+	<p>3、栏目URL请使用相对网站根目录的路径，以 / 开头，并写全文件名;</p> 
+	<p>4、标题、关键字、简介在页面上显示，请根据搜索优化添写;</p>
+	<p>5、请将每一项填写完整.;</p>
+</div>
+
+<div class="nr">
+ 	<h2>添加栏目</h2>
+
+<form action="" method="post">
+<table width="100%" cellspacing="1" class="form">
+<tbody>
+    <tr>
+        <td width="80">　栏目名称</td>
+        <td><input type="text" name="name" value="<?=$this->param('name') ?>" class="input"/></td>
+    </tr>
+    <tr class="alt">
+        <td>　父 栏 目</td>
+        <td><?=$this->formSelect('parent', $this->param('parent'), null, $this->pages)?></td>
+    </tr>
+    <tr>
+        <td>　模　　板</td>
+        <td><?=$this->formSelect('template', $this->param('template'), null, $this->templates)?></td>
+    </tr>
+    <tr>
+        <td>内容页模板</td>
+        <td><?=$this->formSelect('articleTemplates', $this->param('template'), null, $this->articleTemplates)?></td>
+    </tr>
+    <tr>
+        <td>　U　R　L </td>
+        <td><input type="text" name="url" value="<?=$this->param('url') ?>" class="input" size="45"/></td>
+    </tr>
+    <tr class="alt">
+        <td>　标　　题</td>
+        <td><input type="text" name="title" value="<?=$this->param('title') ?>"  class="input" size="45"/></td>
+    </tr>
+    <tr class="alt">
+        <td>　关 键 字</td>
+        <td><input type="text" name="keywords" value="<?=$this->param('keywords') ?>"  class="input"  size="45"/></td>
+    </tr>
+    <tr class="alt">
+        <td>　简　　介</td>
+        <td><textarea id="desc" name="desc" cols="" rows="" class="abs"><?=$this->param('desc') ?></textarea></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><button type="submit" name="submit">添加栏目</button></td>
+    </tr>    
+</tbody>
+</table>
+</form>
+</div>
+</div>

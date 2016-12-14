@@ -1,0 +1,84 @@
+<div class="area">
+<div class="help"> 
+	<p>帮助</p>
+	<p>1、此处投票代码提取页面;</p>  
+</div>
+<div class="nr">
+<h2>
+<button onclick="window.location.href='/vote/index/'">返回</button>
+<a href="#nogo">提取代码</a>        	
+</h2>
+	<form action="" method="post">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+	<tbody>
+		<tr>
+			<td>投票ID</td>
+			<td><?=$this->data[vid];?></td>
+		</tr>
+		<tr>
+			<td>投票地址</td>
+			<td><a href="http://vote.titan24.com/<?=$this->data[channel];?>/<?=$this->data[vid];?>/1.html" target="_blank">http://vote.titan24.com/<?=$this->data[channel];?>/<?=$this->data[vid];?>/1.html</a></td>
+		</tr>
+		<tr>
+			<td>新闻终极页调用<br/>将此段代码全部复制，<br/>在发新闻的编辑器中<br/>点源文件方式，贴入即可</td>
+			<td><textarea name="xml_example" type="input" rows="15" cols="80" />
+<p><iframe id="frameContent_v<?=$this->data[vid];?>" name="frameContent_v<?=$this->data[vid];?>" src="http://vote.titan24.com/<?=$this->data[channel];?>/<?=$this->data[vid];?>/2.html" frameborder="0" width="100%"></iframe></p>
+<script type="text/javascript">
+document.domain="titan24.com";
+function reinitIframe_v<?=$this->data[vid];?>(){
+var iframe = document.getElementById("frameContent_v<?=$this->data[vid];?>");
+try{
+	var bHeight = iframe.contentWindow.document.body.scrollHeight;
+	var dHeight = iframe.contentWindow.document.documentElement.scrollHeight;
+	var height = Math.max(bHeight, dHeight);
+	iframe.height =  height;
+}catch (ex){}
+}
+window.setInterval("reinitIframe_v<?=$this->data[vid];?>()", 200);
+</script>			
+			
+			</textarea></td>
+		</tr>
+		<tr>
+			<td>页面或模板中调用<br/>具体不同页面样式，<br/>需按具体页面调整显示格式</td>
+			<td><textarea name="xml_example" type="input" rows="15" cols="80" />
+<!--#
+//此处 <?=$this->data[vid];?> 是投票id，要换投票请更换此id
+$vote=unserialize(IntfaceProxy('http://vote.titan24.com/<?=$this->data[channel];?>/<?=$this->data[vid];?>/1.tmp',1));
+#-->
+<div class="dcn">
+<form action="http://vote.titan24.com/interface.php?action=pageup" method="post" target="_blank">
+<input type="hidden" name="vid" id="vid" value="{$vote[vid]}" />
+<!--#
+foreach ($vote[problem] as $p){
+	echo "<h4>{$p[title]}</h4>";
+	echo "<ul>";
+	foreach ($vote[poption][$p[pid]] as $o){
+		if ($o[ctype]=='0'){
+		echo "<li><input type=\"radio\" name=\"oid[".$p[pid]."][]\" value=\"".$o[oid]."\"/>".$o[title]."</li>";
+		}elseif($o[ctype]=='1'){
+		echo "<li><input type=\"checkbox\"  name=\"oid[".$p['pid']."][]\" value=\"".$o['oid']."\"/>".$o[title]."</li>";
+		}
+	}
+	echo "</ul>";
+}
+#-->
+<p>
+<button type="submit">提交</button>
+<button onclick="javascript:window.open('http://vote.titan24.com/{$vote[channel]}/{$vote[vid]}/1.html#result')">结果</button>
+</p>
+</form>
+</div>
+			</textarea></td>
+		</tr>
+
+		<tr>
+			<td>序列化数据</td>
+			<td><input name="json" type="input" size="60" value="http://vote.titan24.com/<?=$this->data[channel];?>/<?=$this->data[vid];?>/1.tmp"/></td>
+		</tr>
+	</tbody>
+	</table>
+	</form>
+	</div>
+</div>
+

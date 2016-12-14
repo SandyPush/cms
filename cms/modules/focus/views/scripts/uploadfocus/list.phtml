@@ -1,0 +1,88 @@
+<?php
+print <<<EOT
+<div class="area">
+<div class="nr">
+<h2>
+<button style="background:url(/images/zhuanti_.png) no-repeat;width: 145px;" onclick="window.location.href='/focus/focus/'">返回专题列表</button>
+<a href="#">专题文件管理 >> {$this->focus[name]} </a>        	
+</h2>
+<table cellpadding="0" cellspacing="0" border="0" width="70%" class="list">
+  <tr>
+    <td width="8%">&nbsp;&nbsp;文件名</td>
+    <td></td>
+    <td>文件大小</td>
+    <td>修改时间</td>
+    <td>管理</td>
+  </tr>
+EOT;
+if ($this->parent) {
+print <<<EOT
+<tr class="tr3">
+    <td colspan="5"><a href="/focus/uploadfocus/list/fid/{$this->fid}/?directory={$this->parent}"><img src="/theme/default/image/file/updir.gif" width="16" height="16" align="absmiddle" />上一级目录</a></td>
+  </tr>
+EOT;
+}else{
+print <<<EOT
+<tr class="tr3">
+    <td colspan="5"><a href="#"><img src="/theme/default/image/file/updir.gif" width="16" height="16" align="absmiddle" />当前专题根目录</a></td>
+  </tr>
+EOT;
+}
+$i=0;
+foreach((array)$this->files as $file){
+$i++;
+print <<<EOT
+
+  <tr class="tr3">
+    <td><img src="$file[icon]" width="18" height="16" hspace="16" align="absmiddle" /></td>
+
+EOT;
+if ($file[type] == 'dir') {
+print <<<EOT
+
+<td id="file$i"><a href="$file[url]">$file[name]</a></td>
+
+EOT;
+}
+else {
+print <<<EOT
+<td id="file$i" ondblclick=""><a href="$file[url]" target="_blank">$file[name]</a></td>
+
+EOT;
+}
+print <<<EOT
+    <td>$file[size]</td>
+    <td>$file[time]</td>
+    <td>
+		<a href="javascript:void(0);" style="color:#red" onclick="if(confirm('真的要执行删除吗?'))window.location='/focus/uploadfocus/removefile/fid/{$this->fid}/?path=$file[path]&filename={$file[name]}'"><img src="/theme/default/image/del.gif" align="absmiddle" alt="删除"/>&nbsp;删除</a>   
+EOT;
+if ($file[type] != 'dir' ) {
+print <<<EOT
+		<a href="/focus/uploadfocus/download/fid/{$this->fid}/?path=$file[path]&filename={$file[name]}" target="_blank" id="download$i"><img src="/theme/default/image/download.gif" align="absmiddle" alt="下载" />下载</a>
+EOT;
+}
+print <<<EOT
+	 </td>
+  </tr>
+
+EOT;
+}
+print <<<EOT
+</table>
+<form action="/focus/uploadfocus/uploadfile" method="POST" enctype="multipart/form-data">
+<table cellpadding="0" cellspacing="5" border="0" width="64%" class="list" style="padding:5px;border:1px solid #c9e6fa;margin:40px 0 30px 12px;background-color:#e5f5fa ">
+<tr class="head"><td>上传文件</td></tr>
+<tr class="line">
+    <td><label for="file">选择文件： </label><input type="file" name="file" id="file" size="60" class="input" />
+    <input name="fid" type="hidden" id="fid" value="{$this->fid}" />
+    <input name="directory" type="hidden" id="directory" value="{$this->directory}" />   
+    <input type="submit" name="submit" value=" 上 传 " class="btn" /> <br />
+    允许上传的文件类型包括：gif, jpg, jpeg, png, swf, htm, html, xml, css, js 。另外，您还可以上传打包的 zip 文件，上传后自动解压缩到上传目录下，请不要连同目录一起打包。文件名不支持中文! 
+</td>
+</tr>
+</table>
+</form>
+</div> 
+</div>
+EOT;
+?>

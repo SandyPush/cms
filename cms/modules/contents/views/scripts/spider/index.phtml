@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CMS_文章列表</title>
+<?=$this->headLink() ?>
+<?=$this->headScript() ?>
+</head>
+<body>
+<div class="area">
+	<div class="help">
+    <p>帮助</p>
+    <p>1、此处为抓取的文章列表;</p>   
+	<p>2、点击文章标题可预览该文章,然后添加至本频道;</p> 
+    <p class="soart">
+    	<form action="/contents/spider" name="search_form" method="post" onsubmit="return true;">
+        	<label>标题搜索:<input class="input" type="text" name="title" value="<?=$this->title?>" size="16" /></label>
+            <label>来源搜索:<input class="input" type="text" name="source" value="<?=$this->source?>" size="8" /></label>
+            <input type="submit" value="显示"></button>
+        </form>
+    </p>    
+    </div>
+	<div class="nr">
+    	<h2>
+        </h2>
+    	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="list">
+        	<tr>
+				<th>来源</th>
+                <th>标题</th>
+                <th>作者</th>
+                <th>发布时间</th>
+                <th>已添加频道</th>
+                <th>操作</th>
+            </tr>
+    <?php foreach ($this->result as $key => $value): ?>
+            <tr>
+			<td ><?=$value['source']?></td>
+                <td><a href="/contents/spider/preview/id/<?=$value['id'] ?>" target="_self"><?=$this->escape($value['title']) ?></a></td>
+                <td><?=$this->escape($value['author']) ?></td>
+                <td><?=$value['pub_date']? $this->escape(date("Y-m-d H:i:s",$value['pub_date'])): '' ?></td>
+                <td><?=$value['flag'] ?>&nbsp;</td>
+                <td><a href="/contents/spider/push/id/<?=$value['id'] ?>">添加至本频道</a></td>
+            </tr>
+    <?php endforeach;  ?>
+        </table>
+    </div>
+    
+    <div class="fy">
+		<?=$this->pagebar ?>
+	</div>
+    </div>
+</body>
+</html>

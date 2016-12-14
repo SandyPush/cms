@@ -1,0 +1,87 @@
+<?=$this->doctype('XHTML1_TRANSITIONAL')?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>编辑手动区模块</title>    
+    <?=$this->headLink()?>    
+    <?=$this->headScript()?> 
+    <script type="text/javascript" src="/scripts/contentarea.js"></script>
+    <style type="text/css">
+    #floatBoxBg{display:none;width:100%;height:100%;background:#111;position:absolute;top:0;left:0;}
+    .floatBox{border:#999 1px solid;width:300px;position:absolute;top:50px;left:40%;}
+    .floatBox .title{height:20px;padding:5px 10px 0;background:#999;color:#fff;}
+    .floatBox .title h4{float:left;padding:0;margin:0;font-size:14px;line-height:16px;}
+    .floatBox .title span{float:right;cursor:pointer;}
+    .floatBox .content{padding:0;background:#fff;}
+	table tr:hover{ #ffffff}	
+	/*
+    .over{background-color:#e9e9e9}
+    .alt{background-color:#dddddd}
+	*/
+    </style>
+    
+</head>
+<body>
+      <div id="dialog_header">
+           <h1 class="page_title">编辑手动区 <?=$this->info['name']?> (<?=$this->info['description']?>)</h1>
+      </div>
+<form id="form1" name="form1" method="post" action="/contentarea/index/updateall/">
+<div id="dialog_body">
+    <table width="80%" cellpadding="1" cellspacing="1" class="form">
+    <tbody>
+        <?foreach($this->data as $k => $v):?>
+    	<tr class="<?=$k % 2 == 0 ? 'alt' : '' ?>">
+    		<td width="20">
+    			<input name="check[]" id="check<?=$v['aid']?>" type="checkbox" value="<?=$v['aid']?>,<?=$k?>" />
+    			<input name="oid[]" id="oid<?=$v['aid']?>" type="hidden" value="<?=$v['oid']?>" />
+				<input name="pid[]" id="pid<?=$v['aid']?>" type="hidden" value="<?=$v['pid']?>"  />
+    			<input name="mode" id="mode<?=$v['aid']?>" type="hidden" value="show" />
+    			<input name="ids" id="ids<?=$v['aid']?>" type="hidden" value="<?=$this->ids?>" />
+    		</td>    		
+    	    <?if($v['atype']!=2):?>
+    		<td width="90" style="display:none">最大长度:<input id="max_length<?=$v['aid']?>" type="text" size="5" value="<?if($v['max_length'])echo $v['max_length']?>" style="width:20px" />
+    		</td>	
+    		<?else:?>
+    		<td width="90">最大长度:不限<input id="max_length<?=$v['aid']?>" type="hidden" size="5" value="" style="width:20px" /></td>
+    		<?endif?>
+    
+    		<td>
+    		<strong><?=$v['caption']?></strong> <?php if ($v['info']): ?>(<?=$v['info']?>)<?php endif; ?><br />
+    		<?if($v['type']==0):?>
+    		<input name="value[]" id="value<?=$v['aid']?>" type="text" size="60" value="<?=$v['value']?>" onpropertychange="testLength('<?=$v['aid']?>')" />
+    		<span id="len<?=$v['aid']?>" style="display:block"> </span>
+    		<?elseif($v['type']==1):?>
+    		<textarea name="value[]" id="value<?=$v['aid']?>" cols="60" rows="5" onpropertychange="testLength('<?=$v['aid']?>')" ><?=$v['value']?></textarea>
+    		<span id="len<?=$v['aid']?>" style="display:block"> </span>
+    		<?else:?>
+    		<div id="apic"><input name="value[]" id="value<?=$v['aid']?>" type="text" size="45" value="<?=$v['value']?>"  onpropertychange="testLength('<?=$v['aid']?>')" />
+    		<span>
+    		<a href="#" onclick="dialog('upload','iframe:/contentarea/index/upload/aid/<?=$v['aid']?>',500,100,'');return false;">上传</a>&nbsp;&nbsp;
+    		<a href="<?=$v['value']?>" target="_blank">预览</a>
+    		</span></div>
+    		<?endif?>
+    		</td>
+    		<td width="40">	
+    			<input type="button" value="删除" onclick="deleteOne('<?=$v['aid']?>');"/>
+                <input type="button" value="修改" onclick="showUpdateOne('<?=$v['aid']?>');"/>			
+    		</td>
+    	</tr>
+        <?endforeach?>
+    </tbody>
+    </table>
+    
+    <?if($this->data):?>
+    <p style="padding-left:10px">
+        <label><input type="checkbox" id="checkAll" />全选</label>
+		<input type="hidden" name="channel" id="channel" value="<?=$this->channel?>" />
+        <input type="submit" id="submitAll" value="全部提交" />           
+    </p>
+    <p><?$this->pagebar?><p>
+    <?endif?>
+
+    </div>
+    </form>
+
+</body>
+</html>
+

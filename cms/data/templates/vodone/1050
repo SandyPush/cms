@@ -1,0 +1,3087 @@
+a:20:{i:0;s:4936:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<!--
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+-->
+</head>
+
+<body>
+<!--#CMS_MODULE(code006)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px 0 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道2-logo背景)#-->
+   </div>
+   <div class="searchBox">
+   <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+   <input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+   <button class="search" type="submit" id="searchBut">搜 索</button>
+    <div class="searchTitle">热搜词：</div>
+   <div class="hotword">
+     <!--#CMS_MODULE(特殊频道2-热搜词)#-->
+  </div>
+  </form>
+  </div>
+</div>
+
+<!--#CMS_MODULE(特殊频道2-导航)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+<script type="text/javascript">
+var Search=document.getElementById("search");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+</body>
+</html>
+";i:1;s:4939:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<!--
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+-->
+</head>
+
+<body>
+<!--#CMS_MODULE(code006)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道2-logo背景)#-->
+   </div>
+   <div class="searchBox">
+   <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+   <input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+   <button class="search" type="submit" id="searchBut">搜 索</button>
+    <div class="searchTitle">热搜词：</div>
+   <div class="hotword">
+     <!--#CMS_MODULE(特殊频道2-热搜词)#-->
+  </div>
+  </form>
+  </div>
+</div>
+
+<!--#CMS_MODULE(特殊频道2-导航)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+<script type="text/javascript">
+var Search=document.getElementById("search");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+</body>
+</html>
+";i:2;s:4969:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<!--
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+-->
+</head>
+
+<body>
+<!--#CMS_MODULE(code006)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道2-logo背景)#-->
+   </div>
+   <div class="searchBox">
+   <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+   <input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+   <button class="search" type="submit" id="searchBut">搜 索</button>
+    <div class="searchTitle">热搜词：</div>
+   <div class="hotword">
+     <!--#CMS_MODULE(特殊频道2-热搜词)#-->
+  </div>
+  </form>
+  </div>
+</div>
+
+<!--#CMS_MODULE(特殊频道2-导航)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(code007)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+<script type="text/javascript">
+var Search=document.getElementById("search");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+</body>
+</html>
+";i:3;s:5067:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<!--
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+-->
+</head>
+
+<body>
+<!--#CMS_MODULE(code006)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道2-logo背景)#-->
+   </div>
+   <div class="searchBox">
+   <form action="http://ynews.v1.cn/news/search/s.jhtml" method="get" id="searchForm" target="_blank">
+   <input name="searchWord" type="text" class="text" value="请输入关键字" id="search" onfocus="Onfocus()" onblur="Onblur()">
+   <button class="search" type="submit" id="searchBut">搜 索</button>
+    <div class="searchTitle">热搜词：</div>
+   <div class="hotword">
+     <!--#CMS_MODULE(特殊频道2-热搜词)#-->
+  </div>
+  </form>
+  </div>
+</div>
+
+<!--#CMS_MODULE(特殊频道2-导航)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(code007)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+<script type="text/javascript">
+var Search=document.getElementById("search");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+</body>
+</html>
+";i:4;s:5162:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<!--
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+-->
+</head>
+
+<body>
+<!--#CMS_MODULE(code006)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道2-logo背景)#-->
+   </div>
+
+<div class="searchBox">
+<input name="searchWord" id="searchWord" type="text" class="text" value="请输入关键字" onfocus="Onfocus()" onblur="Onblur()">
+<form action="http://so.v1.cn/search/news/video/all/q_" method="get" id="searchForm" target="_blank">        
+<button class="search" type="submit" id="searchBut">搜 索</button>
+</form>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(特殊频道2-热搜词)#-->
+</div>
+
+</div>
+</div>
+
+<!--#CMS_MODULE(特殊频道2-导航)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(code007)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+</body>
+</html>
+";i:5;s:6193:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<!--
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+-->
+</head>
+
+<body>
+<!--#CMS_MODULE(code006)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道2-logo背景)#-->
+   </div>
+
+<div class="searchBox">
+<input name="searchWord" id="searchWord" type="text" class="text" value="请输入关键字" onfocus="Onfocus()" onblur="Onblur()">
+<form action="http://so.v1.cn/search/news/video/all/q_" method="get" id="searchForm" target="_blank">        
+<button class="search" type="submit" id="searchBut">搜 索</button>
+</form>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(特殊频道2-热搜词)#-->
+</div>
+
+</div>
+</div>
+
+<!--#CMS_MODULE(特殊频道2-导航)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(code007)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+
+<!----测试用------>
+<style>
+#cnzz_stat_icon_4992481 {
+    display:none;
+}
+</style>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_4992481'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s21.cnzz.com/stat.php%3Fid%3D4992481%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+
+<!----测试用end------>
+
+</body>
+</html>
+";i:6;s:6538:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<!--
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+-->
+</head>
+
+<body>
+<!--#CMS_MODULE(code006)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道2-logo背景)#-->
+   </div>
+
+<div class="searchBox">
+<input name="searchWord" id="searchWord" type="text" class="text" value="请输入关键字" onfocus="Onfocus()" onblur="Onblur()">
+<form action="http://so.v1.cn/search/news/video/all/q_" method="get" id="searchForm" target="_blank">        
+<button class="search" type="submit" id="searchBut">搜 索</button>
+</form>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(特殊频道2-热搜词)#-->
+</div>
+
+</div>
+</div>
+
+<!--#CMS_MODULE(特殊频道2-导航)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(code007)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+
+<!----测试用------>
+<style>
+#cnzz_stat_icon_4992481 {
+    display:none;
+}
+</style>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_4992481'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s21.cnzz.com/stat.php%3Fid%3D4992481%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+
+<!----测试用end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:7;s:6143:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<!--
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+-->
+</head>
+
+<body>
+<!--#CMS_MODULE(code006)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道2-logo背景)#-->
+   </div>
+
+<div class="searchBox">
+<input name="searchWord" id="searchWord" type="text" class="text" value="请输入关键字" onfocus="Onfocus()" onblur="Onblur()">
+<form action="http://so.v1.cn/search/news/video/all/q_" method="get" id="searchForm" target="_blank">        
+<button class="search" type="submit" id="searchBut">搜 索</button>
+</form>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(特殊频道2-热搜词)#-->
+</div>
+
+</div>
+</div>
+
+<!--#CMS_MODULE(特殊频道2-导航)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(code007)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:8;s:6251:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/loginStyle.css" />
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css"/>
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<!--
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+-->
+</head>
+
+<body>
+<!--#CMS_MODULE(code006)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道2-logo背景)#-->
+   </div>
+
+<div class="searchBox">
+<input name="searchWord" id="searchWord" type="text" class="text" value="请输入关键字" onfocus="Onfocus()" onblur="Onblur()">
+<form action="http://so.v1.cn/search/news/video/all/q_" method="get" id="searchForm" target="_blank">        
+<button class="search" type="submit" id="searchBut">搜 索</button>
+</form>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(特殊频道2-热搜词)#-->
+</div>
+
+</div>
+</div>
+
+<!--#CMS_MODULE(特殊频道2-导航)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(code007)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:9;s:6688:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+
+<!--
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+-->
+</head>
+
+<body>
+<!--#CMS_MODULE(code006)#-->
+
+<div class="wrapBox1000 clearfix" style="margin:40px auto 0px;*padding-top:40px;">
+   <div class="newslogoBox">
+    <!--#CMS_MODULE(特殊频道2-logo背景)#-->
+   </div>
+
+<div class="searchBox">
+<input name="searchWord" id="searchWord" type="text" class="text" value="请输入关键字" onfocus="Onfocus()" onblur="Onblur()">
+<form action="http://so.v1.cn/search/news/video/all/q_" method="get" id="searchForm" target="_blank">        
+<button class="search" type="submit" id="searchBut">搜 索</button>
+</form>
+<div class="searchTitle">热搜词：</div>
+<div class="hotword">
+<!--#CMS_MODULE(特殊频道2-热搜词)#-->
+</div>
+
+</div>
+</div>
+
+<!--#CMS_MODULE(特殊频道2-导航)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(code007)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:10;s:5990:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+
+<!--
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+-->
+</head>
+
+<body>
+
+<!--#CMS_MODULE(特殊频道2-导航)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(code007)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:11;s:5988:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+
+<!--
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+-->
+</head>
+
+<body>
+
+<!--#CMS_MODULE(特殊频道2-导航)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(code007)#-->
+<!--ssi#include virtual="/ssi/foot_common.html"-->
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:12;s:6385:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script>
+var userDomain = "http://user.v1.cn";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+var staticNewsDomain = "http://www.v1.cn/"; 
+</script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script>
+locationHost=location.host;
+if(locationHost=='big5.v1.cn'){
+  url=location.href;
+}else{
+  url="http://big5.v1.cn/"+locationHost+"/";
+}
+$("#bigA").attr({"href":url});
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/bz_channel/js/DD_belatedPNG_0.0.8a.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+<!--
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+-->
+</head>
+
+<body>
+
+<!--#CMS_MODULE(特殊频道2-导航)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(code007)#-->
+<!--ssi#include virtual="/ssi/foot_common.html"-->
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:13;s:5714:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/time.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery.boxy.js"></script>
+<script src="http://pic.v1.cn/cms/news/index/js/window.js" type="text/javascript" ></script>
+<!--
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+-->
+</head>
+
+<body>
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(特殊频道2-导航)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(code007)#-->
+<!--ssi#include virtual="/ssi/foot_common.html"-->
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:14;s:5846:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+
+<!--
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+-->
+</head>
+
+<body>
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(特殊频道2-导航)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(code007)#-->
+<!--ssi#include virtual="/ssi/foot_common.html"-->
+
+<script type="text/javascript">
+var Search=document.getElementById("searchWord");
+function Onfocus()
+{
+if(Search.value=="请输入关键字")
+{
+Search.value="";
+}
+}
+function Onblur()
+{
+if(Search.value=="")
+{
+Search.value="请输入关键字";
+}
+}
+</script>
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:15;s:5665:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<!--
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+-->
+</head>
+
+<body>
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(特殊频道2-导航)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(code007)#-->
+<!--ssi#include virtual="/ssi/foot_common.html"-->
+
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:16;s:5643:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<!--
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+-->
+</head>
+
+<body>
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(特殊频道2-导航)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(code007)#-->
+<!--#CMS_MODULE(code008)#-->
+
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:17;s:5632:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+<body>
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(特殊频道2-导航)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(code007)#-->
+<!--#CMS_MODULE(code008)#-->
+
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:18;s:5662:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+<body>
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(特殊频道2-导航)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(code009)#-->
+<!--#CMS_MODULE(code007)#-->
+<!--#CMS_MODULE(code008)#-->
+
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";i:19;s:5657:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$cms_page_title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link href="http://pic.v1.cn/cms/special_channel2/css/style-tech.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/head_foot.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/boxy.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static(new)/common/css/loginStyle.css" />
+<link rel="icon" href="http://pic.v1.cn/cms/v1_static/images/favicon.ico " type="image/x-icon"/>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/special_channel2/js/newsChannel.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/js/indexjs14.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/jquery-ui.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/search_new/common/js/base.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static(new)/common/js/jquery.boxy.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/news/index/js/window.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201301171048"></script>
+    <script type="text/javascript">
+        var userDomain = "http://user.v1.cn";
+        var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+        var staticNewsDomain = "http://www.v1.cn/";
+        $(function(){
+            headerGetUser();
+        });
+    </script>
+</head>
+
+<body>
+<!--#CMS_MODULE(code006)#-->
+
+<!--#CMS_MODULE(频道页header)#-->
+
+<div class="wrapBox1000 boxcla">
+   <div class="left">
+     <div class="bg-pic left">
+       <!--#CMS_MODULE(特殊频道2-首屏大图)#-->
+     </div>
+   
+   <div class="spic-list left">
+      <!--#CMS_MODULE(特殊频道2-4图列表)#-->     
+    </div>
+   </div>
+   
+   <div class="right-block">
+
+<div id="hotRank"><!-- tab 开始-->
+
+<div class="wgt-tab-s">
+
+<div class="titleBox">
+<h2>最热排行</h2>
+<h1 class="tab-hd tab-u-box"><!-- 背景图-->
+<span class="tab-u current"><a href="#">24小时</a></span>
+<span class="tab-u"><a href="#" target="_blank">一周</a></span>
+</h1>
+</div>
+<div class="outside display-control" style="clear:both;">
+<!--#CMS_MODULE(code005)#-->
+</div><!--display-control结束-->
+</div>
+</div><!-- tab 结束 -->
+</div>
+
+
+</div>
+<!--#CMS_MODULE(code001)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头1)#-->
+       </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表1)#-->
+    </div>
+    </div>
+    <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头2)#-->
+      <div class="right-btcon">
+      <!--#CMS_MODULE(特殊频道2-右侧大图加图文列表)#-->   
+      </div>
+   </div>
+</div>
+<!--#CMS_MODULE(code002)#-->
+<div class="wrapBox1000 clearfix">
+   <div class="left">
+      <div class="title-lfwc">
+         <!--#CMS_MODULE(特殊频道2-栏头3)#-->
+     </div>
+    <div class="spic-listlf">
+        <!--#CMS_MODULE(特殊频道2-8图列表2)#-->
+    </div>
+  </div>
+  <div class="right-block clearfix">
+      <!--#CMS_MODULE(特殊频道2-栏头4)#-->
+      <div class="right-btcon">
+         <div class="mp-listrg ">
+            <!--#CMS_MODULE(特殊频道2-右侧两小图列表)#-->
+           </div>                   
+      </div>
+   </div>
+   <!--#CMS_MODULE(code003)#-->
+</div>
+<!--#CMS_MODULE(code004)#-->
+<!--#CMS_MODULE(code009)#-->
+<!--#CMS_MODULE(code007)#-->
+<!--#CMS_MODULE(code008)#-->
+
+
+<!----v1统计代码------>
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=other&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!----v1统计代码end------>
+<!-- START baidu v1.0 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- END baidu v1.0 -->
+</body>
+</html>
+";}

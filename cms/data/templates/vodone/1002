@@ -1,0 +1,5 @@
+a:1:{i:0;s:389:"<!--#foreach ($photos as $k => $photo):#-->
+                	<li class="cur">
+                    	<a href="javascript:void(0)" rel="<!--#echo $photo['middle_image']#-->"><span><img src="<!--#echo $photo['square_image']#-->" width="75" height="74" alt="<!--#echo $photo['title']#-->" /></span><b><!--#echo $photo['title']#--></b></a>
+                    </li>
+					<!--#endforeach;#-->";}

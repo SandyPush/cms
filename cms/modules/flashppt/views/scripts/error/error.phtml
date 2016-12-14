@@ -1,0 +1,34 @@
+<?=$this->doctype('XHTML1_TRANSITIONAL')?>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <?=$this->headTitle()?>
+    <?=$this->headScript()?>
+    
+    <link rel="stylesheet" type="text/css" href="/styles/global.css" />    
+  </head>
+  <body>
+      <!-- <h1>An error occurred</h1>-->
+      <?php if ($this->type == 'UserException'):?>
+          <h1><?=$this->message?></h1>
+          <p><a href="<?=$this->url?>">&laquo; back</a></p>
+      <?php else: ?>
+            
+          <h2><?= $this->message ?></h2>   
+          
+          <? if ('development' == $this->env): ?>   
+          <h3>Exception information:</h3>   
+          <p>   
+              <b>Message:</b> <?= $this->exception->getMessage() ?>   
+          </p>   
+          
+          <h3>Stack trace:</h3>   
+          <pre><?= $this->exception->getTraceAsString() ?></pre>   
+          
+          <h3>Request Parameters:</h3>   
+          <pre><?= print_r($this->request->getParams(), true) ?></pre>   
+          <? endif ?>
+      <?php endif; ?>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<?=$this->doctype('XHTML1_TRANSITIONAL')?>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>模块编辑窗口_<?=$this->object->name ?>(<?=$this->object->description ?>)_<?=$this->pageid ?></title>
+    
+    <?=$this->headLink()?>
+    
+    <?=$this->headScript()?>
+    <script type="text/javascript">
+    var cms_functions = <?=$this->cms_functions ?>;
+    </script>
+  </head>
+  <body>
+      <div id="dialog_header">
+           <h1 class="page_title"><span id="switchMode" style="color: red;cursor:pointer;">视图模式</span> 编辑模块 <?=$this->object->name ?>(<?=$this->object->description ?>)</h1>
+      </div>
+      <form action="/publish/modules/edit/?<?=$this->params ?>" method="post" target="postContent">
+      <div id="viewMode" style="height:340px;overflow-y:scroll;">
+        <?
+            $modulesList=$this->tpl;
+            if(is_array($modulesList)){
+                foreach($modulesList as $file=>$module){
+                    $html.='<div style="border: 1px solid;height:105px;float:left;margin-left: 5px;margin-top: 5px;cursor:pointer;"><img width=148 height=75 src="'.trim($module['pic']).'"/><br>'.trim($module['title']).'<br>'.$file.'<textarea style="display:none">'.$this->escape($module['content']).'</textarea></div>';
+                }
+                echo $html;
+            }
+        ?>
+      </div>
+      <div id="dialog_body" style="display:none;">
+          <div id="func_toolbar">
+              <div id="func_selecter"><select id="sel_funcs" style="width: 140px"><option value="0">请选择函数</option></select></div>
+			  <div id="module_revision_div"><a href="#" onclick="cmsModuleRevision.init();$('#module_revision').css('display','');$(this).css('display','none'); return false">历史记录</a></div>
+			  <div id="module_revision" style="display:none"><select id="sel_revision" style="width: 100px" onchange="cmsModuleRevision.get(this.value);"><option value="">历史记录</option></select></div>             
+              <div><input name="image" type="text" size="60" class="input" /> <a href="#" onclick="upload(this)">上传</a></div>
+			   <div id="func_params"></div>
+              <div style="clear: both"></div>
+          </div>
+          <textarea rows="20" cols="120" name="content" id="txt_content"><?=$this->obj_content ? $this->escape($this->obj_content->content) : ''?></textarea>
+          <iframe style="width:97%;display:none;" id="postContent" name="postContent"></iframe>      
+      </div>
+      <div id="dialog_footer">
+	      <input type="hidden" name="channel" value="<?=$this->channel?>" />
+          <input type="submit" name="submit_save" value=" 保存 " />
+          <input type="submit" name="submit_clear" value=" 清除 " />
+          <input type="reset" value=" 取消 " onclick="window.close()"/>
+          <input type="button" id="debug" value=" debug "/>
+      </div>
+      </form>
+  </body>
+</html>
+<script>
+$(document).ready(function(){
+   $("#switchMode").click(function(){
+        spanObj=$(this);
+        if(spanObj.text()=='代码模式'){
+            $("#viewMode").css("display","");
+            $("#dialog_body").css("display","none");
+            spanObj.text('视图模式');
+        }else{
+            $("#viewMode").css("display","none");
+            $("#dialog_body").css("display","");
+            spanObj.text('代码模式');
+        }
+   });
+   
+   if($("#txt_content").val()!=''){
+        $("#switchMode").click();
+   }
+   
+   $("#debug").click(function(){
+        if($("#postContent").css("display")=="none"){
+            $("#postContent").css({"display":"block","width":$("#txt_content").width(),"height":$("#txt_content").height()});
+            $("#txt_content").css({"display":"none"});
+        }else{
+            $("#postContent").css({"display":"none"});
+            $("#txt_content").css({"display":"block"});
+        }
+   });
+   
+   $("#viewMode").children("div").each(function(){
+        $(this).click(function(){
+            $(this).css({"background":"red","color":"#FFFFFF"}).siblings("div").css({"background":"#FFFFFF","color":"#000000"});
+            $(this).css({"border":"1px red solid"}).siblings("div").css({"border":"1px solid"});
+            $("#txt_content").val($(this).children("textarea").text());
+        });
+   }); 
+});
+</script>

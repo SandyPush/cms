@@ -1,0 +1,136 @@
+<?=$this->headLink() ?>
+<?=$this->headScript() ?>
+<div class="area">
+<div class="help"> 
+	<p>帮助</p>
+	<p>1、头图编辑页面;</p>  
+<?=$this->showErrors()?>
+</div>
+
+<div class="nr">
+<form name="form1" action="/flashppt/index/save" method="post" onsubmit="return(checkForm(this))">
+<input type="hidden" name="fpid" value="<?=$this->fpid?>" />
+<input type="hidden" name="pid" value="<?=$this->pid?>" />
+<input type="hidden" name="oid" value="<?=$this->oid?>" />
+<table width="100%" border="0" cellspacing="0" cellpadding="0" id="adact">
+	<tr>
+		<td width="70" align="center" valign="top">排　　序</td>
+	      <td><?=$this->formSelect('level',$this->data['level'], null,  array_slice(range(0,101), 1, -1, true)) ?></td>
+	</tr>
+    <tr>
+		<td width="70" align="center" valign="top">&nbsp;角　　标</td>
+	    <td>
+            <input type="radio" name="iconStyle" value="" checked />无
+            <?
+                foreach($this->iconStyle as $iconStyle){
+                    $checked=$this->data['iconStyle']==$iconStyle->css ? 'checked' : '';
+                    echo '<input type="radio" name="iconStyle" value="'.$iconStyle->css.'" '.$checked.' />'.$iconStyle->name.' ';
+                }
+            ?>
+        </td>
+	</tr>
+	<tr>
+		<td width="70" align="center" valign="top">标　　题</td>
+	    <td><input type="text" size="40" id="title" name="title" value="<?=$this->data['title']?>" onkeyup="checkLenth('title','title_length_view','title_length',15)"><span id="title_length_view">文字最大字数：30，<span id="title_length"></span></span></td>
+	</tr>
+	<tr>
+		<td width="70" align="center" valign="top">短标题</td>
+	    <td><input type="text" size="40" id="stitle" name="stitle" value="<?=$this->data['stitle']?>" onkeyup="checkLenth('stitle','stitle_length_view','stitle_length', 8)"><span id="stitle_length_view">文字最大数：8，<span id="stitle_length"></span></span></td>
+	</tr>
+	<tr>
+		<td width="70" align="center" valign="top">描　　述</td>
+	    <td><textarea cols="40" rows="5"  id="description" name="description" onkeyup="checkLenth('description','description_length_view','description_length',70)"><?=$this->data['description']?></textarea><span id="description_length_view">文字最大字节数：70，<span id="description_length"></span></span></td>
+	</tr>
+	<tr>
+		<td width="70" align="center" valign="top">链　　接</td>
+	    <td><input type="text" size="40" name="url" value="<?=$this->data['url']?>"></td>
+	</tr>
+	<tr>
+		<td width="70" align="center" valign="top">图　　片</td>
+	    <td><input type="text" size="40" name="image" value="<?=$this->data['image']?>"><a href="#here" onclick="upload(this)">上传</a> 576x412px</td>
+	</tr>
+	<tr>
+		<td width="70" align="center" valign="top">缩略图</td>
+	    <td><input type="text" size="40" name="image_small" value="<?=$this->data['image_small']?>"><a href="#here" onclick="upload(this)">上传</a> 110*80px</td>
+	</tr>
+	<tr>
+		<td width="70" align="center" valign="top">预　　览</td>
+	    <td><span id="imgpre"><img src="<?=$this->data['image_small']?>"></span></td>
+	</tr>
+	<tr>
+		<td width="70" align="center" valign="top"></td>
+	    <td><input type="submit" value="保存"></td>
+	</tr>
+</table>
+</form>
+</div>
+</div>
+
+<script>
+function checkForm(obj)
+{
+	if(obj.title.value=="")
+	{
+		alert('标题不能为空');
+		return false;
+	}
+	if(obj.description.value=="")
+	{
+		alert('描述不能为空');
+		return false;
+	}
+	if(obj.url.value=="")
+	{
+		alert('链接不能为空');
+		return false;
+	}
+	if(obj.image.value=="")
+	{
+		alert('图片不能为空');
+		return false;
+	}
+	if(obj.stitle.value=="")
+	{
+		alert('短标题不能为空');
+		return false;
+	}
+	if(obj.image_small.value=="")
+	{
+		alert('缩略图不能为空');
+		return false;
+	}
+}
+function upload(obj)
+{
+window.lastUploadForm = $(obj).prev();
+	var dialog_url="/resource/index/index/type/0/name//cid/"+$("#cid").val();
+    var imgurl = window.showModalDialog(dialog_url, "", "dialogHeight:250px; dialogWidth:400px; resizable:0; scroll:0; status:0; unadorned:0;");
+    if(imgurl == undefined) return false;
+    $(obj).prev().val(imgurl);
+    $("#imgpre").html('<img src="'+imgurl+'">');
+}
+//计算指定对象value的长度
+checkLenth('title','title_length_view','title_length',30);
+checkLenth('stitle','stitle_length_view','stitle_length',8);
+checkLenth('description','description_length_view','description_length',70);
+function checkLenth(objid,view_id,length_id,max_length)
+{
+	var obj_value=document.getElementById(objid).value;
+	//alert(document.getElementById(objid).value);
+	var strlength=count_length(obj_value);
+	if(strlength <= max_length)
+	{
+		$('#'+view_id).removeClass().addClass('info');
+		$('#'+length_id).text('还剩'+(max_length-strlength)+'字');
+	}else
+	{
+		$('#'+view_id).removeClass().addClass('info').addClass('war');
+		$('#'+length_id).text('超出'+(strlength-max_length)+'字');
+	}
+}
+function count_length(objValue)
+{
+	return objValue.replace(/[^\x00-\xff]/g,"**").length;
+}
+
+</script>

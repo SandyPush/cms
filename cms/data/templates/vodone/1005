@@ -1,0 +1,1440 @@
+a:20:{i:0;s:12691:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><!--# echo $title #-->_第一视频</title>
+<meta name="description" content="<!--# echo $intro #-->" />
+<meta name="keywords" content="<!--# echo $keywords #-->" />
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/common/jquery-1.8.2.min.js"></script>
+<script src="http://pic.v1.cn/cloudone/js/common/window.js"></script>
+<script language="javascript">
+var staticNewsDomain = 'http://www.v1.cn';
+var newsDomain = 'http://ynews.v1.cn';
+var userDomain = 'http://user.v1.cn';
+var adminDomain = 'http://admin.v1.cn';
+var discussDomain = 'http://discuss.v1.cn';
+var ctx = "/news";
+var staticPath = "http://pic.v1.cn/cloudone";
+var pearlTreesStaticPath = "http://ynews.v1.cn/news";
+var staticAvatarDefaultImgPath = "http://pic.v1.cn/cloudone/images/avatar/default.gif";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+$(function(){
+	$('a span').click(function(){
+		return false;
+	})
+});
+</script>
+<link href="http://pic.v1.cn/cloudone/news/broadcast-news/css/newWord/news_broadcast.css?v=20130124" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cloudone/news/broadcast-news/css/newWord/style_nry_1.css?v=201302051832" rel="stylesheet" type="text/css" />
+<link type="text/css" href="http://pic.v1.cn/cloudone/news/index/css/quick_skip.css" rel="stylesheet"/>
+<script type=text/javascript> 
+function toDisComment(){
+	window.location.hash = "#disComment";
+	$("#content_discuss").focus();
+}
+</script> 
+<script type='text/javascript'><!--//<![CDATA[ 
+var m3_u = (location.protocol=='https:'?'http://luckstatic.v1.cn/st/10000/800/753.js':'http://luckstatic.v1.cn/st/10000/800/753.js');
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+
+</head>
+<body>
+<script type='text/javascript' src='http://pic.v1.cn/cloudone/js/news/home/time.js'></script>
+<link href="http://pic.v1.cn/cloudone/news/broadcast-news/css/contentHead/css/contHeaderClass.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cloudone/news/broadcast-news/css/contentHead/css/ie6.css" rel="stylesheet" type="text/css" />
+
+
+<link href="http://pic.v1.cn/cloudone/user/new/css/20121122/style_float.css" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/report/js/send_report.js?v=201212111736"></script>
+
+
+<link href="http://pic.v1.cn/cloudone/user/jgz/css/20121123/css.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/user/friend/js/concern-init.js"></script>
+
+
+<link rel="stylesheet" href="http://pic.v1.cn/cloudone/news/bjxwrw/css/20121123/css.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/news-person/js/news-person-relation.js"></script>
+
+
+<!-- 新弹层 start -->
+
+<!-- 新弹层 end -->
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201212202144"></script>
+<div id="back_top" class="topnav">
+      <div class="wrapper topnav_main">
+<div class="date"><a href="http://www.v1.cn" target="_blank">第一视频首页</a> | <script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script> 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script>
+</div>
+         <div class="login">
+         
+        
+            <a href="javascript:void(0);" onclick="register()">注册</a>
+            |
+            <a href="javascript:void(0);" onclick="login()">登录</a>
+        
+        
+           </div>
+      </div>
+    </div>
+<div class="logo_dh">
+      <ul>
+          <li class="logo"></li>          
+          <li class="search">
+          <span class="search_input" >
+			<form target="_blank" id="searchForm" method="post" action="http://ynews.v1.cn/news/search/s.jhtml">                             
+                               <input type="text" value="" class="text" name="searchWord"> 
+                               <input type="submit" id="searchBut" value="" class="button" name="">
+					
+			</form>		  
+          </span>
+          <span style="display:none;"> 
+			<b>热搜词:</b>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E6%9D%8E%E5%A8%9C">李娜</a>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E5%8F%8C%E6%89%93">双打</a>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E6%99%8B%E7%BA%A7">晋级</a>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E5%90%B4%E6%95%8F%E9%9C%9E">吴敏霞</a> 
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E4%B8%89%E8%BF%9E%E5%86%A0">三连冠</a>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E5%90%B4%E6%99%AF%E5%BD%AA">吴景彪</a>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E9%81%93%E6%AD%89">道歉</a>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E7%94%B7%E7%AF%AE%E8%B4%9F%E8%A5%BF%E7%8F%AD%E7%89%99">男篮负西班牙</a>
+          </span>
+          </li>
+         <div class="clear"></div>
+      </ul>
+    </div>
+<div class="nav">
+  <div class="nav_2">
+      <ul>
+        <li><a target="_blank" href="http://news.v1.cn/"><b>新闻</b></a></li>
+        <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+        <li><a target="_blank" href="http://news.v1.cn/figure/">人物</a></li>
+        <li><a target="_blank" href="http://news.v1.cn/depth/">评论</a></li>
+        <li><a target="_blank" href="http://special.v1.cn/">独家</a></li>
+      </ul>
+      <ul>
+        <li><a target="_blank" href="http://shehui.v1.cn/"><b>社会</b></a></li>
+        <li><a target="_blank" href="http://city.v1.cn/">城市</a></li>
+        <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+        <li><a target="_blank" href="http://life.v1.cn/">生活</a></li>
+        <li><a target="_blank" href="http://paike.v1.cn/">播客</a></li> 
+      </ul>
+    </div>
+    <div class="nav_2">
+      <ul>
+        <li><a target="_blank" href="http://ent.v1.cn/"><b>娱乐</b></a></li>
+        <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+        <li><a target="_blank" href="http://ent.v1.cn/star/">明星</a></li>
+        <li><a target="_blank" href="http://ent.v1.cn/bagua/">八卦</a></li>
+        <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      </ul>
+      <ul>
+        <li><a target="_blank" href="http://sports.v1.cn/"><b>体育</b></a></li>
+        <li><a target="_blank" href="http://sports.v1.cn/football/">足球</a></li>
+        <li><a target="_blank" href="http://sports.v1.cn/basketball/">篮球</a></li>
+        <li><a target="_blank" href="http://sports.v1.cn/fitness/">健身</a></li>
+        <li><a target="_blank" href="http://health.v1.cn/">健康</a></li>
+      </ul>
+    </div>
+  <div class="nav_2">
+      <ul>
+        <li><a target="_blank" href="http://finance.v1.cn/"><b>财经</b></a></li>
+        <li><a target="_blank" href="http://edu.v1.cn/">教育</a></li>
+        <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+        <li><a target="_blank" href="http://digi.v1.cn/">数码</a></li>
+        <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      </ul>
+      <ul>
+        <li><a target="_blank" href="http://lady.v1.cn/"><b>女性</b></a></li>
+        <li><a target="_blank" href="http://fashion.v1.cn/">时尚</a></li>
+        <li><a target="_blank" href="http://fashion.v1.cn/xiu/">秀场</a></li>
+        <li><a target="_blank" href="http://ent.v1.cn/xiezhen/">写真</a></li>
+        <li><a target="_blank" href="http://shop.v1.cn/">购物</a></li>
+	</ul>
+    </div>
+  <div class="nav_2 nav_2_last">
+      <ul>
+        <li><a target="_blank" href="http://auto.v1.cn/"><b>汽车</b></a></li>
+        <li><a target="_blank" href="http://guide.v1.cn/">导购</a></li>
+        <li><a target="_blank" href="http://finance.v1.cn/zqsc/">股票</a></li>
+        <li><a target="_blank" href="http://data.v1.cn/">行情</a></li>
+        <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      </ul>
+      <ul>
+        <li><a target="_blank" href="http://travel.v1.cn/"><b>旅游</b></a></li>
+        <li><a target="_blank" href="http://eat.v1.cn/">美食</a></li>
+        <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+        <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+        <li><a target="_blank" href="http://union.v1.cn/">V联播</a></li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+    </div>
+<div class="main_con">
+<div class="xg_title">
+<div class="title_left">
+<span>
+<!--#
+$nav_array = CMS_FUNCTION('CmsArticleNav', $aid);
+foreach($nav_array as $val){
+#-->
+<a href="$val[url]" class="fb">$val[name]</a> > 
+<!--# 
+} 
+#-->
+<a>正文</a></span>
+<h1><!--#echo $title#--></h1>
+</div>
+<div id="pearlTrees" class="gkxws">
+<a href="http://ent.v1.cn/round/2013-03-19/163165v.shtml"></a>
+</div>
+<div class="clear"></div>
+</div>
+<div class="video_con">
+<div class="video">
+     <!--# echo $contents #-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+  <div class="clear"></div>
+</div>
+</div>
+  
+<link href="http://pic.v1.cn/cloudone/footer/css/footer.css" rel="stylesheet" type="text/css" />
+<div class="footer">
+	<div class="gsjs">
+		<a target="_blank" href="http://www.v1.cn/vodone/companyprofile.shtml">公司介绍</a>-<a target="_blank" href="http://www.v1.cn/vodone/customerservice.shtml">客服中心</a>-<a target="_blank" href="mailto:service@v1.cn">联系我们</a>-<a target="_blank" href="http://www.v1.cn/zhaopin/index.shtml">第一视频招聘</a>-<a target="_blank" href="#">网络营销</a>-<a target="_blank" href="#">网站地图</a>-<a target="_blank" href="http://www.v1.cn/vodone/lawservice.shtml">法律声明</a>-<a target="_blank" href="#">帮助中心</a>-<a target="_blank" href="mailto:jiucuo@v1.cn">举报差错</a>-<a target="_blank" href="http://www.v1.cn/vodone/companynews.shtml">公司动态</a>
+	</div>
+	<div class="bqsy">
+		<span>第一视频公司 版权所有</span> <span>热线:400-610-0220
+			邮箱:service@v1.cn 不良信息举报:010-57839077</span>
+		<ul>
+			<li><a target="_blank"
+				href="http://www.v1.cn/Qualification/chuban.html">互联网出版许可证(新出网证(京)字026号)</a>
+			</li>
+			<li><a target="_blank"
+				href="http://www.v1.cn/Qualification/shiting.html">信息网络传播视听节目许可证(0105136)</a>
+			</li>
+			<li class="last"><a target="_blank"
+				href="http://www.v1.cn/Qualification/cehui.html">测绘资质证书(甲测资字11002065)</a>
+			</li>
+			<li><a target="_blank"
+				href="http://www.v1.cn/Qualification/xinwen.html">互联网新闻信息服务许可证(国新网许可证编号1112008001)</a>
+			</li>
+			<li><a target="_blank"
+				href="http://www.v1.cn/Qualification/icp.html">电信与信息服务业务经营许可证(京ICP备10014938号)</a>
+			</li>
+			<li class="last"><a href="#">京公网安备：110105002116</a></li>
+			<li><a href="#">营业执照注册号：110000008537773</a></li>
+		</ul>
+		<a target="_blank"
+			href="https://www.itrust.org.cn/yz/pjwx.asp?wm=2775453304"><img
+			src="http://pic.v1.cn/cloudone/footer/images/images_dyy_145.gif"></a> <a
+			target="_blank"
+			href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005121600020"><img
+			src="http://pic.v1.cn/cloudone/footer/images/images_dyy_147.gif"></a> <a
+			target="_blank" href="http://net.china.com.cn/index.htm"><img
+			src="http://pic.v1.cn/cloudone/footer/images/images_dyy_149.gif"></a> <a
+			target="_blank"
+			href="http://www.bnia.cn/"><img
+			src="http://pic.v1.cn/cloudone/footer/images/images_dyy_151.gif"></a> <a
+			target="_blank" href="http://www.bj.cyberpolice.cn/index.jsp"><img
+			src="http://pic.v1.cn/cloudone/footer/images/images_dyy_153.gif"></a> <a
+			target="_blank" href="http://fzp.bjhd.gov.cn/Default.aspx?TabId=105"><img
+			src="http://pic.v1.cn/cloudone/footer/images/images_dyy_155_1.gif"></a> <a
+			target="_blank" href="http://www.bjjubao.org/index.htm"><img
+			src="http://pic.v1.cn/cloudone/footer/ima";i:1;s:1620:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><!--# echo $cms_page_title #--></title>
+<meta name="description" content="<!--# echo $cms_page_intro#-->" />
+<meta name="keywords" content="<!--# echo $cms_page_keywords #-->" />
+<link href="http://pic.v1.cn/cms/common/css/header_top.css" type="text/css" rel="stylesheet"/>
+<link href="http://pic.v1.cn/cms/news/index/css/common.css" type="text/css" rel="stylesheet"/>
+<link href="http://pic.v1.cn/cms/news/index/css/index.css" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css" type="text/css"/>
+<link href="http://pic.v1.cn/cloudone/user/new/css/20121122/style_float.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--#CMS_MODULE(顶部登录)#-->
+<div class="column_wrapper_980_common"  id="SUBD1365735513713881">
+<!--#CMS_MODULE(顶部导航)#-->
+<!--#CMS_MODULE(栏目导航)#-->
+<div class="wrapper m_b_20 fimnum">
+    <div id="box" style="float:left"><!--#CMS_MODULE(内容_左一)#--></div>
+	<div class="cloud_index_topic_w640 jryw"><!--#CMS_MODULE(内容_右一)#--></div>
+<div class="cloud_index_topic_w640 jryw"></div>
+	<div class="clear"></div>
+</div>
+</div>
+<div class="column_wrapper_980_common">
+		<div class="col_w980_common" id="SUBD1365735513718448">
+		  <!--#CMS_MODULE(页面_底部)#-->
+		</div>
+	<div class="clear"></div>
+</div>
+</body>
+</html>
+";i:2;s:1637:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><!--# echo $cms_page_title #--></title>
+<meta name="description" content="<!--# echo $cms_page_intro#-->" />
+<meta name="keywords" content="<!--# echo $cms_page_keywords #-->" />
+<link href="http://pic.v1.cn/cms/common/css/header_top.css" type="text/css" rel="stylesheet"/>
+<link href="http://pic.v1.cn/cms/news/index/css/common.css" type="text/css" rel="stylesheet"/>
+<link href="http://pic.v1.cn/cms/news/index/css/index.css" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css" type="text/css"/>
+<link href="http://pic.v1.cn/cloudone/user/new/css/20121122/style_float.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--#CMS_MODULE(顶部登录)#-->
+<div class="column_wrapper_980_common"  id="SUBD1365735513713881">
+<!--#CMS_MODULE(顶部导航)#-->
+<!--#CMS_MODULE(栏目导航)#-->
+<div class="wrapper m_b_20 fimnum">
+    <div id="box" style="float:left"><!--#CMS_MODULE(内容_左一)#--></div>
+	<div class="cloud_index_topic_w640 jryw"><!--#CMS_MODULE(内容_右一)#--></div>
+<div class="cloud_index_topic_w640 jryw"></div>
+	<div class="clear"></div>
+</div>
+</div>
+<div class="column_wrapper_980_common">
+		<div class="col_w980_common" id="SUBD1365735513718448">
+		  <!--#CMS_MODULE(页面_底部)#-->
+		</div>
+	<div class="clear"></div>
+</div>
+</body>
+</html>
+<script></script>";i:3;s:11743:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><!--# echo $title #-->_第一视频</title>
+<meta name="description" content="<!--# echo $intro #-->" />
+<meta name="keywords" content="<!--# echo $keywords #-->" />
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/common/jquery-1.8.2.min.js"></script>
+<script src="http://pic.v1.cn/cloudone/js/common/window.js"></script>
+<script language="javascript">
+var staticNewsDomain = 'http://www.v1.cn';
+var newsDomain = 'http://ynews.v1.cn';
+var userDomain = 'http://user.v1.cn';
+var adminDomain = 'http://admin.v1.cn';
+var discussDomain = 'http://discuss.v1.cn';
+var ctx = "/news";
+var staticPath = "http://pic.v1.cn/cloudone";
+var pearlTreesStaticPath = "http://ynews.v1.cn/news";
+var staticAvatarDefaultImgPath = "http://pic.v1.cn/cloudone/images/avatar/default.gif";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+$(function(){
+	$('a span').click(function(){
+		return false;
+	})
+});
+</script>
+<link href="http://pic.v1.cn/cloudone/news/broadcast-news/css/newWord/news_broadcast.css?v=20130124" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cloudone/news/broadcast-news/css/newWord/style_nry_1.css?v=201302051832" rel="stylesheet" type="text/css" />
+<link type="text/css" href="http://pic.v1.cn/cloudone/news/index/css/quick_skip.css" rel="stylesheet"/>
+<script type=text/javascript> 
+function toDisComment(){
+	window.location.hash = "#disComment";
+	$("#content_discuss").focus();
+}
+</script> 
+<script type='text/javascript'><!--//<![CDATA[ 
+var m3_u = (location.protocol=='https:'?'http://luckstatic.v1.cn/st/10000/800/753.js':'http://luckstatic.v1.cn/st/10000/800/753.js');
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+
+</head>
+<body>
+<script type='text/javascript' src='http://pic.v1.cn/cloudone/js/news/home/time.js'></script>
+<link href="http://pic.v1.cn/cloudone/news/broadcast-news/css/contentHead/css/contHeaderClass.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cloudone/news/broadcast-news/css/contentHead/css/ie6.css" rel="stylesheet" type="text/css" />
+
+
+<link href="http://pic.v1.cn/cloudone/user/new/css/20121122/style_float.css" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/report/js/send_report.js?v=201212111736"></script>
+
+
+<link href="http://pic.v1.cn/cloudone/user/jgz/css/20121123/css.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/user/friend/js/concern-init.js"></script>
+
+
+<link rel="stylesheet" href="http://pic.v1.cn/cloudone/news/bjxwrw/css/20121123/css.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/news-person/js/news-person-relation.js"></script>
+
+
+<!-- 新弹层 start -->
+
+<!-- 新弹层 end -->
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201212202144"></script>
+<div id="back_top" class="topnav">
+      <div class="wrapper topnav_main">
+<div class="date"><a href="http://www.v1.cn" target="_blank">第一视频首页</a> | <script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script> 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script>
+</div>
+         <div class="login">
+         
+        
+            <a href="javascript:void(0);" onclick="register()">注册</a>
+            |
+            <a href="javascript:void(0);" onclick="login()">登录</a>
+        
+        
+           </div>
+      </div>
+    </div>
+<div class="logo_dh">
+      <ul>
+          <li class="logo"></li>          
+          <li class="search">
+          <span class="search_input" >
+			<form target="_blank" id="searchForm" method="post" action="http://ynews.v1.cn/news/search/s.jhtml">                             
+                               <input type="text" value="" class="text" name="searchWord"> 
+                               <input type="submit" id="searchBut" value="" class="button" name="">
+					
+			</form>		  
+          </span>
+          <span style="display:none;"> 
+			<b>热搜词:</b>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E6%9D%8E%E5%A8%9C">李娜</a>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E5%8F%8C%E6%89%93">双打</a>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E6%99%8B%E7%BA%A7">晋级</a>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E5%90%B4%E6%95%8F%E9%9C%9E">吴敏霞</a> 
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E4%B8%89%E8%BF%9E%E5%86%A0">三连冠</a>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E5%90%B4%E6%99%AF%E5%BD%AA">吴景彪</a>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E9%81%93%E6%AD%89">道歉</a>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E7%94%B7%E7%AF%AE%E8%B4%9F%E8%A5%BF%E7%8F%AD%E7%89%99">男篮负西班牙</a>
+          </span>
+          </li>
+         <div class="clear"></div>
+      </ul>
+    </div>
+<div class="nav">
+  <div class="nav_2">
+      <ul>
+        <li><a target="_blank" href="http://news.v1.cn/"><b>新闻</b></a></li>
+        <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+        <li><a target="_blank" href="http://news.v1.cn/figure/">人物</a></li>
+        <li><a target="_blank" href="http://news.v1.cn/depth/">评论</a></li>
+        <li><a target="_blank" href="http://special.v1.cn/">独家</a></li>
+      </ul>
+      <ul>
+        <li><a target="_blank" href="http://shehui.v1.cn/"><b>社会</b></a></li>
+        <li><a target="_blank" href="http://city.v1.cn/">城市</a></li>
+        <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+        <li><a target="_blank" href="http://life.v1.cn/">生活</a></li>
+        <li><a target="_blank" href="http://paike.v1.cn/">播客</a></li> 
+      </ul>
+    </div>
+    <div class="nav_2">
+      <ul>
+        <li><a target="_blank" href="http://ent.v1.cn/"><b>娱乐</b></a></li>
+        <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+        <li><a target="_blank" href="http://ent.v1.cn/star/">明星</a></li>
+        <li><a target="_blank" href="http://ent.v1.cn/bagua/">八卦</a></li>
+        <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      </ul>
+      <ul>
+        <li><a target="_blank" href="http://sports.v1.cn/"><b>体育</b></a></li>
+        <li><a target="_blank" href="http://sports.v1.cn/football/">足球</a></li>
+        <li><a target="_blank" href="http://sports.v1.cn/basketball/">篮球</a></li>
+        <li><a target="_blank" href="http://sports.v1.cn/fitness/">健身</a></li>
+        <li><a target="_blank" href="http://health.v1.cn/">健康</a></li>
+      </ul>
+    </div>
+  <div class="nav_2">
+      <ul>
+        <li><a target="_blank" href="http://finance.v1.cn/"><b>财经</b></a></li>
+        <li><a target="_blank" href="http://edu.v1.cn/">教育</a></li>
+        <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+        <li><a target="_blank" href="http://digi.v1.cn/">数码</a></li>
+        <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      </ul>
+      <ul>
+        <li><a target="_blank" href="http://lady.v1.cn/"><b>女性</b></a></li>
+        <li><a target="_blank" href="http://fashion.v1.cn/">时尚</a></li>
+        <li><a target="_blank" href="http://fashion.v1.cn/xiu/">秀场</a></li>
+        <li><a target="_blank" href="http://ent.v1.cn/xiezhen/">写真</a></li>
+        <li><a target="_blank" href="http://shop.v1.cn/">购物</a></li>
+	</ul>
+    </div>
+  <div class="nav_2 nav_2_last">
+      <ul>
+        <li><a target="_blank" href="http://auto.v1.cn/"><b>汽车</b></a></li>
+        <li><a target="_blank" href="http://guide.v1.cn/">导购</a></li>
+        <li><a target="_blank" href="http://finance.v1.cn/zqsc/">股票</a></li>
+        <li><a target="_blank" href="http://data.v1.cn/">行情</a></li>
+        <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      </ul>
+      <ul>
+        <li><a target="_blank" href="http://travel.v1.cn/"><b>旅游</b></a></li>
+        <li><a target="_blank" href="http://eat.v1.cn/">美食</a></li>
+        <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+        <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+        <li><a target="_blank" href="http://union.v1.cn/">V联播</a></li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+    </div>
+<div class="main_con">
+<div class="xg_title">
+<div class="title_left">
+<span>
+<!--#
+$nav_array = CMS_FUNCTION('CmsArticleNav', $aid);
+foreach($nav_array as $val){
+#-->
+<a href="$val[url]" class="fb">$val[name]</a> > 
+<!--# 
+} 
+#-->
+<a>正文</a></span>
+<h1><!--#echo $title#--></h1>
+</div>
+<div id="pearlTrees" class="gkxws">
+<a href="http://ent.v1.cn/round/2013-03-19/163165v.shtml"></a>
+</div>
+<div class="clear"></div>
+</div>
+<div class="video_con">
+<div class="video">
+     <!--# echo $contents #-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+  <div class="clear"></div>
+</div>
+</div>
+  
+<link href="http://pic.v1.cn/cloudone/footer/css/footer.css" rel="stylesheet" type="text/css" />
+<div class="footer">
+	<div class="gsjs">
+		<a target="_blank" href="http://www.v1.cn/vodone/companyprofile.shtml">公司介绍</a>-<a target="_blank" href="http://www.v1.cn/vodone/customerservice.shtml">客服中心</a>-<a target="_blank" href="mailto:service@v1.cn">联系我们</a>-<a target="_blank" href="http://www.v1.cn/zhaopin/index.shtml">第一视频招聘</a>-<a target="_blank" href="#">网络营销</a>-<a target="_blank" href="#">网站地图</a>-<a target="_blank" href="http://www.v1.cn/vodone/lawservice.shtml">法律声明</a>-<a target="_blank" href="#">帮助中心</a>-<a target="_blank" href="mailto:jiucuo@v1.cn">举报差错</a>-<a target="_blank" href="http://www.v1.cn/vodone/companynews.shtml">公司动态</a>
+	</div>
+	<div class="bqsy">
+		<span>第一视频公司 版权所有</span> <span>热线:400-610-0220
+			邮箱:service@v1.cn 不良信息举报:010-57839077</span>
+		<ul>
+			<li><a target="_blank"
+				href="http://www.v1.cn/Qualification/chuban.html">互联网出版许可证(新出网证(京)字026号)</a>
+			</li>
+			<li><a target="_blank"
+				href="http://www.v1.cn/Qualification/shiting.html">信息网络传播视听节目许可证(0105136)</a>
+			</li>
+			<li class="last"><a target="_blank"
+				href="http://www.v1.cn/Qualification/cehui.html">测绘资质证书(甲测资字11002065)</a>
+			</li>
+			<li><a target="_blank"
+				href="http://www.v1.cn/Qualification/xinwen.html">互联网新闻信息服务许可证(国新网许可证编号1112008001)</a>
+			</li>
+			<li><a target="_blank"
+				href="http://www.v1.cn/Qualification/icp.html">电信与信息服务业务经营许可证(京ICP备10014938号)</a>
+			</li>
+			<li class="last"><a href="#">京公网安备：110105002116</a></li>
+			<li><a href="#">营业执照注册号：110000008537773</a></li>
+		</ul>
+		<a target="_blank"
+			href="https://www.itrust.org.cn/yz/pjwx.asp?wm=2775453304"><img";i:4;s:1637:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><!--# echo $cms_page_title #--></title>
+<meta name="description" content="<!--# echo $cms_page_intro#-->" />
+<meta name="keywords" content="<!--# echo $cms_page_keywords #-->" />
+<link href="http://pic.v1.cn/cms/common/css/header_top.css" type="text/css" rel="stylesheet"/>
+<link href="http://pic.v1.cn/cms/news/index/css/common.css" type="text/css" rel="stylesheet"/>
+<link href="http://pic.v1.cn/cms/news/index/css/index.css" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css" type="text/css"/>
+<link href="http://pic.v1.cn/cloudone/user/new/css/20121122/style_float.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--#CMS_MODULE(顶部登录)#-->
+<div class="column_wrapper_980_common"  id="SUBD1365735513713881">
+<!--#CMS_MODULE(顶部导航)#-->
+<!--#CMS_MODULE(栏目导航)#-->
+<div class="wrapper m_b_20 fimnum">
+    <div id="box" style="float:left"><!--#CMS_MODULE(内容_左一)#--></div>
+	<div class="cloud_index_topic_w640 jryw"><!--#CMS_MODULE(内容_右一)#--></div>
+<div class="cloud_index_topic_w640 jryw"></div>
+	<div class="clear"></div>
+</div>
+</div>
+<div class="column_wrapper_980_common">
+		<div class="col_w980_common" id="SUBD1365735513718448">
+		  <!--#CMS_MODULE(页面_底部)#-->
+		</div>
+	<div class="clear"></div>
+</div>
+</body>
+</html>
+<script></script>";i:5;s:11743:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><!--# echo $title #-->_第一视频</title>
+<meta name="description" content="<!--# echo $intro #-->" />
+<meta name="keywords" content="<!--# echo $keywords #-->" />
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/common/jquery-1.8.2.min.js"></script>
+<script src="http://pic.v1.cn/cloudone/js/common/window.js"></script>
+<script language="javascript">
+var staticNewsDomain = 'http://www.v1.cn';
+var newsDomain = 'http://ynews.v1.cn';
+var userDomain = 'http://user.v1.cn';
+var adminDomain = 'http://admin.v1.cn';
+var discussDomain = 'http://discuss.v1.cn';
+var ctx = "/news";
+var staticPath = "http://pic.v1.cn/cloudone";
+var pearlTreesStaticPath = "http://ynews.v1.cn/news";
+var staticAvatarDefaultImgPath = "http://pic.v1.cn/cloudone/images/avatar/default.gif";
+var crossDomainCookieLink = "http://v1.cn/cookie.jsp";
+$(function(){
+	$('a span').click(function(){
+		return false;
+	})
+});
+</script>
+<link href="http://pic.v1.cn/cloudone/news/broadcast-news/css/newWord/news_broadcast.css?v=20130124" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cloudone/news/broadcast-news/css/newWord/style_nry_1.css?v=201302051832" rel="stylesheet" type="text/css" />
+<link type="text/css" href="http://pic.v1.cn/cloudone/news/index/css/quick_skip.css" rel="stylesheet"/>
+<script type=text/javascript> 
+function toDisComment(){
+	window.location.hash = "#disComment";
+	$("#content_discuss").focus();
+}
+</script> 
+<script type='text/javascript'><!--//<![CDATA[ 
+var m3_u = (location.protocol=='https:'?'http://luckstatic.v1.cn/st/10000/800/753.js':'http://luckstatic.v1.cn/st/10000/800/753.js');
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+
+</head>
+<body>
+<script type='text/javascript' src='http://pic.v1.cn/cloudone/js/news/home/time.js'></script>
+<link href="http://pic.v1.cn/cloudone/news/broadcast-news/css/contentHead/css/contHeaderClass.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cloudone/news/broadcast-news/css/contentHead/css/ie6.css" rel="stylesheet" type="text/css" />
+
+
+<link href="http://pic.v1.cn/cloudone/user/new/css/20121122/style_float.css" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/report/js/send_report.js?v=201212111736"></script>
+
+
+<link href="http://pic.v1.cn/cloudone/user/jgz/css/20121123/css.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/user/friend/js/concern-init.js"></script>
+
+
+<link rel="stylesheet" href="http://pic.v1.cn/cloudone/news/bjxwrw/css/20121123/css.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/news/news-person/js/news-person-relation.js"></script>
+
+
+<!-- 新弹层 start -->
+
+<!-- 新弹层 end -->
+<script type="text/javascript" src="http://pic.v1.cn/cloudone/js/bodyheader/body_header.js?v=201212202144"></script>
+<div id="back_top" class="topnav">
+      <div class="wrapper topnav_main">
+<div class="date"><a href="http://www.v1.cn" target="_blank">第一视频首页</a> | <script>document.writeln(getFormatDate({format:'yyyy年MM月dd日  day_cn'}));</script> 农历 <script> var today= new Date(); var str = GetLunarDateString(today);document.writeln(str);</script>
+</div>
+         <div class="login">
+         
+        
+            <a href="javascript:void(0);" onclick="register()">注册</a>
+            |
+            <a href="javascript:void(0);" onclick="login()">登录</a>
+        
+        
+           </div>
+      </div>
+    </div>
+<div class="logo_dh">
+      <ul>
+          <li class="logo"></li>          
+          <li class="search">
+          <span class="search_input" >
+			<form target="_blank" id="searchForm" method="post" action="http://ynews.v1.cn/news/search/s.jhtml">                             
+                               <input type="text" value="" class="text" name="searchWord"> 
+                               <input type="submit" id="searchBut" value="" class="button" name="">
+					
+			</form>		  
+          </span>
+          <span style="display:none;"> 
+			<b>热搜词:</b>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E6%9D%8E%E5%A8%9C">李娜</a>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E5%8F%8C%E6%89%93">双打</a>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E6%99%8B%E7%BA%A7">晋级</a>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E5%90%B4%E6%95%8F%E9%9C%9E">吴敏霞</a> 
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E4%B8%89%E8%BF%9E%E5%86%A0">三连冠</a>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E5%90%B4%E6%99%AF%E5%BD%AA">吴景彪</a>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E9%81%93%E6%AD%89">道歉</a>
+			<a target="_blank" href="http://ynews.v1.cn/news/search/s.jhtml?searchWord=%E7%94%B7%E7%AF%AE%E8%B4%9F%E8%A5%BF%E7%8F%AD%E7%89%99">男篮负西班牙</a>
+          </span>
+          </li>
+         <div class="clear"></div>
+      </ul>
+    </div>
+<div class="nav">
+  <div class="nav_2">
+      <ul>
+        <li><a target="_blank" href="http://news.v1.cn/"><b>新闻</b></a></li>
+        <li><a target="_blank" href="http://news.v1.cn/mil/">军事</a></li>
+        <li><a target="_blank" href="http://news.v1.cn/figure/">人物</a></li>
+        <li><a target="_blank" href="http://news.v1.cn/depth/">评论</a></li>
+        <li><a target="_blank" href="http://special.v1.cn/">独家</a></li>
+      </ul>
+      <ul>
+        <li><a target="_blank" href="http://shehui.v1.cn/"><b>社会</b></a></li>
+        <li><a target="_blank" href="http://city.v1.cn/">城市</a></li>
+        <li><a target="_blank" href="http://culture.v1.cn/">文化</a></li>
+        <li><a target="_blank" href="http://life.v1.cn/">生活</a></li>
+        <li><a target="_blank" href="http://paike.v1.cn/">播客</a></li> 
+      </ul>
+    </div>
+    <div class="nav_2">
+      <ul>
+        <li><a target="_blank" href="http://ent.v1.cn/"><b>娱乐</b></a></li>
+        <li><a target="_blank" href="http://ent.v1.cn/yingyin/">影视</a></li>
+        <li><a target="_blank" href="http://ent.v1.cn/star/">明星</a></li>
+        <li><a target="_blank" href="http://ent.v1.cn/bagua/">八卦</a></li>
+        <li><a target="_blank" href="http://music.v1.cn/">音乐</a></li>
+      </ul>
+      <ul>
+        <li><a target="_blank" href="http://sports.v1.cn/"><b>体育</b></a></li>
+        <li><a target="_blank" href="http://sports.v1.cn/football/">足球</a></li>
+        <li><a target="_blank" href="http://sports.v1.cn/basketball/">篮球</a></li>
+        <li><a target="_blank" href="http://sports.v1.cn/fitness/">健身</a></li>
+        <li><a target="_blank" href="http://health.v1.cn/">健康</a></li>
+      </ul>
+    </div>
+  <div class="nav_2">
+      <ul>
+        <li><a target="_blank" href="http://finance.v1.cn/"><b>财经</b></a></li>
+        <li><a target="_blank" href="http://edu.v1.cn/">教育</a></li>
+        <li><a target="_blank" href="http://tech.v1.cn/">科技</a></li>
+        <li><a target="_blank" href="http://digi.v1.cn/">数码</a></li>
+        <li><a target="_blank" href="http://games.v1.cn/">游戏</a></li>
+      </ul>
+      <ul>
+        <li><a target="_blank" href="http://lady.v1.cn/"><b>女性</b></a></li>
+        <li><a target="_blank" href="http://fashion.v1.cn/">时尚</a></li>
+        <li><a target="_blank" href="http://fashion.v1.cn/xiu/">秀场</a></li>
+        <li><a target="_blank" href="http://ent.v1.cn/xiezhen/">写真</a></li>
+        <li><a target="_blank" href="http://shop.v1.cn/">购物</a></li>
+	</ul>
+    </div>
+  <div class="nav_2 nav_2_last">
+      <ul>
+        <li><a target="_blank" href="http://auto.v1.cn/"><b>汽车</b></a></li>
+        <li><a target="_blank" href="http://guide.v1.cn/">导购</a></li>
+        <li><a target="_blank" href="http://finance.v1.cn/zqsc/">股票</a></li>
+        <li><a target="_blank" href="http://data.v1.cn/">行情</a></li>
+        <li><a target="_blank" href="http://bgt.v1.cn/">曝光台</a></li>
+      </ul>
+      <ul>
+        <li><a target="_blank" href="http://travel.v1.cn/"><b>旅游</b></a></li>
+        <li><a target="_blank" href="http://eat.v1.cn/">美食</a></li>
+        <li><a target="_blank" href="http://fun.v1.cn/">搞笑</a></li>
+        <li><a target="_blank" href="http://topic.v1.cn/">专题</a></li>
+        <li><a target="_blank" href="http://union.v1.cn/">V联播</a></li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+    </div>
+<div class="main_con">
+<div class="xg_title">
+<div class="title_left">
+<span>
+<!--#
+$nav_array = CMS_FUNCTION('CmsArticleNav', $aid);
+foreach($nav_array as $val){
+#-->
+<a href="$val[url]" class="fb">$val[name]</a> > 
+<!--# 
+} 
+#-->
+<a>正文</a></span>
+<h1><!--#echo $title#--></h1>
+</div>
+<div id="pearlTrees" class="gkxws">
+<a href="http://ent.v1.cn/round/2013-03-19/163165v.shtml"></a>
+</div>
+<div class="clear"></div>
+</div>
+<div class="video_con">
+<div class="video">
+     <!--# echo $contents #-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+  <div class="clear"></div>
+</div>
+</div>
+  
+<link href="http://pic.v1.cn/cloudone/footer/css/footer.css" rel="stylesheet" type="text/css" />
+<div class="footer">
+	<div class="gsjs">
+		<a target="_blank" href="http://www.v1.cn/vodone/companyprofile.shtml">公司介绍</a>-<a target="_blank" href="http://www.v1.cn/vodone/customerservice.shtml">客服中心</a>-<a target="_blank" href="mailto:service@v1.cn">联系我们</a>-<a target="_blank" href="http://www.v1.cn/zhaopin/index.shtml">第一视频招聘</a>-<a target="_blank" href="#">网络营销</a>-<a target="_blank" href="#">网站地图</a>-<a target="_blank" href="http://www.v1.cn/vodone/lawservice.shtml">法律声明</a>-<a target="_blank" href="#">帮助中心</a>-<a target="_blank" href="mailto:jiucuo@v1.cn">举报差错</a>-<a target="_blank" href="http://www.v1.cn/vodone/companynews.shtml">公司动态</a>
+	</div>
+	<div class="bqsy">
+		<span>第一视频公司 版权所有</span> <span>热线:400-610-0220
+			邮箱:service@v1.cn 不良信息举报:010-57839077</span>
+		<ul>
+			<li><a target="_blank"
+				href="http://www.v1.cn/Qualification/chuban.html">互联网出版许可证(新出网证(京)字026号)</a>
+			</li>
+			<li><a target="_blank"
+				href="http://www.v1.cn/Qualification/shiting.html">信息网络传播视听节目许可证(0105136)</a>
+			</li>
+			<li class="last"><a target="_blank"
+				href="http://www.v1.cn/Qualification/cehui.html">测绘资质证书(甲测资字11002065)</a>
+			</li>
+			<li><a target="_blank"
+				href="http://www.v1.cn/Qualification/xinwen.html">互联网新闻信息服务许可证(国新网许可证编号1112008001)</a>
+			</li>
+			<li><a target="_blank"
+				href="http://www.v1.cn/Qualification/icp.html">电信与信息服务业务经营许可证(京ICP备10014938号)</a>
+			</li>
+			<li class="last"><a href="#">京公网安备：110105002116</a></li>
+			<li><a href="#">营业执照注册号：110000008537773</a></li>
+		</ul>
+		<a target="_blank"
+			href="https://www.itrust.org.cn/yz/pjwx.asp?wm=2775453304"><img";i:6;s:1712:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><!--# echo $cms_page_title #--></title>
+<meta name="description" content="<!--# echo $cms_page_intro#-->" />
+<meta name="keywords" content="<!--# echo $cms_page_keywords #-->" />
+<link href="http://pic.v1.cn/cms/common/css/header_top.css" type="text/css" rel="stylesheet"/>
+<link href="http://pic.v1.cn/cms/news/index/css/common.css" type="text/css" rel="stylesheet"/>
+<link href="http://pic.v1.cn/cms/news/index/css/index.css" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css" type="text/css"/>
+<link href="http://pic.v1.cn/cloudone/user/new/css/20121122/style_float.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--#CMS_MODULE(顶部登录)#-->
+<div class="column_wrapper_980_common"  id="SUBD1365735513713881">
+<!--#CMS_MODULE(顶部导航)#-->
+<!--#CMS_MODULE(栏目导航)#-->
+<div class="wrapper m_b_20 fimnum">
+    <div id="box" style="float:left"><!--#CMS_MODULE(内容_左一)#--></div>
+	<div class="cloud_index_topic_w640 jryw"><!--#CMS_MODULE(内容_右一)#--></div>
+<div class="cloud_index_topic_w640 jryw"></div>
+	<div class="clear"></div>
+</div>
+</div><script src="http://pic.v1.cn/cms/news/index/js/focupic.js" type="text/javascript"></script>
+<div class="column_wrapper_980_common">
+		<div class="col_w980_common" id="SUBD1365735513718448">
+		  <!--#CMS_MODULE(页面_底部)#-->
+		</div>
+	<div class="clear"></div>
+</div>
+</body>
+</html>
+";i:7;s:1806:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><!--# echo $cms_page_title #--></title>
+<meta name="description" content="<!--# echo $cms_page_intro#-->" />
+<meta name="keywords" content="<!--# echo $cms_page_keywords #-->" />
+<link href="http://pic.v1.cn/cms/common/css/header_top.css" type="text/css" rel="stylesheet"/>
+<link href="http://pic.v1.cn/cms/news/index/css/common.css" type="text/css" rel="stylesheet"/>
+<link href="http://pic.v1.cn/cms/news/index/css/index.css" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css" type="text/css"/>
+<link href="http://pic.v1.cn/cloudone/user/new/css/20121122/style_float.css" rel="stylesheet" type="text/css" />
+</head>
+<script src="http://pic.v1.cn/cms/news/index/js/focupic.js" type="text/javascript"></script>
+<body>
+<!--#CMS_MODULE(顶部登录)#-->
+<div class="column_wrapper_980_common"  id="SUBD1365735513713881">
+<!--#CMS_MODULE(顶部导航)#-->
+<!--#CMS_MODULE(栏目导航)#-->
+<div class="wrapper m_b_20 fimnum">
+    <div id="box" style="float:left"><!--#CMS_MODULE(内容_左一)#--></div>
+	<div class="cloud_index_topic_w640 jryw"><!--#CMS_MODULE(内容_右一)#--></div>
+<div class="cloud_index_topic_w640 jryw"></div>
+	<div class="clear"></div>
+</div>
+</div><script src="http://pic.v1.cn/cms/news/index/js/focupic.js" type="text/javascript"></script>
+<div class="column_wrapper_980_common">
+		<div class="col_w980_common" id="SUBD1365735513718448">
+		  <!--#CMS_MODULE(页面_底部)#-->
+		</div>
+	<div class="clear"></div>
+</div>
+</body>
+</html>
+";i:8;s:2390:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>大事件专题测试页面</title>
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+<!--#CMS_MODULE(大事件css)#-->
+<div class="main_cont">
+<div class="topic_image">
+<!--#CMS_MODULE(top_image)#-->
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<h1><a href="#" target="_blank">勿忘国耻日解放军东海实弹演习发出怒吼</a></h1>
+<img src="images/images_video_play.gif"/>
+</div>
+</div>
+</div>
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>    5月下旬，成都军区两支航空兵部队及配属参演部队组成"蓝军"分队，进行了一次远程进攻作战演习。参演的"蓝军"战斗机预警机、运输机及空中加油机从川、渝、陕多个机场起飞，剑指大漠戈壁某机场 … ";i:9;s:2390:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>大事件专题测试页面</title>
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+<!--#CMS_MODULE(大事件css)#-->
+<div class="main_cont">
+<div class="topic_image">
+<!--#CMS_MODULE(top_image)#-->
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<h1><a href="#" target="_blank">勿忘国耻日解放军东海实弹演习发出怒吼</a></h1>
+<img src="images/images_video_play.gif"/>
+</div>
+</div>
+</div>
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="thir_con">
+<!--#CMS_MODULE(三列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="jieyu">
+<h1>结语</h1>
+<p>    5月下旬，成都军区两支航空兵部队及配属参演部队组成"蓝军"分队，进行了一次远程进攻作战演习。参演的"蓝军"战斗机预警机、运输机及空中加油机从川、渝、陕多个机场起飞，剑指大漠戈壁某机场 … ";i:10;s:1512:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><!--# echo $cms_page_title #--></title>
+<meta name="description" content="<!--# echo $cms_page_intro#-->" />
+<meta name="keywords" content="<!--# echo $cms_page_keywords #-->" />
+<link href="http://pic.v1.cn/cms/common/css/header_top.css" type="text/css" rel="stylesheet"/>
+<link href="http://pic.v1.cn/cms/news/index/css/common.css" type="text/css" rel="stylesheet"/>
+<link href="http://pic.v1.cn/cms/news/index/css/index.css" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css" type="text/css"/>
+<link href="http://pic.v1.cn/cloudone/user/new/css/20121122/style_float.css" rel="stylesheet" type="text/css" />
+</head>
+<script></script>
+<body>
+<!--#CMS_MODULE(顶部登录)#-->
+<div class="column_wrapper_980_common"  id="SUBD1365735513713881">
+<!--#CMS_MODULE(顶部导航)#-->
+<!--#CMS_MODULE(栏目导航)#-->
+<div class="wrapper m_b_20 fimnum">
+    <div id="box" style="float:left"><!--#CMS_MODULE(内容_左一)#--></div>
+	<div class="cloud_index_topic_w640 jryw"><!--#CMS_MODULE(内容_右一)#--></div>
+<div class="cloud_index_topic_w640 jryw"></div>
+	<div class="clear"></div>
+</div>
+</div>
+<div class="column_wrapper_980_common">
+		<div class="col_w980_common" id=%2";i:11;s:1589:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><!--# echo $cms_page_title #--></title>
+<meta name="description" content="<!--# echo $cms_page_intro#-->" />
+<meta name="keywords" content="<!--# echo $cms_page_keywords #-->" />
+<link href="http://pic.v1.cn/cms/common/css/header_top.css" type="text/css" rel="stylesheet"/>
+<link href="http://pic.v1.cn/cms/news/index/css/common.css" type="text/css" rel="stylesheet"/>
+<link href="http://pic.v1.cn/cms/news/index/css/index.css" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css" type="text/css"/>
+<link href="http://pic.v1.cn/cloudone/user/new/css/20121122/style_float.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<script src="http://pic.v1.cn/cms/news/index/js/focupic.js" type="text/javascript"></script>
+<!--#CMS_MODULE(顶部登录)#-->
+<div class="column_wrapper_980_common"  id="SUBD1365735513713881">
+<!--#CMS_MODULE(顶部导航)#-->
+<!--#CMS_MODULE(栏目导航)#-->
+<div class="wrapper m_b_20 fimnum">
+    <div id="box" style="float:left"><!--#CMS_MODULE(内容_左一)#--></div>
+	<div class="cloud_index_topic_w640 jryw"><!--#CMS_MODULE(内容_右一)#--></div>
+<div class="cloud_index_topic_w640 jryw"></div>
+	<div class="clear"></div>
+</div>
+</div>
+<div class="column_wrapper_980_common">
+		<div class="col_w980_common" id=%2";i:12;s:1589:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><!--# echo $cms_page_title #--></title>
+<meta name="description" content="<!--# echo $cms_page_intro#-->" />
+<meta name="keywords" content="<!--# echo $cms_page_keywords #-->" />
+<link href="http://pic.v1.cn/cms/common/css/header_top.css" type="text/css" rel="stylesheet"/>
+<link href="http://pic.v1.cn/cms/news/index/css/common.css" type="text/css" rel="stylesheet"/>
+<link href="http://pic.v1.cn/cms/news/index/css/index.css" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" href="http://pic.v1.cn/cloudone/js/boxy/css/boxy.css" type="text/css"/>
+<link href="http://pic.v1.cn/cloudone/user/new/css/20121122/style_float.css" rel="stylesheet" type="text/css" />
+</head>
+<script src="http://pic.v1.cn/cms/news/index/js/focupic.js" type="text/javascript"></script>
+<body>
+
+<!--#CMS_MODULE(顶部登录)#-->
+<div class="column_wrapper_980_common"  id="SUBD1365735513713881">
+<!--#CMS_MODULE(顶部导航)#-->
+<!--#CMS_MODULE(栏目导航)#-->
+<div class="wrapper m_b_20 fimnum">
+    <div id="box" style="float:left"><!--#CMS_MODULE(内容_左一)#--></div>
+	<div class="cloud_index_topic_w640 jryw"><!--#CMS_MODULE(内容_右一)#--></div>
+<div class="cloud_index_topic_w640 jryw"></div>
+	<div class="clear"></div>
+</div>
+</div>
+<div class="column_wrapper_980_common">
+		<div class="col_w980_common" id=%2";i:13;s:2048:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>大事件专题测试页面</title>
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('*');
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+<!--#CMS_MODULE(大事件css)#-->
+<div class="main_cont">
+<div class="topic_image">
+<!--#CMS_MODULE(top_image)#-->
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<h1><a href="#" target="_blank">勿忘国耻日解放军东海实弹演习发出怒吼</a></h1>
+<img src="images/images_video_play.gif"/>
+</div>
+</div>
+</div>
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两�%8";i:14;s:2036:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>大事件专题测试页面</title>
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://pic.v1.cn/cms/new_special/common/js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	
+</script>	
+<![endif]-->
+
+</head>
+
+<body>
+<!--#CMS_MODULE(大事件css)#-->
+<div class="main_cont">
+<div class="topic_image">
+<!--#CMS_MODULE(top_image)#-->
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<h1><a href="#" target="_blank">勿忘国耻日解放军东海实弹演习发出怒吼</a></h1>
+<img src="images/images_video_play.gif"/>
+</div>
+</div>
+</div>
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->";i:15;s:2004:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>大事件专题测试页面</title>
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+
+<script></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(大事件css)#-->
+<div class="main_cont">
+<div class="topic_image">
+<!--#CMS_MODULE(top_image)#-->
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<h1><a href="#" target="_blank">勿忘国耻日解放军东海实弹演习发出怒吼</a></h1>
+<img src="images/images_video_play.gif"/>
+</div>
+</div>
+</div>
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class=%";i:16;s:1987:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>大事件专题测试页面</title>
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+<!--#CMS_MODULE(大事件css)#-->
+<div class="main_cont">
+<div class="topic_image">
+<!--#CMS_MODULE(top_image)#-->
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<h1><a href="#" target="_blank">勿忘国耻日解放军东海实弹演习发出怒吼</a></h1>
+<img src="images/images_video_play.gif"/>
+</div>
+</div>
+</div>
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="secarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="sec_con">
+<!--#CMS_MODULE(两列图文)#-->
+<div class="clear"></div>
+</div>
+</div>
+<div class="thirarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class=%";i:17;s:1505:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>大事件专题测试页面</title>
+<link href="http://pic.v1.cn/cms/new_special/dsj/css/dsj.css" rel="stylesheet" type="text/css" />
+<link href="http://pic.v1.cn/cms/new_special/common/css/common.css" rel="stylesheet" type="text/css" />
+
+<script></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(大事件css)#-->
+<div class="main_cont">
+<div class="topic_image">
+<!--#CMS_MODULE(top_image)#-->
+</div>
+<div class="video">
+<div class="video_left">
+<div class="dy_s">
+<p>2010年4月6日，肯德基中国公司推出"超值星期二"三轮秒杀活动，在全国引爆热情。但当消费者拿着从网上辛苦秒杀回来的半价优惠券，突然被肯德基单方面宣布无效。</p>
+</div>
+<div class="dy_x">
+<!--#CMS_MODULE(top_list)#-->
+</div>
+</div>
+<div class="video_right">
+<div class="video_play">
+<h1><a href="#" target="_blank">勿忘国耻日解放军东海实弹演习发出怒吼</a></h1>
+<img src="images/images_video_play.gif"/>
+</div>
+</div>
+</div>
+<div class="firarae">
+<div class="title_bg">
+<h2>背景解读</h2>
+</div>
+<div class="fir_left">
+<!--#CMS_MODULE(left_list)#-->
+</div>
+<div class="fir_right">
+<!--#CMS_MODULE(right_list)#-->
+</div>
+<div class="clear"></div>
+</div>
+<div class="fi";i:18;s:17:"<script></script>";i:19;s:17:"<script></script>";}

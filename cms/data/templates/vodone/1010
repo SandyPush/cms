@@ -1,0 +1,227 @@
+a:6:{i:0;s:1577:"<?xml version="1.0" encoding="utf-8"?>
+<document>
+    <webName><![CDATA[第一视频]]></webName>
+    <webSite><![CDATA[http://www.v1.cn/]]></webSite>
+<!--#
+   $seoDataArray=CMS_FUNCTION('seoData',$cms_page_id);
+   foreach($seoDataArray as $seoData){
+#-->  
+        <item>
+        <op>add</op>
+        <title><![CDATA[{$seoData['title']}]]></title>
+        <nameAlt><![CDATA[]]></nameAlt>
+        <att>sd</att>
+        <category><![CDATA[{$seoData['category']}]]></category>
+        <tag><![CDATA[]]></tag>
+        <area><![CDATA[]]></area>
+        <time>{$seoData['create_time']}</time>
+        <dir><![CDATA[]]></dir>
+        <act><![CDATA[]]></act>
+        <comment><![CDATA[{$seoData['intro']}]]></comment>
+        <commentpage><![CDATA[http://www.v1.cn{$seoData['url']}]]></commentpage>
+        <total>1</total>
+        <upInfo>1</upInfo>
+        <imageLink style="1"><![CDATA[{$seoData['image']}]]></imageLink>
+        <imageLink style="2"><![CDATA[{$seoData['image']}]]></imageLink>
+        <playLink id="1">
+            <defaultUrl><![CDATA[http://www.v1.cn{$seoData['url']}]]></defaultUrl>
+            <miniUrl><![CDATA[http://www.v1.cn{$seoData['url']}]]></miniUrl>
+            <imageLink><![CDATA[{$seoData['image']}]]></imageLink>
+            <duration>{$seoData['duration']}</duration>
+            <appIcon><![CDATA[]]></appIcon>
+        </playLink>
+        <duration>{$seoData['duration']}</duration>
+        <pubDate>{$seoData['create_time']}</pubDate>
+        <view>{$seoData['pv']}</view>
+    </item>
+<!--#}#-->
+</document>";i:1;s:1592:"<?xml version="1.0" encoding="utf-8"?>
+<document>
+    <webName><![CDATA[第一视频]]></webName>
+    <webSite><![CDATA[http://www.v1.cn/]]></webSite>
+<!--#
+   $seoDataArray=CMS_FUNCTION('seoData',$cms_page_id);
+   foreach($seoDataArray as $seoData){
+#-->  
+        <item>
+        <op>add</op>
+        <title><![CDATA[{$seoData['title']}]]></title>
+        <nameAlt><![CDATA[]]></nameAlt>
+        <att>sd</att>
+        <category><![CDATA[{$seoData['category']}]]></category>
+        <tag><![CDATA[]]></tag>
+        <area><![CDATA[]]></area>
+        <time>{$seoData['create_time']}</time>
+        <dir><![CDATA[]]></dir>
+        <act><![CDATA[]]></act>
+        <comment><![CDATA[{$seoData['intro']}]]></comment>
+        <commentpage><![CDATA[http://www.v1.cn{$seoData['url']}]]></commentpage>
+        <total>{$seoData['pv']}</total>
+        <upInfo>1</upInfo>
+        <imageLink style="1"><![CDATA[{$seoData['image']}]]></imageLink>
+        <imageLink style="2"><![CDATA[{$seoData['image']}]]></imageLink>
+        <playLink id="1">
+            <defaultUrl><![CDATA[http://www.v1.cn{$seoData['url']}]]></defaultUrl>
+            <miniUrl><![CDATA[http://www.v1.cn{$seoData['url']}]]></miniUrl>
+            <imageLink><![CDATA[{$seoData['image']}]]></imageLink>
+            <duration>{$seoData['duration']}</duration>
+            <appIcon><![CDATA[]]></appIcon>
+        </playLink>
+        <duration>{$seoData['duration']}</duration>
+        <pubDate>{$seoData['create_time']}</pubDate>
+        <view>{$seoData['pv']}</view>
+    </item>
+<!--#}#-->
+</document>";i:2;s:1617:"<?xml version="1.0" encoding="utf-8"?>
+<document>
+    <webName><![CDATA[第一视频]]></webName>
+    <webSite><![CDATA[http://www.v1.cn/]]></webSite>
+<!--#
+   $seoDataArray=CMS_FUNCTION('seoData',$cms_page_id);
+print_r($seoDataArray);
+   foreach($seoDataArray as $seoData){
+#-->  
+        <item>
+        <op>add</op>
+        <title><![CDATA[{$seoData['title']}]]></title>
+        <nameAlt><![CDATA[]]></nameAlt>
+        <att>sd</att>
+        <category><![CDATA[{$seoData['category']}]]></category>
+        <tag><![CDATA[]]></tag>
+        <area><![CDATA[]]></area>
+        <time>{$seoData['create_time']}</time>
+        <dir><![CDATA[]]></dir>
+        <act><![CDATA[]]></act>
+        <comment><![CDATA[{$seoData['intro']}]]></comment>
+        <commentpage><![CDATA[http://www.v1.cn{$seoData['url']}]]></commentpage>
+        <total>{$seoData['pv']}</total>
+        <upInfo>1</upInfo>
+        <imageLink style="1"><![CDATA[{$seoData['image']}]]></imageLink>
+        <imageLink style="2"><![CDATA[{$seoData['image']}]]></imageLink>
+        <playLink id="1">
+            <defaultUrl><![CDATA[http://www.v1.cn{$seoData['url']}]]></defaultUrl>
+            <miniUrl><![CDATA[http://www.v1.cn{$seoData['url']}]]></miniUrl>
+            <imageLink><![CDATA[{$seoData['image']}]]></imageLink>
+            <duration>{$seoData['duration']}</duration>
+            <appIcon><![CDATA[]]></appIcon>
+        </playLink>
+        <duration>{$seoData['duration']}</duration>
+        <pubDate>{$seoData['create_time']}</pubDate>
+        <view>{$seoData['pv']}</view>
+    </item>
+<!--#}#-->
+</document>";i:3;s:1617:"<?xml version="1.0" encoding="utf-8"?>
+<document>
+    <webName><![CDATA[第一视频]]></webName>
+    <webSite><![CDATA[http://www.v1.cn/]]></webSite>
+<!--#
+   $seoDataArray=CMS_FUNCTION('seoData',$cms_page_id);
+print_r($seoDataArray);
+   foreach($seoDataArray as $seoData){
+#-->  
+        <item>
+        <op>add</op>
+        <title><![CDATA[{$seoData['title']}]]></title>
+        <nameAlt><![CDATA[]]></nameAlt>
+        <att>sd</att>
+        <category><![CDATA[{$seoData['category']}]]></category>
+        <tag><![CDATA[]]></tag>
+        <area><![CDATA[]]></area>
+        <time>{$seoData['create_time']}</time>
+        <dir><![CDATA[]]></dir>
+        <act><![CDATA[]]></act>
+        <comment><![CDATA[{$seoData['intro']}]]></comment>
+        <commentpage><![CDATA[http://www.v1.cn{$seoData['url']}]]></commentpage>
+        <total>{$seoData['pv']}</total>
+        <upInfo>1</upInfo>
+        <imageLink style="1"><![CDATA[{$seoData['image']}]]></imageLink>
+        <imageLink style="2"><![CDATA[{$seoData['image']}]]></imageLink>
+        <playLink id="1">
+            <defaultUrl><![CDATA[http://www.v1.cn{$seoData['url']}]]></defaultUrl>
+            <miniUrl><![CDATA[http://www.v1.cn{$seoData['url']}]]></miniUrl>
+            <imageLink><![CDATA[{$seoData['image']}]]></imageLink>
+            <duration>{$seoData['duration']}</duration>
+            <appIcon><![CDATA[]]></appIcon>
+        </playLink>
+        <duration>{$seoData['duration']}</duration>
+        <pubDate>{$seoData['create_time']}</pubDate>
+        <view>{$seoData['pv']}</view>
+    </item>
+<!--#}#-->
+</document>";i:4;s:1626:"<?xml version="1.0" encoding="utf-8"?>
+<document>
+    <webName><![CDATA[第一视频]]></webName>
+    <webSite><![CDATA[http://www.v1.cn/]]></webSite>
+<!--#
+   $seoDataArray=CMS_FUNCTION('seoData',$cms_page_id);
+print_r($seoDataArray);
+exit();
+   foreach($seoDataArray as $seoData){
+#-->  
+        <item>
+        <op>add</op>
+        <title><![CDATA[{$seoData['title']}]]></title>
+        <nameAlt><![CDATA[]]></nameAlt>
+        <att>sd</att>
+        <category><![CDATA[{$seoData['category']}]]></category>
+        <tag><![CDATA[]]></tag>
+        <area><![CDATA[]]></area>
+        <time>{$seoData['create_time']}</time>
+        <dir><![CDATA[]]></dir>
+        <act><![CDATA[]]></act>
+        <comment><![CDATA[{$seoData['intro']}]]></comment>
+        <commentpage><![CDATA[http://www.v1.cn{$seoData['url']}]]></commentpage>
+        <total>{$seoData['pv']}</total>
+        <upInfo>1</upInfo>
+        <imageLink style="1"><![CDATA[{$seoData['image']}]]></imageLink>
+        <imageLink style="2"><![CDATA[{$seoData['image']}]]></imageLink>
+        <playLink id="1">
+            <defaultUrl><![CDATA[http://www.v1.cn{$seoData['url']}]]></defaultUrl>
+            <miniUrl><![CDATA[http://www.v1.cn{$seoData['url']}]]></miniUrl>
+            <imageLink><![CDATA[{$seoData['image']}]]></imageLink>
+            <duration>{$seoData['duration']}</duration>
+            <appIcon><![CDATA[]]></appIcon>
+        </playLink>
+        <duration>{$seoData['duration']}</duration>
+        <pubDate>{$seoData['create_time']}</pubDate>
+        <view>{$seoData['pv']}</view>
+    </item>
+<!--#}#-->
+</document>";i:5;s:1592:"<?xml version="1.0" encoding="utf-8"?>
+<document>
+    <webName><![CDATA[第一视频]]></webName>
+    <webSite><![CDATA[http://www.v1.cn/]]></webSite>
+<!--#
+   $seoDataArray=CMS_FUNCTION('seoData',$cms_page_id);
+   foreach($seoDataArray as $seoData){
+#-->  
+        <item>
+        <op>add</op>
+        <title><![CDATA[{$seoData['title']}]]></title>
+        <nameAlt><![CDATA[]]></nameAlt>
+        <att>sd</att>
+        <category><![CDATA[{$seoData['category']}]]></category>
+        <tag><![CDATA[]]></tag>
+        <area><![CDATA[]]></area>
+        <time>{$seoData['create_time']}</time>
+        <dir><![CDATA[]]></dir>
+        <act><![CDATA[]]></act>
+        <comment><![CDATA[{$seoData['intro']}]]></comment>
+        <commentpage><![CDATA[http://www.v1.cn{$seoData['url']}]]></commentpage>
+        <total>{$seoData['pv']}</total>
+        <upInfo>1</upInfo>
+        <imageLink style="1"><![CDATA[{$seoData['image']}]]></imageLink>
+        <imageLink style="2"><![CDATA[{$seoData['image']}]]></imageLink>
+        <playLink id="1">
+            <defaultUrl><![CDATA[http://www.v1.cn{$seoData['url']}]]></defaultUrl>
+            <miniUrl><![CDATA[http://www.v1.cn{$seoData['url']}]]></miniUrl>
+            <imageLink><![CDATA[{$seoData['image']}]]></imageLink>
+            <duration>{$seoData['duration']}</duration>
+            <appIcon><![CDATA[]]></appIcon>
+        </playLink>
+        <duration>{$seoData['duration']}</duration>
+        <pubDate>{$seoData['create_time']}</pubDate>
+        <view>{$seoData['pv']}</view>
+    </item>
+<!--#}#-->
+</document>";}

@@ -1,0 +1,3415 @@
+a:13:{i:0;s:27504:"<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>百度视频_v1热门视频</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/baidu_v1/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/tab.js"></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery.slide.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/init.js"></script>
+</head>
+<body>
+
+<!-- wrap -->
+<div class="wrap">
+    <!-- 顶部 开始 -->
+    <div class="top">
+        <div class="top_banner_wrap">
+            <div class="top_banner"></div>
+        </div>
+        <div class="player">
+            <!-- 播放器 开始 -->
+            <div class="main_play">
+				<object id="play1" width="630" height="534" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,115,0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
+				<param name="movie" value="http://www.v1.cn/player/cloud/cloud_player.swf">
+				<param name="bgcolor" value="#000000">
+				<param name="FlashVars" value="id=31270&startSwfUrl=http://www.v1.cn/player/cloud/loading.swf&videoXmlUrl=http://pic.v1.cn/cloudone/xml/video/201101/11/31270.xml">
+				<param name="allowScriptAccess" value="always">
+				<param name="allowFullScreen" value="true">
+				<param name="wmode" value="opaque">
+				<embed width="630" height="534" src="http://www.v1.cn/player/cloud/cloud_player.swf" flashvars="autoPlay=true&showAD=true&id=31270&startSwfUrl=http://www.v1.cn/player/cloud/loading.swf&videoXmlUrl=http://pic.v1.cn/cloudone/xml/video/201101/11/31270.xml" name="play1" bgcolor="#000000" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" cover="http://pic101.v1.cn/v/20110111/1294730294824-s.jpg" type="application/x-shockwave-flash">
+				</object> 
+            </div>
+            <!-- 播放器 结束 -->
+
+            <!-- 播放器列表 开始 -->
+            <div class="re_play_list">
+                <div class="play_list_hd"> <span class="video_number"><b>推荐新闻</b></span>98个视频，总播放：1,542,465</div>
+                <div class="play_list_bd">
+                    <ul class="video_list" id="vidList">
+                          <li>
+                          <p>02:55</p>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_pic"><img class="time" alt="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" src="image/pic.jpg"></a>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_desc">太神奇了!Youtube牛人展示怎么把流动的水瞬间变成冰!</a>
+                            <div class="video_info">
+                                <span class="time">播放：538,350</span>
+                            </div>
+							<input id="news_id" type="hidden" value="637635"/>
+                            <input id="xml_url" type="hidden" value="http://pic.v1.cn/cloudone/xml/video/201306/14/637635.xml"/>
+							<input id="pic_url" type="hidden" value="http://pic106.v1.cn/cloud/20130614/images/637635-s.jpg"/>
+                        </li>
+                             <li>
+                             <p>02:55</p>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_pic"><img alt="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" src="image/pic.jpg"></a>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_desc">太神奇了!Youtube牛人展示怎么把流动的水瞬间变成冰!</a>
+                            <div class="video_info">
+                                <span class="time">播放：538,350</span>
+                            </div>
+                        </li>
+                         <li>
+                         <p>02:55</p>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_pic"><img alt="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" src="image/pic.jpg"></a>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_desc">太神奇了!Youtube牛人展示怎么把流动的水瞬间变成冰!</a>
+                            <div class="video_info">
+                                <span class="time">播放：538,350</span>
+                            </div>
+                        </li>
+                             <li>
+                             <p>02:55</p>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_pic"><img alt="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" src="image/pic.jpg"></a>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_desc">太神奇了!Youtube牛人展示怎么把流动的水瞬间变成冰!</a>
+                            <div class="video_info">
+                                <span class="time">播放：538,350</span>
+                            </div>
+                        </li>
+                        <li>
+                        <p>02:55</p>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_pic"><img alt="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" src="image/pic.jpg"></a>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_desc">太神奇了!Youtube牛人展示怎么把流动的水瞬间变成冰!</a>
+                            <div class="video_info">
+                                <span class="time">播放：538,350</span>
+                            </div>
+                        </li>
+                             <li>
+                             <p>02:55</p>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_pic"><img alt="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" src="image/pic.jpg"></a>
+                            <a title="太原迎泽大桥桥东因城市改致使道路拥堵多辆公交车连" class="video_desc">太神奇了!Youtube牛人展示怎么把流动的水瞬间变成冰!</a>
+                            <div class="video_info">
+                                <span class="time">播放：538,350</span>
+                            </div>
+                        </li>
+                                            </ul>
+                </div>
+            </div>
+            <!-- 播放器列表 结束 -->
+        </div>
+    </div>
+    </div>
+    <!-- 顶部 结束 -->
+<div class="clear"></div>
+    <!-- 视频列表 开始 -->
+  <div class="main_l">
+  <div class="con_left">
+        <!-- 左边1 开始 -->
+                 <div class="boke">
+<div class="toptit">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>
+</div>
+</div>
+      <!-- 左边1 结束 -->
+      <div class="clear"></div>
+    
+    <!-- 左边1 开始 -->
+                 <div class="boke">
+<div class="toptit">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>
+</div>
+</div>
+      <!-- 左边1 结束 -->
+      <div class="clear"></div>
+      
+      <!-- 左边1 开始 -->
+                 <div class="boke">
+<div class="toptit">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl>
+         <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+         <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>
+</div>
+</div>
+      <!-- 左边1 结束 -->
+      <div class="clear"></div>
+    
+</div>
+
+
+<div class="right_hzhb">
+   <div class="tab_dh">
+      <ul>
+         <li class="active">栏头栏头</li>
+         <li class="last">彩票业务</li>
+      </ul>
+   </div>
+<div id="tab">   
+   <div class="hzhb_dysp">
+    
+           <dl>
+           <p>1</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>2</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+       
+           <dl>
+           <p>3</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>4</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>5</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+           
+            <dl>
+            <p>6</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>7</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+       
+           <dl>
+           <p>8</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>9</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>10</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>   
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>
+           
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>           
+ 
+   </div>
+   <div class="hzhb_cpyw" style="display:none;">
+
+<dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+       
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+           
+            <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+       
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>   
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>  
+           
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>
+   
+   </div>
+   </div>
+</div>
+      
+      
+    </div>
+    <!-- 视频列表 结束 -->
+    <div class="clear"></div>
+    
+    <div class="hotPic">
+    <div class="toptit_">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+		<div class="JQ-slide">
+			<div class="JQ-slide-nav"><a class="prev" href="javascript:void(0);">&#8249;</a><a class="next" href="javascript:void(0);">&#8250;</a></div>
+			<div class="wrap">
+				<ul class="JQ-slide-content imgList">
+					<li>
+						<a href="#" class="img"><img src="image/di_01.jpg" width="160" height="120" alt="用jquery特效制作图片金字塔式放大缩小展示" /></a>
+						<a href="#" class="txt">用jquery特效制作图片金字塔式放大缩小展示</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_02.jpg" width="160" height="120" alt="jquery特效制作 slide 图片窗帘式滚动" /></a>
+						<a href="#" class="txt">jquery特效制作 slide 图片窗帘式滚动</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_03.jpg" width="160" height="120" alt="仿苹果视网膜效应的jQuery和CSS" /></a>
+						<a href="#" class="txt">仿苹果视网膜效应的jQuery和CSS</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_04.jpg" width="160" height="120" alt="斯莱德奥特提示使用jQuery和CSS3" /></a>
+						<a href="#" class="txt">斯莱德奥特提示使用jQuery和CSS3</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_05.jpg" width="160" height="120" alt="用jquery特效制作图片金字塔式放大缩小展示" /></a>
+						<a href="#" class="txt">用jquery特效制作图片金字塔式放大缩小展示</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_01.jpg" width="160" height="120" alt="jquery特效制作 slide 图片窗帘式滚动" /></a>
+						<a href="#" class="txt">jquery特效制作 slide 图片窗帘式滚动</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_02.jpg" width="160" height="120" alt="仿苹果视网膜效应的jQuery和CSS" /></a>
+						<a href="#" class="txt">仿苹果视网膜效应的jQuery和CSS</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_03.jpg" width="160" height="120" alt="斯莱德奥特提示使用jQuery和CSS3" /></a>
+						<a href="#" class="txt">斯莱德奥特提示使用jQuery和CSS3</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>	
+
+<script type="text/javascript">
+$(function (){
+	
+	/* 用按钮控制图片左右滚动 */
+	$(".hotPic .JQ-slide").Slide({
+		effect:"scroolLoop",
+		autoPlay:false,
+		speed:"normal",
+		timer:3000,
+		steps:1
+	});
+	
+});
+
+
+</script>
+    
+     
+</div>
+ </div>
+</body>
+</html>
+";i:1;s:21205:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<title>百度视频_v1热门视频</title>
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/baidu_v1/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/tab.js"></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery.slide.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/init.js"></script>
+</head>
+<body>
+
+<!-- wrap -->
+<div class="wrap">
+    <div class="top">
+        <div class="top_banner_wrap">
+            <div class="top_banner"></div>
+        </div>
+        <div class="player">
+           <!--#CMS_MODULE(轮播视频-大模块)#-->
+        </div>
+    </div>
+    </div>
+
+<div class="clear"></div>
+
+  <div class="main_l">
+  <div class="con_left">
+
+                 <div class="boke">
+<div class="toptit">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>
+</div>
+</div>
+
+      <div class="clear"></div>
+    
+
+                 <div class="boke">
+<div class="toptit">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>
+</div>
+</div>
+
+      <div class="clear"></div>
+      
+
+                 <div class="boke">
+<div class="toptit">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl>
+         <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+         <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>
+</div>
+</div>
+
+      <div class="clear"></div>
+    
+</div>
+
+
+<div class="right_hzhb">
+   <div class="tab_dh">
+      <ul>
+         <li class="active">栏头栏头</li>
+         <li class="last">彩票业务</li>
+      </ul>
+   </div>
+<div id="tab">   
+   <div class="hzhb_dysp">
+    
+           <dl>
+           <p>1</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>2</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+       
+           <dl>
+           <p>3</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>4</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>5</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+           
+            <dl>
+            <p>6</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>7</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+       
+           <dl>
+           <p>8</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>9</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>10</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>   
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>
+           
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>           
+ 
+   </div>
+   <div class="hzhb_cpyw" style="display:none;">
+
+<dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+       
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+           
+            <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+       
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>   
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>  
+           
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>
+   
+   </div>
+   </div>
+</div>
+      
+      
+    </div>
+
+    <div class="clear"></div>
+    
+    <div class="hotPic">
+    <div class="toptit_">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+		<div class="JQ-slide">
+			<div class="JQ-slide-nav"><a class="prev" href="javascript:void(0);">&#8249;</a><a class="next" href="javascript:void(0);">&#8250;</a></div>
+			<div class="wrap">
+				<ul class="JQ-slide-content imgList">
+					<li>
+						<a href="#" class="img"><img src="image/di_01.jpg" width="160" height="120" alt="用jquery特效制作图片金字塔式放大缩小展示" /></a>
+						<a href="#" class="txt">用jquery特效制作图片金字塔式放大缩小展示</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_02.jpg" width="160" height="120" alt="jquery特效制作 slide 图片窗帘式滚动" /></a>
+						<a href="#" class="txt">jquery特效制作 slide 图片窗帘式滚动</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_03.jpg" width="160" height="120" alt="仿苹果视网膜效应的jQuery和CSS" /></a>
+						<a href="#" class="txt">仿苹果视网膜效应的jQuery和CSS</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_04.jpg" width="160" height="120" alt="斯莱德奥特提示使用jQuery和CSS3" /></a>
+						<a href="#" class="txt">斯莱德奥特提示使用jQuery和CSS3</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_05.jpg" width="160" height="120" alt="用jquery特效制作图片金字塔式放大缩小展示" /></a>
+						<a href="#" class="txt">用jquery特效制作图片金字塔式放大缩小展示</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_01.jpg" width="160" height="120" alt="jquery特效制作 slide 图片窗帘式滚动" /></a>
+						<a href="#" class="txt">jquery特效制作 slide 图片窗帘式滚动</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_02.jpg" width="160" height="120" alt="仿苹果视网膜效应的jQuery和CSS" /></a>
+						<a href="#" class="txt">仿苹果视网膜效应的jQuery和CSS</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_03.jpg" width="160" height="120" alt="斯莱德奥特提示使用jQuery和CSS3" /></a>
+						<a href="#" class="txt">斯莱德奥特提示使用jQuery和CSS3</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>	
+
+<script type="text/javascript">
+$(function (){
+	
+	/* 用按钮控制图片左右滚动 */
+	$(".hotPic .JQ-slide").Slide({
+		effect:"scroolLoop",
+		autoPlay:false,
+		speed:"normal",
+		timer:3000,
+		steps:1
+	});
+	
+});
+
+
+</script>
+    
+     
+</div>
+ </div>
+</body>
+</html>
+";i:2;s:21350:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/baidu_v1/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/tab.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/baidu_v1/js/ScrollPic.js" type=text/javascript></SCRIPT>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery.slide.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/init.js"></script>
+</head>
+<body>
+
+<!-- wrap -->
+<div class="wrap">
+    <div class="top">
+        <div class="top_banner_wrap">
+            <div class="top_banner"></div>
+        </div>
+        <div class="player">
+           <!--#CMS_MODULE(轮播视频-大模块)#-->
+        </div>
+    </div>
+    </div>
+
+<div class="clear"></div>
+
+  <div class="main_l">
+  <div class="con_left">
+
+                 <div class="boke">
+<div class="toptit">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>
+</div>
+</div>
+
+      <div class="clear"></div>
+    
+
+                 <div class="boke">
+<div class="toptit">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>
+</div>
+</div>
+
+      <div class="clear"></div>
+      
+
+                 <div class="boke">
+<div class="toptit">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl>
+         <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+         <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>
+</div>
+</div>
+
+      <div class="clear"></div>
+    
+</div>
+
+
+<div class="right_hzhb">
+   <div class="tab_dh">
+      <ul>
+         <li class="active">栏头栏头</li>
+         <li class="last">彩票业务</li>
+      </ul>
+   </div>
+<div id="tab">   
+   <div class="hzhb_dysp">
+    
+           <dl>
+           <p>1</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>2</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+       
+           <dl>
+           <p>3</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>4</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>5</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+           
+            <dl>
+            <p>6</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>7</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+       
+           <dl>
+           <p>8</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>9</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>10</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>   
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>
+           
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>           
+ 
+   </div>
+   <div class="hzhb_cpyw" style="display:none;">
+
+<dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+       
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+           
+            <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+       
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>   
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>  
+           
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>
+   
+   </div>
+   </div>
+</div>
+      
+      
+    </div>
+
+    <div class="clear"></div>
+    
+    <div class="hotPic">
+    <div class="toptit_">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+		<div class="JQ-slide">
+			<div class="JQ-slide-nav"><a class="prev" href="javascript:void(0);">&#8249;</a><a class="next" href="javascript:void(0);">&#8250;</a></div>
+			<div class="wrap">
+				<ul class="JQ-slide-content imgList">
+					<li>
+						<a href="#" class="img"><img src="image/di_01.jpg" width="160" height="120" alt="用jquery特效制作图片金字塔式放大缩小展示" /></a>
+						<a href="#" class="txt">用jquery特效制作图片金字塔式放大缩小展示</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_02.jpg" width="160" height="120" alt="jquery特效制作 slide 图片窗帘式滚动" /></a>
+						<a href="#" class="txt">jquery特效制作 slide 图片窗帘式滚动</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_03.jpg" width="160" height="120" alt="仿苹果视网膜效应的jQuery和CSS" /></a>
+						<a href="#" class="txt">仿苹果视网膜效应的jQuery和CSS</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_04.jpg" width="160" height="120" alt="斯莱德奥特提示使用jQuery和CSS3" /></a>
+						<a href="#" class="txt">斯莱德奥特提示使用jQuery和CSS3</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_05.jpg" width="160" height="120" alt="用jquery特效制作图片金字塔式放大缩小展示" /></a>
+						<a href="#" class="txt">用jquery特效制作图片金字塔式放大缩小展示</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_01.jpg" width="160" height="120" alt="jquery特效制作 slide 图片窗帘式滚动" /></a>
+						<a href="#" class="txt">jquery特效制作 slide 图片窗帘式滚动</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_02.jpg" width="160" height="120" alt="仿苹果视网膜效应的jQuery和CSS" /></a>
+						<a href="#" class="txt">仿苹果视网膜效应的jQuery和CSS</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_03.jpg" width="160" height="120" alt="斯莱德奥特提示使用jQuery和CSS3" /></a>
+						<a href="#" class="txt">斯莱德奥特提示使用jQuery和CSS3</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>	
+
+<script type="text/javascript">
+$(function (){
+	
+	/* 用按钮控制图片左右滚动 */
+	$(".hotPic .JQ-slide").Slide({
+		effect:"scroolLoop",
+		autoPlay:false,
+		speed:"normal",
+		timer:3000,
+		steps:1
+	});
+	
+});
+
+
+</script>
+    
+     
+</div>
+ </div>
+</body>
+</html>
+";i:3;s:21453:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/baidu_v1/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/tab.js"></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery.slide.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/baidu_v1/js/ScrollPic.js" type=text/javascript></SCRIPT>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+<body>
+
+<!-- wrap -->
+<div class="wrap">
+    <div class="top">
+        <div class="top_banner_wrap">
+            <div class="top_banner"></div>
+        </div>
+        <div class="player">
+           <!--#CMS_MODULE(轮播视频-大模块)#-->
+        </div>
+<script type="text/javascript">
+
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".play_list_bd").find("li");
+var li_num = li_array.length
+</script>
+    </div>
+    </div>
+
+<div class="clear"></div>
+
+  <div class="main_l">
+  <div class="con_left">
+
+                 <div class="boke">
+<div class="toptit">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>
+</div>
+</div>
+
+      <div class="clear"></div>
+    
+
+                 <div class="boke">
+<div class="toptit">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>
+</div>
+</div>
+
+      <div class="clear"></div>
+      
+
+                 <div class="boke">
+<div class="toptit">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl>
+         <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+         <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>
+</div>
+</div>
+
+      <div class="clear"></div>
+    
+</div>
+
+
+<div class="right_hzhb">
+   <div class="tab_dh">
+      <ul>
+         <li class="active">栏头栏头</li>
+         <li class="last">彩票业务</li>
+      </ul>
+   </div>
+<div id="tab">   
+   <div class="hzhb_dysp">
+    
+           <dl>
+           <p>1</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>2</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+       
+           <dl>
+           <p>3</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>4</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>5</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+           
+            <dl>
+            <p>6</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>7</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+       
+           <dl>
+           <p>8</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>9</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>10</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>   
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>
+           
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>           
+ 
+   </div>
+   <div class="hzhb_cpyw" style="display:none;">
+
+<dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+       
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+           
+            <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+       
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>   
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>  
+           
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>
+   
+   </div>
+   </div>
+</div>
+      
+      
+    </div>
+
+    <div class="clear"></div>
+    
+    <div class="hotPic">
+    <div class="toptit_">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+		<div class="JQ-slide">
+			<div class="JQ-slide-nav"><a class="prev" href="javascript:void(0);">&#8249;</a><a class="next" href="javascript:void(0);">&#8250;</a></div>
+			<div class="wrap">
+				<ul class="JQ-slide-content imgList">
+					<li>
+						<a href="#" class="img"><img src="image/di_01.jpg" width="160" height="120" alt="用jquery特效制作图片金字塔式放大缩小展示" /></a>
+						<a href="#" class="txt">用jquery特效制作图片金字塔式放大缩小展示</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_02.jpg" width="160" height="120" alt="jquery特效制作 slide 图片窗帘式滚动" /></a>
+						<a href="#" class="txt">jquery特效制作 slide 图片窗帘式滚动</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_03.jpg" width="160" height="120" alt="仿苹果视网膜效应的jQuery和CSS" /></a>
+						<a href="#" class="txt">仿苹果视网膜效应的jQuery和CSS</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_04.jpg" width="160" height="120" alt="斯莱德奥特提示使用jQuery和CSS3" /></a>
+						<a href="#" class="txt">斯莱德奥特提示使用jQuery和CSS3</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_05.jpg" width="160" height="120" alt="用jquery特效制作图片金字塔式放大缩小展示" /></a>
+						<a href="#" class="txt">用jquery特效制作图片金字塔式放大缩小展示</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_01.jpg" width="160" height="120" alt="jquery特效制作 slide 图片窗帘式滚动" /></a>
+						<a href="#" class="txt">jquery特效制作 slide 图片窗帘式滚动</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_02.jpg" width="160" height="120" alt="仿苹果视网膜效应的jQuery和CSS" /></a>
+						<a href="#" class="txt">仿苹果视网膜效应的jQuery和CSS</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_03.jpg" width="160" height="120" alt="斯莱德奥特提示使用jQuery和CSS3" /></a>
+						<a href="#" class="txt">斯莱德奥特提示使用jQuery和CSS3</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>	
+
+<script type="text/javascript">
+$(function (){
+	
+	/* 用按钮控制图片左右滚动 */
+	$(".hotPic .JQ-slide").Slide({
+		effect:"scroolLoop",
+		autoPlay:false,
+		speed:"normal",
+		timer:3000,
+		steps:1
+	});
+	
+});
+
+
+</script>
+    
+     
+</div>
+ </div>
+</body>
+</html>
+";i:4;s:18457:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/baidu_v1/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/tab.js"></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery.slide.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/baidu_v1/js/ScrollPic.js" type=text/javascript></SCRIPT>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+<body>
+
+<!-- wrap -->
+<div class="wrap">
+    <div class="top">
+        <div class="top_banner_wrap">
+            <div class="top_banner"></div>
+        </div>
+        <div class="player">
+           <!--#CMS_MODULE(轮播视频-大模块)#-->
+        </div>
+<script type="text/javascript">
+
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".play_list_bd").find("li");
+var li_num = li_array.length
+</script>
+    </div>
+    </div>
+
+<div class="clear"></div>
+
+  <div class="main_l">
+  <div class="con_left">
+
+          <!--#CMS_MODULE(左边大模块01)#-->      
+
+      <div class="clear"></div>
+    
+
+                 <div class="boke">
+<div class="toptit">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>
+</div>
+</div>
+
+      <div class="clear"></div>
+      
+
+                 <div class="boke">
+<div class="toptit">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl>
+         <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+         <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>
+</div>
+</div>
+
+      <div class="clear"></div>
+    
+</div>
+
+
+<div class="right_hzhb">
+   <div class="tab_dh">
+      <ul>
+         <li class="active">栏头栏头</li>
+         <li class="last">彩票业务</li>
+      </ul>
+   </div>
+<div id="tab">   
+   <div class="hzhb_dysp">
+    
+           <dl>
+           <p>1</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>2</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+       
+           <dl>
+           <p>3</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>4</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>5</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+           
+            <dl>
+            <p>6</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>7</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+       
+           <dl>
+           <p>8</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>9</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <p>10</p>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>   
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>
+           
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社</a></dd>
+           </dl>           
+ 
+   </div>
+   <div class="hzhb_cpyw" style="display:none;">
+
+<dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+       
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+           
+            <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+       
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>   
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>       
+        
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>  
+           
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl> 
+            
+           <dl>
+           <span></span>
+            <dt><img src="image/pic_02.jpg" width="84" height="63" /></dt>
+            <dd><a href="#" target="_blank">新华社2222222</a></dd>
+           </dl>
+   
+   </div>
+   </div>
+</div>
+      
+      
+    </div>
+
+    <div class="clear"></div>
+    
+    <div class="hotPic">
+    <div class="toptit_">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+		<div class="JQ-slide">
+			<div class="JQ-slide-nav"><a class="prev" href="javascript:void(0);">&#8249;</a><a class="next" href="javascript:void(0);">&#8250;</a></div>
+			<div class="wrap">
+				<ul class="JQ-slide-content imgList">
+					<li>
+						<a href="#" class="img"><img src="image/di_01.jpg" width="160" height="120" alt="用jquery特效制作图片金字塔式放大缩小展示" /></a>
+						<a href="#" class="txt">用jquery特效制作图片金字塔式放大缩小展示</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_02.jpg" width="160" height="120" alt="jquery特效制作 slide 图片窗帘式滚动" /></a>
+						<a href="#" class="txt">jquery特效制作 slide 图片窗帘式滚动</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_03.jpg" width="160" height="120" alt="仿苹果视网膜效应的jQuery和CSS" /></a>
+						<a href="#" class="txt">仿苹果视网膜效应的jQuery和CSS</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_04.jpg" width="160" height="120" alt="斯莱德奥特提示使用jQuery和CSS3" /></a>
+						<a href="#" class="txt">斯莱德奥特提示使用jQuery和CSS3</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_05.jpg" width="160" height="120" alt="用jquery特效制作图片金字塔式放大缩小展示" /></a>
+						<a href="#" class="txt">用jquery特效制作图片金字塔式放大缩小展示</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_01.jpg" width="160" height="120" alt="jquery特效制作 slide 图片窗帘式滚动" /></a>
+						<a href="#" class="txt">jquery特效制作 slide 图片窗帘式滚动</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_02.jpg" width="160" height="120" alt="仿苹果视网膜效应的jQuery和CSS" /></a>
+						<a href="#" class="txt">仿苹果视网膜效应的jQuery和CSS</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_03.jpg" width="160" height="120" alt="斯莱德奥特提示使用jQuery和CSS3" /></a>
+						<a href="#" class="txt">斯莱德奥特提示使用jQuery和CSS3</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>	
+
+<script type="text/javascript">
+$(function (){
+	
+	/* 用按钮控制图片左右滚动 */
+	$(".hotPic .JQ-slide").Slide({
+		effect:"scroolLoop",
+		autoPlay:false,
+		speed:"normal",
+		timer:3000,
+		steps:1
+	});
+	
+});
+
+
+</script>
+    
+     
+</div>
+ </div>
+</body>
+</html>
+";i:5;s:11398:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/baidu_v1/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/tab.js"></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery.slide.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/baidu_v1/js/ScrollPic.js" type=text/javascript></SCRIPT>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+<body>
+
+<!-- wrap -->
+<div class="wrap">
+    <div class="top">
+        <div class="top_banner_wrap">
+            <div class="top_banner"></div>
+        </div>
+        <div class="player">
+           <!--#CMS_MODULE(轮播视频-大模块)#-->
+        </div>
+<script type="text/javascript">
+
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".play_list_bd").find("li");
+var li_num = li_array.length
+</script>
+    </div>
+    </div>
+
+<div class="clear"></div>
+
+  <div class="main_l">
+  <div class="con_left">
+
+          <!--#CMS_MODULE(左边大模块01)#-->      
+
+      <div class="clear"></div>
+    
+
+                 <div class="boke">
+<div class="toptit">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>
+</div>
+</div>
+
+      <div class="clear"></div>
+      
+
+                 <div class="boke">
+<div class="toptit">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl>
+         <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+         <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>
+</div>
+</div>
+
+      <div class="clear"></div>
+    
+</div>
+
+
+<div class="right_hzhb">
+ 
+       <!--#CMS_MODULE(右边大模块01)#--> 
+
+</div>
+      
+      
+    </div>
+
+    <div class="clear"></div>
+    
+    <div class="hotPic">
+    <div class="toptit_">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+		<div class="JQ-slide">
+			<div class="JQ-slide-nav"><a class="prev" href="javascript:void(0);">&#8249;</a><a class="next" href="javascript:void(0);">&#8250;</a></div>
+			<div class="wrap">
+				<ul class="JQ-slide-content imgList">
+					<li>
+						<a href="#" class="img"><img src="image/di_01.jpg" width="160" height="120" alt="用jquery特效制作图片金字塔式放大缩小展示" /></a>
+						<a href="#" class="txt">用jquery特效制作图片金字塔式放大缩小展示</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_02.jpg" width="160" height="120" alt="jquery特效制作 slide 图片窗帘式滚动" /></a>
+						<a href="#" class="txt">jquery特效制作 slide 图片窗帘式滚动</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_03.jpg" width="160" height="120" alt="仿苹果视网膜效应的jQuery和CSS" /></a>
+						<a href="#" class="txt">仿苹果视网膜效应的jQuery和CSS</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_04.jpg" width="160" height="120" alt="斯莱德奥特提示使用jQuery和CSS3" /></a>
+						<a href="#" class="txt">斯莱德奥特提示使用jQuery和CSS3</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_05.jpg" width="160" height="120" alt="用jquery特效制作图片金字塔式放大缩小展示" /></a>
+						<a href="#" class="txt">用jquery特效制作图片金字塔式放大缩小展示</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_01.jpg" width="160" height="120" alt="jquery特效制作 slide 图片窗帘式滚动" /></a>
+						<a href="#" class="txt">jquery特效制作 slide 图片窗帘式滚动</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_02.jpg" width="160" height="120" alt="仿苹果视网膜效应的jQuery和CSS" /></a>
+						<a href="#" class="txt">仿苹果视网膜效应的jQuery和CSS</a>
+					</li>
+					<li>
+						<a href="#" class="img"><img src="image/di_03.jpg" width="160" height="120" alt="斯莱德奥特提示使用jQuery和CSS3" /></a>
+						<a href="#" class="txt">斯莱德奥特提示使用jQuery和CSS3</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>	
+
+<script type="text/javascript">
+$(function (){
+	
+	/* 用按钮控制图片左右滚动 */
+	$(".hotPic .JQ-slide").Slide({
+		effect:"scroolLoop",
+		autoPlay:false,
+		speed:"normal",
+		timer:3000,
+		steps:1
+	});
+	
+});
+
+
+</script>
+    
+     
+</div>
+ </div>
+</body>
+</html>
+";i:6;s:9021:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/baidu_v1/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/tab.js"></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery.slide.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/baidu_v1/js/ScrollPic.js" type=text/javascript></SCRIPT>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+<body>
+
+<!-- wrap -->
+<div class="wrap">
+    <div class="top">
+        <div class="top_banner_wrap">
+            <div class="top_banner"></div>
+        </div>
+        <div class="player">
+           <!--#CMS_MODULE(轮播视频-大模块)#-->
+        </div>
+<script type="text/javascript">
+
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".play_list_bd").find("li");
+var li_num = li_array.length
+</script>
+    </div>
+    </div>
+
+<div class="clear"></div>
+
+  <div class="main_l">
+  <div class="con_left">
+
+          <!--#CMS_MODULE(左边大模块01)#-->      
+
+      <div class="clear"></div>
+    
+
+                 <div class="boke">
+<div class="toptit">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>
+</div>
+</div>
+
+      <div class="clear"></div>
+      
+
+                 <div class="boke">
+<div class="toptit">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl>
+         <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+         <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>
+</div>
+</div>
+
+      <div class="clear"></div>
+    
+</div>
+
+
+<div class="right_hzhb">
+ 
+       <!--#CMS_MODULE(右边大模块01)#--> 
+
+</div>
+      
+      
+    </div>
+
+    <div class="clear"></div>
+    
+    <div class="hotPic">
+    <!--#CMS_MODULE(底部大模块)#--> 
+	</div>	
+
+<script type="text/javascript">
+$(function (){
+	
+	/* 用按钮控制图片左右滚动 */
+	$(".hotPic .JQ-slide").Slide({
+		effect:"scroolLoop",
+		autoPlay:false,
+		speed:"normal",
+		timer:3000,
+		steps:1
+	});
+	
+});
+
+
+</script>
+    
+     
+</div>
+ </div>
+</body>
+</html>
+";i:7;s:6021:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/baidu_v1/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/tab.js"></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery.slide.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/baidu_v1/js/ScrollPic.js" type=text/javascript></SCRIPT>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+<body>
+
+<!-- wrap -->
+<div class="wrap">
+    <div class="top">
+        <div class="top_banner_wrap">
+            <div class="top_banner"></div>
+        </div>
+        <div class="player">
+           <!--#CMS_MODULE(轮播视频-大模块)#-->
+        </div>
+<script type="text/javascript">
+
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".play_list_bd").find("li");
+var li_num = li_array.length
+</script>
+    </div>
+    </div>
+
+<div class="clear"></div>
+
+  <div class="main_l">
+  <div class="con_left">
+
+          <!--#CMS_MODULE(左边大模块01)#-->      
+
+      <div class="clear"></div>
+    
+         <!--#CMS_MODULE(左边大模块02)#-->    
+ 
+      <div class="clear"></div>
+      
+
+                 <div class="boke">
+<div class="toptit">
+<h2>潮人去处</h2>
+<div  class="box">
+<a class="zi" target="_blank" href="http://news.v1.cn/figure/8/list/1.shtml">更多</a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="bottom">
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl><dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	
+         <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+          <dl>
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+	     <dl>
+         <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+         <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>	
+         <dl class="last">
+            <dt><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml"><img width="140" height="105" src="image/pic_01.jpg"></a></dt>
+            <dd class="bt"><a target="_blank" href="http://culture.v1.cn/2013-3-1/259668v-1.shtml">出精致呈现年出精致呈现年出精致呈现年</a></dd>
+         </dl>
+</div>
+</div>
+
+      <div class="clear"></div>
+    
+</div>
+
+
+<div class="right_hzhb">
+ 
+       <!--#CMS_MODULE(右边大模块01)#--> 
+
+</div>
+      
+      
+    </div>
+
+    <div class="clear"></div>
+    
+    <div class="hotPic">
+    <!--#CMS_MODULE(底部大模块)#--> 
+	</div>	
+
+<script type="text/javascript">
+$(function (){
+	
+	/* 用按钮控制图片左右滚动 */
+	$(".hotPic .JQ-slide").Slide({
+		effect:"scroolLoop",
+		autoPlay:false,
+		speed:"normal",
+		timer:3000,
+		steps:1
+	});
+	
+});
+
+
+</script>
+    
+     
+</div>
+ </div>
+</body>
+</html>
+";i:8;s:2580:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/baidu_v1/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/tab.js"></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery.slide.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/baidu_v1/js/ScrollPic.js" type=text/javascript></SCRIPT>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+<body>
+
+<!-- wrap -->
+<div class="wrap">
+    <div class="top">
+        <div class="top_banner_wrap">
+            <div class="top_banner"></div>
+        </div>
+        <div class="player">
+           <!--#CMS_MODULE(轮播视频-大模块)#-->
+        </div>
+<script type="text/javascript">
+
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".play_list_bd").find("li");
+var li_num = li_array.length
+</script>
+    </div>
+    </div>
+
+<div class="clear"></div>
+
+  <div class="main_l">
+  <div class="con_left">
+
+          <!--#CMS_MODULE(左边大模块01)#-->      
+
+      <div class="clear"></div>
+    
+         <!--#CMS_MODULE(左边大模块02)#-->    
+ 
+      <div class="clear"></div>
+      
+         <!--#CMS_MODULE(左边大模块03)#-->    
+
+      <div class="clear"></div>
+    
+</div>
+
+
+<div class="right_hzhb">
+ 
+       <!--#CMS_MODULE(右边大模块01)#--> 
+
+</div>
+      
+      
+    </div>
+
+    <div class="clear"></div>
+    
+    <div class="hotPic">
+    <!--#CMS_MODULE(底部大模块)#--> 
+	</div>	
+
+<script type="text/javascript">
+$(function (){
+	
+	/* 用按钮控制图片左右滚动 */
+	$(".hotPic .JQ-slide").Slide({
+		effect:"scroolLoop",
+		autoPlay:false,
+		speed:"normal",
+		timer:3000,
+		steps:1
+	});
+	
+});
+
+
+</script>
+    
+     
+</div>
+ </div>
+</body>
+</html>
+";i:9;s:2739:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/baidu_v1/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/tab.js"></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery.slide.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/baidu_v1/js/ScrollPic.js" type=text/javascript></SCRIPT>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+<body>
+
+<!-- wrap -->
+<div class="wrap">
+    <div class="top">
+        <div class="top_banner_wrap">
+            <div class="top_banner"></div>
+        </div>
+        <div class="player">
+           <!--#CMS_MODULE(轮播视频-大模块)#-->
+        </div>
+<script type="text/javascript">
+
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".play_list_bd").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+</script>
+    </div>
+    </div>
+
+<div class="clear"></div>
+
+  <div class="main_l">
+  <div class="con_left">
+
+          <!--#CMS_MODULE(左边大模块01)#-->      
+
+      <div class="clear"></div>
+    
+         <!--#CMS_MODULE(左边大模块02)#-->    
+ 
+      <div class="clear"></div>
+      
+         <!--#CMS_MODULE(左边大模块03)#-->    
+
+      <div class="clear"></div>
+    
+</div>
+
+
+<div class="right_hzhb">
+ 
+       <!--#CMS_MODULE(右边大模块01)#--> 
+
+</div>
+      
+      
+    </div>
+
+    <div class="clear"></div>
+    
+    <div class="hotPic">
+    <!--#CMS_MODULE(底部大模块)#--> 
+	</div>	
+
+<script type="text/javascript">
+$(function (){
+	
+	/* 用按钮控制图片左右滚动 */
+	$(".hotPic .JQ-slide").Slide({
+		effect:"scroolLoop",
+		autoPlay:false,
+		speed:"normal",
+		timer:3000,
+		steps:1
+	});
+	
+});
+
+
+</script>
+    
+     
+</div>
+ </div>
+</body>
+</html>
+";i:10;s:2739:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/baidu_v1/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/tab.js"></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery.slide.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/baidu_v1/js/ScrollPic.js" type=text/javascript></SCRIPT>
+<script type="text/javascript" src="http://www.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+<body>
+
+<!-- wrap -->
+<div class="wrap">
+    <div class="top">
+        <div class="top_banner_wrap">
+            <div class="top_banner"></div>
+        </div>
+        <div class="player">
+           <!--#CMS_MODULE(轮播视频-大模块)#-->
+        </div>
+<script type="text/javascript">
+
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".play_list_bd").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+</script>
+    </div>
+    </div>
+
+<div class="clear"></div>
+
+  <div class="main_l">
+  <div class="con_left">
+
+          <!--#CMS_MODULE(左边大模块01)#-->      
+
+      <div class="clear"></div>
+    
+         <!--#CMS_MODULE(左边大模块02)#-->    
+ 
+      <div class="clear"></div>
+      
+         <!--#CMS_MODULE(左边大模块03)#-->    
+
+      <div class="clear"></div>
+    
+</div>
+
+
+<div class="right_hzhb">
+ 
+       <!--#CMS_MODULE(右边大模块01)#--> 
+
+</div>
+      
+      
+    </div>
+
+    <div class="clear"></div>
+    
+    <div class="hotPic">
+    <!--#CMS_MODULE(底部大模块)#--> 
+	</div>	
+
+<script type="text/javascript">
+$(function (){
+	
+	/* 用按钮控制图片左右滚动 */
+	$(".hotPic .JQ-slide").Slide({
+		effect:"scroolLoop",
+		autoPlay:false,
+		speed:"normal",
+		timer:3000,
+		steps:1
+	});
+	
+});
+
+
+</script>
+    
+     
+</div>
+ </div>
+</body>
+</html>
+";i:11;s:2739:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/baidu_v1/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/tab.js"></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery.slide.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/baidu_v1/js/ScrollPic.js" type=text/javascript></SCRIPT>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+<body>
+
+<!-- wrap -->
+<div class="wrap">
+    <div class="top">
+        <div class="top_banner_wrap">
+            <div class="top_banner"></div>
+        </div>
+        <div class="player">
+           <!--#CMS_MODULE(轮播视频-大模块)#-->
+        </div>
+<script type="text/javascript">
+
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".play_list_bd").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+</script>
+    </div>
+    </div>
+
+<div class="clear"></div>
+
+  <div class="main_l">
+  <div class="con_left">
+
+          <!--#CMS_MODULE(左边大模块01)#-->      
+
+      <div class="clear"></div>
+    
+         <!--#CMS_MODULE(左边大模块02)#-->    
+ 
+      <div class="clear"></div>
+      
+         <!--#CMS_MODULE(左边大模块03)#-->    
+
+      <div class="clear"></div>
+    
+</div>
+
+
+<div class="right_hzhb">
+ 
+       <!--#CMS_MODULE(右边大模块01)#--> 
+
+</div>
+      
+      
+    </div>
+
+    <div class="clear"></div>
+    
+    <div class="hotPic">
+    <!--#CMS_MODULE(底部大模块)#--> 
+	</div>	
+
+<script type="text/javascript">
+$(function (){
+	
+	/* 用按钮控制图片左右滚动 */
+	$(".hotPic .JQ-slide").Slide({
+		effect:"scroolLoop",
+		autoPlay:false,
+		speed:"normal",
+		timer:3000,
+		steps:1
+	});
+	
+});
+
+
+</script>
+    
+     
+</div>
+ </div>
+</body>
+</html>
+";i:12;s:3013:"<!--#
+  $sort=CMS_FUNCTION('toPinyin',$cms_page_category.'Zt');
+  $sort=$sort['pinyin_for_full'];
+#-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+
+<link rel="stylesheet" type="text/css" href="http://pic.v1.cn/cms/baidu_v1/css/v1_baidu.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/v1_min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/tab.js"></script>
+<script language="javascript" type="text/javascript" src="http://pic.v1.cn/cms/baidu_v1/js/jquery.slide.js"></script>
+<SCRIPT src="http://pic.v1.cn/cms/baidu_v1/js/ScrollPic.js" type=text/javascript></SCRIPT>
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/js/globalFun.js"></script>
+</head>
+<script type="text/javascript">
+//百度统计代码
+   var _hmt = _hmt || [];
+   _hmt.push(['_setCustomVar', 1, 'sort', '{$cms_page_category}Zt', 3]);
+</script>
+<body>
+
+<!-- wrap -->
+<div class="wrap">
+    <div class="top">
+        <div class="top_banner_wrap">
+            <div class="top_banner"></div>
+        </div>
+        <div class="player">
+           <!--#CMS_MODULE(轮播视频-大模块)#-->
+        </div>
+<script type="text/javascript">
+
+//轮播主调函数
+var playType='zhuanti';
+var lunbo_index = 0;
+var li_array = $(".play_list_bd").find("li");
+var li_num = li_array.length;
+//手动控制播放列表
+$("#vidList li").each(function(){
+ $(this).click(function(){
+    lunbo_index=$(this).index();
+    changeNewsInfo();
+ })
+});
+</script>
+    </div>
+    </div>
+
+<div class="clear"></div>
+
+  <div class="main_l">
+  <div class="con_left">
+
+          <!--#CMS_MODULE(左边大模块01)#-->      
+
+      <div class="clear"></div>
+    
+         <!--#CMS_MODULE(左边大模块02)#-->    
+ 
+      <div class="clear"></div>
+      
+         <!--#CMS_MODULE(左边大模块03)#-->    
+
+      <div class="clear"></div>
+    
+</div>
+
+
+<div class="right_hzhb">
+ 
+       <!--#CMS_MODULE(右边大模块01)#--> 
+
+</div>
+      
+      
+    </div>
+
+    <div class="clear"></div>
+    
+    <div class="hotPic">
+    <!--#CMS_MODULE(底部大模块)#--> 
+	</div>	
+
+<script type="text/javascript">
+$(function (){
+	
+	/* 用按钮控制图片左右滚动 */
+	$(".hotPic .JQ-slide").Slide({
+		effect:"scroolLoop",
+		autoPlay:false,
+		speed:"normal",
+		timer:3000,
+		steps:1
+	});
+	
+});
+
+
+</script>
+    
+     
+</div>
+ </div>
+</body>
+</html>
+";}

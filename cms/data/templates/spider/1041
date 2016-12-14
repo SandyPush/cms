@@ -1,0 +1,897 @@
+a:20:{i:0;s:2392:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/rolling_new/css/style_rollingnew.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(top)#-->
+<!--#CMS_MODULE(content)#-->
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+<script>
+            $(document).ready(function(){
+                $("#countDownNum").text(59);
+                intervalBar=window.setInterval("task('countDownNum')",1000);
+                $("#reloadButton").click(function(){location.href=location.href;});
+                $("#reloadSwitch").click(function(){
+                    thisClass=$(this).attr('class');
+                    if(thisClass=="on"){
+                        clearInterval(intervalBar);
+                        $(this).attr('class','off');
+                    }else{
+                        intervalBar=window.setInterval("task('countDownNum')",1000);
+                        $(this).attr('class','on');
+                    }
+                });
+            });
+            function task(objID){
+                sNum=$("#"+objID).text()-1;
+                $("#"+objID).text(sNum);
+                if(sNum<=0){
+                    location.href=location.href;
+                    clearInterval(intervalBar);
+                }
+            }
+        </script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+</body>
+</html>";i:1;s:1974:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+
+</head>
+
+<body>
+<!--#CMS_MODULE(top)#-->
+<!--#CMS_MODULE(content)#-->
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+<script>
+            $(document).ready(function(){
+                $("#countDownNum").text(59);
+                intervalBar=window.setInterval("task('countDownNum')",1000);
+                $("#reloadButton").click(function(){location.href=location.href;});
+                $("#reloadSwitch").click(function(){
+                    thisClass=$(this).attr('class');
+                    if(thisClass=="on"){
+                        clearInterval(intervalBar);
+                        $(this).attr('class','off');
+                    }else{
+                        intervalBar=window.setInterval("task('countDownNum')",1000);
+                        $(this).attr('class','on');
+                    }
+                });
+            });
+            function task(objID){
+                sNum=$("#"+objID).text()-1;
+                $("#"+objID).text(sNum);
+                if(sNum<=0){
+                    location.href=location.href;
+                    clearInterval(intervalBar);
+                }
+            }
+        </script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+</body>
+</html>";i:2;s:630:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+
+</head>
+
+<body>
+<!--#CMS_MODULE(top)#-->
+<!--#CMS_MODULE(content)#-->
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+
+
+</body>
+</html>";i:3;s:2390:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/rolling_new/css/style_rollingnew.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(top)#-->
+<!--#CMS_MODULE(content)#-->
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_common.html"-->
+<script>
+            $(document).ready(function(){
+                $("#countDownNum").text(59);
+                intervalBar=window.setInterval("task('countDownNum')",1000);
+                $("#reloadButton").click(function(){location.href=location.href;});
+                $("#reloadSwitch").click(function(){
+                    thisClass=$(this).attr('class');
+                    if(thisClass=="on"){
+                        clearInterval(intervalBar);
+                        $(this).attr('class','off');
+                    }else{
+                        intervalBar=window.setInterval("task('countDownNum')",1000);
+                        $(this).attr('class','on');
+                    }
+                });
+            });
+            function task(objID){
+                sNum=$("#"+objID).text()-1;
+                $("#"+objID).text(sNum);
+                if(sNum<=0){
+                    location.href=location.href;
+                    clearInterval(intervalBar);
+                }
+            }
+        </script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</body>
+</html>";i:4;s:2388:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/rolling_new/css/style_rollingnew.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(top)#-->
+<!--#CMS_MODULE(content)#-->
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_link.html"-->
+<script>
+            $(document).ready(function(){
+                $("#countDownNum").text(59);
+                intervalBar=window.setInterval("task('countDownNum')",1000);
+                $("#reloadButton").click(function(){location.href=location.href;});
+                $("#reloadSwitch").click(function(){
+                    thisClass=$(this).attr('class');
+                    if(thisClass=="on"){
+                        clearInterval(intervalBar);
+                        $(this).attr('class','off');
+                    }else{
+                        intervalBar=window.setInterval("task('countDownNum')",1000);
+                        $(this).attr('class','on');
+                    }
+                });
+            });
+            function task(objID){
+                sNum=$("#"+objID).text()-1;
+                $("#"+objID).text(sNum);
+                if(sNum<=0){
+                    location.href=location.href;
+                    clearInterval(intervalBar);
+                }
+            }
+        </script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</body>
+</html>";i:5;s:2388:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/rolling_new/css/style_rollingnew.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(top)#-->
+<!--#CMS_MODULE(content)#-->
+<script>
+            $(document).ready(function(){
+                $("#countDownNum").text(59);
+                intervalBar=window.setInterval("task('countDownNum')",1000);
+                $("#reloadButton").click(function(){location.href=location.href;});
+                $("#reloadSwitch").click(function(){
+                    thisClass=$(this).attr('class');
+                    if(thisClass=="on"){
+                        clearInterval(intervalBar);
+                        $(this).attr('class','off');
+                    }else{
+                        intervalBar=window.setInterval("task('countDownNum')",1000);
+                        $(this).attr('class','on');
+                    }
+                });
+            });
+            function task(objID){
+                sNum=$("#"+objID).text()-1;
+                $("#"+objID).text(sNum);
+                if(sNum<=0){
+                    location.href=location.href;
+                    clearInterval(intervalBar);
+                }
+            }
+        </script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_link.html"-->
+</body>
+</html>";i:6;s:1337:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/rolling_new/css/style_rollingnew.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(top)#-->
+<!--#CMS_MODULE(content)#-->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_link.html"-->
+</body>
+</html>";i:7;s:1311:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/rolling_new/css/style_rollingnew.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+<!--#CMS_MODULE(content)#-->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_link.html"-->
+</body>
+</html>";i:8;s:1024:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+<!--#CMS_MODULE(top)#-->
+<!--#CMS_MODULE(content)#-->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_link.html"-->
+</body>
+</html>";i:9;s:2386:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/rolling_new/css/style_rollingnew.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+<!--#CMS_MODULE(top)#-->
+<!--#CMS_MODULE(content)#-->
+<script>
+            $(document).ready(function(){
+                $("#countDownNum").text(59);
+                intervalBar=window.setInterval("task('countDownNum')",1000);
+                $("#reloadButton").click(function(){location.href=location.href;});
+                $("#reloadSwitch").click(function(){
+                    thisClass=$(this).attr('class');
+                    if(thisClass=="on"){
+                        clearInterval(intervalBar);
+                        $(this).attr('class','off');
+                    }else{
+                        intervalBar=window.setInterval("task('countDownNum')",1000);
+                        $(this).attr('class','on');
+                    }
+                });
+            });
+            function task(objID){
+                sNum=$("#"+objID).text()-1;
+                $("#"+objID).text(sNum);
+                if(sNum<=0){
+                    location.href=location.href;
+                    clearInterval(intervalBar);
+                }
+            }
+        </script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_link.html"-->
+</body>
+</html>";i:10;s:2053:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+
+<!--#CMS_MODULE(content)#-->
+<script>
+            $(document).ready(function(){
+                $("#countDownNum").text(59);
+                intervalBar=window.setInterval("task('countDownNum')",1000);
+                $("#reloadButton").click(function(){location.href=location.href;});
+                $("#reloadSwitch").click(function(){
+                    thisClass=$(this).attr('class');
+                    if(thisClass=="on"){
+                        clearInterval(intervalBar);
+                        $(this).attr('class','off');
+                    }else{
+                        intervalBar=window.setInterval("task('countDownNum')",1000);
+                        $(this).attr('class','on');
+                    }
+                });
+            });
+            function task(objID){
+                sNum=$("#"+objID).text()-1;
+                $("#"+objID).text(sNum);
+                if(sNum<=0){
+                    location.href=location.href;
+                    clearInterval(intervalBar);
+                }
+            }
+        </script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_link.html"-->
+</body>
+</html>";i:11;s:2386:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/rolling_new/css/style_rollingnew.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+<!--#CMS_MODULE(top)#-->
+<!--#CMS_MODULE(content)#-->
+<script>
+            $(document).ready(function(){
+                $("#countDownNum").text(59);
+                intervalBar=window.setInterval("task('countDownNum')",1000);
+                $("#reloadButton").click(function(){location.href=location.href;});
+                $("#reloadSwitch").click(function(){
+                    thisClass=$(this).attr('class');
+                    if(thisClass=="on"){
+                        clearInterval(intervalBar);
+                        $(this).attr('class','off');
+                    }else{
+                        intervalBar=window.setInterval("task('countDownNum')",1000);
+                        $(this).attr('class','on');
+                    }
+                });
+            });
+            function task(objID){
+                sNum=$("#"+objID).text()-1;
+                $("#"+objID).text(sNum);
+                if(sNum<=0){
+                    location.href=location.href;
+                    clearInterval(intervalBar);
+                }
+            }
+        </script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_link.html"-->
+</body>
+</html>";i:12;s:1966:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+</head>
+<body>
+<!--#CMS_MODULE(top)#-->
+<!--#CMS_MODULE(content)#-->
+<script>
+            $(document).ready(function(){
+                $("#countDownNum").text(59);
+                intervalBar=window.setInterval("task('countDownNum')",1000);
+                $("#reloadButton").click(function(){location.href=location.href;});
+                $("#reloadSwitch").click(function(){
+                    thisClass=$(this).attr('class');
+                    if(thisClass=="on"){
+                        clearInterval(intervalBar);
+                        $(this).attr('class','off');
+                    }else{
+                        intervalBar=window.setInterval("task('countDownNum')",1000);
+                        $(this).attr('class','on');
+                    }
+                });
+            });
+            function task(objID){
+                sNum=$("#"+objID).text()-1;
+                $("#"+objID).text(sNum);
+                if(sNum<=0){
+                    location.href=location.href;
+                    clearInterval(intervalBar);
+                }
+            }
+        </script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_link.html"-->
+</body>
+</html>";i:13;s:2386:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/rolling_new/css/style_rollingnew.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+<!--#CMS_MODULE(top)#-->
+<!--#CMS_MODULE(content)#-->
+<script>
+            $(document).ready(function(){
+                $("#countDownNum").text(59);
+                intervalBar=window.setInterval("task('countDownNum')",1000);
+                $("#reloadButton").click(function(){location.href=location.href;});
+                $("#reloadSwitch").click(function(){
+                    thisClass=$(this).attr('class');
+                    if(thisClass=="on"){
+                        clearInterval(intervalBar);
+                        $(this).attr('class','off');
+                    }else{
+                        intervalBar=window.setInterval("task('countDownNum')",1000);
+                        $(this).attr('class','on');
+                    }
+                });
+            });
+            function task(objID){
+                sNum=$("#"+objID).text()-1;
+                $("#"+objID).text(sNum);
+                if(sNum<=0){
+                    location.href=location.href;
+                    clearInterval(intervalBar);
+                }
+            }
+        </script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_link.html"-->
+</body>
+</html>";i:14;s:2077:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+<!--#CMS_MODULE(top)#-->
+<!--#CMS_MODULE(content)#-->
+<script>
+            $(document).ready(function(){
+                $("#countDownNum").text(59);
+                intervalBar=window.setInterval("task('countDownNum')",1000);
+                $("#reloadButton").click(function(){location.href=location.href;});
+                $("#reloadSwitch").click(function(){
+                    thisClass=$(this).attr('class');
+                    if(thisClass=="on"){
+                        clearInterval(intervalBar);
+                        $(this).attr('class','off');
+                    }else{
+                        intervalBar=window.setInterval("task('countDownNum')",1000);
+                        $(this).attr('class','on');
+                    }
+                });
+            });
+            function task(objID){
+                sNum=$("#"+objID).text()-1;
+                $("#"+objID).text(sNum);
+                if(sNum<=0){
+                    location.href=location.href;
+                    clearInterval(intervalBar);
+                }
+            }
+        </script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_link.html"-->
+</body>
+</html>";i:15;s:2386:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/rolling_new/css/style_rollingnew.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+<!--#CMS_MODULE(top)#-->
+<!--#CMS_MODULE(content)#-->
+<script>
+            $(document).ready(function(){
+                $("#countDownNum").text(59);
+                intervalBar=window.setInterval("task('countDownNum')",1000);
+                $("#reloadButton").click(function(){location.href=location.href;});
+                $("#reloadSwitch").click(function(){
+                    thisClass=$(this).attr('class');
+                    if(thisClass=="on"){
+                        clearInterval(intervalBar);
+                        $(this).attr('class','off');
+                    }else{
+                        intervalBar=window.setInterval("task('countDownNum')",1000);
+                        $(this).attr('class','on');
+                    }
+                });
+            });
+            function task(objID){
+                sNum=$("#"+objID).text()-1;
+                $("#"+objID).text(sNum);
+                if(sNum<=0){
+                    location.href=location.href;
+                    clearInterval(intervalBar);
+                }
+            }
+        </script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_link.html"-->
+</body>
+</html>";i:16;s:2966:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/rolling_new/css/style_rollingnew.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+<!--#CMS_MODULE(top)#-->
+<!--#CMS_MODULE(content)#-->
+<script>
+            $(document).ready(function(){
+                $("#countDownNum").text(59);
+                intervalBar=window.setInterval("task('countDownNum')",1000);
+                $("#reloadButton").click(function(){location.href=location.href;});
+                $("#reloadSwitch").click(function(){
+                    thisClass=$(this).attr('class');
+                    if(thisClass=="on"){
+                        clearInterval(intervalBar);
+                        $(this).attr('class','off');
+                    }else{
+                        intervalBar=window.setInterval("task('countDownNum')",1000);
+                        $(this).attr('class','on');
+                    }
+                });
+            });
+            function task(objID){
+                sNum=$("#"+objID).text()-1;
+                $("#"+objID).text(sNum);
+                if(sNum<=0){
+                    location.href=location.href;
+                    clearInterval(intervalBar);
+                }
+            }
+        </script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=linkForIndex&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_link.html"-->
+</body>
+</html>";i:17;s:2760:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(top)#-->
+<!--#CMS_MODULE(content)#-->
+<script>
+            $(document).ready(function(){
+                $("#countDownNum").text(59);
+                intervalBar=window.setInterval("task('countDownNum')",1000);
+                $("#reloadButton").click(function(){location.href=location.href;});
+                $("#reloadSwitch").click(function(){
+                    thisClass=$(this).attr('class');
+                    if(thisClass=="on"){
+                        clearInterval(intervalBar);
+                        $(this).attr('class','off');
+                    }else{
+                        intervalBar=window.setInterval("task('countDownNum')",1000);
+                        $(this).attr('class','on');
+                    }
+                });
+            });
+            function task(objID){
+                sNum=$("#"+objID).text()-1;
+                $("#"+objID).text(sNum);
+                if(sNum<=0){
+                    location.href=location.href;
+                    clearInterval(intervalBar);
+                }
+            }
+        </script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=linkForIndex&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_link.html"-->
+</body>
+</html>";i:18;s:2559:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(top)#-->
+<!--#CMS_MODULE(content)#-->
+<script>
+            $(document).ready(function(){
+                $("#countDownNum").text(59);
+                intervalBar=window.setInterval("task('countDownNum')",1000);
+                $("#reloadButton").click(function(){location.href=location.href;});
+                $("#reloadSwitch").click(function(){
+                    thisClass=$(this).attr('class');
+                    if(thisClass=="on"){
+                        clearInterval(intervalBar);
+                        $(this).attr('class','off');
+                    }else{
+                        intervalBar=window.setInterval("task('countDownNum')",1000);
+                        $(this).attr('class','on');
+                    }
+                });
+            });
+            function task(objID){
+                sNum=$("#"+objID).text()-1;
+                $("#"+objID).text(sNum);
+                if(sNum<=0){
+                    location.href=location.href;
+                    clearInterval(intervalBar);
+                }
+            }
+        </script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=linkForIndex&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_link.html"-->
+</body>
+</html>";i:19;s:2968:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$cms_page_title}</title>
+<meta name="description" content="{$cms_page_description}" />
+<meta name="keywords" content="{$cms_page_keywords}" />
+<meta http-equiv="pragma" content="no-cache" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/css/indexStyle.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/v1_static/common/css/common.css" />
+<link type="text/css" rel="stylesheet" href="http://pic.v1.cn/cms/rolling_new/css/style_rollingnew.css" />
+<script type="text/javascript" src="http://pic.v1.cn/cms/v1_static/common/js/jquery-1.7.2.min.js">
+</script>
+</head>
+<body>
+<!--#CMS_MODULE(top)#-->
+<!--#CMS_MODULE(content)#-->
+<script>
+            $(document).ready(function(){
+                $("#countDownNum").text(59);
+                intervalBar=window.setInterval("task('countDownNum')",1000);
+                $("#reloadButton").click(function(){location.href=location.href;});
+                $("#reloadSwitch").click(function(){
+                    thisClass=$(this).attr('class');
+                    if(thisClass=="on"){
+                        clearInterval(intervalBar);
+                        $(this).attr('class','off');
+                    }else{
+                        intervalBar=window.setInterval("task('countDownNum')",1000);
+                        $(this).attr('class','on');
+                    }
+                });
+            });
+            function task(objID){
+                sNum=$("#"+objID).text()-1;
+                $("#"+objID).text(sNum);
+                if(sNum<=0){
+                    location.href=location.href;
+                    clearInterval(intervalBar);
+                }
+            }
+        </script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcb44eb450c53c91a1cc1d2511f5919b3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript"><!--//<![CDATA[
+if(cookie.get('CookieV1Log')==""){
+        v1log=new Date();
+        cValue = Math.ceil(((v1log.getTime()*9321+49297) % 233280 /(233280.0)) * 9999999999999999);
+        v1log.setTime(v1log.getTime() + 86400000);
+        cookie.set('CookieV1Log',cValue,v1log,'','','');
+}
+path = "http://v1log.v1.cn/log.js?page=linkForIndex&yu="+cookie.get('CookieV1Log')+"&tmp="+Math.round(Math.random()*100000)+"&referer="+document.referrer;
+document.write("<script type=text/javascript src ="+path+" ><\/script> ");
+//]]>--></script>
+
+<!--#CMS_MODULE(bottom)#-->
+<!--ssi#include virtual="/ssi/footer_link.html"-->
+</body>
+</html>";}
